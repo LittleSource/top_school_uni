@@ -15,6 +15,7 @@
 	position: fixed;
 	top: 0;
 	font-size: 25px !important;
+	z-index: 999;
 }
 .header>.status-bar {
 	height: var(--status-bar-height);
@@ -39,7 +40,7 @@
 }
 .header>.info>.serach {
 	height: 30px;
-	width: 610rpx;
+	width: 590rpx;
 	border-radius: 15px;
 	overflow: hidden;
 	background-color: #FFFFFF !important;
@@ -61,7 +62,6 @@
 .index {
 	background: #fc4243;
 	height: 150rpx;
-	padding: 15rpx;
 	margin-top: calc(var(--status-bar-height) + 44px);
 	/* border-bottom-left-radius: 50px;
 	border-bottom-right-radius: 50px; */
@@ -70,12 +70,9 @@
 	overflow: hidden;
 	border-radius: 10px;
 }
-.grace-wrap {
-	margin-top: 20rpx;
-}
 .grace-boxes-img {
-	width: 38px;
-	height: 38px;
+	width: 48px;
+	height: 48px;
 }
 .grace-boxes-text {
 	color: #7F7F7F;

@@ -1,19 +1,26 @@
 <template>
-	<view style="background-color: #F5F5F5;">
+	<view>
 		<view class="index-body">
 		</view>
-		<view class="card-box">
+		<view class="card-box grace-padding">
 			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index">
-				<view class="grace-news-list-img-news" style="padding: 25upx;width: 95%">
-					<view class="grace-news-list-title-main">{{item.content}}</view>
-					<view class="grace-news-list-imgs">
-						<image v-for="(imgUrl, imgIndex) in item.imagesList" :key="index" :src="imgUrl" mode="widthFix"></image>
+				<view class="confession-card-head">
+					<image class="confession-card-avatar" src="../../../static/school/tjdzxxjsxy.png"></image>
+					<view style="float: left;margin-left: 5px;margin-top: 5px;">
+						<view style="font-size: 15px;">我爱的人</view>
+						<view style="font-size: 11px;color: grey;">{{item.releaseTime}}</view>
 					</view>
 				</view>
-				<view class="grace-news-list-info">
+				<view class="grace-news-list-img-news">
+					<view class="grace-news-list-title-main" style="padding: 1%;width: 96%">{{item.content}}</view>
+					<view class="grace-wrap">
+						<image v-for="(imgUrl, imgIndex) in item.imagesList" :key="index" mode="scaleToFill" :src="imgUrl" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
+					</view>
+				</view>
+				<view class="grace-news-list-info" style="width: 96%;padding-left: 2%;">
 					<view>
-						<text class="grace-iconfont icon-time2"></text>{{item.releaseTime}}
-						<text class="grace-iconfont icon-eye" style="margin-left:20px;"></text>{{item.readingVolume}}次浏览
+						<text class="iconfont icon-heart2"></text>{{item.thumbsUp}}
+						<text class="iconfont icon-fire" style="margin-left:18upx;"></text>{{item.readingVolume}}
 					</view>
 				</view>
 			</navigator>
@@ -43,7 +50,7 @@
 				loading: {
 					show: true,
 					nextPages: 2,
-					totalPages:2,
+					totalPages: 2,
 					type: 0,
 					text: ['加载更多', 'loading ......', '已加载全部']
 				}
@@ -97,15 +104,15 @@
 		//监听触底加载事件
 		onReachBottom: function() {
 			//判断当前是否正在加载
-            if (this.loading.type === 1){
-                return;
-            }
-            //判断是否是最后一页
-            if (this.loading.nextPages > this.loading.totalPages){
-                this.loading.type = 2;//全部
-                return;
-            }
-            this.loading.type = 1;//加载中
+			if (this.loading.type === 1) {
+				return;
+			}
+			//判断是否是最后一页
+			if (this.loading.nextPages > this.loading.totalPages) {
+				this.loading.type = 2; //全部
+				return;
+			}
+			this.loading.type = 1; //加载中
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'confession/index/' + this.loading.nextPages,
 				method: 'GET',
@@ -137,16 +144,28 @@
 	}
 
 	.card-box {
-		padding: 15upx;
 		top: -20px;
 	}
 
 	.confession-card {
-		padding: 10upx;
+		padding: 1%;
 		margin: 18upx auto;
 		background: #FFFFFF;
-		border-radius: 2px;
+		border-radius: 8upx;
 		webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
 		box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
+	}
+
+	.confession-card-head {
+		height: 38px;
+		width: 100%;
+	}
+
+	.confession-card-avatar {
+		height: 30px;
+		width: 30px;
+		margin-top: 4px;
+		margin-left: 5px;
+		float: left;
 	}
 </style>

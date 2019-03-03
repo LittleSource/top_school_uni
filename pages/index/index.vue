@@ -3,7 +3,7 @@
 		<view class="header">
 			<view class="status-bar"></view><!-- 状态栏占位 -->
 			<view class="info">
-				<view class="grace-iconfont icon-safe title"></view>
+				<image class="title" src='../../static/school/tjdzxxjsxy.png' style="height: 58upx;width: 58upx;"></image>
 				<view class="title serach" @click="goSearch()">
 					<view class="grace-iconfont icon-search serach-icon"></view>
 					<view class="serach-text">搜索内容</view>
@@ -11,7 +11,7 @@
 				<view class="iconfont icon-jiahao title"></view>
 			</view>
 		</view>
-		<view class="index">
+		<view class="index grace-padding">
 			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)"
 			 indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
 				<swiper-item v-for="(img, index) in swiperimgs" :key="index">
@@ -23,26 +23,81 @@
 			<view class="grace-wrap">
 				<view class="grace-boxes" @click="goConfession()">
 					<view class="grace-boxes-img">
-						<image src="../../static/index/love.png" mode="widthFix"  style="width: 48px;"></image>
-						<view class="grace-boxes-text" style="margin-left: 5px;">表白墙</view>
+						<image src="../../static/index/love.png" mode="widthFix"></image>
+						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
-						<image src="../../static/icon/my.png" mode="widthFix"></image>
+						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
 					</view>
 				</view>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
-						<image src="../../static/icon/my.png" mode="widthFix"></image>
+						<image src="../../static/index/shop.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">逛超市</view>
 					</view>
 				</view>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
-						<image src="../../static/icon/my.png" mode="widthFix"></image>
+						<image src="../../static/index/secondhand.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">淘二手</view>
+					</view>
+				</view>
+			</view>
+			<view class="grace-common-mt grace-common-border">
+				<view class="grace-center" style="margin:15upx auto;font-size: 28upx;">热门</view>
+				<view class="grace-imgitems">
+					<view class="grace-items">
+						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					</view>
+					<view class="grace-items">
+						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
+						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
 					</view>
 				</view>
 			</view>
@@ -101,6 +156,7 @@
 		position: fixed;
 		top: 0;
 		font-size: 25px !important;
+		z-index: 999;
 	}
 
 	.header>.status-bar {
@@ -123,7 +179,7 @@
 
 	.header>.info>.serach {
 		height: 30px;
-		width: 610upx;
+		width: 590upx;
 		border-radius: 15px;
 		overflow: hidden;
 		background-color: #FFFFFF !important;
@@ -136,6 +192,7 @@
 		margin-left: 6px;
 		font-size: 14px !important;
 	}
+
 	.header>.info>.serach>.serach-text {
 		float: left;
 		color: grey;
@@ -147,7 +204,6 @@
 	.index {
 		background: #fc4243;
 		height: 150upx;
-		padding: 15upx;
 		margin-top: calc(var(--status-bar-height) + 44px);
 		/* border-bottom-left-radius: 50px;
 		border-bottom-right-radius: 50px; */
@@ -158,13 +214,10 @@
 		border-radius: 10px;
 	}
 
-	.grace-wrap {
-		margin-top: 20upx;
-	}
 
 	.grace-boxes-img {
-		width: 38px;
-		height: 38px;
+		width: 48px;
+		height: 48px;
 	}
 
 	.grace-boxes-text {

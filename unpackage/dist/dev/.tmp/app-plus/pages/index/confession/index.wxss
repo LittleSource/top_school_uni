@@ -46,16 +46,26 @@ to {top:0;}}
 	z-index: -1;
 }
 .card-box {
-	padding: 15rpx;
 	top: -20px;
 }
 .confession-card {
-	padding: 10rpx;
+	padding: 1%;
 	margin: 18rpx auto;
 	background: #FFFFFF;
-	border-radius: 2px;
+	border-radius: 8rpx;
 	webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
 	-webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
 	        box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
+}
+.confession-card-head {
+	height: 38px;
+	width: 100%;
+}
+.confession-card-avatar {
+	height: 30px;
+	width: 30px;
+	margin-top: 4px;
+	margin-left: 5px;
+	float: left;
 }
 
