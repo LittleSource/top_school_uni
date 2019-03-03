@@ -1,0 +1,16 @@
+
+.index {
+	background: #fc4243;
+	height: 70px;
+	padding: 8px 15rpx;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+.grace-boxes-img {
+	width: 38px;
+	height: 38px;
+}
+.grace-boxes-text {
+	color: #FFFFFF;
+}
+

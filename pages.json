@@ -1,0 +1,123 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom",
+				"navigationBarBackgroundColor": "#fc4243",
+				"app-plus": {
+					"titleNView": false
+					// 					{
+					// 						"backgroundColor": "#fc4243",
+					// 						"buttons": [ //原生标题栏按钮配置,
+					// 							{
+					// 								"name": "schoolBtn",
+					// 								"type": "home",
+					// 								"float": "left"
+					// 							}
+					// 						],
+					// 						"searchInput": {
+					// 							"disabled":false,
+					// 							"align": "left",
+					// 							"backgroundColor": "#FFFFFF",
+					// 							"borderRadius": "10px",
+					// 							"placeholder": "搜索内容"
+					// 						}
+					// 					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/confession/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "表白墙",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fc4243"
+					}
+					// 					"titleNView": {
+					// 						"buttons": [ //原生标题栏按钮配置,
+					// 							{
+					// 								"type": "menu",
+					// 								"float": "left"
+					// 							}
+					// 						]
+					// 					}
+				}
+			}
+		}, {
+			"path": "pages/common/search",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/hot/hot",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "热点"
+			}
+		},
+		{
+			"path": "pages/message/message",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "消息"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false //禁用原生导航栏
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#5F646E",
+		"selectedColor": "#ff6364",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/home.png",
+				"selectedIconPath": "static/icon/home_selsect.png"
+			}, {
+				"pagePath": "pages/hot/hot",
+				"text": "发现",
+				"iconPath": "static/icon/hot.png",
+				"selectedIconPath": "static/icon/hot_selsect.png"
+			}, {
+				"pagePath": "pages/message/message",
+				"text": "消息",
+				"iconPath": "static/icon/message.png",
+				"selectedIconPath": "static/icon/message_select.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon/my.png",
+				"selectedIconPath": "static/icon/my_select.png"
+			}
+		]
+	}
+}
