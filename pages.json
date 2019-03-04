@@ -50,6 +50,22 @@
 					// 					}
 				}
 			}
+		},
+		{
+			//表白墙详情页面
+			"path": "pages/index/confession/detail",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "详情",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fc4243"
+					}
+				}
+			}
 		}, {
 			"path": "pages/common/search",
 			"style": {

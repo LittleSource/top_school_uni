@@ -3,7 +3,7 @@
 		<view class="index-body">
 		</view>
 		<view class="card-box grace-padding">
-			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index">
+			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" url="./detail">
 				<view class="confession-card-head">
 					<image class="confession-card-avatar" src="../../../static/school/tjdzxxjsxy.png"></image>
 					<view style="float: left;margin-left: 5px;margin-top: 5px;">

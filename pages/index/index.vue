@@ -8,10 +8,10 @@
 					<view class="grace-iconfont icon-search serach-icon"></view>
 					<view class="serach-text">搜索内容</view>
 				</view>
-				<view class="iconfont icon-jiahao title"></view>
+				<view class="iconfont icon-jiahao title" id="btn" @click="showPopupMenu()"></view>
 			</view>
 		</view>
-		<view class="index grace-padding">
+		<view class="index grace-padding" style="position:relative;">
 			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)"
 			 indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
 				<swiper-item v-for="(img, index) in swiperimgs" :key="index">
@@ -27,7 +27,7 @@
 						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
-				<view class="grace-boxes">
+				<view class="grace-boxes" @click="goJob()">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
@@ -47,7 +47,10 @@
 				</view>
 			</view>
 			<view class="grace-common-mt grace-common-border">
-				<view class="grace-center" style="margin:15upx auto;font-size: 28upx;">热门</view>
+				<view class="grace-title grace-nowrap grace-space-between">
+					<view class="grace-h5 grace-blod">标题</view>
+					<navigator class="grace-more-r">更多<text class="grace-iconfont icon-arrow-right"></text></navigator>
+				</view>
 				<view class="grace-imgitems">
 					<view class="grace-items">
 						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
@@ -108,7 +111,10 @@
 	export default {
 		data() {
 			return {
-				statusBarHeight: '',
+				popupMenu: {
+					show: false,
+					top: 30
+				},
 				swiperimgs: [{
 						"imgUrl": "https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg",
 						"path": "../alert/alert",
@@ -131,6 +137,17 @@
 
 		},
 		methods: {
+			showPopupMenu() {
+				uni.showActionSheet({
+					itemList: ['A', 'B', 'C'],
+					success: function(res) {
+						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
+					},
+					fail: function(res) {
+						console.log(res.errMsg);
+					}
+				});
+			},
 			goConfession() {
 				uni.navigateTo({
 					url: './confession/index'
@@ -139,6 +156,11 @@
 			goSearch() {
 				uni.navigateTo({
 					url: '../common/search'
+				});
+			},
+			goJob() {
+				uni.navigateTo({
+					url: './confession/detail'
 				});
 			}
 		}
