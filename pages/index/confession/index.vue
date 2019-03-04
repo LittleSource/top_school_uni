@@ -1,13 +1,12 @@
 <template>
-	<view>
-		<view class="index-body">
-		</view>
+	<view class="ymkj-gradient-bg">
+		<view class="index-body"></view>
 		<view class="card-box grace-padding">
-			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" url="./detail">
+			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.articleId">
 				<view class="confession-card-head">
-					<image class="confession-card-avatar" src="../../../static/school/tjdzxxjsxy.png"></image>
+					<image class="confession-card-avatar" :src="item.avatar"></image>
 					<view style="float: left;margin-left: 5px;margin-top: 5px;">
-						<view style="font-size: 15px;">我爱的人</view>
+						<view style="font-size: 15px;">{{item.userName}}</view>
 						<view style="font-size: 11px;color: grey;">{{item.releaseTime}}</view>
 					</view>
 				</view>
@@ -73,8 +72,8 @@
 			}
 		},
 		onLoad: function() {
-			this.confessionList = uni.getStorageSync('confessionList');
-			uni.startPullDownRefresh();
+			this.confessionList = uni.getStorageSync('confessionList');//获取本地缓存的数据
+			uni.startPullDownRefresh();//自动开始刷新
 		},
 		onReady: function() {
 
@@ -86,8 +85,9 @@
 				method: 'GET',
 				success: res => {
 					this.confessionList = res.data.cardsList;
-					this.loading.totalPages = res.data.totalPages;
+					this.loading.totalPages = res.data.totalPages;//设置总页数
 					this.showMsg('right', '表白墙动态已更新');
+					//将请求的数据缓存到本地
 					uni.setStorage({
 						key: 'confessionList',
 						data: this.confessionList
@@ -97,7 +97,7 @@
 					this.showMsg('error', '服务器异常，请稍后再试！');
 				},
 				complete: () => {
-					uni.stopPullDownRefresh();
+					uni.stopPullDownRefresh();//关闭刷新动画
 				}
 			});
 		},
@@ -109,10 +109,10 @@
 			}
 			//判断是否是最后一页
 			if (this.loading.nextPages > this.loading.totalPages) {
-				this.loading.type = 2; //全部
+				this.loading.type = 2; //显示已加载全部
 				return;
 			}
-			this.loading.type = 1; //加载中
+			this.loading.type = 1; //显示加载中
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'confession/index/' + this.loading.nextPages,
 				method: 'GET',
@@ -132,17 +132,16 @@
 </script>
 
 <style>
-	.index-body {
+ 	.index-body {
 		top: 0;
 		position: fixed;
 		width: 100%;
-		background: #fc4243;
-		height: 100px;
-		border-bottom-left-radius: 30px;
-		border-bottom-right-radius: 30px;
+		background: linear-gradient(135deg,#fc4243,orange,pink);
+		height: 100%;
+/* 		border-bottom-left-radius: 30px;
+		border-bottom-right-radius: 30px; */
 		z-index: -1;
 	}
-
 	.card-box {
 		top: -20px;
 	}
@@ -162,6 +161,7 @@
 	}
 
 	.confession-card-avatar {
+		border-radius: 15px;
 		height: 30px;
 		width: 30px;
 		margin-top: 4px;

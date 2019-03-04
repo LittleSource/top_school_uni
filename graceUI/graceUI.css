@@ -12,8 +12,6 @@ verson : 1.1.1
   font-family: "iconfont" !important;
   font-size: 36upx;
   font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-heart:before {
@@ -442,7 +440,7 @@ margin:0; color:#000;}
 .grace-article-contents{margin:10px 0;}
 .grace-article-contents .img-item{width:100%;}
 .grace-article-contents .img-item image{width:100%;}
-.grace-article-contents .text-item{margin:8px 12px; line-height:2.2em; font-size:16px; color:#2F2F2F;} 
+.grace-article-contents .text-item{margin:8px 12px; line-height:1.6em; font-size:16px; color:#2F2F2F;} 
 
 /* 多功能菜单 - 纵向 */
 .grace-popover-menu{width:78px; height:auto; right:0px; bottom:88px; position:fixed; z-index:9999;}

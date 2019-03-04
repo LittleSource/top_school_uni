@@ -27,8 +27,6 @@ verson : 1.1.1
   font-family: "iconfont" !important;
   font-size: 36rpx;
   font-style: normal;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 .icon-heart:before {
   content: "\E64B";
@@ -443,7 +441,7 @@ margin:0; color:#000;}
 .grace-article-contents{margin:10px 0;}
 .grace-article-contents .img-item{width:100%;}
 .grace-article-contents .img-item image{width:100%;}
-.grace-article-contents .text-item{margin:8px 12px; line-height:2.2em; font-size:16px; color:#2F2F2F;}
+.grace-article-contents .text-item{margin:8px 12px; line-height:1.6em; font-size:16px; color:#2F2F2F;}
 /* 多功能菜单 - 纵向 */
 .grace-popover-menu{width:78px; height:auto; right:0px; bottom:88px; position:fixed; z-index:9999;}
 .grace-popover-menu .item{width:58px; height:58px; line-height:58px; text-align:center; font-size:30px; color:#FFFFFF; border-radius:50%; margin:15px 10px; overflow:hidden; -webkit-box-shadow:1px -1px 2px #C1C1C1; box-shadow:1px -1px 2px #C1C1C1;}
@@ -467,5 +465,10 @@ to {-webkit-transform:rotateY(360deg);transform:rotateY(360deg);}}
 .grace-swiper .title{width:100%; height:68rpx; line-height:68rpx; overflow:hidden; text-align:center; position:absolute; z-index:99; left:0; bottom:0; background:rgba(0, 0, 0, 0.2); color:#FFF;}
 .grace-swiper swiper-item navigator{width:100%;}
 .grace-swiper swiper-item navigator image{width:100%;}
-
+.ymkj-gradient-bg{
+	width:100%;
+	  background: -o-linear-gradient(45deg,#ccff33 0,#ffcc33 33%,#ff9933 66%,#fc4243 100%);
+	  background: linear-gradient(45deg,#ccff33 0,#ffcc33 33%,#ff9933 66%,#fc4243 100%);
+	  background-size: 400%; background-position:0 100%; -webkit-animation: gradient 7.5s ease-in-out infinite; animation: gradient 7.5s ease-in-out infinite;
+}
 
