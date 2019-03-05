@@ -60,11 +60,10 @@
 	font-size: 14px !important;
 }
 .index {
-	background: #fc4243;
-	height: 150rpx;
+	background: -webkit-gradient(linear,left top, left bottom,from(#fc4243),color-stop(9%, #fc4243),color-stop(9%, #fff),to(#fff));
+	background: -o-linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
+	background: linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
 	margin-top: calc(var(--status-bar-height) + 44px);
-	/* border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px; */
 }
 .grace-swiper {
 	overflow: hidden;

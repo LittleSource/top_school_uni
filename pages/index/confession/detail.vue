@@ -100,22 +100,24 @@
 			</view>
 			<view class="grace-items" style="padding:0 20upx;">发布</view>
 		</view>
-	</view>
+		<graceFullLoading :graceFullLoading="graceFullLoading" logoUrl="../../../static/index/love.png"></graceFullLoading>
 	</view>
 </template>
 <script>
 	var _self;
+	import graceFullLoading from "../../../graceUI/components/graceFullLoading.vue";
 	export default {
+		 components:{
+        graceFullLoading
+    },
 		data() {
 			return {
+				graceFullLoading : false,
 				article: {}
 			}
 		},
 		onLoad(parameter) {
-			uni.showLoading({
-				title: '加载中...',
-				mask: true
-			});
+			this.graceFullLoading = true;
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'confession/article/' + parameter.id,
 				method: 'GET',
@@ -126,7 +128,7 @@
 					
 				},
 				complete: () => {
-					uni.hideLoading();
+					this.graceFullLoading = false;
 				}
 			});
 		},

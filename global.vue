@@ -4,7 +4,7 @@
 
 <script>
 	//全局配置文件
-	const serverSrc = 'http://123.151.2.99/';
+	const serverSrc = 'http://192.168.43.7/';
 	const token = '';
 	const hasEnter = false;
 	const userId = 1;

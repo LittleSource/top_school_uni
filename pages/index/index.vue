@@ -12,8 +12,7 @@
 			</view>
 		</view>
 		<view class="index grace-padding" style="position:relative;">
-			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)"
-			 indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
+			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)" indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
 				<swiper-item v-for="(img, index) in swiperimgs" :key="index">
 					<navigator :url='img.path' :open-type="img.openType">
 						<image :src='img.imgUrl' mode='widthFix'></image>
@@ -142,9 +141,6 @@
 					itemList: ['A', 'B', 'C'],
 					success: function(res) {
 						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
-					},
-					fail: function(res) {
-						console.log(res.errMsg);
 					}
 				});
 			},
@@ -224,11 +220,8 @@
 	}
 
 	.index {
-		background: #fc4243;
-		height: 150upx;
+		background: linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
 		margin-top: calc(var(--status-bar-height) + 44px);
-		/* border-bottom-left-radius: 50px;
-		border-bottom-right-radius: 50px; */
 	}
 
 	.grace-swiper {

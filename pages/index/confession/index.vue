@@ -3,10 +3,10 @@
 		<view class="index-body"></view>
 		<view class="card-box grace-padding">
 			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.articleId">
-				<view class="confession-card-head">
+				<view class="confession-card-head grace-nowrap">
 					<image class="confession-card-avatar" :src="item.avatar"></image>
 					<view style="float: left;margin-left: 5px;margin-top: 5px;">
-						<view style="font-size: 15px;">{{item.userName}}</view>
+						<view style="font-size: 14px;">{{item.userName}}</view>
 						<view style="font-size: 11px;color: grey;">{{item.releaseTime}}</view>
 					</view>
 				</view>
