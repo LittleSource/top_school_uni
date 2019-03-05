@@ -1107,12 +1107,7 @@ function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'04015d09'])
-Z([3,'handleProxy'])
-Z([3,'_view 04015d09 search-keyword'])
-Z([[7],[3,'$k']])
-Z([1,'04015d09-9'])
-Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
+Z([3,'691dc3db'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 function gz$gwx_8(){
@@ -1120,14 +1115,19 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'04015d09'])
+Z([3,'691dc3db'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'98a44ff0'])
+Z([3,'04015d09'])
+Z([3,'handleProxy'])
+Z([3,'_view 04015d09 search-keyword'])
+Z([[7],[3,'$k']])
+Z([1,'04015d09-9'])
+Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
@@ -1135,17 +1135,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'98a44ff0'])
+Z([3,'04015d09'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'22ce7d59'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'22ce7d59-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'dd17cd9a'])
-Z([3,'../../../static/index/love.png'])
+Z([3,'98a44ff0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
 }
 function gz$gwx_12(){
@@ -1153,19 +1150,17 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
 __WXML_GLOBAL__.ops_cached.$gwx_12=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'22ce7d59'])
+Z([3,'98a44ff0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
 }
 function gz$gwx_13(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
 __WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'227202ca'])
-Z([3,'_view 227202ca ymkj-gradient-bg'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e380f47c'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'93f8d13c'])
+Z([3,'22ce7d59'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'22ce7d59-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'dd17cd9a'])
+Z([3,'../../../static/index/love.png'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
 function gz$gwx_14(){
@@ -1173,14 +1168,19 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
 __WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'227202ca'])
+Z([3,'22ce7d59'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
 function gz$gwx_15(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
 __WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'200c6b52'])
+Z([3,'227202ca'])
+Z([3,'_view 227202ca ymkj-gradient-bg'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e380f47c'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'93f8d13c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
 function gz$gwx_16(){
@@ -1188,14 +1188,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
 __WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'200c6b52'])
+Z([3,'227202ca'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
 __WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'0878b97c'])
+Z([3,'200c6b52'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
@@ -1203,14 +1203,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
 __WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0878b97c'])
+Z([3,'200c6b52'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
 function gz$gwx_19(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
 __WXML_GLOBAL__.ops_cached.$gwx_19=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6819fcac'])
+Z([3,'0878b97c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
 function gz$gwx_20(){
@@ -1218,14 +1218,29 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
 __WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6819fcac'])
+Z([3,'0878b97c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
+}
+function gz$gwx_21(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
+__WXML_GLOBAL__.ops_cached.$gwx_21=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'6819fcac'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+}
+function gz$gwx_22(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
+__WXML_GLOBAL__.ops_cached.$gwx_22=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'6819fcac'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -1377,12 +1392,56 @@ return r
 }
 e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
-d_[x[6]]["04015d09"]=function(e,s,r,gg){
+d_[x[6]]["691dc3db"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[6]+':04015d09'
+var b=x[6]+':691dc3db'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/common/checkSchool.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[6]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
+return r
+}
+e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[7]]={}
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
+var cI=e_[x[7]].i
+_ai(cI,x[8],e_,x[7],1,1)
+var oJ=_v()
+_(r,oJ)
+cs.push("./pages/common/checkSchool.wxml:template:2:6")
+var lK=_oz(z,1,e,s,gg)
+var aL=_gd(x[7],lK,e_,d_)
+if(aL){
+var tM=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oJ.wxXCkey=3
+aL(tM,tM,oJ,gg)
+gg.f=cur_globalf
+}
+else _w(lK,x[7],2,18)
+cs.pop()
+cI.pop()
+return r
+}
+e_[x[7]]={f:m7,j:[],i:[],ti:[x[8]],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["04015d09"]=function(e,s,r,gg){
+var z=gz$gwx_9()
+var b=x[9]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -1403,50 +1462,6 @@ throw err
 p_[b]=false
 return r
 }
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-return r
-}
-e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
-var cI=e_[x[7]].i
-_ai(cI,x[8],e_,x[7],1,1)
-var oJ=_v()
-_(r,oJ)
-cs.push("./pages/common/search.wxml:template:2:6")
-var lK=_oz(z,1,e,s,gg)
-var aL=_gd(x[7],lK,e_,d_)
-if(aL){
-var tM=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oJ.wxXCkey=3
-aL(tM,tM,oJ,gg)
-gg.f=cur_globalf
-}
-else _w(lK,x[7],2,18)
-cs.pop()
-cI.pop()
-return r
-}
-e_[x[7]]={f:m7,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["98a44ff0"]=function(e,s,r,gg){
-var z=gz$gwx_9()
-var b=x[9]+':98a44ff0'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
 return r
@@ -1459,7 +1474,7 @@ var oP=e_[x[10]].i
 _ai(oP,x[11],e_,x[10],1,1)
 var xQ=_v()
 _(r,xQ)
-cs.push("./pages/hot/hot.wxml:template:2:6")
+cs.push("./pages/common/search.wxml:template:2:6")
 var oR=_oz(z,1,e,s,gg)
 var fS=_gd(x[10],oR,e_,d_)
 if(fS){
@@ -1476,28 +1491,14 @@ return r
 }
 e_[x[10]]={f:m9,j:[],i:[],ti:[x[11]],ic:[]}
 d_[x[12]]={}
-d_[x[12]]["22ce7d59"]=function(e,s,r,gg){
+d_[x[12]]["98a44ff0"]=function(e,s,r,gg){
 var z=gz$gwx_11()
-var b=x[12]+':22ce7d59'
+var b=x[12]+':98a44ff0'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
-var oB=_v()
-_(r,oB)
-cs.push("./pages/index/confession/detail.vue.wxml:template:1:4919")
-var xC=_oz(z,2,e,s,gg)
-var oD=_gd(x[12],xC,e_,d_)
-if(oD){
-var fE=_1z(z,1,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[12],1,5031)
-cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -1507,42 +1508,100 @@ return r
 }
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var oV=e_[x[12]].i
-_ai(oV,x[13],e_,x[12],1,1)
-oV.pop()
 return r
 }
-e_[x[12]]={f:m10,j:[],i:[],ti:[x[13]],ic:[]}
-d_[x[14]]={}
+e_[x[12]]={f:m10,j:[],i:[],ti:[],ic:[]}
+d_[x[13]]={}
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
-var oX=e_[x[14]].i
-_ai(oX,x[15],e_,x[14],1,1)
-var lY=_v()
-_(r,lY)
-cs.push("./pages/index/confession/detail.wxml:template:2:6")
-var aZ=_oz(z,1,e,s,gg)
-var t1=_gd(x[14],aZ,e_,d_)
-if(t1){
-var e2=_1z(z,0,e,s,gg) || {}
+var cW=e_[x[13]].i
+_ai(cW,x[14],e_,x[13],1,1)
+var oX=_v()
+_(r,oX)
+cs.push("./pages/hot/hot.wxml:template:2:6")
+var lY=_oz(z,1,e,s,gg)
+var aZ=_gd(x[13],lY,e_,d_)
+if(aZ){
+var t1=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lY.wxXCkey=3
-t1(e2,e2,lY,gg)
+oX.wxXCkey=3
+aZ(t1,t1,oX,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[14],2,18)
+else _w(lY,x[13],2,18)
 cs.pop()
-oX.pop()
+cW.pop()
 return r
 }
-e_[x[14]]={f:m11,j:[],i:[],ti:[x[15]],ic:[]}
-d_[x[16]]={}
-d_[x[16]]["227202ca"]=function(e,s,r,gg){
+e_[x[13]]={f:m11,j:[],i:[],ti:[x[14]],ic:[]}
+d_[x[15]]={}
+d_[x[15]]["22ce7d59"]=function(e,s,r,gg){
 var z=gz$gwx_13()
-var b=x[16]+':227202ca'
+var b=x[15]+':22ce7d59'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[15]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/index/confession/detail.vue.wxml:template:1:4919")
+var xC=_oz(z,2,e,s,gg)
+var oD=_gd(x[15],xC,e_,d_)
+if(oD){
+var fE=_1z(z,1,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[15],1,5031)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m12=function(e,s,r,gg){
+var z=gz$gwx_13()
+var b3=e_[x[15]].i
+_ai(b3,x[16],e_,x[15],1,1)
+b3.pop()
+return r
+}
+e_[x[15]]={f:m12,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[17]]={}
+var m13=function(e,s,r,gg){
+var z=gz$gwx_14()
+var x5=e_[x[17]].i
+_ai(x5,x[18],e_,x[17],1,1)
+var o6=_v()
+_(r,o6)
+cs.push("./pages/index/confession/detail.wxml:template:2:6")
+var f7=_oz(z,1,e,s,gg)
+var c8=_gd(x[17],f7,e_,d_)
+if(c8){
+var h9=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+o6.wxXCkey=3
+c8(h9,h9,o6,gg)
+gg.f=cur_globalf
+}
+else _w(f7,x[17],2,18)
+cs.pop()
+x5.pop()
+return r
+}
+e_[x[17]]={f:m13,j:[],i:[],ti:[x[18]],ic:[]}
+d_[x[19]]={}
+d_[x[19]]["227202ca"]=function(e,s,r,gg){
+var z=gz$gwx_15()
+var b=x[19]+':227202ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[16]);return}
+if(p_[b]){_wl(b,x[19]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
@@ -1550,9 +1609,9 @@ var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1669")
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1603")
 var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[16],oD,e_,d_)
+var fE=_gd(x[19],oD,e_,d_)
 if(fE){
 var cF=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1560,13 +1619,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[16],1,1740)
+else _w(oD,x[19],1,1674)
 cs.pop()
 var hG=_v()
 _(oB,hG)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1763")
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1697")
 var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[16],oH,e_,d_)
+var cI=_gd(x[19],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1574,7 +1633,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[16],1,1834)
+else _w(oH,x[19],1,1768)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1585,68 +1644,24 @@ throw err
 p_[b]=false
 return r
 }
-var m12=function(e,s,r,gg){
-var z=gz$gwx_13()
-var o4=e_[x[16]].i
-_ai(o4,x[17],e_,x[16],1,1)
-_ai(o4,x[18],e_,x[16],1,59)
-o4.pop()
-o4.pop()
-return r
-}
-e_[x[16]]={f:m12,j:[],i:[],ti:[x[17],x[18]],ic:[]}
-d_[x[19]]={}
-var m13=function(e,s,r,gg){
-var z=gz$gwx_14()
-var o6=e_[x[19]].i
-_ai(o6,x[20],e_,x[19],1,1)
-var f7=_v()
-_(r,f7)
-cs.push("./pages/index/confession/index.wxml:template:2:6")
-var c8=_oz(z,1,e,s,gg)
-var h9=_gd(x[19],c8,e_,d_)
-if(h9){
-var o0=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-f7.wxXCkey=3
-h9(o0,o0,f7,gg)
-gg.f=cur_globalf
-}
-else _w(c8,x[19],2,18)
-cs.pop()
-o6.pop()
-return r
-}
-e_[x[19]]={f:m13,j:[],i:[],ti:[x[20]],ic:[]}
-d_[x[21]]={}
-d_[x[21]]["200c6b52"]=function(e,s,r,gg){
-var z=gz$gwx_15()
-var b=x[21]+':200c6b52'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[21]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
+var cAB=e_[x[19]].i
+_ai(cAB,x[20],e_,x[19],1,1)
+_ai(cAB,x[21],e_,x[19],1,59)
+cAB.pop()
+cAB.pop()
 return r
 }
-e_[x[21]]={f:m14,j:[],i:[],ti:[],ic:[]}
+e_[x[19]]={f:m14,j:[],i:[],ti:[x[20],x[21]],ic:[]}
 d_[x[22]]={}
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
 var lCB=e_[x[22]].i
-_ai(lCB,x[20],e_,x[22],1,1)
+_ai(lCB,x[23],e_,x[22],1,1)
 var aDB=_v()
 _(r,aDB)
-cs.push("./pages/index/index.wxml:template:2:6")
+cs.push("./pages/index/confession/index.wxml:template:2:6")
 var tEB=_oz(z,1,e,s,gg)
 var eFB=_gd(x[22],tEB,e_,d_)
 if(eFB){
@@ -1661,14 +1676,14 @@ cs.pop()
 lCB.pop()
 return r
 }
-e_[x[22]]={f:m15,j:[],i:[],ti:[x[20]],ic:[]}
-d_[x[23]]={}
-d_[x[23]]["0878b97c"]=function(e,s,r,gg){
+e_[x[22]]={f:m15,j:[],i:[],ti:[x[23]],ic:[]}
+d_[x[24]]={}
+d_[x[24]]["200c6b52"]=function(e,s,r,gg){
 var z=gz$gwx_17()
-var b=x[23]+':0878b97c'
+var b=x[24]+':200c6b52'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[23]);return}
+gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[24]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1682,17 +1697,17 @@ var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
 return r
 }
-e_[x[23]]={f:m16,j:[],i:[],ti:[],ic:[]}
-d_[x[24]]={}
+e_[x[24]]={f:m16,j:[],i:[],ti:[],ic:[]}
+d_[x[25]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var oJB=e_[x[24]].i
-_ai(oJB,x[25],e_,x[24],1,1)
+var oJB=e_[x[25]].i
+_ai(oJB,x[23],e_,x[25],1,1)
 var fKB=_v()
 _(r,fKB)
-cs.push("./pages/message/message.wxml:template:2:6")
+cs.push("./pages/index/index.wxml:template:2:6")
 var cLB=_oz(z,1,e,s,gg)
-var hMB=_gd(x[24],cLB,e_,d_)
+var hMB=_gd(x[25],cLB,e_,d_)
 if(hMB){
 var oNB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1700,18 +1715,18 @@ fKB.wxXCkey=3
 hMB(oNB,oNB,fKB,gg)
 gg.f=cur_globalf
 }
-else _w(cLB,x[24],2,18)
+else _w(cLB,x[25],2,18)
 cs.pop()
 oJB.pop()
 return r
 }
-e_[x[24]]={f:m17,j:[],i:[],ti:[x[25]],ic:[]}
+e_[x[25]]={f:m17,j:[],i:[],ti:[x[23]],ic:[]}
 d_[x[26]]={}
-d_[x[26]]["6819fcac"]=function(e,s,r,gg){
+d_[x[26]]["0878b97c"]=function(e,s,r,gg){
 var z=gz$gwx_19()
-var b=x[26]+':6819fcac'
+var b=x[26]+':0878b97c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[26]);return}
 p_[b]=true
 try{
@@ -1734,7 +1749,7 @@ var lQB=e_[x[27]].i
 _ai(lQB,x[28],e_,x[27],1,1)
 var aRB=_v()
 _(r,aRB)
-cs.push("./pages/my/my.wxml:template:2:6")
+cs.push("./pages/message/message.wxml:template:2:6")
 var tSB=_oz(z,1,e,s,gg)
 var eTB=_gd(x[27],tSB,e_,d_)
 if(eTB){
@@ -1750,6 +1765,50 @@ lQB.pop()
 return r
 }
 e_[x[27]]={f:m19,j:[],i:[],ti:[x[28]],ic:[]}
+d_[x[29]]={}
+d_[x[29]]["6819fcac"]=function(e,s,r,gg){
+var z=gz$gwx_21()
+var b=x[29]+':6819fcac'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[29]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m20=function(e,s,r,gg){
+var z=gz$gwx_21()
+return r
+}
+e_[x[29]]={f:m20,j:[],i:[],ti:[],ic:[]}
+d_[x[30]]={}
+var m21=function(e,s,r,gg){
+var z=gz$gwx_22()
+var oXB=e_[x[30]].i
+_ai(oXB,x[31],e_,x[30],1,1)
+var fYB=_v()
+_(r,fYB)
+cs.push("./pages/my/my.wxml:template:2:6")
+var cZB=_oz(z,1,e,s,gg)
+var h1B=_gd(x[30],cZB,e_,d_)
+if(h1B){
+var o2B=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fYB.wxXCkey=3
+h1B(o2B,o2B,fYB,gg)
+gg.f=cur_globalf
+}
+else _w(cZB,x[30],2,18)
+cs.pop()
+oXB.pop()
+return r
+}
+e_[x[30]]={f:m21,j:[],i:[],ti:[x[31]],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1770,7 +1829,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/detail","pages/common/search","pages/hot/hot","pages/message/message","pages/my/my"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"grace"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/detail","pages/common/search","pages/common/checkSchool","pages/hot/hot","pages/message/message","pages/my/my"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"grace"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 
@@ -2163,7 +2222,7 @@ define('pages/index/index.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  onLoad: function onLoad() {\n\n  },\n  methods: {\n    showPopupMenu: function showPopupMenu() {\n      uni.showActionSheet({\n        itemList: ['A', 'B', 'C'],\n        success: function success(res) {\n          console.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n        } });\n\n    },\n    goConfession: function goConfession() {\n      uni.navigateTo({\n        url: './confession/index' });\n\n    },\n    goSearch: function goSearch() {\n      uni.navigateTo({\n        url: '../common/search' });\n\n    },\n    goJob: function goJob() {\n      uni.navigateTo({\n        url: './confession/detail' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  onLoad: function onLoad() {\n\n  },\n  methods: {\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.showActionSheet({\n        itemList: ['A', 'B', 'C'],\n        success: function success(res) {\n          console.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
 
 /***/ }),
 
@@ -2186,7 +2245,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info\" }, [\n        _c(\"image\", {\n          staticClass: \"title\",\n          staticStyle: { height: \"58rpx\", width: \"58rpx\" },\n          attrs: { src: \"../../static/school/tjdzxxjsxy.png\" }\n        }),\n        _c(\n          \"view\",\n          {\n            staticClass: \"title serach\",\n            attrs: { eventid: \"200c6b52-0\" },\n            on: {\n              click: function($event) {\n                _vm.goSearch()\n              }\n            }\n          },\n          [\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-search serach-icon\"\n            }),\n            _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n          ]\n        ),\n        _c(\"view\", {\n          staticClass: \"iconfont icon-jiahao title\",\n          attrs: { id: \"btn\", eventid: \"200c6b52-1\" },\n          on: {\n            click: function($event) {\n              _vm.showPopupMenu()\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-2\" },\n              on: {\n                click: function($event) {\n                  _vm.goConfession()\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.goJob()\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2),\n          _vm._m(3)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"找兼职\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info\" }, [\n        _c(\"image\", {\n          staticClass: \"title school-img\",\n          attrs: {\n            src: \"../../static/school/tjdzxxjsxy.png\",\n            eventid: \"200c6b52-0\"\n          },\n          on: {\n            click: function($event) {\n              _vm.skip(\"../common/checkSchool\")\n            }\n          }\n        }),\n        _c(\n          \"view\",\n          {\n            staticClass: \"title serach\",\n            attrs: { eventid: \"200c6b52-1\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/search\")\n              }\n            }\n          },\n          [\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-search serach-icon\"\n            }),\n            _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n          ]\n        ),\n        _c(\"view\", {\n          staticClass: \"iconfont icon-jiahao title\",\n          attrs: { id: \"btn\", eventid: \"200c6b52-2\" },\n          on: {\n            click: function($event) {\n              _vm.showPopupMenu()\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-4\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/detail\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2),\n          _vm._m(3)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"找兼职\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
 
 /***/ }),
 
@@ -2290,7 +2349,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceLoading.vue\"));\nvar _graceAlert = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceAlert.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceAlert.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var alertTimer = null;var _default =\n{\n  components: {\n    graceAlert: _graceAlert.default,\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      confessionList: [],\n      alert: {\n        show: false,\n        msg: '',\n        msgtype: '' },\n\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  methods: {\n    showMsg: function showMsg(type, msg) {\n      this.alert.show = true;\n      this.alert.msgtype = type;\n      this.alert.msg = msg;\n      //延迟关闭\n      var _self = this;\n      if (alertTimer != null) {\n        clearTimeout(alertTimer);\n      }\n      alertTimer = setTimeout(function () {\n        _self.alert.show = false;\n        _self.alert.msg = '';\n      }, 2000);\n    } },\n\n  onLoad: function onLoad() {\n    this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据\n    uni.startPullDownRefresh(); //自动开始刷新\n  },\n  onReady: function onReady() {\n\n  },\n  //监听下拉刷新\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/index/1',\n      method: 'GET',\n      success: function success(res) {\n        _this.confessionList = res.data.cardsList;\n        _this.loading.totalPages = res.data.totalPages; //设置总页数\n        _this.showMsg('right', '表白墙动态已更新');\n        //将请求的数据缓存到本地\n        uni.setStorage({\n          key: 'confessionList',\n          data: _this.confessionList });\n\n      },\n      fail: function fail() {\n        _this.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh(); //关闭刷新动画\n      } });\n\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/index/' + this.loading.nextPages,\n      method: 'GET',\n      success: function success(res) {\n        _this2.confessionList = _this2.confessionList.concat(res.data.cardsList);\n      },\n      fail: function fail() {\n        _this2.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/index.vue?vue&type=script&lang=js&?c616");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceLoading.vue\"));\nvar _graceAlert = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceAlert.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceAlert.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var alertTimer = null;var _default =\n{\n  components: {\n    graceAlert: _graceAlert.default,\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      confessionList: [],\n      alert: {\n        show: false,\n        msg: '',\n        msgtype: '' },\n\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  methods: {\n    showMsg: function showMsg(type, msg) {\n      this.alert.show = true;\n      this.alert.msgtype = type;\n      this.alert.msg = msg;\n      //延迟关闭\n      var _self = this;\n      if (alertTimer != null) {\n        clearTimeout(alertTimer);\n      }\n      alertTimer = setTimeout(function () {\n        _self.alert.show = false;\n        _self.alert.msg = '';\n      }, 2000);\n    } },\n\n  onLoad: function onLoad() {\n    this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据\n    uni.startPullDownRefresh(); //自动开始刷新\n  },\n  onReady: function onReady() {\n\n  },\n  //监听下拉刷新\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/index/1',\n      method: 'GET',\n      success: function success(res) {\n        _this.confessionList = res.data.cardsList;\n        _this.loading.totalPages = res.data.totalPages; //设置总页数\n        _this.showMsg('right', '表白墙动态已更新');\n        //将请求的数据缓存到本地\n        uni.setStorage({\n          key: 'confessionList',\n          data: _this.confessionList });\n\n      },\n      fail: function fail() {\n        _this.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh(); //关闭刷新动画\n      } });\n\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/index/' + this.loading.nextPages,\n      method: 'GET',\n      success: function success(res) {\n        _this2.confessionList = _this2.confessionList.concat(res.data.cardsList);\n      },\n      fail: function fail() {\n        _this2.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/index.vue?vue&type=script&lang=js&?c616");
 
 /***/ }),
 
@@ -2359,7 +2418,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"ymkj-gradient-bg\" },\n    [\n      _c(\"view\", { staticClass: \"index-body\" }),\n      _c(\n        \"view\",\n        { staticClass: \"card-box grace-padding\" },\n        _vm._l(_vm.confessionList, function(item, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"confession-card\",\n              attrs: { url: \"./detail?id=\" + item.articleId }\n            },\n            [\n              _c(\"view\", { staticClass: \"confession-card-head grace-nowrap\" }, [\n                _c(\"image\", {\n                  staticClass: \"confession-card-avatar\",\n                  attrs: { src: item.avatar }\n                }),\n                _c(\n                  \"view\",\n                  {\n                    staticStyle: {\n                      float: \"left\",\n                      \"margin-left\": \"5px\",\n                      \"margin-top\": \"5px\"\n                    }\n                  },\n                  [\n                    _c(\"view\", { staticStyle: { \"font-size\": \"14px\" } }, [\n                      _vm._v(_vm._s(item.userName))\n                    ]),\n                    _c(\n                      \"view\",\n                      { staticStyle: { \"font-size\": \"11px\", color: \"grey\" } },\n                      [_vm._v(_vm._s(item.releaseTime))]\n                    )\n                  ]\n                )\n              ]),\n              _c(\"view\", { staticClass: \"grace-news-list-img-news\" }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-news-list-title-main\",\n                    staticStyle: { padding: \"1%\", width: \"96%\" }\n                  },\n                  [_vm._v(_vm._s(item.content))]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-wrap\" },\n                  _vm._l(item.imagesList, function(imgUrl, imgIndex) {\n                    return _c(\"image\", {\n                      key: index,\n                      staticStyle: {\n                        height: \"100px\",\n                        width: \"48%\",\n                        margin: \"2px 1%\"\n                      },\n                      attrs: { mode: \"scaleToFill\", src: imgUrl }\n                    })\n                  })\n                )\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-news-list-info\",\n                  staticStyle: { width: \"96%\", \"padding-left\": \"2%\" }\n                },\n                [\n                  _c(\"view\", [\n                    _c(\"text\", { staticClass: \"iconfont icon-heart2\" }),\n                    _vm._v(_vm._s(item.thumbsUp)),\n                    _c(\"text\", {\n                      staticClass: \"iconfont icon-fire\",\n                      staticStyle: { \"margin-left\": \"18rpx\" }\n                    }),\n                    _vm._v(_vm._s(item.readingVolume))\n                  ])\n                ]\n              )\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"227202ca-0\"\n        }\n      }),\n      _c(\"graceAlert\", {\n        attrs: {\n          show: _vm.alert.show,\n          msg: _vm.alert.msg,\n          msgtype: _vm.alert.msgtype,\n          mpcomid: \"227202ca-1\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/index.vue?vue&type=template&id=4aa053a3&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"ymkj-gradient-bg\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"card-box grace-padding\" },\n        _vm._l(_vm.confessionList, function(item, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"confession-card\",\n              attrs: { url: \"./detail?id=\" + item.articleId }\n            },\n            [\n              _c(\"view\", { staticClass: \"confession-card-head grace-rows\" }, [\n                _c(\"image\", {\n                  staticClass: \"confession-card-avatar\",\n                  attrs: { src: item.avatar }\n                }),\n                _c(\"view\", { staticClass: \"confession-card-head-info\" }, [\n                  _c(\"view\", { staticStyle: { \"font-size\": \"14px\" } }, [\n                    _vm._v(_vm._s(item.userName))\n                  ]),\n                  _c(\n                    \"view\",\n                    {\n                      staticStyle: {\n                        \"font-size\": \"11px\",\n                        color: \"grey !important\"\n                      }\n                    },\n                    [_vm._v(_vm._s(item.releaseTime))]\n                  )\n                ])\n              ]),\n              _c(\"view\", { staticClass: \"grace-news-list-img-news\" }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-news-list-title-main\",\n                    staticStyle: { padding: \"1%\", width: \"96%\" }\n                  },\n                  [_vm._v(_vm._s(item.content))]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-wrap\" },\n                  _vm._l(item.imagesList, function(imgUrl, imgIndex) {\n                    return _c(\"image\", {\n                      key: index,\n                      staticStyle: {\n                        height: \"100px\",\n                        width: \"48%\",\n                        margin: \"2px 1%\"\n                      },\n                      attrs: { mode: \"scaleToFill\", src: imgUrl }\n                    })\n                  })\n                )\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-news-list-info\",\n                  staticStyle: { width: \"96%\", \"padding-left\": \"2%\" }\n                },\n                [\n                  _c(\"view\", [\n                    _c(\"text\", { staticClass: \"iconfont icon-heart2\" }),\n                    _vm._v(_vm._s(item.thumbsUp)),\n                    _c(\"text\", {\n                      staticClass: \"iconfont icon-fire\",\n                      staticStyle: { \"margin-left\": \"18rpx\" }\n                    }),\n                    _vm._v(_vm._s(item.readingVolume))\n                  ])\n                ]\n              )\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"227202ca-0\"\n        }\n      }),\n      _c(\"graceAlert\", {\n        attrs: {\n          show: _vm.alert.show,\n          msg: _vm.alert.msg,\n          msgtype: _vm.alert.msgtype,\n          mpcomid: \"227202ca-1\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/index.vue?vue&type=template&id=4aa053a3&");
 
 /***/ }),
 
@@ -2788,6 +2847,98 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Fsearch\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/common/search.js');
+__wxRoute = 'pages/common/checkSchool';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/checkSchool.js';
+
+define('pages/common/checkSchool.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/common/checkSchool"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _qqmapWxJssdkMin = _interopRequireDefault(__webpack_require__(/*! ../../common/qqmap-wx-jssdk.min.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\common\\\\qqmap-wx-jssdk.min.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar qqmapsdk = new _qqmapWxJssdkMin.default({\n  key: \"7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO\" });var _default =\n\n{\n  data: function data() {\n    return {\n      schoolList: [] };\n\n  },\n  methods: {\n    inputChange: function inputChange(e) {\n      var _self = this;\n      qqmapsdk.getSuggestion({\n        //获取输入框值并设置keyword参数\n        keyword: e.detail.value, //用户输入的关键词\n        filter: 'category=大学,中学',\n        success: function success(res) {//搜索成功后的回调\n          var sug = [];\n          for (var i = 0; i < res.data.length; i++) {\n            sug.push({ // 获取返回结果，放到sug数组中\n              id: res.data[i].id,\n              title: res.data[i].title,\n              addr: res.data[i].address });\n\n          }\n          _self.schoolList = sug;\n        },\n        fail: function fail(error) {\n          console.error(JSON.stringify(error));\n        },\n        complete: function complete(res) {\n          console.log(res);\n        } });\n\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/common/checkSchool.vue?vue&type=script&lang=js&?9173");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue?vue&type=template&id=a98e2698&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-padding grace-rows\",\n          staticStyle: { \"line-height\": \"1.5rem\" }\n        },\n        [\n          _c(\"view\", { staticStyle: { \"margin-right\": \"10px\" } }, [\n            _vm._v(\"输入学校名称:\")\n          ]),\n          _c(\"input\", {\n            staticClass: \"input\",\n            attrs: { placeholder: \"上海交通大学\", eventid: \"691dc3db-0\" },\n            on: { input: _vm.inputChange }\n          })\n        ]\n      ),\n      _vm._l(_vm.schoolList, function(school, index) {\n        return _c(\"view\", { key: index, staticClass: \"grace-list\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"items\", staticStyle: { \"line-height\": \"1.3rem\" } },\n            [\n              _c(\"view\", { staticClass: \"title\" }, [\n                _vm._v(_vm._s(school.title))\n              ]),\n              _c(\"view\", { staticClass: \"arrow-right\" })\n            ]\n          )\n        ])\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\common\\qqmap-wx-jssdk.min.js":
+/*!*********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/common/qqmap-wx-jssdk.min.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if (\"value\" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var ERROR_CONF = { KEY_ERR: 311, KEY_ERR_MSG: 'key格式错误', PARAM_ERR: 310, PARAM_ERR_MSG: '请求参数信息有误', SYSTEM_ERR: 600, SYSTEM_ERR_MSG: '系统错误', WX_ERR_CODE: 1000, WX_OK_CODE: 200 };var BASE_URL = 'https://apis.map.qq.com/ws/';var URL_SEARCH = BASE_URL + 'place/v1/search';var URL_SUGGESTION = BASE_URL + 'place/v1/suggestion';var URL_GET_GEOCODER = BASE_URL + 'geocoder/v1/';var URL_CITY_LIST = BASE_URL + 'district/v1/list';var URL_AREA_LIST = BASE_URL + 'district/v1/getchildren';var URL_DISTANCE = BASE_URL + 'distance/v1/';var EARTH_RADIUS = 6378136.49;var Utils = { location2query: function location2query(data) {if (typeof data == 'string') {return data;}var query = '';for (var i = 0; i < data.length; i++) {var d = data[i];if (!!query) {query += ';';}if (d.location) {query = query + d.location.lat + ',' + d.location.lng;}if (d.latitude && d.longitude) {query = query + d.latitude + ',' + d.longitude;}}return query;}, rad: function rad(d) {return d * Math.PI / 180.0;}, getEndLocation: function getEndLocation(location) {var to = location.split(';');var endLocation = [];for (var i = 0; i < to.length; i++) {endLocation.push({ lat: parseFloat(to[i].split(',')[0]), lng: parseFloat(to[i].split(',')[1]) });}return endLocation;}, getDistance: function getDistance(latFrom, lngFrom, latTo, lngTo) {var radLatFrom = this.rad(latFrom);var radLatTo = this.rad(latTo);var a = radLatFrom - radLatTo;var b = this.rad(lngFrom) - this.rad(lngTo);var distance = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLatFrom) * Math.cos(radLatTo) * Math.pow(Math.sin(b / 2), 2)));distance = distance * EARTH_RADIUS;distance = Math.round(distance * 10000) / 10000;return parseFloat(distance.toFixed(0));}, getWXLocation: function getWXLocation(success, fail, complete) {wx.getLocation({ type: 'gcj02', success: success, fail: fail, complete: complete });}, getLocationParam: function getLocationParam(location) {if (typeof location == 'string') {var locationArr = location.split(',');if (locationArr.length === 2) {location = { latitude: location.split(',')[0], longitude: location.split(',')[1] };} else {location = {};}}return location;}, polyfillParam: function polyfillParam(param) {param.success = param.success || function () {};param.fail = param.fail || function () {};param.complete = param.complete || function () {};}, checkParamKeyEmpty: function checkParamKeyEmpty(param, key) {if (!param[key]) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + key + '参数格式有误');param.fail(errconf);param.complete(errconf);return true;}return false;}, checkKeyword: function checkKeyword(param) {return !this.checkParamKeyEmpty(param, 'keyword');}, checkLocation: function checkLocation(param) {var location = this.getLocationParam(param.location);if (!location || !location.latitude || !location.longitude) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + ' location参数格式有误');param.fail(errconf);param.complete(errconf);return false;}return true;}, buildErrorConfig: function buildErrorConfig(errCode, errMsg) {return { status: errCode, message: errMsg };}, handleData: function handleData(param, data, feature) {if (feature === 'search') {var searchResult = data.data;var searchSimplify = [];for (var i = 0; i < searchResult.length; i++) {searchSimplify.push({ id: searchResult[i].id || null, title: searchResult[i].title || null, latitude: searchResult[i].location && searchResult[i].location.lat || null, longitude: searchResult[i].location && searchResult[i].location.lng || null, address: searchResult[i].address || null, category: searchResult[i].category || null, tel: searchResult[i].tel || null, adcode: searchResult[i].ad_info && searchResult[i].ad_info.adcode || null, city: searchResult[i].ad_info && searchResult[i].ad_info.city || null, district: searchResult[i].ad_info && searchResult[i].ad_info.district || null, province: searchResult[i].ad_info && searchResult[i].ad_info.province || null });}param.success(data, { searchResult: searchResult, searchSimplify: searchSimplify });} else if (feature === 'suggest') {var suggestResult = data.data;var suggestSimplify = [];for (var i = 0; i < suggestResult.length; i++) {suggestSimplify.push({ adcode: suggestResult[i].adcode || null, address: suggestResult[i].address || null, category: suggestResult[i].category || null, city: suggestResult[i].city || null, district: suggestResult[i].district || null, id: suggestResult[i].id || null, latitude: suggestResult[i].location && suggestResult[i].location.lat || null, longitude: suggestResult[i].location && suggestResult[i].location.lng || null, province: suggestResult[i].province || null, title: suggestResult[i].title || null, type: suggestResult[i].type || null });}param.success(data, { suggestResult: suggestResult, suggestSimplify: suggestSimplify });} else if (feature === 'reverseGeocoder') {var reverseGeocoderResult = data.result;var reverseGeocoderSimplify = { address: reverseGeocoderResult.address || null, latitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lat || null, longitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lng || null, adcode: reverseGeocoderResult.ad_info && reverseGeocoderResult.ad_info.adcode || null, city: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.city || null, district: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.district || null, nation: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.nation || null, province: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.province || null, street: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street || null, street_number: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street_number || null, recommend: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.recommend || null, rough: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.rough || null };if (reverseGeocoderResult.pois) {var pois = reverseGeocoderResult.pois;var poisSimplify = [];for (var i = 0; i < pois.length; i++) {poisSimplify.push({ id: pois[i].id || null, title: pois[i].title || null, latitude: pois[i].location && pois[i].location.lat || null, longitude: pois[i].location && pois[i].location.lng || null, address: pois[i].address || null, category: pois[i].category || null, adcode: pois[i].ad_info && pois[i].ad_info.adcode || null, city: pois[i].ad_info && pois[i].ad_info.city || null, district: pois[i].ad_info && pois[i].ad_info.district || null, province: pois[i].ad_info && pois[i].ad_info.province || null });}param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify, pois: pois, poisSimplify: poisSimplify });} else {param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify });}} else if (feature === 'geocoder') {var geocoderResult = data.result;var geocoderSimplify = { title: geocoderResult.title || null, latitude: geocoderResult.location && geocoderResult.location.lat || null, longitude: geocoderResult.location && geocoderResult.location.lng || null, adcode: geocoderResult.ad_info && geocoderResult.ad_info.adcode || null, province: geocoderResult.address_components && geocoderResult.address_components.province || null, city: geocoderResult.address_components && geocoderResult.address_components.city || null, district: geocoderResult.address_components && geocoderResult.address_components.district || null, street: geocoderResult.address_components && geocoderResult.address_components.street || null, street_number: geocoderResult.address_components && geocoderResult.address_components.street_number || null, level: geocoderResult.level || null };\n      param.success(data, { geocoderResult: geocoderResult, geocoderSimplify: geocoderSimplify });} else if (feature === 'getCityList') {var provinceResult = data.result[0];var cityResult = data.result[1];var districtResult = data.result[2];param.success(data, { provinceResult: provinceResult, cityResult: cityResult, districtResult: districtResult });} else if (feature === 'getDistrictByCityId') {var districtByCity = data.result[0];param.success(data, districtByCity);} else if (feature === 'calculateDistance') {var calculateDistanceResult = data.result.elements;var distance = [];for (var i = 0; i < calculateDistanceResult.length; i++) {distance.push(calculateDistanceResult[i].distance);}param.success(data, { calculateDistanceResult: calculateDistanceResult, distance: distance });} else {param.success(data);}}, buildWxRequestConfig: function buildWxRequestConfig(param, options, feature) {var that = this;options.header = { \"content-type\": \"application/json\" };options.method = 'GET';options.success = function (res) {var data = res.data;if (data.status === 0) {that.handleData(param, data, feature);} else {param.fail(data);}};options.fail = function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};options.complete = function (res) {var statusCode = +res.statusCode;switch (statusCode) {case ERROR_CONF.WX_ERR_CODE:{param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));break;}case ERROR_CONF.WX_OK_CODE:{var data = res.data;if (data.status === 0) {param.complete(data);} else {param.complete(that.buildErrorConfig(data.status, data.message));}break;}default:{param.complete(that.buildErrorConfig(ERROR_CONF.SYSTEM_ERR, ERROR_CONF.SYSTEM_ERR_MSG));}}};\n    return options;}, locationProcess: function locationProcess(param, locationsuccess, locationfail, locationcomplete) {var that = this;locationfail = locationfail || function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};locationcomplete = locationcomplete || function (res) {if (res.statusCode == ERROR_CONF.WX_ERR_CODE) {param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));}};if (!param.location) {that.getWXLocation(locationsuccess, locationfail, locationcomplete);} else if (that.checkLocation(param)) {var location = Utils.getLocationParam(param.location);locationsuccess(location);}} };var QQMapWX = /*#__PURE__*/function () {function QQMapWX(options) {_classCallCheck(this, QQMapWX);if (!options.key) {throw Error('key值不能为空');}this.key = options.key;}_createClass(QQMapWX, [{ key: \"search\", value: function search(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, orderby: options.orderby || '_distance', page_size: options.page_size || 10, page_index: options.page_index || 1, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}var distance = options.distance || \"1000\";var auto_extend = options.auto_extend || 1;var region = null;var rectangle = null;if (options.region) {region = options.region;}if (options.rectangle) {rectangle = options.rectangle;}var locationsuccess = function locationsuccess(result) {if (region && !rectangle) {requestParam.boundary = \"region(\" + region + \",\" + auto_extend + \",\" + result.latitude + \",\" + result.longitude + \")\";} else if (rectangle && !region) {requestParam.boundary = \"rectangle(\" + rectangle + \")\";} else {requestParam.boundary = \"nearby(\" + result.latitude + \",\" + result.longitude + \",\" + distance + \",\" + auto_extend + \")\";}wx.request(Utils.buildWxRequestConfig(options, { url: URL_SEARCH, data: requestParam }, 'search'));};Utils.locationProcess(options, locationsuccess);} }, { key: \"getSuggestion\", value: function getSuggestion(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, region: options.region || '全国', region_fix: options.region_fix || 0, policy: options.policy || 0, page_size: options.page_size || 10, page_index: options.page_index || 1, get_subpois: options.get_subpois || 0, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}if (options.location) {var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, \"suggest\"));};Utils.locationProcess(options, locationsuccess);} else {wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, \"suggest\"));}} }, { key: \"reverseGeocoder\", value: function reverseGeocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { coord_type: options.coord_type || 5, get_poi: options.get_poi || 0, output: 'json', key: that.key };if (options.poi_options) {requestParam.poi_options = options.poi_options;}var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'reverseGeocoder'));};Utils.locationProcess(options, locationsuccess);} }, { key: \"geocoder\", value: function geocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'address')) {return;}var requestParam = { address: options.address, output: 'json', key: that.key };if (options.region) {requestParam.region = options.region;}wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'geocoder'));} }, { key: \"getCityList\", value: function getCityList(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_CITY_LIST, data: requestParam }, 'getCityList'));} }, { key: \"getDistrictByCityId\", value: function getDistrictByCityId(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'id')) {return;}var requestParam = { id: options.id || '', output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_AREA_LIST, data: requestParam }, 'getDistrictByCityId'));} }, { key: \"calculateDistance\", value: function calculateDistance(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'to')) {return;}var requestParam = { mode: options.mode || 'walking', to: Utils.location2query(options.to), output: 'json', key: that.key };if (options.from) {options.location = options.from;}if (requestParam.mode == 'straight') {var locationsuccess = function locationsuccess(result) {var locationTo = Utils.getEndLocation(requestParam.to);var data = { message: \"query ok\", result: { elements: [] }, status: 0 };for (var i = 0; i < locationTo.length; i++) {data.result.elements.push({ distance: Utils.getDistance(result.latitude, result.longitude, locationTo[i].lat, locationTo[i].lng), duration: 0, from: { lat: result.latitude, lng: result.longitude }, to: { lat: locationTo[i].lat, lng: locationTo[i].lng } });}var calculateResult = data.result.elements;var distanceResult = [];for (var i = 0; i < calculateResult.length; i++) {distanceResult.push(calculateResult[i].distance);}return options.success(data, { calculateResult: calculateResult, distanceResult: distanceResult });};Utils.locationProcess(options, locationsuccess);} else {var locationsuccess = function locationsuccess(result) {requestParam.from = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_DISTANCE, data: requestParam }, 'calculateDistance'));};Utils.locationProcess(options, locationsuccess);}} }]);return QQMapWX;}();;module.exports = QQMapWX;\n\n//# sourceURL=uni-app:///common/qqmap-wx-jssdk.min.js?d81d");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2FcheckSchool\"}":
+/*!****************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fcommon%2FcheckSchool"} ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _checkSchool = _interopRequireDefault(__webpack_require__(/*! ./pages/common/checkSchool.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\checkSchool.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_checkSchool.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fcommon%252FcheckSchool%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue":
+/*!*********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./checkSchool.vue?vue&type=template&id=a98e2698& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\checkSchool.vue?vue&type=template&id=a98e2698&\");\n/* harmony import */ var _checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./checkSchool.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\checkSchool.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./checkSchool.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\checkSchool.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/common/checkSchool.vue?vue&type=script&lang=js&?1ac1");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue?vue&type=template&id=a98e2698&":
+/*!****************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698& ***!
+  \****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./checkSchool.vue?vue&type=template&id=a98e2698& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\checkSchool.vue?vue&type=template&id=a98e2698&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_checkSchool_vue_vue_type_template_id_a98e2698___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2FcheckSchool\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/common/checkSchool.js');
 __wxRoute = 'pages/hot/hot';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/hot/hot.js';
 
 define('pages/hot/hot.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){

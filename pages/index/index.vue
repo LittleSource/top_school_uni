@@ -3,8 +3,8 @@
 		<view class="header">
 			<view class="status-bar"></view><!-- 状态栏占位 -->
 			<view class="info">
-				<image class="title" src='../../static/school/tjdzxxjsxy.png' style="height: 58upx;width: 58upx;"></image>
-				<view class="title serach" @click="goSearch()">
+				<image class="title school-img" src='../../static/school/tjdzxxjsxy.png' @click="skip('../common/checkSchool')"></image>
+				<view class="title serach" @click="skip('../common/search')">
 					<view class="grace-iconfont icon-search serach-icon"></view>
 					<view class="serach-text">搜索内容</view>
 				</view>
@@ -20,13 +20,13 @@
 				</swiper-item>
 			</swiper>
 			<view class="grace-wrap">
-				<view class="grace-boxes" @click="goConfession()">
+				<view class="grace-boxes" @click="skip('./confession/index')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/love.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
-				<view class="grace-boxes" @click="goJob()">
+				<view class="grace-boxes" @click="skip('./confession/detail')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
@@ -54,7 +54,7 @@
 					<view class="grace-items">
 						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
 						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄</view>
 					</view>
 					<view class="grace-items">
 						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
@@ -136,27 +136,17 @@
 
 		},
 		methods: {
+			skip(url){
+				uni.navigateTo({
+					url: url
+				});
+			},
 			showPopupMenu() {
 				uni.showActionSheet({
 					itemList: ['A', 'B', 'C'],
 					success: function(res) {
 						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
 					}
-				});
-			},
-			goConfession() {
-				uni.navigateTo({
-					url: './confession/index'
-				});
-			},
-			goSearch() {
-				uni.navigateTo({
-					url: '../common/search'
-				});
-			},
-			goJob() {
-				uni.navigateTo({
-					url: './confession/detail'
 				});
 			}
 		}
@@ -193,6 +183,9 @@
 		margin-left: 15upx;
 		margin-top: 10upx;
 		font-size: 24px;
+	}
+	.header>.info>.school-img{
+		height: 58upx;width: 58upx;
 	}
 
 	.header>.info>.serach {

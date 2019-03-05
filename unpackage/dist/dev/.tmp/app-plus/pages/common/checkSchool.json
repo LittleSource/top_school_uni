@@ -1,7 +1,5 @@
 {
   "navigationBarTextStyle": "white",
-  "navigationStyle": "custom",
   "navigationBarBackgroundColor": "#fc4243",
-  "scrollIndicator": "none",
-  "titleNView": false
+  "navigationBarTitleText": "选择学校"
 }

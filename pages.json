@@ -7,6 +7,7 @@
 				"navigationStyle": "custom",
 				"navigationBarBackgroundColor": "#fc4243",
 				"app-plus": {
+					"scrollIndicator":"none",//不显示滚动条
 					"titleNView": false
 					// 					{
 					// 						"backgroundColor": "#fc4243",
@@ -75,6 +76,13 @@
 				"app-plus": {
 					"titleNView": false
 				}
+			}
+		}, {
+			"path": "pages/common/checkSchool",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "选择学校"
 			}
 		},
 		{

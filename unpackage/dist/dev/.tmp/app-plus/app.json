@@ -4,6 +4,7 @@
     "pages/index/confession/index",
     "pages/index/confession/detail",
     "pages/common/search",
+    "pages/common/checkSchool",
     "pages/hot/hot",
     "pages/message/message",
     "pages/my/my"

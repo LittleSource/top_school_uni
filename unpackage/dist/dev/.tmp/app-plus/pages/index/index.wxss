@@ -38,6 +38,9 @@
 	margin-top: 10rpx;
 	font-size: 24px;
 }
+.header>.info>.school-img{
+	height: 58rpx;width: 58rpx;
+}
 .header>.info>.serach {
 	height: 30px;
 	width: 590rpx;

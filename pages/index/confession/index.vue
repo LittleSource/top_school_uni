@@ -1,13 +1,12 @@
 <template>
 	<view class="ymkj-gradient-bg">
-		<view class="index-body"></view>
 		<view class="card-box grace-padding">
 			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.articleId">
-				<view class="confession-card-head grace-nowrap">
+				<view class="confession-card-head grace-rows">
 					<image class="confession-card-avatar" :src="item.avatar"></image>
-					<view style="float: left;margin-left: 5px;margin-top: 5px;">
+					<view class="confession-card-head-info">
 						<view style="font-size: 14px;">{{item.userName}}</view>
-						<view style="font-size: 11px;color: grey;">{{item.releaseTime}}</view>
+						<view style="font-size: 11px;color: grey !important;">{{item.releaseTime}}</view>
 					</view>
 				</view>
 				<view class="grace-news-list-img-news">
@@ -72,8 +71,8 @@
 			}
 		},
 		onLoad: function() {
-			this.confessionList = uni.getStorageSync('confessionList');//获取本地缓存的数据
-			uni.startPullDownRefresh();//自动开始刷新
+			this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据
+			uni.startPullDownRefresh(); //自动开始刷新
 		},
 		onReady: function() {
 
@@ -85,7 +84,7 @@
 				method: 'GET',
 				success: res => {
 					this.confessionList = res.data.cardsList;
-					this.loading.totalPages = res.data.totalPages;//设置总页数
+					this.loading.totalPages = res.data.totalPages; //设置总页数
 					this.showMsg('right', '表白墙动态已更新');
 					//将请求的数据缓存到本地
 					uni.setStorage({
@@ -97,7 +96,7 @@
 					this.showMsg('error', '服务器异常，请稍后再试！');
 				},
 				complete: () => {
-					uni.stopPullDownRefresh();//关闭刷新动画
+					uni.stopPullDownRefresh(); //关闭刷新动画
 				}
 			});
 		},
@@ -132,18 +131,8 @@
 </script>
 
 <style>
- 	.index-body {
-		top: 0;
-		position: fixed;
-		width: 100%;
-		background: linear-gradient(135deg,#fc4243,orange,pink);
-		height: 100%;
-/* 		border-bottom-left-radius: 30px;
-		border-bottom-right-radius: 30px; */
-		z-index: -1;
-	}
 	.card-box {
-		top: -20px;
+		margin-top: -8px;
 	}
 
 	.confession-card {
@@ -166,6 +155,10 @@
 		width: 30px;
 		margin-top: 4px;
 		margin-left: 5px;
-		float: left;
+	}
+
+	.confession-card-head-info {
+		margin-left: 5px;
+		margin-top: 5px;
 	}
 </style>
