@@ -7,7 +7,7 @@
 				"navigationStyle": "custom",
 				"navigationBarBackgroundColor": "#fc4243",
 				"app-plus": {
-					"scrollIndicator":"none",//不显示滚动条
+					"scrollIndicator": "none", //不显示滚动条
 					"titleNView": false
 					// 					{
 					// 						"backgroundColor": "#fc4243",
@@ -82,7 +82,18 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "选择学校"
+				"app-plus": {
+					"titleNView":{
+						"searchInput": {
+							"autoFocus":true,
+							"disabled": false,
+							"align": "left",
+							"backgroundColor": "#FFFFFF",
+							"borderRadius": "15px",
+							"placeholder": "输入学校名称搜索"
+						}
+					}
+				}
 			}
 		},
 		{

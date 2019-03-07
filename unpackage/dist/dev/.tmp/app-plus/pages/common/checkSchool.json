@@ -1,5 +1,14 @@
 {
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#fc4243",
-  "navigationBarTitleText": "选择学校"
+  "titleNView": {
+    "searchInput": {
+      "autoFocus": true,
+      "disabled": false,
+      "align": "left",
+      "backgroundColor": "#FFFFFF",
+      "borderRadius": "15px",
+      "placeholder": "输入学校名称搜索"
+    }
+  }
 }

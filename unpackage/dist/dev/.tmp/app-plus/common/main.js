@@ -20,7 +20,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://192.168.43.7/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;\nvar schoolId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.3.203/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 

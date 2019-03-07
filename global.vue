@@ -4,11 +4,10 @@
 
 <script>
 	//全局配置文件
-	const serverSrc = 'http://192.168.43.7/';
+	const serverSrc = 'http://123.151.3.203/';
 	const token = '';
 	const hasEnter = false;
 	const userId = 1;
-	const schoolId = 1;
 	export default {
 		token, //用户token身份
 		serverSrc, //服务器地址

@@ -26,71 +26,28 @@
 			<view class="grace-h5 grace-blod">网友评论</view>
 		</view>
 		<!-- 评论区 start -->
-		<view class="grace-padding">
-			<view class="grace-comment-list">
-				<view class="grace-comment-face">
-					<image src="../../../static/school/tjdzxxjsxy.png" mode="widthFix"></image>
+		<view class="grace-padding" v-if="commentData.length > 0">
+			<view class="grace-comment-list" v-for="(comment,index) in commentData.commentAndReplyList" :key="index">
+				<view class="grace-comment-face" style="width: 30px;">
+					<image :src="comment.avatar" mode="widthFix"></image>
 				</view>
 				<view class="grace-comment-body">
 					<view class="grace-comment-top">
-						<text>刘美丽</text>
-						<text class="grace-iconfont icon-zan"></text>
-					</view>
-					<view class="grace-comment-date">
-						<text>08/10 08:12</text>
-						<text>102</text>
-					</view>
-					<view class="grace-comment-content">上天呀！我渴望与你相知相惜，长存此心永不褪减。</view>
-				</view>
-			</view>
-			<view class="grace-comment-list">
-				<view class="grace-comment-face">
-					<image src="../../../static/school/tjdzxxjsxy.png" mode="widthFix"></image>
-				</view>
-				<view class="grace-comment-body">
-					<view class="grace-comment-top">
-						<text>马克一天</text>
-						<text class="grace-iconfont icon-zan grace-comment-zan"> 100</text>
-					</view>
-					<view class="grace-comment-content">除非巍巍群山消逝不见，除非滔滔江水干涸枯竭。除非凛凛寒冬雷声翻滚，除非炎炎酷暑白雪纷飞，除非天地相交聚合连接，直到这样的事情全都发生时，我才敢将对你的情意抛弃决绝！</view>
-				</view>
-			</view>
-			<view class="grace-comment-list">
-				<view class="grace-comment-face">
-					<image src="../../../static/school/tjdzxxjsxy.png" mode="widthFix"></image>
-				</view>
-				<view class="grace-comment-body">
-					<view class="grace-comment-top">
-						<text>今生缘</text>
-						<text class="grace-iconfont icon-zan"> 66</text>
-					</view>
-					<view class="grace-comment-content">人面不知何处去，桃花依旧笑春风。</view>
-					<view class="grace-comment-date">
-						<text>08/10 07:55</text>
-					</view>
-				</view>
-			</view>
-			<view class="grace-comment-list">
-				<view class="grace-comment-face">
-					<image src="../../../static/school/tjdzxxjsxy.png" mode="widthFix"></image>
-				</view>
-				<view class="grace-comment-body">
-					<view class="grace-comment-top">
-						<text>小猫咪</text>
+						<text>{{comment.commentatorName}}</text>
 						<text class="grace-iconfont icon-zan"> 120</text>
 					</view>
-					<view class="grace-comment-content">海上生明月，天涯共此时。。</view>
+					<view class="grace-comment-content">{{comment.commentContent}}</view>
 					<view class="grace-comment-date">
-						<text>2天前</text>
-						<text class="grace-comment-replay-btn">5回复</text>
+						<text>{{comment.commentTime}}</text>
+						<text class="grace-comment-replay-btn" v-if="comment.replyList.length > 0">{{comment.replyList.length}}回复</text>
 					</view>
 				</view>
 			</view>
 		</view>
-		<!-- 评论区 end -->
 		<view class="grace-more-bottom">
-			<navigator class="grace-border">查看全部评论 <text class="grace-iconfont icon-arrow-right"></text></navigator>
+			<navigator class="grace-border">{{commentData.other}}<text  v-if="commentData.length > 0" class="grace-iconfont icon-arrow-right"></text></navigator>
 		</view>
+		<!-- 评论区 end -->
 		<view style="height:100upx;"></view>
 		<!-- 评论输入框 -->
 		<view class="grace-footer">
@@ -104,16 +61,16 @@
 	</view>
 </template>
 <script>
-	var _self;
 	import graceFullLoading from "../../../graceUI/components/graceFullLoading.vue";
 	export default {
-		 components:{
-        graceFullLoading
-    },
+		components: {
+			graceFullLoading
+		},
 		data() {
 			return {
-				graceFullLoading : false,
-				article: {}
+				graceFullLoading: false,
+				article: {},
+				commentData: {}
 			}
 		},
 		onLoad(parameter) {
@@ -123,9 +80,19 @@
 				method: 'GET',
 				success: res => {
 					this.article = res.data;
+					uni.request({
+						url: this.GLOBAL.serverSrc + 'confession/comment/' + parameter.id,
+						method: 'GET',
+						success: res => {
+							this.commentData = res.data;
+							//console.log(JSON.stringify(res));
+						},
+						fail: () => {},
+						complete: () => {}
+					});
 				},
 				fail: () => {
-					
+
 				},
 				complete: () => {
 					this.graceFullLoading = false;
@@ -134,9 +101,9 @@
 		},
 		methods: {
 			guanzhu() {},
-			showImage(){
+			showImage() {
 				uni.previewImage({
-				    urls: this.article.imagesList
+					urls: this.article.imagesList
 				});
 			}
 		}
