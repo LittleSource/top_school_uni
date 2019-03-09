@@ -6,26 +6,10 @@
 				"navigationBarTextStyle": "white",
 				"navigationStyle": "custom",
 				"navigationBarBackgroundColor": "#fc4243",
+				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus": {
 					"scrollIndicator": "none", //不显示滚动条
 					"titleNView": false
-					// 					{
-					// 						"backgroundColor": "#fc4243",
-					// 						"buttons": [ //原生标题栏按钮配置,
-					// 							{
-					// 								"name": "schoolBtn",
-					// 								"type": "home",
-					// 								"float": "left"
-					// 							}
-					// 						],
-					// 						"searchInput": {
-					// 							"disabled":false,
-					// 							"align": "left",
-					// 							"backgroundColor": "#FFFFFF",
-					// 							"borderRadius": "10px",
-					// 							"placeholder": "搜索内容"
-					// 						}
-					// 					}
 				}
 			}
 		},
@@ -41,14 +25,6 @@
 						"support": true,
 						"color": "#fc4243"
 					}
-					// 					"titleNView": {
-					// 						"buttons": [ //原生标题栏按钮配置,
-					// 							{
-					// 								"type": "menu",
-					// 								"float": "left"
-					// 							}
-					// 						]
-					// 					}
 				}
 			}
 		},
@@ -64,10 +40,40 @@
 					"pullToRefresh": {
 						"support": true,
 						"color": "#fc4243"
+					},
+					"titleNView": {
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								"type": "share",
+								"float": "right"
+							}
+						]
 					}
 				}
 			}
 		}, {
+			"path": "pages/common/login",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		}, {
+			"path": "pages/common/reg",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "注册",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		},
+		{
 			"path": "pages/common/search",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -83,9 +89,9 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"app-plus": {
-					"titleNView":{
+					"titleNView": {
 						"searchInput": {
-							"autoFocus":true,
+							"autoFocus": true,
 							"disabled": false,
 							"align": "left",
 							"backgroundColor": "#FFFFFF",
@@ -94,6 +100,13 @@
 						}
 					}
 				}
+			}
+		}, {
+			"path": "pages/common/comment",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "评论详情"
 			}
 		},
 		{

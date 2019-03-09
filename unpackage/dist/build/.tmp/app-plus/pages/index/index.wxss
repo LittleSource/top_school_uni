@@ -1,0 +1,82 @@
+
+.body {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header {
+	background: #fc4243;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	font-size: 25px !important;
+	z-index: 999;
+}
+.header>.status-bar {
+	height: var(--status-bar-height);
+}
+.header>.info {
+	color: #FFFFFF;
+	height: 44px;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header>.info>.title {
+	float: left;
+	margin-left: 15rpx;
+	margin-top: 10rpx;
+	font-size: 24px;
+}
+.header>.info>.school-img{
+	height: 58rpx;width: 58rpx;
+}
+.header>.info>.serach {
+	height: 30px;
+	width: 590rpx;
+	border-radius: 15px;
+	overflow: hidden;
+	background-color: #FFFFFF !important;
+}
+.header>.info>.serach>.serach-icon {
+	float: left;
+	color: grey;
+	margin-top: 8px;
+	margin-left: 6px;
+	font-size: 14px !important;
+}
+.header>.info>.serach>.serach-text {
+	float: left;
+	color: grey;
+	margin-top: 5px;
+	margin-left: 3px;
+	font-size: 14px !important;
+}
+.index {
+	background: -webkit-gradient(linear,left top, left bottom,from(#fc4243),color-stop(9%, #fc4243),color-stop(9%, #fff),to(#fff));
+	background: -o-linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
+	background: linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
+	margin-top: calc(var(--status-bar-height) + 44px);
+}
+.grace-swiper {
+	overflow: hidden;
+	border-radius: 10px;
+}
+.grace-boxes-img {
+	width: 48px;
+	height: 48px;
+}
+.grace-boxes-text {
+	color: #7F7F7F;
+}
+

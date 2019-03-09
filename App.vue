@@ -1,12 +1,11 @@
 <script>
 	export default {
-		onLaunch: function () {
-			console.log('App Launch')
+		onLaunch: function() {
 		},
-		onShow: function () {
+		onShow: function() {
 			console.log('App Show')
 		},
-		onHide: function () {
+		onHide: function() {
 			console.log('App Hide')
 		}
 	}
@@ -14,10 +13,44 @@
 
 <style>
 	/*每个页面公共css */
+	@import "./static/css/simplepro.css";
 	@import "./graceUI/graceUI.css";
-	.ymkj-gradient-bg{
-		width:100%;
-		  background: linear-gradient(45deg,#ccff33 0,#ffcc33 33%,#ff9933 66%,#fc4243 100%);
-		  background-size: 400%; background-position:0 100%; animation: gradient 7.5s ease-in-out infinite;
+
+	.ymkj-gradient-bg {
+		width: 100%;
+		background: linear-gradient(45deg, #ccff33 0, #ffcc33 33%, #ff9933 66%, #fc4243 100%);
+		background-size: 400%;
+		background-position: 0 100%;
+		animation: gradient 7.5s ease-in-out infinite;
+	}
+
+	.ymkj-reply-list {
+		display: flex;
+		flex-wrap: nowrap;
+		padding: 10upx 0;
+		margin: 5upx 0;
+	}
+
+	.ymkj-reply-top {
+		display: flex;
+		flex-wrap: nowrap;
+		line-height: 1.5em;
+	}
+
+	.ymkj-reply-top text {
+		color: #0A98D5;
+		font-size: 24upx;
+	}
+
+	.ymkj-reply-top .grace-iconfont {
+		color: gray;
+		font-weight: bold;
+	}
+
+	.ymkj-reply-margin {
+		margin-left: 15upx;
+	}
+	.ymkj-footer{
+		width: 100%;margin-top: 40%;
 	}
 </style>

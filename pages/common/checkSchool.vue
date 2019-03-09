@@ -7,15 +7,20 @@
 				<view class="arrow-right"></view>
 			</view>
 		</view>
+		<simpleDialog ref="simpleDialog2" @confirmButton="confirmButton"></simpleDialog>
 	</view>
 </template>
 
 <script>
+	import simpleDialog from '../../components/dialog.vue';
 	import QQMapWX from '../../common/qqmap-wx-jssdk.min.js';
 	var qqmapsdk = new QQMapWX({
 		key: "7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO"
 	});
 	export default {
+		components: {
+			simpleDialog
+		},
 		data() {
 			return {
 				schoolList: [],
@@ -53,28 +58,27 @@
 		},
 		methods: {
 			setSchool(school) {
-				uni.showModal({
+				this.nowSchool = school;
+				this.$refs.simpleDialog2.confirm({
 					title: '提示',
-					content: '确定切换到 ' + school.title + " 吗？\n学校位置:" + school.addr,
-					success: function(res) {
-						if (res.confirm) {
-							uni.setStorage({
-								key: 'school',
-								data: school,
-								fail: function() {
-									uni.showModal({
-										title: '提示',
-										content: '学校切换失败！',
-										showCancel: false
-									});
-								},
-								complete: function() {
-									uni.switchTab({
-										url: '/pages/index/index'
-									});
-								}
-							});
-						}
+					message: '确定切换到' + school.title + "吗？ 学校位置:" + school.addr
+				});
+			},
+			confirmButton() {
+				uni.setStorage({
+					key: 'school',
+					data: this.nowSchool,
+					fail: function() {
+						uni.showModal({
+							title: '提示',
+							content: '学校切换失败！',
+							showCancel: false
+						});
+					},
+					complete: function() {
+						uni.switchTab({
+							url: '/pages/index/index'
+						});
 					}
 				});
 			}

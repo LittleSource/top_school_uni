@@ -8,7 +8,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n    console.log('App Launch');\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?58fb");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?58fb");
 
 /***/ }),
 
@@ -20,7 +20,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.3.203/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.5.25/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 

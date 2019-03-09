@@ -1066,64 +1066,127 @@ function gz$gwx_2(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
 __WXML_GLOBAL__.ops_cached.$gwx_2=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'5faf9cdb'])
+Z([3,'3b86ca29'])
+Z([3,'_view data-v-7c0baba0 dialog'])
+Z([[2,'!='],[[7],[3,'title']],[1,'']])
+Z([3,'_view data-v-7c0baba0 simple-bar has-bordert'])
+Z([[2,'=='],[[7],[3,'showCancelButton']],[1,true]])
+Z([[2,'=='],[[7],[3,'showConfirmButton']],[1,true]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'93f8d13c'])
+Z([3,'5faf9cdb'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'dd17cd9a'])
-Z([[7],[3,'graceFullLoading']])
+Z([3,'93f8d13c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'15fc9547'])
-Z([3,'_view 15fc9547'])
-Z([[2,'!='],[[7],[3,'url']],[1,'']])
-Z([[2,'=='],[[7],[3,'url']],[1,'']])
+Z([3,'dd17cd9a'])
+Z([[7],[3,'graceFullLoading']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
 }
 function gz$gwx_6(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
 __WXML_GLOBAL__.ops_cached.$gwx_6=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'e380f47c'])
-Z([[7],[3,'show']])
-Z([[2,'==='],[[7],[3,'loadingType']],[1,1]])
+Z([3,'15fc9547'])
+Z([3,'_view 15fc9547'])
+Z([[2,'!='],[[7],[3,'url']],[1,'']])
+Z([[2,'=='],[[7],[3,'url']],[1,'']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
 }
 function gz$gwx_7(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
 __WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'691dc3db'])
-Z([3,'_view 691dc3db'])
-Z([[2,'==='],[[6],[[7],[3,'schoolList']],[3,'length']],[1,0]])
-Z([[2,'>'],[[6],[[7],[3,'schoolList']],[3,'length']],[1,0]])
+Z([3,'e380f47c'])
+Z([[7],[3,'show']])
+Z([[2,'==='],[[7],[3,'loadingType']],[1,1]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
 function gz$gwx_8(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
 __WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'691dc3db'])
+Z([3,'_view 691dc3db'])
+Z([[2,'==='],[[6],[[7],[3,'schoolList']],[3,'length']],[1,0]])
+Z([[2,'>'],[[6],[[7],[3,'schoolList']],[3,'length']],[1,0]])
+Z([3,'handleProxy'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'691dc3db-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[7],[3,'$k']])
+Z([1,'691dc3db-1'])
+Z([3,'3b86ca29'])
+Z([3,'simpleDialog2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
 function gz$gwx_9(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
 __WXML_GLOBAL__.ops_cached.$gwx_9=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'691dc3db'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+}
+function gz$gwx_10(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
+__WXML_GLOBAL__.ops_cached.$gwx_10=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'3f7de31e'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
+}
+function gz$gwx_11(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
+__WXML_GLOBAL__.ops_cached.$gwx_11=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'3f7de31e'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
+}
+function gz$gwx_12(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
+__WXML_GLOBAL__.ops_cached.$gwx_12=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'7ba207e8'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+}
+function gz$gwx_13(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
+__WXML_GLOBAL__.ops_cached.$gwx_13=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'7ba207e8'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+}
+function gz$gwx_14(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
+__WXML_GLOBAL__.ops_cached.$gwx_14=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'9b50365a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+}
+function gz$gwx_15(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
+__WXML_GLOBAL__.ops_cached.$gwx_15=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'9b50365a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
+}
+function gz$gwx_16(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
+__WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'04015d09'])
 Z([3,'handleProxy'])
@@ -1131,60 +1194,59 @@ Z([3,'_view 04015d09 search-keyword'])
 Z([[7],[3,'$k']])
 Z([1,'04015d09-9'])
 Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
+})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
-function gz$gwx_10(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
-__WXML_GLOBAL__.ops_cached.$gwx_10=[];
+function gz$gwx_17(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
+__WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'04015d09'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
+})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
-function gz$gwx_11(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
-__WXML_GLOBAL__.ops_cached.$gwx_11=[];
+function gz$gwx_18(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
+__WXML_GLOBAL__.ops_cached.$gwx_18=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'98a44ff0'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
+})(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
 }
-function gz$gwx_12(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
-__WXML_GLOBAL__.ops_cached.$gwx_12=[];
+function gz$gwx_19(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
+__WXML_GLOBAL__.ops_cached.$gwx_19=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'98a44ff0'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
-function gz$gwx_13(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
-__WXML_GLOBAL__.ops_cached.$gwx_13=[];
+function gz$gwx_20(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
+__WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'22ce7d59'])
 Z([3,'_view 22ce7d59'])
-Z([[2,'>'],[[6],[[7],[3,'commentData']],[3,'length']],[1,0]])
+Z([[2,'>'],[[6],[[7],[3,'commentAndReplyList']],[3,'length']],[1,0]])
 Z([3,'index'])
 Z([3,'comment'])
-Z([[6],[[7],[3,'commentData']],[3,'commentAndReplyList']])
+Z([[7],[3,'commentAndReplyList']])
 Z(z[3])
 Z([[2,'>'],[[6],[[6],[[7],[3,'comment']],[3,'replyList']],[3,'length']],[1,0]])
-Z(z[2])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'22ce7d59-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'dd17cd9a'])
 Z([3,'../../../static/index/love.png'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
-function gz$gwx_14(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
-__WXML_GLOBAL__.ops_cached.$gwx_14=[];
+function gz$gwx_21(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
+__WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'22ce7d59'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
-function gz$gwx_15(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
-__WXML_GLOBAL__.ops_cached.$gwx_15=[];
+function gz$gwx_22(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
+__WXML_GLOBAL__.ops_cached.$gwx_22=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'227202ca'])
 Z([3,'_view 227202ca ymkj-gradient-bg'])
@@ -1192,80 +1254,120 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z([3,'e380f47c'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'93f8d13c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
-function gz$gwx_16(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
-__WXML_GLOBAL__.ops_cached.$gwx_16=[];
+function gz$gwx_23(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
+__WXML_GLOBAL__.ops_cached.$gwx_23=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'227202ca'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
 }
-function gz$gwx_17(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
-__WXML_GLOBAL__.ops_cached.$gwx_17=[];
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'200c6b52'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
+})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
-function gz$gwx_18(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
-__WXML_GLOBAL__.ops_cached.$gwx_18=[];
+function gz$gwx_25(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
+__WXML_GLOBAL__.ops_cached.$gwx_25=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'200c6b52'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
+})(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
 }
-function gz$gwx_19(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
-__WXML_GLOBAL__.ops_cached.$gwx_19=[];
+function gz$gwx_26(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
+__WXML_GLOBAL__.ops_cached.$gwx_26=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'0878b97c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+})(__WXML_GLOBAL__.ops_cached.$gwx_26);return __WXML_GLOBAL__.ops_cached.$gwx_26
 }
-function gz$gwx_20(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
-__WXML_GLOBAL__.ops_cached.$gwx_20=[];
+function gz$gwx_27(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_27)return __WXML_GLOBAL__.ops_cached.$gwx_27
+__WXML_GLOBAL__.ops_cached.$gwx_27=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'0878b97c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
+})(__WXML_GLOBAL__.ops_cached.$gwx_27);return __WXML_GLOBAL__.ops_cached.$gwx_27
 }
-function gz$gwx_21(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
-__WXML_GLOBAL__.ops_cached.$gwx_21=[];
+function gz$gwx_28(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
+__WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'6819fcac'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
+})(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
-function gz$gwx_22(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
-__WXML_GLOBAL__.ops_cached.$gwx_22=[];
+function gz$gwx_29(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_29)return __WXML_GLOBAL__.ops_cached.$gwx_29
+__WXML_GLOBAL__.ops_cached.$gwx_29=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6819fcac'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
+})(__WXML_GLOBAL__.ops_cached.$gwx_29);return __WXML_GLOBAL__.ops_cached.$gwx_29
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/components/dialog.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./components/dialog.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/reg.vue.wxml','./pages/common/reg.wxml','./reg.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
+var oB=e_[x[0]].i
+_ai(oB,x[1],e_,x[0],1,1)
+_ai(oB,x[2],e_,x[0],2,2)
+_ai(oB,x[3],e_,x[0],3,2)
+_ai(oB,x[4],e_,x[0],4,2)
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
-d_[x[1]]={}
-d_[x[1]]["5faf9cdb"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4]],ic:[]}
+d_[x[5]]={}
+d_[x[5]]["3b86ca29"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[1]+':5faf9cdb'
+var b=x[5]+':3b86ca29'
 r.wxVkey=b
-gg.f=$gdc(f_["./global.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[1]);return}
+gg.f=$gdc(f_["./components/dialog.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
+cs.push("./components/dialog.vue.wxml:view:1:141")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./components/dialog.vue.wxml:view:1:184")
+cs.pop()
+}
+cs.push("./components/dialog.vue.wxml:view:1:460")
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+var fE=_v()
+_(oD,fE)
+if(_oz(z,4,e,s,gg)){fE.wxVkey=1
+cs.push("./components/dialog.vue.wxml:view:1:519")
+cs.pop()
+}
+var cF=_v()
+_(oD,cF)
+if(_oz(z,5,e,s,gg)){cF.wxVkey=1
+cs.push("./components/dialog.vue.wxml:view:1:730")
+cs.pop()
+}
+fE.wxXCkey=1
+cF.wxXCkey=1
+cs.pop()
+_(oB,oD)
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -1277,14 +1379,14 @@ var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 return r
 }
-e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[2]]={}
-d_[x[2]]["93f8d13c"]=function(e,s,r,gg){
+e_[x[5]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[6]]={}
+d_[x[6]]["5faf9cdb"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[2]+':93f8d13c'
+var b=x[6]+':5faf9cdb'
 r.wxVkey=b
-gg.f=$gdc(f_["./graceUI/components/graceAlert.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[2]);return}
+gg.f=$gdc(f_["./global.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1298,14 +1400,35 @@ var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 return r
 }
-e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["dd17cd9a"]=function(e,s,r,gg){
+e_[x[6]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["93f8d13c"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[3]+':dd17cd9a'
+var b=x[7]+':93f8d13c'
+r.wxVkey=b
+gg.f=$gdc(f_["./graceUI/components/graceAlert.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[7]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m3=function(e,s,r,gg){
+var z=gz$gwx_4()
+return r
+}
+e_[x[7]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["dd17cd9a"]=function(e,s,r,gg){
+var z=gz$gwx_5()
+var b=x[8]+':dd17cd9a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceFullLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1322,18 +1445,18 @@ throw err
 p_[b]=false
 return r
 }
-var m3=function(e,s,r,gg){
-var z=gz$gwx_4()
+var m4=function(e,s,r,gg){
+var z=gz$gwx_5()
 return r
 }
-e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
-d_[x[4]]["15fc9547"]=function(e,s,r,gg){
-var z=gz$gwx_5()
-var b=x[4]+':15fc9547'
+e_[x[8]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["15fc9547"]=function(e,s,r,gg){
+var z=gz$gwx_6()
+var b=x[9]+':15fc9547'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceHeader.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[4]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 cs.push("./graceUI/components/graceHeader.vue.wxml:view:1:27")
@@ -1362,18 +1485,18 @@ throw err
 p_[b]=false
 return r
 }
-var m4=function(e,s,r,gg){
-var z=gz$gwx_5()
+var m5=function(e,s,r,gg){
+var z=gz$gwx_6()
 return r
 }
-e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["e380f47c"]=function(e,s,r,gg){
-var z=gz$gwx_6()
-var b=x[5]+':e380f47c'
+e_[x[9]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["e380f47c"]=function(e,s,r,gg){
+var z=gz$gwx_7()
+var b=x[10]+':e380f47c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1397,35 +1520,49 @@ throw err
 p_[b]=false
 return r
 }
-var m5=function(e,s,r,gg){
-var z=gz$gwx_6()
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
 return r
 }
-e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[6]]={}
-d_[x[6]]["691dc3db"]=function(e,s,r,gg){
-var z=gz$gwx_7()
-var b=x[6]+':691dc3db'
+e_[x[10]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+d_[x[11]]["691dc3db"]=function(e,s,r,gg){
+var z=gz$gwx_8()
+var b=x[11]+':691dc3db'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/checkSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
-cs.push("./pages/common/checkSchool.vue.wxml:view:1:27")
+cs.push("./pages/common/checkSchool.vue.wxml:view:1:71")
 var oB=_n('view')
 _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
 if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/common/checkSchool.vue.wxml:view:1:56")
+cs.push("./pages/common/checkSchool.vue.wxml:view:1:100")
 cs.pop()
 }
 var oD=_v()
 _(oB,oD)
 if(_oz(z,3,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/common/checkSchool.vue.wxml:view:1:214")
+cs.push("./pages/common/checkSchool.vue.wxml:view:1:258")
 cs.pop()
 }
+var fE=_v()
+_(oB,fE)
+cs.push("./pages/common/checkSchool.vue.wxml:template:1:666")
+var cF=_oz(z,8,e,s,gg)
+var hG=_gd(x[11],cF,e_,d_)
+if(hG){
+var oH=_1z(z,5,e,s,gg) || {}
+var cur_globalf=gg.f
+fE.wxXCkey=3
+hG(oH,oH,fE,gg)
+gg.f=cur_globalf
+}
+else _w(cF,x[11],1,842)
+cs.pop()
 xC.wxXCkey=1
 oD.wxXCkey=1
 cs.pop()
@@ -1437,41 +1574,176 @@ throw err
 p_[b]=false
 return r
 }
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-return r
-}
-e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var cI=e_[x[7]].i
-_ai(cI,x[8],e_,x[7],1,1)
-var oJ=_v()
-_(r,oJ)
-cs.push("./pages/common/checkSchool.wxml:template:2:6")
-var lK=_oz(z,1,e,s,gg)
-var aL=_gd(x[7],lK,e_,d_)
-if(aL){
-var tM=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oJ.wxXCkey=3
-aL(tM,tM,oJ,gg)
-gg.f=cur_globalf
-}
-else _w(lK,x[7],2,18)
-cs.pop()
-cI.pop()
+var oJ=e_[x[11]].i
+_ai(oJ,x[1],e_,x[11],1,1)
+oJ.pop()
 return r
 }
-e_[x[7]]={f:m7,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["04015d09"]=function(e,s,r,gg){
+e_[x[11]]={f:m7,j:[],i:[],ti:[x[1]],ic:[]}
+d_[x[12]]={}
+var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var b=x[9]+':04015d09'
+var aL=e_[x[12]].i
+_ai(aL,x[13],e_,x[12],1,1)
+var tM=_v()
+_(r,tM)
+cs.push("./pages/common/checkSchool.wxml:template:2:6")
+var eN=_oz(z,1,e,s,gg)
+var bO=_gd(x[12],eN,e_,d_)
+if(bO){
+var oP=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+tM.wxXCkey=3
+bO(oP,oP,tM,gg)
+gg.f=cur_globalf
+}
+else _w(eN,x[12],2,18)
+cs.pop()
+aL.pop()
+return r
+}
+e_[x[12]]={f:m8,j:[],i:[],ti:[x[13]],ic:[]}
+d_[x[14]]={}
+d_[x[14]]["3f7de31e"]=function(e,s,r,gg){
+var z=gz$gwx_10()
+var b=x[14]+':3f7de31e'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/common/comment.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[14]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m9=function(e,s,r,gg){
+var z=gz$gwx_10()
+return r
+}
+e_[x[14]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[15]]={}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+var fS=e_[x[15]].i
+_ai(fS,x[16],e_,x[15],1,1)
+var cT=_v()
+_(r,cT)
+cs.push("./pages/common/comment.wxml:template:2:6")
+var hU=_oz(z,1,e,s,gg)
+var oV=_gd(x[15],hU,e_,d_)
+if(oV){
+var cW=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+cT.wxXCkey=3
+oV(cW,cW,cT,gg)
+gg.f=cur_globalf
+}
+else _w(hU,x[15],2,18)
+cs.pop()
+fS.pop()
+return r
+}
+e_[x[15]]={f:m10,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[17]]={}
+d_[x[17]]["7ba207e8"]=function(e,s,r,gg){
+var z=gz$gwx_12()
+var b=x[17]+':7ba207e8'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/common/login.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[17]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m11=function(e,s,r,gg){
+var z=gz$gwx_12()
+return r
+}
+e_[x[17]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[18]]={}
+var m12=function(e,s,r,gg){
+var z=gz$gwx_13()
+var aZ=e_[x[18]].i
+_ai(aZ,x[19],e_,x[18],1,1)
+var t1=_v()
+_(r,t1)
+cs.push("./pages/common/login.wxml:template:2:6")
+var e2=_oz(z,1,e,s,gg)
+var b3=_gd(x[18],e2,e_,d_)
+if(b3){
+var o4=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+t1.wxXCkey=3
+b3(o4,o4,t1,gg)
+gg.f=cur_globalf
+}
+else _w(e2,x[18],2,18)
+cs.pop()
+aZ.pop()
+return r
+}
+e_[x[18]]={f:m12,j:[],i:[],ti:[x[19]],ic:[]}
+d_[x[20]]={}
+d_[x[20]]["9b50365a"]=function(e,s,r,gg){
+var z=gz$gwx_14()
+var b=x[20]+':9b50365a'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/common/reg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[20]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m13=function(e,s,r,gg){
+var z=gz$gwx_14()
+return r
+}
+e_[x[20]]={f:m13,j:[],i:[],ti:[],ic:[]}
+d_[x[21]]={}
+var m14=function(e,s,r,gg){
+var z=gz$gwx_15()
+var f7=e_[x[21]].i
+_ai(f7,x[22],e_,x[21],1,1)
+var c8=_v()
+_(r,c8)
+cs.push("./pages/common/reg.wxml:template:2:6")
+var h9=_oz(z,1,e,s,gg)
+var o0=_gd(x[21],h9,e_,d_)
+if(o0){
+var cAB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+c8.wxXCkey=3
+o0(cAB,cAB,c8,gg)
+gg.f=cur_globalf
+}
+else _w(h9,x[21],2,18)
+cs.pop()
+f7.pop()
+return r
+}
+e_[x[21]]={f:m14,j:[],i:[],ti:[x[22]],ic:[]}
+d_[x[23]]={}
+d_[x[23]]["04015d09"]=function(e,s,r,gg){
+var z=gz$gwx_16()
+var b=x[23]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+if(p_[b]){_wl(b,x[23]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -1492,306 +1764,40 @@ throw err
 p_[b]=false
 return r
 }
-var m8=function(e,s,r,gg){
-var z=gz$gwx_9()
-return r
-}
-e_[x[9]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[10]]={}
-var m9=function(e,s,r,gg){
-var z=gz$gwx_10()
-var oP=e_[x[10]].i
-_ai(oP,x[11],e_,x[10],1,1)
-var xQ=_v()
-_(r,xQ)
-cs.push("./pages/common/search.wxml:template:2:6")
-var oR=_oz(z,1,e,s,gg)
-var fS=_gd(x[10],oR,e_,d_)
-if(fS){
-var cT=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-xQ.wxXCkey=3
-fS(cT,cT,xQ,gg)
-gg.f=cur_globalf
-}
-else _w(oR,x[10],2,18)
-cs.pop()
-oP.pop()
-return r
-}
-e_[x[10]]={f:m9,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["98a44ff0"]=function(e,s,r,gg){
-var z=gz$gwx_11()
-var b=x[12]+':98a44ff0'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m10=function(e,s,r,gg){
-var z=gz$gwx_11()
-return r
-}
-e_[x[12]]={f:m10,j:[],i:[],ti:[],ic:[]}
-d_[x[13]]={}
-var m11=function(e,s,r,gg){
-var z=gz$gwx_12()
-var cW=e_[x[13]].i
-_ai(cW,x[14],e_,x[13],1,1)
-var oX=_v()
-_(r,oX)
-cs.push("./pages/hot/hot.wxml:template:2:6")
-var lY=_oz(z,1,e,s,gg)
-var aZ=_gd(x[13],lY,e_,d_)
-if(aZ){
-var t1=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oX.wxXCkey=3
-aZ(t1,t1,oX,gg)
-gg.f=cur_globalf
-}
-else _w(lY,x[13],2,18)
-cs.pop()
-cW.pop()
-return r
-}
-e_[x[13]]={f:m11,j:[],i:[],ti:[x[14]],ic:[]}
-d_[x[15]]={}
-d_[x[15]]["22ce7d59"]=function(e,s,r,gg){
-var z=gz$gwx_13()
-var b=x[15]+':22ce7d59'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[15]);return}
-p_[b]=true
-try{
-cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/index/confession/detail.vue.wxml:view:1:1518")
-var fE=_v()
-_(xC,fE)
-cs.push("./pages/index/confession/detail.vue.wxml:view:1:1596")
-var cF=function(oH,hG,cI,gg){
-var lK=_v()
-_(cI,lK)
-if(_oz(z,7,oH,hG,gg)){lK.wxVkey=1
-cs.push("./pages/index/confession/detail.vue.wxml:text:1:2338")
-cs.pop()
-}
-lK.wxXCkey=1
-return cI
-}
-fE.wxXCkey=2
-_2z(z,5,cF,e,s,gg,fE,'comment','index','index')
-cs.pop()
-cs.pop()
-}
-var oD=_v()
-_(oB,oD)
-if(_oz(z,8,e,s,gg)){oD.wxVkey=1
-cs.push("./pages/index/confession/detail.vue.wxml:text:1:2622")
-cs.pop()
-}
-var aL=_v()
-_(oB,aL)
-cs.push("./pages/index/confession/detail.vue.wxml:template:1:3127")
-var tM=_oz(z,10,e,s,gg)
-var eN=_gd(x[15],tM,e_,d_)
-if(eN){
-var bO=_1z(z,9,e,s,gg) || {}
-var cur_globalf=gg.f
-aL.wxXCkey=3
-eN(bO,bO,aL,gg)
-gg.f=cur_globalf
-}
-else _w(tM,x[15],1,3239)
-cs.pop()
-xC.wxXCkey=1
-oD.wxXCkey=1
-cs.pop()
-_(r,oB)
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m12=function(e,s,r,gg){
-var z=gz$gwx_13()
-var b3=e_[x[15]].i
-_ai(b3,x[16],e_,x[15],1,1)
-b3.pop()
-return r
-}
-e_[x[15]]={f:m12,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
-var m13=function(e,s,r,gg){
-var z=gz$gwx_14()
-var x5=e_[x[17]].i
-_ai(x5,x[18],e_,x[17],1,1)
-var o6=_v()
-_(r,o6)
-cs.push("./pages/index/confession/detail.wxml:template:2:6")
-var f7=_oz(z,1,e,s,gg)
-var c8=_gd(x[17],f7,e_,d_)
-if(c8){
-var h9=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-o6.wxXCkey=3
-c8(h9,h9,o6,gg)
-gg.f=cur_globalf
-}
-else _w(f7,x[17],2,18)
-cs.pop()
-x5.pop()
-return r
-}
-e_[x[17]]={f:m13,j:[],i:[],ti:[x[18]],ic:[]}
-d_[x[19]]={}
-d_[x[19]]["227202ca"]=function(e,s,r,gg){
-var z=gz$gwx_15()
-var b=x[19]+':227202ca'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[19]);return}
-p_[b]=true
-try{
-cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1603")
-var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[19],oD,e_,d_)
-if(fE){
-var cF=_1z(z,2,e,s,gg) || {}
-var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
-gg.f=cur_globalf
-}
-else _w(oD,x[19],1,1674)
-cs.pop()
-var hG=_v()
-_(oB,hG)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1697")
-var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[19],oH,e_,d_)
-if(cI){
-var oJ=_1z(z,4,e,s,gg) || {}
-var cur_globalf=gg.f
-hG.wxXCkey=3
-cI(oJ,oJ,hG,gg)
-gg.f=cur_globalf
-}
-else _w(oH,x[19],1,1768)
-cs.pop()
-cs.pop()
-_(r,oB)
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m14=function(e,s,r,gg){
-var z=gz$gwx_15()
-var cAB=e_[x[19]].i
-_ai(cAB,x[20],e_,x[19],1,1)
-_ai(cAB,x[21],e_,x[19],1,59)
-cAB.pop()
-cAB.pop()
-return r
-}
-e_[x[19]]={f:m14,j:[],i:[],ti:[x[20],x[21]],ic:[]}
-d_[x[22]]={}
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-var lCB=e_[x[22]].i
-_ai(lCB,x[23],e_,x[22],1,1)
-var aDB=_v()
-_(r,aDB)
-cs.push("./pages/index/confession/index.wxml:template:2:6")
-var tEB=_oz(z,1,e,s,gg)
-var eFB=_gd(x[22],tEB,e_,d_)
-if(eFB){
-var bGB=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-aDB.wxXCkey=3
-eFB(bGB,bGB,aDB,gg)
-gg.f=cur_globalf
-}
-else _w(tEB,x[22],2,18)
-cs.pop()
-lCB.pop()
 return r
 }
-e_[x[22]]={f:m15,j:[],i:[],ti:[x[23]],ic:[]}
+e_[x[23]]={f:m15,j:[],i:[],ti:[],ic:[]}
 d_[x[24]]={}
-d_[x[24]]["200c6b52"]=function(e,s,r,gg){
-var z=gz$gwx_17()
-var b=x[24]+':200c6b52'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[24]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-return r
-}
-e_[x[24]]={f:m16,j:[],i:[],ti:[],ic:[]}
-d_[x[25]]={}
-var m17=function(e,s,r,gg){
-var z=gz$gwx_18()
-var oJB=e_[x[25]].i
-_ai(oJB,x[23],e_,x[25],1,1)
-var fKB=_v()
-_(r,fKB)
-cs.push("./pages/index/index.wxml:template:2:6")
-var cLB=_oz(z,1,e,s,gg)
-var hMB=_gd(x[25],cLB,e_,d_)
-if(hMB){
-var oNB=_1z(z,0,e,s,gg) || {}
+var aDB=e_[x[24]].i
+_ai(aDB,x[25],e_,x[24],1,1)
+var tEB=_v()
+_(r,tEB)
+cs.push("./pages/common/search.wxml:template:2:6")
+var eFB=_oz(z,1,e,s,gg)
+var bGB=_gd(x[24],eFB,e_,d_)
+if(bGB){
+var oHB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fKB.wxXCkey=3
-hMB(oNB,oNB,fKB,gg)
+tEB.wxXCkey=3
+bGB(oHB,oHB,tEB,gg)
 gg.f=cur_globalf
 }
-else _w(cLB,x[25],2,18)
+else _w(eFB,x[24],2,18)
 cs.pop()
-oJB.pop()
+aDB.pop()
 return r
 }
-e_[x[25]]={f:m17,j:[],i:[],ti:[x[23]],ic:[]}
+e_[x[24]]={f:m16,j:[],i:[],ti:[x[25]],ic:[]}
 d_[x[26]]={}
-d_[x[26]]["0878b97c"]=function(e,s,r,gg){
-var z=gz$gwx_19()
-var b=x[26]+':0878b97c'
+d_[x[26]]["98a44ff0"]=function(e,s,r,gg){
+var z=gz$gwx_18()
+var b=x[26]+':98a44ff0'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[26]);return}
 p_[b]=true
 try{
@@ -1802,41 +1808,212 @@ throw err
 p_[b]=false
 return r
 }
-var m18=function(e,s,r,gg){
-var z=gz$gwx_19()
+var m17=function(e,s,r,gg){
+var z=gz$gwx_18()
 return r
 }
-e_[x[26]]={f:m18,j:[],i:[],ti:[],ic:[]}
+e_[x[26]]={f:m17,j:[],i:[],ti:[],ic:[]}
 d_[x[27]]={}
-var m19=function(e,s,r,gg){
-var z=gz$gwx_20()
-var lQB=e_[x[27]].i
-_ai(lQB,x[28],e_,x[27],1,1)
-var aRB=_v()
-_(r,aRB)
-cs.push("./pages/message/message.wxml:template:2:6")
-var tSB=_oz(z,1,e,s,gg)
-var eTB=_gd(x[27],tSB,e_,d_)
-if(eTB){
-var bUB=_1z(z,0,e,s,gg) || {}
+var m18=function(e,s,r,gg){
+var z=gz$gwx_19()
+var fKB=e_[x[27]].i
+_ai(fKB,x[28],e_,x[27],1,1)
+var cLB=_v()
+_(r,cLB)
+cs.push("./pages/hot/hot.wxml:template:2:6")
+var hMB=_oz(z,1,e,s,gg)
+var oNB=_gd(x[27],hMB,e_,d_)
+if(oNB){
+var cOB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aRB.wxXCkey=3
-eTB(bUB,bUB,aRB,gg)
+cLB.wxXCkey=3
+oNB(cOB,cOB,cLB,gg)
 gg.f=cur_globalf
 }
-else _w(tSB,x[27],2,18)
+else _w(hMB,x[27],2,18)
 cs.pop()
+fKB.pop()
+return r
+}
+e_[x[27]]={f:m18,j:[],i:[],ti:[x[28]],ic:[]}
+d_[x[29]]={}
+d_[x[29]]["22ce7d59"]=function(e,s,r,gg){
+var z=gz$gwx_20()
+var b=x[29]+':22ce7d59'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[29]);return}
+p_[b]=true
+try{
+cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/index/confession/detail.vue.wxml:view:1:1518")
+var oD=_v()
+_(xC,oD)
+cs.push("./pages/index/confession/detail.vue.wxml:view:1:1604")
+var fE=function(hG,cF,oH,gg){
+var oJ=_v()
+_(oH,oJ)
+if(_oz(z,7,hG,cF,gg)){oJ.wxVkey=1
+cs.push("./pages/index/confession/detail.vue.wxml:text:1:2433")
+cs.pop()
+}
+oJ.wxXCkey=1
+return oH
+}
+oD.wxXCkey=2
+_2z(z,5,fE,e,s,gg,oD,'comment','index','index')
+cs.pop()
+cs.pop()
+}
+var lK=_v()
+_(oB,lK)
+cs.push("./pages/index/confession/detail.vue.wxml:template:1:3471")
+var aL=_oz(z,9,e,s,gg)
+var tM=_gd(x[29],aL,e_,d_)
+if(tM){
+var eN=_1z(z,8,e,s,gg) || {}
+var cur_globalf=gg.f
+lK.wxXCkey=3
+tM(eN,eN,lK,gg)
+gg.f=cur_globalf
+}
+else _w(aL,x[29],1,3583)
+cs.pop()
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m19=function(e,s,r,gg){
+var z=gz$gwx_20()
+var lQB=e_[x[29]].i
+_ai(lQB,x[2],e_,x[29],1,1)
 lQB.pop()
 return r
 }
-e_[x[27]]={f:m19,j:[],i:[],ti:[x[28]],ic:[]}
-d_[x[29]]={}
-d_[x[29]]["6819fcac"]=function(e,s,r,gg){
+e_[x[29]]={f:m19,j:[],i:[],ti:[x[2]],ic:[]}
+d_[x[30]]={}
+var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var b=x[29]+':6819fcac'
+var tSB=e_[x[30]].i
+_ai(tSB,x[31],e_,x[30],1,1)
+var eTB=_v()
+_(r,eTB)
+cs.push("./pages/index/confession/detail.wxml:template:2:6")
+var bUB=_oz(z,1,e,s,gg)
+var oVB=_gd(x[30],bUB,e_,d_)
+if(oVB){
+var xWB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+eTB.wxXCkey=3
+oVB(xWB,xWB,eTB,gg)
+gg.f=cur_globalf
+}
+else _w(bUB,x[30],2,18)
+cs.pop()
+tSB.pop()
+return r
+}
+e_[x[30]]={f:m20,j:[],i:[],ti:[x[31]],ic:[]}
+d_[x[32]]={}
+d_[x[32]]["227202ca"]=function(e,s,r,gg){
+var z=gz$gwx_22()
+var b=x[32]+':227202ca'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[29]);return}
+gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[32]);return}
+p_[b]=true
+try{
+cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1603")
+var oD=_oz(z,3,e,s,gg)
+var fE=_gd(x[32],oD,e_,d_)
+if(fE){
+var cF=_1z(z,2,e,s,gg) || {}
+var cur_globalf=gg.f
+xC.wxXCkey=3
+fE(cF,cF,xC,gg)
+gg.f=cur_globalf
+}
+else _w(oD,x[32],1,1674)
+cs.pop()
+var hG=_v()
+_(oB,hG)
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1697")
+var oH=_oz(z,5,e,s,gg)
+var cI=_gd(x[32],oH,e_,d_)
+if(cI){
+var oJ=_1z(z,4,e,s,gg) || {}
+var cur_globalf=gg.f
+hG.wxXCkey=3
+cI(oJ,oJ,hG,gg)
+gg.f=cur_globalf
+}
+else _w(oH,x[32],1,1768)
+cs.pop()
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m21=function(e,s,r,gg){
+var z=gz$gwx_22()
+var fYB=e_[x[32]].i
+_ai(fYB,x[3],e_,x[32],1,1)
+_ai(fYB,x[4],e_,x[32],1,59)
+fYB.pop()
+fYB.pop()
+return r
+}
+e_[x[32]]={f:m21,j:[],i:[],ti:[x[3],x[4]],ic:[]}
+d_[x[33]]={}
+var m22=function(e,s,r,gg){
+var z=gz$gwx_23()
+var h1B=e_[x[33]].i
+_ai(h1B,x[34],e_,x[33],1,1)
+var o2B=_v()
+_(r,o2B)
+cs.push("./pages/index/confession/index.wxml:template:2:6")
+var c3B=_oz(z,1,e,s,gg)
+var o4B=_gd(x[33],c3B,e_,d_)
+if(o4B){
+var l5B=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+o2B.wxXCkey=3
+o4B(l5B,l5B,o2B,gg)
+gg.f=cur_globalf
+}
+else _w(c3B,x[33],2,18)
+cs.pop()
+h1B.pop()
+return r
+}
+e_[x[33]]={f:m22,j:[],i:[],ti:[x[34]],ic:[]}
+d_[x[35]]={}
+d_[x[35]]["200c6b52"]=function(e,s,r,gg){
+var z=gz$gwx_24()
+var b=x[35]+':200c6b52'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[35]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1846,34 +2023,122 @@ throw err
 p_[b]=false
 return r
 }
-var m20=function(e,s,r,gg){
-var z=gz$gwx_21()
+var m23=function(e,s,r,gg){
+var z=gz$gwx_24()
 return r
 }
-e_[x[29]]={f:m20,j:[],i:[],ti:[],ic:[]}
-d_[x[30]]={}
-var m21=function(e,s,r,gg){
-var z=gz$gwx_22()
-var oXB=e_[x[30]].i
-_ai(oXB,x[31],e_,x[30],1,1)
-var fYB=_v()
-_(r,fYB)
-cs.push("./pages/my/my.wxml:template:2:6")
-var cZB=_oz(z,1,e,s,gg)
-var h1B=_gd(x[30],cZB,e_,d_)
-if(h1B){
-var o2B=_1z(z,0,e,s,gg) || {}
+e_[x[35]]={f:m23,j:[],i:[],ti:[],ic:[]}
+d_[x[36]]={}
+var m24=function(e,s,r,gg){
+var z=gz$gwx_25()
+var e8B=e_[x[36]].i
+_ai(e8B,x[34],e_,x[36],1,1)
+var b9B=_v()
+_(r,b9B)
+cs.push("./pages/index/index.wxml:template:2:6")
+var o0B=_oz(z,1,e,s,gg)
+var xAC=_gd(x[36],o0B,e_,d_)
+if(xAC){
+var oBC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fYB.wxXCkey=3
-h1B(o2B,o2B,fYB,gg)
+b9B.wxXCkey=3
+xAC(oBC,oBC,b9B,gg)
 gg.f=cur_globalf
 }
-else _w(cZB,x[30],2,18)
+else _w(o0B,x[36],2,18)
 cs.pop()
-oXB.pop()
+e8B.pop()
 return r
 }
-e_[x[30]]={f:m21,j:[],i:[],ti:[x[31]],ic:[]}
+e_[x[36]]={f:m24,j:[],i:[],ti:[x[34]],ic:[]}
+d_[x[37]]={}
+d_[x[37]]["0878b97c"]=function(e,s,r,gg){
+var z=gz$gwx_26()
+var b=x[37]+':0878b97c'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[37]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m25=function(e,s,r,gg){
+var z=gz$gwx_26()
+return r
+}
+e_[x[37]]={f:m25,j:[],i:[],ti:[],ic:[]}
+d_[x[38]]={}
+var m26=function(e,s,r,gg){
+var z=gz$gwx_27()
+var hEC=e_[x[38]].i
+_ai(hEC,x[39],e_,x[38],1,1)
+var oFC=_v()
+_(r,oFC)
+cs.push("./pages/message/message.wxml:template:2:6")
+var cGC=_oz(z,1,e,s,gg)
+var oHC=_gd(x[38],cGC,e_,d_)
+if(oHC){
+var lIC=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oFC.wxXCkey=3
+oHC(lIC,lIC,oFC,gg)
+gg.f=cur_globalf
+}
+else _w(cGC,x[38],2,18)
+cs.pop()
+hEC.pop()
+return r
+}
+e_[x[38]]={f:m26,j:[],i:[],ti:[x[39]],ic:[]}
+d_[x[40]]={}
+d_[x[40]]["6819fcac"]=function(e,s,r,gg){
+var z=gz$gwx_28()
+var b=x[40]+':6819fcac'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[40]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m27=function(e,s,r,gg){
+var z=gz$gwx_28()
+return r
+}
+e_[x[40]]={f:m27,j:[],i:[],ti:[],ic:[]}
+d_[x[41]]={}
+var m28=function(e,s,r,gg){
+var z=gz$gwx_29()
+var eLC=e_[x[41]].i
+_ai(eLC,x[42],e_,x[41],1,1)
+var bMC=_v()
+_(r,bMC)
+cs.push("./pages/my/my.wxml:template:2:6")
+var oNC=_oz(z,1,e,s,gg)
+var xOC=_gd(x[41],oNC,e_,d_)
+if(xOC){
+var oPC=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+bMC.wxXCkey=3
+xOC(oPC,oPC,bMC,gg)
+gg.f=cur_globalf
+}
+else _w(oNC,x[41],2,18)
+cs.pop()
+eLC.pop()
+return r
+}
+e_[x[41]]={f:m28,j:[],i:[],ti:[x[42]],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -1894,7 +2159,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/detail","pages/common/search","pages/common/checkSchool","pages/hot/hot","pages/message/message","pages/my/my"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"grace"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/detail","pages/common/login","pages/common/reg","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/hot/hot","pages/message/message","pages/my/my"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"测试版"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 
@@ -1910,7 +2175,7 @@ define('common/main.js',function(require, module, exports, window, document, fra
   /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsCUsersAdministratorDesktopSchoolJiangHuAppVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
 
     "use strict";
-    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n    console.log('App Launch');\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?58fb");
+    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n{\n  onLaunch: function onLaunch() {\n  },\n  onShow: function onShow() {\n    console.log('App Show');\n  },\n  onHide: function onHide() {\n    console.log('App Hide');\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?58fb");
 
     /***/},
 
@@ -1922,7 +2187,7 @@ define('common/main.js',function(require, module, exports, window, document, fra
   /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsCUsersAdministratorDesktopSchoolJiangHuGlobalVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
 
     "use strict";
-    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.3.203/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.5.25/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
     /***/},
 
@@ -2251,6 +2516,18 @@ eval("var g;\n\n// This works in non-strict mode\ng = (function() {\n\treturn th
 
 /***/ }),
 
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\graceChecker.js":
+/*!****************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/graceChecker.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval(" /**\r\n              数据验证（表单验证）\r\n              来自 grace.hcoder.net \r\n              作者 hcoder 深海\r\n              */\nmodule.exports = {\n  error: '',\n  check: function check(data, rule) {\n    for (var i = 0; i < rule.length; i++) {\n      if (!rule[i].checkType) {return true;}\n      if (!rule[i].name) {return true;}\n      if (!rule[i].errorMsg) {return true;}\n      if (!data[rule[i].name]) {this.error = rule[i].errorMsg;return false;}\n      switch (rule[i].checkType) {\n        case 'string':\n          var reg = new RegExp('.{' + rule[i].checkRule + '}');\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'int':\n          var reg = new RegExp('^(-[1-9]|[1-9])[0-9]{' + rule[i].checkRule + '}$');\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n          break;\n        case 'between':\n          if (!this.isNumber(data[rule[i].name])) {\n            this.error = rule[i].errorMsg;\n            return false;\n          }\n          var minMax = rule[i].checkRule.split(',');\n          minMax[0] = Number(minMax[0]);\n          minMax[1] = Number(minMax[1]);\n          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {\n            this.error = rule[i].errorMsg;\n            return false;\n          }\n          break;\n        case 'betweenD':\n          var reg = /^-?[1-9][0-9]?$/;\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          var minMax = rule[i].checkRule.split(',');\n          minMax[0] = Number(minMax[0]);\n          minMax[1] = Number(minMax[1]);\n          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {\n            this.error = rule[i].errorMsg;\n            return false;\n          }\n          break;\n        case 'betweenF':\n          var reg = /^-?[0-9][0-9]?.+[0-9]+$/;\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          var minMax = rule[i].checkRule.split(',');\n          minMax[0] = Number(minMax[0]);\n          minMax[1] = Number(minMax[1]);\n          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {\n            this.error = rule[i].errorMsg;\n            return false;\n          }\n          break;\n        case 'same':\n          if (data[rule[i].name] != rule[i].checkRule) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'notsame':\n          if (data[rule[i].name] == rule[i].checkRule) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'email':\n          var reg = /^\\w+([-+.']\\w+)*@\\w+([-.]\\w+)*\\.\\w+([-.]\\w+)*$/;\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'phoneno':\n          var reg = /^1[0-9]{10,10}$/;\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'zipcode':\n          var reg = /^[0-9]{6}$/;\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'reg':\n          var reg = new RegExp(rule[i].checkRule);\n          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}\n          break;\n        case 'in':\n          if (rule[i].checkRule.indexOf(data[rule[i].name]) == -1) {\n            this.error = rule[i].errorMsg;return false;\n          }\n          break;\n        case 'notnull':\n          if (data[rule[i].name] == null || data[rule[i].name].length < 1) {this.error = rule[i].errorMsg;return false;}\n          break;}\n\n    }\n    return true;\n  },\n  isNumber: function isNumber(checkVal) {\n    var reg = /^-?[1-9][0-9]?.?[0-9]*$/;\n    return reg.test(checkVal);\n  } };\n\n//# sourceURL=uni-app:///graceUI/graceChecker.js?286b");
+
+/***/ }),
+
 /***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages.json":
 /*!***************************************************************!*\
   !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages.json ***!
@@ -2287,7 +2564,7 @@ define('pages/index/index.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  onLoad: function onLoad() {\n\n  },\n  methods: {\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.showActionSheet({\n        itemList: ['A', 'B', 'C'],\n        success: function success(res) {\n          console.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  onLoad: function onLoad() {\n    if (uni.getStorageSync('loginStatus') !== true) {\n      uni.redirectTo({\n        url: '../common/login' });\n\n    }\n  },\n  methods: {\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.showActionSheet({\n        itemList: ['A', 'B', 'C'],\n        success: function success(res) {\n          console.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
 
 /***/ }),
 
@@ -2310,7 +2587,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info\" }, [\n        _c(\"image\", {\n          staticClass: \"title school-img\",\n          attrs: {\n            src: \"../../static/school/tjdzxxjsxy.png\",\n            eventid: \"200c6b52-0\"\n          },\n          on: {\n            click: function($event) {\n              _vm.skip(\"../common/checkSchool\")\n            }\n          }\n        }),\n        _c(\n          \"view\",\n          {\n            staticClass: \"title serach\",\n            attrs: { eventid: \"200c6b52-1\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/search\")\n              }\n            }\n          },\n          [\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-search serach-icon\"\n            }),\n            _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n          ]\n        ),\n        _c(\"view\", {\n          staticClass: \"iconfont icon-jiahao title\",\n          attrs: { id: \"btn\", eventid: \"200c6b52-2\" },\n          on: {\n            click: function($event) {\n              _vm.showPopupMenu()\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-4\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/detail\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2),\n          _vm._m(3)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"找兼职\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info grace-rows\" }, [\n        _c(\"view\", {\n          staticClass: \"iconfont icon-changeschool\",\n          attrs: { eventid: \"200c6b52-0\" },\n          on: {\n            click: function($event) {\n              _vm.skip(\"../common/checkSchool\")\n            }\n          }\n        }),\n        _c(\n          \"view\",\n          {\n            staticClass: \"serach title\",\n            attrs: { eventid: \"200c6b52-1\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/search\")\n              }\n            }\n          },\n          [\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-search serach-icon\"\n            }),\n            _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n          ]\n        ),\n        _c(\"view\", {\n          staticClass: \"iconfont icon-jiahao title\",\n          staticStyle: { \"font-size\": \"24px\" },\n          attrs: { eventid: \"200c6b52-2\" },\n          on: {\n            click: function($event) {\n              _vm.showPopupMenu()\n            }\n          }\n        })\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-4\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"../common/login\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2),\n          _vm._m(3)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"找兼职\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
 
 /***/ }),
 
@@ -2483,7 +2760,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"ymkj-gradient-bg\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"card-box grace-padding\" },\n        _vm._l(_vm.confessionList, function(item, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"confession-card\",\n              attrs: { url: \"./detail?id=\" + item.articleId }\n            },\n            [\n              _c(\"view\", { staticClass: \"confession-card-head grace-rows\" }, [\n                _c(\"image\", {\n                  staticClass: \"confession-card-avatar\",\n                  attrs: { src: item.avatar }\n                }),\n                _c(\"view\", { staticClass: \"confession-card-head-info\" }, [\n                  _c(\"view\", { staticStyle: { \"font-size\": \"14px\" } }, [\n                    _vm._v(_vm._s(item.userName))\n                  ]),\n                  _c(\n                    \"view\",\n                    {\n                      staticStyle: {\n                        \"font-size\": \"11px\",\n                        color: \"grey !important\"\n                      }\n                    },\n                    [_vm._v(_vm._s(item.releaseTime))]\n                  )\n                ])\n              ]),\n              _c(\"view\", { staticClass: \"grace-news-list-img-news\" }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-news-list-title-main\",\n                    staticStyle: { padding: \"1%\", width: \"96%\" }\n                  },\n                  [_vm._v(_vm._s(item.content))]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-wrap\" },\n                  _vm._l(item.imagesList, function(imgUrl, imgIndex) {\n                    return _c(\"image\", {\n                      key: index,\n                      staticStyle: {\n                        height: \"100px\",\n                        width: \"48%\",\n                        margin: \"2px 1%\"\n                      },\n                      attrs: { mode: \"scaleToFill\", src: imgUrl }\n                    })\n                  })\n                )\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-news-list-info\",\n                  staticStyle: { width: \"96%\", \"padding-left\": \"2%\" }\n                },\n                [\n                  _c(\"view\", [\n                    _c(\"text\", { staticClass: \"iconfont icon-heart2\" }),\n                    _vm._v(_vm._s(item.thumbsUp)),\n                    _c(\"text\", {\n                      staticClass: \"iconfont icon-fire\",\n                      staticStyle: { \"margin-left\": \"18rpx\" }\n                    }),\n                    _vm._v(_vm._s(item.readingVolume))\n                  ])\n                ]\n              )\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"227202ca-0\"\n        }\n      }),\n      _c(\"graceAlert\", {\n        attrs: {\n          show: _vm.alert.show,\n          msg: _vm.alert.msg,\n          msgtype: _vm.alert.msgtype,\n          mpcomid: \"227202ca-1\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/index.vue?vue&type=template&id=4aa053a3&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"ymkj-gradient-bg\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"card-box grace-padding\" },\n        _vm._l(_vm.confessionList, function(item, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"confession-card\",\n              attrs: { url: \"./detail?id=\" + item.articleId }\n            },\n            [\n              _c(\"view\", { staticClass: \"confession-card-head grace-rows\" }, [\n                _c(\"image\", {\n                  staticClass: \"confession-card-avatar\",\n                  attrs: { src: item.avatar }\n                }),\n                _c(\"view\", { staticClass: \"confession-card-head-info\" }, [\n                  _c(\"view\", { staticStyle: { \"font-size\": \"14px\" } }, [\n                    _vm._v(_vm._s(item.userName))\n                  ]),\n                  _c(\n                    \"view\",\n                    {\n                      staticStyle: {\n                        \"font-size\": \"11px\",\n                        color: \"grey !important\"\n                      }\n                    },\n                    [_vm._v(_vm._s(item.releaseTime))]\n                  )\n                ])\n              ]),\n              _c(\"view\", { staticClass: \"grace-news-list-img-news\" }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-news-list-title-main\",\n                    staticStyle: { padding: \"1%\", width: \"96%\" }\n                  },\n                  [_vm._v(_vm._s(item.content))]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-wrap\" },\n                  _vm._l(item.imagesList, function(imgUrl, imgIndex) {\n                    return _c(\"image\", {\n                      key: index,\n                      staticStyle: {\n                        height: \"100px\",\n                        width: \"48%\",\n                        margin: \"2px 1%\"\n                      },\n                      attrs: { mode: \"scaleToFill\", src: imgUrl }\n                    })\n                  })\n                )\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-news-list-info\",\n                  staticStyle: { width: \"96%\", \"padding-left\": \"2%\" }\n                },\n                [\n                  _c(\"view\", [\n                    _c(\"text\", { staticClass: \"iconfont icon-heart1\" }),\n                    _vm._v(_vm._s(item.thumbsUp)),\n                    _c(\"text\", {\n                      staticClass: \"iconfont icon-fire\",\n                      staticStyle: { \"margin-left\": \"18rpx\" }\n                    }),\n                    _vm._v(_vm._s(item.readingVolume))\n                  ])\n                ]\n              )\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"227202ca-0\"\n        }\n      }),\n      _c(\"graceAlert\", {\n        attrs: {\n          show: _vm.alert.show,\n          msg: _vm.alert.msg,\n          msgtype: _vm.alert.msgtype,\n          mpcomid: \"227202ca-1\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/index.vue?vue&type=template&id=4aa053a3&");
 
 /***/ }),
 
@@ -2671,7 +2948,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceFullLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return {\n      graceFullLoading: false,\n      article: {},\n      commentData: {} };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.graceFullLoading = true;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/article/' + parameter.id,\n      method: 'GET',\n      success: function success(res) {\n        _this.article = res.data;\n        uni.request({\n          url: _this.GLOBAL.serverSrc + 'confession/comment/' + parameter.id,\n          method: 'GET',\n          success: function success(res) {\n            _this.commentData = res.data;\n            //console.log(JSON.stringify(res));\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n      },\n      fail: function fail() {\n\n      },\n      complete: function complete() {\n        _this.graceFullLoading = false;\n      } });\n\n  },\n  methods: {\n    guanzhu: function guanzhu() {},\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.imagesList });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?34ea");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceFullLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return {\n      graceFullLoading: false,\n      article: {},\n      commentAndReplyList: [],\n      other: \"\" };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.graceFullLoading = true;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/article/' + parameter.id,\n      method: 'GET',\n      success: function success(res) {\n        _this.article = res.data.articleContent;\n        _this.commentAndReplyList = res.data.commentAndReplyList;\n        _this.other = res.data.other;\n      },\n      fail: function fail() {\n\n      },\n      complete: function complete() {\n        _this.graceFullLoading = false;\n      } });\n\n  },\n  methods: {\n    guanzhu: function guanzhu() {},\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.imagesList });\n\n    },\n    goComment: function goComment() {\n      uni.navigateTo({\n        url: '../../common/comment?type=confession&articleId=' + this.article.articleId });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?34ea");
 
 /***/ }),
 
@@ -2706,7 +2983,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-author-line\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-article-author\" }, [\n            _c(\"image\", {\n              attrs: { src: _vm.article.avatar, mode: \"widthFix\" }\n            }),\n            _c(\"view\", { staticClass: \"author-name\" }, [\n              _vm._v(_vm._s(_vm.article.userName))\n            ])\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"btn\",\n              attrs: { eventid: \"22ce7d59-0\" },\n              on: {\n                click: function($event) {\n                  _vm.guanzhu()\n                }\n              }\n            },\n            [_vm._v(\"+关注\")]\n          )\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"grace-article-contents\" },\n        [\n          _c(\"block\", [\n            _c(\"view\", { staticClass: \"text-item\" }, [\n              _vm._v(_vm._s(_vm.article.content))\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-wrap grace-padding\",\n                attrs: { eventid: \"22ce7d59-1\" },\n                on: {\n                  click: function($event) {\n                    _vm.showImage()\n                  }\n                }\n              },\n              _vm._l(_vm.article.imagesList, function(img, imgIndex) {\n                return _c(\"image\", {\n                  key: imgIndex,\n                  staticStyle: {\n                    height: \"100px\",\n                    width: \"48%\",\n                    margin: \"2px 1%\"\n                  },\n                  attrs: { src: img, mode: \"widthFix\" }\n                })\n              })\n            )\n          ])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-info-line\",\n          staticStyle: { \"font-size\": \"50rpx\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-iconfont icon-time\" }, [\n            _vm._v(_vm._s(_vm.article.releaseTime))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-fire\" }, [\n            _vm._v(_vm._s(_vm.article.readingVolume))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-heart2\" }, [\n            _vm._v(_vm._s(_vm.article.thumbsUp))\n          ])\n        ]\n      ),\n      _vm._m(0),\n      _vm.commentData.length > 0\n        ? _c(\n            \"view\",\n            { staticClass: \"grace-padding\" },\n            _vm._l(_vm.commentData.commentAndReplyList, function(\n              comment,\n              index\n            ) {\n              return _c(\n                \"view\",\n                { key: index, staticClass: \"grace-comment-list\" },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"grace-comment-face\",\n                      staticStyle: { width: \"30px\" }\n                    },\n                    [\n                      _c(\"image\", {\n                        attrs: { src: comment.avatar, mode: \"widthFix\" }\n                      })\n                    ]\n                  ),\n                  _c(\"view\", { staticClass: \"grace-comment-body\" }, [\n                    _c(\"view\", { staticClass: \"grace-comment-top\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentatorName))]),\n                      _c(\"text\", { staticClass: \"grace-iconfont icon-zan\" }, [\n                        _vm._v(\"120\")\n                      ])\n                    ]),\n                    _c(\"view\", { staticClass: \"grace-comment-content\" }, [\n                      _vm._v(_vm._s(comment.commentContent))\n                    ]),\n                    _c(\"view\", { staticClass: \"grace-comment-date\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentTime))]),\n                      comment.replyList.length > 0\n                        ? _c(\n                            \"text\",\n                            { staticClass: \"grace-comment-replay-btn\" },\n                            [_vm._v(_vm._s(comment.replyList.length) + \"回复\")]\n                          )\n                        : _vm._e()\n                    ])\n                  ])\n                ]\n              )\n            })\n          )\n        : _vm._e(),\n      _c(\n        \"view\",\n        { staticClass: \"grace-more-bottom\" },\n        [\n          _c(\"navigator\", { staticClass: \"grace-border\" }, [\n            _vm._v(_vm._s(_vm.commentData.other)),\n            _vm.commentData.length > 0\n              ? _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              : _vm._e()\n          ])\n        ],\n        1\n      ),\n      _c(\"view\", { staticStyle: { height: \"100rpx\" } }),\n      _vm._m(1),\n      _c(\"graceFullLoading\", {\n        attrs: {\n          graceFullLoading: _vm.graceFullLoading,\n          logoUrl: \"../../../static/index/love.png\",\n          mpcomid: \"22ce7d59-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-title grace-border\",\n        staticStyle: { \"margin-top\": \"60rpx\" }\n      },\n      [_c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [_vm._v(\"网友评论\")])]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-footer\" }, [\n      _c(\"view\", { staticClass: \"grace-input\" }, [\n        _c(\"view\", {\n          staticClass: \"grace-input-icon grace-iconfont icon-write\"\n        }),\n        _c(\"input\", { attrs: { type: \"text\", placeholder: \"写评论\" } })\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"grace-items\", staticStyle: { padding: \"0 20rpx\" } },\n        [_vm._v(\"发布\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/detail.vue?vue&type=template&id=bc859f60&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-author-line\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-article-author\" }, [\n            _c(\"image\", {\n              attrs: { src: _vm.article.avatar, mode: \"widthFix\" }\n            }),\n            _c(\"view\", { staticClass: \"author-name\" }, [\n              _vm._v(_vm._s(_vm.article.userName))\n            ])\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"btn\",\n              attrs: { eventid: \"22ce7d59-0\" },\n              on: {\n                click: function($event) {\n                  _vm.guanzhu()\n                }\n              }\n            },\n            [_vm._v(\"+关注\")]\n          )\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"grace-article-contents\" },\n        [\n          _c(\"block\", [\n            _c(\"view\", { staticClass: \"text-item\" }, [\n              _vm._v(_vm._s(_vm.article.content))\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-wrap grace-padding\",\n                attrs: { eventid: \"22ce7d59-1\" },\n                on: {\n                  click: function($event) {\n                    _vm.showImage()\n                  }\n                }\n              },\n              _vm._l(_vm.article.imagesList, function(img, imgIndex) {\n                return _c(\"image\", {\n                  key: imgIndex,\n                  staticStyle: {\n                    height: \"100px\",\n                    width: \"48%\",\n                    margin: \"2px 1%\"\n                  },\n                  attrs: { src: img, mode: \"widthFix\" }\n                })\n              })\n            )\n          ])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-info-line\",\n          staticStyle: { \"font-size\": \"50rpx\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-iconfont icon-time\" }, [\n            _vm._v(_vm._s(_vm.article.releaseTime))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-fire\" }, [\n            _vm._v(_vm._s(_vm.article.readingVolume))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-heart2\" }, [\n            _vm._v(_vm._s(_vm.article.thumbsUp))\n          ])\n        ]\n      ),\n      _vm._m(0),\n      _vm.commentAndReplyList.length > 0\n        ? _c(\n            \"view\",\n            { staticClass: \"grace-padding\" },\n            _vm._l(_vm.commentAndReplyList, function(comment, index) {\n              return _c(\n                \"view\",\n                { key: index, staticClass: \"grace-comment-list\" },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"grace-comment-face\",\n                      staticStyle: { width: \"30px\" }\n                    },\n                    [\n                      _c(\"image\", {\n                        attrs: { src: comment.avatar, mode: \"widthFix\" }\n                      })\n                    ]\n                  ),\n                  _c(\"view\", { staticClass: \"grace-comment-body\" }, [\n                    _c(\"view\", { staticClass: \"grace-comment-top\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentatorName))]),\n                      _c(\"text\", { staticClass: \"grace-iconfont icon-zan\" }, [\n                        _vm._v(_vm._s(comment.thumbsUp))\n                      ])\n                    ]),\n                    _c(\n                      \"view\",\n                      {\n                        staticClass: \"grace-comment-content\",\n                        attrs: { eventid: \"22ce7d59-2-\" + index },\n                        on: {\n                          click: function($event) {\n                            _vm.goComment()\n                          }\n                        }\n                      },\n                      [_vm._v(_vm._s(comment.commentContent))]\n                    ),\n                    _c(\"view\", { staticClass: \"grace-comment-date\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentTime))]),\n                      comment.replyList.length > 0\n                        ? _c(\n                            \"text\",\n                            {\n                              staticClass: \"grace-comment-replay-btn\",\n                              attrs: { eventid: \"22ce7d59-3-\" + index },\n                              on: {\n                                click: function($event) {\n                                  _vm.goComment()\n                                }\n                              }\n                            },\n                            [_vm._v(_vm._s(comment.replyList.length) + \"回复\")]\n                          )\n                        : _vm._e()\n                    ])\n                  ])\n                ]\n              )\n            })\n          )\n        : _vm._e(),\n      _c(\n        \"view\",\n        { staticClass: \"grace-more-bottom\" },\n        [\n          _vm.commentAndReplyList.length > 0\n            ? _c(\n                \"navigator\",\n                {\n                  staticClass: \"grace-border\",\n                  attrs: {\n                    url:\n                      \"../../common/comment?type=confession&articleId=\" +\n                      _vm.article.articleId\n                  }\n                },\n                [\n                  _vm._v(_vm._s(_vm.other)),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            : _c(\"view\", { staticClass: \"grace-border\" }, [\n                _vm._v(_vm._s(_vm.other))\n              ])\n        ],\n        1\n      ),\n      _c(\"view\", { staticStyle: { height: \"100rpx\" } }),\n      _vm._m(1),\n      _c(\"graceFullLoading\", {\n        attrs: {\n          graceFullLoading: _vm.graceFullLoading,\n          logoUrl: \"../../../static/index/love.png\",\n          mpcomid: \"22ce7d59-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-title grace-border\",\n        staticStyle: { \"margin-top\": \"60rpx\" }\n      },\n      [_c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [_vm._v(\"网友评论\")])]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-footer\" }, [\n      _c(\"view\", { staticClass: \"grace-input\" }, [\n        _c(\"view\", {\n          staticClass: \"grace-input-icon grace-iconfont icon-write\"\n        }),\n        _c(\"input\", {\n          staticStyle: { padding: \"5 0rpx\" },\n          attrs: { type: \"text\", placeholder: \"我要评论\" }\n        })\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"grace-items\", staticStyle: { padding: \"0 20rpx\" } },\n        [_vm._v(\"发布\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/detail.vue?vue&type=template&id=bc859f60&");
 
 /***/ }),
 
@@ -2809,6 +3086,212 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fconfession%2Fdetail\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/index/confession/detail.js');
+__wxRoute = 'pages/common/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/login.js';
+
+define('pages/common/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/common/login"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    loginNow: function loginNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请填写正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.setStorage({\n                key: 'loginStatus',\n                data: true });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: './reg' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?8903");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=template&id=4bae8701&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"image\", {\n      staticStyle: { width: \"100%\", height: \"120px\" },\n      attrs: { src: \"../../static/common/login/head.png\" }\n    }),\n    _c(\n      \"view\",\n      {\n        staticClass: \"grace-padding\",\n        staticStyle: { \"background-color\": \"#ff5ee\" }\n      },\n      [\n        _vm._m(0),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-form\",\n            staticStyle: { width: \"95%\", margin: \"0 auto\" }\n          },\n          [\n            _c(\n              \"form\",\n              {\n                attrs: { eventid: \"7ba207e8-2\" },\n                on: { submit: _vm.loginNow }\n              },\n              [\n                _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                  _c(\"view\", { staticClass: \"grace-label\" }, [\n                    _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n                  ]),\n                  _c(\"input\", {\n                    directives: [\n                      {\n                        name: \"model\",\n                        rawName: \"v-model\",\n                        value: _vm.phoneno,\n                        expression: \"phoneno\"\n                      }\n                    ],\n                    staticClass: \"input\",\n                    attrs: {\n                      type: \"number\",\n                      name: \"phone\",\n                      placeholder: \"请输入手机号\",\n                      eventid: \"7ba207e8-0\"\n                    },\n                    domProps: { value: _vm.phoneno },\n                    on: {\n                      input: function($event) {\n                        if ($event.target.composing) {\n                          return\n                        }\n                        _vm.phoneno = $event.target.value\n                      }\n                    }\n                  })\n                ]),\n                _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                  _c(\"view\", { staticClass: \"grace-label\" }, [\n                    _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n                  ]),\n                  _c(\"input\", {\n                    directives: [\n                      {\n                        name: \"model\",\n                        rawName: \"v-model\",\n                        value: _vm.password,\n                        expression: \"password\"\n                      }\n                    ],\n                    staticClass: \"input\",\n                    attrs: {\n                      type: \"text\",\n                      password: \"\",\n                      name: \"password\",\n                      placeholder: \"请输入密码\",\n                      eventid: \"7ba207e8-1\"\n                    },\n                    domProps: { value: _vm.password },\n                    on: {\n                      input: function($event) {\n                        if ($event.target.composing) {\n                          return\n                        }\n                        _vm.password = $event.target.value\n                      }\n                    }\n                  })\n                ]),\n                _c(\n                  \"button\",\n                  {\n                    staticStyle: {\n                      background: \"linear-gradient(to right,#fc6666,#ff8c55)\",\n                      \"margin-top\": \"30px\"\n                    },\n                    attrs: { \"form-type\": \"submit\", type: \"primary\" }\n                  },\n                  [\n                    _vm._v(\"登录\"),\n                    _c(\"text\", {\n                      staticClass: \"grace-iconfont icon-arrow-right\"\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          ],\n          1\n        ),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-center\",\n            staticStyle: { \"margin-top\": \"30rpx\", \"line-height\": \"50rpx\" },\n            attrs: { eventid: \"7ba207e8-3\" },\n            on: { tap: _vm.reg }\n          },\n          [_vm._v(\"还没有账号？点击注册\")]\n        ),\n        _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n          _c(\"view\", { staticClass: \"item-border\" }),\n          _vm._m(1),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-login-three\",\n              staticStyle: { \"margin-top\": \"8px\" }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-weixin\",\n                staticStyle: { color: \"#00c40b\" },\n                attrs: { eventid: \"7ba207e8-4\" },\n                on: { tap: _vm.loginWithWx }\n              }),\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-qq\",\n                staticStyle: { color: \"#01a1e5\" }\n              }),\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-weibo\",\n                staticStyle: { color: \"#fc4243\" }\n              })\n            ]\n          )\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      { staticClass: \"grace-center\", staticStyle: { margin: \"50 auto\" } },\n      [\n        _c(\"image\", {\n          staticStyle: {\n            width: \"68px\",\n            height: \"68px\",\n            \"border-radius\": \"8px\"\n          },\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Flogin\"}":
+/*!**********************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fcommon%2Flogin"} ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _login = _interopRequireDefault(__webpack_require__(/*! ./pages/common/login.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_login.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fcommon%252Flogin%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue":
+/*!***************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login.vue?vue&type=template&id=4bae8701& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=template&id=4bae8701&\");\n/* harmony import */ var _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./login.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./login.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./login.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?e658");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=style&index=0&lang=css&":
+/*!************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=style&index=0&lang=css& ***!
+  \************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./login.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\login.vue?vue&type=template&id=4bae8701&":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701& ***!
+  \**********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./login.vue?vue&type=template&id=4bae8701& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\login.vue?vue&type=template&id=4bae8701&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_login_vue_vue_type_template_id_4bae8701___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Flogin\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/common/login.js');
+__wxRoute = 'pages/common/reg';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/reg.js';
+
+define('pages/common/reg.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/common/reg"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      vcodeBtnName: \"获取验证码\",\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      yzm: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    changePre: function changePre(e) {\n      this.pnpre = this.pnpres[e.detail.value];\n    },\n    regNow: function regNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请填写正确的手机号\" },\n      {\n        name: \"yzm\",\n        checkType: \"string\",\n        checkRule: \"6,6\",\n        errorMsg: \"请正确填写短信验证码\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        var data = e.detail.value;\n        data.verificationCode = this.yzm;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'register',\n          method: 'POST',\n          data: data,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            }\n            console.log(JSON.stringify(res));\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n        console.log(JSON.stringify(e));\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    getVCode: function getVCode() {var _this = this;\n      var myreg = /^[1][1,2,3,4,5,7,8,9][0-9]{9}$/;\n      if (!myreg.test(this.phoneno)) {\n        uni.showToast({\n          title: '请填写正确的手机号码',\n          icon: \"none\" });\n\n        return false;\n      }\n      // 手机号码为 :  this.phoneno\n      // vcodeBtnName 可以阻止按钮被多次点击 多次发送 return 会终止函数继续运行\n      if (this.vcodeBtnName != '获取验证码' && this.vcodeBtnName != '重新发送') {\n        return;\n      }\n      this.vcodeBtnName = \"发送中...\";\n      // 与后端 api 交互，发送验证码\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'register/sendSms/' + this.phoneno,\n        method: 'GET',\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n          if (res.data.status === 200) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.yzm = res.data.verificationCode;\n            // 倒计时\n            _this.countNum = 120;\n            _this.countDownTimer = setInterval(function () {\n              this.countDown();\n            }.bind(_this), 1000);\n          } else if (res.data.status === 400) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.vcodeBtnName = \"获取验证码\";\n          }\n        },\n        fail: function fail() {\n          console.log(JSON.stringify('123213'));\n        },\n        complete: function complete() {} });\n\n    },\n    countDown: function countDown() {\n      if (this.countNum < 1) {\n        clearInterval(this.countDownTimer);\n        this.vcodeBtnName = \"重新发送\";\n        return;\n      }\n      this.countNum--;\n      this.vcodeBtnName = this.countNum + '秒重发';\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/reg.vue?vue&type=script&lang=js&?163a");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=template&id=315e22ac&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"grace-padding\" }, [\n    _vm._m(0),\n    _c(\n      \"view\",\n      {\n        staticClass: \"grace-form\",\n        staticStyle: { width: \"95%\", margin: \"0 auto\" }\n      },\n      [\n        _c(\n          \"form\",\n          { attrs: { eventid: \"9b50365a-3\" }, on: { submit: _vm.regNow } },\n          [\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.phoneno,\n                    expression: \"phoneno\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"number\",\n                  name: \"phone\",\n                  placeholder: \"请输入手机号\",\n                  eventid: \"9b50365a-0\"\n                },\n                domProps: { value: _vm.phoneno },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.phoneno = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.password,\n                    expression: \"password\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"text\",\n                  password: \"\",\n                  name: \"password\",\n                  placeholder: \"请输入密码\",\n                  eventid: \"9b50365a-1\"\n                },\n                domProps: { value: _vm.password },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.password = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-space-between item-border\",\n                staticStyle: { \"margin-top\": \"28rpx\", \"max-height\": \"95rpx\" }\n              },\n              [\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-items\", staticStyle: { width: \"70%\" } },\n                  [\n                    _c(\"view\", { staticClass: \"grace-label\" }, [\n                      _c(\"view\", { staticClass: \"iconfont icon-yanzhengma\" })\n                    ]),\n                    _c(\"input\", {\n                      staticClass: \"input\",\n                      attrs: {\n                        type: \"number\",\n                        name: \"yzm\",\n                        placeholder: \"请输入验证码\"\n                      }\n                    })\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  {\n                    staticStyle: {\n                      width: \"28%\",\n                      \"margin-left\": \"2%\",\n                      paading: \"0\"\n                    }\n                  },\n                  [\n                    _c(\n                      \"button\",\n                      {\n                        staticClass: \"login-sendmsg-btn\",\n                        attrs: { type: \"primary\", eventid: \"9b50365a-2\" },\n                        on: { tap: _vm.getVCode }\n                      },\n                      [_vm._v(_vm._s(_vm.vcodeBtnName))]\n                    )\n                  ],\n                  1\n                )\n              ]\n            ),\n            _c(\n              \"button\",\n              {\n                staticStyle: { background: \"#fc4243\", \"margin-top\": \"30px\" },\n                attrs: { \"form-type\": \"submit\", type: \"primary\" }\n              },\n              [\n                _vm._v(\"注册\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ]\n            )\n          ],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n      _c(\"view\", { staticClass: \"item-border\" }),\n      _vm._m(1),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-login-three\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weixin\",\n            staticStyle: { color: \"#00c40b\" },\n            attrs: { eventid: \"9b50365a-4\" },\n            on: { tap: _vm.loginWithWx }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-qq\",\n            staticStyle: { color: \"#01a1e5\" }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weibo\",\n            staticStyle: { color: \"#fc4243\" }\n          })\n        ]\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-center\",\n        staticStyle: { \"margin-top\": \"50px\", \"margin-bottom\": \"38px\" }\n      },\n      [\n        _c(\"image\", {\n          staticStyle: {\n            width: \"68px\",\n            height: \"68px\",\n            \"border-radius\": \"8px\"\n          },\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Freg\"}":
+/*!********************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fcommon%2Freg"} ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _reg = _interopRequireDefault(__webpack_require__(/*! ./pages/common/reg.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_reg.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fcommon%252Freg%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue":
+/*!*************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue ***!
+  \*************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reg.vue?vue&type=template&id=315e22ac& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=template&id=315e22ac&\");\n/* harmony import */ var _reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./reg.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./reg.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./reg.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/common/reg.vue?vue&type=script&lang=js&?b591");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./reg.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\reg.vue?vue&type=template&id=315e22ac&":
+/*!********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac& ***!
+  \********************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./reg.vue?vue&type=template&id=315e22ac& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\reg.vue?vue&type=template&id=315e22ac&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_reg_vue_vue_type_template_id_315e22ac___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Freg\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/common/reg.js');
 __wxRoute = 'pages/common/search';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/search.js';
 
 define('pages/common/search.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -2917,6 +3400,18 @@ __wxRoute = 'pages/common/checkSchool';__wxRouteBegin = true;__wxAppCurrentFile_
 define('pages/common/checkSchool.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
 (global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/common/checkSchool"],{
 
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/**\r\n                                                                                                      * 弹窗插件 \r\n                                                                                                      * 使用方法：\r\n                                                                                                      * \t\t1.引入组件：import simpleDialog from '@/components/simple-pro/dialog.vue';\r\n                                                                                                      * \t\t2.定义：components ，simpleDialog \r\n                                                                                                      * \t\t3.页面使用：<simpleDialog ref=\"simpleDialog2\"></simpleDialog> \r\n                                                                                                      * \t\t4.指定方法 this.$refs.simpleDialog2.func(); \r\n                                                                                                      * \t\t\r\n                                                                                                      * 自定义方法：\r\n                                                                                                      * \t\t1. alert() ; 支持在方法中传入 object 更改内容  该方法仅弹出一个按钮 （如果传入了object参数 其中的参数值优先级最高）\r\n                                                                                                      * \t\t2. confirm(); 同理 可传入object参数 该方法支持确定、取消 按钮  （如果传入了object参数 其中的参数值优先级最高）\r\n                                                                                                      */var _default =\n{\n  props: {\n    title: {\n      type: String,\n      default: '' },\n\n    message: {\n      type: String,\n      default: '你怎么会看到我^_^' },\n\n    contentClass: {\n      type: String,\n      default: 'has-pd-50 has-bg-white' },\n\n    // 内容对齐方式 center | left | right\n    messageAlign: {\n      type: String,\n      default: 'center' },\n\n    // 是否显示确认按钮\n    showConfirmButton: {\n      type: Boolean,\n      default: true },\n\n    // 是否显示取消按钮\n    showCancelButton: {\n      type: Boolean,\n      default: false },\n\n    // 确定按钮的文案\n    confirmButtonText: {\n      type: String,\n      default: '确定' },\n\n    // 取消按钮的文案\n    cancelButtonText: {\n      type: String,\n      default: '取消' } },\n\n\n\n  data: function data() {\n    return {\n      isVisibility: false };\n\n  },\n  methods: {\n    __show: function __show() {\n      this.isVisibility = true;\n    },\n    __close: function __close() {\n      this.isVisibility = false;\n    },\n    __setconfig: function __setconfig(options) {\n      if (options != undefined && typeof options == \"object\") {\n        if (options['title'] != undefined) this.title = options['title'];\n        if (options['message'] != undefined) this.message = options['message'];\n        if (options['contentClass'] != undefined) this.contentClass = options['contentClass'];\n        if (options['messageAlign'] != undefined) this.messageAlign = options['messageAlign'];\n        if (options['showConfirmButton'] != undefined) this.showConfirmButton = options['showConfirmButton'];\n        if (options['showCancelButton'] != undefined) this.showCancelButton = options['showCancelButton'];\n        if (options['confirmButtonText'] != undefined) this.confirmButtonText = options['confirmButtonText'];\n        if (options['cancelButtonText'] != undefined) this.cancelButtonText = options['cancelButtonText'];\n      }\n    },\n    alert: function alert(options) {\n      // <simpleDialog ref=\"simpleDialog\"></simpleDialog>\n      // this.$refs.simpleDialog.alert();\n      this.__setconfig(options);\n      this.__show();\n    },\n    confirm: function confirm(options) {\n      this.showCancelButton = true;\n      this.__setconfig(options);\n      this.__show();\n    },\n    handleClose: function handleClose() {\n      this.__close();\n      this.$emit('cancelButton');\n    },\n    handleConfirm: function handleConfirm() {\n      this.__close();\n      this.$emit('confirmButton');\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///components/dialog.vue?vue&type=script&lang=js&?ba52");
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\checkSchool.vue?vue&type=script&lang=js&":
 /*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=script&lang=js& ***!
@@ -2925,7 +3420,19 @@ define('pages/common/checkSchool.js',function(require, module, exports, window, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\nvar _qqmapWxJssdkMin = _interopRequireDefault(__webpack_require__(/*! ../../common/qqmap-wx-jssdk.min.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\common\\\\qqmap-wx-jssdk.min.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar qqmapsdk = new _qqmapWxJssdkMin.default({\n  key: \"7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO\" });var _default =\n\n{\n  data: function data() {\n    return {\n      schoolList: [],\n      nowSchool: {} };\n\n  },\n  onLoad: function onLoad() {\n    this.nowSchool = uni.getStorageSync('school');\n  },\n  onNavigationBarSearchInputChanged: function onNavigationBarSearchInputChanged(e) {\n    if (e.text === \"\") {\n      this.schoolList = [];\n      return;\n    }\n    var _self = this;\n    qqmapsdk.getSuggestion({\n      //获取输入框值并设置keyword参数\n      keyword: e.text, //用户输入的关键词\n      filter: 'category=大学,中学',\n      success: function success(res) {//搜索成功后的回调\n        var sug = [];\n        for (var i = 0; i < res.data.length; i++) {\n          sug.push({ // 获取返回结果，放到sug数组中\n            id: res.data[i].id,\n            title: res.data[i].title,\n            addr: res.data[i].address });\n\n        }\n        _self.schoolList = sug;\n      },\n      fail: function fail(error) {\n        console.error(JSON.stringify(error));\n      } });\n\n  },\n  methods: {\n    setSchool: function setSchool(school) {\n      uni.showModal({\n        title: '提示',\n        content: '确定切换到 ' + school.title + \" 吗？\\n学校位置:\" + school.addr,\n        success: function success(res) {\n          if (res.confirm) {\n            uni.setStorage({\n              key: 'school',\n              data: school,\n              fail: function fail() {\n                uni.showModal({\n                  title: '提示',\n                  content: '学校切换失败！',\n                  showCancel: false });\n\n              },\n              complete: function complete() {\n                uni.switchTab({\n                  url: '/pages/index/index' });\n\n              } });\n\n          }\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/checkSchool.vue?vue&type=script&lang=js&?9173");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _dialog = _interopRequireDefault(__webpack_require__(/*! ../../components/dialog.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\dialog.vue\"));\nvar _qqmapWxJssdkMin = _interopRequireDefault(__webpack_require__(/*! ../../common/qqmap-wx-jssdk.min.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\common\\\\qqmap-wx-jssdk.min.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar qqmapsdk = new _qqmapWxJssdkMin.default({\n  key: \"7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO\" });var _default =\n\n{\n  components: {\n    simpleDialog: _dialog.default },\n\n  data: function data() {\n    return {\n      schoolList: [],\n      nowSchool: {} };\n\n  },\n  onLoad: function onLoad() {\n    this.nowSchool = uni.getStorageSync('school');\n  },\n  onNavigationBarSearchInputChanged: function onNavigationBarSearchInputChanged(e) {\n    if (e.text === \"\") {\n      this.schoolList = [];\n      return;\n    }\n    var _self = this;\n    qqmapsdk.getSuggestion({\n      //获取输入框值并设置keyword参数\n      keyword: e.text, //用户输入的关键词\n      filter: 'category=大学,中学',\n      success: function success(res) {//搜索成功后的回调\n        var sug = [];\n        for (var i = 0; i < res.data.length; i++) {\n          sug.push({ // 获取返回结果，放到sug数组中\n            id: res.data[i].id,\n            title: res.data[i].title,\n            addr: res.data[i].address });\n\n        }\n        _self.schoolList = sug;\n      },\n      fail: function fail(error) {\n        console.error(JSON.stringify(error));\n      } });\n\n  },\n  methods: {\n    setSchool: function setSchool(school) {\n      this.nowSchool = school;\n      this.$refs.simpleDialog2.confirm({\n        title: '提示',\n        message: '确定切换到' + school.title + \"吗？ 学校位置:\" + school.addr });\n\n    },\n    confirmButton: function confirmButton() {\n      uni.setStorage({\n        key: 'school',\n        data: this.nowSchool,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        },\n        complete: function complete() {\n          uni.switchTab({\n            url: '/pages/index/index' });\n\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/checkSchool.vue?vue&type=script&lang=js&?9173");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", {}, [\n    _c(\n      \"view\",\n      { staticClass: \"modal-box \", class: _vm.isVisibility ? \"show\" : \"\" },\n      [\n        _c(\"view\", { staticClass: \"dialog\" }, [\n          _vm.title != \"\"\n            ? _c(\n                \"view\",\n                { staticClass: \"simple-bar justify-end has-borderb\" },\n                [\n                  _c(\"view\", { staticClass: \"content\" }, [\n                    _vm._v(_vm._s(_vm.title))\n                  ])\n                ]\n              )\n            : _vm._e(),\n          _c(\n            \"view\",\n            {\n              class: _vm.contentClass,\n              style: \"text-align:\" + _vm.messageAlign\n            },\n            [_vm._v(_vm._s(_vm.message))]\n          ),\n          _c(\"view\", { staticClass: \"simple-bar has-bordert\" }, [\n            _vm.showCancelButton == true\n              ? _c(\n                  \"view\",\n                  {\n                    staticClass: \"action has-mg-0 flex-sub text-green\",\n                    attrs: { eventid: \"3b86ca29-0\" },\n                    on: { tap: _vm.handleClose }\n                  },\n                  [_vm._v(_vm._s(_vm.cancelButtonText))]\n                )\n              : _vm._e(),\n            _vm.showConfirmButton == true\n              ? _c(\n                  \"view\",\n                  {\n                    staticClass: \"action has-mg-0 flex-sub has-borderl\",\n                    attrs: { eventid: \"3b86ca29-1\" },\n                    on: { tap: _vm.handleConfirm }\n                  },\n                  [_vm._v(_vm._s(_vm.confirmButtonText))]\n                )\n              : _vm._e()\n          ])\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true&");
 
 /***/ }),
 
@@ -2937,7 +3444,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _vm.schoolList.length === 0\n      ? _c(\n          \"view\",\n          {\n            staticClass: \"grace-center\",\n            staticStyle: { \"font-size\": \"32rpx\", color: \"#2F2F2F\" }\n          },\n          [_vm._v(\"当前学校:\" + _vm._s(_vm.nowSchool.title))]\n        )\n      : _vm._e(),\n    _vm.schoolList.length > 0\n      ? _c(\n          \"view\",\n          { staticClass: \"grace-list\" },\n          _vm._l(_vm.schoolList, function(school, index) {\n            return _c(\n              \"view\",\n              {\n                key: index,\n                staticClass: \"items\",\n                attrs: { eventid: \"691dc3db-0-\" + index },\n                on: {\n                  click: function($event) {\n                    _vm.setSchool(_vm.schoolList[index])\n                  }\n                }\n              },\n              [\n                _c(\"view\", { staticClass: \"title\" }, [\n                  _vm._v(_vm._s(school.title))\n                ]),\n                _c(\"view\", { staticClass: \"arrow-right\" })\n              ]\n            )\n          })\n        )\n      : _vm._e()\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _vm.schoolList.length === 0\n        ? _c(\n            \"view\",\n            {\n              staticClass: \"grace-center\",\n              staticStyle: { \"font-size\": \"32rpx\", color: \"#2F2F2F\" }\n            },\n            [_vm._v(\"当前学校:\" + _vm._s(_vm.nowSchool.title))]\n          )\n        : _vm._e(),\n      _vm.schoolList.length > 0\n        ? _c(\n            \"view\",\n            { staticClass: \"grace-list\" },\n            _vm._l(_vm.schoolList, function(school, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"items\",\n                  attrs: { eventid: \"691dc3db-0-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.setSchool(_vm.schoolList[index])\n                    }\n                  }\n                },\n                [\n                  _c(\"view\", { staticClass: \"title\" }, [\n                    _vm._v(_vm._s(school.title))\n                  ]),\n                  _c(\"view\", { staticClass: \"arrow-right\" })\n                ]\n              )\n            })\n          )\n        : _vm._e(),\n      _c(\"simpleDialog\", {\n        ref: \"simpleDialog2\",\n        attrs: { eventid: \"691dc3db-1\", mpcomid: \"691dc3db-0\" },\n        on: { confirmButton: _vm.confirmButton }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/checkSchool.vue?vue&type=template&id=a98e2698&");
 
 /***/ }),
 
@@ -2950,6 +3457,42 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError(\"Cannot call a class as a function\");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if (\"value\" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var ERROR_CONF = { KEY_ERR: 311, KEY_ERR_MSG: 'key格式错误', PARAM_ERR: 310, PARAM_ERR_MSG: '请求参数信息有误', SYSTEM_ERR: 600, SYSTEM_ERR_MSG: '系统错误', WX_ERR_CODE: 1000, WX_OK_CODE: 200 };var BASE_URL = 'https://apis.map.qq.com/ws/';var URL_SEARCH = BASE_URL + 'place/v1/search';var URL_SUGGESTION = BASE_URL + 'place/v1/suggestion';var URL_GET_GEOCODER = BASE_URL + 'geocoder/v1/';var URL_CITY_LIST = BASE_URL + 'district/v1/list';var URL_AREA_LIST = BASE_URL + 'district/v1/getchildren';var URL_DISTANCE = BASE_URL + 'distance/v1/';var EARTH_RADIUS = 6378136.49;var Utils = { location2query: function location2query(data) {if (typeof data == 'string') {return data;}var query = '';for (var i = 0; i < data.length; i++) {var d = data[i];if (!!query) {query += ';';}if (d.location) {query = query + d.location.lat + ',' + d.location.lng;}if (d.latitude && d.longitude) {query = query + d.latitude + ',' + d.longitude;}}return query;}, rad: function rad(d) {return d * Math.PI / 180.0;}, getEndLocation: function getEndLocation(location) {var to = location.split(';');var endLocation = [];for (var i = 0; i < to.length; i++) {endLocation.push({ lat: parseFloat(to[i].split(',')[0]), lng: parseFloat(to[i].split(',')[1]) });}return endLocation;}, getDistance: function getDistance(latFrom, lngFrom, latTo, lngTo) {var radLatFrom = this.rad(latFrom);var radLatTo = this.rad(latTo);var a = radLatFrom - radLatTo;var b = this.rad(lngFrom) - this.rad(lngTo);var distance = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLatFrom) * Math.cos(radLatTo) * Math.pow(Math.sin(b / 2), 2)));distance = distance * EARTH_RADIUS;distance = Math.round(distance * 10000) / 10000;return parseFloat(distance.toFixed(0));}, getWXLocation: function getWXLocation(success, fail, complete) {wx.getLocation({ type: 'gcj02', success: success, fail: fail, complete: complete });}, getLocationParam: function getLocationParam(location) {if (typeof location == 'string') {var locationArr = location.split(',');if (locationArr.length === 2) {location = { latitude: location.split(',')[0], longitude: location.split(',')[1] };} else {location = {};}}return location;}, polyfillParam: function polyfillParam(param) {param.success = param.success || function () {};param.fail = param.fail || function () {};param.complete = param.complete || function () {};}, checkParamKeyEmpty: function checkParamKeyEmpty(param, key) {if (!param[key]) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + key + '参数格式有误');param.fail(errconf);param.complete(errconf);return true;}return false;}, checkKeyword: function checkKeyword(param) {return !this.checkParamKeyEmpty(param, 'keyword');}, checkLocation: function checkLocation(param) {var location = this.getLocationParam(param.location);if (!location || !location.latitude || !location.longitude) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + ' location参数格式有误');param.fail(errconf);param.complete(errconf);return false;}return true;}, buildErrorConfig: function buildErrorConfig(errCode, errMsg) {return { status: errCode, message: errMsg };}, handleData: function handleData(param, data, feature) {if (feature === 'search') {var searchResult = data.data;var searchSimplify = [];for (var i = 0; i < searchResult.length; i++) {searchSimplify.push({ id: searchResult[i].id || null, title: searchResult[i].title || null, latitude: searchResult[i].location && searchResult[i].location.lat || null, longitude: searchResult[i].location && searchResult[i].location.lng || null, address: searchResult[i].address || null, category: searchResult[i].category || null, tel: searchResult[i].tel || null, adcode: searchResult[i].ad_info && searchResult[i].ad_info.adcode || null, city: searchResult[i].ad_info && searchResult[i].ad_info.city || null, district: searchResult[i].ad_info && searchResult[i].ad_info.district || null, province: searchResult[i].ad_info && searchResult[i].ad_info.province || null });}param.success(data, { searchResult: searchResult, searchSimplify: searchSimplify });} else if (feature === 'suggest') {var suggestResult = data.data;var suggestSimplify = [];for (var i = 0; i < suggestResult.length; i++) {suggestSimplify.push({ adcode: suggestResult[i].adcode || null, address: suggestResult[i].address || null, category: suggestResult[i].category || null, city: suggestResult[i].city || null, district: suggestResult[i].district || null, id: suggestResult[i].id || null, latitude: suggestResult[i].location && suggestResult[i].location.lat || null, longitude: suggestResult[i].location && suggestResult[i].location.lng || null, province: suggestResult[i].province || null, title: suggestResult[i].title || null, type: suggestResult[i].type || null });}param.success(data, { suggestResult: suggestResult, suggestSimplify: suggestSimplify });} else if (feature === 'reverseGeocoder') {var reverseGeocoderResult = data.result;var reverseGeocoderSimplify = { address: reverseGeocoderResult.address || null, latitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lat || null, longitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lng || null, adcode: reverseGeocoderResult.ad_info && reverseGeocoderResult.ad_info.adcode || null, city: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.city || null, district: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.district || null, nation: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.nation || null, province: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.province || null, street: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street || null, street_number: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street_number || null, recommend: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.recommend || null, rough: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.rough || null };if (reverseGeocoderResult.pois) {var pois = reverseGeocoderResult.pois;var poisSimplify = [];for (var i = 0; i < pois.length; i++) {poisSimplify.push({ id: pois[i].id || null, title: pois[i].title || null, latitude: pois[i].location && pois[i].location.lat || null, longitude: pois[i].location && pois[i].location.lng || null, address: pois[i].address || null, category: pois[i].category || null, adcode: pois[i].ad_info && pois[i].ad_info.adcode || null, city: pois[i].ad_info && pois[i].ad_info.city || null, district: pois[i].ad_info && pois[i].ad_info.district || null, province: pois[i].ad_info && pois[i].ad_info.province || null });}param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify, pois: pois, poisSimplify: poisSimplify });} else {param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify });}} else if (feature === 'geocoder') {var geocoderResult = data.result;var geocoderSimplify = { title: geocoderResult.title || null, latitude: geocoderResult.location && geocoderResult.location.lat || null, longitude: geocoderResult.location && geocoderResult.location.lng || null, adcode: geocoderResult.ad_info && geocoderResult.ad_info.adcode || null, province: geocoderResult.address_components && geocoderResult.address_components.province || null, city: geocoderResult.address_components && geocoderResult.address_components.city || null, district: geocoderResult.address_components && geocoderResult.address_components.district || null, street: geocoderResult.address_components && geocoderResult.address_components.street || null, street_number: geocoderResult.address_components && geocoderResult.address_components.street_number || null, level: geocoderResult.level || null };\n      param.success(data, { geocoderResult: geocoderResult, geocoderSimplify: geocoderSimplify });} else if (feature === 'getCityList') {var provinceResult = data.result[0];var cityResult = data.result[1];var districtResult = data.result[2];param.success(data, { provinceResult: provinceResult, cityResult: cityResult, districtResult: districtResult });} else if (feature === 'getDistrictByCityId') {var districtByCity = data.result[0];param.success(data, districtByCity);} else if (feature === 'calculateDistance') {var calculateDistanceResult = data.result.elements;var distance = [];for (var i = 0; i < calculateDistanceResult.length; i++) {distance.push(calculateDistanceResult[i].distance);}param.success(data, { calculateDistanceResult: calculateDistanceResult, distance: distance });} else {param.success(data);}}, buildWxRequestConfig: function buildWxRequestConfig(param, options, feature) {var that = this;options.header = { \"content-type\": \"application/json\" };options.method = 'GET';options.success = function (res) {var data = res.data;if (data.status === 0) {that.handleData(param, data, feature);} else {param.fail(data);}};options.fail = function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};options.complete = function (res) {var statusCode = +res.statusCode;switch (statusCode) {case ERROR_CONF.WX_ERR_CODE:{param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));break;}case ERROR_CONF.WX_OK_CODE:{var data = res.data;if (data.status === 0) {param.complete(data);} else {param.complete(that.buildErrorConfig(data.status, data.message));}break;}default:{param.complete(that.buildErrorConfig(ERROR_CONF.SYSTEM_ERR, ERROR_CONF.SYSTEM_ERR_MSG));}}};\n    return options;}, locationProcess: function locationProcess(param, locationsuccess, locationfail, locationcomplete) {var that = this;locationfail = locationfail || function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};locationcomplete = locationcomplete || function (res) {if (res.statusCode == ERROR_CONF.WX_ERR_CODE) {param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));}};if (!param.location) {that.getWXLocation(locationsuccess, locationfail, locationcomplete);} else if (that.checkLocation(param)) {var location = Utils.getLocationParam(param.location);locationsuccess(location);}} };var QQMapWX = /*#__PURE__*/function () {function QQMapWX(options) {_classCallCheck(this, QQMapWX);if (!options.key) {throw Error('key值不能为空');}this.key = options.key;}_createClass(QQMapWX, [{ key: \"search\", value: function search(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, orderby: options.orderby || '_distance', page_size: options.page_size || 10, page_index: options.page_index || 1, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}var distance = options.distance || \"1000\";var auto_extend = options.auto_extend || 1;var region = null;var rectangle = null;if (options.region) {region = options.region;}if (options.rectangle) {rectangle = options.rectangle;}var locationsuccess = function locationsuccess(result) {if (region && !rectangle) {requestParam.boundary = \"region(\" + region + \",\" + auto_extend + \",\" + result.latitude + \",\" + result.longitude + \")\";} else if (rectangle && !region) {requestParam.boundary = \"rectangle(\" + rectangle + \")\";} else {requestParam.boundary = \"nearby(\" + result.latitude + \",\" + result.longitude + \",\" + distance + \",\" + auto_extend + \")\";}wx.request(Utils.buildWxRequestConfig(options, { url: URL_SEARCH, data: requestParam }, 'search'));};Utils.locationProcess(options, locationsuccess);} }, { key: \"getSuggestion\", value: function getSuggestion(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, region: options.region || '全国', region_fix: options.region_fix || 0, policy: options.policy || 0, page_size: options.page_size || 10, page_index: options.page_index || 1, get_subpois: options.get_subpois || 0, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}if (options.location) {var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, \"suggest\"));};Utils.locationProcess(options, locationsuccess);} else {wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, \"suggest\"));}} }, { key: \"reverseGeocoder\", value: function reverseGeocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { coord_type: options.coord_type || 5, get_poi: options.get_poi || 0, output: 'json', key: that.key };if (options.poi_options) {requestParam.poi_options = options.poi_options;}var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'reverseGeocoder'));};Utils.locationProcess(options, locationsuccess);} }, { key: \"geocoder\", value: function geocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'address')) {return;}var requestParam = { address: options.address, output: 'json', key: that.key };if (options.region) {requestParam.region = options.region;}wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'geocoder'));} }, { key: \"getCityList\", value: function getCityList(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_CITY_LIST, data: requestParam }, 'getCityList'));} }, { key: \"getDistrictByCityId\", value: function getDistrictByCityId(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'id')) {return;}var requestParam = { id: options.id || '', output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_AREA_LIST, data: requestParam }, 'getDistrictByCityId'));} }, { key: \"calculateDistance\", value: function calculateDistance(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'to')) {return;}var requestParam = { mode: options.mode || 'walking', to: Utils.location2query(options.to), output: 'json', key: that.key };if (options.from) {options.location = options.from;}if (requestParam.mode == 'straight') {var locationsuccess = function locationsuccess(result) {var locationTo = Utils.getEndLocation(requestParam.to);var data = { message: \"query ok\", result: { elements: [] }, status: 0 };for (var i = 0; i < locationTo.length; i++) {data.result.elements.push({ distance: Utils.getDistance(result.latitude, result.longitude, locationTo[i].lat, locationTo[i].lng), duration: 0, from: { lat: result.latitude, lng: result.longitude }, to: { lat: locationTo[i].lat, lng: locationTo[i].lng } });}var calculateResult = data.result.elements;var distanceResult = [];for (var i = 0; i < calculateResult.length; i++) {distanceResult.push(calculateResult[i].distance);}return options.success(data, { calculateResult: calculateResult, distanceResult: distanceResult });};Utils.locationProcess(options, locationsuccess);} else {var locationsuccess = function locationsuccess(result) {requestParam.from = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_DISTANCE, data: requestParam }, 'calculateDistance'));};Utils.locationProcess(options, locationsuccess);}} }]);return QQMapWX;}();;module.exports = QQMapWX;\n\n//# sourceURL=uni-app:///common/qqmap-wx-jssdk.min.js?d81d");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue":
+/*!**************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dialog.vue?vue&type=template&id=7c0baba0&scoped=true& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&\");\n/* harmony import */ var _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialog.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\dialog.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  \"7c0baba0\",\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./dialog.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\dialog.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///components/dialog.vue?vue&type=script&lang=js&?d1e8");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&":
+/*!*********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./dialog.vue?vue&type=template&id=7c0baba0&scoped=true& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true&");
 
 /***/ }),
 
@@ -3004,6 +3547,109 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2FcheckSchool\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/common/checkSchool.js');
+__wxRoute = 'pages/common/comment';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/comment.js';
+
+define('pages/common/comment.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/common/comment"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      textPlaceholder: \"写评论\",\n      commentList: {} };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + '/confession/comment/' + parameter.articleId,\n      method: 'GET',\n      success: function success(res) {\n        _this.commentList = res.data.commentAndReplyList;\n      },\n      fail: function fail() {},\n      complete: function complete() {} });\n\n  },\n  methods: {\n    name: function name() {\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/comment.vue?vue&type=script&lang=js&?ecc6");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=template&id=efc08a12&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=template&id=efc08a12& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      { staticClass: \"grace-comment grace-padding\" },\n      _vm._l(_vm.commentList, function(comment, index) {\n        return _c(\n          \"view\",\n          { key: index },\n          [\n            _c(\"view\", { staticClass: \"grace-comment-list\" }, [\n              _c(\"view\", { staticClass: \"grace-comment-face\" }, [\n                _c(\"image\", {\n                  attrs: { src: comment.avatar, mode: \"widthFix\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-comment-body\" }, [\n                _c(\"view\", { staticClass: \"grace-comment-top\" }, [\n                  _c(\"text\", [_vm._v(_vm._s(comment.commentatorName))]),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-zan\" })\n                ]),\n                _c(\"view\", { staticClass: \"grace-comment-date\" }, [\n                  _c(\"text\", [_vm._v(_vm._s(comment.commentTime))]),\n                  _c(\"text\", [_vm._v(_vm._s(comment.thumbsUp))])\n                ]),\n                _c(\"view\", { staticClass: \"grace-comment-content\" }, [\n                  _vm._v(_vm._s(comment.commentContent))\n                ])\n              ])\n            ]),\n            _vm._l(comment.replyList, function(reply, index2) {\n              return _c(\n                \"view\",\n                { key: index2, staticClass: \"ymkj-reply-list\" },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"grace-comment-body\",\n                      staticStyle: { \"margin-left\": \"90rpx\" }\n                    },\n                    [\n                      _c(\"view\", { staticClass: \"ymkj-reply-top grace-rows\" }, [\n                        _c(\"text\", [_vm._v(_vm._s(reply.replierName))]),\n                        _c(\"text\", {\n                          staticClass:\n                            \"ymkj-reply-margin grace-iconfont icon-arrow-right\"\n                        }),\n                        _c(\"text\", { staticClass: \"ymkj-reply-margin\" }, [\n                          _vm._v(_vm._s(reply.toReplierName))\n                        ]),\n                        _c(\n                          \"text\",\n                          {\n                            staticClass: \"ymkj-reply-margin\",\n                            staticStyle: { color: \"gray\" }\n                          },\n                          [_vm._v(_vm._s(reply.replyTime))]\n                        )\n                      ]),\n                      _c(\"view\", { staticClass: \"grace-comment-content\" }, [\n                        _vm._v(_vm._s(reply.replyContent))\n                      ])\n                    ]\n                  )\n                ]\n              )\n            })\n          ],\n          2\n        )\n      })\n    ),\n    _c(\"view\", { staticClass: \"grace-footer\" }, [\n      _c(\"view\", { staticClass: \"grace-input\" }, [\n        _c(\"view\", {\n          staticClass: \"grace-input-icon grace-iconfont icon-write\"\n        }),\n        _c(\"input\", {\n          attrs: { type: \"text\", placeholder: _vm.textPlaceholder }\n        })\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"grace-items\", staticStyle: { padding: \"0 20rpx\" } },\n        [_vm._v(\"发布\")]\n      )\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=template&id=efc08a12&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Fcomment\"}":
+/*!************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fcommon%2Fcomment"} ***!
+  \************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _comment = _interopRequireDefault(__webpack_require__(/*! ./pages/common/comment.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_comment.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fcommon%252Fcomment%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue":
+/*!*****************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue ***!
+  \*****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./comment.vue?vue&type=template&id=efc08a12& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=template&id=efc08a12&\");\n/* harmony import */ var _comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./comment.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./comment.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./comment.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/common/comment.vue?vue&type=script&lang=js&?8bd4");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=style&index=0&lang=css&":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=style&index=0&lang=css& ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./comment.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\common\\comment.vue?vue&type=template&id=efc08a12&":
+/*!************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=template&id=efc08a12& ***!
+  \************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./comment.vue?vue&type=template&id=efc08a12& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\common\\\\comment.vue?vue&type=template&id=efc08a12&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_comment_vue_vue_type_template_id_efc08a12___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/comment.vue?vue&type=template&id=efc08a12&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fcommon%2Fcomment\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/common/comment.js');
 __wxRoute = 'pages/hot/hot';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/hot/hot.js';
 
 define('pages/hot/hot.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){

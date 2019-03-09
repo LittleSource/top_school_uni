@@ -26,26 +26,29 @@
 			<view class="grace-h5 grace-blod">网友评论</view>
 		</view>
 		<!-- 评论区 start -->
-		<view class="grace-padding" v-if="commentData.length > 0">
-			<view class="grace-comment-list" v-for="(comment,index) in commentData.commentAndReplyList" :key="index">
+		<view class="grace-padding" v-if="commentAndReplyList.length > 0">
+			<view class="grace-comment-list" v-for="(comment,index) in commentAndReplyList" :key="index">
 				<view class="grace-comment-face" style="width: 30px;">
 					<image :src="comment.avatar" mode="widthFix"></image>
 				</view>
 				<view class="grace-comment-body">
 					<view class="grace-comment-top">
 						<text>{{comment.commentatorName}}</text>
-						<text class="grace-iconfont icon-zan"> 120</text>
+						<text class="grace-iconfont icon-zan"> {{comment.thumbsUp}}</text>
 					</view>
-					<view class="grace-comment-content">{{comment.commentContent}}</view>
+					<view class="grace-comment-content" @click="goComment()">{{comment.commentContent}}</view>
 					<view class="grace-comment-date">
 						<text>{{comment.commentTime}}</text>
-						<text class="grace-comment-replay-btn" v-if="comment.replyList.length > 0">{{comment.replyList.length}}回复</text>
+						<text class="grace-comment-replay-btn" v-if="comment.replyList.length > 0" @click="goComment()">{{comment.replyList.length}}回复</text>
 					</view>
 				</view>
 			</view>
 		</view>
 		<view class="grace-more-bottom">
-			<navigator class="grace-border">{{commentData.other}}<text  v-if="commentData.length > 0" class="grace-iconfont icon-arrow-right"></text></navigator>
+			<navigator v-if="commentAndReplyList.length > 0" :url="'../../common/comment?type=confession&articleId='+article.articleId" class="grace-border">{{other}}
+				<text class="grace-iconfont icon-arrow-right"></text>
+			</navigator>
+			<view class="grace-border" v-else>{{other}}</view>
 		</view>
 		<!-- 评论区 end -->
 		<view style="height:100upx;"></view>
@@ -53,7 +56,7 @@
 		<view class="grace-footer">
 			<view class="grace-input">
 				<view class="grace-input-icon grace-iconfont icon-write"></view>
-				<input type="text" placeholder="写评论"></input>
+				<input type="text" style="padding:5 0upx;" placeholder="我要评论"></input>
 			</view>
 			<view class="grace-items" style="padding:0 20upx;">发布</view>
 		</view>
@@ -70,7 +73,8 @@
 			return {
 				graceFullLoading: false,
 				article: {},
-				commentData: {}
+				commentAndReplyList:[],
+				other:""
 			}
 		},
 		onLoad(parameter) {
@@ -79,17 +83,9 @@
 				url: this.GLOBAL.serverSrc + 'confession/article/' + parameter.id,
 				method: 'GET',
 				success: res => {
-					this.article = res.data;
-					uni.request({
-						url: this.GLOBAL.serverSrc + 'confession/comment/' + parameter.id,
-						method: 'GET',
-						success: res => {
-							this.commentData = res.data;
-							//console.log(JSON.stringify(res));
-						},
-						fail: () => {},
-						complete: () => {}
-					});
+					this.article = res.data.articleContent;
+					this.commentAndReplyList = res.data.commentAndReplyList;
+					this.other = res.data.other;
 				},
 				fail: () => {
 
@@ -104,6 +100,11 @@
 			showImage() {
 				uni.previewImage({
 					urls: this.article.imagesList
+				});
+			},
+			goComment(){
+				uni.navigateTo({
+					url: '../../common/comment?type=confession&articleId=' + this.article.articleId
 				});
 			}
 		}

@@ -2,13 +2,14 @@
 	<view class="body">
 		<view class="header">
 			<view class="status-bar"></view><!-- 状态栏占位 -->
-			<view class="info">
-				<image class="title school-img" src='../../static/school/tjdzxxjsxy.png' @click="skip('../common/checkSchool')"></image>
-				<view class="title serach" @click="skip('../common/search')">
+			<view class="info grace-rows">
+				<!-- <image class="title school-img" src="../../static/school/checkSchool.png" @click="skip('../common/checkSchool')"></image> -->
+				<view class="iconfont icon-changeschool" @click="skip('../common/checkSchool')"></view>
+				<view class="serach title" @click="skip('../common/search')">
 					<view class="grace-iconfont icon-search serach-icon"></view>
 					<view class="serach-text">搜索内容</view>
 				</view>
-				<view class="iconfont icon-jiahao title" id="btn" @click="showPopupMenu()"></view>
+				<view class="iconfont icon-jiahao title" style="font-size: 24px;" @click="showPopupMenu()"></view>
 			</view>
 		</view>
 		<view class="index grace-padding" style="position:relative;">
@@ -26,7 +27,7 @@
 						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
-				<view class="grace-boxes" @click="skip('./confession/detail')">
+				<view class="grace-boxes" @click="skip('../common/login')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
@@ -133,7 +134,11 @@
 			}
 		},
 		onLoad: function() {
-
+			if(uni.getStorageSync('loginStatus') !== true){
+				uni.redirectTo({
+					url: '../common/login'
+				});
+			}
 		},
 		methods: {
 			skip(url){
@@ -179,21 +184,20 @@
 	}
 
 	.header>.info>.title {
-		float: left;
-		margin-left: 15upx;
-		margin-top: 10upx;
-		font-size: 24px;
+		margin-left: 8upx;
+		font-size: 22px;
 	}
-	.header>.info>.school-img{
-		height: 58upx;width: 58upx;
+	.icon-changeschool{
+		font-size: 22px;
+		margin-right: 5px;
 	}
-
+	
 	.header>.info>.serach {
 		height: 30px;
 		width: 590upx;
 		border-radius: 15px;
 		overflow: hidden;
-		background-color: #FFFFFF !important;
+		background-color: #F5F5F5 !important;
 	}
 
 	.header>.info>.serach>.serach-icon {
@@ -221,7 +225,6 @@
 		overflow: hidden;
 		border-radius: 10px;
 	}
-
 
 	.grace-boxes-img {
 		width: 48px;

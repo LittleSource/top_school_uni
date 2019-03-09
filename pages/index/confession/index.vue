@@ -17,7 +17,7 @@
 				</view>
 				<view class="grace-news-list-info" style="width: 96%;padding-left: 2%;">
 					<view>
-						<text class="iconfont icon-heart2"></text>{{item.thumbsUp}}
+						<text class="iconfont icon-heart1"></text>{{item.thumbsUp}}
 						<text class="iconfont icon-fire" style="margin-left:18upx;"></text>{{item.readingVolume}}
 					</view>
 				</view>
