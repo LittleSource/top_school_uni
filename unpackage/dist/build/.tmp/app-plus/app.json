@@ -3,8 +3,11 @@
     "pages/index/index",
     "pages/index/confession/index",
     "pages/index/confession/detail",
+    "pages/common/login",
+    "pages/common/reg",
     "pages/common/search",
     "pages/common/checkSchool",
+    "pages/common/comment",
     "pages/hot/hot",
     "pages/message/message",
     "pages/my/my"
@@ -51,5 +54,5 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "测试版"
+  "appname": "TOP校园"
 }

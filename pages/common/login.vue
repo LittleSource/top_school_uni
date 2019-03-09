@@ -1,9 +1,9 @@
 <template>
 	<view>
 		<image src="../../static/common/login/head.png" style="width: 100%;height: 120px"></image>
-		<view class="grace-padding" style="background-color: #ff5ee;">
-			<view style="margin: 50 auto;" class="grace-center">
-				<image src='../../static/logo.png' style='width:68px; height:68px; border-radius:8px;'></image>
+		<view class="grace-padding">
+			<view style="margin-top: 30px;margin-bottom: 50px;" class="grace-center">
+				<image class="ym-logo" src='../../static/logo.png'></image>
 			</view>
 			<view class="grace-form" style="width: 95%;margin:0 auto">
 				<form @submit="loginNow">
@@ -24,7 +24,7 @@
 					</button>
 				</form>
 			</view>
-			<view class="grace-center" style="margin-top:30upx; line-height:50upx;" @tap="reg">
+			<view style="margin-top:30upx;margin-right: 2%; line-height:50upx;float:right" @tap="reg">
 				还没有账号？点击注册
 			</view>
 			<!-- 第三方登录 -->
@@ -65,7 +65,7 @@
 				var rule = [{
 					name: "phone",
 					checkType: "phoneno",
-					errorMsg: "请填写正确的手机号"
+					errorMsg: "请输入正确的手机号"
 				}, {
 					name: "password",
 					checkType: "string",
@@ -89,7 +89,7 @@
 								uni.reLaunch({
 									url: '../index/index'
 								});
-							}else{
+							} else {
 								uni.showToast({
 									title: res.data.msg,
 									icon: "none"
@@ -115,6 +115,18 @@
 	}
 </script>
 <style>
+	page {
+		background-color: #fffcfa;
+	}
+
+	.ym-logo {
+		width: 68px;
+		height: 68px;
+		border-radius: 8px;
+		webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .15);
+		box-shadow: 3px 3px 4px rgba(0, 0, 0, .15);
+	}
+
 	.item-border {
 		border-bottom: 1px solid #E0E0E0 !important;
 	}

@@ -2,6 +2,7 @@
   "navigationBarTextStyle": "white",
   "navigationStyle": "custom",
   "navigationBarBackgroundColor": "#fc4243",
+  "enablePullDownRefresh": true,
   "scrollIndicator": "none",
   "titleNView": false
 }

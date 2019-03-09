@@ -1,7 +1,7 @@
 <template>
 	<view class="grace-padding">
 		<view style="margin-top:50px;margin-bottom: 38px;" class="grace-center">
-			<image src='../../static/logo.png' style='width:68px; height:68px; border-radius:8px;'></image>
+			<image class="ym-logo" src='../../static/logo.png'></image>
 		</view>
 		<view class="grace-form" style="width: 95%;margin:0 auto;">
 			<form @submit="regNow">
@@ -75,12 +75,12 @@
 				var rule = [{
 					name: "phone",
 					checkType: "phoneno",
-					errorMsg: "请填写正确的手机号"
+					errorMsg: "请输入正确的手机号"
 				}, {
 					name: "yzm",
 					checkType: "string",
 					checkRule: "6,6",
-					errorMsg: "请正确填写短信验证码"
+					errorMsg: "短信验证码输入错误"
 				}, {
 					name: "password",
 					checkType: "string",
@@ -179,6 +179,14 @@
 	}
 </script>
 <style>
+	.ym-logo {
+		width: 68px;
+		height: 68px;
+		border-radius: 8px;
+		webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .15);
+		box-shadow: 3px 3px 4px rgba(0, 0, 0, .15);
+	}
+
 	.item-border {
 		border-bottom: 1px solid #E0E0E0 !important;
 	}

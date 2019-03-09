@@ -33,20 +33,19 @@
 	        align-items: center;
 }
 .header>.info>.title {
-	float: left;
-	margin-left: 15rpx;
-	margin-top: 10rpx;
-	font-size: 24px;
+	margin-left: 8rpx;
+	font-size: 22px;
 }
-.header>.info>.school-img{
-	height: 58rpx;width: 58rpx;
+.icon-changeschool{
+	font-size: 22px;
+	margin-right: 5px;
 }
 .header>.info>.serach {
 	height: 30px;
 	width: 590rpx;
 	border-radius: 15px;
 	overflow: hidden;
-	background-color: #FFFFFF !important;
+	background-color: #F5F5F5 !important;
 }
 .header>.info>.serach>.serach-icon {
 	float: left;

@@ -1313,28 +1313,19 @@ __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/components/dialog.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./components/dialog.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/reg.vue.wxml','./pages/common/reg.wxml','./reg.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./components/dialog.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/reg.vue.wxml','./pages/common/reg.wxml','./reg.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
-var oB=e_[x[0]].i
-_ai(oB,x[1],e_,x[0],1,1)
-_ai(oB,x[2],e_,x[0],2,2)
-_ai(oB,x[3],e_,x[0],3,2)
-_ai(oB,x[4],e_,x[0],4,2)
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4]],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["3b86ca29"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
+d_[x[1]]={}
+d_[x[1]]["3b86ca29"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[5]+':3b86ca29'
+var b=x[1]+':3b86ca29'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/dialog.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[1]);return}
 p_[b]=true
 try{
 cs.push("./components/dialog.vue.wxml:view:1:141")
@@ -1379,14 +1370,14 @@ var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 return r
 }
-e_[x[5]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[6]]={}
-d_[x[6]]["5faf9cdb"]=function(e,s,r,gg){
+e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[2]]={}
+d_[x[2]]["5faf9cdb"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[6]+':5faf9cdb'
+var b=x[2]+':5faf9cdb'
 r.wxVkey=b
 gg.f=$gdc(f_["./global.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[2]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1400,14 +1391,14 @@ var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
 return r
 }
-e_[x[6]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["93f8d13c"]=function(e,s,r,gg){
+e_[x[2]]={f:m2,j:[],i:[],ti:[],ic:[]}
+d_[x[3]]={}
+d_[x[3]]["93f8d13c"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[7]+':93f8d13c'
+var b=x[3]+':93f8d13c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceAlert.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[3]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1421,14 +1412,14 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[7]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-d_[x[8]]["dd17cd9a"]=function(e,s,r,gg){
+e_[x[3]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[4]]={}
+d_[x[4]]["dd17cd9a"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[8]+':dd17cd9a'
+var b=x[4]+':dd17cd9a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceFullLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[8]);return}
+if(p_[b]){_wl(b,x[4]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1449,14 +1440,14 @@ var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
 return r
 }
-e_[x[8]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["15fc9547"]=function(e,s,r,gg){
+e_[x[4]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+d_[x[5]]["15fc9547"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[9]+':15fc9547'
+var b=x[5]+':15fc9547'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceHeader.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
 cs.push("./graceUI/components/graceHeader.vue.wxml:view:1:27")
@@ -1489,14 +1480,14 @@ var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 return r
 }
-e_[x[9]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["e380f47c"]=function(e,s,r,gg){
+e_[x[5]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[6]]={}
+d_[x[6]]["e380f47c"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[10]+':e380f47c'
+var b=x[6]+':e380f47c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[6]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1524,14 +1515,14 @@ var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
 return r
 }
-e_[x[10]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
-d_[x[11]]["691dc3db"]=function(e,s,r,gg){
+e_[x[6]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["691dc3db"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[11]+':691dc3db'
+var b=x[7]+':691dc3db'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/checkSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[11]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/checkSchool.vue.wxml:view:1:71")
@@ -1553,7 +1544,7 @@ var fE=_v()
 _(oB,fE)
 cs.push("./pages/common/checkSchool.vue.wxml:template:1:666")
 var cF=_oz(z,8,e,s,gg)
-var hG=_gd(x[11],cF,e_,d_)
+var hG=_gd(x[7],cF,e_,d_)
 if(hG){
 var oH=_1z(z,5,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1561,7 +1552,7 @@ fE.wxXCkey=3
 hG(oH,oH,fE,gg)
 gg.f=cur_globalf
 }
-else _w(cF,x[11],1,842)
+else _w(cF,x[7],1,842)
 cs.pop()
 xC.wxXCkey=1
 oD.wxXCkey=1
@@ -1576,42 +1567,42 @@ return r
 }
 var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
-var oJ=e_[x[11]].i
-_ai(oJ,x[1],e_,x[11],1,1)
-oJ.pop()
+var cI=e_[x[7]].i
+_ai(cI,x[8],e_,x[7],1,1)
+cI.pop()
 return r
 }
-e_[x[11]]={f:m7,j:[],i:[],ti:[x[1]],ic:[]}
-d_[x[12]]={}
+e_[x[7]]={f:m7,j:[],i:[],ti:[x[8]],ic:[]}
+d_[x[9]]={}
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
-var aL=e_[x[12]].i
-_ai(aL,x[13],e_,x[12],1,1)
-var tM=_v()
-_(r,tM)
+var lK=e_[x[9]].i
+_ai(lK,x[10],e_,x[9],1,1)
+var aL=_v()
+_(r,aL)
 cs.push("./pages/common/checkSchool.wxml:template:2:6")
-var eN=_oz(z,1,e,s,gg)
-var bO=_gd(x[12],eN,e_,d_)
-if(bO){
-var oP=_1z(z,0,e,s,gg) || {}
+var tM=_oz(z,1,e,s,gg)
+var eN=_gd(x[9],tM,e_,d_)
+if(eN){
+var bO=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-tM.wxXCkey=3
-bO(oP,oP,tM,gg)
+aL.wxXCkey=3
+eN(bO,bO,aL,gg)
 gg.f=cur_globalf
 }
-else _w(eN,x[12],2,18)
+else _w(tM,x[9],2,18)
 cs.pop()
-aL.pop()
+lK.pop()
 return r
 }
-e_[x[12]]={f:m8,j:[],i:[],ti:[x[13]],ic:[]}
-d_[x[14]]={}
-d_[x[14]]["3f7de31e"]=function(e,s,r,gg){
+e_[x[9]]={f:m8,j:[],i:[],ti:[x[10]],ic:[]}
+d_[x[11]]={}
+d_[x[11]]["3f7de31e"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[14]+':3f7de31e'
+var b=x[11]+':3f7de31e'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/comment.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[14]);return}
+if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1625,37 +1616,37 @@ var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
 return r
 }
-e_[x[14]]={f:m9,j:[],i:[],ti:[],ic:[]}
-d_[x[15]]={}
+e_[x[11]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[12]]={}
 var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
-var fS=e_[x[15]].i
-_ai(fS,x[16],e_,x[15],1,1)
-var cT=_v()
-_(r,cT)
+var oR=e_[x[12]].i
+_ai(oR,x[13],e_,x[12],1,1)
+var fS=_v()
+_(r,fS)
 cs.push("./pages/common/comment.wxml:template:2:6")
-var hU=_oz(z,1,e,s,gg)
-var oV=_gd(x[15],hU,e_,d_)
-if(oV){
-var cW=_1z(z,0,e,s,gg) || {}
+var cT=_oz(z,1,e,s,gg)
+var hU=_gd(x[12],cT,e_,d_)
+if(hU){
+var oV=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cT.wxXCkey=3
-oV(cW,cW,cT,gg)
+fS.wxXCkey=3
+hU(oV,oV,fS,gg)
 gg.f=cur_globalf
 }
-else _w(hU,x[15],2,18)
+else _w(cT,x[12],2,18)
 cs.pop()
-fS.pop()
+oR.pop()
 return r
 }
-e_[x[15]]={f:m10,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
-d_[x[17]]["7ba207e8"]=function(e,s,r,gg){
+e_[x[12]]={f:m10,j:[],i:[],ti:[x[13]],ic:[]}
+d_[x[14]]={}
+d_[x[14]]["7ba207e8"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[17]+':7ba207e8'
+var b=x[14]+':7ba207e8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[17]);return}
+if(p_[b]){_wl(b,x[14]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1669,37 +1660,37 @@ var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
 return r
 }
-e_[x[17]]={f:m11,j:[],i:[],ti:[],ic:[]}
-d_[x[18]]={}
+e_[x[14]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[15]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var aZ=e_[x[18]].i
-_ai(aZ,x[19],e_,x[18],1,1)
-var t1=_v()
-_(r,t1)
+var lY=e_[x[15]].i
+_ai(lY,x[16],e_,x[15],1,1)
+var aZ=_v()
+_(r,aZ)
 cs.push("./pages/common/login.wxml:template:2:6")
-var e2=_oz(z,1,e,s,gg)
-var b3=_gd(x[18],e2,e_,d_)
-if(b3){
-var o4=_1z(z,0,e,s,gg) || {}
+var t1=_oz(z,1,e,s,gg)
+var e2=_gd(x[15],t1,e_,d_)
+if(e2){
+var b3=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-t1.wxXCkey=3
-b3(o4,o4,t1,gg)
+aZ.wxXCkey=3
+e2(b3,b3,aZ,gg)
 gg.f=cur_globalf
 }
-else _w(e2,x[18],2,18)
+else _w(t1,x[15],2,18)
 cs.pop()
-aZ.pop()
+lY.pop()
 return r
 }
-e_[x[18]]={f:m12,j:[],i:[],ti:[x[19]],ic:[]}
-d_[x[20]]={}
-d_[x[20]]["9b50365a"]=function(e,s,r,gg){
+e_[x[15]]={f:m12,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[17]]={}
+d_[x[17]]["9b50365a"]=function(e,s,r,gg){
 var z=gz$gwx_14()
-var b=x[20]+':9b50365a'
+var b=x[17]+':9b50365a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[20]);return}
+if(p_[b]){_wl(b,x[17]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1713,37 +1704,37 @@ var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
 return r
 }
-e_[x[20]]={f:m13,j:[],i:[],ti:[],ic:[]}
-d_[x[21]]={}
+e_[x[17]]={f:m13,j:[],i:[],ti:[],ic:[]}
+d_[x[18]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var f7=e_[x[21]].i
-_ai(f7,x[22],e_,x[21],1,1)
-var c8=_v()
-_(r,c8)
+var o6=e_[x[18]].i
+_ai(o6,x[19],e_,x[18],1,1)
+var f7=_v()
+_(r,f7)
 cs.push("./pages/common/reg.wxml:template:2:6")
-var h9=_oz(z,1,e,s,gg)
-var o0=_gd(x[21],h9,e_,d_)
-if(o0){
-var cAB=_1z(z,0,e,s,gg) || {}
+var c8=_oz(z,1,e,s,gg)
+var h9=_gd(x[18],c8,e_,d_)
+if(h9){
+var o0=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-c8.wxXCkey=3
-o0(cAB,cAB,c8,gg)
+f7.wxXCkey=3
+h9(o0,o0,f7,gg)
 gg.f=cur_globalf
 }
-else _w(h9,x[21],2,18)
+else _w(c8,x[18],2,18)
 cs.pop()
-f7.pop()
+o6.pop()
 return r
 }
-e_[x[21]]={f:m14,j:[],i:[],ti:[x[22]],ic:[]}
-d_[x[23]]={}
-d_[x[23]]["04015d09"]=function(e,s,r,gg){
+e_[x[18]]={f:m14,j:[],i:[],ti:[x[19]],ic:[]}
+d_[x[20]]={}
+d_[x[20]]["04015d09"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[23]+':04015d09'
+var b=x[20]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[23]);return}
+if(p_[b]){_wl(b,x[20]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -1768,37 +1759,37 @@ var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
 return r
 }
-e_[x[23]]={f:m15,j:[],i:[],ti:[],ic:[]}
-d_[x[24]]={}
+e_[x[20]]={f:m15,j:[],i:[],ti:[],ic:[]}
+d_[x[21]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var aDB=e_[x[24]].i
-_ai(aDB,x[25],e_,x[24],1,1)
-var tEB=_v()
-_(r,tEB)
+var lCB=e_[x[21]].i
+_ai(lCB,x[22],e_,x[21],1,1)
+var aDB=_v()
+_(r,aDB)
 cs.push("./pages/common/search.wxml:template:2:6")
-var eFB=_oz(z,1,e,s,gg)
-var bGB=_gd(x[24],eFB,e_,d_)
-if(bGB){
-var oHB=_1z(z,0,e,s,gg) || {}
+var tEB=_oz(z,1,e,s,gg)
+var eFB=_gd(x[21],tEB,e_,d_)
+if(eFB){
+var bGB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-tEB.wxXCkey=3
-bGB(oHB,oHB,tEB,gg)
+aDB.wxXCkey=3
+eFB(bGB,bGB,aDB,gg)
 gg.f=cur_globalf
 }
-else _w(eFB,x[24],2,18)
+else _w(tEB,x[21],2,18)
 cs.pop()
-aDB.pop()
+lCB.pop()
 return r
 }
-e_[x[24]]={f:m16,j:[],i:[],ti:[x[25]],ic:[]}
-d_[x[26]]={}
-d_[x[26]]["98a44ff0"]=function(e,s,r,gg){
+e_[x[21]]={f:m16,j:[],i:[],ti:[x[22]],ic:[]}
+d_[x[23]]={}
+d_[x[23]]["98a44ff0"]=function(e,s,r,gg){
 var z=gz$gwx_18()
-var b=x[26]+':98a44ff0'
+var b=x[23]+':98a44ff0'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[26]);return}
+if(p_[b]){_wl(b,x[23]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1812,37 +1803,37 @@ var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
 return r
 }
-e_[x[26]]={f:m17,j:[],i:[],ti:[],ic:[]}
-d_[x[27]]={}
+e_[x[23]]={f:m17,j:[],i:[],ti:[],ic:[]}
+d_[x[24]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var fKB=e_[x[27]].i
-_ai(fKB,x[28],e_,x[27],1,1)
-var cLB=_v()
-_(r,cLB)
+var oJB=e_[x[24]].i
+_ai(oJB,x[25],e_,x[24],1,1)
+var fKB=_v()
+_(r,fKB)
 cs.push("./pages/hot/hot.wxml:template:2:6")
-var hMB=_oz(z,1,e,s,gg)
-var oNB=_gd(x[27],hMB,e_,d_)
-if(oNB){
-var cOB=_1z(z,0,e,s,gg) || {}
+var cLB=_oz(z,1,e,s,gg)
+var hMB=_gd(x[24],cLB,e_,d_)
+if(hMB){
+var oNB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cLB.wxXCkey=3
-oNB(cOB,cOB,cLB,gg)
+fKB.wxXCkey=3
+hMB(oNB,oNB,fKB,gg)
 gg.f=cur_globalf
 }
-else _w(hMB,x[27],2,18)
+else _w(cLB,x[24],2,18)
 cs.pop()
-fKB.pop()
+oJB.pop()
 return r
 }
-e_[x[27]]={f:m18,j:[],i:[],ti:[x[28]],ic:[]}
-d_[x[29]]={}
-d_[x[29]]["22ce7d59"]=function(e,s,r,gg){
+e_[x[24]]={f:m18,j:[],i:[],ti:[x[25]],ic:[]}
+d_[x[26]]={}
+d_[x[26]]["22ce7d59"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[29]+':22ce7d59'
+var b=x[26]+':22ce7d59'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[29]);return}
+if(p_[b]){_wl(b,x[26]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
@@ -1874,7 +1865,7 @@ var lK=_v()
 _(oB,lK)
 cs.push("./pages/index/confession/detail.vue.wxml:template:1:3471")
 var aL=_oz(z,9,e,s,gg)
-var tM=_gd(x[29],aL,e_,d_)
+var tM=_gd(x[26],aL,e_,d_)
 if(tM){
 var eN=_1z(z,8,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1882,7 +1873,7 @@ lK.wxXCkey=3
 tM(eN,eN,lK,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[29],1,3583)
+else _w(aL,x[26],1,3583)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -1896,42 +1887,42 @@ return r
 }
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var lQB=e_[x[29]].i
-_ai(lQB,x[2],e_,x[29],1,1)
-lQB.pop()
+var oPB=e_[x[26]].i
+_ai(oPB,x[27],e_,x[26],1,1)
+oPB.pop()
 return r
 }
-e_[x[29]]={f:m19,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[30]]={}
+e_[x[26]]={f:m19,j:[],i:[],ti:[x[27]],ic:[]}
+d_[x[28]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var tSB=e_[x[30]].i
-_ai(tSB,x[31],e_,x[30],1,1)
-var eTB=_v()
-_(r,eTB)
+var aRB=e_[x[28]].i
+_ai(aRB,x[29],e_,x[28],1,1)
+var tSB=_v()
+_(r,tSB)
 cs.push("./pages/index/confession/detail.wxml:template:2:6")
-var bUB=_oz(z,1,e,s,gg)
-var oVB=_gd(x[30],bUB,e_,d_)
-if(oVB){
-var xWB=_1z(z,0,e,s,gg) || {}
+var eTB=_oz(z,1,e,s,gg)
+var bUB=_gd(x[28],eTB,e_,d_)
+if(bUB){
+var oVB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eTB.wxXCkey=3
-oVB(xWB,xWB,eTB,gg)
+tSB.wxXCkey=3
+bUB(oVB,oVB,tSB,gg)
 gg.f=cur_globalf
 }
-else _w(bUB,x[30],2,18)
+else _w(eTB,x[28],2,18)
 cs.pop()
-tSB.pop()
+aRB.pop()
 return r
 }
-e_[x[30]]={f:m20,j:[],i:[],ti:[x[31]],ic:[]}
-d_[x[32]]={}
-d_[x[32]]["227202ca"]=function(e,s,r,gg){
+e_[x[28]]={f:m20,j:[],i:[],ti:[x[29]],ic:[]}
+d_[x[30]]={}
+d_[x[30]]["227202ca"]=function(e,s,r,gg){
 var z=gz$gwx_22()
-var b=x[32]+':227202ca'
+var b=x[30]+':227202ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[32]);return}
+if(p_[b]){_wl(b,x[30]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
@@ -1941,7 +1932,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1603")
 var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[32],oD,e_,d_)
+var fE=_gd(x[30],oD,e_,d_)
 if(fE){
 var cF=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1949,13 +1940,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[32],1,1674)
+else _w(oD,x[30],1,1674)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1697")
 var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[32],oH,e_,d_)
+var cI=_gd(x[30],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1963,7 +1954,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[32],1,1768)
+else _w(oH,x[30],1,1768)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -1976,34 +1967,34 @@ return r
 }
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
-var fYB=e_[x[32]].i
-_ai(fYB,x[3],e_,x[32],1,1)
-_ai(fYB,x[4],e_,x[32],1,59)
-fYB.pop()
-fYB.pop()
+var oXB=e_[x[30]].i
+_ai(oXB,x[31],e_,x[30],1,1)
+_ai(oXB,x[32],e_,x[30],1,59)
+oXB.pop()
+oXB.pop()
 return r
 }
-e_[x[32]]={f:m21,j:[],i:[],ti:[x[3],x[4]],ic:[]}
+e_[x[30]]={f:m21,j:[],i:[],ti:[x[31],x[32]],ic:[]}
 d_[x[33]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var h1B=e_[x[33]].i
-_ai(h1B,x[34],e_,x[33],1,1)
-var o2B=_v()
-_(r,o2B)
+var cZB=e_[x[33]].i
+_ai(cZB,x[34],e_,x[33],1,1)
+var h1B=_v()
+_(r,h1B)
 cs.push("./pages/index/confession/index.wxml:template:2:6")
-var c3B=_oz(z,1,e,s,gg)
-var o4B=_gd(x[33],c3B,e_,d_)
-if(o4B){
-var l5B=_1z(z,0,e,s,gg) || {}
+var o2B=_oz(z,1,e,s,gg)
+var c3B=_gd(x[33],o2B,e_,d_)
+if(c3B){
+var o4B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o2B.wxXCkey=3
-o4B(l5B,l5B,o2B,gg)
+h1B.wxXCkey=3
+c3B(o4B,o4B,h1B,gg)
 gg.f=cur_globalf
 }
-else _w(c3B,x[33],2,18)
+else _w(o2B,x[33],2,18)
 cs.pop()
-h1B.pop()
+cZB.pop()
 return r
 }
 e_[x[33]]={f:m22,j:[],i:[],ti:[x[34]],ic:[]}
@@ -2031,23 +2022,23 @@ e_[x[35]]={f:m23,j:[],i:[],ti:[],ic:[]}
 d_[x[36]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var e8B=e_[x[36]].i
-_ai(e8B,x[34],e_,x[36],1,1)
-var b9B=_v()
-_(r,b9B)
+var t7B=e_[x[36]].i
+_ai(t7B,x[34],e_,x[36],1,1)
+var e8B=_v()
+_(r,e8B)
 cs.push("./pages/index/index.wxml:template:2:6")
-var o0B=_oz(z,1,e,s,gg)
-var xAC=_gd(x[36],o0B,e_,d_)
-if(xAC){
-var oBC=_1z(z,0,e,s,gg) || {}
+var b9B=_oz(z,1,e,s,gg)
+var o0B=_gd(x[36],b9B,e_,d_)
+if(o0B){
+var xAC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b9B.wxXCkey=3
-xAC(oBC,oBC,b9B,gg)
+e8B.wxXCkey=3
+o0B(xAC,xAC,e8B,gg)
 gg.f=cur_globalf
 }
-else _w(o0B,x[36],2,18)
+else _w(b9B,x[36],2,18)
 cs.pop()
-e8B.pop()
+t7B.pop()
 return r
 }
 e_[x[36]]={f:m24,j:[],i:[],ti:[x[34]],ic:[]}
@@ -2075,23 +2066,23 @@ e_[x[37]]={f:m25,j:[],i:[],ti:[],ic:[]}
 d_[x[38]]={}
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
-var hEC=e_[x[38]].i
-_ai(hEC,x[39],e_,x[38],1,1)
-var oFC=_v()
-_(r,oFC)
+var cDC=e_[x[38]].i
+_ai(cDC,x[39],e_,x[38],1,1)
+var hEC=_v()
+_(r,hEC)
 cs.push("./pages/message/message.wxml:template:2:6")
-var cGC=_oz(z,1,e,s,gg)
-var oHC=_gd(x[38],cGC,e_,d_)
-if(oHC){
-var lIC=_1z(z,0,e,s,gg) || {}
+var oFC=_oz(z,1,e,s,gg)
+var cGC=_gd(x[38],oFC,e_,d_)
+if(cGC){
+var oHC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oFC.wxXCkey=3
-oHC(lIC,lIC,oFC,gg)
+hEC.wxXCkey=3
+cGC(oHC,oHC,hEC,gg)
 gg.f=cur_globalf
 }
-else _w(cGC,x[38],2,18)
+else _w(oFC,x[38],2,18)
 cs.pop()
-hEC.pop()
+cDC.pop()
 return r
 }
 e_[x[38]]={f:m26,j:[],i:[],ti:[x[39]],ic:[]}
@@ -2119,23 +2110,23 @@ e_[x[40]]={f:m27,j:[],i:[],ti:[],ic:[]}
 d_[x[41]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var eLC=e_[x[41]].i
-_ai(eLC,x[42],e_,x[41],1,1)
-var bMC=_v()
-_(r,bMC)
+var tKC=e_[x[41]].i
+_ai(tKC,x[42],e_,x[41],1,1)
+var eLC=_v()
+_(r,eLC)
 cs.push("./pages/my/my.wxml:template:2:6")
-var oNC=_oz(z,1,e,s,gg)
-var xOC=_gd(x[41],oNC,e_,d_)
-if(xOC){
-var oPC=_1z(z,0,e,s,gg) || {}
+var bMC=_oz(z,1,e,s,gg)
+var oNC=_gd(x[41],bMC,e_,d_)
+if(oNC){
+var xOC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bMC.wxXCkey=3
-xOC(oPC,oPC,bMC,gg)
+eLC.wxXCkey=3
+oNC(xOC,xOC,eLC,gg)
 gg.f=cur_globalf
 }
-else _w(oNC,x[41],2,18)
+else _w(bMC,x[41],2,18)
 cs.pop()
-eLC.pop()
+tKC.pop()
 return r
 }
 e_[x[41]]={f:m28,j:[],i:[],ti:[x[42]],ic:[]}
@@ -2187,7 +2178,7 @@ define('common/main.js',function(require, module, exports, window, document, fra
   /***/function node_modulesBabelLoaderLibIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioVueCliPluginUniPackagesWebpackPreprocessLoaderIndexJsNode_modulesDcloudioWebpackUniMpLoaderLibScriptJsNode_modulesVueLoaderLibIndexJsCUsersAdministratorDesktopSchoolJiangHuGlobalVueVueTypeScriptLangJs(module, exports, __webpack_require__) {
 
     "use strict";
-    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://123.151.5.25/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+    eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverSrc = 'http://www.hckj99.cn/';\nvar token = '';\nvar hasEnter = false;\nvar userId = 1;var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  hasEnter: hasEnter //用户登录状态\n};exports.default = _default;\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
     /***/},
 
@@ -3099,7 +3090,7 @@ define('pages/common/login.js',function(require, module, exports, window, docume
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    loginNow: function loginNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请填写正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.setStorage({\n                key: 'loginStatus',\n                data: true });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: './reg' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?8903");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    loginNow: function loginNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.setStorage({\n                key: 'loginStatus',\n                data: true });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: './reg' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?8903");
 
 /***/ }),
 
@@ -3122,7 +3113,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"image\", {\n      staticStyle: { width: \"100%\", height: \"120px\" },\n      attrs: { src: \"../../static/common/login/head.png\" }\n    }),\n    _c(\n      \"view\",\n      {\n        staticClass: \"grace-padding\",\n        staticStyle: { \"background-color\": \"#ff5ee\" }\n      },\n      [\n        _vm._m(0),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-form\",\n            staticStyle: { width: \"95%\", margin: \"0 auto\" }\n          },\n          [\n            _c(\n              \"form\",\n              {\n                attrs: { eventid: \"7ba207e8-2\" },\n                on: { submit: _vm.loginNow }\n              },\n              [\n                _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                  _c(\"view\", { staticClass: \"grace-label\" }, [\n                    _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n                  ]),\n                  _c(\"input\", {\n                    directives: [\n                      {\n                        name: \"model\",\n                        rawName: \"v-model\",\n                        value: _vm.phoneno,\n                        expression: \"phoneno\"\n                      }\n                    ],\n                    staticClass: \"input\",\n                    attrs: {\n                      type: \"number\",\n                      name: \"phone\",\n                      placeholder: \"请输入手机号\",\n                      eventid: \"7ba207e8-0\"\n                    },\n                    domProps: { value: _vm.phoneno },\n                    on: {\n                      input: function($event) {\n                        if ($event.target.composing) {\n                          return\n                        }\n                        _vm.phoneno = $event.target.value\n                      }\n                    }\n                  })\n                ]),\n                _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                  _c(\"view\", { staticClass: \"grace-label\" }, [\n                    _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n                  ]),\n                  _c(\"input\", {\n                    directives: [\n                      {\n                        name: \"model\",\n                        rawName: \"v-model\",\n                        value: _vm.password,\n                        expression: \"password\"\n                      }\n                    ],\n                    staticClass: \"input\",\n                    attrs: {\n                      type: \"text\",\n                      password: \"\",\n                      name: \"password\",\n                      placeholder: \"请输入密码\",\n                      eventid: \"7ba207e8-1\"\n                    },\n                    domProps: { value: _vm.password },\n                    on: {\n                      input: function($event) {\n                        if ($event.target.composing) {\n                          return\n                        }\n                        _vm.password = $event.target.value\n                      }\n                    }\n                  })\n                ]),\n                _c(\n                  \"button\",\n                  {\n                    staticStyle: {\n                      background: \"linear-gradient(to right,#fc6666,#ff8c55)\",\n                      \"margin-top\": \"30px\"\n                    },\n                    attrs: { \"form-type\": \"submit\", type: \"primary\" }\n                  },\n                  [\n                    _vm._v(\"登录\"),\n                    _c(\"text\", {\n                      staticClass: \"grace-iconfont icon-arrow-right\"\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          ],\n          1\n        ),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-center\",\n            staticStyle: { \"margin-top\": \"30rpx\", \"line-height\": \"50rpx\" },\n            attrs: { eventid: \"7ba207e8-3\" },\n            on: { tap: _vm.reg }\n          },\n          [_vm._v(\"还没有账号？点击注册\")]\n        ),\n        _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n          _c(\"view\", { staticClass: \"item-border\" }),\n          _vm._m(1),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-login-three\",\n              staticStyle: { \"margin-top\": \"8px\" }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-weixin\",\n                staticStyle: { color: \"#00c40b\" },\n                attrs: { eventid: \"7ba207e8-4\" },\n                on: { tap: _vm.loginWithWx }\n              }),\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-qq\",\n                staticStyle: { color: \"#01a1e5\" }\n              }),\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-weibo\",\n                staticStyle: { color: \"#fc4243\" }\n              })\n            ]\n          )\n        ])\n      ]\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      { staticClass: \"grace-center\", staticStyle: { margin: \"50 auto\" } },\n      [\n        _c(\"image\", {\n          staticStyle: {\n            width: \"68px\",\n            height: \"68px\",\n            \"border-radius\": \"8px\"\n          },\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"image\", {\n      staticStyle: { width: \"100%\", height: \"120px\" },\n      attrs: { src: \"../../static/common/login/head.png\" }\n    }),\n    _c(\"view\", { staticClass: \"grace-padding\" }, [\n      _vm._m(0),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-form\",\n          staticStyle: { width: \"95%\", margin: \"0 auto\" }\n        },\n        [\n          _c(\n            \"form\",\n            { attrs: { eventid: \"7ba207e8-2\" }, on: { submit: _vm.loginNow } },\n            [\n              _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n                ]),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.phoneno,\n                      expression: \"phoneno\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"number\",\n                    name: \"phone\",\n                    placeholder: \"请输入手机号\",\n                    eventid: \"7ba207e8-0\"\n                  },\n                  domProps: { value: _vm.phoneno },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.phoneno = $event.target.value\n                    }\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n                ]),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.password,\n                      expression: \"password\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    password: \"\",\n                    name: \"password\",\n                    placeholder: \"请输入密码\",\n                    eventid: \"7ba207e8-1\"\n                  },\n                  domProps: { value: _vm.password },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.password = $event.target.value\n                    }\n                  }\n                })\n              ]),\n              _c(\n                \"button\",\n                {\n                  staticStyle: {\n                    background: \"linear-gradient(to right,#fc6666,#ff8c55)\",\n                    \"margin-top\": \"30px\"\n                  },\n                  attrs: { \"form-type\": \"submit\", type: \"primary\" }\n                },\n                [\n                  _vm._v(\"登录\"),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            ],\n            1\n          )\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        {\n          staticStyle: {\n            \"margin-top\": \"30rpx\",\n            \"margin-right\": \"2%\",\n            \"line-height\": \"50rpx\",\n            float: \"right\"\n          },\n          attrs: { eventid: \"7ba207e8-3\" },\n          on: { tap: _vm.reg }\n        },\n        [_vm._v(\"还没有账号？点击注册\")]\n      ),\n      _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n        _c(\"view\", { staticClass: \"item-border\" }),\n        _vm._m(1),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-login-three\",\n            staticStyle: { \"margin-top\": \"8px\" }\n          },\n          [\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-weixin\",\n              staticStyle: { color: \"#00c40b\" },\n              attrs: { eventid: \"7ba207e8-4\" },\n              on: { tap: _vm.loginWithWx }\n            }),\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-qq\",\n              staticStyle: { color: \"#01a1e5\" }\n            }),\n            _c(\"view\", {\n              staticClass: \"grace-iconfont icon-weibo\",\n              staticStyle: { color: \"#fc4243\" }\n            })\n          ]\n        )\n      ])\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-center\",\n        staticStyle: { \"margin-top\": \"30px\", \"margin-bottom\": \"50px\" }\n      },\n      [\n        _c(\"image\", {\n          staticClass: \"ym-logo\",\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/login.vue?vue&type=template&id=4bae8701&");
 
 /***/ }),
 
@@ -3202,7 +3193,7 @@ define('pages/common/reg.js',function(require, module, exports, window, document
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      vcodeBtnName: \"获取验证码\",\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      yzm: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    changePre: function changePre(e) {\n      this.pnpre = this.pnpres[e.detail.value];\n    },\n    regNow: function regNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请填写正确的手机号\" },\n      {\n        name: \"yzm\",\n        checkType: \"string\",\n        checkRule: \"6,6\",\n        errorMsg: \"请正确填写短信验证码\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        var data = e.detail.value;\n        data.verificationCode = this.yzm;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'register',\n          method: 'POST',\n          data: data,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            }\n            console.log(JSON.stringify(res));\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n        console.log(JSON.stringify(e));\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    getVCode: function getVCode() {var _this = this;\n      var myreg = /^[1][1,2,3,4,5,7,8,9][0-9]{9}$/;\n      if (!myreg.test(this.phoneno)) {\n        uni.showToast({\n          title: '请填写正确的手机号码',\n          icon: \"none\" });\n\n        return false;\n      }\n      // 手机号码为 :  this.phoneno\n      // vcodeBtnName 可以阻止按钮被多次点击 多次发送 return 会终止函数继续运行\n      if (this.vcodeBtnName != '获取验证码' && this.vcodeBtnName != '重新发送') {\n        return;\n      }\n      this.vcodeBtnName = \"发送中...\";\n      // 与后端 api 交互，发送验证码\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'register/sendSms/' + this.phoneno,\n        method: 'GET',\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n          if (res.data.status === 200) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.yzm = res.data.verificationCode;\n            // 倒计时\n            _this.countNum = 120;\n            _this.countDownTimer = setInterval(function () {\n              this.countDown();\n            }.bind(_this), 1000);\n          } else if (res.data.status === 400) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.vcodeBtnName = \"获取验证码\";\n          }\n        },\n        fail: function fail() {\n          console.log(JSON.stringify('123213'));\n        },\n        complete: function complete() {} });\n\n    },\n    countDown: function countDown() {\n      if (this.countNum < 1) {\n        clearInterval(this.countDownTimer);\n        this.vcodeBtnName = \"重新发送\";\n        return;\n      }\n      this.countNum--;\n      this.vcodeBtnName = this.countNum + '秒重发';\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/reg.vue?vue&type=script&lang=js&?163a");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      vcodeBtnName: \"获取验证码\",\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      yzm: '' };\n\n  },\n  methods: {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    changePre: function changePre(e) {\n      this.pnpre = this.pnpres[e.detail.value];\n    },\n    regNow: function regNow(e) {\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"yzm\",\n        checkType: \"string\",\n        checkRule: \"6,6\",\n        errorMsg: \"短信验证码输入错误\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        var data = e.detail.value;\n        data.verificationCode = this.yzm;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'register',\n          method: 'POST',\n          data: data,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            }\n            console.log(JSON.stringify(res));\n          },\n          fail: function fail() {},\n          complete: function complete() {} });\n\n        console.log(JSON.stringify(e));\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    getVCode: function getVCode() {var _this = this;\n      var myreg = /^[1][1,2,3,4,5,7,8,9][0-9]{9}$/;\n      if (!myreg.test(this.phoneno)) {\n        uni.showToast({\n          title: '请填写正确的手机号码',\n          icon: \"none\" });\n\n        return false;\n      }\n      // 手机号码为 :  this.phoneno\n      // vcodeBtnName 可以阻止按钮被多次点击 多次发送 return 会终止函数继续运行\n      if (this.vcodeBtnName != '获取验证码' && this.vcodeBtnName != '重新发送') {\n        return;\n      }\n      this.vcodeBtnName = \"发送中...\";\n      // 与后端 api 交互，发送验证码\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'register/sendSms/' + this.phoneno,\n        method: 'GET',\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n          if (res.data.status === 200) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.yzm = res.data.verificationCode;\n            // 倒计时\n            _this.countNum = 120;\n            _this.countDownTimer = setInterval(function () {\n              this.countDown();\n            }.bind(_this), 1000);\n          } else if (res.data.status === 400) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this.vcodeBtnName = \"获取验证码\";\n          }\n        },\n        fail: function fail() {\n          console.log(JSON.stringify('123213'));\n        },\n        complete: function complete() {} });\n\n    },\n    countDown: function countDown() {\n      if (this.countNum < 1) {\n        clearInterval(this.countDownTimer);\n        this.vcodeBtnName = \"重新发送\";\n        return;\n      }\n      this.countNum--;\n      this.vcodeBtnName = this.countNum + '秒重发';\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/vue-cli-plugin-hbuilderx/packages/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/reg.vue?vue&type=script&lang=js&?163a");
 
 /***/ }),
 
@@ -3225,7 +3216,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"grace-padding\" }, [\n    _vm._m(0),\n    _c(\n      \"view\",\n      {\n        staticClass: \"grace-form\",\n        staticStyle: { width: \"95%\", margin: \"0 auto\" }\n      },\n      [\n        _c(\n          \"form\",\n          { attrs: { eventid: \"9b50365a-3\" }, on: { submit: _vm.regNow } },\n          [\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.phoneno,\n                    expression: \"phoneno\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"number\",\n                  name: \"phone\",\n                  placeholder: \"请输入手机号\",\n                  eventid: \"9b50365a-0\"\n                },\n                domProps: { value: _vm.phoneno },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.phoneno = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.password,\n                    expression: \"password\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"text\",\n                  password: \"\",\n                  name: \"password\",\n                  placeholder: \"请输入密码\",\n                  eventid: \"9b50365a-1\"\n                },\n                domProps: { value: _vm.password },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.password = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-space-between item-border\",\n                staticStyle: { \"margin-top\": \"28rpx\", \"max-height\": \"95rpx\" }\n              },\n              [\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-items\", staticStyle: { width: \"70%\" } },\n                  [\n                    _c(\"view\", { staticClass: \"grace-label\" }, [\n                      _c(\"view\", { staticClass: \"iconfont icon-yanzhengma\" })\n                    ]),\n                    _c(\"input\", {\n                      staticClass: \"input\",\n                      attrs: {\n                        type: \"number\",\n                        name: \"yzm\",\n                        placeholder: \"请输入验证码\"\n                      }\n                    })\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  {\n                    staticStyle: {\n                      width: \"28%\",\n                      \"margin-left\": \"2%\",\n                      paading: \"0\"\n                    }\n                  },\n                  [\n                    _c(\n                      \"button\",\n                      {\n                        staticClass: \"login-sendmsg-btn\",\n                        attrs: { type: \"primary\", eventid: \"9b50365a-2\" },\n                        on: { tap: _vm.getVCode }\n                      },\n                      [_vm._v(_vm._s(_vm.vcodeBtnName))]\n                    )\n                  ],\n                  1\n                )\n              ]\n            ),\n            _c(\n              \"button\",\n              {\n                staticStyle: { background: \"#fc4243\", \"margin-top\": \"30px\" },\n                attrs: { \"form-type\": \"submit\", type: \"primary\" }\n              },\n              [\n                _vm._v(\"注册\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ]\n            )\n          ],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n      _c(\"view\", { staticClass: \"item-border\" }),\n      _vm._m(1),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-login-three\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weixin\",\n            staticStyle: { color: \"#00c40b\" },\n            attrs: { eventid: \"9b50365a-4\" },\n            on: { tap: _vm.loginWithWx }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-qq\",\n            staticStyle: { color: \"#01a1e5\" }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weibo\",\n            staticStyle: { color: \"#fc4243\" }\n          })\n        ]\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-center\",\n        staticStyle: { \"margin-top\": \"50px\", \"margin-bottom\": \"38px\" }\n      },\n      [\n        _c(\"image\", {\n          staticStyle: {\n            width: \"68px\",\n            height: \"68px\",\n            \"border-radius\": \"8px\"\n          },\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"grace-padding\" }, [\n    _vm._m(0),\n    _c(\n      \"view\",\n      {\n        staticClass: \"grace-form\",\n        staticStyle: { width: \"95%\", margin: \"0 auto\" }\n      },\n      [\n        _c(\n          \"form\",\n          { attrs: { eventid: \"9b50365a-3\" }, on: { submit: _vm.regNow } },\n          [\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-shouji\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.phoneno,\n                    expression: \"phoneno\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"number\",\n                  name: \"phone\",\n                  placeholder: \"请输入手机号\",\n                  eventid: \"9b50365a-0\"\n                },\n                domProps: { value: _vm.phoneno },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.phoneno = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"grace-items  item-border\" }, [\n              _c(\"view\", { staticClass: \"grace-label\" }, [\n                _c(\"view\", { staticClass: \"iconfont icon-mima1\" })\n              ]),\n              _c(\"input\", {\n                directives: [\n                  {\n                    name: \"model\",\n                    rawName: \"v-model\",\n                    value: _vm.password,\n                    expression: \"password\"\n                  }\n                ],\n                staticClass: \"input\",\n                attrs: {\n                  type: \"text\",\n                  password: \"\",\n                  name: \"password\",\n                  placeholder: \"请输入密码\",\n                  eventid: \"9b50365a-1\"\n                },\n                domProps: { value: _vm.password },\n                on: {\n                  input: function($event) {\n                    if ($event.target.composing) {\n                      return\n                    }\n                    _vm.password = $event.target.value\n                  }\n                }\n              })\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-space-between item-border\",\n                staticStyle: { \"margin-top\": \"28rpx\", \"max-height\": \"95rpx\" }\n              },\n              [\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-items\", staticStyle: { width: \"70%\" } },\n                  [\n                    _c(\"view\", { staticClass: \"grace-label\" }, [\n                      _c(\"view\", { staticClass: \"iconfont icon-yanzhengma\" })\n                    ]),\n                    _c(\"input\", {\n                      staticClass: \"input\",\n                      attrs: {\n                        type: \"number\",\n                        name: \"yzm\",\n                        placeholder: \"请输入验证码\"\n                      }\n                    })\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  {\n                    staticStyle: {\n                      width: \"28%\",\n                      \"margin-left\": \"2%\",\n                      paading: \"0\"\n                    }\n                  },\n                  [\n                    _c(\n                      \"button\",\n                      {\n                        staticClass: \"login-sendmsg-btn\",\n                        attrs: { type: \"primary\", eventid: \"9b50365a-2\" },\n                        on: { tap: _vm.getVCode }\n                      },\n                      [_vm._v(_vm._s(_vm.vcodeBtnName))]\n                    )\n                  ],\n                  1\n                )\n              ]\n            ),\n            _c(\n              \"button\",\n              {\n                staticStyle: { background: \"#fc4243\", \"margin-top\": \"30px\" },\n                attrs: { \"form-type\": \"submit\", type: \"primary\" }\n              },\n              [\n                _vm._v(\"注册\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ]\n            )\n          ],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"ymkj-footer\" }, [\n      _c(\"view\", { staticClass: \"item-border\" }),\n      _vm._m(1),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-login-three\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weixin\",\n            staticStyle: { color: \"#00c40b\" },\n            attrs: { eventid: \"9b50365a-4\" },\n            on: { tap: _vm.loginWithWx }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-qq\",\n            staticStyle: { color: \"#01a1e5\" }\n          }),\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-weibo\",\n            staticStyle: { color: \"#fc4243\" }\n          })\n        ]\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-center\",\n        staticStyle: { \"margin-top\": \"50px\", \"margin-bottom\": \"38px\" }\n      },\n      [\n        _c(\"image\", {\n          staticClass: \"ym-logo\",\n          attrs: { src: \"../../static/logo.png\" }\n        })\n      ]\n    )\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-title\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-h5 grace-blod grace-center\",\n          staticStyle: { color: \"grey\" }\n        },\n        [_vm._v(\"使用其他账号登录\")]\n      )\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/common/reg.vue?vue&type=template&id=315e22ac&");
 
 /***/ }),
 
