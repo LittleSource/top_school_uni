@@ -63,7 +63,7 @@
 				}
 			}
 		}, {
-			"path": "pages/common/reg",
+			"path": "pages/register/reg",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",

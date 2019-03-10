@@ -1,8 +1,8 @@
 <template>
 	<view>
-		<image src="../../static/common/login/head.png" style="width: 100%;height: 120px"></image>
+		<image src="../../static/common/login/head.png" style="width: 100%;height: 100px;"></image>
 		<view class="grace-padding">
-			<view style="margin-top: 30px;margin-bottom: 50px;" class="grace-center">
+			<view style="margin-top: 10px;margin-bottom: 10px;" class="grace-center">
 				<image class="ym-logo" src='../../static/logo.png'></image>
 			</view>
 			<view class="grace-form" style="width: 95%;margin:0 auto">
@@ -35,8 +35,8 @@
 				</view>
 				<view class="grace-login-three" style="margin-top:8px;">
 					<view class="grace-iconfont icon-weixin" style="color: #00c40b;" @tap="loginWithWx"></view>
-					<view class="grace-iconfont icon-qq" style="color: #01a1e5;"></view>
-					<view class="grace-iconfont icon-weibo" style="color: #fc4243;"></view>
+					<view class="grace-iconfont icon-qq" style="color: #01a1e5;" @tap="loginWithQQ"></view>
+					<view class="grace-iconfont icon-weibo" style="color: #fc4243;" @tap="loginWithWb"></view>
 				</view>
 			</view>
 		</view>
@@ -47,11 +47,20 @@
 	export default {
 		data() {
 			return {
+				screenHeight: 480,
+				headBgHeight: '',
 				countNum: 120,
 				countDownTimer: null,
 				phoneno: '',
 				password: ''
 			}
+		},
+		onReady() {
+			uni.getSystemInfo({
+				success: function(res) {
+					this.screenHeight = res.screenHeight;
+				}
+			});
 		},
 		methods: {
 			loginWithWx: function() {
@@ -59,6 +68,27 @@
 					title: "微信登录功能开发中",
 					icon: "none"
 				})
+			},
+			loginWithQQ: function() {
+				uni.showToast({
+					title: "QQ登录功能开发中",
+					icon: "none"
+				})
+			},
+			loginWithWb: function() {
+				uni.login({
+					provider: 'sinaweibo',
+					success: function(loginRes) {
+						console.log(loginRes.authResult);
+						// 获取用户信息
+						uni.getUserInfo({
+							provider: 'weixin',
+							success: function(infoRes) {
+								console.log('用户昵称为：' + infoRes.userInfo.nickName);
+							}
+						});
+					}
+				});
 			},
 			loginNow: function(e) {
 				// 表单验证
@@ -108,7 +138,7 @@
 			},
 			reg: function() {
 				uni.navigateTo({
-					url: './reg',
+					url: '../register/reg',
 				});
 			}
 		}

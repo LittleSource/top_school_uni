@@ -1,6 +1,6 @@
 <template>
 	<view class="grace-padding">
-		<view style="margin-top:50px;margin-bottom: 38px;" class="grace-center">
+		<view style="margin-top:50px;margin-bottom: 10px;" class="grace-center">
 			<image class="ym-logo" src='../../static/logo.png'></image>
 		</view>
 		<view class="grace-form" style="width: 95%;margin:0 auto;">
@@ -102,6 +102,10 @@
 								uni.showToast({
 									title: res.data.msg,
 									icon: "none"
+								});
+								uni.setStorage({
+									key: 'loginStatus',
+									data: true,
 								});
 								uni.reLaunch({
 									url: '../index/index'
