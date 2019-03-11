@@ -72,8 +72,37 @@
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
-		},
-		{
+		},{
+			"path": "pages/register/selectSex",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "选择性别",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		},{
+			"path": "pages/register/selectSchool",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "设置学校",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		},{
+			"path": "pages/register/setAvatar",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "设置昵称",
+				"app-plus": {
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		},{
 			"path": "pages/common/search",
 			"style": {
 				"navigationBarTextStyle": "white",

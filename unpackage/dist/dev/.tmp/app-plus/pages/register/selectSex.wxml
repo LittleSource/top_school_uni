@@ -1,0 +1,2 @@
+<import src="./selectSex.vue.wxml" />
+    <template is="685fe0c1" data="{{ ...$root['0'], $root }}"/>

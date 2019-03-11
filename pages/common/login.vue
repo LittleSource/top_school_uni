@@ -19,7 +19,7 @@
 						</view>
 						<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码"></input>
 					</view>
-					<button form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55);; margin-top:30px;'>
+					<button form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
 						登录 <text class="grace-iconfont icon-arrow-right"></text>
 					</button>
 				</form>
@@ -28,7 +28,7 @@
 				还没有账号？点击注册
 			</view>
 			<!-- 第三方登录 -->
-			<view class="ymkj-footer">
+			<view class="login-footer">
 				<view class="item-border"></view>
 				<view class="grace-title">
 					<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
@@ -189,5 +189,10 @@
 		font-size: 46px;
 		text-align: center;
 		margin: 8px 15px;
+	}
+
+	.login-footer {
+		width: 100%;
+		margin-top: 40%;
 	}
 </style>

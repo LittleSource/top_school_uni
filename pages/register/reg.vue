@@ -1,6 +1,6 @@
 <template>
 	<view class="grace-padding">
-		<view style="margin-top:50px;margin-bottom: 10px;" class="grace-center">
+		<view style="margin-top:40px;margin-bottom: 10px;" class="grace-center">
 			<image class="ym-logo" src='../../static/logo.png'></image>
 		</view>
 		<view class="grace-form" style="width: 95%;margin:0 auto;">
@@ -34,7 +34,7 @@
 			</form>
 		</view>
 		<!-- 第三方登录 -->
-		<view class="ymkj-footer">
+		<view class="reg-footer">
 			<view class="item-border"></view>
 			<view class="grace-title">
 				<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
@@ -223,5 +223,9 @@
 		font-size: 46px;
 		text-align: center;
 		margin: 8px 15px;
+	}
+	.reg-footer {
+		width: 100%;
+		margin-top: 30%;
 	}
 </style>

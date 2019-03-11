@@ -27,7 +27,7 @@
 						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
-				<view class="grace-boxes" @click="skip('../common/login')">
+				<view class="grace-boxes" @click="skip('../register/selectSex')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
@@ -134,11 +134,11 @@
 			}
 		},
 		onLoad: function() {
-			if(uni.getStorageSync('loginStatus') !== true){
-				uni.redirectTo({
-					url: '../common/login'
-				});
-			}
+// 			if(uni.getStorageSync('loginStatus') !== true){
+// 				uni.redirectTo({
+// 					url: '../common/login'
+// 				});
+// 			}
 		},
 		methods: {
 			skip(url){
