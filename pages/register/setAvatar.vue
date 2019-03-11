@@ -9,10 +9,11 @@
 				<view class="is-block has-mgt-60 has-mgb-15">
 					<view>
 						<view class="grace-center avatar-box" @click="uploadAvater">
-							<image class="avatar" src='../../static/logo.png'></image>
+							<image v-if="avatarPath === ''" class="avatar" src="../../static/register/chooseAvater.png"></image>
+							<image v-else class="avatar" :src="avatarPath"></image>
 						</view>
 						<view class="form">
-							<input class="input" type="text" placeholder="设置昵称">
+							<input class="input" type="text" placeholder="设置昵称" maxlength="8">
 						</view>
 					</view>
 				</view>
@@ -45,26 +46,50 @@
 </template>
 
 <script>
+	var sex = 0;
+	var schoolId = "11853391869743621792";
 	export default {
 		data() {
 			return {
-
+				avatarPath: ''
 			};
+		},
+		onLoad(parameter) {
+			sex = parameter.sex;
+			schoolId = parameter.schoolId;
 		},
 		methods: {
 			submit() {
 
 			},
 			uploadAvater() {
+				var src = this.GLOBAL.serverSrc;
 				uni.chooseImage({
 					count: 1,
 					sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
 					success: function(chooseImageRes) {
-						console.log(JSON.stringify(chooseImageRes));
+						const tempFilePath = chooseImageRes.tempFilePaths[0];
+						//开始上传头像
+						uni.uploadFile({
+							url: src + 'upload/avatar', //仅为示例，非真实的接口地址
+							filePath: tempFilePath,
+							name: 'avatar',
+							success: (uploadFileRes) => {
+								console.log(uploadFileRes.data);
+								this.avatarPath = src +'temp/' + uploadFileRes.data.imgName;
+								console.log(this.avatarPath);
+							},
+							fail: (e) => {
+								console.log(JSON.stringify(e));
+							},
+							complete: () => {
+								//console.log(tempFilePath);
+							}
+						});
 					}
 				});
 			},
-			back(){
+			back() {
 				uni.navigateBack();
 			}
 		}

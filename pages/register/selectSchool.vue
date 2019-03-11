@@ -52,6 +52,7 @@
 	var qqmapsdk = new QQMapWX({
 		key: "7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO"
 	});
+	var sex = 0;//储存上个页面传来的性别
 	export default {
 		components: {
 			simpleDialog
@@ -59,8 +60,11 @@
 		data() {
 			return {
 				schoolList: [],
-				nowSchool: {}
+				selectSchool:{}
 			}
+		},
+		onLoad(parameter) {
+			sex = parameter.sex;
 		},
 		methods: {
 			changeInput(e) {
@@ -90,15 +94,16 @@
 				});
 			},
 			setSchool(school) {
-				this.nowSchool = school;
+				this.selectSchool = school;
 				this.$refs.simpleDialog2.confirm({
 					title: '提示',
 					message: '确定设置' + school.title + "为您的学校吗？一经设置不可修改哦！学校位置:" + school.addr
 				});
 			},
 			confirmButton() {
+				//留空写上传到学校表
 				uni.navigateTo({
-					url: './setAvatar'
+					url: './setAvatar?sex='+sex+'&schoolId='+this.selectSchool.id
 				});
 			},
 			back() {

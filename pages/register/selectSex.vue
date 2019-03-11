@@ -52,9 +52,8 @@
 		},
 		methods: {
 			setSex(sex){
-				console.log(sex);
 				uni.navigateTo({
-					url: './selectSchool'
+					url: './selectSchool?sex='+sex
 				});
 			}
 		},
