@@ -5,7 +5,7 @@
 				<view class="is-size-25 has-title-color is-bold">
 					你的性别是？
 				</view>
-				<view class="has-desc-color  has-mgt-5  is-bold">帮助我们为你量身推荐内容</view>
+				<view class="has-desc-color  has-mgt-5  is-bold">帮助我们为你量身推荐内容{{userName}}</view>
 				<view class="is-block has-mgt-60 has-mgb-15">
 					<view>
 						<view class="is-block" @click="setSex(1)">
@@ -44,19 +44,23 @@
 </template>
 
 <script>
+	import {mapState} from 'vuex'
 	export default {
 		data() {
 			return {
 
 			};
 		},
+		computed: {
+			...mapState(['userName'])
+		},
 		methods: {
-			setSex(sex){
+			setSex(sex) {
 				uni.navigateTo({
-					url: './selectSchool?sex='+sex
+					url: './selectSchool?sex=' + sex
 				});
 			}
-		},
+		}
 	}
 </script>
 
