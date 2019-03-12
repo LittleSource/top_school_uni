@@ -108,6 +108,10 @@
 	</view>
 </template>
 <script>
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex'
 	export default {
 		data() {
 			return {
@@ -133,12 +137,13 @@
 				]
 			}
 		},
+		computed: mapState(['user']),// 拿到vuex的register对象,
 		onLoad: function() {
-// 			if(uni.getStorageSync('loginStatus') !== true){
-// 				uni.redirectTo({
-// 					url: '../common/login'
-// 				});
-// 			}
+ 			if(!this.user.hasLogin){
+ 				uni.redirectTo({
+ 					url: '../common/login'
+ 				});
+ 			}
 		},
 		methods: {
 			skip(url){

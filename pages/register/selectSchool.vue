@@ -47,12 +47,12 @@
 </template>
 
 <script>
+	import { mapMutations } from 'vuex'
 	import simpleDialog from '../../components/dialog.vue';
 	import QQMapWX from '../../common/qqmap-wx-jssdk.min.js';
 	var qqmapsdk = new QQMapWX({
 		key: "7YDBZ-4ATCD-5GM4Z-HCI5B-4ECM6-PPBXO"
 	});
-	var sex = 0;//储存上个页面传来的性别
 	export default {
 		components: {
 			simpleDialog
@@ -63,10 +63,8 @@
 				selectSchool:{}
 			}
 		},
-		onLoad(parameter) {
-			sex = parameter.sex;
-		},
 		methods: {
+			...mapMutations(['regSetSchoolId']),
 			changeInput(e) {
 				if (e.detail.value === "") {
 					this.schoolList = [];
@@ -102,8 +100,9 @@
 			},
 			confirmButton() {
 				//留空写上传到学校表
+				this.regSetSchoolId(this.selectSchool.id);
 				uni.navigateTo({
-					url: './setAvatar?sex='+sex+'&schoolId='+this.selectSchool.id
+					url: './setAvatar'
 				});
 			},
 			back() {

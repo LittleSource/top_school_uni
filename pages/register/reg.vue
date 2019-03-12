@@ -34,12 +34,12 @@
 			</form>
 		</view>
 		<!-- 第三方登录 -->
-		<view class="reg-footer">
+		<view class="reg-footer" v-bind:style="{top: positionTop + 'px'}">
 			<view class="item-border"></view>
 			<view class="grace-title">
 				<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
 			</view>
-			<view class="grace-login-three" style="margin-top:8px;">
+			<view class="grace-login-three">
 				<view class="grace-iconfont icon-weixin" style="color: #00c40b;" @tap="loginWithWx"></view>
 				<view class="grace-iconfont icon-qq" style="color: #01a1e5;"></view>
 				<view class="grace-iconfont icon-weibo" style="color: #fc4243;"></view>
@@ -48,10 +48,14 @@
 	</view>
 </template>
 <script>
+	import {
+		mapMutations
+	} from 'vuex'
 	var graceChecker = require("../../graceUI/graceChecker.js");
 	export default {
 		data() {
 			return {
+				positionTop: 500,
 				vcodeBtnName: "获取验证码",
 				countNum: 120,
 				countDownTimer: null,
@@ -60,7 +64,11 @@
 				yzm: ''
 			}
 		},
+		onLoad() {
+			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
+		},
 		methods: {
+			...mapMutations(['regSetPhone']),
 			loginWithWx: function() {
 				uni.showToast({
 					title: "微信登录功能开发中",
@@ -99,24 +107,20 @@
 						data: data,
 						success: res => {
 							if (res.data.status === 200) {
+								this.regSetPhone(this.phoneno);
+								uni.navigateTo({
+									url: './selectSex'
+								});
+							} else {
 								uni.showToast({
 									title: res.data.msg,
 									icon: "none"
 								});
-								uni.setStorage({
-									key: 'loginStatus',
-									data: true,
-								});
-								uni.reLaunch({
-									url: '../index/index'
-								});
 							}
-							console.log(JSON.stringify(res));
 						},
 						fail: () => {},
 						complete: () => {}
 					});
-					console.log(JSON.stringify(e));
 				} else {
 					uni.showToast({
 						title: graceChecker.error,
@@ -224,8 +228,14 @@
 		text-align: center;
 		margin: 8px 15px;
 	}
+
 	.reg-footer {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		justify-content: center;
+		top: 0;
+		left: 0;
 		width: 100%;
-		margin-top: 30%;
 	}
 </style>

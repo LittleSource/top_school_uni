@@ -27,17 +27,17 @@
 			<view style="margin-top:30upx;margin-right: 2%; line-height:50upx;float:right" @tap="reg">
 				还没有账号？点击注册
 			</view>
-			<!-- 第三方登录 -->
-			<view class="login-footer">
-				<view class="item-border"></view>
-				<view class="grace-title">
-					<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
-				</view>
-				<view class="grace-login-three" style="margin-top:8px;">
-					<view class="grace-iconfont icon-weixin" style="color: #00c40b;" @tap="loginWithWx"></view>
-					<view class="grace-iconfont icon-qq" style="color: #01a1e5;" @tap="loginWithQQ"></view>
-					<view class="grace-iconfont icon-weibo" style="color: #fc4243;" @tap="loginWithWb"></view>
-				</view>
+		</view>
+		<!-- 第三方登录 -->
+		<view class="login-footer grace-wrap" v-bind:style="{top: positionTop + 'px'}">
+			<view class="item-border"></view>
+			<view class="grace-title">
+				<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
+			</view>
+			<view class="grace-login-three">
+				<view class="grace-iconfont icon-weixin" style="color: #00c40b;" @tap="loginWithWx"></view>
+				<view class="grace-iconfont icon-qq" style="color: #01a1e5;" @tap="loginWithQQ"></view>
+				<view class="grace-iconfont icon-weibo" style="color: #fc4243;" @tap="loginWithWb"></view>
 			</view>
 		</view>
 	</view>
@@ -47,8 +47,7 @@
 	export default {
 		data() {
 			return {
-				screenHeight: 480,
-				headBgHeight: '',
+				positionTop:500,
 				countNum: 120,
 				countDownTimer: null,
 				phoneno: '',
@@ -56,11 +55,7 @@
 			}
 		},
 		onReady() {
-			uni.getSystemInfo({
-				success: function(res) {
-					this.screenHeight = res.screenHeight;
-				}
-			});
+			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
 		},
 		methods: {
 			loginWithWx: function() {
@@ -192,7 +187,12 @@
 	}
 
 	.login-footer {
+		display: flex;
+		position: absolute;
+		flex-direction: column;
+		justify-content: center;
+		top: 0;
+		left: 0;
 		width: 100%;
-		margin-top: 40%;
 	}
 </style>

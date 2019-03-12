@@ -4,30 +4,44 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-    state: {
-        /**
-         * 是否需要强制登录
-         */
-        forcedLogin: false,
-        hasLogin: false,
-        userName: "213",
-		register: {
+	state: {
+		user:{
+			hasLogin:false,
 			phone:'',
-			sex:0,
-			schoolId:'11853391869743621792',
-			nickName:''
+			userName:'',
+			sex: 0,
+			school:{
+				id:'11853391869743621792',
+				name:'',
+				addr:''
+			}
 		}
-    },
-    mutations: {
-        login(state, userName) {
-            state.userName = userName || '新用户';
-            state.hasLogin = true;
-        },
-        logout(state) {
-            state.userName = "";
-            state.hasLogin = false;
-        }
-    }
+	},
+	mutations: {
+		regSetPhone(state, phone) {
+			state.user.phone = phone;
+		},
+		regSetSex(state, sex) {
+			state.user.sex = sex;
+		},
+		regSetSchoolId(state, schoolId) {
+			state.user.schoolId = schoolId;
+		},
+		regSetUserName(state, userName){
+			state.user.userName = userName;
+		},
+		regAfterLogin(state){
+			state.user.hasLogin = true;
+		},
+		login(state, user) {
+			state.user.name = userName || '新用户';
+			state.hasLogin = true;
+		},
+		logout(state) {
+			state.userName = "";
+			state.hasLogin = false;
+		}
+	}
 })
 
 export default store

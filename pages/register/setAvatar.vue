@@ -9,16 +9,15 @@
 				<view class="is-block has-mgt-60 has-mgb-15">
 					<view>
 						<view class="grace-center avatar-box" @click="uploadAvater">
-							<image v-if="avatarPath === ''" class="avatar" src="../../static/register/chooseAvater.png"></image>
-							<image v-else class="avatar" :src="avatarPath"></image>
+							<image class="avatar" :src="avatarPath"></image>
 						</view>
 						<view class="form">
-							<input class="input" type="text" placeholder="设置昵称" maxlength="8">
+							<input class="input" type="text" v-model="nickName" placeholder="设置昵称" maxlength="8">
 						</view>
 					</view>
 				</view>
 				<view class="button-sp-area">
-					<button type="primary">完成注册</button>
+					<button type="primary" @click="submit">完成注册</button>
 				</view>
 			</view>
 		</view>
@@ -46,45 +45,91 @@
 </template>
 
 <script>
-	var sex = 0;
-	var schoolId = "11853391869743621792";
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex'
 	export default {
 		data() {
 			return {
-				avatarPath: ''
+				userName: '',
+				avatarPath: 'https://icloud.9ykm.cn/topSchool/chooseAvater.png',
+				hasAvatar: false
 			};
 		},
-		onLoad(parameter) {
-			sex = parameter.sex;
-			schoolId = parameter.schoolId;
-		},
+		computed: mapState(['user']), // 拿到vuex的register对象
 		methods: {
+			//映射vuex的regSetNickName方法
+			...mapMutations(['regSetUserName', 'regAfterLogin']),
+			//点击提交按钮
 			submit() {
-
+				if (this.userName.length <= 0 || this.userName.length > 8) { //验证昵称
+					uni.showToast({
+						title: "请输入正确的昵称",
+						icon: "none"
+					});
+					return;
+				} else if (this.avatarPath.length === 0) { //验证头像是否上传
+					uni.showToast({
+						title: "您还未上传头像",
+						icon: "none"
+					});
+					return;
+				} else {
+					this.regSetUserName(this.userName);
+					console.log(JSON.stringify(this.user));
+					uni.request({
+						url: this.GLOBAL.serverSrc + '/register/getInfo',
+						method: 'POST',
+						data: this.user,
+						success: res => {
+							console.log(JSON.stringify(res));
+							if (res.data.status === 200) { //注册成功
+								this.regAfterLogin();
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+								uni.reLaunch({
+									url: '../index/index'
+								});
+							} else {
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
+						},
+						fail: () => {},
+						complete: () => {}
+					});
+					uni.reLaunch({
+						url: '../index/index'
+					});
+				}
 			},
+			//上传头像
 			uploadAvater() {
-				var src = this.GLOBAL.serverSrc;
+				var _this = this;
+				var src = this.GLOBAL.serverSrc; //得到服务器地址
 				uni.chooseImage({
 					count: 1,
-					sizeType: ['original', 'compressed'], //可以指定是原图还是压缩图，默认二者都有
 					success: function(chooseImageRes) {
 						const tempFilePath = chooseImageRes.tempFilePaths[0];
 						//开始上传头像
 						uni.uploadFile({
-							url: src + 'upload/avatar', //仅为示例，非真实的接口地址
+							url: src + 'upload/avatar', //接口地址
 							filePath: tempFilePath,
 							name: 'avatar',
 							success: (uploadFileRes) => {
-								console.log(uploadFileRes.data);
-								this.avatarPath = src +'temp/' + uploadFileRes.data.imgName;
-								console.log(this.avatarPath);
+								var resObj = JSON.parse(uploadFileRes.data);
+								_this.avatarPath = src + 'temp/' + resObj.imgName;
+								_this.hasAvatar = true;
 							},
 							fail: (e) => {
 								console.log(JSON.stringify(e));
 							},
-							complete: () => {
-								//console.log(tempFilePath);
-							}
+							complete: () => {}
 						});
 					}
 				});
