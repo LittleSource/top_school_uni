@@ -135,7 +135,10 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "评论详情"
+				"navigationBarTitleText": "评论详情",
+				"app-plus":{
+					"animationType": "slide-in-bottom"
+				}
 			}
 		},
 		{

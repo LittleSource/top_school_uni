@@ -1,1 +1,5 @@
+<import src="/components/dialog.vue.wxml" />
+<import src="/graceUI/components/graceLoading.vue.wxml" />
+<import src="/graceUI/components/graceAlert.vue.wxml" />
+<import src="/graceUI/components/graceFullLoading.vue.wxml" />
 

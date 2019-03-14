@@ -137,7 +137,7 @@
 				]
 			}
 		},
-		computed: mapState(['user']),// 拿到vuex的register对象,
+		computed: mapState(['user']),// 拿到vuex的user对象,
 		onLoad: function() {
  			if(!this.user.hasLogin){
  				uni.redirectTo({

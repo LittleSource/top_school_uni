@@ -22,10 +22,11 @@
 					<button form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
 						登录 <text class="grace-iconfont icon-arrow-right"></text>
 					</button>
+					<view class="grace-space-between grace-rows" style="margin-top:20upx;" >
+						<text>忘记密码</text>
+						<text @tap="reg">还没有账号？点击注册</text>
+					</view>
 				</form>
-			</view>
-			<view style="margin-top:30upx;margin-right: 2%; line-height:50upx;float:right" @tap="reg">
-				还没有账号？点击注册
 			</view>
 		</view>
 		<!-- 第三方登录 -->
@@ -116,7 +117,7 @@
 						data: e.detail.value,
 						success: res => {
 							if (res.data.status === 200) {
-								this.login();//dsajhdhjashjdhjasjhdjhsahjdhjsahjdhjsahdjh
+								this.login(res.data);
 								uni.reLaunch({
 									url: '../index/index'
 								});

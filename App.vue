@@ -1,6 +1,23 @@
 <script>
+	import graceVersion from 'graceUI/jsTools/version'
+	import {
+		mapMutations
+	} from 'vuex'
 	export default {
+		methods: {
+			...mapMutations(['appOnLunch'])
+		},
 		onLaunch: function() {
+			var app = new Object();
+			app.user = uni.getStorageSync('user');
+			if (app.user.hasLogin === true) {
+				app.school = uni.getStorageSync('school');
+				this.appOnLunch(app);
+			}
+			// #ifdef APP-PLUS
+			var serverUrl = "https://www.easy-mock.com/mock/5bb833775df5622d84ac87ca/example/version#!method=get";
+			graceVersion.checkAndUpdate(serverUrl);
+			// #endif
 		},
 		onShow: function() {
 			console.log('App Show')

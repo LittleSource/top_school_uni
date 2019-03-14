@@ -5,18 +5,18 @@ Vue.use(Vuex)
 
 const store = new Vuex.Store({
 	state: {
-		user:{
-			hasLogin:false,
-			token:'',
-			phone:'',
-			password:'',
-			userName:'',
+		user: {
+			hasLogin: false,
+			token: '',
+			phone: '',
+			password: '',
+			userName: '',
 			sex: 0
 		},
-		school:{
-			id:'11853391869743621792',
-			title:'',
-			addr:''
+		school: {
+			id: '11853391869743621792',
+			title: '',
+			addr: ''
 		}
 	},
 	mutations: {
@@ -30,21 +30,40 @@ const store = new Vuex.Store({
 		regSetSchool(state, school) {
 			state.user.school = school;
 		},
-		regSetUserName(state, userName){
+		regSetUserName(state, userName) {
 			state.user.userName = userName;
 		},
-		regAfterLogin(state,user){
+		regAfterLogin(state, user) {
 			state.user = user;
-			state.user.password = '';//为了安全置空密码
+			state.user.password = ''; //为了安全置空密码
 			state.user.hasLogin = true;
+			this.commit('loginAfterSetStorage');
 		},
 		login(state, payload) {
-			state.user = payload.user;
+			state.user.token = payload.token;
+			state.user.phone = payload.phone;
+			state.user.sex = payload.sex;
+			state.user.userName = payload.userName;
 			state.school = payload.school;
 			state.user.hasLogin = true;
+			this.commit('loginAfterSetStorage');
 		},
 		logout(state) {
 			state.hasLogin = false;
+		},
+		loginAfterSetStorage(state) {
+			uni.setStorage({
+				key: 'user',
+				data: state.user
+			});
+			uni.setStorage({
+				key: 'school',
+				data: state.school
+			});
+		},
+		appOnLunch(state,payload){
+			state.user = payload.user;
+			state.school = payload.school;
 		}
 	}
 })

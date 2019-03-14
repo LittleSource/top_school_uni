@@ -4,7 +4,7 @@
 
 <script>
 	//全局配置文件
-	const serverSrc = 'http://123.151.2.202/';
+	const serverSrc = 'http://123.150.166.58/';
 	const token = '';
 	function requestFail(){
 		if(e.statusCode === 0){
