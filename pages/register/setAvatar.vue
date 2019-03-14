@@ -9,10 +9,11 @@
 				<view class="is-block has-mgt-60 has-mgb-15">
 					<view>
 						<view class="grace-center avatar-box" @click="uploadAvater">
-							<image class="avatar" :src="avatarPath"></image>
+							<image v-if="avatarPath.length === 0" class="avatar" src="../../static/register/chooseAvater.png"></image>
+							<image v-else class="avatar" :src="avatarPath"></image>
 						</view>
 						<view class="form">
-							<input class="input" type="text" v-model="nickName" placeholder="设置昵称" maxlength="8">
+							<input class="input" type="text" v-model="userName" placeholder="设置昵称" maxlength="8">
 						</view>
 					</view>
 				</view>
@@ -53,7 +54,7 @@
 		data() {
 			return {
 				userName: '',
-				avatarPath: 'https://icloud.9ykm.cn/topSchool/chooseAvater.png',
+				avatarPath: '',
 				hasAvatar: false
 			};
 		},
@@ -77,22 +78,20 @@
 					return;
 				} else {
 					this.regSetUserName(this.userName);
-					console.log(JSON.stringify(this.user));
 					uni.request({
-						url: this.GLOBAL.serverSrc + '/register/getInfo',
+						url: this.GLOBAL.serverSrc + '/register',
 						method: 'POST',
 						data: this.user,
 						success: res => {
-							console.log(JSON.stringify(res));
 							if (res.data.status === 200) { //注册成功
-								this.regAfterLogin();
+								this.regAfterLogin(res.data);
 								uni.showToast({
 									title: res.data.msg,
 									icon: "none"
 								});
-								uni.reLaunch({
-									url: '../index/index'
-								});
+ 								uni.switchTab({
+ 									url: '../index/index'
+ 								});
 							} else {
 								uni.showToast({
 									title: res.data.msg,
@@ -100,11 +99,19 @@
 								});
 							}
 						},
-						fail: () => {},
-						complete: () => {}
-					});
-					uni.reLaunch({
-						url: '../index/index'
+						fail: (e) => {
+							if(e.statusCode === 0){
+								uni.showToast({
+									title: '未知的网络错误, 请确保设备处在联网状态',
+									icon: "none"
+								});
+							}else{
+								uni.showToast({
+									title: '发生网络错误，错误码为：' + e.statusCode,
+									icon: "none"
+								});
+							}
+						}
 					});
 				}
 			},

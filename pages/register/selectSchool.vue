@@ -64,7 +64,7 @@
 			}
 		},
 		methods: {
-			...mapMutations(['regSetSchoolId']),
+			...mapMutations(['regSetSchool']),
 			changeInput(e) {
 				if (e.detail.value === "") {
 					this.schoolList = [];
@@ -97,10 +97,15 @@
 					title: '提示',
 					message: '确定设置' + school.title + "为您的学校吗？一经设置不可修改哦！学校位置:" + school.addr
 				});
+				//静默上传到学校表
+				uni.request({
+					url: this.GLOBAL.serverSrc+'school/getSchool',
+					method: 'POST',
+					data: school
+				});
 			},
 			confirmButton() {
-				//留空写上传到学校表
-				this.regSetSchoolId(this.selectSchool.id);
+				this.regSetSchool(this.selectSchool);
 				uni.navigateTo({
 					url: './setAvatar'
 				});

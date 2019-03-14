@@ -2,7 +2,7 @@
 	<view>
 		<image src="../../static/common/login/head.png" style="width: 100%;height: 100px;"></image>
 		<view class="grace-padding">
-			<view style="margin-top: 10px;margin-bottom: 10px;" class="grace-center">
+			<view v-bind:style="{'margin-top': margin + 'px','margin-bottom': margin + 'px'}" class="grace-center">
 				<image class="ym-logo" src='../../static/logo.png'></image>
 			</view>
 			<view class="grace-form" style="width: 95%;margin:0 auto">
@@ -11,13 +11,13 @@
 						<view class="grace-label">
 							<view class="iconfont icon-shouji"></view>
 						</view>
-						<input type="number" name="phone" class="input" v-model="phoneno" placeholder="请输入手机号"></input>
+						<input type="number" name="phone" class="input" v-model="phoneno" placeholder="请输入手机号" maxlength="11"></input>
 					</view>
 					<view class="grace-items  item-border">
 						<view class="grace-label">
 							<view class="iconfont icon-mima1"></view>
 						</view>
-						<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码"></input>
+						<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码" maxlength="20"></input>
 					</view>
 					<button form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
 						登录 <text class="grace-iconfont icon-arrow-right"></text>
@@ -43,21 +43,30 @@
 	</view>
 </template>
 <script>
+	import {
+		mapMutations
+	} from 'vuex'
 	var graceChecker = require("../../graceUI/graceChecker.js");
 	export default {
 		data() {
 			return {
-				positionTop:500,
+				positionTop:500,//默认屏幕高度500
 				countNum: 120,
 				countDownTimer: null,
 				phoneno: '',
 				password: ''
 			}
 		},
+		computed: {
+			margin() {
+				return this.positionTop * 0.08;
+			}
+		},
 		onReady() {
 			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
 		},
 		methods: {
+			...mapMutations(['login']),
 			loginWithWx: function() {
 				uni.showToast({
 					title: "微信登录功能开发中",
@@ -107,10 +116,7 @@
 						data: e.detail.value,
 						success: res => {
 							if (res.data.status === 200) {
-								uni.setStorage({
-									key: 'loginStatus',
-									data: true,
-								});
+								this.login();//dsajhdhjashjdhjasjhdjhsahjdhjsahjdhjsahdjh
 								uni.reLaunch({
 									url: '../index/index'
 								});
@@ -143,7 +149,6 @@
 	page {
 		background-color: #fffcfa;
 	}
-
 	.ym-logo {
 		width: 68px;
 		height: 68px;

@@ -9,13 +9,13 @@
 					<view class="grace-label">
 						<view class="iconfont icon-shouji"></view>
 					</view>
-					<input type="number" name="phone" class="input" v-model="phoneno" placeholder="请输入手机号"></input>
+					<input type="number" name="phone" class="input" v-model="phoneno" placeholder="请输入手机号" maxlength="11"></input>
 				</view>
 				<view class="grace-items  item-border">
 					<view class="grace-label">
 						<view class="iconfont icon-mima1"></view>
 					</view>
-					<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码"></input>
+					<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码" maxlength="20"></input>
 				</view>
 				<view class="grace-space-between item-border" style="margin-top:28upx;max-height: 95upx;">
 					<view class="grace-items" style="width:70%;">
@@ -68,15 +68,12 @@
 			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
 		},
 		methods: {
-			...mapMutations(['regSetPhone']),
+			...mapMutations(['regSetPhoneAndPass']),
 			loginWithWx: function() {
 				uni.showToast({
 					title: "微信登录功能开发中",
 					icon: "none"
 				})
-			},
-			changePre: function(e) {
-				this.pnpre = this.pnpres[e.detail.value];
 			},
 			regNow: function(e) {
 				// 表单验证
@@ -86,9 +83,9 @@
 					errorMsg: "请输入正确的手机号"
 				}, {
 					name: "yzm",
-					checkType: "string",
-					checkRule: "6,6",
-					errorMsg: "短信验证码输入错误"
+					checkType: "same",
+					checkRule: this.yzm,
+					errorMsg: "短信验证码不正确"
 				}, {
 					name: "password",
 					checkType: "string",
@@ -99,27 +96,13 @@
 				var checkRes = graceChecker.check(formData, rule);
 				// 验证通过
 				if (checkRes) {
-					var data = e.detail.value;
-					data.verificationCode = this.yzm;
-					uni.request({
-						url: this.GLOBAL.serverSrc + 'register',
-						method: 'POST',
-						data: data,
-						success: res => {
-							if (res.data.status === 200) {
-								this.regSetPhone(this.phoneno);
-								uni.navigateTo({
-									url: './selectSex'
-								});
-							} else {
-								uni.showToast({
-									title: res.data.msg,
-									icon: "none"
-								});
-							}
-						},
-						fail: () => {},
-						complete: () => {}
+					var payload = {
+						phone:e.detail.value.phone,
+						password:e.detail.value.password
+					};
+					this.regSetPhoneAndPass(payload);
+					uni.navigateTo({
+						url: './selectSex'
 					});
 				} else {
 					uni.showToast({
@@ -148,7 +131,6 @@
 					url: this.GLOBAL.serverSrc + 'register/sendSms/' + this.phoneno,
 					method: 'GET',
 					success: res => {
-						console.log(JSON.stringify(res));
 						if (res.data.status === 200) {
 							uni.showToast({
 								title: res.data.msg,
@@ -166,12 +148,28 @@
 								icon: "none"
 							});
 							this.vcodeBtnName = "获取验证码";
+						}else{
+							uni.showToast({
+								title: '服务器错误,请稍后重试',
+								icon: "none"
+							});
+							this.vcodeBtnName = "获取验证码";
 						}
 					},
-					fail: () => {
-						console.log(JSON.stringify('123213'));
-					},
-					complete: () => {}
+					fail: (e) => {
+						if(e.statusCode === 0){
+							uni.showToast({
+								title: '未知的网络错误, 请确保设备处在联网状态',
+								icon: "none"
+							});
+						}else{
+							uni.showToast({
+								title: '发生网络错误，错误码为：' + e.statusCode,
+								icon: "none"
+							});
+						}
+						this.vcodeBtnName = "获取验证码";
+					}
 				});
 			},
 			countDown: function() {

@@ -7,38 +7,43 @@ const store = new Vuex.Store({
 	state: {
 		user:{
 			hasLogin:false,
+			token:'',
 			phone:'',
+			password:'',
 			userName:'',
-			sex: 0,
-			school:{
-				id:'11853391869743621792',
-				name:'',
-				addr:''
-			}
+			sex: 0
+		},
+		school:{
+			id:'11853391869743621792',
+			title:'',
+			addr:''
 		}
 	},
 	mutations: {
-		regSetPhone(state, phone) {
-			state.user.phone = phone;
+		regSetPhoneAndPass(state, payload) {
+			state.user.phone = payload.phone;
+			state.user.password = payload.password;
 		},
 		regSetSex(state, sex) {
 			state.user.sex = sex;
 		},
-		regSetSchoolId(state, schoolId) {
-			state.user.schoolId = schoolId;
+		regSetSchool(state, school) {
+			state.user.school = school;
 		},
 		regSetUserName(state, userName){
 			state.user.userName = userName;
 		},
-		regAfterLogin(state){
+		regAfterLogin(state,user){
+			state.user = user;
+			state.user.password = '';//为了安全置空密码
 			state.user.hasLogin = true;
 		},
-		login(state, user) {
-			state.user.name = userName || '新用户';
-			state.hasLogin = true;
+		login(state, payload) {
+			state.user = payload.user;
+			state.school = payload.school;
+			state.user.hasLogin = true;
 		},
 		logout(state) {
-			state.userName = "";
 			state.hasLogin = false;
 		}
 	}
