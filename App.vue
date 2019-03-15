@@ -1,5 +1,6 @@
 <script>
 	import graceVersion from 'graceUI/jsTools/version'
+	import autoUpdater from 'graceUI/jsTools//autoUpdater.min.js'
 	import {
 		mapMutations
 	} from 'vuex'
@@ -15,8 +16,14 @@
 				this.appOnLunch(app);
 			}
 			// #ifdef APP-PLUS
-			var serverUrl = "https://www.easy-mock.com/mock/5bb833775df5622d84ac87ca/example/version#!method=get";
-			graceVersion.checkAndUpdate(serverUrl);
+			autoUpdater.init({
+				packageUrl: 'https://qd.myapp.com/myapp/qqteam/Androidlite/qqlite_3.7.1.704_android_r110206_GuanWang_537057973_release_10000484.apk',
+				content: '更新内容:\n.修复上传房源时图片重复错乱问题\n.修复启动app时启动图变形问题\n.优化部分性能问题\n.新增功能1.新增功能2.新增功能3.新增功能3.新增功能3.新增功能3.新增功能3.新增功能3.新增功能3',
+				contentAlign: 'left',
+				cancel: '取消',
+				cancelColor: '#007fff'
+			});
+			autoUpdater.show();
 			// #endif
 		},
 		onShow: function() {

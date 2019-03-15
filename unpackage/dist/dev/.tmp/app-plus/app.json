@@ -13,7 +13,8 @@
     "pages/common/comment",
     "pages/hot/hot",
     "pages/message/message",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/my/setting/setting"
   ],
   "subPackages": [],
   "window": {

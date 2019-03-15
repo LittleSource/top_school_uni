@@ -165,6 +165,14 @@
 					"titleNView": false //禁用原生导航栏
 				}
 			}
+		},
+		{
+			"path": "pages/my/setting/setting",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "设置"
+			}
 		}
 	],
 	"globalStyle": {

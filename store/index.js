@@ -48,8 +48,12 @@ const store = new Vuex.Store({
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
 		},
-		logout(state) {
+		logOut(state) {
 			state.hasLogin = false;
+			uni.clearStorage();
+			uni.reLaunch({
+				url:'/pages/common/login'
+			})
 		},
 		loginAfterSetStorage(state) {
 			uni.setStorage({

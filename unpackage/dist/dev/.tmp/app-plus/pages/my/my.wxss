@@ -15,9 +15,9 @@
 	width: 100%;
 	overflow: hidden;
 	height: 150px;
-	background-repeat:no-repeat; 
-	background-size:100% 100%;
-	-moz-background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
 }
 .info {
 	/* 存放个人信息的 */
@@ -72,7 +72,7 @@
 .info_item:nth-last-of-type(1) {
 	border-radius: 0 0 8px 0;
 }
-.iconCon{
+.iconCon {
 	/* 放功能的图标 */
 	width: 100%;
 	float: left;
@@ -80,9 +80,9 @@
 	margin-top: 16px;
 	padding: 32px 0;
 }
-.iconCon>view{
+.iconCon>view {
 	float: left;
-	width: calc( 100% / 4 );
+	width: calc(100% / 4);
 	text-align: center;
 }
 

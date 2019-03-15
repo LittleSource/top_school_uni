@@ -19,7 +19,7 @@
 						</view>
 						<input type="text" password name="password" class="input" v-model="password" placeholder="请输入密码" maxlength="20"></input>
 					</view>
-					<button form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
+					<button :loading="btnLoading" form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
 						登录 <text class="grace-iconfont icon-arrow-right"></text>
 					</button>
 					<view class="grace-space-between grace-rows" style="margin-top:20upx;" >
@@ -55,7 +55,8 @@
 				countNum: 120,
 				countDownTimer: null,
 				phoneno: '',
-				password: ''
+				password: '',
+				btnLoading: false
 			}
 		},
 		computed: {
@@ -111,6 +112,7 @@
 				var checkRes = graceChecker.check(formData, rule);
 				// 验证通过
 				if (checkRes) {
+					this.btnLoading = true;
 					uni.request({
 						url: this.GLOBAL.serverSrc + 'login',
 						method: 'POST',
@@ -128,8 +130,12 @@
 								});
 							}
 						},
-						fail: () => {},
-						complete: () => {}
+						fail: (e) => {
+							this.GLOBAL.requestFail(e);
+						},
+						complete: () => {
+							this.btnLoading = false;
+						}
 					});
 				} else {
 					uni.showToast({

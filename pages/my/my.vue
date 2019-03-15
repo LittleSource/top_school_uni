@@ -37,24 +37,22 @@
 				<p>视频</p>
 			</view>
 		</view>
-		<!-- <graceHeader url="../index/index" title="GraceUI 组件" desc="基于uni-app及微信小程序的优秀前端框架" imgurl="/static/icon/my.png">
-		</graceHeader>
 		<view class="grace-list grace-common-mt">
-			<navigator class="items">
+			<navigator class="items" v-for="(item, index) in lists" :key="index">
 				<view class="icons">
-					<image src="/static/icon/my.png" mode="widthFix"></image>
+					<image :src="staticUrl + item.img" mode="widthFix"></image>
 				</view>
-				<view class="title">1123123<text>21321321</text></view>
+				<view class="title">{{item.title}}<text>{{item.desc}}</text></view>
 				<view class="arrow-right"></view>
 			</navigator>
-			<navigator class="items">
+			<navigator class="items" url="./setting/setting">
 				<view class="icons">
-					<image src="/static/icon/my.png" mode="widthFix"></image>
+					<image src="../../static/coloricon/setting.png" mode="widthFix"></image>
 				</view>
-				<view class="title">1123123<text>21321321</text></view>
+				<view class="title">设置</view>
 				<view class="arrow-right"></view>
 			</navigator>
-		</view> -->
+		</view>
 	</view>
 </template>
 
@@ -62,7 +60,15 @@
 	import graceHeader from "../../graceUI/components/graceHeader.vue";
 	export default {
 		data() {
-			return {}
+			return {
+				staticUrl : 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',
+				lists : [
+						{ img: 'shange.png', title: '布局栅格', path: "rows", desc:"flex 基础布局"},
+						{ img: 'scroll.png', title: '滚动区域', path: "scroll", desc: "" },
+						{ img: 'moveview.png', title: '可移动区域', path: "moveview", desc: "" }
+					]
+				
+			}
 		},
 		components: {
 			graceHeader
@@ -77,9 +83,9 @@
 		width: 100%;
 		overflow: hidden;
 		height: 150px;
-		background-repeat:no-repeat; 
-		background-size:100% 100%;
-		-moz-background-size:100% 100%;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
 	}
 
 	.info {
@@ -142,7 +148,8 @@
 	.info_item:nth-last-of-type(1) {
 		border-radius: 0 0 8px 0;
 	}
-	.iconCon{
+
+	.iconCon {
 		/* 放功能的图标 */
 		width: 100%;
 		float: left;
@@ -150,9 +157,10 @@
 		margin-top: 16px;
 		padding: 32px 0;
 	}
-	.iconCon>view{
+
+	.iconCon>view {
 		float: left;
-		width: calc( 100% / 4 );
+		width: calc(100% / 4);
 		text-align: center;
 	}
 </style>

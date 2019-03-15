@@ -28,7 +28,7 @@
 						<button type="primary" class="login-sendmsg-btn" @tap='getVCode'>{{vcodeBtnName}}</button>
 					</view>
 				</view>
-				<button form-type='submit' type='primary' style='background:#fc4243; margin-top:30px;'>
+				<button :loading="btnLoading" form-type='submit' type='primary' style='background:#fc4243; margin-top:30px;'>
 					注册 <text class="grace-iconfont icon-arrow-right"></text>
 				</button>
 			</form>
@@ -61,7 +61,7 @@
 				countDownTimer: null,
 				phoneno: '',
 				password: '',
-				yzm: ''
+				btnLoading:false
 			}
 		},
 		onLoad() {
@@ -83,8 +83,8 @@
 					errorMsg: "请输入正确的手机号"
 				}, {
 					name: "yzm",
-					checkType: "same",
-					checkRule: this.yzm,
+					checkType: "string",
+					checkRule: "6,6",
 					errorMsg: "短信验证码不正确"
 				}, {
 					name: "password",
@@ -96,13 +96,29 @@
 				var checkRes = graceChecker.check(formData, rule);
 				// 验证通过
 				if (checkRes) {
-					var payload = {
-						phone:e.detail.value.phone,
-						password:e.detail.value.password
-					};
-					this.regSetPhoneAndPass(payload);
-					uni.navigateTo({
-						url: './selectSex'
+					this.btnLoading = true;
+					uni.request({//为了安全由后端验证验证码
+						url: this.GLOBAL.serverSrc+'/verifyVCode',
+						method: 'POST',
+						data: {
+							'vCode':e.detail.value.yzm
+						},
+						success: res => {
+							var payload = {
+								phone:e.detail.value.phone,
+								password:e.detail.value.password
+							};
+							this.regSetPhoneAndPass(payload);
+							uni.navigateTo({
+								url: './selectSex'
+							});
+						},
+						fail: (e) => {
+							this.GLOBAL.requestFail(e);
+						},
+						complete: () => {
+							this.btnLoading = false;
+						}
 					});
 				} else {
 					uni.showToast({
@@ -136,7 +152,6 @@
 								title: res.data.msg,
 								icon: "none"
 							});
-							this.yzm = res.data.verificationCode;
 							// 倒计时
 							this.countNum = 120;
 							this.countDownTimer = setInterval(function() {
