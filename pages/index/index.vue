@@ -3,17 +3,21 @@
 		<view class="header">
 			<view class="status-bar"></view><!-- 状态栏占位 -->
 			<view class="info grace-rows">
-				<!-- <image class="title school-img" src="../../static/school/checkSchool.png" @click="skip('../common/checkSchool')"></image> -->
-				<view class="iconfont icon-changeschool" @click="skip('../common/checkSchool')"></view>
-				<view class="serach title" @click="skip('../common/search')">
-					<view class="grace-iconfont icon-search serach-icon"></view>
-					<view class="serach-text">搜索内容</view>
+				<view class="grace-iconfont icon-position grace-ellipsis" @click="skip('../common/checkSchool')">
+					<text class="is-bold" style="margin-left: 5upx;">{{selectSchool.title}}</text>
 				</view>
-				<view class="iconfont icon-jiahao title" style="font-size: 24px;" @click="showPopupMenu()"></view>
+				<view class="grace-rows">
+					<view class="serach" @click="skip('../common/search')">
+						<view class="grace-iconfont icon-search serach-icon"></view>
+						<view class="serach-text">搜索内容</view>
+					</view>
+					<view class="iconfont icon-jiahao title" style="font-size: 24px;" @click="showPopupMenu()"></view>
+				</view>
 			</view>
 		</view>
 		<view class="index grace-padding" style="position:relative;">
-			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)" indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
+			<swiper class="grace-swiper" autoplay="true" indicator-dots indicator-color="rgba(255, 255, 255, 0.5)"
+			 indicator-active-color="#fc4243" style="height :290upx;" interval="3000">
 				<swiper-item v-for="(img, index) in swiperimgs" :key="index">
 					<navigator :url='img.path' :open-type="img.openType">
 						<image :src='img.imgUrl' mode='widthFix'></image>
@@ -137,24 +141,29 @@
 				]
 			}
 		},
-		computed: mapState(['user']),// 拿到vuex的user对象,
+		computed: mapState(['user','selectSchool']), // 拿到vuex的user对象,
 		onLoad: function() {
- 			if(!this.user.hasLogin){
- 				uni.redirectTo({
- 					url: '../common/login'
- 				});
- 			}
+			if (!this.user.hasLogin) {
+				uni.redirectTo({
+					url: '../common/login'
+				});
+			}
 		},
 		methods: {
-			skip(url){
+			skip(url) {
 				uni.navigateTo({
 					url: url
 				});
 			},
 			showPopupMenu() {
 				uni.showActionSheet({
-					itemList: ['A', 'B', 'C'],
+					itemList: ['发布心情到表白墙', 'B', 'C'],
 					success: function(res) {
+						if (res.tapIndex === 0) {
+							uni.navigateTo({
+								url: './confession/publish'
+							});
+						}
 						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
 					}
 				});
@@ -177,35 +186,36 @@
 		z-index: 999;
 	}
 
-	.header>.status-bar {
+	.header .status-bar {
 		height: var(--status-bar-height);
 	}
 
-	.header>.info {
+	.header .info {
 		color: #FFFFFF;
 		height: 44px;
-		justify-content: center;
+		justify-content: space-between;
 		align-items: center;
+		margin: 0 15upx;
 	}
 
-	.header>.info>.title {
+	.header .info .title {
 		margin-left: 8upx;
 		font-size: 22px;
 	}
-	.icon-changeschool{
+
+	.icon-changeschool {
 		font-size: 22px;
-		margin-right: 5px;
 	}
-	
-	.header>.info>.serach {
+
+	.header .info .serach {
 		height: 30px;
-		width: 590upx;
-		border-radius: 15px;
+		width: 280upx;
+		border-radius: 8px;
 		overflow: hidden;
 		background-color: #F5F5F5 !important;
 	}
 
-	.header>.info>.serach>.serach-icon {
+	.header .info .serach .serach-icon {
 		float: left;
 		color: grey;
 		margin-top: 8px;
@@ -213,7 +223,7 @@
 		font-size: 14px !important;
 	}
 
-	.header>.info>.serach>.serach-text {
+	.header .info .serach .serach-text {
 		float: left;
 		color: grey;
 		margin-top: 5px;
@@ -222,7 +232,7 @@
 	}
 
 	.index {
-		background: linear-gradient(#fc4243 0%,#fc4243 9%,#fff 9%,#fff 100%);
+		background: linear-gradient(#fc4243 0%, #fc4243 9%, #fff 9%, #fff 100%);
 		margin-top: calc(var(--status-bar-height) + 44px);
 	}
 

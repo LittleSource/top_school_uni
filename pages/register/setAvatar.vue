@@ -125,7 +125,7 @@
 						const tempFilePath = chooseImageRes.tempFilePaths[0];
 						//开始上传头像
 						uni.uploadFile({
-							url: src + 'upload/avatar', //接口地址
+							url: src + 'register/uploadAvatar', //接口地址
 							filePath: tempFilePath,
 							name: 'avatar',
 							success: (uploadFileRes) => {

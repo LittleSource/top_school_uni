@@ -61,7 +61,7 @@ verson : 1.1.1
 .icon-zan:before{content:"\e6ea";} .icon-share2:before{content:"\e606";} .icon-pinglun:before{content:"\e6b8";}
 .icon-weibo:before{content:"\e6cd";} .icon-weixin:before{content:"\e63e";}  .icon-qq:before{content:"\e63c";}
 .icon-write:before{content:"\e69e";} .icon-remove:before{content:"\e684";} .icon-search:before{content:"\e604";}
-.icon-close:before {content:"\e602";} .icon-close2:before {content:"\e78a";} .icon-refresh:before{content:"\e61a";} 
+.icon-close:before {content:"\e602";} .icon-close2:before {content:"\e602";} .icon-refresh:before{content:"\e61a";} 
 .icon-loading:before{content:"\e9db";} .icon-arrow-left:before{content:"\e600";} .icon-arrow-right:before{content:"\e601";}
 .icon-arrow-up:before{content:"\e654";} .icon-arrow-down:before{content:"\e603";} .icon-right:before{content:"\e60f";} 
 .icon-shoucang:before{content:"\e605";}  .icon-time:before{content:"\e607";} .icon-eye:before{content:"\e609";} 
@@ -320,7 +320,7 @@ margin:0; color:#000;}
 .grace-add-file .garce-items-media{width:213upx; height:213upx; margin:10upx; overflow:hidden;}
 .grace-add-file .garce-items-media video{width:213px; height:190upx;}
 .grace-add-file .grace-remove{height:40upx; font-size:22upx; justify-content:center; line-height:60upx; overflow:hidden;}
-.grace-add-file .garce-items .grace-close{font-family:"grace-iconfont" !important; width:46upx; height:46upx; position:absolute; z-index:1; right:10upx; bottom:10upx; font-size:46upx; color:#FF0000; opacity:0.8}
+.grace-add-file .garce-items .grace-close{font-family:"grace-iconfont" !important; width:46upx; height:46upx; position:absolute; z-index:1; right:10upx; bottom:10upx; font-size:46upx; color:#fc4243; opacity:0.8}
 .grace-add-file .garce-items .grace-close:before{content:"\e602";}
 
 /* 普通表格 */

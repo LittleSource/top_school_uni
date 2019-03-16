@@ -36,6 +36,7 @@
 
 
 
+
 /*每个页面公共css */
 @charset "UTF-8";
 @-webkit-keyframes icon-spin {
@@ -4020,7 +4021,7 @@ verson : 1.1.1
 .icon-remove:before{content:"\E684";}
 .icon-search:before{content:"\E604";}
 .icon-close:before {content:"\E602";}
-.icon-close2:before {content:"\E78A";}
+.icon-close2:before {content:"\E602";}
 .icon-refresh:before{content:"\E61A";}
 .icon-loading:before{content:"\E9DB";}
 .icon-arrow-left:before{content:"\E600";}
@@ -4270,7 +4271,7 @@ margin:0; color:#000;}
 .grace-add-file .garce-items-media{width:213rpx; height:213rpx; margin:10rpx; overflow:hidden;}
 .grace-add-file .garce-items-media ._video{width:213px; height:190rpx;}
 .grace-add-file .grace-remove{height:40rpx; font-size:22rpx; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; line-height:60rpx; overflow:hidden;}
-.grace-add-file .garce-items .grace-close{font-family:"grace-iconfont" !important; width:46rpx; height:46rpx; position:absolute; z-index:1; right:10rpx; bottom:10rpx; font-size:46rpx; color:#FF0000; opacity:0.8}
+.grace-add-file .garce-items .grace-close{font-family:"grace-iconfont" !important; width:46rpx; height:46rpx; position:absolute; z-index:1; right:10rpx; bottom:10rpx; font-size:46rpx; color:#fc4243; opacity:0.8}
 .grace-add-file .garce-items .grace-close:before{content:"\E602";}
 /* 普通表格 */
 .grace-stable{padding:0;}
@@ -4454,5 +4455,8 @@ to {-webkit-transform:rotateY(360deg);transform:rotateY(360deg);}}
 }
 .ymkj-reply-margin {
 	margin-left: 15rpx;
+}
+.ymkj-bg{
+	background-color: #fc4243;
 }
 

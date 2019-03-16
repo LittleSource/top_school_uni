@@ -8,6 +8,11 @@
 				"navigationBarBackgroundColor": "#fc4243",
 				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus": {
+					"pullToRefresh": {
+						"support": true,
+						"color": "#fc4243",
+						"offset":"12%"
+					},
 					"scrollIndicator": "none", //不显示滚动条
 					"titleNView": false
 				}
@@ -26,6 +31,15 @@
 						"color": "#fc4243"
 					}
 				}
+			}
+		},
+		{
+			//表白墙发布页面
+			"path": "pages/index/confession/publish",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "发布"
 			}
 		},
 		{

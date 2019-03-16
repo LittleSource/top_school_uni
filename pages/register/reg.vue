@@ -98,7 +98,7 @@
 				if (checkRes) {
 					this.btnLoading = true;
 					uni.request({//为了安全由后端验证验证码
-						url: this.GLOBAL.serverSrc+'/verifyVCode',
+						url: this.GLOBAL.serverSrc+'/register/verifyVCode',
 						method: 'POST',
 						data: {
 							'vCode':e.detail.value.yzm

@@ -4,7 +4,7 @@
 
 <script>
 	//全局配置文件
-	const serverSrc = 'http://123.150.166.58/';
+	const serverSrc = 'http://123.151.6.228/';
 	const token = '';
 	export default {
 		token, //用户token身份

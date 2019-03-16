@@ -13,6 +13,7 @@
 			app.user = uni.getStorageSync('user');
 			if (app.user.hasLogin === true) {
 				app.school = uni.getStorageSync('school');
+				app.selectSchool = uni.getStorageSync('selectSchool');
 				this.appOnLunch(app);
 			}
 			// #ifdef APP-PLUS
@@ -23,7 +24,7 @@
 				cancel: '取消',
 				cancelColor: '#007fff'
 			});
-			autoUpdater.show();
+			//autoUpdater.show();
 			// #endif
 		},
 		onShow: function() {
@@ -73,5 +74,9 @@
 
 	.ymkj-reply-margin {
 		margin-left: 15upx;
+	}
+	
+	.ymkj-bg{
+		background-color: #fc4243;
 	}
 </style>

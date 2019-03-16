@@ -1,0 +1,11 @@
+
+.input-textarea.data-v-23d011c0 {
+	margin: 5px auto;
+	height: 68px;
+	max-height: 100px;
+	font-size: 16px;
+}
+.input-textarea ._textarea.data-v-23d011c0 {
+	width: 100%;
+}
+

@@ -17,6 +17,11 @@ const store = new Vuex.Store({
 			id: '11853391869743621792',
 			title: '',
 			addr: ''
+		},
+		selectSchool:{
+			id: '11853391869743621792',
+			title: '',
+			addr: ''
 		}
 	},
 	mutations: {
@@ -29,6 +34,7 @@ const store = new Vuex.Store({
 		},
 		regSetSchool(state, school) {
 			state.user.school = school;
+			state.user.setSchool = school;
 		},
 		regSetUserName(state, userName) {
 			state.user.userName = userName;
@@ -45,6 +51,7 @@ const store = new Vuex.Store({
 			state.user.sex = payload.sex;
 			state.user.userName = payload.userName;
 			state.school = payload.school;
+			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
 		},
@@ -64,10 +71,29 @@ const store = new Vuex.Store({
 				key: 'school',
 				data: state.school
 			});
+			uni.setStorage({
+				key: 'selectSchool',
+				data: state.selectSchool
+			});
+		},
+		checkSchool(state,payload){
+			state.selectSchool = payload;
+			uni.setStorage({
+				key: 'selectSchool',
+				data: payload,
+				fail: function() {
+					uni.showModal({
+						title: '提示',
+						content: '学校切换失败！',
+						showCancel: false
+					});
+				}
+			});
 		},
 		appOnLunch(state,payload){
 			state.user = payload.user;
 			state.school = payload.school;
+			state.selectSchool = payload.selectSchool;
 		}
 	}
 })

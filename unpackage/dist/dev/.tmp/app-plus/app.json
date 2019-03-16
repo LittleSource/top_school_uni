@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/index/confession/index",
+    "pages/index/confession/publish",
     "pages/index/confession/detail",
     "pages/common/login",
     "pages/register/reg",

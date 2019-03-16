@@ -12,6 +12,10 @@
 </template>
 
 <script>
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex'
 	import simpleDialog from '../../components/dialog.vue';
 	import QQMapWX from '../../common/qqmap-wx-jssdk.min.js';
 	var qqmapsdk = new QQMapWX({
@@ -27,8 +31,9 @@
 				nowSchool: {}
 			}
 		},
+		computed: mapState(['selectSchool']),
 		onLoad() {
-			this.nowSchool = uni.getStorageSync('school');
+			this.nowSchool = this.selectSchool;
 		},
 		onNavigationBarSearchInputChanged(e) {
 			if (e.text === "") {
@@ -57,6 +62,7 @@
 			});
 		},
 		methods: {
+			...mapMutations(['checkSchool']),
 			setSchool(school) {
 				this.nowSchool = school;
 				this.$refs.simpleDialog2.confirm({
@@ -65,21 +71,9 @@
 				});
 			},
 			confirmButton() {
-				uni.setStorage({
-					key: 'school',
-					data: this.nowSchool,
-					fail: function() {
-						uni.showModal({
-							title: '提示',
-							content: '学校切换失败！',
-							showCancel: false
-						});
-					},
-					complete: function() {
-						uni.switchTab({
-							url: '/pages/index/index'
-						});
-					}
+				this.checkSchool(this.nowSchool);
+				uni.switchTab({
+					url: '/pages/index/index'
 				});
 			}
 		}
