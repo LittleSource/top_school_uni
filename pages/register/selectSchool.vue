@@ -99,9 +99,13 @@
 				});
 				//静默上传到学校表
 				uni.request({
-					url: this.GLOBAL.serverSrc+'school/getSchool',
+					url: this.GLOBAL.serverSrc+'common/school/getSchool',
 					method: 'POST',
-					data: school
+					data: {
+						'id':school.id,
+						'title':school.title,
+						'addr':school.addr
+					}
 				});
 			},
 			confirmButton() {

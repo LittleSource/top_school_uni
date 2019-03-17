@@ -69,6 +69,16 @@
 					title: '提示',
 					message: '确定切换到' + school.title + "吗？ 学校位置:" + school.addr
 				});
+				//静默上传到学校表
+				uni.request({
+					url: this.GLOBAL.serverSrc+'common/school/getSchool',
+					method: 'POST',
+					data: {
+						'id':school.id,
+						'title':school.title,
+						'addr':school.addr
+					}
+				});
 			},
 			confirmButton() {
 				this.checkSchool(this.nowSchool);

@@ -58,10 +58,10 @@
 				hasAvatar: false
 			};
 		},
-		computed: mapState(['user']), // 拿到vuex的register对象
+		computed: mapState(['user','school']), // 拿到vuex的register对象
 		methods: {
 			//映射vuex的regSetNickName方法
-			...mapMutations(['regSetUserName', 'regAfterLogin']),
+			...mapMutations(['regSetUserName', 'regAfterLogin','regSetAvatar']),
 			//点击提交按钮
 			submit() {
 				if (this.userName.length <= 0 || this.userName.length > 8) { //验证昵称
@@ -79,10 +79,18 @@
 				} else {
 					this.regSetUserName(this.userName);
 					uni.request({
-						url: this.GLOBAL.serverSrc + '/register',
+						url: this.GLOBAL.serverSrc + '/common/register/register',
 						method: 'POST',
-						data: this.user,
+						data: {
+							'phone':this.user.phone,
+							'password':this.user.password,
+							'user_name':this.user.userName,
+							'avatar':this.user.avatar,
+							'sex':this.user.sex,
+							'id':this.school.id
+						},
 						success: res => {
+							console.log(JSON.stringify(res));
 							if (res.data.status === 200) { //注册成功
 								this.regAfterLogin(res.data);
 								uni.showToast({
@@ -125,18 +133,25 @@
 						const tempFilePath = chooseImageRes.tempFilePaths[0];
 						//开始上传头像
 						uni.uploadFile({
-							url: src + 'register/uploadAvatar', //接口地址
+							url: src + '/common/register/uploadAvatar', //接口地址
 							filePath: tempFilePath,
 							name: 'avatar',
 							success: (uploadFileRes) => {
 								var resObj = JSON.parse(uploadFileRes.data);
-								_this.avatarPath = src + 'temp/' + resObj.imgName;
-								_this.hasAvatar = true;
+								if(resObj.status === 200){
+									_this.avatarPath = src + resObj.url;
+									_this.regSetAvatar(_this.avatarPath);
+									_this.hasAvatar = true;
+								}else{
+									uni.showToast({
+										title: resObj.msg,
+										icon: "none"
+									});
+								}
 							},
 							fail: (e) => {
-								console.log(JSON.stringify(e));
-							},
-							complete: () => {}
+								_self.global_.requestFail(e);
+							}
 						});
 					}
 				});

@@ -114,7 +114,7 @@
 				if (checkRes) {
 					this.btnLoading = true;
 					uni.request({
-						url: this.GLOBAL.serverSrc + 'login',
+						url: this.GLOBAL.serverSrc + 'common/login/login',
 						method: 'POST',
 						data: e.detail.value,
 						success: res => {

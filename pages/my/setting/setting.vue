@@ -14,7 +14,7 @@
 			</view>
 		</view>
 		<view style="width:100%; margin-top:18px;">
-			<button @click="logOut" style="width:100%; background:#FFFFFF; border:0;">退出登录</button>
+			<button @click="logout" style="width:100%; background:#FFFFFF; border:0;">退出登录</button>
 		</view>
 		<view style="width:100%; height:30px;"></view>
 	</view>
@@ -24,13 +24,18 @@
 	import {
 		mapMutations
 	} from 'vuex'
-	export default{
+	export default {
 		data() {
-			return {
-			}
+			return {}
 		},
 		methods: {
-			...mapMutations(['logOut'])
+			...mapMutations(['logOut']),
+			logout: function() {
+				this.logOut();
+				uni.reLaunch({
+					url: '/pages/common/login'
+				})
+			}
 		},
 	}
 </script>

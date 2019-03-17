@@ -1,4 +1,7 @@
 
+.grace-bg-white.data-v-23d011c0 {
+	width: 750rpx;
+}
 .input-textarea.data-v-23d011c0 {
 	margin: 5px auto;
 	height: 68px;

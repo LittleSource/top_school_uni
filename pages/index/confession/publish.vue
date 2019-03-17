@@ -1,9 +1,10 @@
 <template>
 	<view class="grace-bg-white">
+		<progress v-if="Loading" percent="60" color="#5FB878" stroke-width="4" />
 		<view class="grace-items grace-noborder grace-padding input-textarea">
-			<textarea style="width: 100%;" v-model="confessionPublish.content" placeholder="这一刻的想法..." maxlength="200"></textarea>
+			<textarea style="width: 100%;" v-model="content" placeholder="这一刻的想法..." maxlength="200"></textarea>
 		</view>
-		<view style="width:750px;" class="grace-common-mt">
+		<view class="grace-common-mt">
 			<view class="grace-add-file">
 				<view class="grace-add-btn" @tap="addImg" v-if="btnImg">
 					<view>+</view>
@@ -16,7 +17,7 @@
 			</view>
 		</view>
 		<view class="grace-padding has-bordert">
-			<button :loading="btnLoading" type="default" class="ymkj-bg" @click="submit">提交</button>
+			<button :loading="Loading" type="default" class="ymkj-bg" @click="submit">提交</button>
 		</view>
 	</view>
 </template>
@@ -25,18 +26,16 @@
 	import {
 		mapState
 	} from 'vuex'
-	var maxNum = 9,_self;
+	var maxNum = 9,
+		_self;
 	export default {
 		data() {
 			return {
-				confessionPublish:{
-					token:'',
-					phone:'',
-					content:''
-				},
+				content: '',
 				imgLists: [],
+				imgFiles: [],
 				btnImg: true,
-				btnLoading: false
+				Loading: false
 			}
 		},
 		onLoad: function() {
@@ -53,6 +52,7 @@
 					count: num,
 					sizeType: ['compressed'],
 					success: function(res) {
+						_self.imgFiles = _self.imgFiles.concat(res.tempFiles);
 						_self.imgLists = _self.imgLists.concat(res.tempFilePaths);
 						if (_self.imgLists.length >= maxNum) {
 							_self.btnImg = false;
@@ -75,17 +75,36 @@
 					current: currentImg
 				})
 			},
-			submit:function(){
-				this.btnLoading = true;
-				this.confessionPublish.token = this.user.token;
-				this.confessionPublish.phone = this.user.phone;
-				console.log('asdsad');
+			submit: function() {
+				this.Loading = true;
+				//更改imgFiles内的file对象的key为uri
+				var filesArr = this.imgFiles.map(key => {
+					return {
+						uri: key.path
+					}
+				});
+				uni.uploadFile({
+					url: _self.GLOBAL.serverSrc + 'confession/publish',
+					files: filesArr,
+					formData: {
+						'token': this.user.token,
+						'phone': this.user.phone,
+						'content': this.content
+					},
+					success: (uploadFileRes) => {
+						console.log(uploadFileRes.data);
+					}
+				});
 			}
 		}
 	}
 </script>
 
 <style scoped>
+	.grace-bg-white {
+		width: 750upx;
+	}
+
 	.input-textarea {
 		margin: 5px auto;
 		height: 68px;

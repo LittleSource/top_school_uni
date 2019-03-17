@@ -9,6 +9,7 @@ const store = new Vuex.Store({
 			hasLogin: false,
 			token: '',
 			phone: '',
+			avatar:'',
 			password: '',
 			userName: '',
 			sex: 0
@@ -33,8 +34,11 @@ const store = new Vuex.Store({
 			state.user.sex = sex;
 		},
 		regSetSchool(state, school) {
-			state.user.school = school;
-			state.user.setSchool = school;
+			state.school = school;
+			state.selectSchool = school;
+		},
+		regSetAvatar(state, avatar) {
+			state.user.avatar = avatar;
 		},
 		regSetUserName(state, userName) {
 			state.user.userName = userName;
@@ -49,7 +53,8 @@ const store = new Vuex.Store({
 			state.user.token = payload.token;
 			state.user.phone = payload.phone;
 			state.user.sex = payload.sex;
-			state.user.userName = payload.userName;
+			state.user.userName = payload.user_name;
+			state.user.avatar = payload.user.avatar;
 			state.school = payload.school;
 			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
 			state.user.hasLogin = true;
@@ -58,9 +63,6 @@ const store = new Vuex.Store({
 		logOut(state) {
 			state.hasLogin = false;
 			uni.clearStorage();
-			uni.reLaunch({
-				url:'/pages/common/login'
-			})
 		},
 		loginAfterSetStorage(state) {
 			uni.setStorage({

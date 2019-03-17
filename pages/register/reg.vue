@@ -61,7 +61,7 @@
 				countDownTimer: null,
 				phoneno: '',
 				password: '',
-				btnLoading:false
+				btnLoading: false
 			}
 		},
 		onLoad() {
@@ -97,21 +97,29 @@
 				// 验证通过
 				if (checkRes) {
 					this.btnLoading = true;
-					uni.request({//为了安全由后端验证验证码
-						url: this.GLOBAL.serverSrc+'/register/verifyVCode',
+					uni.request({ //为了安全由后端验证验证码
+						url: this.GLOBAL.serverSrc + 'common/register/verifyVCode',
 						method: 'POST',
 						data: {
-							'vCode':e.detail.value.yzm
+							'phone': e.detail.value.phone,
+							'vCode': e.detail.value.yzm
 						},
 						success: res => {
-							var payload = {
-								phone:e.detail.value.phone,
-								password:e.detail.value.password
-							};
-							this.regSetPhoneAndPass(payload);
-							uni.navigateTo({
-								url: './selectSex'
-							});
+							if (res.data.status === 200) {
+								var payload = {
+									phone: e.detail.value.phone,
+									password: e.detail.value.password
+								};
+								this.regSetPhoneAndPass(payload);
+								uni.navigateTo({
+									url: './selectSex'
+								});
+							} else {
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
 						},
 						fail: (e) => {
 							this.GLOBAL.requestFail(e);
@@ -144,7 +152,7 @@
 				this.vcodeBtnName = "发送中...";
 				// 与后端 api 交互，发送验证码
 				uni.request({
-					url: this.GLOBAL.serverSrc + 'register/sendSms/' + this.phoneno,
+					url: this.GLOBAL.serverSrc + 'common/register/sendVcode?phone=' + this.phoneno,
 					method: 'GET',
 					success: res => {
 						if (res.data.status === 200) {
@@ -157,27 +165,21 @@
 							this.countDownTimer = setInterval(function() {
 								this.countDown();
 							}.bind(this), 1000);
-						} else if (res.data.status === 400) {
+						} else {
 							uni.showToast({
 								title: res.data.msg,
-								icon: "none"
-							});
-							this.vcodeBtnName = "获取验证码";
-						}else{
-							uni.showToast({
-								title: '服务器错误,请稍后重试',
 								icon: "none"
 							});
 							this.vcodeBtnName = "获取验证码";
 						}
 					},
 					fail: (e) => {
-						if(e.statusCode === 0){
+						if (e.statusCode === 0) {
 							uni.showToast({
 								title: '未知的网络错误, 请确保设备处在联网状态',
 								icon: "none"
 							});
-						}else{
+						} else {
 							uni.showToast({
 								title: '发生网络错误，错误码为：' + e.statusCode,
 								icon: "none"
