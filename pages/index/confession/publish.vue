@@ -1,6 +1,6 @@
 <template>
 	<view class="grace-bg-white">
-		<progress v-if="Loading" percent="60" color="#5FB878" stroke-width="4" />
+		<progress v-if="Loading" :percent="progress" color="#5FB878" stroke-width="4" />
 		<view class="grace-items grace-noborder grace-padding input-textarea">
 			<textarea style="width: 100%;" v-model="content" placeholder="这一刻的想法..." maxlength="200"></textarea>
 		</view>
@@ -35,7 +35,8 @@
 				imgLists: [],
 				imgFiles: [],
 				btnImg: true,
-				Loading: false
+				Loading: false,
+				progress:0//上传进度
 			}
 		},
 		onLoad: function() {
@@ -77,14 +78,17 @@
 			},
 			submit: function() {
 				this.Loading = true;
+				var i = 0;
+				var _this = this;
 				//更改imgFiles内的file对象的key为uri
 				var filesArr = this.imgFiles.map(key => {
 					return {
+						name: 'file[' + (i++) + ']',
 						uri: key.path
 					}
 				});
-				uni.uploadFile({
-					url: _self.GLOBAL.serverSrc + 'confession/publish',
+				const uploadTask = uni.uploadFile({
+					url: _self.GLOBAL.serverSrc + 'confession/publish/upload',
 					files: filesArr,
 					formData: {
 						'token': this.user.token,
@@ -92,8 +96,31 @@
 						'content': this.content
 					},
 					success: (uploadFileRes) => {
-						console.log(uploadFileRes.data);
+						var resObj = JSON.parse(uploadFileRes.data);
+						if (resObj.status === 200) {
+							uni.showToast({
+								title: '发表成功！',
+								icon: "none"
+							});
+							uni.switchTab({
+								url: '../index'
+							});
+						} else {
+							uni.showToast({
+								title: resObj.msg,
+								icon: "none"
+							});
+						}
+					},
+					fail: (e) => {
+						_this.GLOBAL.requestFail(e);
+					},
+					complete: () => {
+						_this.Loading = false;
 					}
+				});
+				uploadTask.onProgressUpdate((res) => {
+					_this.progress = res.progress;
 				});
 			}
 		}

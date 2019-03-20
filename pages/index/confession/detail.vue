@@ -3,7 +3,7 @@
 		<view class="grace-article-author-line" style="margin-top: 8px;">
 			<view class="grace-article-author">
 				<image :src="article.avatar" mode="widthFix"></image>
-				<view class="author-name">{{article.userName}}</view>
+				<view class="author-name">{{article.user_name}}</view>
 			</view>
 			<view class="btn" @click="guanzhu()"> +关注 </view>
 		</view>
@@ -12,15 +12,15 @@
 			<block>
 				<view class="text-item">{{article.content}}</view>
 				<view class="grace-wrap grace-padding" @click="showImage()">
-					<image v-for="(img, imgIndex) in article.imagesList" :key="imgIndex" :src="img" mode="widthFix" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
+					<image v-for="(img, imgIndex) in article.images_list" :key="imgIndex" :src="img" mode="widthFix" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
 				</view>
 			</block>
 		</view>
 		<!-- 其他基本信息 -->
 		<view class="grace-article-info-line" style="font-size: 50upx;">
-			<view class="grace-iconfont icon-time">{{article.releaseTime}}</view>
-			<view class="iconfont icon-fire">{{article.readingVolume}}</view>
-			<view class="iconfont icon-heart2">{{article.thumbsUp}}</view>
+			<view class="grace-iconfont icon-time">{{article.release_time}}</view>
+			<view class="iconfont icon-fire">{{article.reading_volume}}</view>
+			<view class="iconfont icon-heart2">{{article.thumbs_up}}</view>
 		</view>
 		<view class="grace-title grace-border" style="margin-top:60upx;">
 			<view class="grace-h5 grace-blod">网友评论</view>
@@ -33,19 +33,19 @@
 				</view>
 				<view class="grace-comment-body">
 					<view class="grace-comment-top">
-						<text>{{comment.commentatorName}}</text>
-						<text class="grace-iconfont icon-zan"> {{comment.thumbsUp}}</text>
+						<text>{{comment.commentator_name}}</text>
+						<text class="grace-iconfont icon-zan"> {{comment.thumbs_up}}</text>
 					</view>
-					<view class="grace-comment-content" @click="goComment()">{{comment.commentContent}}</view>
+					<view class="grace-comment-content" @click="goComment()">{{comment.comment_content}}</view>
 					<view class="grace-comment-date">
-						<text>{{comment.commentTime}}</text>
-						<text class="grace-comment-replay-btn" v-if="comment.replyList.length > 0" @click="goComment()">{{comment.replyList.length}}回复</text>
+						<text>{{comment.comment_time}}</text>
+						<text class="grace-comment-replay-btn" v-if="comment.reply_list.length > 0" @click="goComment()">{{comment.reply_list.length}}回复</text>
 					</view>
 				</view>
 			</view>
 		</view>
 		<view class="grace-more-bottom">
-			<navigator v-if="commentAndReplyList.length > 0" :url="'../../common/comment?type=confession&articleId='+article.articleId" class="grace-border">{{other}}
+			<navigator v-if="commentAndReplyList.length > 0" :url="'../../common/comment?type=confession&articleId='+article.article_id" class="grace-border">{{other}}
 				<text class="grace-iconfont icon-arrow-right"></text>
 			</navigator>
 			<view class="grace-border" v-else>{{other}}</view>
@@ -80,15 +80,18 @@
 		onLoad(parameter) {
 			this.graceFullLoading = true;
 			uni.request({
-				url: this.GLOBAL.serverSrc + 'confession/article/' + parameter.id,
+				url: this.GLOBAL.serverSrc + 'confession/article/getContent',
 				method: 'GET',
+				data:{
+					article_id:parameter.id
+				},
 				success: res => {
-					this.article = res.data.articleContent;
-					this.commentAndReplyList = res.data.commentAndReplyList;
+					this.article = res.data.ArticleContent.article;
+					this.commentAndReplyList = res.data.comment_list;
 					this.other = res.data.other;
 				},
-				fail: () => {
-
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
 				},
 				complete: () => {
 					this.graceFullLoading = false;
@@ -99,7 +102,7 @@
 			guanzhu() {},
 			showImage() {
 				uni.previewImage({
-					urls: this.article.imagesList
+					urls: this.article.images_list
 				});
 			},
 			goComment(){

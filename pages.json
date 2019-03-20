@@ -65,7 +65,23 @@
 					}
 				}
 			}
-		}, {
+		},
+		{
+			"path": "pages/index/market/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "超市",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style":"default",
+						"support": true,
+						"color": "#fc4243"
+					}
+				}
+			}
+		},{
 			"path": "pages/common/login",
 			"style": {
 				"navigationBarTextStyle": "white",

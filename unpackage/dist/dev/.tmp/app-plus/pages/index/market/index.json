@@ -1,0 +1,11 @@
+{
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarTitleText": "超市",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "style": "default",
+    "support": true,
+    "color": "#fc4243"
+  }
+}

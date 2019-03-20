@@ -43,8 +43,9 @@ const store = new Vuex.Store({
 		regSetUserName(state, userName) {
 			state.user.userName = userName;
 		},
-		regAfterLogin(state, user) {
-			state.user = user;
+		regAfterLogin(state, payload) {
+			state.user = payload.user;
+			state.user.token = payload.token;
 			state.user.password = ''; //为了安全置空密码
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');

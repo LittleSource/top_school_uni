@@ -1,24 +1,24 @@
 <template>
 	<view class="ymkj-gradient-bg">
 		<view class="card-box grace-padding">
-			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.articleId">
+			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.article_id">
 				<view class="confession-card-head grace-rows">
 					<image class="confession-card-avatar" :src="item.avatar"></image>
 					<view class="confession-card-head-info">
-						<view style="font-size: 14px;">{{item.userName}}</view>
-						<view style="font-size: 11px;color: grey !important;">{{item.releaseTime}}</view>
+						<view style="font-size: 14px;">{{item.user_name}}</view>
+						<view style="font-size: 11px;color: grey !important;">{{item.release_time}}</view>
 					</view>
 				</view>
 				<view class="grace-news-list-img-news">
 					<view class="grace-news-list-title-main" style="padding: 1%;width: 96%">{{item.content}}</view>
 					<view class="grace-wrap">
-						<image v-for="(imgUrl, imgIndex) in item.imagesList" :key="index" mode="scaleToFill" :src="imgUrl" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
+						<image v-for="(imgUrl, imgIndex) in item.images_list" :key="index" mode="scaleToFill" :src="imgUrl" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
 					</view>
 				</view>
 				<view class="grace-news-list-info" style="width: 96%;padding-left: 2%;">
 					<view>
-						<text class="iconfont icon-heart1"></text>{{item.thumbsUp}}
-						<text class="iconfont icon-fire" style="margin-left:18upx;"></text>{{item.readingVolume}}
+						<text class="iconfont icon-heart1"></text>{{item.thumbs_up}}
+						<text class="iconfont icon-fire" style="margin-left:18upx;"></text>{{item.reading_volume}}
 					</view>
 				</view>
 			</navigator>
@@ -80,8 +80,11 @@
 		//监听下拉刷新
 		onPullDownRefresh: function() {
 			uni.request({
-				url: this.GLOBAL.serverSrc + 'confession/index/1',
+				url: this.GLOBAL.serverSrc + 'confession/card/index',
 				method: 'GET',
+				data:{
+					page:1
+				},
 				success: res => {
 					this.confessionList = res.data.cardsList;
 					this.loading.totalPages = res.data.totalPages; //设置总页数
@@ -113,8 +116,11 @@
 			}
 			this.loading.type = 1; //显示加载中
 			uni.request({
-				url: this.GLOBAL.serverSrc + 'confession/index/' + this.loading.nextPages,
+				url: this.GLOBAL.serverSrc + 'confession/card/index',
 				method: 'GET',
+				data:{
+					page:this.loading.nextPages
+				},
 				success: res => {
 					this.confessionList = this.confessionList.concat(res.data.cardsList);
 				},

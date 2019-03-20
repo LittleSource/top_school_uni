@@ -90,7 +90,6 @@
 							'id':this.school.id
 						},
 						success: res => {
-							console.log(JSON.stringify(res));
 							if (res.data.status === 200) { //注册成功
 								this.regAfterLogin(res.data);
 								uni.showToast({

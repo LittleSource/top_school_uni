@@ -31,13 +31,13 @@
 						<view class="grace-boxes-text">表白墙</view>
 					</view>
 				</view>
-				<view class="grace-boxes" @click="skip('../register/selectSex')">
+				<view class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
 					</view>
 				</view>
-				<view class="grace-boxes">
+				<view class="grace-boxes" @click="skip('./market/index')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/shop.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">逛超市</view>
