@@ -31,7 +31,11 @@
 			// #endif
 		},
 		onShow: function() {
-			console.log('App Show')
+			uni.showModal({
+				title: '提示',
+				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
+				showCancel:false
+			});
 		},
 		onHide: function() {
 			console.log('App Hide')

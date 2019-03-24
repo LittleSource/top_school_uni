@@ -1,7 +1,7 @@
 <template>
 	<view class="flex-column">
 		<view class="content">
-			<image class="logo" src="../../static/up-circle.png" />
+			<image class="logo" src="../../static/logo.png" />
 			<view class="mainInfo">
 				<text class="title">{{ info }} | {{ Minfo }}</text>
 				<text class="tip">\n{{ Mtip }}</text>
@@ -194,66 +194,66 @@
 					this.startProgress = true
 					// 创建下载任务对象
 					this.downloadTask = uni.downloadFile({
-							url: this.latest.downloadLink,
-							success: (res) => {
-								if (res.statusCode === 200) {
-									// 保存下载的安装包
-									uni.saveFile({
-											tempFilePath: res.tempFilePath,
+						url: this.latest.downloadLink,
+						success: (res) => {
+							if (res.statusCode === 200) {
+								// 保存下载的安装包
+								uni.saveFile({
+									tempFilePath: res.tempFilePath,
+									success: (res) => {
+										this.packgePath = res.savedFilePath
+										// 进行安装
+										plus.runtime.install(this.packgePath, {
+											force: true
+										}, function() {
+											console.log('ok')
+										}, function(e) {
+											console.log(e)
+										})
+										this.installed = true
+										// 保存更新记录到stroage，方便下次启动app时删除安装包
+										uni.setStorage({
+											key: 'updated',
+											data: {
+												completed: true,
+												packgePath: this.packgePath
+											},
 											success: (res) => {
-												this.packgePath = res.savedFilePath
-												// 进行安装
-											plus.runtime.install(this.packgePath, {
-												force: true
-											},function() {
-												console.log('ok')
-											},function(e){
-												console.log(e)
-											})
-											this.installed = true
-											// 保存更新记录到stroage，方便下次启动app时删除安装包
-											uni.setStorage({
-												key: 'updated',
-												data: {
-													completed: true,
-													packgePath: this.packgePath
-												},
-												success: (res) => {
-													console.log('成功保存更新记录')
-												}
-											})
-											// 任务完成，关闭下载任务
-											this.closeTask()
-										}
-									})
+												console.log('成功保存更新记录')
+											}
+										})
+										// 任务完成，关闭下载任务
+										this.closeTask()
+									}
+								})
 							}
 						}
 					})
-				// 进度条更新
-				this.downloadTask.onProgressUpdate((res) => {
-					this.downloadProgress = res.progress
-				})
-			}
-		},
-		handleUpdate() {
-			// 判断系统类型
-			if (plus.os.name.toLowerCase() === 'android') {
-				if (this.latest.downloadLink && this.latest.downloadLink !== '#') { // 我这里默认#也是没有地址，请根据业务自行修改
-					// 安卓：创建下载任务
-					this.createTask()
-				} else {
-					this.showToast('未找到下载地址')
+					// 进度条更新
+					this.downloadTask.onProgressUpdate((res) => {
+						this.downloadProgress = res.progress
+					})
 				}
-			} else {
-				if (this.latest.iosLink && this.latest.iosLink !== '#') { // 我这里默认#也是没有地址，请根据业务自行修改
-					// 苹果：打开商店链接
-					plus.runtime.openURL(this.latest.iosLink)
+			},
+			handleUpdate() {
+				// 判断系统类型
+				if (plus.os.name.toLowerCase() === 'android') {
+					if (this.latest.downloadLink && this.latest.downloadLink !== '#') { // 我这里默认#也是没有地址，请根据业务自行修改
+						// 安卓：创建下载任务
+						this.createTask()
+					} else {
+						this.showToast('未找到下载地址')
+					}
 				} else {
-					this.showToast('未找到ios商店地址')
+					if (this.latest.iosLink && this.latest.iosLink !== '#') { // 我这里默认#也是没有地址，请根据业务自行修改
+						// 苹果：打开商店链接
+						plus.runtime.openURL(this.latest.iosLink)
+					} else {
+						this.showToast('未找到ios商店地址')
+					}
 				}
 			}
 		}
-	}
 	}
 </script>
 
@@ -281,6 +281,7 @@
 		height: 200upx;
 		width: 200upx;
 		margin-top: 100upx;
+		border-radius: 50upx;
 	}
 
 	.title {

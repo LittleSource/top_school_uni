@@ -25,6 +25,7 @@
 	height: 200rpx;
 	width: 200rpx;
 	margin-top: 100rpx;
+	border-radius: 50rpx;
 }
 .title {
 	font-size: 36rpx;
