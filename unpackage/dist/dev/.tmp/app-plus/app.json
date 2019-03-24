@@ -13,10 +13,12 @@
     "pages/common/search",
     "pages/common/checkSchool",
     "pages/common/comment",
+    "pages/common/update",
     "pages/hot/hot",
     "pages/message/message",
     "pages/my/my",
-    "pages/my/setting/setting"
+    "pages/my/setting/setting",
+    "pages/message/chat"
   ],
   "subPackages": [],
   "window": {

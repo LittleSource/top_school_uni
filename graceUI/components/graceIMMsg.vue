@@ -21,15 +21,15 @@
 				<view class="grace-im-msg" :class="[userid == item.id ? 'grace-im-msg-right' : 'grace-im-msg-left']" v-if="item.ctype == 2">
 					<view class="face"><image :src="item.face" mode="widthFix"></image></view>
 					<view>
-					<view class="grace-im-name">
-						<block v-if="userid != item.id">{{item.name}}</block>
-						<text>{{item.date}}</text>
-					</view>
-					<view class='grace-im-content-in'>
-						<view class="imgs">
-						<image :src="item.msg" mode="widthFix" :data-index='index' @tap='showImgs'></image>
+						<view class="grace-im-name">
+							<block v-if="userid != item.id">{{item.name}}</block>
+							<text>{{item.date}}</text>
 						</view>
-					</view>
+						<view class='grace-im-content-in'>
+							<view class="imgs">
+							<image :src="item.msg" mode="widthFix" :data-index='index' @tap='showImgs'></image>
+							</view>
+						</view>
 					</view>
 				</view>
 				<view class="grace-im-msg" :class="[userid == item.id ? 'grace-im-msg-right' : 'grace-im-msg-left']" v-if="item.ctype == 3">
@@ -102,50 +102,61 @@ export default {
 			}
 		});
 		// 调整界面大小
-		uni.getSystemInfo({success: function (res) {_self.imHeight = res.windowHeight - 50;}});
+		uni.getSystemInfo({
+			success: function (res) {
+				console.log(JSON.stringify(res));
+				_self.imHeight = res.windowHeight - 52;
+				// #ifdef APP-PLUS
+				var vendor =  plus.os.vendor;
+				if(vendor != 'Google'){
+					_self.imHeight = res.windowHeight - 105;
+				}
+				// #endif
+			},
+		});
   },
   methods: {
 		// 历史消息
 		getHistoryMsg : function(){
 			this.$emit('getHistoryMsg');
 		},
-    // 播放语音
-    playVoice: function (e) {
-			var voicelUrl = e.currentTarget.dataset.voice;
-			var index = e.currentTarget.dataset.index;
-			if (this.playIndex == -1){return this.playNow(voicelUrl, index);}
-			var _self = this;
-			if (this.playIndex == index) {
-				wx.getBackgroundAudioPlayerState({
-					success(res) {
-						const status = res.status
-						switch (status) {
-							case 0:
-							_self.player.play();
-							break;
-							case 1:
-							_self.player.pause();
-							break;
-							default:
-							_self.player.play();
+		// 播放语音
+		playVoice: function (e) {
+				var voicelUrl = e.currentTarget.dataset.voice;
+				var index = e.currentTarget.dataset.index;
+				if (this.playIndex == -1){return this.playNow(voicelUrl, index);}
+				var _self = this;
+				if (this.playIndex == index) {
+					wx.getBackgroundAudioPlayerState({
+						success(res) {
+							const status = res.status
+							switch (status) {
+								case 0:
+								_self.player.play();
+								break;
+								case 1:
+								_self.player.pause();
+								break;
+								default:
+								_self.player.play();
+							}
 						}
-					}
-				});
-			} else {
-				this.player.stop();
-				this.playNow(voicelUrl, index);
-			}
-    },
-    // 语音播放基础函数
-    playNow: function (voicelUrl, index){
-			this.playIndex = index;
-			this.player.src = voicelUrl;
-			this.player.title = "graceUI";
-			this.player.play();
-			return true;
-    },
-    // 图片预览
-    showImgs : function(e){
+					});
+				} else {
+					this.player.stop();
+					this.playNow(voicelUrl, index);
+				}
+		},
+		// 语音播放基础函数
+		playNow: function (voicelUrl, index){
+				this.playIndex = index;
+				this.player.src = voicelUrl;
+				this.player.title = "graceUI";
+				this.player.play();
+				return true;
+		},
+		// 图片预览
+		showImgs : function(e){
 			var imgs        = [];
 			var imgsCurrent = '';
 			var imgIndex    = e.currentTarget.dataset.index;
@@ -156,8 +167,8 @@ export default {
 				}
 			}
 			wx.previewImage({urls : imgs, current : imgsCurrent});
-    }
-  }
+		}
+	}
 }
 </script>
 <style>

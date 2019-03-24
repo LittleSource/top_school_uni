@@ -52,8 +52,8 @@
 				"enablePullDownRefresh": true,
 				"app-plus": {
 					"pullToRefresh": {
-						"support": true,
-						"color": "#fc4243"
+						"style":"default",
+						"support": true
 					},
 					"titleNView": {
 						"buttons": [ //原生标题栏按钮配置,
@@ -76,8 +76,7 @@
 				"app-plus": {
 					"pullToRefresh": {
 						"style":"default",
-						"support": true,
-						"color": "#fc4243"
+						"support": true
 					}
 				}
 			}
@@ -166,9 +165,23 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "评论详情",
+				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus":{
+					"pullToRefresh": {
+						"style":"default",
+						"support": true,
+						"color": "#fc4243"
+					},
 					"animationType": "slide-in-bottom"
 				}
+			}
+		},
+		{
+			"path": "pages/common/update",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "检查更新"
 			}
 		},
 		{
@@ -202,6 +215,14 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/message/chat",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "消息"
 			}
 		}
 	],

@@ -2,15 +2,23 @@
   "pages": [
     "pages/index/index",
     "pages/index/confession/index",
+    "pages/index/confession/publish",
     "pages/index/confession/detail",
+    "pages/index/market/index",
     "pages/common/login",
-    "pages/common/reg",
+    "pages/register/reg",
+    "pages/register/selectSex",
+    "pages/register/selectSchool",
+    "pages/register/setAvatar",
     "pages/common/search",
     "pages/common/checkSchool",
     "pages/common/comment",
+    "pages/common/update",
     "pages/hot/hot",
     "pages/message/message",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/my/setting/setting",
+    "pages/message/chat"
   ],
   "subPackages": [],
   "window": {

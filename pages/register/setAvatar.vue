@@ -58,10 +58,10 @@
 				hasAvatar: false
 			};
 		},
-		computed: mapState(['user','school']), // 拿到vuex的register对象
+		computed: mapState(['user', 'school']), // 拿到vuex的register对象
 		methods: {
 			//映射vuex的regSetNickName方法
-			...mapMutations(['regSetUserName', 'regAfterLogin','regSetAvatar']),
+			...mapMutations(['regSetUserName', 'regAfterLogin', 'regSetAvatar']),
 			//点击提交按钮
 			submit() {
 				if (this.userName.length <= 0 || this.userName.length > 8) { //验证昵称
@@ -82,12 +82,12 @@
 						url: this.GLOBAL.serverSrc + '/common/register/register',
 						method: 'POST',
 						data: {
-							'phone':this.user.phone,
-							'password':this.user.password,
-							'user_name':this.user.userName,
-							'avatar':this.user.avatar,
-							'sex':this.user.sex,
-							'id':this.school.id
+							'phone': this.user.phone,
+							'password': this.user.password,
+							'user_name': this.user.userName,
+							'avatar': this.user.avatar,
+							'sex': this.user.sex,
+							'id': this.school.id
 						},
 						success: res => {
 							if (res.data.status === 200) { //注册成功
@@ -96,9 +96,9 @@
 									title: res.data.msg,
 									icon: "none"
 								});
- 								uni.switchTab({
- 									url: '../index/index'
- 								});
+								uni.switchTab({
+									url: '../index/index'
+								});
 							} else {
 								uni.showToast({
 									title: res.data.msg,
@@ -107,12 +107,12 @@
 							}
 						},
 						fail: (e) => {
-							if(e.statusCode === 0){
+							if (e.statusCode === 0) {
 								uni.showToast({
 									title: '未知的网络错误, 请确保设备处在联网状态',
 									icon: "none"
 								});
-							}else{
+							} else {
 								uni.showToast({
 									title: '发生网络错误，错误码为：' + e.statusCode,
 									icon: "none"
@@ -131,17 +131,20 @@
 					success: function(chooseImageRes) {
 						const tempFilePath = chooseImageRes.tempFilePaths[0];
 						//开始上传头像
+						uni.showLoading({
+							title: '上传中...'
+						});
 						uni.uploadFile({
 							url: src + '/common/register/uploadAvatar', //接口地址
 							filePath: tempFilePath,
 							name: 'avatar',
 							success: (uploadFileRes) => {
 								var resObj = JSON.parse(uploadFileRes.data);
-								if(resObj.status === 200){
+								if (resObj.status === 200) {
 									_this.avatarPath = src + resObj.url;
 									_this.regSetAvatar(_this.avatarPath);
 									_this.hasAvatar = true;
-								}else{
+								} else {
 									uni.showToast({
 										title: resObj.msg,
 										icon: "none"
@@ -150,6 +153,9 @@
 							},
 							fail: (e) => {
 								_self.global_.requestFail(e);
+							},
+							complete: () => {
+								uni.hideLoading();
 							}
 						});
 					}

@@ -44,18 +44,24 @@ const store = new Vuex.Store({
 			state.user.userName = userName;
 		},
 		regAfterLogin(state, payload) {
-			state.user = payload.user;
+			state.user.phone = payload.user.phone;
+			state.user.sex = payload.user.sex;
+			state.user.userName = payload.user.user_name;
+			state.user.avatar = payload.user.avatar;
+			
 			state.user.token = payload.token;
 			state.user.password = ''; //为了安全置空密码
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
 		},
 		login(state, payload) {
-			state.user.token = payload.token;
-			state.user.phone = payload.phone;
-			state.user.sex = payload.sex;
-			state.user.userName = payload.user_name;
+			state.user.phone = payload.user.phone;
+			state.user.sex = payload.user.sex;
+			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
+			
+			state.user.token = payload.token;
+			
 			state.school = payload.school;
 			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
 			state.user.hasLogin = true;

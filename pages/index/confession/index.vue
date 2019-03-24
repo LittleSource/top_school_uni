@@ -12,7 +12,7 @@
 				<view class="grace-news-list-img-news">
 					<view class="grace-news-list-title-main" style="padding: 1%;width: 96%">{{item.content}}</view>
 					<view class="grace-wrap">
-						<image v-for="(imgUrl, imgIndex) in item.images_list" :key="index" mode="scaleToFill" :src="imgUrl" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
+						<image v-for="(imgUrl, imgIndex) in item.images_list" :key="index" mode="aspectFill" :src="imgUrl" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
 					</view>
 				</view>
 				<view class="grace-news-list-info" style="width: 96%;padding-left: 2%;">

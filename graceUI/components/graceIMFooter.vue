@@ -1,18 +1,19 @@
 <template name="graceIMMsg">
 	<view class="grace-footer-wrap">
 		<view class="grace-im-footer">
+			<view class="grace-im-menus graceIMFonts icon-voice" :style="{color : recShow === true ? '#00BA62;' : ''}" @tap="showRec"></view>
+			<view class="grace-im-menus graceIMFonts icon-photograph" @tap='chooseImg'></view>
 		  <view class="grace-im-input">
-			<input type='text' v-model="inputMsg" fixed @focus="focus" @confirm='sendTextMsg'></input>			
+				<input type='text' v-model="inputMsg" fixed @confirm='sendTextMsg'></input>			
 		  </view>
-		  <view class="grace-im-menus graceIMFonts icon-voice" :style="{color : recShow === true ? '#00BA62;' : ''}" @tap="showRec"></view>
-		  <view class="grace-im-menus graceIMFonts icon-photograph" @tap='chooseImg'></view>
+			<view class="grace-items" style="padding:0 8px; margin-right:6px;" @tap="sendTextMsgByBtn">发送</view>
 		</view>
 		<!-- 语音输入 -->
 		<view class="grace-im-record" v-if="recShow">
 		  <view class="grace-im-record-txt">{{recTxt}}</view>
 		  <view class="grace-im-record-btn" @tap="rec" :class="[recing ? 'grace-im-recording' : '']"></view>
 		  <view class="grace-im-record-txt" @tap="sendVoiceMsg" style="margin-top:12px; color:#00BA62;" v-if="tmpVoice != ''">
-			发送语音
+				发送语音
 		  </view>
 		  <view class="grace-im-record-close graceIMFonts icon-close" @tap="closeRec" v-if="!recing"></view>
 		</view>
@@ -77,6 +78,12 @@ export default {
       this.inputMsg = '';
 			this.$emit('sendTextMsg', msgText);
     },
+		sendTextMsgByBtn : function(){
+			var msgText = this.inputMsg;
+			if (msgText.length < 1) { return false; }
+			this.inputMsg = '';
+			this.$emit('sendTextMsg', msgText);
+		},
     // 选择图片
     chooseImg : function(){
       var _self = this;
@@ -100,12 +107,12 @@ export default {
 .icon-voice:before{content: "\e617";}
 .icon-photograph:before {content:"\e60b";}
 .icon-close:before {content:"\e78a";}
-.grace-footer-wrap{width:100%;}
+.grace-footer-wrap{width:100%; position:fixed; z-index:9; left:0; bottom:0;}
 .grace-im-footer{display:flex; background:#FFFFFF; width:100%; height:50px; flex-wrap:nowrap; overflow:hidden; box-shadow:1px 1px 6px #888;}
 .grace-im-footer .grace-items{width:auto; line-height:50px; flex-shrink:0;}
 .grace-im-menus{width:44px; height:50px; flex-shrink:0; line-height:50px; text-align:center; font-size:32px;}
 .grace-im-input{width:100%; margin:5px; padding:0 8px; background:#F4F5F6; border-radius:5px; height:40px; flex-wrap:nowrap; margin-left:10px;}
-.grace-im-input input{width:100%; background:#F4F5F6; height:20px; margin:10px 0; line-height:20px; border-radius:5px;}
+.grace-im-input input{width:100%; background:#F4F5F6; height:20px; margin:8px 0; line-height:20px; border-radius:5px;}
 .grace-im-record{width:100%; position:fixed; bottom:0; background:#FFF; padding:30px 0; padding-bottom:50px; z-index:11; box-shadow:1px 1px 6px #888;}
 .grace-im-record-close{width:50px; height:50px; position:absolute; top:0px; right:0px; z-index:100; justify-content:center; line-height:50px; color:#ccc; font-size:30px;}
 .grace-im-record-txt{text-align:center; line-height:30px; padding-bottom:10px; color:#ccc;}

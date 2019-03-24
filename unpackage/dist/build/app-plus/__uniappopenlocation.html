@@ -133,11 +133,11 @@
 
         /**
          * 调用系统第三方程序进行导航
-            */
+         */
         function openSysMap(lat, lng, title) {
             /**
              * 网页版地图源
-                */
+             */
             var mapsSourceWeb = [
                 {
                     title: '腾讯地图网页版',
@@ -148,20 +148,11 @@
                             '&referer=APP'
                         return url
                     }
-                },
-                {
-                    title: '谷歌地图网页版',
-                    getUrl: function() {
-                        var url
-                        url = 'https://maps.google.cn/?daddr=' + encodeURIComponent(title) + '&sll=' +
-                            encodeURIComponent(lat + ',' + lng)
-                        return url
-                    }
                 }
             ]
             /**
              * APP版地图源
-                */
+             */
             var mapsSource = [
                 {
                     title: '高德地图',
@@ -184,9 +175,8 @@
                     pname: 'com.baidu.BaiduMap',
                     action: 'baidumap://',
                     getUrl: function() {
-                        var url
-                        url = 'baidumap://map/direction?destination=' + encodeURIComponent('latlng:' + lat +
-                            ',' + lng + '|name:' + title) + '&mode=driving&src=APP'
+                        var url = 'baidumap://map/direction?destination=' + encodeURIComponent('latlng:' + lat +
+                            ',' + lng + '|name:' + title) + '&mode=driving&src=APP&coord_type=gcj02'
                         return url
                     }
                 },
@@ -199,22 +189,6 @@
                         url = 'qqmap://map/routeplan?type=drive' + (isIos ? ('&from=' + encodeURIComponent(
                             '我的位置')) : '') + '&to=' + encodeURIComponent(title) + '&tocoord=' +
                             encodeURIComponent(lat + ',' + lng) + '&referer=APP'
-                        return url
-                    }
-                },
-                {
-                    title: '谷歌地图',
-                    pname: 'com.google.android.apps.maps',
-                    action: 'comgooglemapsurl://',
-                    getUrl: function() {
-                        var url
-                        if (!isIos) {
-                            url = 'https://maps.google.com/'
-                        } else {
-                            url = 'comgooglemapsurl://maps.google.com/'
-                        }
-                        url += '?daddr=' + encodeURIComponent(title) + '&sll=' + encodeURIComponent(lat + ',' +
-                            lng)
                         return url
                     }
                 }

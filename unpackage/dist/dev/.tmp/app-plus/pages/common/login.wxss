@@ -2,6 +2,15 @@
 page {
 	background-color: #fffcfa;
 }
+.gif-wave {
+	position: absolute;
+	width: 100%;
+	top: 30px;
+	left: 0;
+	z-index: 99;
+	mix-blend-mode: screen;
+	height: 50px;
+}
 .ym-logo {
 	width: 68px;
 	height: 68px;

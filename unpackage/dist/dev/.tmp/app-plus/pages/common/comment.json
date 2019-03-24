@@ -2,5 +2,11 @@
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#fc4243",
   "navigationBarTitleText": "评论详情",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "style": "default",
+    "support": true,
+    "color": "#fc4243"
+  },
   "animationType": "slide-in-bottom"
 }

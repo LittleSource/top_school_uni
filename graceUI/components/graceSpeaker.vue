@@ -40,4 +40,10 @@ export default {
 .grace-swiper-msg swiper{width:100%; height:30px;}
 .grace-swiper-msg swiper-item{line-height:30px;}
 .grace-swiper-msg navigator{line-height:30px;}
+
+/*
+版权声明 : 
+GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠道！
+侵权必究，请遵守版权约定！
+*/
 </style>

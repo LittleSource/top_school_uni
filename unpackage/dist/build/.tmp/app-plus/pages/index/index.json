@@ -3,6 +3,11 @@
   "navigationStyle": "custom",
   "navigationBarBackgroundColor": "#fc4243",
   "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "support": true,
+    "color": "#fc4243",
+    "offset": "12%"
+  },
   "scrollIndicator": "none",
   "titleNView": false
 }

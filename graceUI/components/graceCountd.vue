@@ -90,4 +90,9 @@ export default {
 .grace-countdown{padding:2upx 0; display:flex; flex-wrap:nowrap; justify-content:center;}
 .grace-countdown-splitor{width:auto !important; justify-content:center; line-height:44upx; padding:0 5upx;}
 .grace-countdown-numbers{line-height:44upx; width:auto !important; padding:0 10upx; justify-content:center; height:44upx; border-radius:8upx; margin:0 5upx; border:1px solid #000000; font-size:22upx;}
+/*
+版权声明 : 
+GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠道！
+侵权必究，请遵守版权约定！
+*/
 </style>

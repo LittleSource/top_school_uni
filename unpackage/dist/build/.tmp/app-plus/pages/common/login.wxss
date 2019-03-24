@@ -2,6 +2,15 @@
 page {
 	background-color: #fffcfa;
 }
+.gif-wave {
+	position: absolute;
+	width: 100%;
+	top: 30px;
+	left: 0;
+	z-index: 99;
+	mix-blend-mode: screen;
+	height: 50px;
+}
 .ym-logo {
 	width: 68px;
 	height: 68px;
@@ -46,5 +55,24 @@ page {
 	font-size: 46px;
 	text-align: center;
 	margin: 8px 15px;
+}
+.login-footer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: absolute;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 

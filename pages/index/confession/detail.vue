@@ -17,10 +17,11 @@
 			</block>
 		</view>
 		<!-- 其他基本信息 -->
-		<view class="grace-article-info-line" style="font-size: 50upx;">
+		<view class="grace-article-info-line" style="font-size: 50upx;height: 60upx;">
 			<view class="grace-iconfont icon-time">{{article.release_time}}</view>
 			<view class="iconfont icon-fire">{{article.reading_volume}}</view>
-			<view class="iconfont icon-heart2">{{article.thumbs_up}}</view>
+			<view @click="thumbsUp" v-if="article.thumbs_up_status !== 1" class="iconfont icon-heart">{{article.thumbs_up}}</view>
+			<view @click="thumbsUp" v-else class="iconfont icon-heart1">{{article.thumbs_up}}</view>
 		</view>
 		<view class="grace-title grace-border" style="margin-top:60upx;">
 			<view class="grace-h5 grace-blod">网友评论</view>
@@ -34,9 +35,10 @@
 				<view class="grace-comment-body">
 					<view class="grace-comment-top">
 						<text>{{comment.commentator_name}}</text>
-						<text class="grace-iconfont icon-zan"> {{comment.thumbs_up}}</text>
+						<text @click="thumbsUpComment(index)" v-if="comment.thumbs_up_status !== 1" class="grace-iconfont icon-zan"> {{comment.thumbs_up}}</text>
+						<text @click="thumbsUpComment(index)" v-else class="iconfont icon-thumbs-up"></text>
 					</view>
-					<view class="grace-comment-content" @click="goComment()">{{comment.comment_content}}</view>
+					<view class="grace-comment-content" @click="replyOne(comment.commentator_name,comment.commentator_id,comment.comment_id)">{{comment.comment_content}}</view>
 					<view class="grace-comment-date">
 						<text>{{comment.comment_time}}</text>
 						<text class="grace-comment-replay-btn" v-if="comment.reply_list.length > 0" @click="goComment()">{{comment.reply_list.length}}回复</text>
@@ -45,7 +47,8 @@
 			</view>
 		</view>
 		<view class="grace-more-bottom">
-			<navigator v-if="commentAndReplyList.length > 0" :url="'../../common/comment?type=confession&articleId='+article.article_id" class="grace-border">{{other}}
+			<navigator v-if="commentAndReplyList.length > 0" :url="'../../common/comment?type=confession&articleId='+article.article_id"
+			 class="grace-border">{{other}}
 				<text class="grace-iconfont icon-arrow-right"></text>
 			</navigator>
 			<view class="grace-border" v-else>{{other}}</view>
@@ -56,14 +59,17 @@
 		<view class="grace-footer">
 			<view class="grace-input">
 				<view class="grace-input-icon grace-iconfont icon-write"></view>
-				<input type="text" style="padding:5 0upx;" placeholder="我要评论"></input>
+				<input :focus="focus" type="text" style="padding:5 0upx;" :placeholder="textPlaceholder" @blur="blur" v-model="content"></input>
 			</view>
-			<view class="grace-items" style="padding:0 20upx;">发布</view>
+			<view @click="submit" class="grace-items" style="padding:0 20upx;">发布</view>
 		</view>
 		<graceFullLoading :graceFullLoading="graceFullLoading" logoUrl="../../../static/index/love.png"></graceFullLoading>
 	</view>
 </template>
 <script>
+	import {
+		mapState
+	} from 'vuex'
 	import graceFullLoading from "../../../graceUI/components/graceFullLoading.vue";
 	export default {
 		components: {
@@ -71,44 +77,179 @@
 		},
 		data() {
 			return {
+				articleId: 0,
 				graceFullLoading: false,
 				article: {},
-				commentAndReplyList:[],
-				other:""
+				commentAndReplyList: [],
+				other: "",
+				textPlaceholder: "写评论",
+				focus: false,
+				content: "",
+				commentId: 0, //评论内容id
+				commentatorId: 0, //评论者id
+				commentId: 0 //评论id
 			}
 		},
+		computed: mapState(['user']),
 		onLoad(parameter) {
+			this.articleId = parameter.id;
 			this.graceFullLoading = true;
-			uni.request({
-				url: this.GLOBAL.serverSrc + 'confession/article/getContent',
-				method: 'GET',
-				data:{
-					article_id:parameter.id
-				},
-				success: res => {
-					this.article = res.data.ArticleContent.article;
-					this.commentAndReplyList = res.data.comment_list;
-					this.other = res.data.other;
-				},
-				fail: (e) => {
-					this.GLOBAL.requestFail(e);
-				},
-				complete: () => {
-					this.graceFullLoading = false;
-				}
-			});
+			this.getDetail();
+			this.graceFullLoading = false;
+		},
+		onPullDownRefresh() {
+			this.getDetail();
+			setTimeout(function() {
+				uni.stopPullDownRefresh();
+			}, 2500);
 		},
 		methods: {
+			getDetail() {
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'confession/article/getContent',
+					method: 'GET',
+					data: {
+						phone: this.user.phone,
+						article_id: this.articleId
+					},
+					success: res => {
+						this.article = res.data.ArticleContent.article;
+						this.commentAndReplyList = res.data.comment_list;
+						this.other = res.data.other;
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
+				});
+				this.content = '';
+			},
 			guanzhu() {},
+			thumbsUpComment(index){
+				if(this.commentList[index].thumbs_up_status !== 1){
+					this.commentList[index].thumbs_up_status = 1;
+					this.commentList[index].thumbs_up = this.commentList[index].thumbs_up + 1;
+				}else{
+					this.commentList[index].thumbs_up_status = 0;
+					this.commentList[index].thumbs_up = this.commentList[index].thumbs_up - 1;
+				}
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',
+					method: 'POST',
+					data: {
+						phone: this.user.phone,
+						token: this.user.token,
+						comment_id: this.commentList[index].comment_id
+					},
+					success: res => {
+						//点赞只验证是否身份过期
+						if (res.status === 410) {
+							this.GLOBAL.tokenFail();
+						}
+					}
+				});
+			},
+			thumbsUp() {
+				console.log(this.article.thumbs_up_status);
+				if (this.article.thumbs_up_status !== 1) {
+					this.article.thumbs_up = this.article.thumbs_up + 1;
+					this.article.thumbs_up_status = 1;
+				} else {
+					this.article.thumbs_up = this.article.thumbs_up - 1;
+					this.article.thumbs_up_status = 0;
+				}
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',
+					method: 'POST',
+					data: {
+						phone: this.user.phone,
+						token: this.user.token,
+						article_id: this.articleId
+					},
+					success: res => {
+						//点赞只验证是否身份过期
+						if (res.status === 410) {
+							this.GLOBAL.tokenFail();
+						}
+					}
+				});
+			},
 			showImage() {
 				uni.previewImage({
 					urls: this.article.images_list
 				});
 			},
-			goComment(){
+			goComment() {
 				uni.navigateTo({
-					url: '../../common/comment?type=confession&articleId=' + this.article.articleId
+					url: '../../common/comment?type=confession&articleId=' + this.article.article_id
 				});
+			},
+			blur() {
+				this.focus = false;
+			},
+			replyOne(userName, commentatorId, commentId) {
+				this.commentatorId = commentatorId;
+				this.commentId = commentId;
+				this.textPlaceholder = "@回复 " + userName;
+				this.focus = true;
+			},
+			submit() {
+				if (this.content.trim() === '')
+					return;
+				//说明此时评论的是文章
+				if (this.textPlaceholder === "写评论") {
+					uni.request({
+						url: this.GLOBAL.serverSrc + '/confession/article/addcomment',
+						method: 'POST',
+						data: {
+							token: this.user.token,
+							phone: this.user.phone,
+							comment_content: this.content,
+							article_id: this.articleId
+						},
+						success: res => {
+							if (res.data.status === 200) {
+								this.getDetail();
+							} else if (res.data.status === 410) {
+								this.GLOBAL.tokenFail();
+							} else {
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
+						},
+						fail: (e) => {
+							this.GLOBAL.requestFail(e);
+						}
+					});
+				} else { //此时是回复
+					uni.request({
+						url: this.GLOBAL.serverSrc + '/confession/article/replyComment',
+						method: 'POST',
+						data: {
+							token: this.user.token,
+							phone: this.user.phone,
+							reply_content: this.content,
+							comment_id: this.commentId,
+							commentator_id: this.commentatorId
+						},
+						success: res => {
+							if (res.data.status === 200) {
+								this.getDetail();
+							} else if (res.data.status === 410) {
+								this.GLOBAL.tokenFail();
+							} else {
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
+						},
+						fail: (e) => {
+							this.GLOBAL.requestFail(e);
+						}
+					});
+				}
 			}
 		}
 	}

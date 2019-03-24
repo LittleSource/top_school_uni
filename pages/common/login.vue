@@ -1,7 +1,9 @@
 <template>
 	<view>
-		<image src="../../static/common/login/head.png" style="width: 100%;height: 100px;"></image>
-		<view class="grace-padding">
+		<view style="background:linear-gradient(to right,#ff8c55,#fc6666);width: 100%;height: 80px;">
+			<image src='../../static/common/login/wave.gif' mode='scaleToFill' class='gif-wave'></image>
+		</view>
+		<view class="grace-padding" style="background-color: #fffcfa;">
 			<view v-bind:style="{'margin-top': margin + 'px','margin-bottom': margin + 'px'}" class="grace-center">
 				<image class="ym-logo" src='../../static/logo.png'></image>
 			</view>
@@ -22,7 +24,7 @@
 					<button :loading="btnLoading" form-type='submit' type='primary' style='background:linear-gradient(to right,#fc6666,#ff8c55); margin-top:30px;'>
 						登录 <text class="grace-iconfont icon-arrow-right"></text>
 					</button>
-					<view class="grace-space-between grace-rows" style="margin-top:20upx;" >
+					<view class="grace-space-between grace-rows" style="margin-top:20upx;">
 						<text>忘记密码</text>
 						<text @tap="reg">还没有账号？点击注册</text>
 					</view>
@@ -51,7 +53,7 @@
 	export default {
 		data() {
 			return {
-				positionTop:500,//默认屏幕高度500
+				positionTop: 500, //默认屏幕高度500
 				countNum: 120,
 				countDownTimer: null,
 				phoneno: '',
@@ -66,6 +68,13 @@
 		},
 		onReady() {
 			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
+		},
+		onLoad() {
+			uni.showModal({
+				title: '提示',
+				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
+				showCancel:false
+			});
 		},
 		methods: {
 			...mapMutations(['login']),
@@ -82,19 +91,7 @@
 				})
 			},
 			loginWithWb: function() {
-				uni.login({
-					provider: 'sinaweibo',
-					success: function(loginRes) {
-						console.log(loginRes.authResult);
-						// 获取用户信息
-						uni.getUserInfo({
-							provider: 'weixin',
-							success: function(infoRes) {
-								console.log('用户昵称为：' + infoRes.userInfo.nickName);
-							}
-						});
-					}
-				});
+
 			},
 			loginNow: function(e) {
 				// 表单验证
@@ -156,6 +153,17 @@
 	page {
 		background-color: #fffcfa;
 	}
+
+	.gif-wave {
+		position: absolute;
+		width: 100%;
+		top: 30px;
+		left: 0;
+		z-index: 99;
+		mix-blend-mode: screen;
+		height: 50px;
+	}
+
 	.ym-logo {
 		width: 68px;
 		height: 68px;

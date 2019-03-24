@@ -4,8 +4,8 @@
   "navigationBarTitleText": "详情",
   "enablePullDownRefresh": true,
   "pullToRefresh": {
-    "support": true,
-    "color": "#fc4243"
+    "style": "default",
+    "support": true
   },
   "titleNView": {
     "buttons": [

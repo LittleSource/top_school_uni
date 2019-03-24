@@ -102,8 +102,8 @@
 								title: '发表成功！',
 								icon: "none"
 							});
-							uni.switchTab({
-								url: '../index'
+							uni.redirectTo({
+								url: './index'
 							});
 						} else {
 							uni.showToast({
