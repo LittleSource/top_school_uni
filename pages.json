@@ -80,6 +80,16 @@
 					}
 				}
 			}
+		},
+		{
+			"path": "pages/index/market/market",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "超市进店",
+				"app-plus": {
+				}
+			}
 		},{
 			"path": "pages/common/login",
 			"style": {

@@ -35,7 +35,6 @@
 .infoTitle {
 	font-size: 32rpx;
 	color: #373737;
-	padding-left: 15rpx;
 	font-weight: bold;
 }
 .tip {
@@ -53,6 +52,9 @@
 	border-bottom: 2rpx solid #D8D8D8;
 }
 .infoPic {
+	color: #fc4243;
+	margin-bottom: 5rpx;
+	font-size: 48rpx;
 	height: 50rpx;
 	width: 50rpx;
 }

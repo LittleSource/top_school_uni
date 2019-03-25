@@ -10,7 +10,7 @@
 		</view>
 		<view>
 			<view class="infoContentTitle">
-				<image class="infoPic" src="../../static/info-circle.png" />
+				<text class="infoPic iconfont icon-info-circle" />
 				<text class="infoTitle">更新摘要</text>
 			</view>
 			<view class="infoContent">
@@ -19,7 +19,7 @@
 		</view>
 		<view v-if="!currentIsLatest">
 			<view class="infoContentTitle">
-				<image class="infoPic" src="../../static/sync.png" />
+				<text class="infoPic iconfont icon-tags" />
 				<text class="infoTitle">更新大小</text>
 			</view>
 			<view class="infoContent">
@@ -31,8 +31,8 @@
 				<text>下载进度:{{ downloadProgress }}%</text>
 				<progress :percent="downloadProgress" stroke-width="4" />
 			</view>
-			<button v-if="!startProgress && !currentIsLatest" type="primary" @click="handleUpdate()">立即更新</button>
-			<button v-if="currentIsLatest" :loading="buttonLoading" type="primary" @click="getLatest()">检查更新</button>
+			<button v-if="!startProgress && !currentIsLatest" style="background-color: #fc4243;" type="primary" @click="handleUpdate()">立即更新</button>
+			<button v-if="currentIsLatest" :loading="buttonLoading" style="background-color: #fc4243;" type="primary" @click="getLatest()">检查更新</button>
 		</view>
 	</view>
 </template>
@@ -121,15 +121,11 @@
 				this.latest = null
 
 				uni.request({
-					url: 'https://www.easy-mock.com/mock/5c95e1ac8e241c358386bc16/pure-updater/version/info',
+					url: this.GLOBAL.serverSrc + 'common/check_update/update',
 					method: 'GET',
-					data: {
-						search: 'latestInfo'
-					},
 					success: (res) => {
 						if (res.statusCode === 200) {
-							const response = res.data
-							this.latest = response.latest.info
+							this.latest = res.data
 							this.buttonLoading = false
 							this.checkLatest()
 						}
@@ -138,12 +134,12 @@
 			},
 			// 检查版本
 			checkLatest() {
-				if (!this.latest.id) {
+				if (!this.latest.version) {
 					this.Mtip = '未找到发行版本'
-				} else if (plus.runtime.version != this.latest.id) { // 当前版本与新版本不符（$current在main.js里）
+				} else if (plus.runtime.version != this.latest.version) { // 当前版本与新版本不符（$current在main.js里）
 					this.currentIsLatest = false
 					this.Mtip = '发现新版本'
-					this.info = this.latest.name + ' ' + this.latest.number //名称 版本号
+					this.info = this.latest.name + ' ' + this.latest.version //名称 版本号
 					this.updateInfo = this.latest.info
 					this.packgeSize = (this.latest.packgeSize / 1048576).toFixed(2) + 'MB' // 请求取得的packgeSize是字节大小，转换为保留两位小数的MB
 					this.setMinfo(this.latest.type)
@@ -151,7 +147,7 @@
 					this.showToast('当前是最新版了')
 					this.currentIsLatest = true
 					this.Mtip = '当前是最新版'
-					this.info = this.latest.name + ' ' + this.latest.number //名称 版本号
+					this.info = this.latest.name + ' ' + this.latest.version //名称 版本号
 					this.updateInfo = this.latest.info
 					this.setMinfo(this.latest.type)
 				}
@@ -205,10 +201,6 @@
 										// 进行安装
 										plus.runtime.install(this.packgePath, {
 											force: true
-										}, function() {
-											console.log('ok')
-										}, function(e) {
-											console.log(e)
 										})
 										this.installed = true
 										// 保存更新记录到stroage，方便下次启动app时删除安装包
@@ -293,7 +285,6 @@
 	.infoTitle {
 		font-size: 32upx;
 		color: #373737;
-		padding-left: 15upx;
 		font-weight: bold;
 	}
 
@@ -315,6 +306,9 @@
 	}
 
 	.infoPic {
+		color: #fc4243;
+		margin-bottom: 5upx;
+		font-size: 48upx;
 		height: 50upx;
 		width: 50upx;
 	}

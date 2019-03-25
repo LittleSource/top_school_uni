@@ -104,7 +104,6 @@ export default {
 		// 调整界面大小
 		uni.getSystemInfo({
 			success: function (res) {
-				console.log(JSON.stringify(res));
 				_self.imHeight = res.windowHeight - 52;
 				// #ifdef APP-PLUS
 				var vendor =  plus.os.vendor;

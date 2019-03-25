@@ -13,7 +13,7 @@
 				<view class="arrow-right"></view>
 			</view>
 			<view class='items'>
-				<navigator url="../../../common/update" class="title">检查更新</navigator>
+				<navigator url="../../common/update" class="title">检查更新</navigator>
 			</view>
 		</view>
 		<view style="width:100%; margin-top:18px;">

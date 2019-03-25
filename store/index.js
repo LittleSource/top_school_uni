@@ -7,6 +7,7 @@ const store = new Vuex.Store({
 	state: {
 		user: {
 			hasLogin: false,
+			id:0,
 			token: '',
 			phone: '',
 			avatar:'',
@@ -44,6 +45,7 @@ const store = new Vuex.Store({
 			state.user.userName = userName;
 		},
 		regAfterLogin(state, payload) {
+			state.user.id = payload.user.user_id;
 			state.user.phone = payload.user.phone;
 			state.user.sex = payload.user.sex;
 			state.user.userName = payload.user.user_name;
@@ -55,6 +57,7 @@ const store = new Vuex.Store({
 			this.commit('loginAfterSetStorage');
 		},
 		login(state, payload) {
+			state.user.id = payload.user.user_id;
 			state.user.phone = payload.user.phone;
 			state.user.sex = payload.user.sex;
 			state.user.userName = payload.user.user_name;

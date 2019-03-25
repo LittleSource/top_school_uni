@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://123.151.4.184:8282';
-	const serverSrc = 'http://www.hckj99.cn/';
+	const serverChat = 'ws://123.151.2.108:8282';
+	const serverSrc = 'http://123.151.2.108/';
 	const token = '';
 	export default {
 		token, //用户token身份
@@ -35,16 +35,11 @@
 		},
 		checkUpdater: function(currentId, updaterPage) {
 			uni.request({
-				url: 'https://www.easy-mock.com/mock/5c95e1ac8e241c358386bc16/pure-updater/version/id',
+				url: serverSrc + 'common/check_update/update',
 				method: 'GET',
-				data: {
-					search: 'latestId'
-				},
 				success: res => {
 					if (res.statusCode === 200) {
-						const response = res.data
-						const latestId = response.latest.id
-						if (currentId != latestId) { //检测到更新
+						if (currentId != res.data.version) { //检测到更新
 							uni.showModal({
 								title: '发现新版本',
 								content: '有新版本可用，请问您是否更新？',
@@ -53,8 +48,6 @@
 										uni.navigateTo({
 											url: updaterPage
 										})
-									} else if (res.cancel) {
-										console.log('取消')
 									}
 								}
 							})

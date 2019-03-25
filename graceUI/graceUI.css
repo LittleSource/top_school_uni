@@ -444,9 +444,9 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-card-view .body .img{width:160upx; height:160upx; flex-shrink:0;}
 .grace-card-view .body .img image{width:160upx; height:160upx; border-radius:50%;}
 .grace-card-view .body .desc{width:100%; margin:0 30upx;}
-.grace-card-view .body .desc .title{line-height:2em; font-weight:700; font-size:36upx;}
-.grace-card-view .body .desc .title text{color:#00C777; margin-left:15px; font-size:26upx; font-weight:400;}
-.grace-card-view .body .desc .text{line-height:2em;}
+.grace-card-view .body .desc .title{line-height:1.8em; font-weight:700; font-size:36upx;}
+.grace-card-view .body .desc .title text{color:#FF9801; margin-left:2px; font-size:26upx; font-weight:400;}
+.grace-card-view .body .desc .text{line-height:1.3em;}
 .grace-card-view .footer{display:flex; flex-wrap:nowrap; margin-top:20upx; justify-content:space-between;}
 .grace-card-view .footer view{width:100%; font-size:30upx; line-height:2em; text-align:center; border-right:1px solid #EEE; color:#5E5E5E;}
 .grace-card-view .footer view:last-child{border:none;}

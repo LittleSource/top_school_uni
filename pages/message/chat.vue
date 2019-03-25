@@ -1,7 +1,7 @@
 <template>
 	<view>
 		<!-- 消息展示区 -->
-		<graceIMMsg :msgs="msgs" :userid="imuserid" :scrollTop="graceIMScTOP" :historyLodginText="historyLodginText"
+		<graceIMMsg :msgs="msgs" :userid="user.id" :scrollTop="graceIMScTOP" :historyLodginText="historyLodginText"
 		 v-on:getHistoryMsg="getHistoryMsg"></graceIMMsg>
 		<!-- 消息提交区 -->
 		<graceIMFooter v-on:sendTextMsg="sendTextMsg" v-on:sendImgMsg="sendImgMsg" v-on:sendVoiceMsg="sendVoiceMsg">
@@ -9,6 +9,9 @@
 	</view>
 </template>
 <script>
+	import {
+		mapState
+	} from 'vuex'
 	var chat;
 	var msgPage = 1,
 		_self;
@@ -23,18 +26,31 @@
 		data() {
 			return {
 				msgs: [], // 消息数组
-				imuserid: 1002, // 用户 id
 				graceIMScTOP: 99999, // 滚动条变量
 				historyLodginText: "点击加载历史消息"
 			};
 		},
+		computed: mapState(['user']),
 		onLoad: function(options) {
 			_self = this;
 			uni.connectSocket({
-				url: this.GLOBAL.serverChat
+				url: this.GLOBAL.serverChat,
+				success: () => {
+					console.log('连接ok');
+				},
+				fail: (e) => {
+					console.log(JSON.stringify(e));
+				}
 			});
 			uni.onSocketOpen(function(res) {
 				console.log('WebSocket连接已打开！');
+				var initDate = {
+					type: 'init',
+					id: _self.user.id
+				};
+				uni.sendSocketMessage({
+					data:JSON.stringify(initDate)
+				});
 			});
 			uni.onSocketMessage(function(res) {
 				_self.receiveMsg(res.data);
@@ -95,15 +111,15 @@
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
 				var msg = {
-					id: 1002, //用户id
-					name: "graceUI 网友", // 昵称
+					id: this.user.id, //用户id
+					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
 					msg: content, // 消息内容
 					ctype: 1, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate()
 				}
 				uni.sendSocketMessage({
-					data: msg
+					data: JSON.stringify(msg)
 				});
 				// 调用接收消息函数 展示消息
 				this.receiveMsg(msg);
@@ -115,8 +131,8 @@
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
 				var msg = {
-					id: 1000, //用户id
-					name: "graceUI 网友", // 昵称
+					id: this.user.id, //用户id
+					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
 					msg: imgUrl, // 图片文件路径
 					ctype: 2, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
@@ -132,8 +148,8 @@
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
 				var msg = {
-					id: 1002, //用户id
-					name: "graceUI 网友", // 昵称
+					id: this.user.id, //用户id
+					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
 					msg: voiceurl, // 语音文件路径
 					ctype: 3, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]

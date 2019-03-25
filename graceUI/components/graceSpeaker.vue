@@ -34,7 +34,7 @@ export default {
 }
 </script>
 <style>
-.grace-swiper-msg{width:100%; padding:10upx 0; display:flex; flex-wrap:nowrap;}
+.grace-swiper-msg{width:100%; padding:10upx 0; display:flex; flex-wrap:nowrap;background-color:#f0efef;}
 .grace-swiper-msg-icon{width:20px; margin:5px; flex-shrink:0;}
 .grace-swiper-msg-icon image{width:20px; height:20px;}
 .grace-swiper-msg swiper{width:100%; height:30px;}
