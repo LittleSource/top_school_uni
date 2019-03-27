@@ -72,10 +72,14 @@
 		methods: {
 			...mapMutations(['login']),
 			loginWithWx: function() {
-				uni.showToast({
-					title: "微信登录功能开发中",
-					icon: "none"
-				})
+				uni.login({
+					provider: 'weixin',
+					success: function(loginRes) {
+						console.log(loginRes.authResult);
+					},fail: (e) => {
+						console.log(JSON.stringify(e));
+					}
+				});
 			},
 			loginWithQQ: function() {
 				uni.showToast({

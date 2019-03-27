@@ -17,7 +17,14 @@
     "email": "",
     "url": ""
   },
-  "permissions": {},
+  "permissions": {
+    "OAuth": {
+      "weixin": {
+        "appid": "wx2d1f29e580ac73c6",
+        "appsecret": "db310ec3937d679e45ec5a72d090153c"
+      }
+    }
+  },
   "plus": {
     "useragent": {
       "value": "uni-app appservice",
@@ -101,6 +108,12 @@
       "apple": {},
       "plugins": {
         "payment": {},
+        "oauth": {
+          "weixin": {
+            "appid": "wx2d1f29e580ac73c6",
+            "appsecret": "db310ec3937d679e45ec5a72d090153c"
+          }
+        },
         "audio": {
           "mp3": {
             "description": "Android平台录音支持MP3格式文件"

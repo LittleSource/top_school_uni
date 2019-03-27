@@ -13,7 +13,14 @@
             "autoclose" : true,
             "delay" : 0
         },
-        "modules" : {},
+        "modules" : {
+            "OAuth" : {
+				"weixin" : {
+				    "appid" : "wx2d1f29e580ac73c6",
+				    "appsecret" : "db310ec3937d679e45ec5a72d090153c"
+				}
+			}
+        },
         /* 模块配置 */
         "distribute" : {
             /* 应用发布信息 */
@@ -46,7 +53,13 @@
             "ios" : {},
             /* ios打包配置 */
             "sdkConfigs" : {
-                "payment" : {}
+                "payment" : {},
+                "oauth" : {
+                    "weixin" : {
+                        "appid" : "wx2d1f29e580ac73c6",
+                        "appsecret" : "db310ec3937d679e45ec5a72d090153c"
+                    }
+                }
             },
             "icons" : {
                 "ios" : {

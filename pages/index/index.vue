@@ -143,11 +143,11 @@
 		},
 		computed: mapState(['user','selectSchool']), // 拿到vuex的user对象,
 		onLoad: function() {
-			if (!this.user.hasLogin) {
-				uni.redirectTo({
-					url: '../common/login'
-				});
-			}
+ 			if (!this.user.hasLogin) {
+ 				uni.redirectTo({
+ 					url: '../common/login'
+ 				});
+ 			}
 		},
 		methods: {
 			skip(url) {

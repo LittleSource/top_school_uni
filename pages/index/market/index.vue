@@ -5,7 +5,7 @@
 			<view class="items" @tap='showOptions1'>{{orderList[orderIndex]}}<text class="grace-iconfont icon-arrow-down"></text></view>
 			<view class="items" @tap='showOptions2'>{{cateList[cateIndex]}}<text class="grace-iconfont icon-arrow-down"></text></view>
 			<view class="items " @tap='changePriceOrder'>
-				价格
+				销量
 				<image style="margin-top: 13%;" src='../../../static/market/sort1.png' mode='widthFix' v-if="priceOrder == 1"></image>
 				<image style="margin-top: 13%;" src='../../../static/market/sort2.png' mode='widthFix' v-if="priceOrder == 2"></image>
 			</view>
@@ -24,45 +24,6 @@
 					{{item}}<text class="grace-iconfont icon-right" v-if="index ==  cateIndex"></text>
 				</view>
 			</view>
-			<!-- 筛选 start -->
-			<view class='grace-filter-options' :style="{'width':'90%', 'height' : filterHeight, 'padding':'0'}" v-if="showingIndex == 99">
-				<form @submit='formsubmit' @reset='formReset'>
-					<scroll-view scroll-y="true" :style="{'height':filterHeight}">
-						<view style="width:96%; padding:15upx 2%;">
-							<view class="grace-h5 grace-blod">条件1 - 多选示例</view>
-							<view style='padding:20upx 0;' class="grace-select-tips">
-								<checkbox-group name="where1" @change="changeFunc">
-									<label v-for="(item, index) in where1Tips" :key="index" :class="[item.checked ? 'grace-checked' : '']">
-										<checkbox :value="item.value + ''" :checked="item.checked"></checkbox> {{item.name}}
-									</label>
-								</checkbox-group>
-							</view>
-							<view class="grace-h5 grace-blod">条件2 - 单选示例</view>
-							<view style='padding:20upx 0;' class="grace-select-tips">
-								<radio-group name="where2" @change="changeFunc2">
-									<label v-for="(item, index) in where2Tips" :key="index" :class="[item.checked ? 'grace-checked' : '']">
-										<radio :value="item.value + ''" :checked="item.checked"></radio> {{item.name}}
-									</label>
-								</radio-group>
-							</view>
-							<!-- 占位视图组件 -->
-							<view style="height:150upx;"></view>
-						</view>
-					</scroll-view>
-					<!-- 按钮  -->
-					<view class='grace-filter-buttons'>
-						<view>
-							重置
-							<button form-type='reset'>重置</button>
-						</view>
-						<view>
-							确定
-							<button form-type='submit'>确定</button>
-						</view>
-					</view>
-				</form>
-			</view>
-			<!-- 筛选 end -->
 		</view>
 		<!-- grace filter start -->
 		<!-- 以下为演示内容 -->
@@ -121,59 +82,6 @@
 				cateList: ['全部', '超市', '外卖', '水果', '其他'],
 				//价格排序
 				priceOrder: 1,
-				//筛选条件
-				where1Tips: [{
-						name: "条件 - 1",
-						value: 1,
-						checked: true
-					},
-					{
-						name: "条件 - 2",
-						value: 2,
-						checked: false
-					},
-					{
-						name: "条件 - 3",
-						value: 3,
-						checked: false
-					},
-					{
-						name: "条件 - 4",
-						value: 4,
-						checked: false
-					},
-					{
-						name: "条件 - 5",
-						value: 5,
-						checked: false
-					}
-				],
-				where2Tips: [{
-						name: "条件 - 1",
-						value: 1,
-						checked: false
-					},
-					{
-						name: "条件 - 2",
-						value: 2,
-						checked: true
-					},
-					{
-						name: "条件 - 3",
-						value: 3,
-						checked: false
-					},
-					{
-						name: "条件 - 4",
-						value: 4,
-						checked: false
-					},
-					{
-						name: "条件 - 5",
-						value: 5,
-						checked: false
-					}
-				],
 				filterHeight: '100%'
 			}
 		},
@@ -194,6 +102,13 @@
 					}).exec();
 				}
 			});
+			uni.startPullDownRefresh();
+		},
+		onPullDownRefresh() {
+			console.log('refresh');
+			setTimeout(function() {
+				uni.stopPullDownRefresh();
+			}, 1000);
 		},
 		methods: {
 			changeOrder: function(e) {
@@ -216,13 +131,6 @@
 				}
 				this.showingIndex = 2;
 			},
-			showOptions99: function() {
-				if (this.showingIndex != 0) {
-					this.showingIndex = 0;
-					return;
-				}
-				this.showingIndex = 99;
-			},
 			changeCate: function(e) {
 				var tapIndex = e.target.dataset.itemid;
 				this.cateIndex = tapIndex;
@@ -242,53 +150,6 @@
 				});
 				this.getList();
 			},
-			//提交条件
-			formsubmit: function(e) {
-				console.log(JSON.stringify(e.detail.value));
-				uni.showModal({
-					title: '请观察控制台',
-					content: '条件以表单形式提交 ^_^'
-				});
-				_self.showingIndex = 0;
-				this.getList();
-			},
-			//重置表单
-			formReset: function() {
-				for (var i = 0; i < _self.where1Tips.length; i++) {
-					_self.where1Tips[i].checked = false;
-				}
-				_self.where1Tips = _self.where1Tips;
-				for (var i = 0; i < _self.where2Tips.length; i++) {
-					_self.where2Tips[i].checked = false;
-				}
-				_self.where2Tips = _self.where2Tips;
-				_self.showingIndex = 0;
-				this.getList();
-			},
-			//筛选页面js
-			changeFunc: function(e) {
-				var checkVal = e.detail.value;
-				var currentVal = this.where1Tips;
-				for (var i = 0; i < currentVal.length; i++) {
-					if (checkVal.indexOf(currentVal[i].value + '') != -1) {
-						currentVal[i].checked = true;
-					} else {
-						currentVal[i].checked = false;
-					}
-				}
-				this.where1Tips = currentVal;
-			},
-			changeFunc2: function(e) {
-				var checkVal = e.detail.value;
-				for (var i = 0; i < this.where2Tips.length; i++) {
-					if (checkVal.indexOf(this.where2Tips[i].value + '') != -1) {
-						this.where2Tips[i].checked = true;
-					} else {
-						this.where2Tips[i].checked = false;
-					}
-				}
-				this.where2Tips = this.where2Tips;
-			},
 			//条件更新后执行统一函数（如重新读取数据等）
 			getList: function() {
 				console.log('条件更新后执行统一函数（如重新读取数据等）');
@@ -302,6 +163,11 @@
 	}
 </script>
 <style>
+	@import "../../../graceUI/animate.css";
+	page {
+		background-color: #F5F5F5;
+	}
+
 	/* #ifdef  H5 */
 	.grace-filter {
 		top: 44px;

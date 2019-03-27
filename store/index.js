@@ -7,10 +7,10 @@ const store = new Vuex.Store({
 	state: {
 		user: {
 			hasLogin: false,
-			id:0,
+			id: 0,
 			token: '',
 			phone: '',
-			avatar:'',
+			avatar: '',
 			password: '',
 			userName: '',
 			sex: 0
@@ -20,11 +20,36 @@ const store = new Vuex.Store({
 			title: '',
 			addr: ''
 		},
-		selectSchool:{
+		selectSchool: {
 			id: '11853391869743621792',
 			title: '',
 			addr: ''
-		}
+		},
+		msg: [{
+				toId: 69,
+				img: '../../../static/logo.png',
+				title: "to蛇皮",
+				desc: '在干啥？',
+				status: "未读",
+				unread:1
+			},
+			{
+				toId: 67,
+				img: '../../../static/logo.png',
+				title: "to源哥",
+				desc: '我刚刚去看电影了',
+				status: "未读",
+				unread:1
+			},
+			{
+				toId: 85,
+				img: '../../../static/logo.png',
+				title: "狸猫",
+				desc: '怎么说呢',
+				status: "未读",
+				unread:1
+			}
+		]
 	},
 	mutations: {
 		regSetPhoneAndPass(state, payload) {
@@ -50,7 +75,7 @@ const store = new Vuex.Store({
 			state.user.sex = payload.user.sex;
 			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
-			
+
 			state.user.token = payload.token;
 			state.user.password = ''; //为了安全置空密码
 			state.user.hasLogin = true;
@@ -62,9 +87,9 @@ const store = new Vuex.Store({
 			state.user.sex = payload.user.sex;
 			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
-			
+
 			state.user.token = payload.token;
-			
+
 			state.school = payload.school;
 			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
 			state.user.hasLogin = true;
@@ -88,7 +113,7 @@ const store = new Vuex.Store({
 				data: state.selectSchool
 			});
 		},
-		checkSchool(state,payload){
+		checkSchool(state, payload) {
 			state.selectSchool = payload;
 			uni.setStorage({
 				key: 'selectSchool',
@@ -102,10 +127,28 @@ const store = new Vuex.Store({
 				}
 			});
 		},
-		appOnLunch(state,payload){
+		appOnLunch(state, payload) {
 			state.user = payload.user;
 			state.school = payload.school;
 			state.selectSchool = payload.selectSchool;
+		},
+		addMsg(state, msgObj) {
+			var hasMsg = false;//消息列表是否有相同的人
+			for (var i = 0;i<state.msg.length;i++) {
+				if(state.msg[i].toId === msgObj.toId){
+					hasMsg = true;
+					break;
+				}
+			}
+			if(hasMsg){
+				state.msg[i].msg = msgObj.msg;
+				state.msg[i].unread += 1;
+			}else{
+				state.msg.unshift(msgObj);
+			}
+		},
+		delMsg(state, toId){
+			state.msg.splice(0,1);
 		}
 	}
 })

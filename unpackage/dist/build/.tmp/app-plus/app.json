@@ -5,6 +5,7 @@
     "pages/index/confession/publish",
     "pages/index/confession/detail",
     "pages/index/market/index",
+    "pages/index/market/market",
     "pages/common/login",
     "pages/register/reg",
     "pages/register/selectSex",

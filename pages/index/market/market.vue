@@ -1,7 +1,7 @@
 <template>
 	<view style='height:100%;'>
 		<graceSpeaker icon="../../../static/market/trumpet.png" :msgs="speakerMsgs"></graceSpeaker>
-		<view class="grace-cate" style='width:100%; height:calc(100% - 45px);'>
+		<view class="grace-cate" style='width:100%; height:calc(100% - 90px);'>
 			<scroll-view scroll-y class="grace-cate-left" :scroll-into-view="leftTo">
 				<view v-for="(item, index) in mainCate" :key="index" :class="['item', currentCateIndex == item.cateid ? 'current' : '']"
 				 :data-cateid="item.cateid" @tap='changCate' :id="'cate'+item.cateid">{{item.name}}</view>
@@ -27,6 +27,16 @@
 				</block>
 			</scroll-view>
 		</view>
+		<view class="grace-footer">
+			<view style="width:60%;">
+				<view class="icons grace-iconfont icon-shoppingcard"></view>
+				<view class="icons grace-iconfont icon-shoucang"></view>
+				<view class="icons iconfont icon-jiahao"></view>
+			</view>
+			<view style="width:40%;">
+				<button type="warn">立即结算</button>
+			</view>
+		</view>
 	</view>
 </template>
 <script>
@@ -40,6 +50,8 @@
 		},
 		data() {
 			return {
+				popmenuShowX: true,
+				goodsCount:0,
 				speakerMsgs: [{
 						title: "graceUI 更快、更好的前端UI",
 						url: "flex",
@@ -156,6 +168,7 @@
 			},
 			// 加入到购物车
 			addtocard: function(e) {
+				this.goodsCount++;
 				var productid = e.currentTarget.dataset.productid;
 				uni.showToast({
 					title: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',
@@ -169,6 +182,9 @@
 					title: '关键字 : ' + k + ', 请根据项目需求自行完善后续代码',
 					icon: "none"
 				});
+			},
+			showmenuX: function() {
+				this.popmenuShowX = !this.popmenuShowX;
 			}
 		}
 	}
@@ -177,7 +193,10 @@
 	page {
 		height: 100%;
 	}
-
+	
+	.icons{
+		float: left;
+	}
 	.grace-search-icon:before {
 		color: #E2231A;
 	}

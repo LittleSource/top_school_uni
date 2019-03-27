@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://123.151.2.108:8282';
-	const serverSrc = 'http://123.151.2.108/';
+	const serverChat = 'ws://221.238.111.126:8282';
+	const serverSrc = 'http://221.238.111.126/';
 	const token = '';
 	export default {
 		token, //用户token身份

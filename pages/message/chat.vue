@@ -25,6 +25,7 @@
 		},
 		data() {
 			return {
+				toId: 0,
 				msgs: [], // 消息数组
 				graceIMScTOP: 99999, // 滚动条变量
 				historyLodginText: "点击加载历史消息"
@@ -33,28 +34,9 @@
 		computed: mapState(['user']),
 		onLoad: function(options) {
 			_self = this;
-			uni.connectSocket({
-				url: this.GLOBAL.serverChat,
-				success: () => {
-					console.log('连接ok');
-				},
-				fail: (e) => {
-					console.log(JSON.stringify(e));
-				}
-			});
-			uni.onSocketOpen(function(res) {
-				console.log('WebSocket连接已打开！');
-				var initDate = {
-					type: 'init',
-					id: _self.user.id
-				};
-				uni.sendSocketMessage({
-					data:JSON.stringify(initDate)
-				});
-			});
+			_self.toId = options.toId;
 			uni.onSocketMessage(function(res) {
-				_self.receiveMsg(res.data);
-				console.log('收到服务器内容：' + JSON.stringify(res.data));
+				_self.receiveMsg(JSON.parse(res.data));
 			});
 		},
 		onBackPress: function() {
@@ -104,6 +86,19 @@
 					_self.graceIMScTOP = 99000 + Math.random();
 				}, 1000);
 			},
+			//发送消息处理函数
+			sendMessage:function(msg){
+				
+				this.receiveMsg(msg);
+				uni.sendSocketMessage({
+					data: JSON.stringify(msg)
+				});
+				uni.request({
+					url: this.GLOBAL.serverSrc+'common/top_chat/record',
+					method: 'POST',
+					data: msg
+				});
+			},
 			// 发送文本消息
 			sendTextMsg: function(e) {
 				var content = e;
@@ -111,6 +106,7 @@
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
 				var msg = {
+					to_id: this.toId, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
@@ -118,36 +114,42 @@
 					ctype: 1, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate()
 				}
-				uni.sendSocketMessage({
-					data: JSON.stringify(msg)
-				});
-				// 调用接收消息函数 展示消息
-				this.receiveMsg(msg);
+				this.sendMessage(msg);
 			},
 			// 发送图片消息
 			sendImgMsg: function(e) {
 				var imgUrl = e;
-				// 此处已经获取到选择的临时图片，上传图片[ 与服务器交互完成 ]
-				// 服务器会回复一个消息到当前链接
-				// 模拟接收到一个消息
 				var msg = {
+					to_id: this.toId, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
-					msg: imgUrl, // 图片文件路径
+					msg: '', // 图片文件路径
 					ctype: 2, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate()
-				}
-				// 调用接收消息函数 展示消息
-				this.receiveMsg(msg);
+				};
+				uni.uploadFile({
+					url: this.GLOBAL.serverSrc + 'common/top_chat/recordimg',
+					filePath: imgUrl,
+					name: 'file',
+					success: (uploadFileRes) => {
+						var resObj = JSON.parse(uploadFileRes.data);
+						if(resObj.status===200){
+							msg.msg = resObj.imagePath;
+							_self.sendMessage(msg);
+						}else{
+							console.log(JSON.stringify(uploadFileRes));///
+						}
+					},fail: (e) => {
+						_self.GLOBAL.requestFail(e);
+					}
+				});
 			},
 			// 发送语音消息
 			sendVoiceMsg: function(e) {
-				var voiceurl = e; // 数值格式 [音频文件临时路径 , 录音长度]
-				// 此处已经获取到录音文件临时地址，上传音频[ 与服务器交互完成 ]
-				// 服务器会回复一个消息到当前链接
-				// 模拟接收到一个消息
+				var voiceurl = e;
 				var msg = {
+					to_id: this.toId, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
@@ -155,8 +157,27 @@
 					ctype: 3, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate() // 消息时间
 				}
-				// 调用接收消息函数 展示消息
-				this.receiveMsg(msg);
+				 // 数值格式 [音频文件临时路径 , 录音长度]
+				// 此处已经获取到录音文件临时地址，上传音频[ 与服务器交互完成 ]
+				// 服务器会回复一个消息到当前链接
+				// 模拟接收到一个消息
+				console.log(JSON.stringify(e));
+				uni.uploadFile({
+					url: this.GLOBAL.serverSrc + 'common/top_chat/recordvoice',
+					filePath: voiceurl,
+					name: 'file',
+					success: (uploadFileRes) => {
+						var resObj = JSON.parse(uploadFileRes.data);
+						if(resObj.status===200){
+							msg.msg = resObj.voicePath;
+							_self.sendMessage(msg);
+						}else{
+							console.log(JSON.stringify(uploadFileRes));///
+						}
+					},fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
+				});
 			},
 			// 获取当前日期
 			getNowDate: function() {

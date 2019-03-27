@@ -1,10 +1,11 @@
 <script>
 	import {
-		mapMutations
+		mapMutations,mapState
 	} from 'vuex'
 	export default {
+		computed: mapState(['msg']),
 		methods: {
-			...mapMutations(['appOnLunch'])
+			...mapMutations(['appOnLunch','addMsg'])
 		},
 		onLaunch: function() {
 			var app = new Object();
@@ -13,8 +14,33 @@
 				app.school = uni.getStorageSync('school');
 				app.selectSchool = uni.getStorageSync('selectSchool');
 				this.appOnLunch(app);
+				uni.connectSocket({
+					url: this.GLOBAL.serverChat,
+				});
+				var _self = this;
+				uni.onSocketOpen(function(res) {
+					console.log('WebSocket连接已打开！');
+					var initDate = {
+						ctype: 'init',
+						id: app.user.id
+					};
+					uni.sendSocketMessage({
+						data:JSON.stringify(initDate)
+					});
+					uni.onSocketMessage(function(res) {
+						var newMsg = JSON.parse(res.data);
+						console.log(JSON.stringify(newMsg));
+						var msgObj = {
+							toId:newMsg.id,
+							img:newMsg.face,
+							title:newMsg.name,
+							desc:newMsg.msg,
+							status:"未读"
+						};
+						_self.addMsg(msgObj);
+					});
+				});
 			}
-
 			// #ifdef APP-PLUS
 			const updated = uni.getStorageSync('updated') // 尝试读取storage
 			if (updated.completed === true) { // 如果上次刚更新过
