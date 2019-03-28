@@ -94,7 +94,7 @@
 					data: JSON.stringify(msg)
 				});
 				uni.request({
-					url: this.GLOBAL.serverSrc+'common/top_chat/record',
+					url: this.GLOBAL.serverSrc+'message/top_chat/record',
 					method: 'POST',
 					data: msg
 				});
@@ -129,7 +129,7 @@
 					date: this.getNowDate()
 				};
 				uni.uploadFile({
-					url: this.GLOBAL.serverSrc + 'common/top_chat/recordimg',
+					url: this.GLOBAL.serverSrc + 'messsage/top_chat/recordimg',
 					filePath: imgUrl,
 					name: 'file',
 					success: (uploadFileRes) => {
@@ -163,7 +163,7 @@
 				// 模拟接收到一个消息
 				console.log(JSON.stringify(e));
 				uni.uploadFile({
-					url: this.GLOBAL.serverSrc + 'common/top_chat/recordvoice',
+					url: this.GLOBAL.serverSrc + 'message/top_chat/recordvoice',
 					filePath: voiceurl,
 					name: 'file',
 					success: (uploadFileRes) => {

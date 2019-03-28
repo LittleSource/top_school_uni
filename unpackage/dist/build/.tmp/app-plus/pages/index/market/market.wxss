@@ -15,6 +15,9 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 page {
 	height: 100%;
 }
+.icons{
+	float: left;
+}
 .grace-search-icon:before {
 	color: #E2231A;
 }

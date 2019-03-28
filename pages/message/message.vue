@@ -1,14 +1,14 @@
 <template>
 	<view class="grace-scroll-do grace-bg-white">
-		<scroll-view class="grace-scroll-x" scroll-x v-for="(item, index) in msg" :scroll-left="scrollIndex == index ? 180 : 0"
+		<scroll-view class="grace-scroll-x" scroll-x v-for="(item, index) in msgList" :scroll-left="scrollIndex == index ? 180 : 0"
 		 @touchstart='touchStart' @touchend='touchEnd' :data-id="index" scroll-with-animation="true" :key="index">
-			<view class="grace-items" @click="goChat(item.toId)">
-				<image :src="item.img" mode="widthFix"></image>
+			<view class="grace-items" @click="goChat(item.toId,index)">
+				<image :src="item.avatar" mode="widthFix"></image>
 				<view class="contents">
-					<view class="grace-h5 grace-blod">{{item.title}}</view>
-					<view class="grace-text-small">{{item.desc}}</view>
+					<view class="grace-h5 grace-blod">{{item.name}}</view>
+					<view class="grace-text-small">{{item.msg}}</view>
 				</view>
-				<text class="grace-badge grace-badge-red">{{item.unread}}</text>
+				<text v-if="item.unread > 0" class="grace-badge grace-badge-red">{{item.unread}}</text>
 			</view>
 			<view class="grace-items btn btn-first" :data-id="index" @tap="changStatus" :style="{width : index == deleteIndex ? '0px' : btn1Width + 'px', background:item.status == '已读' ? '#CCCCCC' : '#5959D3', color:item.status == '已读' ? '#999' : '#FFF'}">{{item.status}}</view>
 			<view class="grace-items btn" :data-id="index" @tap="removeMsg" :style="{width : index == deleteIndex ? deleteBtnWidth + 'px' : btn2Width+'px'}">删除</view>
@@ -18,7 +18,7 @@
 
 <script>
 	import {
-		mapState
+		mapState,mapMutations
 	} from 'vuex'
 	var _self, x, y;
 	export default {
@@ -35,12 +35,14 @@
 				deleteIndex: -1,
 			}
 		},
-		computed: mapState(['msg']),
+		computed: mapState(['msgList']),
 		onLoad: function() {
 			_self = this;
 		},
 		methods: {
-			goChat: function(toId) {
+			...mapMutations(['changeMsg','delMsg']),
+			goChat: function(toId,index) {
+				this.changeMsg(index);
 				uni.navigateTo({
 					url: './chat?toId=' + toId
 				});
@@ -57,7 +59,7 @@
 				}
 				this.scrollIndex = -1;
 				setTimeout(function() {
-					_self.msg.splice(index, 1);
+					_self.delMsg(index);
 					_self.deleteIndex = -1;
 				}, 500);
 			},
@@ -82,7 +84,7 @@
 			},
 			changStatus: function(e) {
 				var index = e.currentTarget.dataset.id;
-				this.msg[index].status = "已读";
+				this.changeMsg(index);
 			}
 		}
 	}

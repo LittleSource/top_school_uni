@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-
+import global from '../global' //引用全局变量文件
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
@@ -25,31 +25,57 @@ const store = new Vuex.Store({
 			title: '',
 			addr: ''
 		},
-		msg: [{
+		msgList: [{
+				id: 111,
 				toId: 69,
-				img: '../../../static/logo.png',
-				title: "to蛇皮",
-				desc: '在干啥？',
+				avatar: '../../../static/logo.png',
+				name: "to蛇皮",
+				msg: '在干啥？',
 				status: "未读",
-				unread:1
+				unread: 1
 			},
 			{
-				toId: 67,
-				img: '../../../static/logo.png',
-				title: "to源哥",
-				desc: '我刚刚去看电影了',
-				status: "未读",
-				unread:1
-			},
-			{
+				id: 111,
 				toId: 85,
-				img: '../../../static/logo.png',
-				title: "狸猫",
-				desc: '怎么说呢',
+				avatar: '../../../static/logo.png',
+				name: "狸猫",
+				msg: '怎么说呢',
 				status: "未读",
-				unread:1
+				unread: 1
 			}
-		]
+		],
+		historyMsg: {
+			69: [{
+				id: 100,
+				name: "历史",
+				face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",
+				ctype: 1,
+				msg: "历史消息演示文本内容...",
+				date: '2018 01-01 00:00'
+			}, {
+				id: 100,
+				name: "历史",
+				face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",
+				ctype: 2,
+				msg: "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=645650495,1612690171&fm=170&s=7F1106C68E15024D189269B303007019&w=536&h=385&img.JPEG",
+				date: '2018 01-01 00:00'
+			}],
+			85:[{
+				id: 100,
+				name: "85",
+				face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",
+				ctype: 1,
+				msg: "历史消息演示文本内容...",
+				date: '2018 01-01 00:00'
+			}, {
+				id: 100,
+				name: "85",
+				face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",
+				ctype: 2,
+				msg: "https://ss2.baidu.com/6ONYsjip0QIZ8tyhnq/it/u=645650495,1612690171&fm=170&s=7F1106C68E15024D189269B303007019&w=536&h=385&img.JPEG",
+				date: '2018 01-01 00:00'
+			}]
+		}
 	},
 	mutations: {
 		regSetPhoneAndPass(state, payload) {
@@ -132,23 +158,58 @@ const store = new Vuex.Store({
 			state.school = payload.school;
 			state.selectSchool = payload.selectSchool;
 		},
-		addMsg(state, msgObj) {
-			var hasMsg = false;//消息列表是否有相同的人
-			for (var i = 0;i<state.msg.length;i++) {
-				if(state.msg[i].toId === msgObj.toId){
+		onMessage(state) {
+			var _self = this;
+			uni.onSocketOpen(function(res) {
+				console.log('WebSocket连接已打开！');
+				var initDate = {
+					ctype: 'init',
+					id: state.user.id
+				};
+				uni.sendSocketMessage({
+					data: JSON.stringify(initDate)
+				});
+				uni.onSocketMessage(function(res) {
+					global.playMessage();
+					var newMsg = JSON.parse(res.data);
+					console.log(JSON.stringify(newMsg));
+					var payload = new Object();
+					payload.newMsg = newMsg;
+					payload.msgObj = {
+						id: state.user.id,
+						toId: newMsg.id,
+						avatar: newMsg.face,
+						name: newMsg.name,
+						msg: newMsg.msg,
+						status: "未读",
+						unread: 1
+					};
+					_self.commit('addMsg', payload);
+				});
+			});
+		},
+		addMsg(state, payload) {
+			var hasMsg = false; //消息列表是否有相同的人
+			for (var i = 0; i < state.msgList.length; i++) {
+				if (state.msgList[i].toId === payload.msgObj.toId) {
 					hasMsg = true;
 					break;
 				}
 			}
-			if(hasMsg){
-				state.msg[i].msg = msgObj.msg;
-				state.msg[i].unread += 1;
-			}else{
-				state.msg.unshift(msgObj);
+			if (hasMsg) {
+				state.msgList[i].msg = payload.msgObj.msg;
+				state.msgList[i].unread += 1;
+			} else {
+				eval('state.historyMsg.' + newMsg.toId + '=' + payload.newMsg);
+				state.msgList.unshift(payload.msgObj);
 			}
 		},
-		delMsg(state, toId){
-			state.msg.splice(0,1);
+		changeMsg(state, index) {
+			state.msgList[index].unread = 0;
+			state.msgList[index].status = "已读";
+		},
+		delMsg(state, index) {
+			state.msgList.splice(index, 1);
 		}
 	}
 })

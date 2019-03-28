@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://221.238.111.126:8282';
-	const serverSrc = 'http://221.238.111.126/';
+	const serverChat = 'ws://123.151.6.123:8282';
+	const serverSrc = 'http://123.151.6.123/';
 	const token = '';
 	export default {
 		token, //用户token身份
@@ -28,6 +28,9 @@
 			uni.showToast({
 				title: '身份验证失效，请重新登录！',
 				icon: "none"
+			});
+			uni.removeStorage({
+				key: 'user'
 			});
 			uni.redirectTo({
 				url: '/pages/common/login'
@@ -54,6 +57,18 @@
 						}
 					}
 				}
+			});
+		},
+		playMessage: function() {
+			const innerAudioContext = uni.createInnerAudioContext();
+			innerAudioContext.autoplay = true;
+			innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';
+			innerAudioContext.onPlay(() => {
+				console.log('开始播放');
+			});
+			innerAudioContext.onError((res) => {
+				console.log(res.errMsg);
+				console.log(res.errCode);
 			});
 		}
 	}

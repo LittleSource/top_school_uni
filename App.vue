@@ -1,14 +1,15 @@
 <script>
 	import {
-		mapMutations,mapState
+		mapMutations,
+		mapState
 	} from 'vuex'
+	var app = new Object();
 	export default {
 		computed: mapState(['msg']),
 		methods: {
-			...mapMutations(['appOnLunch','addMsg'])
+			...mapMutations(['appOnLunch', 'addMsg','onMessage'])
 		},
 		onLaunch: function() {
-			var app = new Object();
 			app.user = uni.getStorageSync('user');
 			if (app.user.hasLogin === true) {
 				app.school = uni.getStorageSync('school');
@@ -17,29 +18,7 @@
 				uni.connectSocket({
 					url: this.GLOBAL.serverChat,
 				});
-				var _self = this;
-				uni.onSocketOpen(function(res) {
-					console.log('WebSocket连接已打开！');
-					var initDate = {
-						ctype: 'init',
-						id: app.user.id
-					};
-					uni.sendSocketMessage({
-						data:JSON.stringify(initDate)
-					});
-					uni.onSocketMessage(function(res) {
-						var newMsg = JSON.parse(res.data);
-						console.log(JSON.stringify(newMsg));
-						var msgObj = {
-							toId:newMsg.id,
-							img:newMsg.face,
-							title:newMsg.name,
-							desc:newMsg.msg,
-							status:"未读"
-						};
-						_self.addMsg(msgObj);
-					});
-				});
+				this.onMessage();
 			}
 			// #ifdef APP-PLUS
 			const updated = uni.getStorageSync('updated') // 尝试读取storage
@@ -57,14 +36,41 @@
 			// #endif
 		},
 		onShow: function() {
-// 			uni.showModal({
-// 				title: '提示',
-// 				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
-// 				showCancel: false
-// 			});
+			//  			uni.showModal({
+			//  				title: '提示',
+			//  				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
+			//  				showCancel: false
+			//  			});
 		},
 		onHide: function() {
-			console.log('App Hide')
+			var _self = this;
+			uni.connectSocket({
+				url: this.GLOBAL.serverChat,
+			});
+			uni.onSocketOpen(function(res) {
+				console.log('WebSocket连接已打开！');
+				var initDate = {
+					ctype: 'init',
+					id: app.user.id
+				};
+				uni.sendSocketMessage({
+					data: JSON.stringify(initDate)
+				});
+				_self.onMessage();
+			});
+			uni.request({
+				url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',
+				method: 'POST',
+				data: {
+					'msgList': this.msg
+				},
+				success: res => {
+					if(res.status === 200){
+						console.log('消息列表'+res.msg);
+					}
+				}
+			});
+			console.log('App Hide');
 		}
 	}
 </script>
