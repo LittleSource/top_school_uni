@@ -3,18 +3,15 @@
 		mapMutations,
 		mapState
 	} from 'vuex'
-	var app = new Object();
 	export default {
-		computed: mapState(['msg']),
+		computed: mapState(['msgList']),
 		methods: {
 			...mapMutations(['appOnLunch', 'addMsg','onMessage'])
 		},
 		onLaunch: function() {
-			app.user = uni.getStorageSync('user');
-			if (app.user.hasLogin === true) {
-				app.school = uni.getStorageSync('school');
-				app.selectSchool = uni.getStorageSync('selectSchool');
-				this.appOnLunch(app);
+			var user = uni.getStorageSync('user');
+			if (user.hasLogin === true) {
+				this.appOnLunch(user);
 				uni.connectSocket({
 					url: this.GLOBAL.serverChat,
 				});
@@ -43,31 +40,15 @@
 			//  			});
 		},
 		onHide: function() {
-			var _self = this;
 			uni.connectSocket({
 				url: this.GLOBAL.serverChat,
 			});
-			uni.onSocketOpen(function(res) {
-				console.log('WebSocket连接已打开！');
-				var initDate = {
-					ctype: 'init',
-					id: app.user.id
-				};
-				uni.sendSocketMessage({
-					data: JSON.stringify(initDate)
-				});
-				_self.onMessage();
-			});
+			this.onMessage();
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',
 				method: 'POST',
 				data: {
-					'msgList': this.msg
-				},
-				success: res => {
-					if(res.status === 200){
-						console.log('消息列表'+res.msg);
-					}
+					'msgList': this.msgList
 				}
 			});
 			console.log('App Hide');

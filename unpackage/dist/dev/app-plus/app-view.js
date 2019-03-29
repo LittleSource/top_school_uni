@@ -2256,7 +2256,7 @@ Z(z[4])
 Z(z[5])
 Z(z[6])
 Z([1,'5be952bf-3'])
-Z([3,'筛选'])
+Z([3,'切换'])
 Z([3,'_text 5be952bf grace-iconfont icon-shaixuan'])
 Z([[2,'=='],[[7],[3,'showingIndex']],[1,1]])
 Z([3,'_view 5be952bf grace-filter-options'])
@@ -7986,9 +7986,9 @@ style.childNodes[0].nodeValue = css;
 }
 return rewritor;
 }
-setCssToHead([])();setCssToHead([[2,0]],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./app.wxss:3914:25)",{path:"./app.wxss"})();
+setCssToHead([])();setCssToHead([[2,0]],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./app.wxss:3895:25)",{path:"./app.wxss"})();
 
-__wxAppCode__['app.wxss']=setCssToHead([[2,0]],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./app.wxss:3914:25)",{path:"./app.wxss"});    
+__wxAppCode__['app.wxss']=setCssToHead([[2,0]],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./app.wxss:3895:25)",{path:"./app.wxss"});    
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 ;var __pageFrameEndTime__ = Date.now();

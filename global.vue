@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://123.151.6.123:8282';
-	const serverSrc = 'http://123.151.6.123/';
+	const serverChat = 'ws://123.151.2.116:8282';
+	const serverSrc = 'http://123.151.2.116/';
 	const token = '';
 	export default {
 		token, //用户token身份
@@ -64,7 +64,7 @@
 			innerAudioContext.autoplay = true;
 			innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';
 			innerAudioContext.onPlay(() => {
-				console.log('开始播放');
+				
 			});
 			innerAudioContext.onError((res) => {
 				console.log(res.errMsg);

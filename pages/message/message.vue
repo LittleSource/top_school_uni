@@ -2,7 +2,7 @@
 	<view class="grace-scroll-do grace-bg-white">
 		<scroll-view class="grace-scroll-x" scroll-x v-for="(item, index) in msgList" :scroll-left="scrollIndex == index ? 180 : 0"
 		 @touchstart='touchStart' @touchend='touchEnd' :data-id="index" scroll-with-animation="true" :key="index">
-			<view class="grace-items" @click="goChat(item.toId,index)">
+			<view class="grace-items" @click="goChat(item.to_id,index)">
 				<image :src="item.avatar" mode="widthFix"></image>
 				<view class="contents">
 					<view class="grace-h5 grace-blod">{{item.name}}</view>
@@ -41,10 +41,10 @@
 		},
 		methods: {
 			...mapMutations(['changeMsg','delMsg']),
-			goChat: function(toId,index) {
+			goChat: function(to_id,index) {
 				this.changeMsg(index);
 				uni.navigateTo({
-					url: './chat?toId=' + toId
+					url: './chat?to_id=' + to_id
 				});
 			},
 			removeMsg: function(e) {

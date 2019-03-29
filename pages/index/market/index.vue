@@ -9,7 +9,7 @@
 				<image style="margin-top: 13%;" src='../../../static/market/sort1.png' mode='widthFix' v-if="priceOrder == 1"></image>
 				<image style="margin-top: 13%;" src='../../../static/market/sort2.png' mode='widthFix' v-if="priceOrder == 2"></image>
 			</view>
-			<view class="items" @tap='showOptions99'>筛选<text class="grace-iconfont icon-shaixuan"></text></view>
+			<view class="items" @tap='changeSchool'>切换<text class="grace-iconfont icon-shaixuan"></text></view>
 			<!-- 第一个选项 -->
 			<view class='grace-filter-options' v-if="showingIndex == 1">
 				<view v-for="(item, index) in orderList" :key="index" :class="[index ==  orderIndex ? 'option current' : 'option']"
@@ -70,17 +70,15 @@
 	export default {
 		data() {
 			return {
-				//for
-				forData: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
 				//被展示的菜单
 				showingIndex: 0,
 				//第一个选项相关
 				orderIndex: 0,
-				orderList: ['综合', '星级', '评价'],
+				orderList: ['综合', '星级', '人气'],
 				//第二个选项相关
 				cateIndex: 0,
 				cateList: ['全部', '超市', '外卖', '水果', '其他'],
-				//价格排序
+				//销量排序
 				priceOrder: 1,
 				filterHeight: '100%'
 			}
@@ -105,12 +103,19 @@
 			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
-			console.log('refresh');
+			console.log(this.orderList[this.orderIndex]);
+			console.log(this.cateList[this.cateIndex]);
+			console.log(this.priceOrder);
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 1000);
 		},
 		methods: {
+			changeSchool:function(){
+				uni.navigateTo({
+					url: '../../common/checkSchool'
+				});
+			},
 			changeOrder: function(e) {
 				var tapIndex = e.target.dataset.itemid;
 				this.orderIndex = tapIndex;
@@ -144,10 +149,6 @@
 				} else {
 					this.priceOrder = 1;
 				}
-				uni.showModal({
-					title: '价格排序已经切换',
-					content: '对应的值保存在 priceOrder 变量中 ^_^'
-				});
 				this.getList();
 			},
 			//条件更新后执行统一函数（如重新读取数据等）

@@ -82,9 +82,7 @@
 			},
 			confirmButton() {
 				this.checkSchool(this.nowSchool);
-				uni.switchTab({
-					url: '/pages/index/index'
-				});
+				uni.navigateBack();
 			}
 		}
 	}

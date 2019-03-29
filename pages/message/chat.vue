@@ -10,7 +10,7 @@
 </template>
 <script>
 	import {
-		mapState
+		mapState,mapMutations
 	} from 'vuex'
 	var chat;
 	var msgPage = 1,
@@ -25,24 +25,26 @@
 		},
 		data() {
 			return {
-				toId: 0,
+				to_id: 0,
 				msgs: [], // 消息数组
 				graceIMScTOP: 99999, // 滚动条变量
 				historyLodginText: "点击加载历史消息"
 			};
 		},
-		computed: mapState(['user']),
+		computed: mapState(['user','historyMsg']),
 		onLoad: function(options) {
 			_self = this;
-			_self.toId = options.toId;
-			uni.onSocketMessage(function(res) {
-				_self.receiveMsg(JSON.parse(res.data));
-			});
+			_self.to_id = options.to_id;
+			_self.msgs = _self.historyMsg[_self.to_id];
+// 			uni.onSocketMessage(function(res) {
+// 				_self.receiveMsg(JSON.parse(res.data));
+// 			});
 		},
 		onBackPress: function() {
 			msgPage = 1;
 		},
 		methods: {
+			...mapMutations(['sendMsg']),
 			// 加载历史消息函数
 			getHistoryMsg: function() {
 				if (this.historyLodginText == '加载中' || this.historyLodginText == '已经加载全部历史消息') {
@@ -88,11 +90,13 @@
 			},
 			//发送消息处理函数
 			sendMessage:function(msg){
-				
-				this.receiveMsg(msg);
+				this.sendMsg(msg);
 				uni.sendSocketMessage({
 					data: JSON.stringify(msg)
 				});
+				setTimeout(function() {
+					_self.graceIMScTOP = 99000 + Math.random();
+				}, 1000);
 				uni.request({
 					url: this.GLOBAL.serverSrc+'message/top_chat/record',
 					method: 'POST',
@@ -106,7 +110,7 @@
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
 				var msg = {
-					to_id: this.toId, //对方id
+					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
@@ -120,7 +124,7 @@
 			sendImgMsg: function(e) {
 				var imgUrl = e;
 				var msg = {
-					to_id: this.toId, //对方id
+					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
@@ -149,7 +153,7 @@
 			sendVoiceMsg: function(e) {
 				var voiceurl = e;
 				var msg = {
-					to_id: this.toId, //对方id
+					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
@@ -161,7 +165,6 @@
 				// 此处已经获取到录音文件临时地址，上传音频[ 与服务器交互完成 ]
 				// 服务器会回复一个消息到当前链接
 				// 模拟接收到一个消息
-				console.log(JSON.stringify(e));
 				uni.uploadFile({
 					url: this.GLOBAL.serverSrc + 'message/top_chat/recordvoice',
 					filePath: voiceurl,
