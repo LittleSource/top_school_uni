@@ -236,6 +236,9 @@ const store = new Vuex.Store({
 			this.commit('setMsgStorage');
 		},
 		sendMsg(state, newMsg){
+			uni.sendSocketMessage({
+				data: JSON.stringify(newMsg)
+			});
 			var hasMsg = false; //消息列表是否有相同的人
 			for (var i = 0; i < state.msgList.length; i++) {
 				if (state.msgList[i].to_id == newMsg.to_id) {

@@ -105,10 +105,7 @@
 			},
 			// 发送文本消息
 			sendTextMsg: function(e) {
-				var content = e;
-				// 此处已经获取到提交的文本，向 socket 服务器发送消息即可
-				// 服务器会回复一个消息到当前链接
-				// 模拟接收到一个消息
+				var content = e;// 此处已经获取到提交的文本
 				var msg = {
 					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
@@ -151,20 +148,16 @@
 			},
 			// 发送语音消息
 			sendVoiceMsg: function(e) {
-				var voiceurl = e;
+				var voiceurl = e;// 此处已经获取到录音文件临时地址
 				var msg = {
 					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
-					name: this.user.userName, // 昵称
+					name: this.user.userName, //昵称
 					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
 					msg: voiceurl, // 语音文件路径
 					ctype: 3, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate() // 消息时间
 				}
-				 // 数值格式 [音频文件临时路径 , 录音长度]
-				// 此处已经获取到录音文件临时地址，上传音频[ 与服务器交互完成 ]
-				// 服务器会回复一个消息到当前链接
-				// 模拟接收到一个消息
 				uni.uploadFile({
 					url: this.GLOBAL.serverSrc + 'message/top_chat/recordvoice',
 					filePath: voiceurl,
@@ -175,7 +168,7 @@
 							msg.msg = resObj.voicePath;
 							_self.sendMessage(msg);
 						}else{
-							console.log(JSON.stringify(uploadFileRes));///
+							console.log(JSON.stringify(uploadFileRes));
 						}
 					},fail: (e) => {
 						this.GLOBAL.requestFail(e);
