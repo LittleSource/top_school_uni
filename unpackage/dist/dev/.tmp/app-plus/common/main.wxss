@@ -3606,10 +3606,10 @@
 	    -ms-flex-pack: distribute;
 	        justify-content: space-around;
 }
-.simple-bar.btn-group ._button {
+.simple-bar.btn-group button {
 	padding: 20rpx 32rpx;
 }
-.simple-bar.btn-group ._button {
+.simple-bar.btn-group button {
 	-webkit-box-flex: 1;
 	-webkit-flex: 1;
 	    -ms-flex: 1;
@@ -4178,20 +4178,20 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 /* 可选标签 */
 .grace-select-tips{padding:10rpx 0;}
 .grace-select-tips checkbox-group, .grace-select-tips radio-group{width:100%; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-flex-wrap:wrap; -ms-flex-wrap:wrap; flex-wrap:wrap;}
-.grace-select-tips ._label{display:block; width:auto; overflow:hidden; padding:15rpx 22rpx; height:30rpx; line-height:30rpx; margin:6px; background:#F6F7F8; font-size:26rpx; border-radius:5rpx;}
-.grace-select-tips ._label checkbox, .grace-select-tips ._label radio{display:none;}
+.grace-select-tips label{display:block; width:auto; overflow:hidden; padding:15rpx 22rpx; height:30rpx; line-height:30rpx; margin:6px; background:#F6F7F8; font-size:26rpx; border-radius:5rpx;}
+.grace-select-tips label checkbox, .grace-select-tips label radio{display:none;}
 .grace-checked{background:#00C777 !important; color:#FFFFFF;}
 /* 底部导航 */
 .grace-footer{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex; position:fixed; z-index:2; left:0; bottom:0; background:#FFFFFF; width:100%; height:90rpx; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; overflow:hidden; -webkit-box-shadow:1px 1px 6px #888; box-shadow:1px 1px 6px #888;}
 .grace-footer .grace-input{width:100%; margin:15rpx 20rpx; padding:0 15rpx; background:#F4F5F6; height:60rpx; border-radius:60rpx; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex;}
 .grace-input-icon{width:60rpx; height:60rpx; line-height:60rpx; font-size:30rpx; color:#000000; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0;}
-.grace-footer .grace-input ._input{width:100%; padding:10rpx 15rpx; height:40rpx; line-height:40rpx; font-size:26rpx; background:none; border:0;}
+.grace-footer .grace-input input{width:100%; padding:10rpx 15rpx; height:40rpx; line-height:40rpx; font-size:26rpx; background:none; border:0;}
 .grace-footer .icons{width:70rpx; height:60rpx; margin:15rpx 8rpx; text-align:center; line-height:60rpx; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0; font-size:50rpx;}
 .grace-footer .grace-items{width:auto; line-height:90rpx; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0;}
-.grace-footer ._button{width:100%; border:0; border-radius:0; height:90rpx; line-height:90rpx;}
+.grace-footer button{width:100%; border:0; border-radius:0; height:90rpx; line-height:90rpx;}
 /* 表单 */
 .grace-form{padding:0; width:100%;}
-.grace-form ._form{display:block; width:100%; overflow:hidden;}
+.grace-form form{display:block; width:100%; overflow:hidden;}
 .grace-form .grace-items{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex; border-bottom:1px solid #F2F3F4; width:100%; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; -webkit-box-pack:justify; -webkit-justify-content:space-between; -ms-flex-pack:justify; justify-content:space-between; padding:10rpx 0;}
 .grace-form .grace-items .grace-label{width:130rpx; height:80rpx; line-height:80rpx; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0; overflow:hidden;}
 .grace-form .grace-items .input{width:98%; height:40rpx; line-height:40rpx; background:none; -webkit-flex-shrink:1; -ms-flex-negative:1; flex-shrink:1; border:0; text-align:right; padding:20rpx 2%; margin-left:40rpx;}
@@ -4200,14 +4200,14 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-form switch{margin-top:10rpx;}
 .grace-form .grace-items picker text{-webkit-box-pack:right;-webkit-justify-content:right;-ms-flex-pack:right;justify-content:right; line-height:80rpx; font-size:28rpx;}
 .grace-form .grace-items picker text:after{content:"\E601"; padding-left:10rpx; color:#888; font-family:"grace-iconfont" !important; font-size:30rpx;}
-.grace-form ._textarea{width:98%; height:100rpx; line-height:2em; background:none; border:0; padding:8rpx 2%; font-size:28rpx;}
+.grace-form textarea{width:98%; height:100rpx; line-height:2em; background:none; border:0; padding:8rpx 2%; font-size:28rpx;}
 .grace-label-x{width:100%; padding:12rpx 0; -webkit-flex-shrink:1; -ms-flex-negative:1; flex-shrink:1; margin-left:40rpx;}
-.grace-label-x ._label{margin:10rpx; font-size:28rpx;}
+.grace-label-x label{margin:10rpx; font-size:28rpx;}
 .grace-label-y{width:100%; padding:12rpx 0; -webkit-flex-shrink:1; -ms-flex-negative:1; flex-shrink:1; margin-left:40rpx;}
 .grace-form radio-group, .grace-form checkbox-group{width:100%; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-flex-wrap:wrap; -ms-flex-wrap:wrap; flex-wrap:wrap;}
-.grace-label-y ._label{margin:8px 0; font-size:28rpx; width:100%;}
+.grace-label-y label{margin:8px 0; font-size:28rpx; width:100%;}
 .grace-items-wbg{background:#FFF; border:0 !important; border-radius:8rpx; padding:3rpx 0 !important;}
-.grace-items-wbg ._input{text-align:left !important;}
+.grace-items-wbg input{text-align:left !important;}
 .grace-login-three{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap;}
 .grace-login-three view{width:44px; height:44px; line-height:44px; font-size:36px; color:#FFF; text-align:center; margin:8px;}
 /* 遮罩层 */
@@ -4247,7 +4247,7 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-search-in{background:#FFFFFF; border-radius:66rpx; overflow:hidden; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; width:92%; padding:1px 4%;}
 .grace-search-icon{width:34px; height:34px; line-height:34px; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; font-family:"grace-iconfont" !important; font-size:30rpx; font-style:normal; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0; text-align:center;}
 .grace-search-icon:before{content:"\E604";}
-.grace-search ._input{width:100%; background:#900; padding:0 5px; border:0; background:#FFF; height:34px; line-height:34px; margin:0; color:#000;}
+.grace-search input{width:100%; background:#900; padding:0 5px; border:0; background:#FFF; height:34px; line-height:34px; margin:0; color:#000;}
 .grace-search-clear:before{content:"\E78A" !important; color:#CCCCCC !important;}
 .grace-search-remove:before{font-family:"grace-iconfont"; font-style:normal;content:"\E684" !important; color:#CCCCCC !important; font-size:40rpx; line-height:40rpx;}
 /* 标签 */
@@ -4261,7 +4261,7 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-add-file .garce-items{width:213rpx; height:213rpx; margin:10rpx; overflow:hidden; position:relative;}
 .grace-add-file .garce-items image{width:100%;}
 .grace-add-file .garce-items-media{width:213rpx; height:213rpx; margin:10rpx; overflow:hidden;}
-.grace-add-file .garce-items-media ._video{width:213px; height:190rpx;}
+.grace-add-file .garce-items-media video{width:213px; height:190rpx;}
 .grace-add-file .grace-remove{height:40rpx; font-size:22rpx; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; line-height:60rpx; overflow:hidden;}
 .grace-add-file .garce-items .grace-close{font-family:"grace-iconfont" !important; width:46rpx; height:46rpx; position:absolute; z-index:1; right:10rpx; bottom:10rpx; font-size:46rpx; color:#FF0000; opacity:0.8}
 .grace-add-file .garce-items .grace-close:before{content:"\E602";}
@@ -4328,7 +4328,7 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-filter-buttons{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex; width:100%; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; position:absolute; z-index:11; left:0; bottom:0; height:90rpx; background:#FFF;}
 .grace-filter-buttons view{width:50%; height:100rpx; line-height:100rpx; text-align:center; position:relative;}
 .grace-filter-buttons view:last-child{background:#FF0000; color:#FFF;}
-.grace-filter-buttons view ._button{opacity:0; width:100%; position:absolute; z-index:9; left:0; top:0; height:90rpx;}
+.grace-filter-buttons view button{opacity:0; width:100%; position:absolute; z-index:9; left:0; top:0; height:90rpx;}
 /* 瀑布流 */
 .grace-waterfall{width:100%; display:-webkit-box; display:-webkit-flex; display:-ms-flexbox; display:flex; -webkit-flex-wrap:no-wrap; -ms-flex-wrap:no-wrap; flex-wrap:no-wrap;}
 .grace-waterfall .list{width:46%; margin:0 2%;}
@@ -4367,7 +4367,7 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-product-attr-list{padding-top:15px; border-bottom:1px solid #F1F1F3;}
 .grace-product-attr-list .title{font-weight:700;}
 .grace-product-attr-btn{width:94%; padding:5px 3%; position:fixed; z-index:10; bottom:0; left:0;}
-.grace-product-attr-btn ._button{height:40px; line-height:40px;}
+.grace-product-attr-btn button{height:40px; line-height:40px;}
 .grace-product-attr-close{padding:5px 0; line-height:25px; text-align:right;}
 .grace-product-attr-close text{font-size:24px; color:#666666;}
 /* 文章骨架结构 */
@@ -4395,9 +4395,9 @@ GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠
 .grace-popover-menu-x .itemCenter{width:68px; height:68px; line-height:68px; text-align:center; font-size:30px; color:#FFFFFF; border-radius:50%; margin:10px 10px; overflow:hidden; -webkit-box-shadow:1px -1px 2px #C1C1C1; box-shadow:1px -1px 2px #C1C1C1; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0;}
 .grace-popover-menu-x .itemCenter image{width:68px; height:68px;}
 /* 动画 */
-@-webkit-keyframes grace-animate-rotateY360{._form {-webkit-transform:rotateY(0deg);transform:rotateY(0deg);}
+@-webkit-keyframes grace-animate-rotateY360{form {-webkit-transform:rotateY(0deg);transform:rotateY(0deg);}
 to {-webkit-transform:rotateY(360deg);transform:rotateY(360deg);}}
-@keyframes grace-animate-rotateY360{._form {-webkit-transform:rotateY(0deg);transform:rotateY(0deg);}
+@keyframes grace-animate-rotateY360{form {-webkit-transform:rotateY(0deg);transform:rotateY(0deg);}
 to {-webkit-transform:rotateY(360deg);transform:rotateY(360deg);}}
 .grace-animate-rotateY360{-webkit-animation:500ms linear grace-animate-rotateY360;animation:500ms linear grace-animate-rotateY360;}
 /* 轮播组件 */

@@ -23,7 +23,7 @@
 .button-sp-area {
 	margin-top: 25%;
 }
-.button-sp-area ._button {
+.button-sp-area button {
 	width: auto;
 	margin: 12rpx;
 	background: -webkit-gradient(linear, left top, right top, from(#fc4243), to(#fc6666));

@@ -63,5 +63,6 @@
     "alwaysShowBeforeRender": true,
     "autoclose": false
   },
-  "appname": "TOP校园"
+  "appname": "TOP校园",
+  "compilerVersion": "1.8.0"
 }

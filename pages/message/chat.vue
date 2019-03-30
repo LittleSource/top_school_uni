@@ -91,9 +91,6 @@
 			//发送消息处理函数
 			sendMessage:function(msg){
 				this.sendMsg(msg);
-				uni.sendSocketMessage({
-					data: JSON.stringify(msg)
-				});
 				setTimeout(function() {
 					_self.graceIMScTOP = 99000 + Math.random();
 				}, 1000);

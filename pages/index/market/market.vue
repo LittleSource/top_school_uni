@@ -1,25 +1,25 @@
 <template>
 	<view style='height:100%;'>
-		<graceSpeaker icon="../../../static/market/trumpet.png" :msgs="speakerMsgs"></graceSpeaker>
+		<graceSpeaker icon="../../../static/market/trumpet.png" :msgs="notices"></graceSpeaker>
 		<view class="grace-cate" style='width:100%; height:calc(100% - 90px);'>
 			<scroll-view scroll-y class="grace-cate-left" :scroll-into-view="leftTo">
 				<view v-for="(item, index) in mainCate" :key="index" :class="['item', currentCateIndex == item.cateid ? 'current' : '']"
-				 :data-cateid="item.cateid" @tap='changCate' :id="'cate'+item.cateid">{{item.name}}</view>
+				 :data-cateid="item.cateid" @tap='changCate' :id="'cate'+item.cateid">{{item.title}}</view>
 			</scroll-view>
 			<scroll-view class="grace-cate-right" scroll-y :scroll-into-view="productListTo" @scroll="rscroll">
 				<block v-for="(cate, index) in mainCate" :key="index">
 					<view class="grace-title grace-nowrap grace-space-between" style="margin-top:15px;" :id="'productList'+cate.cateid">
-						<view class="grace-h5 grace-blod">{{cate.name}}</view>
+						<view class="grace-h5 grace-blod">{{cate.title}}</view>
 					</view>
 					<view class="grace-news-list">
-						<view class="grace-news-list-items" v-for="(product, productIndex) in allProducts['cate'+cate.cateid+'products']"
+						<view class="grace-news-list-items" v-for="(product, productIndex) in allProducts['cateproducts'+cate.cateid]"
 						 :key="productIndex">
 							<image :src="product.img" class="grace-news-list-img grace-list-imgs-l" mode="widthFix"></image>
 							<view class="grace-news-list-title">
-								<view class="grace-news-list-title-main">{{product.name}}</view>
+								<view class="grace-news-list-title-main">{{product.title}}</view>
 								<view class="price">￥{{product.price}}</view>
 								<view>
-									<view :data-productid='product.productId' class='grace-add-to-card' @tap='addtocard'>+</view>
+									<view :data-productid='product.id' class='grace-add-to-card' @tap='addtocard'>+</view>
 								</view>
 							</view>
 						</view>
@@ -51,83 +51,48 @@
 		data() {
 			return {
 				popmenuShowX: true,
-				goodsCount:0,
-				speakerMsgs: [{
-						title: "graceUI 更快、更好的前端UI",
-						url: "flex",
-						opentype: "navigate"
-					},
-					{
-						title: "hcoder.net - 精品 IT 课程中心",
-						url: "../index/index",
-						opentype: "switchTab"
-					},
-					{
-						title: "www.phpGrace.com - 极轻、极快的php开源框架",
-						url: "../index/gy",
-						opentype: "switchTab"
-					}
-				],
+				goodsCount: 0,
+				notices: [],
 				currentCateIndex: 1,
 				// 左侧滚动定位
 				leftTo: 'cate1',
 				// 产品列表滚动定位
 				productListTo: 'productList1',
 				//分类
-				mainCate: [{
-						cateid: 1,
-						name: '热门推荐'
-					},
-					{
-						cateid: 2,
-						name: '促销打折'
-					},
-					{
-						cateid: 3,
-						name: '国际名牌'
-					},
-					{
-						cateid: 4,
-						name: '大衣外套'
-					},
-					{
-						cateid: 5,
-						name: '汽车用品'
-					},
-					{
-						cateid: 6,
-						name: '儿童用品'
-					},
-					{
-						cateid: 7,
-						name: '文具用品'
-					},
-					{
-						cateid: 8,
-						name: '精品男装'
-					},
-					{
-						cateid: 9,
-						name: '精品女装'
-					},
-					{
-						cateid: 10,
-						name: '电脑办公'
-					},
-					{
-						cateid: 11,
-						name: '礼品鲜花'
-					}
-				],
+				mainCate: [],
 				// 产品列表对应分类
-				allProducts: productsData.allProducts
+				allProducts: productsData.allProducts,
+				marketId: 0
 			}
 		},
-		onLoad: function() {
+		onLoad: function(parameter) {
 			uni.getSystemInfo({
 				success: function(res) {
 					pageHeight = res.windowHeight;
 				},
+			});
+			
+			uni.setNavigationBarTitle({
+				title: parameter.market_name
+			});
+			this.notices = JSON.parse(parameter.notices);
+			this.marketId = parameter.market_id;
+			uni.request({
+				url: this.GLOBAL.serverSrc + 'market/product/select',
+				method: 'GET',
+				data: {
+					market_id: this.marketId
+				},
+				success: res => {
+					if (res.data.status === 200) {
+						this.allProducts = res.data.allProduct;
+
+						this.mainCate = res.data.mainCate;
+					}
+				},
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
+				}
 			});
 		},
 		methods: {
@@ -193,10 +158,11 @@
 	page {
 		height: 100%;
 	}
-	
-	.icons{
+
+	.icons {
 		float: left;
 	}
+
 	.grace-search-icon:before {
 		color: #E2231A;
 	}
