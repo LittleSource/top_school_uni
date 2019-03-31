@@ -29,8 +29,8 @@
 		</view>
 		<view class="grace-footer">
 			<view style="width:60%;">
-				<view class="icons grace-iconfont icon-shoppingcard"></view>
-				<view class="icons grace-iconfont icon-shoucang"></view>
+				<view class="icons iconfont icon-gouwuche"><text class="grace-badge grace-badge-red">8</text></view>
+				<view class="icons iconfont icon-lianxikefu"></view>
 				<view class="icons iconfont icon-jiahao"></view>
 			</view>
 			<view style="width:40%;">
@@ -43,7 +43,6 @@
 	import graceSpeaker from "../../../graceUI/components/graceSpeaker.vue";
 	var scrollTimer = null;
 	var pageHeight = 100;
-	var productsData = require('../../../data/products.js');
 	export default {
 		components: {
 			graceSpeaker
@@ -61,7 +60,7 @@
 				//分类
 				mainCate: [],
 				// 产品列表对应分类
-				allProducts: productsData.allProducts,
+				allProducts: {},
 				marketId: 0
 			}
 		},
@@ -71,7 +70,7 @@
 					pageHeight = res.windowHeight;
 				},
 			});
-			
+
 			uni.setNavigationBarTitle({
 				title: parameter.market_name
 			});
@@ -86,7 +85,6 @@
 				success: res => {
 					if (res.data.status === 200) {
 						this.allProducts = res.data.allProduct;
-
 						this.mainCate = res.data.mainCate;
 					}
 				},
@@ -187,5 +185,10 @@
 		float: right;
 		text-align: center;
 		border-radius: 26px;
+	}
+
+	.grace-badge {
+		margin: 0 0 100% -10upx;
+		position: fixed;
 	}
 </style>

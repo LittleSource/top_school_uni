@@ -207,7 +207,13 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "消息"
+				"navigationBarTitleText": "消息",
+				"app-plus":{
+					"pullToRefresh": {
+						"style":"default",
+						"support": true
+					}
+				}
 			}
 		},
 		{

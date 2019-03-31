@@ -9,7 +9,7 @@
 				<image style="margin-top: 13%;" src='../../../static/market/sort1.png' mode='widthFix' v-if="saleVolume == 1"></image>
 				<image style="margin-top: 13%;" src='../../../static/market/sort2.png' mode='widthFix' v-if="saleVolume == 2"></image>
 			</view>
-			<view class="items" @tap='changeSchool'>切换<text class="grace-iconfont icon-shaixuan"></text></view>
+			<view class="items" @tap='changeSchool'>切换<text class="iconfont icon-qiehuanzuzhi"></text></view>
 			<!-- 第一个选项 -->
 			<view class='grace-filter-options' v-if="showingIndex == 1">
 				<view v-for="(item, index) in orderList" :key="index" :class="[index ==  orderIndex ? 'option current' : 'option']"
@@ -83,7 +83,7 @@
 					nextPages: 2,
 					totalPages: 2,
 					type: 0,
-					text: ['加载更多', 'loading ......', '已加载全部']
+					text: ['加载更多', 'loading ......', '已加载全部','此学校暂无商家开通']
 				}
 			}
 		},
@@ -105,7 +105,8 @@
 					}).exec();
 				}
 			});
-			this.getList();
+			this.marketList = uni.getStorageSync('marketList'); //获取本地缓存的数据
+			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
 			this.getList();
@@ -157,7 +158,7 @@
 		methods: {
 			changeSchool: function() {
 				uni.navigateTo({
-					url: '../../common/checkSchool'
+					url: '../../common/checkSchool?market=true'
 				});
 			},
 			changeOrder: function(e) {
@@ -211,6 +212,14 @@
 						if (res.data.status === 200) {
 							this.marketList = res.data.marketList;
 							this.loading.totalPages = res.data.totalPages;
+							if(this.marketList.length === 0){
+								this.loading.type = 3;
+							}
+							//将请求的数据缓存到本地
+							uni.setStorage({
+								key: 'marketList',
+								data: this.marketList
+							});
 						} else {
 							uni.showToast({
 								title: res.data.msg,

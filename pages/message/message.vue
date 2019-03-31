@@ -39,6 +39,11 @@
 		onLoad: function() {
 			_self = this;
 		},
+		onPullDownRefresh:function (){
+			setTimeout(function() {
+				uni.stopPullDownRefresh();
+			}, 1000);
+		},
 		methods: {
 			...mapMutations(['changeMsg','delMsg']),
 			goChat: function(to_id,index) {

@@ -3,7 +3,7 @@
 		<view class="header">
 			<view class="status-bar"></view><!-- 状态栏占位 -->
 			<view class="info grace-rows">
-				<view class="grace-iconfont icon-position grace-ellipsis" @click="skip('../common/checkSchool')">
+				<view class="grace-iconfont icon-position grace-ellipsis" @click="skip('../common/checkSchool?index=true')">
 					<text class="is-bold" style="margin-left: 5upx;">{{selectSchool.title}}</text>
 				</view>
 				<view class="grace-rows">

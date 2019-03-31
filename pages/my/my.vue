@@ -47,6 +47,13 @@
 			</navigator>
 			<navigator class="items" url="./setting/setting">
 				<view class="icons">
+					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
+				</view>
+				<view class="title">我的店铺</view>
+				<view class="arrow-right"></view>
+			</navigator>
+			<navigator class="items" url="./setting/setting">
+				<view class="icons">
 					<image src="../../static/coloricon/setting.png" mode="widthFix"></image>
 				</view>
 				<view class="title">设置</view>

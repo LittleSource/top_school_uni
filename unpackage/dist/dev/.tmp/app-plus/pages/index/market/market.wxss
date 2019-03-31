@@ -40,4 +40,8 @@ page {
 	text-align: center;
 	border-radius: 26px;
 }
+.grace-badge {
+	margin: 0 0 100% -10rpx;
+	position: fixed;
+}
 

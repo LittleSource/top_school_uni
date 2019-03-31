@@ -2,5 +2,9 @@
   "usingComponents": {},
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#fc4243",
-  "navigationBarTitleText": "消息"
+  "navigationBarTitleText": "消息",
+  "pullToRefresh": {
+    "style": "default",
+    "support": true
+  }
 }

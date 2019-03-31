@@ -27,12 +27,14 @@
 		},
 		data() {
 			return {
+				parameter:{},
 				schoolList: [],
 				nowSchool: {}
 			}
 		},
 		computed: mapState(['selectSchool']),
-		onLoad() {
+		onLoad(parameter) {
+			this.parameter = parameter;
 			this.nowSchool = this.selectSchool;
 		},
 		onNavigationBarSearchInputChanged(e) {
@@ -82,7 +84,18 @@
 			},
 			confirmButton() {
 				this.checkSchool(this.nowSchool);
-				uni.navigateBack();
+				if(this.parameter.market){
+					uni.redirectTo({
+						url: '../index/market/index'
+					});
+				}else if(this.parameter.index){
+					uni.switchTab({
+						url: '../index/index'
+					});
+				}else{
+					uni.navigateBack();
+				}
+				
 			}
 		}
 	}
