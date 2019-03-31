@@ -226,6 +226,14 @@
 			}
 		},
 		{
+			"path": "pages/my/market/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "我的店铺"
+			}
+		},
+		{
 			"path": "pages/my/setting/setting",
 			"style": {
 				"navigationBarTextStyle": "white",

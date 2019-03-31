@@ -1395,9 +1395,12 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
 __WXML_GLOBAL__.ops_cached.$gwx_33=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2763a7ef'])
+Z([3,'_view 2763a7ef'])
+Z([3,'height:100%;'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2763a7ef-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'../../../static/market/trumpet.png'])
 Z([3,'02770485'])
+Z([[2,'>'],[[6],[[7],[3,'shoppingCart']],[3,'length']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
 }
 function gz$gwx_34(){
@@ -1473,7 +1476,7 @@ function gz$gwx_39(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_39)return __WXML_GLOBAL__.ops_cached.$gwx_39
 __WXML_GLOBAL__.ops_cached.$gwx_39=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6819fcac'])
+Z([3,'1cad943f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_39);return __WXML_GLOBAL__.ops_cached.$gwx_39
 }
 function gz$gwx_40(){
@@ -1481,14 +1484,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_40)return __WXML_GLOBAL__.ops_cached.$gwx_40
 __WXML_GLOBAL__.ops_cached.$gwx_40=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6819fcac'])
+Z([3,'1cad943f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
 }
 function gz$gwx_41(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
 __WXML_GLOBAL__.ops_cached.$gwx_41=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c9670ade'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
 }
 function gz$gwx_42(){
@@ -1496,14 +1499,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
 __WXML_GLOBAL__.ops_cached.$gwx_42=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c9670ade'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
 }
 function gz$gwx_43(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
 __WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4c98c0cb'])
+Z([3,'c9670ade'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 function gz$gwx_44(){
@@ -1511,12 +1514,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
 __WXML_GLOBAL__.ops_cached.$gwx_44=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4c98c0cb'])
+Z([3,'c9670ade'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
 }
 function gz$gwx_45(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
 __WXML_GLOBAL__.ops_cached.$gwx_45=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+}
+function gz$gwx_46(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
+__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
+}
+function gz$gwx_47(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
+__WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2d4a1539'])
 Z([3,'_view 2d4a1539 s-page-wrapper'])
@@ -1527,21 +1545,6 @@ Z([[7],[3,'$k']])
 Z([1,'2d4a1539-3'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
-}
-function gz$gwx_46(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
-__WXML_GLOBAL__.ops_cached.$gwx_46=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2d4a1539'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
-}
-function gz$gwx_47(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
-__WXML_GLOBAL__.ops_cached.$gwx_47=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'685fe0c1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
 function gz$gwx_48(){
@@ -1549,14 +1552,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
 __WXML_GLOBAL__.ops_cached.$gwx_48=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'685fe0c1'])
+Z([3,'2d4a1539'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
 }
 function gz$gwx_49(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
 __WXML_GLOBAL__.ops_cached.$gwx_49=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'59b2495c'])
+Z([3,'685fe0c1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
 }
 function gz$gwx_50(){
@@ -1564,14 +1567,29 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
 __WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'59b2495c'])
+Z([3,'685fe0c1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
+}
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
+}
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','./components/dialog.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','/graceUI/components/graceSpeaker.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','./components/dialog.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','/graceUI/components/graceSpeaker.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
 var m0=function(e,s,r,gg){
 var z=gz$gwx_1()
 return r
@@ -2701,20 +2719,31 @@ gg.f=$gdc(f_["./pages/index/market/market.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[45]);return}
 p_[b]=true
 try{
-var oB=_v()
-_(r,oB)
+cs.push("./pages/index/market/market.vue.wxml:view:1:85")
+var oB=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
+var oD=_v()
+_(oB,oD)
 cs.push("./pages/index/market/market.vue.wxml:template:1:135")
-var xC=_oz(z,3,e,s,gg)
-var oD=_gd(x[45],xC,e_,d_)
-if(oD){
-var fE=_1z(z,1,e,s,gg) || {}
+var fE=_oz(z,5,e,s,gg)
+var cF=_gd(x[45],fE,e_,d_)
+if(cF){
+var hG=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[45],1,248)
+else _w(fE,x[45],1,248)
 cs.pop()
+var xC=_v()
+_(oB,xC)
+if(_oz(z,6,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/index/market/market.vue.wxml:text:1:2282")
+cs.pop()
+}
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -2904,11 +2933,11 @@ return r
 }
 e_[x[55]]={f:m37,j:[],i:[],ti:[x[56]],ic:[]}
 d_[x[57]]={}
-d_[x[57]]["6819fcac"]=function(e,s,r,gg){
+d_[x[57]]["1cad943f"]=function(e,s,r,gg){
 var z=gz$gwx_39()
-var b=x[57]+':6819fcac'
+var b=x[57]+':1cad943f'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[57]);return}
 p_[b]=true
 try{
@@ -2928,10 +2957,10 @@ d_[x[58]]={}
 var m39=function(e,s,r,gg){
 var z=gz$gwx_40()
 var fID=e_[x[58]].i
-_ai(fID,x[59],e_,x[58],1,1)
+_ai(fID,x[37],e_,x[58],1,1)
 var cJD=_v()
 _(r,cJD)
-cs.push("./pages/my/my.wxml:template:2:6")
+cs.push("./pages/my/market/index.wxml:template:2:6")
 var hKD=_oz(z,1,e,s,gg)
 var oLD=_gd(x[58],hKD,e_,d_)
 if(oLD){
@@ -2946,14 +2975,14 @@ cs.pop()
 fID.pop()
 return r
 }
-e_[x[58]]={f:m39,j:[],i:[],ti:[x[59]],ic:[]}
-d_[x[60]]={}
-d_[x[60]]["c9670ade"]=function(e,s,r,gg){
+e_[x[58]]={f:m39,j:[],i:[],ti:[x[37]],ic:[]}
+d_[x[59]]={}
+d_[x[59]]["6819fcac"]=function(e,s,r,gg){
 var z=gz$gwx_41()
-var b=x[60]+':c9670ade'
+var b=x[59]+':6819fcac'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[60]);return}
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[59]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2967,17 +2996,17 @@ var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
 return r
 }
-e_[x[60]]={f:m40,j:[],i:[],ti:[],ic:[]}
-d_[x[61]]={}
+e_[x[59]]={f:m40,j:[],i:[],ti:[],ic:[]}
+d_[x[60]]={}
 var m41=function(e,s,r,gg){
 var z=gz$gwx_42()
-var aPD=e_[x[61]].i
-_ai(aPD,x[62],e_,x[61],1,1)
+var aPD=e_[x[60]].i
+_ai(aPD,x[61],e_,x[60],1,1)
 var tQD=_v()
 _(r,tQD)
-cs.push("./pages/my/setting/setting.wxml:template:2:6")
+cs.push("./pages/my/my.wxml:template:2:6")
 var eRD=_oz(z,1,e,s,gg)
-var bSD=_gd(x[61],eRD,e_,d_)
+var bSD=_gd(x[60],eRD,e_,d_)
 if(bSD){
 var oTD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2985,19 +3014,19 @@ tQD.wxXCkey=3
 bSD(oTD,oTD,tQD,gg)
 gg.f=cur_globalf
 }
-else _w(eRD,x[61],2,18)
+else _w(eRD,x[60],2,18)
 cs.pop()
 aPD.pop()
 return r
 }
-e_[x[61]]={f:m41,j:[],i:[],ti:[x[62]],ic:[]}
-d_[x[63]]={}
-d_[x[63]]["4c98c0cb"]=function(e,s,r,gg){
+e_[x[60]]={f:m41,j:[],i:[],ti:[x[61]],ic:[]}
+d_[x[62]]={}
+d_[x[62]]["c9670ade"]=function(e,s,r,gg){
 var z=gz$gwx_43()
-var b=x[63]+':4c98c0cb'
+var b=x[62]+':c9670ade'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[63]);return}
+gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[62]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3011,17 +3040,17 @@ var m42=function(e,s,r,gg){
 var z=gz$gwx_43()
 return r
 }
-e_[x[63]]={f:m42,j:[],i:[],ti:[],ic:[]}
-d_[x[64]]={}
+e_[x[62]]={f:m42,j:[],i:[],ti:[],ic:[]}
+d_[x[63]]={}
 var m43=function(e,s,r,gg){
 var z=gz$gwx_44()
-var fWD=e_[x[64]].i
-_ai(fWD,x[65],e_,x[64],1,1)
+var fWD=e_[x[63]].i
+_ai(fWD,x[64],e_,x[63],1,1)
 var cXD=_v()
 _(r,cXD)
-cs.push("./pages/register/reg.wxml:template:2:6")
+cs.push("./pages/my/setting/setting.wxml:template:2:6")
 var hYD=_oz(z,1,e,s,gg)
-var oZD=_gd(x[64],hYD,e_,d_)
+var oZD=_gd(x[63],hYD,e_,d_)
 if(oZD){
 var c1D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3029,19 +3058,63 @@ cXD.wxXCkey=3
 oZD(c1D,c1D,cXD,gg)
 gg.f=cur_globalf
 }
-else _w(hYD,x[64],2,18)
+else _w(hYD,x[63],2,18)
 cs.pop()
 fWD.pop()
 return r
 }
-e_[x[64]]={f:m43,j:[],i:[],ti:[x[65]],ic:[]}
-d_[x[66]]={}
-d_[x[66]]["2d4a1539"]=function(e,s,r,gg){
+e_[x[63]]={f:m43,j:[],i:[],ti:[x[64]],ic:[]}
+d_[x[65]]={}
+d_[x[65]]["4c98c0cb"]=function(e,s,r,gg){
 var z=gz$gwx_45()
-var b=x[66]+':2d4a1539'
+var b=x[65]+':4c98c0cb'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[65]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m44=function(e,s,r,gg){
+var z=gz$gwx_45()
+return r
+}
+e_[x[65]]={f:m44,j:[],i:[],ti:[],ic:[]}
+d_[x[66]]={}
+var m45=function(e,s,r,gg){
+var z=gz$gwx_46()
+var a4D=e_[x[66]].i
+_ai(a4D,x[67],e_,x[66],1,1)
+var t5D=_v()
+_(r,t5D)
+cs.push("./pages/register/reg.wxml:template:2:6")
+var e6D=_oz(z,1,e,s,gg)
+var b7D=_gd(x[66],e6D,e_,d_)
+if(b7D){
+var o8D=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+t5D.wxXCkey=3
+b7D(o8D,o8D,t5D,gg)
+gg.f=cur_globalf
+}
+else _w(e6D,x[66],2,18)
+cs.pop()
+a4D.pop()
+return r
+}
+e_[x[66]]={f:m45,j:[],i:[],ti:[x[67]],ic:[]}
+d_[x[68]]={}
+d_[x[68]]["2d4a1539"]=function(e,s,r,gg){
+var z=gz$gwx_47()
+var b=x[68]+':2d4a1539'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[66]);return}
+if(p_[b]){_wl(b,x[68]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
@@ -3057,7 +3130,7 @@ var oD=_v()
 _(oB,oD)
 cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
 var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[66],fE,e_,d_)
+var cF=_gd(x[68],fE,e_,d_)
 if(cF){
 var hG=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3065,7 +3138,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[66],1,2169)
+else _w(fE,x[68],1,2169)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -3077,68 +3150,24 @@ throw err
 p_[b]=false
 return r
 }
-var m44=function(e,s,r,gg){
-var z=gz$gwx_45()
-var l3D=e_[x[66]].i
-_ai(l3D,x[11],e_,x[66],1,1)
-l3D.pop()
-return r
-}
-e_[x[66]]={f:m44,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[67]]={}
-var m45=function(e,s,r,gg){
-var z=gz$gwx_46()
-var t5D=e_[x[67]].i
-_ai(t5D,x[68],e_,x[67],1,1)
-var e6D=_v()
-_(r,e6D)
-cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var b7D=_oz(z,1,e,s,gg)
-var o8D=_gd(x[67],b7D,e_,d_)
-if(o8D){
-var x9D=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-e6D.wxXCkey=3
-o8D(x9D,x9D,e6D,gg)
-gg.f=cur_globalf
-}
-else _w(b7D,x[67],2,18)
-cs.pop()
-t5D.pop()
-return r
-}
-e_[x[67]]={f:m45,j:[],i:[],ti:[x[68]],ic:[]}
-d_[x[69]]={}
-d_[x[69]]["685fe0c1"]=function(e,s,r,gg){
-var z=gz$gwx_47()
-var b=x[69]+':685fe0c1'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[69]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m46=function(e,s,r,gg){
 var z=gz$gwx_47()
+var o0D=e_[x[68]].i
+_ai(o0D,x[11],e_,x[68],1,1)
+o0D.pop()
 return r
 }
-e_[x[69]]={f:m46,j:[],i:[],ti:[],ic:[]}
-d_[x[70]]={}
+e_[x[68]]={f:m46,j:[],i:[],ti:[x[11]],ic:[]}
+d_[x[69]]={}
 var m47=function(e,s,r,gg){
 var z=gz$gwx_48()
-var cBE=e_[x[70]].i
-_ai(cBE,x[71],e_,x[70],1,1)
+var cBE=e_[x[69]].i
+_ai(cBE,x[70],e_,x[69],1,1)
 var hCE=_v()
 _(r,hCE)
-cs.push("./pages/register/selectSex.wxml:template:2:6")
+cs.push("./pages/register/selectSchool.wxml:template:2:6")
 var oDE=_oz(z,1,e,s,gg)
-var cEE=_gd(x[70],oDE,e_,d_)
+var cEE=_gd(x[69],oDE,e_,d_)
 if(cEE){
 var oFE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3146,19 +3175,19 @@ hCE.wxXCkey=3
 cEE(oFE,oFE,hCE,gg)
 gg.f=cur_globalf
 }
-else _w(oDE,x[70],2,18)
+else _w(oDE,x[69],2,18)
 cs.pop()
 cBE.pop()
 return r
 }
-e_[x[70]]={f:m47,j:[],i:[],ti:[x[71]],ic:[]}
-d_[x[72]]={}
-d_[x[72]]["59b2495c"]=function(e,s,r,gg){
+e_[x[69]]={f:m47,j:[],i:[],ti:[x[70]],ic:[]}
+d_[x[71]]={}
+d_[x[71]]["685fe0c1"]=function(e,s,r,gg){
 var z=gz$gwx_49()
-var b=x[72]+':59b2495c'
+var b=x[71]+':685fe0c1'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[72]);return}
+gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[71]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3172,17 +3201,17 @@ var m48=function(e,s,r,gg){
 var z=gz$gwx_49()
 return r
 }
-e_[x[72]]={f:m48,j:[],i:[],ti:[],ic:[]}
-d_[x[73]]={}
+e_[x[71]]={f:m48,j:[],i:[],ti:[],ic:[]}
+d_[x[72]]={}
 var m49=function(e,s,r,gg){
 var z=gz$gwx_50()
-var tIE=e_[x[73]].i
-_ai(tIE,x[74],e_,x[73],1,1)
+var tIE=e_[x[72]].i
+_ai(tIE,x[73],e_,x[72],1,1)
 var eJE=_v()
 _(r,eJE)
-cs.push("./pages/register/setAvatar.wxml:template:2:6")
+cs.push("./pages/register/selectSex.wxml:template:2:6")
 var bKE=_oz(z,1,e,s,gg)
-var oLE=_gd(x[73],bKE,e_,d_)
+var oLE=_gd(x[72],bKE,e_,d_)
 if(oLE){
 var xME=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3190,12 +3219,56 @@ eJE.wxXCkey=3
 oLE(xME,xME,eJE,gg)
 gg.f=cur_globalf
 }
-else _w(bKE,x[73],2,18)
+else _w(bKE,x[72],2,18)
 cs.pop()
 tIE.pop()
 return r
 }
-e_[x[73]]={f:m49,j:[],i:[],ti:[x[74]],ic:[]}
+e_[x[72]]={f:m49,j:[],i:[],ti:[x[73]],ic:[]}
+d_[x[74]]={}
+d_[x[74]]["59b2495c"]=function(e,s,r,gg){
+var z=gz$gwx_51()
+var b=x[74]+':59b2495c'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[74]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+return r
+}
+e_[x[74]]={f:m50,j:[],i:[],ti:[],ic:[]}
+d_[x[75]]={}
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
+var cPE=e_[x[75]].i
+_ai(cPE,x[76],e_,x[75],1,1)
+var hQE=_v()
+_(r,hQE)
+cs.push("./pages/register/setAvatar.wxml:template:2:6")
+var oRE=_oz(z,1,e,s,gg)
+var cSE=_gd(x[75],oRE,e_,d_)
+if(cSE){
+var oTE=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+hQE.wxXCkey=3
+cSE(oTE,oTE,hQE,gg)
+gg.f=cur_globalf
+}
+else _w(oRE,x[75],2,18)
+cs.pop()
+cPE.pop()
+return r
+}
+e_[x[75]]={f:m51,j:[],i:[],ti:[x[76]],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -3216,7 +3289,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/setting/setting","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.8.1"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/market/index","pages/my/setting/setting","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.8.1"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/common/checkSchool.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","titleNView":{"searchInput":{"autoFocus":true,"disabled":false,"align":"left","backgroundColor":"#FFFFFF","borderRadius":"15px","placeholder":"输入学校名称搜索"}}};
@@ -3258,8 +3331,11 @@ __wxAppCode__['pages/index/market/market.wxml']=$gwx('./pages/index/market/marke
 __wxAppCode__['pages/message/chat.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息"};
 __wxAppCode__['pages/message/chat.wxml']=$gwx('./pages/message/chat.wxml');
 
-__wxAppCode__['pages/message/message.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息"};
+__wxAppCode__['pages/message/message.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息","pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml');
+
+__wxAppCode__['pages/my/market/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"我的店铺"};
+__wxAppCode__['pages/my/market/index.wxml']=$gwx('./pages/my/market/index.wxml');
 
 __wxAppCode__['pages/my/my.json']={"usingComponents":{},"navigationStyle":"custom","titleNView":false};
 __wxAppCode__['pages/my/my.wxml']=$gwx('./pages/my/my.wxml');
@@ -3304,7 +3380,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://123.151.4.124:8282';\nvar serverSrc = 'http://123.151.4.124/';\nvar token = '';var _default =\n{\n  token: token, //用户token身份\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '未知的网络错误, 请确保设备处在联网状态',\n        icon: \"none\" });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误，错误码为：' + e.statusCode,\n        icon: \"none\" });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://221.238.110.160:8282';\nvar serverSrc = 'http://221.238.110.160/';var _default =\n{\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '未知的网络错误, 请确保设备处在联网状态',\n        icon: \"none\" });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误，错误码为：' + e.statusCode,\n        icon: \"none\" });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 
@@ -3423,7 +3499,7 @@ eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Des
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false,\n      id: 0,\n      token: '',\n      phone: '',\n      avatar: '',\n      password: '',\n      userName: '',\n      sex: 0 },\n\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: '../../../static/logo.png',\n      name: \"to源哥\",\n      msg: '你是肥蛇吗？',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: '../../../static/logo.png',\n      name: \"to蛇皮\",\n      msg: '源哥最帅',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: '../../../static/logo.png',\n      name: \"狸猫\",\n      msg: '怎么说呢',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      69: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] },\n\n\n    shoppingCart: [] },\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.token = payload.token;\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({ index: 2 });\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    },\n    addGoods: function addGoods(state, goods) {//向购物车添加商品\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?7117");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false, //是否登录\n      id: 0,\n      token: '', //token\n      phone: '', //头像\n      avatar: '', //头像\n      password: '', //密码\n      userName: '', //昵称\n      sex: 0, //性别\n      merchant: 0 //是否商家\n    },\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: '../../../static/logo.png',\n      name: \"to源哥\",\n      msg: '你是肥蛇吗？',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: '../../../static/logo.png',\n      name: \"to蛇皮\",\n      msg: '源哥最帅',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: '../../../static/logo.png',\n      name: \"狸猫\",\n      msg: '怎么说呢',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      69: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] },\n\n\n    shoppingCart: [] },\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.token = payload.token;\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n      state.user.merchant = payload.user.merchant;\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({ index: 2 });\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    },\n    addGoods: function addGoods(state, goods) {//向购物车添加商品\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?7117");
 
 /***/ })
 
@@ -4530,7 +4606,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      goodsCount: 0,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0 };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    this.notices = JSON.parse(parameter.notices);\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          _this.mainCate = res.data.mainCate;\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++;\n      var productid = e.currentTarget.dataset.productid;\n      uni.showToast({\n        title: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',\n        icon: \"none\" });\n\n    },\n    // 搜索\n    searchNow: function searchNow(e) {\n      var k = e.detail.value;\n      uni.showToast({\n        title: '关键字 : ' + k + ', 请根据项目需求自行完善后续代码',\n        icon: \"none\" });\n\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?28b4");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\n\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      goodsCount: 0,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0 };\n\n  },\n  computed: (0, _vuex.mapState)(['shoppingCart']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    this.notices = JSON.parse(parameter.notices);\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          console.log(JSON.stringify(_this.allProducts));\n          _this.mainCate = res.data.mainCate;\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++;\n      var productid = e.currentTarget.dataset.productid;\n      console.log(JSON.stringify(e));\n      var product = this.allProducts.find(function (x) {\n        return x.expressId == productid;\n      });\n      // \t\t\t\tuni.showToast({\n      // \t\t\t\t\ttitle: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',\n      // \t\t\t\t\ticon: \"none\"\n      // \t\t\t\t})\n    },\n    // 搜索\n    searchNow: function searchNow(e) {\n      var k = e.detail.value;\n      uni.showToast({\n        title: '关键字 : ' + k + ', 请根据项目需求自行完善后续代码',\n        icon: \"none\" });\n\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?28b4");
 
 /***/ }),
 
@@ -4576,7 +4652,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-2\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-productid\": product.id,\n                                    eventid:\n                                      \"2763a7ef-1-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _vm._m(0),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [_c(\"button\", { attrs: { type: \"warn\" } }, [_vm._v(\"立即结算\")])],\n          1\n        )\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticStyle: { width: \"60%\" } }, [\n      _c(\"view\", { staticClass: \"icons iconfont icon-gouwuche\" }, [\n        _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n          _vm._v(\"8\")\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n      _c(\"view\", { staticClass: \"icons iconfont icon-jiahao\" })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-2\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-productid\": product.id,\n                                    eventid:\n                                      \"2763a7ef-1-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticStyle: { width: \"60%\" } }, [\n          _c(\"view\", { staticClass: \"icons iconfont icon-gouwuche\" }, [\n            _vm.shoppingCart.length > 0\n              ? _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n                  _vm._v(_vm._s(_vm.shoppingCart.length))\n                ])\n              : _vm._e()\n          ]),\n          _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n          _c(\"view\", { staticClass: \"icons iconfont icon-jiahao\" })\n        ]),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [_c(\"button\", { attrs: { type: \"warn\" } }, [_vm._v(\"立即结算\")])],\n          1\n        )\n      ])\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
 
 /***/ }),
 
@@ -5826,7 +5902,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"header\", {\n      staticStyle: { \"background-image\": \"url('static/userbg.png')\" }\n    }),\n    _c(\n      \"view\",\n      { staticClass: \"info\" },\n      [\n        _c(\"img\", { attrs: { src: \"static/food1.png\" } }),\n        _c(\n          \"p\",\n          { staticClass: \"info_name\" },\n          [\n            _c(\"span\", [_vm._v(\"源哥设计\")]),\n            _c(\"i\", { staticClass: \"iconfont icon-nan\" })\n          ],\n          1\n        ),\n        _c(\"p\", { staticClass: \"info_text\" }, [_vm._v(\"小小帅哥一枚！\")]),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"16\")]), _c(\"p\", [_vm._v(\"关注\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"32\")]), _c(\"p\", [_vm._v(\"粉丝\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"3\")]), _c(\"p\", [_vm._v(\"动态\")])],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"iconCon\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-xiezuo icon_comment\" }),\n          _c(\"p\", [_vm._v(\"文章\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-tupian icon_comment\" }),\n          _c(\"p\", [_vm._v(\"图片\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-yinyue icon_comment\" }),\n          _c(\"p\", [_vm._v(\"音乐\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-shipin icon_comment\" }),\n          _c(\"p\", [_vm._v(\"视频\")])\n        ],\n        1\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"grace-list grace-common-mt\" },\n      [\n        _vm._l(_vm.lists, function(item, index) {\n          return _c(\"navigator\", { key: index, staticClass: \"items\" }, [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.staticUrl + item.img, mode: \"widthFix\" }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [\n              _vm._v(_vm._s(item.title)),\n              _c(\"text\", [_vm._v(_vm._s(item.desc))])\n            ]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ])\n        }),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./setting/setting\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"我的店铺\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./setting/setting\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/setting.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"设置\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        )\n      ],\n      2\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/my.vue?vue&type=template&id=9c88d03a&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"header\", {\n      staticStyle: { \"background-image\": \"url('static/userbg.png')\" }\n    }),\n    _c(\n      \"view\",\n      { staticClass: \"info\" },\n      [\n        _c(\"img\", { attrs: { src: \"static/food1.png\" } }),\n        _c(\n          \"p\",\n          { staticClass: \"info_name\" },\n          [\n            _c(\"span\", [_vm._v(\"源哥设计\")]),\n            _c(\"i\", { staticClass: \"iconfont icon-nan\" })\n          ],\n          1\n        ),\n        _c(\"p\", { staticClass: \"info_text\" }, [_vm._v(\"小小帅哥一枚！\")]),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"16\")]), _c(\"p\", [_vm._v(\"关注\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"32\")]), _c(\"p\", [_vm._v(\"粉丝\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"3\")]), _c(\"p\", [_vm._v(\"动态\")])],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"iconCon\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-xiezuo icon_comment\" }),\n          _c(\"p\", [_vm._v(\"文章\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-tupian icon_comment\" }),\n          _c(\"p\", [_vm._v(\"图片\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-yinyue icon_comment\" }),\n          _c(\"p\", [_vm._v(\"音乐\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"iconfont icon-shipin icon_comment\" }),\n          _c(\"p\", [_vm._v(\"视频\")])\n        ],\n        1\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"grace-list grace-common-mt\" },\n      [\n        _vm._l(_vm.lists, function(item, index) {\n          return _c(\"navigator\", { key: index, staticClass: \"items\" }, [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.staticUrl + item.img, mode: \"widthFix\" }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [\n              _vm._v(_vm._s(item.title)),\n              _c(\"text\", [_vm._v(_vm._s(item.desc))])\n            ]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ])\n        }),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./market/index\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"我的店铺\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./setting/setting\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/setting.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"设置\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        )\n      ],\n      2\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/my.vue?vue&type=template&id=9c88d03a&");
 
 /***/ }),
 
@@ -5941,6 +6017,86 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmy\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/my/my.js');
+__wxRoute = 'pages/my/market/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/index.js';
+
+define('pages/my/market/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/my/market/index"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\index.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n\n  },\n  methods: {} };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/my/market/index.vue?vue&type=script&lang=js&?629c");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\index.vue?vue&type=template&id=2a80b336&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _vm._m(0)\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"s-page-wrapper\" }, [\n      _c(\"view\", { staticClass: \"s-page\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass:\n              \"is-100vh is-flex is-column is-justify-center is-align-center \"\n          },\n          [\n            _c(\"image\", {\n              staticStyle: { width: \"50%\", \"margin-top\": \"-110px\" },\n              attrs: { src: \"../../../static/error/no.png\", mode: \"widthFix\" }\n            }),\n            _c(\n              \"view\",\n              { staticClass: \"has-title-color is-size-16 has-mgt-30\" },\n              [_vm._v(\"亲，没有数据\")]\n            ),\n            _c(\n              \"view\",\n              { staticClass: \"has-desc-color is-size-14 has-mgt-10\" },\n              [_vm._v(\"程序员删库跑路了\")]\n            )\n          ]\n        )\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2Findex\"}":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fmy%2Fmarket%2Findex"} ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _index = _interopRequireDefault(__webpack_require__(/*! ./pages/my/market/index.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\index.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_index.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fmy%252Fmarket%252Findex%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\index.vue":
+/*!******************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue ***!
+  \******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.vue?vue&type=template&id=2a80b336& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\index.vue?vue&type=template&id=2a80b336&\");\n/* harmony import */ var _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./index.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\index.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\index.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\index.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/my/market/index.vue?vue&type=script&lang=js&?f219");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\index.vue?vue&type=template&id=2a80b336&":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336& ***!
+  \*************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./index.vue?vue&type=template&id=2a80b336& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\index.vue?vue&type=template&id=2a80b336&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_template_id_2a80b336___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2Findex\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/my/market/index.js');
 __wxRoute = 'pages/my/setting/setting';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/setting/setting.js';
 
 define('pages/my/setting/setting.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){

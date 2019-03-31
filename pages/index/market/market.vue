@@ -29,7 +29,7 @@
 		</view>
 		<view class="grace-footer">
 			<view style="width:60%;">
-				<view class="icons iconfont icon-gouwuche"><text class="grace-badge grace-badge-red">8</text></view>
+				<view class="icons iconfont icon-gouwuche"><text v-if="shoppingCart.length > 0" class="grace-badge grace-badge-red">{{shoppingCart.length}}</text></view>
 				<view class="icons iconfont icon-lianxikefu"></view>
 				<view class="icons iconfont icon-jiahao"></view>
 			</view>
@@ -40,6 +40,10 @@
 	</view>
 </template>
 <script>
+	import {
+		mapState,
+		mapMutations
+	} from 'vuex'
 	import graceSpeaker from "../../../graceUI/components/graceSpeaker.vue";
 	var scrollTimer = null;
 	var pageHeight = 100;
@@ -64,6 +68,7 @@
 				marketId: 0
 			}
 		},
+		computed: mapState(['shoppingCart']),
 		onLoad: function(parameter) {
 			uni.getSystemInfo({
 				success: function(res) {
@@ -85,6 +90,7 @@
 				success: res => {
 					if (res.data.status === 200) {
 						this.allProducts = res.data.allProduct;
+						console.log(JSON.stringify(this.allProducts));
 						this.mainCate = res.data.mainCate;
 					}
 				},
@@ -133,10 +139,14 @@
 			addtocard: function(e) {
 				this.goodsCount++;
 				var productid = e.currentTarget.dataset.productid;
-				uni.showToast({
-					title: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',
-					icon: "none"
-				})
+				console.log(JSON.stringify(e));
+				var product = this.allProducts.find(function(x) {
+					return x.expressId == productid;
+				});
+				// 				uni.showToast({
+				// 					title: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',
+				// 					icon: "none"
+				// 				})
 			},
 			// 搜索
 			searchNow: function(e) {

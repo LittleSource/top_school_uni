@@ -18,6 +18,7 @@
     "pages/hot/hot",
     "pages/message/message",
     "pages/my/my",
+    "pages/my/market/index",
     "pages/my/setting/setting",
     "pages/message/chat"
   ],

@@ -6,14 +6,15 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
 	state: {
 		user: {
-			hasLogin: false,
-			id: 0,
-			token: '',
-			phone: '',
-			avatar: '',
-			password: '',
-			userName: '',
-			sex: 0
+			hasLogin: false,//是否登录
+			id: 0,			
+			token: '',		//token
+			phone: '',		//头像
+			avatar: '',		//头像
+			password: '',	//密码
+			userName: '',	//昵称
+			sex: 0,			//性别
+			merchant:0		//是否商家
 		},
 		school: {
 			id: '11853391869743621792',
@@ -124,7 +125,7 @@ const store = new Vuex.Store({
 			state.user.sex = payload.user.sex;
 			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
-
+			state.user.merchant = payload.user.merchant;
 			state.user.token = payload.token;
 
 			state.school = payload.school;

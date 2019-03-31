@@ -26,7 +26,6 @@
 			</view>
 		</view>
 		<!-- grace filter start -->
-		<!-- 以下为演示内容 -->
 		<view style='margin-top:50px;'>
 			<view class="grace-card-view" v-for="(market,index) in marketList" :key="index">
 				<view class="body" @click="goMarket(market.market_id,market.notice,market.market_name)">
@@ -249,8 +248,6 @@
 	}
 </script>
 <style>
-	@import "../../../graceUI/animate.css";
-
 	page {
 		background-color: #F5F5F5;
 	}
