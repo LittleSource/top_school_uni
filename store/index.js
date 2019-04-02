@@ -86,8 +86,7 @@ const store = new Vuex.Store({
 				msg: "怎么说呢",
 				date: '2018 01-01 00:00'
 			}]
-		},
-		shoppingCart:[]
+		}
 	},
 	mutations: {
 		regSetPhoneAndPass(state, payload) {

@@ -19,7 +19,7 @@
 								<view class="grace-news-list-title-main">{{product.title}}</view>
 								<view class="price">￥{{product.price}}</view>
 								<view>
-									<view :data-productid='product.id' class='grace-add-to-card' @tap='addtocard'>+</view>
+									<view :data-product='product' class='grace-add-to-card' @tap='addtocard'>+</view>
 								</view>
 							</view>
 						</view>
@@ -29,32 +29,50 @@
 		</view>
 		<view class="grace-footer">
 			<view style="width:60%;">
-				<view class="icons iconfont icon-gouwuche"><text v-if="shoppingCart.length > 0" class="grace-badge grace-badge-red">{{shoppingCart.length}}</text></view>
+				<view @click="showShppingcard" class="icons iconfont icon-gouwuche">
+					<text v-if="shoppingCart.length > 0" class="grace-badge grace-badge-red">{{shoppingCart.length}}</text>
+				</view>
 				<view class="icons iconfont icon-lianxikefu"></view>
 				<view class="icons iconfont icon-jiahao"></view>
 			</view>
 			<view style="width:40%;">
-				<button type="warn">立即结算</button>
+				<button type="warn" @click="settleAccounts">立即结算</button>
 			</view>
 		</view>
+		<popup-layer ref="popup" :direction="direction">
+			<view v-if="shoppingCart.length === 0" style="text-align: center;color: grey;line-height: 80px;">购物车内空空如也(＞﹏＜)</view>
+			<view v-else class="grace-form">
+				<view style="padding: 0 8upx;">
+					<view class="grace-items" v-for="(product,index) in shoppingCart" :key="index">
+						<view class="iconss">
+							<image :src="product.img" mode="widthFix" style="width: 50upx;height: 50upx;"></image>
+						</view>
+						<view class="grace-label">{{product.title}}</view>
+						<graceNumberBox minNum="0" :value="product.count" :index="index" v-on:change="change"></graceNumberBox>
+					</view>
+				</view>
+			</view>
+		</popup-layer>
 	</view>
 </template>
 <script>
 	import {
-		mapState,
-		mapMutations
+		mapState
 	} from 'vuex'
+	import popupLayer from "../../../components/popup-layer.vue";
+	import graceNumberBox from "../../../graceUI/components/graceNumberBox.vue";
 	import graceSpeaker from "../../../graceUI/components/graceSpeaker.vue";
 	var scrollTimer = null;
 	var pageHeight = 100;
 	export default {
 		components: {
+			graceNumberBox,
+			popupLayer,
 			graceSpeaker
 		},
 		data() {
 			return {
 				popmenuShowX: true,
-				goodsCount: 0,
 				notices: [],
 				currentCateIndex: 1,
 				// 左侧滚动定位
@@ -65,10 +83,12 @@
 				mainCate: [],
 				// 产品列表对应分类
 				allProducts: {},
-				marketId: 0
+				marketId: 0,
+				goodsCount: 0,
+				shoppingCart: []
 			}
 		},
-		computed: mapState(['shoppingCart']),
+		computed: mapState(['user']),
 		onLoad: function(parameter) {
 			uni.getSystemInfo({
 				success: function(res) {
@@ -85,12 +105,12 @@
 				url: this.GLOBAL.serverSrc + 'market/product/select',
 				method: 'GET',
 				data: {
+					token: this.user.token,
 					market_id: this.marketId
 				},
 				success: res => {
 					if (res.data.status === 200) {
 						this.allProducts = res.data.allProduct;
-						console.log(JSON.stringify(this.allProducts));
 						this.mainCate = res.data.mainCate;
 					}
 				},
@@ -137,27 +157,69 @@
 			},
 			// 加入到购物车
 			addtocard: function(e) {
-				this.goodsCount++;
-				var productid = e.currentTarget.dataset.productid;
-				console.log(JSON.stringify(e));
-				var product = this.allProducts.find(function(x) {
-					return x.expressId == productid;
-				});
-				// 				uni.showToast({
-				// 					title: '产品id : ' + productid + ', 请根据项目需求自行完善后续代码',
-				// 					icon: "none"
-				// 				})
-			},
-			// 搜索
-			searchNow: function(e) {
-				var k = e.detail.value;
-				uni.showToast({
-					title: '关键字 : ' + k + ', 请根据项目需求自行完善后续代码',
-					icon: "none"
-				});
+				this.goodsCount++; //用于购物车小红点
+				var product = e.currentTarget.dataset.product;
+				//console.log(JSON.stringify(e));
+				if (this.shoppingCart.find(function(x) {
+						return x.id === product.id;
+					}) != undefined) { //商品在shoppingCart购物车已存在
+					uni.showToast({
+						title: '购物车已存在此商品\n请点击左下角购物车查看',
+						icon: "none"
+					});
+				} else {
+					product.count = 1;
+					this.shoppingCart.push(product);
+				}
 			},
 			showmenuX: function() {
 				this.popmenuShowX = !this.popmenuShowX;
+			},
+			showShppingcard: function() {
+				this.$refs.popup.show();
+			},
+			change: function(data) { //改变购物车数量
+				var index = data[1];
+				var count = data[0];
+				this.shoppingCart[index].count = count;
+			},
+			settleAccounts: function() {
+				uni.navigateTo({
+					url: './checkstand'
+				});
+				return;
+				if (this.shoppingCart.length === 0) {
+					this.$refs.popup.show();
+				} else {
+					uni.showLoading({
+						title: '加载中'
+					});
+					console.log(JSON.stringify(this.shoppingCart));
+					uni.request({
+						url: this.GLOBAL.serverSrc + 'pay/alipay/create',
+						method: 'POST',
+						data: {
+							user_id: this.user.id,
+							shopping_cart: this.shoppingCart
+						},
+						success: res => {
+							uni.hideLoading();
+							if(res.data.status === 200){
+								
+							}else{
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
+							console.log(JSON.stringify(res));
+						},
+						fail: (e) => {
+							uni.hideLoading();
+							this.GLOBAL.requestFail(e);
+						}
+					});
+				}
 			}
 		}
 	}
@@ -167,10 +229,6 @@
 		height: 100%;
 	}
 
-	.icons {
-		float: left;
-	}
-
 	.grace-search-icon:before {
 		color: #E2231A;
 	}
@@ -178,6 +236,22 @@
 	.grace-news-list-items>image {
 		width: 80px;
 		height: 80px;
+	}
+
+	.icons {
+		float: left;
+	}
+
+	.iconss {
+		width: 50upx;
+		height: 50upx;
+		line-height: 80upx;
+		margin: 15upx 0 10upx 15upx;
+	}
+
+	.icons image {
+		width: 50upx;
+		height: 50upx;
 	}
 
 	.grace-news-list-title .price {

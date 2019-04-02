@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://221.238.110.160:8282';
-	const serverSrc = 'http://221.238.110.160/';
+	const serverChat = 'ws://123.151.5.222:8282';
+	const serverSrc = 'http://123.151.5.222/';
 	export default {
 		serverSrc, //服务器地址
 		serverChat,

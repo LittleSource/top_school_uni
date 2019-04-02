@@ -86,9 +86,15 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "超市进店",
-				"app-plus": {
-				}
+				"navigationBarTitleText": "超市进店"
+			}
+		},
+		{
+			"path": "pages/index/market/checkstand",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "确认订单"
 			}
 		},{
 			"path": "pages/common/login",
@@ -231,6 +237,14 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "我的店铺"
+			}
+		},
+		{
+			"path": "pages/my/market/regMarketInfo",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "申请开通店铺"
 			}
 		},
 		{

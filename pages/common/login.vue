@@ -113,6 +113,7 @@
 						data: e.detail.value,
 						success: res => {
 							if (res.data.status === 200) {
+								console.log(JSON.stringify(res.data));
 								this.login(res.data);
 								uni.reLaunch({
 									url: '../index/index'
