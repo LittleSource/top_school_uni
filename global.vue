@@ -4,8 +4,8 @@
 
 <script>
 	//全局配置文件
-	const serverChat = 'ws://123.151.5.222:8282';
-	const serverSrc = 'http://123.151.5.222/';
+	const serverChat = 'ws://39.96.188.46:8282';
+	const serverSrc = 'http://apii.ym998.cn/';
 	export default {
 		serverSrc, //服务器地址
 		serverChat,

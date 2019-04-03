@@ -9,7 +9,7 @@
 .grace-im-footer .grace-items{width:auto; line-height:50px; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0;}
 .grace-im-menus{width:44px; height:50px; -webkit-flex-shrink:0; -ms-flex-negative:0; flex-shrink:0; line-height:50px; text-align:center; font-size:32px;}
 .grace-im-input{width:100%; margin:5px; padding:0 8px; background:#F4F5F6; border-radius:5px; height:40px; -webkit-flex-wrap:nowrap; -ms-flex-wrap:nowrap; flex-wrap:nowrap; margin-left:10px;}
-.grace-im-input ._input{width:100%; background:#F4F5F6; height:20px; margin:8px 0; line-height:20px; border-radius:5px;}
+.grace-im-input input{width:100%; background:#F4F5F6; height:20px; margin:8px 0; line-height:20px; border-radius:5px;}
 .grace-im-record{width:100%; position:fixed; bottom:0; background:#FFF; padding:30px 0; padding-bottom:50px; z-index:11; -webkit-box-shadow:1px 1px 6px #888; box-shadow:1px 1px 6px #888;}
 .grace-im-record-close{width:50px; height:50px; position:absolute; top:0px; right:0px; z-index:100; -webkit-box-pack:center; -webkit-justify-content:center; -ms-flex-pack:center; justify-content:center; line-height:50px; color:#ccc; font-size:30px;}
 .grace-im-record-txt{text-align:center; line-height:30px; padding-bottom:10px; color:#ccc;}

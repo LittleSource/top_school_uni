@@ -94,7 +94,7 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "确认订单"
+				"navigationBarTitleText": "收银台"
 			}
 		},{
 			"path": "pages/common/login",

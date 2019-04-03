@@ -184,19 +184,14 @@
 				this.shoppingCart[index].count = count;
 			},
 			settleAccounts: function() {
-				uni.navigateTo({
-					url: './checkstand'
-				});
-				return;
 				if (this.shoppingCart.length === 0) {
 					this.$refs.popup.show();
 				} else {
 					uni.showLoading({
 						title: '加载中'
 					});
-					console.log(JSON.stringify(this.shoppingCart));
 					uni.request({
-						url: this.GLOBAL.serverSrc + 'pay/alipay/create',
+						url: this.GLOBAL.serverSrc + 'pay/create_order/create',
 						method: 'POST',
 						data: {
 							user_id: this.user.id,
@@ -204,15 +199,16 @@
 						},
 						success: res => {
 							uni.hideLoading();
-							if(res.data.status === 200){
-								
-							}else{
+							if (res.data.status === 200) {
+								uni.navigateTo({
+									url: './checkstand?order_id=' + res.data.order_id + '&real_price=' + res.data.real_price
+								});
+							} else {
 								uni.showToast({
 									title: res.data.msg,
 									icon: "none"
 								});
 							}
-							console.log(JSON.stringify(res));
 						},
 						fail: (e) => {
 							uni.hideLoading();
