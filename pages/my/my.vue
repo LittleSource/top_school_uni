@@ -68,13 +68,26 @@
 	export default {
 		data() {
 			return {
-				staticUrl : 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',
-				lists : [
-						{ img: 'shange.png', title: '布局栅格', path: "rows", desc:"flex 基础布局"},
-						{ img: 'scroll.png', title: '滚动区域', path: "scroll", desc: "" },
-						{ img: 'moveview.png', title: '可移动区域', path: "moveview", desc: "" }
-					]
-				
+				staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',
+				lists: [{
+						img: 'shange.png',
+						title: '布局栅格',
+						path: "rows",
+						desc: "flex 基础布局"
+					},
+					{
+						img: 'scroll.png',
+						title: '滚动区域',
+						path: "scroll",
+						desc: ""
+					},
+					{
+						img: 'moveview.png',
+						title: '可移动区域',
+						path: "moveview",
+						desc: ""
+					}
+				]
 			}
 		},
 		components: {

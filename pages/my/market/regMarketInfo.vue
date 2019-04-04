@@ -3,8 +3,8 @@
 		<view class="grace-form">
 			<form @submit="formSubmit">
 				<view class="grace-items">
-					<view class="grace-label">所在学校(不可更改)</view>
-					<input type="text" disabled class="input" name="market_school" :placeholder="school.title"></input>
+					<view class="grace-label">所在学校</view>
+					<input type="text" disabled class="input" name="market_school" :placeholder="school.title+'(不可更改)'"></input>
 				</view>
 				<view class="grace-items">
 					<view class="grace-label">超市名称</view>
@@ -38,7 +38,7 @@
 					</view>
 				</view>
 				<view style="padding:22upx 0;">
-					<button formType="submit" type="primary" style="background:#fc6666;">提交</button>
+					<button formType="submit" type="primary" style="background:#fc6666;">下一步</button>
 				</view>
 			</form>
 		</view>
@@ -53,7 +53,7 @@
 		data() {
 			return {}
 		},
-		computed: mapState(['school']),
+		computed: mapState(['school', 'user']),
 		methods: {
 			formSubmit: function(e) {
 				//定义表单规则
@@ -64,32 +64,45 @@
 						errorMsg: "超市名称应为1-8个字符"
 					},
 					{
-						name: "gender",
-						checkType: "in",
-						checkRule: "男,女",
-						errorMsg: "请选择性别"
-					},
-					{
 						name: "dorm_tower",
 						checkType: "notnull",
 						checkRule: "",
-						errorMsg: "宿舍楼名不能为空"
+						errorMsg: "宿舍楼不能为空"
 					},
 					{
 						name: "dorm_num",
 						checkType: "notnull",
 						checkRule: "",
-						errorMsg: "dorm_tower"
-					},
-					
+						errorMsg: "宿舍号不能为空"
+					}
 				];
 				//进行表单检查
 				var formData = e.detail.value;
 				var checkRes = graceChecker.check(formData, rule);
 				if (checkRes) {
-					uni.showToast({
-						title: "验证通过!",
-						icon: "none"
+					formData.user_id = this.user.id;
+					formData.phone = this.user.phone;
+					formData.token = this.user.token;
+					formData.market_school = this.school.title;
+					uni.request({
+						url: this.GLOBAL.serverSrc + 'market/index/regmarket',
+						method: 'POST',
+						data: formData,
+						success: res => {
+							if (res.data.status === 200) {
+								uni.navigateTo({
+									url: './verifyIdCard'
+								});
+							} else {
+								uni.showToast({
+									title: res.data.msg,
+									icon: "none"
+								});
+							}
+						},
+						fail: (e) => {
+							this.GLOBAL.requestFail(e);
+						}
 					});
 				} else {
 					uni.showToast({
@@ -97,12 +110,13 @@
 						icon: "none"
 					});
 				}
-				uni.showToast({
-					title: '请观察控制台',
-					icon: 'none'
-				});
-				console.log(JSON.stringify(e.detail.value));
 			}
 		}
 	}
 </script>
+<style>
+	.grace-checked {
+		background: #fc4243 !important;
+		color: #FFFFFF;
+	}
+</style>

@@ -21,6 +21,8 @@
     "pages/my/my",
     "pages/my/market/index",
     "pages/my/market/regMarketInfo",
+    "pages/my/market/verifyIdCard",
+    "pages/my/market/manage",
     "pages/my/setting/setting",
     "pages/message/chat"
   ],

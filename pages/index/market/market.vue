@@ -48,7 +48,8 @@
 							<image :src="product.img" mode="widthFix" style="width: 50upx;height: 50upx;"></image>
 						</view>
 						<view class="grace-label">{{product.title}}</view>
-						<graceNumberBox minNum="0" :value="product.count" :index="index" v-on:change="change"></graceNumberBox>
+						<graceNumberBox minNum="1" :value="product.count" :index="index" v-on:change="change"></graceNumberBox>
+						<view class="delete" @click="deleteProduct(index)">删除</view>
 					</view>
 				</view>
 			</view>
@@ -183,6 +184,12 @@
 				var count = data[0];
 				this.shoppingCart[index].count = count;
 			},
+			deleteProduct:function(index){
+				this.shoppingCart.splice(index,1);
+				if(this.shoppingCart.length === 0){
+					this.$refs.popup.close();
+				}
+			},
 			settleAccounts: function() {
 				if (this.shoppingCart.length === 0) {
 					this.$refs.popup.show();
@@ -270,5 +277,15 @@
 	.grace-badge {
 		margin: 0 0 100% -10upx;
 		position: fixed;
+	}
+
+	.delete {
+		float: right;
+		width: auto;
+		color: grey;
+		height: 80upx;
+		line-height: 80upx;
+		flex-shrink: 0;
+		overflow: hidden;
 	}
 </style>

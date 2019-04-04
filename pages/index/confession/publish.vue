@@ -36,7 +36,7 @@
 				imgFiles: [],
 				btnImg: true,
 				Loading: false,
-				progress:0//上传进度
+				progress: 0 //上传进度
 			}
 		},
 		onLoad: function() {

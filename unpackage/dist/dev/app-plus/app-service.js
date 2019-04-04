@@ -1071,7 +1071,7 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z([[7],[3,'$k']])
 Z([[2,'+'],[1,'2763a7ef-5-'],[[7],[3,'index']]])
 Z([3,'0b6f14c8'])
-Z([3,'0'])
+Z([3,'1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
 }
 function gz$gwx_2(){
@@ -1539,6 +1539,7 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
 __WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'1cad943f'])
+Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 function gz$gwx_44(){
@@ -1553,7 +1554,7 @@ function gz$gwx_45(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
 __WXML_GLOBAL__.ops_cached.$gwx_45=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3ddaedaa'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
 }
 function gz$gwx_46(){
@@ -1561,14 +1562,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
 __WXML_GLOBAL__.ops_cached.$gwx_46=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3ddaedaa'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
 function gz$gwx_47(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
 __WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6819fcac'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
 function gz$gwx_48(){
@@ -1576,14 +1577,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
 __WXML_GLOBAL__.ops_cached.$gwx_48=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6819fcac'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
 }
 function gz$gwx_49(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
 __WXML_GLOBAL__.ops_cached.$gwx_49=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c9670ade'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
 }
 function gz$gwx_50(){
@@ -1591,14 +1592,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
 __WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c9670ade'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
 function gz$gwx_51(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
 __WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4c98c0cb'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
 function gz$gwx_52(){
@@ -1606,12 +1607,42 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
 __WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4c98c0cb'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
 function gz$gwx_53(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
 __WXML_GLOBAL__.ops_cached.$gwx_53=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
+}
+function gz$gwx_54(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
+__WXML_GLOBAL__.ops_cached.$gwx_54=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
+}
+function gz$gwx_55(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
+__WXML_GLOBAL__.ops_cached.$gwx_55=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
+}
+function gz$gwx_56(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
+__WXML_GLOBAL__.ops_cached.$gwx_56=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
+}
+function gz$gwx_57(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
+__WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2d4a1539'])
 Z([3,'_view 2d4a1539 s-page-wrapper'])
@@ -1622,36 +1653,6 @@ Z([[7],[3,'$k']])
 Z([1,'2d4a1539-3'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
-}
-function gz$gwx_54(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
-__WXML_GLOBAL__.ops_cached.$gwx_54=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2d4a1539'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
-}
-function gz$gwx_55(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
-__WXML_GLOBAL__.ops_cached.$gwx_55=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
-}
-function gz$gwx_56(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
-__WXML_GLOBAL__.ops_cached.$gwx_56=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
-}
-function gz$gwx_57(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
-__WXML_GLOBAL__.ops_cached.$gwx_57=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'59b2495c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
 function gz$gwx_58(){
@@ -1659,14 +1660,44 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
 __WXML_GLOBAL__.ops_cached.$gwx_58=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'59b2495c'])
+Z([3,'2d4a1539'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
+}
+function gz$gwx_59(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
+__WXML_GLOBAL__.ops_cached.$gwx_59=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'685fe0c1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
+}
+function gz$gwx_60(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
+__WXML_GLOBAL__.ops_cached.$gwx_60=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'685fe0c1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
+}
+function gz$gwx_61(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
+__WXML_GLOBAL__.ops_cached.$gwx_61=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
+}
+function gz$gwx_62(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
+__WXML_GLOBAL__.ops_cached.$gwx_62=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','/components/dialog.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/common/slots.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/message/chat.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceHeader.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["2763a7ef-default-2763a7ef-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':2763a7ef-default-2763a7ef-2'
@@ -1678,18 +1709,18 @@ try{
 var oB=_v()
 _(r,oB)
 if(_oz(z,1,e,s,gg)){oB.wxVkey=1
-cs.push("./common/slots.wxml:view:12:47")
+cs.push("./common/slots.wxml:view:5:47")
 cs.pop()
 }
 else{oB.wxVkey=2
-cs.push("./common/slots.wxml:view:12:214")
+cs.push("./common/slots.wxml:view:5:214")
 var xC=_v()
 _(oB,xC)
-cs.push("./common/slots.wxml:view:12:316")
+cs.push("./common/slots.wxml:view:5:316")
 var oD=function(cF,fE,hG,gg){
 var cI=_v()
 _(hG,cI)
-cs.push("./common/slots.wxml:template:12:678")
+cs.push("./common/slots.wxml:template:5:678")
 var oJ=_oz(z,10,cF,fE,gg)
 var lK=_gd(x[0],oJ,e_,d_)
 if(lK){
@@ -1699,7 +1730,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[0],12,852)
+else _w(oJ,x[0],5,852)
 cs.pop()
 return hG
 }
@@ -1722,33 +1753,19 @@ var oB=e_[x[0]].i
 _ai(oB,x[1],e_,x[0],1,1)
 _ai(oB,x[2],e_,x[0],2,2)
 _ai(oB,x[3],e_,x[0],3,2)
-_ai(oB,x[4],e_,x[0],4,2)
-_ai(oB,x[5],e_,x[0],5,2)
-_ai(oB,x[6],e_,x[0],6,2)
-_ai(oB,x[7],e_,x[0],7,2)
-_ai(oB,x[8],e_,x[0],8,2)
-_ai(oB,x[9],e_,x[0],9,2)
-_ai(oB,x[10],e_,x[0],10,2)
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
-oB.pop()
 oB.pop()
 oB.pop()
 oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8],x[9],x[10]],ic:[]}
-d_[x[11]]={}
-d_[x[11]]["3b86ca29"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+d_[x[4]]={}
+d_[x[4]]["3b86ca29"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[11]+':3b86ca29'
+var b=x[4]+':3b86ca29'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/dialog.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[11]);return}
+if(p_[b]){_wl(b,x[4]);return}
 p_[b]=true
 try{
 cs.push("./components/dialog.vue.wxml:view:1:141")
@@ -1793,14 +1810,14 @@ var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 return r
 }
-e_[x[11]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["36ed7ea2"]=function(e,s,r,gg){
+e_[x[4]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[5]]={}
+d_[x[5]]["36ed7ea2"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[12]+':36ed7ea2'
+var b=x[5]+':36ed7ea2'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/popup-layer.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
 cs.push("./components/popup-layer.vue.wxml:view:1:62")
@@ -1811,7 +1828,7 @@ var oD=_v()
 _(xC,oD)
 cs.push("./components/popup-layer.vue.wxml:template:1:392")
 var fE=_oz(z,14,e,s,gg)
-var cF=_gd(x[12],fE,e_,d_)
+var cF=_gd(x[5],fE,e_,d_)
 if(cF){
 var hG=_1z(z,13,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -1819,7 +1836,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[12],1,450)
+else _w(fE,x[5],1,450)
 cs.pop()
 cs.pop()
 _(oB,xC)
@@ -1832,12 +1849,12 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[12]]["default"]=function(e,s,r,gg){
+d_[x[5]]["default"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[12]+':default'
+var b=x[5]+':default'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/popup-layer.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1849,19 +1866,19 @@ return r
 }
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var fE=e_[x[12]].i
-_ai(fE,x[10],e_,x[12],1,1)
+var fE=e_[x[5]].i
+_ai(fE,x[6],e_,x[5],1,1)
 fE.pop()
 return r
 }
-e_[x[12]]={f:m2,j:[],i:[],ti:[x[10]],ic:[]}
-d_[x[13]]={}
-d_[x[13]]["5faf9cdb"]=function(e,s,r,gg){
+e_[x[5]]={f:m2,j:[],i:[],ti:[x[6]],ic:[]}
+d_[x[7]]={}
+d_[x[7]]["5faf9cdb"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[13]+':5faf9cdb'
+var b=x[7]+':5faf9cdb'
 r.wxVkey=b
 gg.f=$gdc(f_["./global.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[13]);return}
+if(p_[b]){_wl(b,x[7]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1875,14 +1892,14 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[13]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[14]]={}
-d_[x[14]]["93f8d13c"]=function(e,s,r,gg){
+e_[x[7]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["93f8d13c"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[14]+':93f8d13c'
+var b=x[8]+':93f8d13c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceAlert.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[14]);return}
+if(p_[b]){_wl(b,x[8]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -1896,14 +1913,14 @@ var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
 return r
 }
-e_[x[14]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[15]]={}
-d_[x[15]]["dd17cd9a"]=function(e,s,r,gg){
+e_[x[8]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["dd17cd9a"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[15]+':dd17cd9a'
+var b=x[9]+':dd17cd9a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceFullLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[15]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1924,14 +1941,14 @@ var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 return r
 }
-e_[x[15]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[16]]={}
-d_[x[16]]["15fc9547"]=function(e,s,r,gg){
+e_[x[9]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[10]]={}
+d_[x[10]]["15fc9547"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[16]+':15fc9547'
+var b=x[10]+':15fc9547'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceHeader.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[16]);return}
+if(p_[b]){_wl(b,x[10]);return}
 p_[b]=true
 try{
 cs.push("./graceUI/components/graceHeader.vue.wxml:view:1:27")
@@ -1964,14 +1981,14 @@ var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
 return r
 }
-e_[x[16]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[17]]={}
-d_[x[17]]["63f6700e"]=function(e,s,r,gg){
+e_[x[10]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[11]]={}
+d_[x[11]]["63f6700e"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[17]+':63f6700e'
+var b=x[11]+':63f6700e'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceIMFooter.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[17]);return}
+if(p_[b]){_wl(b,x[11]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2011,14 +2028,14 @@ var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
 return r
 }
-e_[x[17]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[18]]={}
-d_[x[18]]["93343c3a"]=function(e,s,r,gg){
+e_[x[11]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[12]]={}
+d_[x[12]]["93343c3a"]=function(e,s,r,gg){
 var z=gz$gwx_9()
-var b=x[18]+':93343c3a'
+var b=x[12]+':93343c3a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceIMMsg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[18]);return}
+if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2092,14 +2109,14 @@ var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
 return r
 }
-e_[x[18]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[19]]={}
-d_[x[19]]["e380f47c"]=function(e,s,r,gg){
+e_[x[12]]={f:m8,j:[],i:[],ti:[],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["e380f47c"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[19]+':e380f47c'
+var b=x[13]+':e380f47c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[19]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2127,14 +2144,14 @@ var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
 return r
 }
-e_[x[19]]={f:m9,j:[],i:[],ti:[],ic:[]}
-d_[x[20]]={}
-d_[x[20]]["0b6f14c8"]=function(e,s,r,gg){
+e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[14]]={}
+d_[x[14]]["0b6f14c8"]=function(e,s,r,gg){
 var z=gz$gwx_11()
-var b=x[20]+':0b6f14c8'
+var b=x[14]+':0b6f14c8'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceNumberBox.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[20]);return}
+if(p_[b]){_wl(b,x[14]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2148,14 +2165,14 @@ var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
 return r
 }
-e_[x[20]]={f:m10,j:[],i:[],ti:[],ic:[]}
-d_[x[21]]={}
-d_[x[21]]["02770485"]=function(e,s,r,gg){
+e_[x[14]]={f:m10,j:[],i:[],ti:[],ic:[]}
+d_[x[15]]={}
+d_[x[15]]["02770485"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[21]+':02770485'
+var b=x[15]+':02770485'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceSpeaker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[21]);return}
+if(p_[b]){_wl(b,x[15]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2169,14 +2186,14 @@ var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
 return r
 }
-e_[x[21]]={f:m11,j:[],i:[],ti:[],ic:[]}
-d_[x[22]]={}
-d_[x[22]]["691dc3db"]=function(e,s,r,gg){
+e_[x[15]]={f:m11,j:[],i:[],ti:[],ic:[]}
+d_[x[16]]={}
+d_[x[16]]["691dc3db"]=function(e,s,r,gg){
 var z=gz$gwx_13()
-var b=x[22]+':691dc3db'
+var b=x[16]+':691dc3db'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/checkSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[22]);return}
+if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/checkSchool.vue.wxml:view:1:71")
@@ -2198,7 +2215,7 @@ var fE=_v()
 _(oB,fE)
 cs.push("./pages/common/checkSchool.vue.wxml:template:1:666")
 var cF=_oz(z,8,e,s,gg)
-var hG=_gd(x[22],cF,e_,d_)
+var hG=_gd(x[16],cF,e_,d_)
 if(hG){
 var oH=_1z(z,5,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2206,7 +2223,7 @@ fE.wxXCkey=3
 hG(oH,oH,fE,gg)
 gg.f=cur_globalf
 }
-else _w(cF,x[22],1,842)
+else _w(cF,x[16],1,842)
 cs.pop()
 xC.wxXCkey=1
 oD.wxXCkey=1
@@ -2221,22 +2238,22 @@ return r
 }
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var oP=e_[x[22]].i
-_ai(oP,x[4],e_,x[22],1,1)
+var oP=e_[x[16]].i
+_ai(oP,x[17],e_,x[16],1,1)
 oP.pop()
 return r
 }
-e_[x[22]]={f:m12,j:[],i:[],ti:[x[4]],ic:[]}
-d_[x[23]]={}
+e_[x[16]]={f:m12,j:[],i:[],ti:[x[17]],ic:[]}
+d_[x[18]]={}
 var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
-var oR=e_[x[23]].i
-_ai(oR,x[24],e_,x[23],1,1)
+var oR=e_[x[18]].i
+_ai(oR,x[19],e_,x[18],1,1)
 var fS=_v()
 _(r,fS)
 cs.push("./pages/common/checkSchool.wxml:template:2:6")
 var cT=_oz(z,1,e,s,gg)
-var hU=_gd(x[23],cT,e_,d_)
+var hU=_gd(x[18],cT,e_,d_)
 if(hU){
 var oV=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2244,19 +2261,19 @@ fS.wxXCkey=3
 hU(oV,oV,fS,gg)
 gg.f=cur_globalf
 }
-else _w(cT,x[23],2,18)
+else _w(cT,x[18],2,18)
 cs.pop()
 oR.pop()
 return r
 }
-e_[x[23]]={f:m13,j:[],i:[],ti:[x[24]],ic:[]}
-d_[x[25]]={}
-d_[x[25]]["3f7de31e"]=function(e,s,r,gg){
+e_[x[18]]={f:m13,j:[],i:[],ti:[x[19]],ic:[]}
+d_[x[20]]={}
+d_[x[20]]["3f7de31e"]=function(e,s,r,gg){
 var z=gz$gwx_15()
-var b=x[25]+':3f7de31e'
+var b=x[20]+':3f7de31e'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/comment.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[25]);return}
+if(p_[b]){_wl(b,x[20]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2270,17 +2287,17 @@ var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
 return r
 }
-e_[x[25]]={f:m14,j:[],i:[],ti:[],ic:[]}
-d_[x[26]]={}
+e_[x[20]]={f:m14,j:[],i:[],ti:[],ic:[]}
+d_[x[21]]={}
 var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
-var lY=e_[x[26]].i
-_ai(lY,x[27],e_,x[26],1,1)
+var lY=e_[x[21]].i
+_ai(lY,x[22],e_,x[21],1,1)
 var aZ=_v()
 _(r,aZ)
 cs.push("./pages/common/comment.wxml:template:2:6")
 var t1=_oz(z,1,e,s,gg)
-var e2=_gd(x[26],t1,e_,d_)
+var e2=_gd(x[21],t1,e_,d_)
 if(e2){
 var b3=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2288,19 +2305,19 @@ aZ.wxXCkey=3
 e2(b3,b3,aZ,gg)
 gg.f=cur_globalf
 }
-else _w(t1,x[26],2,18)
+else _w(t1,x[21],2,18)
 cs.pop()
 lY.pop()
 return r
 }
-e_[x[26]]={f:m15,j:[],i:[],ti:[x[27]],ic:[]}
-d_[x[28]]={}
-d_[x[28]]["7ba207e8"]=function(e,s,r,gg){
+e_[x[21]]={f:m15,j:[],i:[],ti:[x[22]],ic:[]}
+d_[x[23]]={}
+d_[x[23]]["7ba207e8"]=function(e,s,r,gg){
 var z=gz$gwx_17()
-var b=x[28]+':7ba207e8'
+var b=x[23]+':7ba207e8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[28]);return}
+if(p_[b]){_wl(b,x[23]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2314,17 +2331,17 @@ var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
 return r
 }
-e_[x[28]]={f:m16,j:[],i:[],ti:[],ic:[]}
-d_[x[29]]={}
+e_[x[23]]={f:m16,j:[],i:[],ti:[],ic:[]}
+d_[x[24]]={}
 var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
-var o6=e_[x[29]].i
-_ai(o6,x[30],e_,x[29],1,1)
+var o6=e_[x[24]].i
+_ai(o6,x[25],e_,x[24],1,1)
 var f7=_v()
 _(r,f7)
 cs.push("./pages/common/login.wxml:template:2:6")
 var c8=_oz(z,1,e,s,gg)
-var h9=_gd(x[29],c8,e_,d_)
+var h9=_gd(x[24],c8,e_,d_)
 if(h9){
 var o0=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2332,19 +2349,19 @@ f7.wxXCkey=3
 h9(o0,o0,f7,gg)
 gg.f=cur_globalf
 }
-else _w(c8,x[29],2,18)
+else _w(c8,x[24],2,18)
 cs.pop()
 o6.pop()
 return r
 }
-e_[x[29]]={f:m17,j:[],i:[],ti:[x[30]],ic:[]}
-d_[x[31]]={}
-d_[x[31]]["04015d09"]=function(e,s,r,gg){
+e_[x[24]]={f:m17,j:[],i:[],ti:[x[25]],ic:[]}
+d_[x[26]]={}
+d_[x[26]]["04015d09"]=function(e,s,r,gg){
 var z=gz$gwx_19()
-var b=x[31]+':04015d09'
+var b=x[26]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[31]);return}
+if(p_[b]){_wl(b,x[26]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -2369,17 +2386,17 @@ var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
 return r
 }
-e_[x[31]]={f:m18,j:[],i:[],ti:[],ic:[]}
-d_[x[32]]={}
+e_[x[26]]={f:m18,j:[],i:[],ti:[],ic:[]}
+d_[x[27]]={}
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
-var lCB=e_[x[32]].i
-_ai(lCB,x[33],e_,x[32],1,1)
+var lCB=e_[x[27]].i
+_ai(lCB,x[28],e_,x[27],1,1)
 var aDB=_v()
 _(r,aDB)
 cs.push("./pages/common/search.wxml:template:2:6")
 var tEB=_oz(z,1,e,s,gg)
-var eFB=_gd(x[32],tEB,e_,d_)
+var eFB=_gd(x[27],tEB,e_,d_)
 if(eFB){
 var bGB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2387,19 +2404,19 @@ aDB.wxXCkey=3
 eFB(bGB,bGB,aDB,gg)
 gg.f=cur_globalf
 }
-else _w(tEB,x[32],2,18)
+else _w(tEB,x[27],2,18)
 cs.pop()
 lCB.pop()
 return r
 }
-e_[x[32]]={f:m19,j:[],i:[],ti:[x[33]],ic:[]}
-d_[x[34]]={}
-d_[x[34]]["0807302a"]=function(e,s,r,gg){
+e_[x[27]]={f:m19,j:[],i:[],ti:[x[28]],ic:[]}
+d_[x[29]]={}
+d_[x[29]]["0807302a"]=function(e,s,r,gg){
 var z=gz$gwx_21()
-var b=x[34]+':0807302a'
+var b=x[29]+':0807302a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/update.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[34]);return}
+if(p_[b]){_wl(b,x[29]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/update.vue.wxml:view:1:27")
@@ -2451,17 +2468,17 @@ var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
 return r
 }
-e_[x[34]]={f:m20,j:[],i:[],ti:[],ic:[]}
-d_[x[35]]={}
+e_[x[29]]={f:m20,j:[],i:[],ti:[],ic:[]}
+d_[x[30]]={}
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
-var oJB=e_[x[35]].i
-_ai(oJB,x[36],e_,x[35],1,1)
+var oJB=e_[x[30]].i
+_ai(oJB,x[31],e_,x[30],1,1)
 var fKB=_v()
 _(r,fKB)
 cs.push("./pages/common/update.wxml:template:2:6")
 var cLB=_oz(z,1,e,s,gg)
-var hMB=_gd(x[35],cLB,e_,d_)
+var hMB=_gd(x[30],cLB,e_,d_)
 if(hMB){
 var oNB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2469,19 +2486,19 @@ fKB.wxXCkey=3
 hMB(oNB,oNB,fKB,gg)
 gg.f=cur_globalf
 }
-else _w(cLB,x[35],2,18)
+else _w(cLB,x[30],2,18)
 cs.pop()
 oJB.pop()
 return r
 }
-e_[x[35]]={f:m21,j:[],i:[],ti:[x[36]],ic:[]}
-d_[x[37]]={}
-d_[x[37]]["98a44ff0"]=function(e,s,r,gg){
+e_[x[30]]={f:m21,j:[],i:[],ti:[x[31]],ic:[]}
+d_[x[32]]={}
+d_[x[32]]["98a44ff0"]=function(e,s,r,gg){
 var z=gz$gwx_23()
-var b=x[37]+':98a44ff0'
+var b=x[32]+':98a44ff0'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[37]);return}
+if(p_[b]){_wl(b,x[32]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2495,17 +2512,17 @@ var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
 return r
 }
-e_[x[37]]={f:m22,j:[],i:[],ti:[],ic:[]}
-d_[x[38]]={}
+e_[x[32]]={f:m22,j:[],i:[],ti:[],ic:[]}
+d_[x[33]]={}
 var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
-var lQB=e_[x[38]].i
-_ai(lQB,x[39],e_,x[38],1,1)
+var lQB=e_[x[33]].i
+_ai(lQB,x[34],e_,x[33],1,1)
 var aRB=_v()
 _(r,aRB)
 cs.push("./pages/hot/hot.wxml:template:2:6")
 var tSB=_oz(z,1,e,s,gg)
-var eTB=_gd(x[38],tSB,e_,d_)
+var eTB=_gd(x[33],tSB,e_,d_)
 if(eTB){
 var bUB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2513,19 +2530,19 @@ aRB.wxXCkey=3
 eTB(bUB,bUB,aRB,gg)
 gg.f=cur_globalf
 }
-else _w(tSB,x[38],2,18)
+else _w(tSB,x[33],2,18)
 cs.pop()
 lQB.pop()
 return r
 }
-e_[x[38]]={f:m23,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[40]]={}
-d_[x[40]]["22ce7d59"]=function(e,s,r,gg){
+e_[x[33]]={f:m23,j:[],i:[],ti:[x[34]],ic:[]}
+d_[x[35]]={}
+d_[x[35]]["22ce7d59"]=function(e,s,r,gg){
 var z=gz$gwx_25()
-var b=x[40]+':22ce7d59'
+var b=x[35]+':22ce7d59'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[40]);return}
+if(p_[b]){_wl(b,x[35]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
@@ -2557,7 +2574,7 @@ var lK=_v()
 _(oB,lK)
 cs.push("./pages/index/confession/detail.vue.wxml:template:1:4270")
 var aL=_oz(z,9,e,s,gg)
-var tM=_gd(x[40],aL,e_,d_)
+var tM=_gd(x[35],aL,e_,d_)
 if(tM){
 var eN=_1z(z,8,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2565,7 +2582,7 @@ lK.wxXCkey=3
 tM(eN,eN,lK,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[40],1,4382)
+else _w(aL,x[35],1,4382)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -2579,22 +2596,22 @@ return r
 }
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var xWB=e_[x[40]].i
-_ai(xWB,x[9],e_,x[40],1,1)
+var xWB=e_[x[35]].i
+_ai(xWB,x[36],e_,x[35],1,1)
 xWB.pop()
 return r
 }
-e_[x[40]]={f:m24,j:[],i:[],ti:[x[9]],ic:[]}
-d_[x[41]]={}
+e_[x[35]]={f:m24,j:[],i:[],ti:[x[36]],ic:[]}
+d_[x[37]]={}
 var m25=function(e,s,r,gg){
 var z=gz$gwx_26()
-var fYB=e_[x[41]].i
-_ai(fYB,x[42],e_,x[41],1,1)
+var fYB=e_[x[37]].i
+_ai(fYB,x[38],e_,x[37],1,1)
 var cZB=_v()
 _(r,cZB)
 cs.push("./pages/index/confession/detail.wxml:template:2:6")
 var h1B=_oz(z,1,e,s,gg)
-var o2B=_gd(x[41],h1B,e_,d_)
+var o2B=_gd(x[37],h1B,e_,d_)
 if(o2B){
 var c3B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2602,19 +2619,19 @@ cZB.wxXCkey=3
 o2B(c3B,c3B,cZB,gg)
 gg.f=cur_globalf
 }
-else _w(h1B,x[41],2,18)
+else _w(h1B,x[37],2,18)
 cs.pop()
 fYB.pop()
 return r
 }
-e_[x[41]]={f:m25,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[43]]={}
-d_[x[43]]["227202ca"]=function(e,s,r,gg){
+e_[x[37]]={f:m25,j:[],i:[],ti:[x[38]],ic:[]}
+d_[x[39]]={}
+d_[x[39]]["227202ca"]=function(e,s,r,gg){
 var z=gz$gwx_27()
-var b=x[43]+':227202ca'
+var b=x[39]+':227202ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[43]);return}
+if(p_[b]){_wl(b,x[39]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
@@ -2624,7 +2641,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1608")
 var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[43],oD,e_,d_)
+var fE=_gd(x[39],oD,e_,d_)
 if(fE){
 var cF=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2632,13 +2649,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[43],1,1679)
+else _w(oD,x[39],1,1679)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1702")
 var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[43],oH,e_,d_)
+var cI=_gd(x[39],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2646,7 +2663,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[43],1,1773)
+else _w(oH,x[39],1,1773)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2659,24 +2676,24 @@ return r
 }
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
-var l5B=e_[x[43]].i
-_ai(l5B,x[7],e_,x[43],1,1)
-_ai(l5B,x[8],e_,x[43],1,59)
+var l5B=e_[x[39]].i
+_ai(l5B,x[40],e_,x[39],1,1)
+_ai(l5B,x[41],e_,x[39],1,59)
 l5B.pop()
 l5B.pop()
 return r
 }
-e_[x[43]]={f:m26,j:[],i:[],ti:[x[7],x[8]],ic:[]}
-d_[x[44]]={}
+e_[x[39]]={f:m26,j:[],i:[],ti:[x[40],x[41]],ic:[]}
+d_[x[42]]={}
 var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
-var t7B=e_[x[44]].i
-_ai(t7B,x[45],e_,x[44],1,1)
+var t7B=e_[x[42]].i
+_ai(t7B,x[43],e_,x[42],1,1)
 var e8B=_v()
 _(r,e8B)
 cs.push("./pages/index/confession/index.wxml:template:2:6")
 var b9B=_oz(z,1,e,s,gg)
-var o0B=_gd(x[44],b9B,e_,d_)
+var o0B=_gd(x[42],b9B,e_,d_)
 if(o0B){
 var xAC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2684,19 +2701,19 @@ e8B.wxXCkey=3
 o0B(xAC,xAC,e8B,gg)
 gg.f=cur_globalf
 }
-else _w(b9B,x[44],2,18)
+else _w(b9B,x[42],2,18)
 cs.pop()
 t7B.pop()
 return r
 }
-e_[x[44]]={f:m27,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[46]]={}
-d_[x[46]]["67be4df2"]=function(e,s,r,gg){
+e_[x[42]]={f:m27,j:[],i:[],ti:[x[43]],ic:[]}
+d_[x[44]]={}
+d_[x[44]]["67be4df2"]=function(e,s,r,gg){
 var z=gz$gwx_29()
-var b=x[46]+':67be4df2'
+var b=x[44]+':67be4df2'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/publish.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[46]);return}
+if(p_[b]){_wl(b,x[44]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/publish.vue.wxml:view:1:27")
@@ -2729,17 +2746,17 @@ var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
 return r
 }
-e_[x[46]]={f:m28,j:[],i:[],ti:[],ic:[]}
-d_[x[47]]={}
+e_[x[44]]={f:m28,j:[],i:[],ti:[],ic:[]}
+d_[x[45]]={}
 var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
-var cDC=e_[x[47]].i
-_ai(cDC,x[48],e_,x[47],1,1)
+var cDC=e_[x[45]].i
+_ai(cDC,x[46],e_,x[45],1,1)
 var hEC=_v()
 _(r,hEC)
 cs.push("./pages/index/confession/publish.wxml:template:2:6")
 var oFC=_oz(z,1,e,s,gg)
-var cGC=_gd(x[47],oFC,e_,d_)
+var cGC=_gd(x[45],oFC,e_,d_)
 if(cGC){
 var oHC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2747,19 +2764,19 @@ hEC.wxXCkey=3
 cGC(oHC,oHC,hEC,gg)
 gg.f=cur_globalf
 }
-else _w(oFC,x[47],2,18)
+else _w(oFC,x[45],2,18)
 cs.pop()
 cDC.pop()
 return r
 }
-e_[x[47]]={f:m29,j:[],i:[],ti:[x[48]],ic:[]}
-d_[x[49]]={}
-d_[x[49]]["200c6b52"]=function(e,s,r,gg){
+e_[x[45]]={f:m29,j:[],i:[],ti:[x[46]],ic:[]}
+d_[x[47]]={}
+d_[x[47]]["200c6b52"]=function(e,s,r,gg){
 var z=gz$gwx_31()
-var b=x[49]+':200c6b52'
+var b=x[47]+':200c6b52'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[49]);return}
+if(p_[b]){_wl(b,x[47]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2773,17 +2790,17 @@ var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
 return r
 }
-e_[x[49]]={f:m30,j:[],i:[],ti:[],ic:[]}
-d_[x[50]]={}
+e_[x[47]]={f:m30,j:[],i:[],ti:[],ic:[]}
+d_[x[48]]={}
 var m31=function(e,s,r,gg){
 var z=gz$gwx_32()
-var tKC=e_[x[50]].i
-_ai(tKC,x[45],e_,x[50],1,1)
+var tKC=e_[x[48]].i
+_ai(tKC,x[43],e_,x[48],1,1)
 var eLC=_v()
 _(r,eLC)
 cs.push("./pages/index/index.wxml:template:2:6")
 var bMC=_oz(z,1,e,s,gg)
-var oNC=_gd(x[50],bMC,e_,d_)
+var oNC=_gd(x[48],bMC,e_,d_)
 if(oNC){
 var xOC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2791,19 +2808,19 @@ eLC.wxXCkey=3
 oNC(xOC,xOC,eLC,gg)
 gg.f=cur_globalf
 }
-else _w(bMC,x[50],2,18)
+else _w(bMC,x[48],2,18)
 cs.pop()
 tKC.pop()
 return r
 }
-e_[x[50]]={f:m31,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[51]]={}
-d_[x[51]]["c7b673fe"]=function(e,s,r,gg){
+e_[x[48]]={f:m31,j:[],i:[],ti:[x[43]],ic:[]}
+d_[x[49]]={}
+d_[x[49]]["c7b673fe"]=function(e,s,r,gg){
 var z=gz$gwx_33()
-var b=x[51]+':c7b673fe'
+var b=x[49]+':c7b673fe'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[51]);return}
+if(p_[b]){_wl(b,x[49]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2817,17 +2834,17 @@ var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
 return r
 }
-e_[x[51]]={f:m32,j:[],i:[],ti:[],ic:[]}
-d_[x[52]]={}
+e_[x[49]]={f:m32,j:[],i:[],ti:[],ic:[]}
+d_[x[50]]={}
 var m33=function(e,s,r,gg){
 var z=gz$gwx_34()
-var cRC=e_[x[52]].i
-_ai(cRC,x[53],e_,x[52],1,1)
+var cRC=e_[x[50]].i
+_ai(cRC,x[51],e_,x[50],1,1)
 var hSC=_v()
 _(r,hSC)
 cs.push("./pages/index/market/checkstand.wxml:template:2:6")
 var oTC=_oz(z,1,e,s,gg)
-var cUC=_gd(x[52],oTC,e_,d_)
+var cUC=_gd(x[50],oTC,e_,d_)
 if(cUC){
 var oVC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2835,19 +2852,19 @@ hSC.wxXCkey=3
 cUC(oVC,oVC,hSC,gg)
 gg.f=cur_globalf
 }
-else _w(oTC,x[52],2,18)
+else _w(oTC,x[50],2,18)
 cs.pop()
 cRC.pop()
 return r
 }
-e_[x[52]]={f:m33,j:[],i:[],ti:[x[53]],ic:[]}
-d_[x[54]]={}
-d_[x[54]]["5be952bf"]=function(e,s,r,gg){
+e_[x[50]]={f:m33,j:[],i:[],ti:[x[51]],ic:[]}
+d_[x[52]]={}
+d_[x[52]]["5be952bf"]=function(e,s,r,gg){
 var z=gz$gwx_35()
-var b=x[54]+':5be952bf'
+var b=x[52]+':5be952bf'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[54]);return}
+if(p_[b]){_wl(b,x[52]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/index.vue.wxml:view:1:85")
@@ -2933,7 +2950,7 @@ var lY=_v()
 _(oB,lY)
 cs.push("./pages/index/market/index.vue.wxml:template:1:3474")
 var aZ=_oz(z,35,e,s,gg)
-var t1=_gd(x[54],aZ,e_,d_)
+var t1=_gd(x[52],aZ,e_,d_)
 if(t1){
 var e2=_1z(z,34,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2941,7 +2958,7 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[54],1,3545)
+else _w(aZ,x[52],1,3545)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2954,22 +2971,22 @@ return r
 }
 var m34=function(e,s,r,gg){
 var z=gz$gwx_35()
-var aXC=e_[x[54]].i
-_ai(aXC,x[7],e_,x[54],1,1)
+var aXC=e_[x[52]].i
+_ai(aXC,x[40],e_,x[52],1,1)
 aXC.pop()
 return r
 }
-e_[x[54]]={f:m34,j:[],i:[],ti:[x[7]],ic:[]}
-d_[x[55]]={}
+e_[x[52]]={f:m34,j:[],i:[],ti:[x[40]],ic:[]}
+d_[x[53]]={}
 var m35=function(e,s,r,gg){
 var z=gz$gwx_36()
-var eZC=e_[x[55]].i
-_ai(eZC,x[45],e_,x[55],1,1)
+var eZC=e_[x[53]].i
+_ai(eZC,x[43],e_,x[53],1,1)
 var b1C=_v()
 _(r,b1C)
 cs.push("./pages/index/market/index.wxml:template:2:6")
 var o2C=_oz(z,1,e,s,gg)
-var x3C=_gd(x[55],o2C,e_,d_)
+var x3C=_gd(x[53],o2C,e_,d_)
 if(x3C){
 var o4C=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2977,19 +2994,19 @@ b1C.wxXCkey=3
 x3C(o4C,o4C,b1C,gg)
 gg.f=cur_globalf
 }
-else _w(o2C,x[55],2,18)
+else _w(o2C,x[53],2,18)
 cs.pop()
 eZC.pop()
 return r
 }
-e_[x[55]]={f:m35,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[56]]={}
-d_[x[56]]["2763a7ef"]=function(e,s,r,gg){
+e_[x[53]]={f:m35,j:[],i:[],ti:[x[43]],ic:[]}
+d_[x[54]]={}
+d_[x[54]]["2763a7ef"]=function(e,s,r,gg){
 var z=gz$gwx_37()
-var b=x[56]+':2763a7ef'
+var b=x[54]+':2763a7ef'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/market.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[56]);return}
+if(p_[b]){_wl(b,x[54]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/market.vue.wxml:view:1:194")
@@ -2998,7 +3015,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/market/market.vue.wxml:template:1:244")
 var oD=_oz(z,5,e,s,gg)
-var fE=_gd(x[56],oD,e_,d_)
+var fE=_gd(x[54],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3006,7 +3023,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[56],1,357)
+else _w(oD,x[54],1,357)
 cs.pop()
 cs.push("./pages/index/market/market.vue.wxml:view:1:2328")
 var hG=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
@@ -3023,7 +3040,7 @@ var cI=_v()
 _(oB,cI)
 cs.push("./pages/index/market/market.vue.wxml:template:1:2931")
 var oJ=_oz(z,12,e,s,gg)
-var lK=_gd(x[56],oJ,e_,d_)
+var lK=_gd(x[54],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3031,7 +3048,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[56],1,3058)
+else _w(oJ,x[54],1,3058)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3044,26 +3061,26 @@ return r
 }
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
-var c6C=e_[x[56]].i
-_ai(c6C,x[1],e_,x[56],1,1)
-_ai(c6C,x[2],e_,x[56],1,59)
-_ai(c6C,x[3],e_,x[56],1,108)
+var c6C=e_[x[54]].i
+_ai(c6C,x[1],e_,x[54],1,1)
+_ai(c6C,x[2],e_,x[54],1,59)
+_ai(c6C,x[3],e_,x[54],1,108)
 c6C.pop()
 c6C.pop()
 c6C.pop()
 return r
 }
-e_[x[56]]={f:m36,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
-d_[x[57]]={}
+e_[x[54]]={f:m36,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+d_[x[55]]={}
 var m37=function(e,s,r,gg){
 var z=gz$gwx_38()
-var o8C=e_[x[57]].i
-_ai(o8C,x[58],e_,x[57],1,1)
+var o8C=e_[x[55]].i
+_ai(o8C,x[56],e_,x[55],1,1)
 var c9C=_v()
 _(r,c9C)
 cs.push("./pages/index/market/market.wxml:template:2:6")
 var o0C=_oz(z,1,e,s,gg)
-var lAD=_gd(x[57],o0C,e_,d_)
+var lAD=_gd(x[55],o0C,e_,d_)
 if(lAD){
 var aBD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3071,19 +3088,19 @@ c9C.wxXCkey=3
 lAD(aBD,aBD,c9C,gg)
 gg.f=cur_globalf
 }
-else _w(o0C,x[57],2,18)
+else _w(o0C,x[55],2,18)
 cs.pop()
 o8C.pop()
 return r
 }
-e_[x[57]]={f:m37,j:[],i:[],ti:[x[58]],ic:[]}
-d_[x[59]]={}
-d_[x[59]]["631f5603"]=function(e,s,r,gg){
+e_[x[55]]={f:m37,j:[],i:[],ti:[x[56]],ic:[]}
+d_[x[57]]={}
+d_[x[57]]["631f5603"]=function(e,s,r,gg){
 var z=gz$gwx_39()
-var b=x[59]+':631f5603'
+var b=x[57]+':631f5603'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/chat.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[59]);return}
+if(p_[b]){_wl(b,x[57]);return}
 p_[b]=true
 try{
 cs.push("./pages/message/chat.vue.wxml:view:1:142")
@@ -3093,7 +3110,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/message/chat.vue.wxml:template:1:171")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[59],oD,e_,d_)
+var fE=_gd(x[57],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3101,13 +3118,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[59],1,327)
+else _w(oD,x[57],1,327)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/message/chat.vue.wxml:template:1:350")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[59],oH,e_,d_)
+var cI=_gd(x[57],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3115,7 +3132,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[59],1,564)
+else _w(oH,x[57],1,564)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3128,14 +3145,14 @@ return r
 }
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
-var eDD=e_[x[59]].i
-_ai(eDD,x[5],e_,x[59],1,1)
-_ai(eDD,x[6],e_,x[59],1,57)
+var eDD=e_[x[57]].i
+_ai(eDD,x[58],e_,x[57],1,1)
+_ai(eDD,x[59],e_,x[57],1,57)
 eDD.pop()
 eDD.pop()
 return r
 }
-e_[x[59]]={f:m38,j:[],i:[],ti:[x[5],x[6]],ic:[]}
+e_[x[57]]={f:m38,j:[],i:[],ti:[x[58],x[59]],ic:[]}
 d_[x[60]]={}
 var m39=function(e,s,r,gg){
 var z=gz$gwx_40()
@@ -3236,6 +3253,13 @@ gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[65]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+if(_oz(z,1,e,s,gg)){oB.wxVkey=1
+cs.push("./pages/my/market/index.vue.wxml:button:1:469")
+cs.pop()
+}
+oB.wxXCkey=1
 }catch(err){
 p_[b]=false
 throw err
@@ -3252,7 +3276,7 @@ d_[x[66]]={}
 var m43=function(e,s,r,gg){
 var z=gz$gwx_44()
 var oTD=e_[x[66]].i
-_ai(oTD,x[45],e_,x[66],1,1)
+_ai(oTD,x[43],e_,x[66],1,1)
 var xUD=_v()
 _(r,xUD)
 cs.push("./pages/my/market/index.wxml:template:2:6")
@@ -3270,13 +3294,13 @@ cs.pop()
 oTD.pop()
 return r
 }
-e_[x[66]]={f:m43,j:[],i:[],ti:[x[45]],ic:[]}
+e_[x[66]]={f:m43,j:[],i:[],ti:[x[43]],ic:[]}
 d_[x[67]]={}
-d_[x[67]]["3ddaedaa"]=function(e,s,r,gg){
+d_[x[67]]["7f259f98"]=function(e,s,r,gg){
 var z=gz$gwx_45()
-var b=x[67]+':3ddaedaa'
+var b=x[67]+':7f259f98'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[67]);return}
 p_[b]=true
 try{
@@ -3299,7 +3323,7 @@ var c1D=e_[x[68]].i
 _ai(c1D,x[69],e_,x[68],1,1)
 var o2D=_v()
 _(r,o2D)
-cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
+cs.push("./pages/my/market/manage.wxml:template:2:6")
 var l3D=_oz(z,1,e,s,gg)
 var a4D=_gd(x[68],l3D,e_,d_)
 if(a4D){
@@ -3316,11 +3340,11 @@ return r
 }
 e_[x[68]]={f:m45,j:[],i:[],ti:[x[69]],ic:[]}
 d_[x[70]]={}
-d_[x[70]]["6819fcac"]=function(e,s,r,gg){
+d_[x[70]]["3ddaedaa"]=function(e,s,r,gg){
 var z=gz$gwx_47()
-var b=x[70]+':6819fcac'
+var b=x[70]+':3ddaedaa'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[70]);return}
 p_[b]=true
 try{
@@ -3343,7 +3367,7 @@ var o8D=e_[x[71]].i
 _ai(o8D,x[72],e_,x[71],1,1)
 var x9D=_v()
 _(r,x9D)
-cs.push("./pages/my/my.wxml:template:2:6")
+cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
 var o0D=_oz(z,1,e,s,gg)
 var fAE=_gd(x[71],o0D,e_,d_)
 if(fAE){
@@ -3360,11 +3384,11 @@ return r
 }
 e_[x[71]]={f:m47,j:[],i:[],ti:[x[72]],ic:[]}
 d_[x[73]]={}
-d_[x[73]]["c9670ade"]=function(e,s,r,gg){
+d_[x[73]]["7f4ebc97"]=function(e,s,r,gg){
 var z=gz$gwx_49()
-var b=x[73]+':c9670ade'
+var b=x[73]+':7f4ebc97'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[73]);return}
 p_[b]=true
 try{
@@ -3387,7 +3411,7 @@ var cEE=e_[x[74]].i
 _ai(cEE,x[75],e_,x[74],1,1)
 var oFE=_v()
 _(r,oFE)
-cs.push("./pages/my/setting/setting.wxml:template:2:6")
+cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
 var lGE=_oz(z,1,e,s,gg)
 var aHE=_gd(x[74],lGE,e_,d_)
 if(aHE){
@@ -3404,11 +3428,11 @@ return r
 }
 e_[x[74]]={f:m49,j:[],i:[],ti:[x[75]],ic:[]}
 d_[x[76]]={}
-d_[x[76]]["4c98c0cb"]=function(e,s,r,gg){
+d_[x[76]]["6819fcac"]=function(e,s,r,gg){
 var z=gz$gwx_51()
-var b=x[76]+':4c98c0cb'
+var b=x[76]+':6819fcac'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
@@ -3431,7 +3455,7 @@ var oLE=e_[x[77]].i
 _ai(oLE,x[78],e_,x[77],1,1)
 var xME=_v()
 _(r,xME)
-cs.push("./pages/register/reg.wxml:template:2:6")
+cs.push("./pages/my/my.wxml:template:2:6")
 var oNE=_oz(z,1,e,s,gg)
 var fOE=_gd(x[77],oNE,e_,d_)
 if(fOE){
@@ -3448,40 +3472,14 @@ return r
 }
 e_[x[77]]={f:m51,j:[],i:[],ti:[x[78]],ic:[]}
 d_[x[79]]={}
-d_[x[79]]["2d4a1539"]=function(e,s,r,gg){
+d_[x[79]]["c9670ade"]=function(e,s,r,gg){
 var z=gz$gwx_53()
-var b=x[79]+':2d4a1539'
+var b=x[79]+':c9670ade'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
-cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/register/selectSchool.vue.wxml:view:1:776")
-cs.pop()
-}
-var oD=_v()
-_(oB,oD)
-cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
-var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[79],fE,e_,d_)
-if(cF){
-var hG=_1z(z,4,e,s,gg) || {}
-var cur_globalf=gg.f
-oD.wxXCkey=3
-cF(hG,hG,oD,gg)
-gg.f=cur_globalf
-}
-else _w(fE,x[79],1,2169)
-cs.pop()
-xC.wxXCkey=1
-cs.pop()
-_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -3491,41 +3489,38 @@ return r
 }
 var m52=function(e,s,r,gg){
 var z=gz$gwx_53()
-var oRE=e_[x[79]].i
-_ai(oRE,x[4],e_,x[79],1,1)
-oRE.pop()
 return r
 }
-e_[x[79]]={f:m52,j:[],i:[],ti:[x[4]],ic:[]}
+e_[x[79]]={f:m52,j:[],i:[],ti:[],ic:[]}
 d_[x[80]]={}
 var m53=function(e,s,r,gg){
 var z=gz$gwx_54()
-var oTE=e_[x[80]].i
-_ai(oTE,x[81],e_,x[80],1,1)
-var lUE=_v()
-_(r,lUE)
-cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var aVE=_oz(z,1,e,s,gg)
-var tWE=_gd(x[80],aVE,e_,d_)
-if(tWE){
-var eXE=_1z(z,0,e,s,gg) || {}
+var cSE=e_[x[80]].i
+_ai(cSE,x[81],e_,x[80],1,1)
+var oTE=_v()
+_(r,oTE)
+cs.push("./pages/my/setting/setting.wxml:template:2:6")
+var lUE=_oz(z,1,e,s,gg)
+var aVE=_gd(x[80],lUE,e_,d_)
+if(aVE){
+var tWE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lUE.wxXCkey=3
-tWE(eXE,eXE,lUE,gg)
+oTE.wxXCkey=3
+aVE(tWE,tWE,oTE,gg)
 gg.f=cur_globalf
 }
-else _w(aVE,x[80],2,18)
+else _w(lUE,x[80],2,18)
 cs.pop()
-oTE.pop()
+cSE.pop()
 return r
 }
 e_[x[80]]={f:m53,j:[],i:[],ti:[x[81]],ic:[]}
 d_[x[82]]={}
-d_[x[82]]["685fe0c1"]=function(e,s,r,gg){
+d_[x[82]]["4c98c0cb"]=function(e,s,r,gg){
 var z=gz$gwx_55()
-var b=x[82]+':685fe0c1'
+var b=x[82]+':4c98c0cb'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[82]);return}
 p_[b]=true
 try{
@@ -3544,35 +3539,61 @@ e_[x[82]]={f:m54,j:[],i:[],ti:[],ic:[]}
 d_[x[83]]={}
 var m55=function(e,s,r,gg){
 var z=gz$gwx_56()
-var x1E=e_[x[83]].i
-_ai(x1E,x[84],e_,x[83],1,1)
-var o2E=_v()
-_(r,o2E)
-cs.push("./pages/register/selectSex.wxml:template:2:6")
-var f3E=_oz(z,1,e,s,gg)
-var c4E=_gd(x[83],f3E,e_,d_)
-if(c4E){
-var h5E=_1z(z,0,e,s,gg) || {}
+var oZE=e_[x[83]].i
+_ai(oZE,x[84],e_,x[83],1,1)
+var x1E=_v()
+_(r,x1E)
+cs.push("./pages/register/reg.wxml:template:2:6")
+var o2E=_oz(z,1,e,s,gg)
+var f3E=_gd(x[83],o2E,e_,d_)
+if(f3E){
+var c4E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o2E.wxXCkey=3
-c4E(h5E,h5E,o2E,gg)
+x1E.wxXCkey=3
+f3E(c4E,c4E,x1E,gg)
 gg.f=cur_globalf
 }
-else _w(f3E,x[83],2,18)
+else _w(o2E,x[83],2,18)
 cs.pop()
-x1E.pop()
+oZE.pop()
 return r
 }
 e_[x[83]]={f:m55,j:[],i:[],ti:[x[84]],ic:[]}
 d_[x[85]]={}
-d_[x[85]]["59b2495c"]=function(e,s,r,gg){
+d_[x[85]]["2d4a1539"]=function(e,s,r,gg){
 var z=gz$gwx_57()
-var b=x[85]+':59b2495c'
+var b=x[85]+':2d4a1539'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[85]);return}
 p_[b]=true
 try{
+cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/register/selectSchool.vue.wxml:view:1:776")
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
+var fE=_oz(z,7,e,s,gg)
+var cF=_gd(x[85],fE,e_,d_)
+if(cF){
+var hG=_1z(z,4,e,s,gg) || {}
+var cur_globalf=gg.f
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
+gg.f=cur_globalf
+}
+else _w(fE,x[85],1,2169)
+cs.pop()
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -3582,9 +3603,12 @@ return r
 }
 var m56=function(e,s,r,gg){
 var z=gz$gwx_57()
+var o6E=e_[x[85]].i
+_ai(o6E,x[17],e_,x[85],1,1)
+o6E.pop()
 return r
 }
-e_[x[85]]={f:m56,j:[],i:[],ti:[],ic:[]}
+e_[x[85]]={f:m56,j:[],i:[],ti:[x[17]],ic:[]}
 d_[x[86]]={}
 var m57=function(e,s,r,gg){
 var z=gz$gwx_58()
@@ -3592,7 +3616,7 @@ var o8E=e_[x[86]].i
 _ai(o8E,x[87],e_,x[86],1,1)
 var l9E=_v()
 _(r,l9E)
-cs.push("./pages/register/setAvatar.wxml:template:2:6")
+cs.push("./pages/register/selectSchool.wxml:template:2:6")
 var a0E=_oz(z,1,e,s,gg)
 var tAF=_gd(x[86],a0E,e_,d_)
 if(tAF){
@@ -3608,6 +3632,94 @@ o8E.pop()
 return r
 }
 e_[x[86]]={f:m57,j:[],i:[],ti:[x[87]],ic:[]}
+d_[x[88]]={}
+d_[x[88]]["685fe0c1"]=function(e,s,r,gg){
+var z=gz$gwx_59()
+var b=x[88]+':685fe0c1'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[88]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m58=function(e,s,r,gg){
+var z=gz$gwx_59()
+return r
+}
+e_[x[88]]={f:m58,j:[],i:[],ti:[],ic:[]}
+d_[x[89]]={}
+var m59=function(e,s,r,gg){
+var z=gz$gwx_60()
+var xEF=e_[x[89]].i
+_ai(xEF,x[90],e_,x[89],1,1)
+var oFF=_v()
+_(r,oFF)
+cs.push("./pages/register/selectSex.wxml:template:2:6")
+var fGF=_oz(z,1,e,s,gg)
+var cHF=_gd(x[89],fGF,e_,d_)
+if(cHF){
+var hIF=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oFF.wxXCkey=3
+cHF(hIF,hIF,oFF,gg)
+gg.f=cur_globalf
+}
+else _w(fGF,x[89],2,18)
+cs.pop()
+xEF.pop()
+return r
+}
+e_[x[89]]={f:m59,j:[],i:[],ti:[x[90]],ic:[]}
+d_[x[91]]={}
+d_[x[91]]["59b2495c"]=function(e,s,r,gg){
+var z=gz$gwx_61()
+var b=x[91]+':59b2495c'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[91]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m60=function(e,s,r,gg){
+var z=gz$gwx_61()
+return r
+}
+e_[x[91]]={f:m60,j:[],i:[],ti:[],ic:[]}
+d_[x[92]]={}
+var m61=function(e,s,r,gg){
+var z=gz$gwx_62()
+var oLF=e_[x[92]].i
+_ai(oLF,x[93],e_,x[92],1,1)
+var lMF=_v()
+_(r,lMF)
+cs.push("./pages/register/setAvatar.wxml:template:2:6")
+var aNF=_oz(z,1,e,s,gg)
+var tOF=_gd(x[92],aNF,e_,d_)
+if(tOF){
+var ePF=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+lMF.wxXCkey=3
+tOF(ePF,ePF,lMF,gg)
+gg.f=cur_globalf
+}
+else _w(aNF,x[92],2,18)
+cs.pop()
+oLF.pop()
+return r
+}
+e_[x[92]]={f:m61,j:[],i:[],ti:[x[93]],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -3628,13 +3740,13 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/setting/setting","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.8.2"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/setting/setting","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.8.2"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/common/checkSchool.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","titleNView":{"searchInput":{"autoFocus":true,"disabled":false,"align":"left","backgroundColor":"#FFFFFF","borderRadius":"15px","placeholder":"输入学校名称搜索"}}};
 __wxAppCode__['pages/common/checkSchool.wxml']=$gwx('./pages/common/checkSchool.wxml');
 
-__wxAppCode__['pages/common/comment.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"评论详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true,"color":"#fc4243"},"animationType":"slide-in-bottom"};
+__wxAppCode__['pages/common/comment.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"评论详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true},"animationType":"slide-in-bottom"};
 __wxAppCode__['pages/common/comment.wxml']=$gwx('./pages/common/comment.wxml');
 
 __wxAppCode__['pages/common/login.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"登录","titleNView":false,"bounce":"none"};
@@ -3676,11 +3788,17 @@ __wxAppCode__['pages/message/chat.wxml']=$gwx('./pages/message/chat.wxml');
 __wxAppCode__['pages/message/message.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息","pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml');
 
-__wxAppCode__['pages/my/market/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"我的店铺"};
+__wxAppCode__['pages/my/market/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"我的店铺","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/my/market/index.wxml']=$gwx('./pages/my/market/index.wxml');
+
+__wxAppCode__['pages/my/market/manage.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"店铺管理","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
+__wxAppCode__['pages/my/market/manage.wxml']=$gwx('./pages/my/market/manage.wxml');
 
 __wxAppCode__['pages/my/market/regMarketInfo.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"申请开通店铺"};
 __wxAppCode__['pages/my/market/regMarketInfo.wxml']=$gwx('./pages/my/market/regMarketInfo.wxml');
+
+__wxAppCode__['pages/my/market/verifyIdCard.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"身份认证"};
+__wxAppCode__['pages/my/market/verifyIdCard.wxml']=$gwx('./pages/my/market/verifyIdCard.wxml');
 
 __wxAppCode__['pages/my/my.json']={"usingComponents":{},"navigationStyle":"custom","titleNView":false};
 __wxAppCode__['pages/my/my.wxml']=$gwx('./pages/my/my.wxml');
@@ -3725,7 +3843,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://39.96.188.46:8282';\nvar serverSrc = 'http://apii.ym998.cn/';var _default =\n{\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '未知的网络错误, 请确保设备处在联网状态',\n        icon: \"none\" });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误，错误码为：' + e.statusCode,\n        icon: \"none\" });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://39.96.188.46:8282';\nvar serverSrc = 'http://123.151.1.28/';var _default =\n{\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: \"none\" });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: \"none\" });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 
@@ -4016,7 +4134,7 @@ define('common/vendor.js',function(require, module, exports, window, document, f
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (isSyncApi(name)) {\n    return false;\n  }\n  if (isCallbackApi(name)) {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {var _this = this;\n      if (delay) {\n        setTimeout(function () {return _this.$vm.__call_hook(hook, args);});\n      } else {\n        this.$vm.__call_hook(hook, args);\n      }\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"VUE_APP_PLATFORM\":\"app-plus\",\"NODE_ENV\":\"development\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (!hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n  event.detail = event.detail || {};\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n  event.target = Object.assign({}, event.target, event.detail);\n  return event;\n}\n\nfunction processEventArgs(event) {var args = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];var isCustom = arguments.length > 2 ? arguments[2] : undefined;\n  if (isCustom && !args.length) {// 无参数，直接传入 detail 数组\n    return event.detail;\n  }\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      ret.push(isCustom ? event.detail[0] : event);\n    } else {\n      ret.push(arg);\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this2 = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var handler = _this2.$vm[eventArray[0]];\n        if (!isFn(handler)) {\n          throw new Error(\" _vm.\".concat(eventArray[0], \" is not a function\"));\n        }\n        if (isOnce) {\n          if (handler.once) {\n            return;\n          }\n          handler.once = true;\n        }\n        handler.apply(_this2.$vm, processEventArgs(event, eventArray[1], isCustom));\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = Object.create(null);\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onShow',\n'onHide',\n'onError',\n'onPageNotFound'];\n\n\nfunction createApp(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        initRefs(this);\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {var _this3 = this;\n      this.$vm = new _vue.default(Object.assign(vueOptions, {\n        mpType: 'app',\n        mpInstance: this }));\n\n\n      this.$vm.$mount();\n      setTimeout(function () {return _this3.$vm.__call_hook('onLaunch', args);});\n    } };\n\n\n  initHooks(appOptions, hooks, true); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vueOptions;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var pageOptions = {\n    data: getData(vueOptions, _vue.default.prototype),\n    onLoad: function onLoad(args) {\n\n      this.$vm = new _vue.default(Object.assign(vueOptions, {\n        mpType: 'page',\n        mpInstance: this }));\n\n\n      this.$vm.__call_hook('created');\n      this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      this.$vm.$mount();\n    },\n    onReady: function onReady() {\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n      this.$vm.__call_hook('onReady');\n    },\n    onUnload: function onUnload() {\n      this.$vm.__call_hook('onUnload');\n      {\n        this.$vm.$destroy();\n      }\n    },\n    __e: handleEvent,\n    __l: handleLink };\n\n\n  initHooks(pageOptions, hooks$1);\n\n  return Page(pageOptions);\n}\n\nfunction initVueComponent(mpInstace, VueComponent) {var extraOptions = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};\n  if (mpInstace.$vm) {\n    return;\n  }\n\n  var options = Object.assign({\n    mpType: 'component',\n    mpInstance: mpInstace,\n    propsData: mpInstace.properties },\n  extraOptions);\n  // 初始化 vue 实例\n  mpInstace.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = mpInstace.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    mpInstace.$vm.$scopedSlots = mpInstace.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  mpInstace.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVueComponent(this, VueComponent);\n      },\n      ready: function ready() {\n        initVueComponent(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (isSyncApi(name)) {\n    return false;\n  }\n  if (isCallbackApi(name)) {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {var _this = this;\n      if (delay) {\n        setTimeout(function () {return _this.$vm.__call_hook(hook, args);});\n      } else {\n        this.$vm.__call_hook(hook, args);\n      }\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"NODE_ENV\":\"development\",\"VUE_APP_PLATFORM\":\"app-plus\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (!hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n  event.detail = event.detail || {};\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n  event.target = Object.assign({}, event.target, event.detail);\n  return event;\n}\n\nfunction processEventArgs(event) {var args = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];var isCustom = arguments.length > 2 ? arguments[2] : undefined;\n  if (isCustom && !args.length) {// 无参数，直接传入 detail 数组\n    return event.detail;\n  }\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      ret.push(isCustom ? event.detail[0] : event);\n    } else {\n      ret.push(arg);\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this2 = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var handler = _this2.$vm[eventArray[0]];\n        if (!isFn(handler)) {\n          throw new Error(\" _vm.\".concat(eventArray[0], \" is not a function\"));\n        }\n        if (isOnce) {\n          if (handler.once) {\n            return;\n          }\n          handler.once = true;\n        }\n        handler.apply(_this2.$vm, processEventArgs(event, eventArray[1], isCustom));\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = Object.create(null);\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onShow',\n'onHide',\n'onError',\n'onPageNotFound'];\n\n\nfunction createApp(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        initRefs(this);\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {var _this3 = this;\n      this.$vm = new _vue.default(Object.assign(vueOptions, {\n        mpType: 'app',\n        mpInstance: this }));\n\n\n      this.$vm.$mount();\n      setTimeout(function () {return _this3.$vm.__call_hook('onLaunch', args);});\n    } };\n\n\n  initHooks(appOptions, hooks, true); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vueOptions;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var pageOptions = {\n    data: getData(vueOptions, _vue.default.prototype),\n    onLoad: function onLoad(args) {\n\n      this.$vm = new _vue.default(Object.assign(vueOptions, {\n        mpType: 'page',\n        mpInstance: this }));\n\n\n      this.$vm.__call_hook('created');\n      this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      this.$vm.$mount();\n    },\n    onReady: function onReady() {\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n      this.$vm.__call_hook('onReady');\n    },\n    onUnload: function onUnload() {\n      this.$vm.__call_hook('onUnload');\n      {\n        this.$vm.$destroy();\n      }\n    },\n    __e: handleEvent,\n    __l: handleLink };\n\n\n  initHooks(pageOptions, hooks$1);\n\n  return Page(pageOptions);\n}\n\nfunction initVueComponent(mpInstace, VueComponent) {var extraOptions = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};\n  if (mpInstace.$vm) {\n    return;\n  }\n\n  var options = Object.assign({\n    mpType: 'component',\n    mpInstance: mpInstace,\n    propsData: mpInstace.properties },\n  extraOptions);\n  // 初始化 vue 实例\n  mpInstace.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = mpInstace.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    mpInstace.$vm.$scopedSlots = mpInstace.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  mpInstace.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVueComponent(this, VueComponent);\n      },\n      ready: function ready() {\n        initVueComponent(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
 
 /***/ }),
 
@@ -4304,7 +4422,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info grace-rows\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-iconfont icon-position grace-ellipsis\",\n            attrs: { eventid: \"200c6b52-0\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/checkSchool?index=true\")\n              }\n            }\n          },\n          [\n            _c(\n              \"text\",\n              {\n                staticClass: \"is-bold\",\n                staticStyle: { \"margin-left\": \"5rpx\" }\n              },\n              [_vm._v(_vm._s(_vm.selectSchool.title))]\n            )\n          ]\n        ),\n        _c(\"view\", { staticClass: \"grace-rows\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"serach\",\n              attrs: { eventid: \"200c6b52-1\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"../common/search\")\n                }\n              }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-search serach-icon\"\n              }),\n              _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n            ]\n          ),\n          _c(\"view\", {\n            staticClass: \"iconfont icon-jiahao title\",\n            staticStyle: { \"font-size\": \"24px\" },\n            attrs: { eventid: \"200c6b52-2\" },\n            on: {\n              click: function($event) {\n                _vm.showPopupMenu()\n              }\n            }\n          })\n        ])\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _vm._m(1),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-4\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./market/index\")\n                }\n              }\n            },\n            [_vm._m(2)]\n          ),\n          _vm._m(3)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"找兼职\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info grace-rows\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-iconfont icon-position grace-ellipsis\",\n            attrs: { eventid: \"200c6b52-0\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/checkSchool?index=true\")\n              }\n            }\n          },\n          [\n            _c(\n              \"text\",\n              {\n                staticClass: \"is-bold\",\n                staticStyle: { \"margin-left\": \"5rpx\" }\n              },\n              [_vm._v(_vm._s(_vm.selectSchool.title))]\n            )\n          ]\n        ),\n        _c(\"view\", { staticClass: \"grace-rows\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"serach\",\n              attrs: { eventid: \"200c6b52-1\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"../common/search\")\n                }\n              }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-search serach-icon\"\n              }),\n              _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n            ]\n          ),\n          _c(\"view\", {\n            staticClass: \"iconfont icon-jiahao title\",\n            staticStyle: { \"font-size\": \"24px\" },\n            attrs: { eventid: \"200c6b52-2\" },\n            on: {\n              click: function($event) {\n                _vm.showPopupMenu()\n              }\n            }\n          })\n        ])\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"200c6b52-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\"view\", { staticClass: \"grace-boxes\" }, [\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-boxes-img\",\n                attrs: { eventid: \"200c6b52-4\" },\n                on: {\n                  click: function($event) {\n                    _vm.skip(\"../register/setAvatar\")\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n                }),\n                _c(\"view\", { staticClass: \"grace-boxes-text\" }, [\n                  _vm._v(\"找兼职\")\n                ])\n              ]\n            )\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"200c6b52-5\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./market/index\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"标题\")\n              ]),\n              _c(\"navigator\", { staticClass: \"grace-more-r\" }, [\n                _vm._v(\"更多\"),\n                _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n              ])\n            ],\n            1\n          ),\n          _c(\"view\", { staticClass: \"grace-imgitems\" }, [\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[0].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                _vm._v(\"标签\")\n              ]),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ]),\n            _c(\"view\", { staticClass: \"grace-items\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.swiperimgs[1].imgUrl, mode: \"widthFix\" }\n              }),\n              _c(\n                \"view\",\n                {\n                  staticClass:\n                    \"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r\"\n                },\n                [_vm._v(\"标签\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-imgitems-more\" }, [\n                _vm._v(\"我想做自己披星戴月闯荡的盖世英雄\")\n              ])\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/secondhand.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"淘二手\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/index.vue?vue&type=template&id=751a9049&");
 
 /***/ }),
 
@@ -4951,7 +5069,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n{\n  name: \"graceNumberBox\",\n  props: {\n    disabled: {\n      type: Boolean,\n      default: false },\n\n    value: {\n      type: Number,\n      default: 0 },\n\n    index: {\n      type: Number,\n      default: 0 },\n\n    maxNum: {\n      type: Number,\n      default: 20 },\n\n    minNum: {\n      type: Number,\n      default: 1 } },\n\n\n  data: function data() {\n    return {\n      inputNumber: this.value };\n\n  },\n  watch: {\n    value: function value(val) {\n      this.inputNumber = val;\n    },\n    inputNumber: function inputNumber(val) {\n      if (val > this.maxNum) {val = this.maxNum;this.inputNumber = val;}\n      if (val < this.minNum) {val = this.minNum;this.inputNumber = val;console.log(11);}\n      this.$emit('change', [val, this.index]);\n    } },\n\n  methods: {\n    add: function add() {\n      var newVal = this.inputNumber + 1;\n      this.inputNumber = Number(newVal);\n    },\n    reduce: function reduce() {\n      var newVal = this.inputNumber - 1;\n      this.inputNumber = newVal;\n    },\n    blur: function blur(e) {\n      this.inputNumber = Number(e.detail.value);\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///graceUI/components/graceNumberBox.vue?vue&type=script&lang=js&?30c4");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n{\n  name: \"graceNumberBox\",\n  props: {\n    disabled: {\n      type: Boolean,\n      default: false },\n\n    value: {\n      type: Number,\n      default: 0 },\n\n    index: {\n      type: Number,\n      default: 0 },\n\n    maxNum: {\n      type: Number,\n      default: 20 },\n\n    minNum: {\n      type: Number,\n      default: 1 } },\n\n\n  data: function data() {\n    return {\n      inputNumber: this.value };\n\n  },\n  watch: {\n    value: function value(val) {\n      this.inputNumber = val;\n    },\n    inputNumber: function inputNumber(val) {\n      val = Number(val);\n      if (val > this.maxNum) {val = this.maxNum;this.inputNumber = val;}\n      if (val < this.minNum) {val = this.minNum;this.inputNumber = val;}\n      this.$emit('change', [val, this.index]);\n    } },\n\n  methods: {\n    add: function add() {\n      var newVal = this.inputNumber + 1;\n      this.inputNumber = Number(newVal);\n    },\n    reduce: function reduce() {\n      var newVal = this.inputNumber - 1;\n      this.inputNumber = newVal;\n    },\n    blur: function blur(e) {\n      this.inputNumber = Number(e.detail.value);\n    } } };exports.default = _default;\n\n//# sourceURL=uni-app:///graceUI/components/graceNumberBox.vue?vue&type=script&lang=js&?30c4");
 
 /***/ }),
 
@@ -4975,7 +5093,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _popupLayer = _interopRequireDefault(__webpack_require__(/*! ../../../components/popup-layer.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\popup-layer.vue\"));\nvar _graceNumberBox = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceNumberBox.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceNumberBox.vue\"));\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceNumberBox: _graceNumberBox.default,\n    popupLayer: _popupLayer.default,\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0,\n      goodsCount: 0,\n      shoppingCart: [] };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    this.notices = JSON.parse(parameter.notices);\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        token: this.user.token,\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          _this.mainCate = res.data.mainCate;\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++; //用于购物车小红点\n      var product = e.currentTarget.dataset.product;\n      //console.log(JSON.stringify(e));\n      if (this.shoppingCart.find(function (x) {\n        return x.id === product.id;\n      }) != undefined) {//商品在shoppingCart购物车已存在\n        uni.showToast({\n          title: '购物车已存在此商品\\n请点击左下角购物车查看',\n          icon: \"none\" });\n\n      } else {\n        product.count = 1;\n        this.shoppingCart.push(product);\n      }\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    },\n    showShppingcard: function showShppingcard() {\n      this.$refs.popup.show();\n    },\n    change: function change(data) {//改变购物车数量\n      var index = data[1];\n      var count = data[0];\n      this.shoppingCart[index].count = count;\n    },\n    settleAccounts: function settleAccounts() {var _this2 = this;\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.show();\n      } else {\n        uni.showLoading({\n          title: '加载中' });\n\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'pay/create_order/create',\n          method: 'POST',\n          data: {\n            user_id: this.user.id,\n            shopping_cart: this.shoppingCart },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.navigateTo({\n                url: './checkstand?order_id=' + res.data.order_id + '&real_price=' + res.data.real_price });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this2.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?28b4");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _popupLayer = _interopRequireDefault(__webpack_require__(/*! ../../../components/popup-layer.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\components\\\\popup-layer.vue\"));\nvar _graceNumberBox = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceNumberBox.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceNumberBox.vue\"));\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceNumberBox: _graceNumberBox.default,\n    popupLayer: _popupLayer.default,\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0,\n      goodsCount: 0,\n      shoppingCart: [] };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    this.notices = JSON.parse(parameter.notices);\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        token: this.user.token,\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          _this.mainCate = res.data.mainCate;\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++; //用于购物车小红点\n      var product = e.currentTarget.dataset.product;\n      //console.log(JSON.stringify(e));\n      if (this.shoppingCart.find(function (x) {\n        return x.id === product.id;\n      }) != undefined) {//商品在shoppingCart购物车已存在\n        uni.showToast({\n          title: '购物车已存在此商品\\n请点击左下角购物车查看',\n          icon: \"none\" });\n\n      } else {\n        product.count = 1;\n        this.shoppingCart.push(product);\n      }\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    },\n    showShppingcard: function showShppingcard() {\n      this.$refs.popup.show();\n    },\n    change: function change(data) {//改变购物车数量\n      var index = data[1];\n      var count = data[0];\n      this.shoppingCart[index].count = count;\n    },\n    deleteProduct: function deleteProduct(index) {\n      this.shoppingCart.splice(index, 1);\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.close();\n      }\n    },\n    settleAccounts: function settleAccounts() {var _this2 = this;\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.show();\n      } else {\n        uni.showLoading({\n          title: '加载中' });\n\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'pay/create_order/create',\n          method: 'POST',\n          data: {\n            user_id: this.user.id,\n            shopping_cart: this.shoppingCart },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.navigateTo({\n                url: './checkstand?order_id=' + res.data.order_id + '&real_price=' + res.data.real_price });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this2.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?28b4");
 
 /***/ }),
 
@@ -5067,7 +5185,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-2\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-product\": product,\n                                    eventid:\n                                      \"2763a7ef-1-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticStyle: { width: \"60%\" } }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"icons iconfont icon-gouwuche\",\n              attrs: { eventid: \"2763a7ef-3\" },\n              on: { click: _vm.showShppingcard }\n            },\n            [\n              _vm.shoppingCart.length > 0\n                ? _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n                    _vm._v(_vm._s(_vm.shoppingCart.length))\n                  ])\n                : _vm._e()\n            ]\n          ),\n          _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n          _c(\"view\", { staticClass: \"icons iconfont icon-jiahao\" })\n        ]),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [\n            _c(\n              \"button\",\n              {\n                attrs: { type: \"warn\", eventid: \"2763a7ef-4\" },\n                on: { click: _vm.settleAccounts }\n              },\n              [_vm._v(\"立即结算\")]\n            )\n          ],\n          1\n        )\n      ]),\n      _c(\n        \"popup-layer\",\n        {\n          ref: \"popup\",\n          attrs: { direction: _vm.direction, mpcomid: \"2763a7ef-2\" }\n        },\n        [\n          _vm.shoppingCart.length === 0\n            ? _c(\n                \"view\",\n                {\n                  staticStyle: {\n                    \"text-align\": \"center\",\n                    color: \"grey\",\n                    \"line-height\": \"80px\"\n                  }\n                },\n                [_vm._v(\"购物车内空空如也(＞﹏＜)\")]\n              )\n            : _c(\"view\", { staticClass: \"grace-form\" }, [\n                _c(\n                  \"view\",\n                  { staticStyle: { padding: \"0 8rpx\" } },\n                  _vm._l(_vm.shoppingCart, function(product, index) {\n                    return _c(\n                      \"view\",\n                      { key: index, staticClass: \"grace-items\" },\n                      [\n                        _c(\"view\", { staticClass: \"iconss\" }, [\n                          _c(\"image\", {\n                            staticStyle: { width: \"50rpx\", height: \"50rpx\" },\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          })\n                        ]),\n                        _c(\"view\", { staticClass: \"grace-label\" }, [\n                          _vm._v(_vm._s(product.title))\n                        ]),\n                        _c(\"graceNumberBox\", {\n                          attrs: {\n                            minNum: \"0\",\n                            value: product.count,\n                            index: index,\n                            eventid: \"2763a7ef-5-\" + index,\n                            mpcomid: \"2763a7ef-1-\" + index\n                          },\n                          on: { change: _vm.change }\n                        })\n                      ],\n                      1\n                    )\n                  })\n                )\n              ])\n        ]\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-2\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-product\": product,\n                                    eventid:\n                                      \"2763a7ef-1-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticStyle: { width: \"60%\" } }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"icons iconfont icon-gouwuche\",\n              attrs: { eventid: \"2763a7ef-3\" },\n              on: { click: _vm.showShppingcard }\n            },\n            [\n              _vm.shoppingCart.length > 0\n                ? _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n                    _vm._v(_vm._s(_vm.shoppingCart.length))\n                  ])\n                : _vm._e()\n            ]\n          ),\n          _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n          _c(\"view\", { staticClass: \"icons iconfont icon-jiahao\" })\n        ]),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [\n            _c(\n              \"button\",\n              {\n                attrs: { type: \"warn\", eventid: \"2763a7ef-4\" },\n                on: { click: _vm.settleAccounts }\n              },\n              [_vm._v(\"立即结算\")]\n            )\n          ],\n          1\n        )\n      ]),\n      _c(\n        \"popup-layer\",\n        {\n          ref: \"popup\",\n          attrs: { direction: _vm.direction, mpcomid: \"2763a7ef-2\" }\n        },\n        [\n          _vm.shoppingCart.length === 0\n            ? _c(\n                \"view\",\n                {\n                  staticStyle: {\n                    \"text-align\": \"center\",\n                    color: \"grey\",\n                    \"line-height\": \"80px\"\n                  }\n                },\n                [_vm._v(\"购物车内空空如也(＞﹏＜)\")]\n              )\n            : _c(\"view\", { staticClass: \"grace-form\" }, [\n                _c(\n                  \"view\",\n                  { staticStyle: { padding: \"0 8rpx\" } },\n                  _vm._l(_vm.shoppingCart, function(product, index) {\n                    return _c(\n                      \"view\",\n                      { key: index, staticClass: \"grace-items\" },\n                      [\n                        _c(\"view\", { staticClass: \"iconss\" }, [\n                          _c(\"image\", {\n                            staticStyle: { width: \"50rpx\", height: \"50rpx\" },\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          })\n                        ]),\n                        _c(\"view\", { staticClass: \"grace-label\" }, [\n                          _vm._v(_vm._s(product.title))\n                        ]),\n                        _c(\"graceNumberBox\", {\n                          attrs: {\n                            minNum: \"1\",\n                            value: product.count,\n                            index: index,\n                            eventid: \"2763a7ef-5-\" + index,\n                            mpcomid: \"2763a7ef-1-\" + index\n                          },\n                          on: { change: _vm.change }\n                        }),\n                        _c(\n                          \"view\",\n                          {\n                            staticClass: \"delete\",\n                            attrs: { eventid: \"2763a7ef-6-\" + index },\n                            on: {\n                              click: function($event) {\n                                _vm.deleteProduct(index)\n                              }\n                            }\n                          },\n                          [_vm._v(\"删除\")]\n                        )\n                      ],\n                      1\n                    )\n                  })\n                )\n              ])\n        ]\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
 
 /***/ }),
 
@@ -5291,7 +5409,7 @@ define('pages/index/market/checkstand.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '' };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    alipay: function alipay() {\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              console.log('success:' + JSON.stringify(res));\n            },\n            fail: function fail(err) {\n              console.log('fail:' + JSON.stringify(err));\n            } });\n\n        },\n        fail: function fail() {},\n        complete: function complete() {} });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '' };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    alipay: function alipay() {\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log('fail:' + JSON.stringify(err));\n            } });\n\n        },\n        fail: function fail() {},\n        complete: function complete() {} });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
 
 /***/ }),
 
@@ -5394,7 +5512,7 @@ define('pages/common/login.js',function(require, module, exports, window, docume
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500, //默认屏幕高度500\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false };\n\n  },\n  computed: {\n    margin: function margin() {\n      return this.positionTop * 0.08;\n    } },\n\n  onReady: function onReady() {\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 105;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login']), {\n    loginWithWx: function loginWithWx() {\n      uni.login({\n        provider: 'weixin',\n        success: function success(loginRes) {\n          console.log(loginRes.authResult);\n        }, fail: function fail(e) {\n          console.log(JSON.stringify(e));\n        } });\n\n    },\n    loginWithQQ: function loginWithQQ() {\n      uni.showToast({\n        title: \"QQ登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    loginWithWb: function loginWithWb() {\n\n    },\n    loginNow: function loginNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              console.log(JSON.stringify(res.data));\n              _this.login(res.data);\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: '../register/reg' });\n\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?8903");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500, //默认屏幕高度500\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false };\n\n  },\n  computed: {\n    margin: function margin() {\n      return this.positionTop * 0.08;\n    } },\n\n  onReady: function onReady() {\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 105;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login']), {\n    loginWithWx: function loginWithWx() {\n      uni.login({\n        provider: 'weixin',\n        success: function success(loginRes) {\n          console.log(loginRes.authResult);\n        }, fail: function fail(e) {\n          console.log(JSON.stringify(e));\n        } });\n\n    },\n    loginWithQQ: function loginWithQQ() {\n      uni.showToast({\n        title: \"QQ登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    loginWithWb: function loginWithWb() {\n\n    },\n    loginNow: function loginNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this.login(res.data);\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: '../register/reg' });\n\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/login.vue?vue&type=script&lang=js&?8903");
 
 /***/ }),
 
@@ -5783,7 +5901,7 @@ define('pages/register/setAvatar.js',function(require, module, exports, window, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      userName: '',\n      avatarPath: '',\n      hasAvatar: false };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'school']), // 拿到vuex的register对象\n  methods: _objectSpread({},\n\n  (0, _vuex.mapMutations)(['regSetUserName', 'regAfterLogin', 'regSetAvatar']), {\n    //点击提交按钮\n    submit: function submit() {var _this2 = this;\n      if (this.userName.length <= 0 || this.userName.length > 8) {//验证昵称\n        uni.showToast({\n          title: \"请输入正确的昵称\",\n          icon: \"none\" });\n\n        return;\n      } else if (this.avatarPath.length === 0) {//验证头像是否上传\n        uni.showToast({\n          title: \"您还未上传头像\",\n          icon: \"none\" });\n\n        return;\n      } else {\n        this.regSetUserName(this.userName);\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/common/register/register',\n          method: 'POST',\n          data: {\n            'phone': this.user.phone,\n            'password': this.user.password,\n            'user_name': this.user.userName,\n            'avatar': this.user.avatar,\n            'sex': this.user.sex,\n            'id': this.school.id },\n\n          success: function success(res) {\n            if (res.data.status === 200) {//注册成功\n              _this2.regAfterLogin(res.data);\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n              uni.switchTab({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            if (e.statusCode === 0) {\n              uni.showToast({\n                title: '未知的网络错误, 请确保设备处在联网状态',\n                icon: \"none\" });\n\n            } else {\n              uni.showToast({\n                title: '发生网络错误，错误码为：' + e.statusCode,\n                icon: \"none\" });\n\n            }\n          } });\n\n      }\n    },\n    //上传头像\n    uploadAvater: function uploadAvater() {\n      var _this = this;\n      var src = this.GLOBAL.serverSrc; //得到服务器地址\n      uni.chooseImage({\n        count: 1,\n        success: function success(chooseImageRes) {\n          var tempFilePath = chooseImageRes.tempFilePaths[0];\n          //开始上传头像\n          uni.showLoading({\n            title: '上传中...' });\n\n          uni.uploadFile({\n            url: src + '/common/register/uploadAvatar', //接口地址\n            filePath: tempFilePath,\n            name: 'avatar',\n            success: function success(uploadFileRes) {\n              var resObj = JSON.parse(uploadFileRes.data);\n              if (resObj.status === 200) {\n                _this.avatarPath = src + resObj.url;\n                _this.regSetAvatar(_this.avatarPath);\n                _this.hasAvatar = true;\n              } else {\n                uni.showToast({\n                  title: resObj.msg,\n                  icon: \"none\" });\n\n              }\n            },\n            fail: function fail(e) {\n              _self.global_.requestFail(e);\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } });\n\n    },\n    back: function back() {\n      uni.navigateBack();\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/register/setAvatar.vue?vue&type=script&lang=js&?0d42");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      userName: '',\n      avatarPath: '',\n      hasAvatar: false };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'school']), // 拿到vuex的register对象\n  methods: _objectSpread({},\n\n  (0, _vuex.mapMutations)(['regSetUserName', 'regAfterLogin', 'regSetAvatar']), {\n    //点击提交按钮\n    submit: function submit() {var _this2 = this;\n      if (this.userName.length <= 0 || this.userName.length > 8) {//验证昵称\n        uni.showToast({\n          title: \"请输入正确的昵称\",\n          icon: \"none\" });\n\n        return;\n      } else if (this.avatarPath.length === 0) {//验证头像是否上传\n        uni.showToast({\n          title: \"您还未上传头像\",\n          icon: \"none\" });\n\n        return;\n      } else {\n        this.regSetUserName(this.userName);\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/common/register/register',\n          method: 'POST',\n          data: {\n            'phone': this.user.phone,\n            'password': this.user.password,\n            'user_name': this.user.userName,\n            'avatar': this.user.avatar,\n            'sex': this.user.sex,\n            'id': this.school.id },\n\n          success: function success(res) {\n            if (res.data.status === 200) {//注册成功\n              _this2.regAfterLogin(res.data);\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n              uni.switchTab({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this2.GLOBAL.requestFail(e);\n          } });\n\n      }\n    },\n    //上传头像\n    uploadAvater: function uploadAvater() {\n      var _this = this;\n      var src = this.GLOBAL.serverSrc; //得到服务器地址\n      uni.chooseImage({\n        count: 1,\n        success: function success(chooseImageRes) {\n          var tempFilePath = chooseImageRes.tempFilePaths[0];\n          //开始上传头像\n          uni.showLoading({\n            title: '上传中...' });\n\n          uni.uploadFile({\n            url: src + '/common/register/uploadAvatar', //接口地址\n            filePath: tempFilePath,\n            name: 'avatar',\n            success: function success(uploadFileRes) {\n              var resObj = JSON.parse(uploadFileRes.data);\n              if (resObj.status === 200) {\n                _this.avatarPath = src + resObj.url;\n                _this.regSetAvatar(_this.avatarPath);\n                _this.hasAvatar = true;\n              } else {\n                uni.showToast({\n                  title: resObj.msg,\n                  icon: \"none\" });\n\n              }\n            },\n            fail: function fail(e) {\n              _self.global_.requestFail(e);\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } });\n\n    },\n    back: function back() {\n      uni.navigateBack();\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/register/setAvatar.vue?vue&type=script&lang=js&?0d42");
 
 /***/ }),
 
@@ -6470,7 +6588,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceHeader = _interopRequireDefault(__webpack_require__(/*! ../../graceUI/components/graceHeader.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceHeader.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  data: function data() {\n    return {\n      staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',\n      lists: [\n      { img: 'shange.png', title: '布局栅格', path: \"rows\", desc: \"flex 基础布局\" },\n      { img: 'scroll.png', title: '滚动区域', path: \"scroll\", desc: \"\" },\n      { img: 'moveview.png', title: '可移动区域', path: \"moveview\", desc: \"\" }] };\n\n\n\n  },\n  components: {\n    graceHeader: _graceHeader.default } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/my/my.vue?vue&type=script&lang=js&?e05a");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceHeader = _interopRequireDefault(__webpack_require__(/*! ../../graceUI/components/graceHeader.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceHeader.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  data: function data() {\n    return {\n      staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',\n      lists: [{\n        img: 'shange.png',\n        title: '布局栅格',\n        path: \"rows\",\n        desc: \"flex 基础布局\" },\n\n      {\n        img: 'scroll.png',\n        title: '滚动区域',\n        path: \"scroll\",\n        desc: \"\" },\n\n      {\n        img: 'moveview.png',\n        title: '可移动区域',\n        path: \"moveview\",\n        desc: \"\" }] };\n\n\n\n  },\n  components: {\n    graceHeader: _graceHeader.default } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/my/my.vue?vue&type=script&lang=js&?e05a");
 
 /***/ }),
 
@@ -6644,7 +6762,7 @@ define('pages/my/market/index.js',function(require, module, exports, window, doc
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/index/getmerchant',\n      method: 'GET',\n      data: {\n        user_id: this.user.id },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          if (res.data.merchant === 1) {\n            //已开通转发\n          } else if (res.data.merchant === 2) {\n            //审核中\n          } else {\n              //未开通\n            }\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    goRegMarketInfo: function goRegMarketInfo() {\n      uni.navigateTo({\n        url: './regMarketInfo' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/index.vue?vue&type=script&lang=js&?629c");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      merchant: 0,\n      img: 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/noShop.png',\n      text1: '亲，您还没有开通店铺',\n      text2: '如果您拥有超市可以点击下方按钮申请开通' };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/index/getmerchant',\n      method: 'GET',\n      data: {\n        user_id: this.user.id },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.merchant = res.data.merchant;\n          if (_this.merchant === 1) {\n            uni.redirectTo({\n              url: './manage' });\n\n          } else if (_this.merchant === 2) {\n            _this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png';\n            _this.text1 = '店铺信息审核中';\n            _this.text2 = '我们将会在1个工作日内完成审核';\n          }\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n        _this.text1 = '网络错误,请检查网络';\n        _this.text2 = JSON.stringify(e);\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh();\n      } });\n\n  },\n  methods: {\n    goRegMarketInfo: function goRegMarketInfo() {\n      uni.navigateTo({\n        url: './regMarketInfo' });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/index.vue?vue&type=script&lang=js&?629c");
 
 /***/ }),
 
@@ -6656,7 +6774,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"s-page-wrapper\" }, [\n    _c(\"view\", { staticClass: \"s-page\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass:\n            \"is-100vh is-flex is-column is-justify-center is-align-center \"\n        },\n        [\n          _c(\"image\", {\n            staticStyle: { width: \"50%\", \"margin-top\": \"-110px\" },\n            attrs: { src: \"../../../static/error/noShop.png\", mode: \"widthFix\" }\n          }),\n          _c(\"view\", { staticClass: \"has-title-color is-size-16 has-mgt-30\" }, [\n            _vm._v(\"亲，您还没有开通店铺\")\n          ]),\n          _c(\"view\", { staticClass: \"has-desc-color is-size-14 has-mgt-10\" }, [\n            _vm._v(\"如果您拥有超市可以点击下方按钮申请开通\")\n          ]),\n          _c(\n            \"button\",\n            {\n              staticStyle: {\n                background: \"#fc6666\",\n                \"margin-top\": \"30px\",\n                width: \"90%\"\n              },\n              attrs: { type: \"primary\", eventid: \"1cad943f-0\" },\n              on: {\n                click: function($event) {\n                  _vm.goRegMarketInfo()\n                }\n              }\n            },\n            [_vm._v(\"申请开通\")]\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"s-page-wrapper\" }, [\n    _c(\"view\", { staticClass: \"s-page\" }, [\n      _c(\n        \"view\",\n        {\n          staticClass:\n            \"is-100vh is-flex is-column is-justify-center is-align-center\"\n        },\n        [\n          _c(\"image\", {\n            staticStyle: { width: \"50%\", \"margin-top\": \"-100px\" },\n            attrs: { src: _vm.img, mode: \"widthFix\" }\n          }),\n          _c(\"view\", { staticClass: \"has-title-color is-size-16 has-mgt-30\" }, [\n            _vm._v(_vm._s(_vm.text1))\n          ]),\n          _c(\"view\", { staticClass: \"has-desc-color is-size-14 has-mgt-10\" }, [\n            _vm._v(_vm._s(_vm.text2))\n          ]),\n          _vm.merchant === 0\n            ? _c(\n                \"button\",\n                {\n                  staticStyle: {\n                    background: \"#fc6666\",\n                    \"margin-top\": \"30px\",\n                    width: \"90%\"\n                  },\n                  attrs: { type: \"primary\", eventid: \"1cad943f-0\" },\n                  on: {\n                    click: function($event) {\n                      _vm.goRegMarketInfo()\n                    }\n                  }\n                },\n                [_vm._v(\"申请开通\")]\n              )\n            : _vm._e()\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/index.vue?vue&type=template&id=2a80b336&");
 
 /***/ }),
 
@@ -6724,7 +6842,18 @@ define('pages/my/market/regMarketInfo.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var graceChecker = __webpack_require__(/*! ../../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n\n\n{\n  data: function data() {\n    return {};\n  },\n  computed: (0, _vuex.mapState)(['school']),\n  methods: {\n    formSubmit: function formSubmit(e) {\n      //定义表单规则\n      var rule = [{\n        name: \"market_name\",\n        checkType: \"string\",\n        checkRule: \"1,8\",\n        errorMsg: \"超市名称应为1-8个字符\" },\n\n      {\n        name: \"gender\",\n        checkType: \"in\",\n        checkRule: \"男,女\",\n        errorMsg: \"请选择性别\" },\n\n      {\n        name: \"dorm_tower\",\n        checkType: \"notnull\",\n        checkRule: \"\",\n        errorMsg: \"宿舍楼名不能为空\" },\n\n      {\n        name: \"dorm_num\",\n        checkType: \"notnull\",\n        checkRule: \"\",\n        errorMsg: \"dorm_tower\" }];\n\n\n\n      //进行表单检查\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      if (checkRes) {\n        uni.showToast({\n          title: \"验证通过!\",\n          icon: \"none\" });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n      uni.showToast({\n        title: '请观察控制台',\n        icon: 'none' });\n\n      console.log(JSON.stringify(e.detail.value));\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/regMarketInfo.vue?vue&type=script&lang=js&?5a4e");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var graceChecker = __webpack_require__(/*! ../../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n\n\n{\n  data: function data() {\n    return {};\n  },\n  computed: (0, _vuex.mapState)(['school', 'user']),\n  methods: {\n    formSubmit: function formSubmit(e) {var _this = this;\n      //定义表单规则\n      var rule = [{\n        name: \"market_name\",\n        checkType: \"string\",\n        checkRule: \"1,8\",\n        errorMsg: \"超市名称应为1-8个字符\" },\n\n      {\n        name: \"dorm_tower\",\n        checkType: \"notnull\",\n        checkRule: \"\",\n        errorMsg: \"宿舍楼不能为空\" },\n\n      {\n        name: \"dorm_num\",\n        checkType: \"notnull\",\n        checkRule: \"\",\n        errorMsg: \"宿舍号不能为空\" }];\n\n\n      //进行表单检查\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      if (checkRes) {\n        formData.user_id = this.user.id;\n        formData.phone = this.user.phone;\n        formData.token = this.user.token;\n        formData.market_school = this.school.title;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'market/index/regmarket',\n          method: 'POST',\n          data: formData,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.navigateTo({\n                url: './verifyIdCard' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/regMarketInfo.vue?vue&type=script&lang=js&?5a4e");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\regMarketInfo.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=style&index=0&lang=css&");
 
 /***/ }),
 
@@ -6736,7 +6865,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"grace-padding grace-bg-white grace-common-border\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-form\" },\n        [\n          _c(\n            \"form\",\n            {\n              attrs: { eventid: \"3ddaedaa-0\" },\n              on: { submit: _vm.formSubmit }\n            },\n            [\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"所在学校(不可更改)\")\n                ]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    disabled: \"\",\n                    name: \"market_school\",\n                    placeholder: _vm.school.title\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"超市名称\")\n                ]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"market_name\",\n                    placeholder: \"请输入超市名称\",\n                    maxlength: \"8\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"宿舍楼\")]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"dorm_tower\",\n                    placeholder: \"请输入您所在宿舍楼\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"宿舍号\")]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"dorm_num\",\n                    placeholder: \"请精确到床号\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"店铺类型\")\n                ]),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-label-y\" },\n                  [\n                    _c(\n                      \"radio-group\",\n                      { attrs: { name: \"type\", mpcomid: \"3ddaedaa-0\" } },\n                      [\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", {\n                              attrs: { value: \"超市\", checked: \"\" }\n                            }),\n                            _vm._v(\"超市\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"外卖\" } }),\n                            _vm._v(\"外卖\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"水果\" } }),\n                            _vm._v(\"水果\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"其他\" } }),\n                            _vm._v(\"其他\")\n                          ],\n                          1\n                        )\n                      ],\n                      1\n                    )\n                  ],\n                  1\n                )\n              ]),\n              _c(\n                \"view\",\n                { staticStyle: { padding: \"22rpx 0\" } },\n                [\n                  _c(\n                    \"button\",\n                    {\n                      staticStyle: { background: \"#fc6666\" },\n                      attrs: { formType: \"submit\", type: \"primary\" }\n                    },\n                    [_vm._v(\"提交\")]\n                  )\n                ],\n                1\n              )\n            ]\n          )\n        ],\n        1\n      )\n    ]\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=template&id=44930322&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"grace-padding grace-bg-white grace-common-border\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-form\" },\n        [\n          _c(\n            \"form\",\n            {\n              attrs: { eventid: \"3ddaedaa-0\" },\n              on: { submit: _vm.formSubmit }\n            },\n            [\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"所在学校\")\n                ]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    disabled: \"\",\n                    name: \"market_school\",\n                    placeholder: _vm.school.title + \"(不可更改)\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"超市名称\")\n                ]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"market_name\",\n                    placeholder: \"请输入超市名称\",\n                    maxlength: \"8\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"宿舍楼\")]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"dorm_tower\",\n                    placeholder: \"请输入您所在宿舍楼\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"宿舍号\")]),\n                _c(\"input\", {\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"text\",\n                    name: \"dorm_num\",\n                    placeholder: \"请精确到床号\"\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"店铺类型\")\n                ]),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-label-y\" },\n                  [\n                    _c(\n                      \"radio-group\",\n                      { attrs: { name: \"type\", mpcomid: \"3ddaedaa-0\" } },\n                      [\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", {\n                              attrs: { value: \"超市\", checked: \"\" }\n                            }),\n                            _vm._v(\"超市\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"外卖\" } }),\n                            _vm._v(\"外卖\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"水果\" } }),\n                            _vm._v(\"水果\")\n                          ],\n                          1\n                        ),\n                        _c(\n                          \"label\",\n                          [\n                            _c(\"radio\", { attrs: { value: \"其他\" } }),\n                            _vm._v(\"其他\")\n                          ],\n                          1\n                        )\n                      ],\n                      1\n                    )\n                  ],\n                  1\n                )\n              ]),\n              _c(\n                \"view\",\n                { staticStyle: { padding: \"22rpx 0\" } },\n                [\n                  _c(\n                    \"button\",\n                    {\n                      staticStyle: { background: \"#fc6666\" },\n                      attrs: { formType: \"submit\", type: \"primary\" }\n                    },\n                    [_vm._v(\"下一步\")]\n                  )\n                ],\n                1\n              )\n            ]\n          )\n        ],\n        1\n      )\n    ]\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=template&id=44930322&");
 
 /***/ }),
 
@@ -6760,7 +6889,7 @@ eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Des
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./regMarketInfo.vue?vue&type=template&id=44930322& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=template&id=44930322&\");\n/* harmony import */ var _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./regMarketInfo.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./regMarketInfo.vue?vue&type=template&id=44930322& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=template&id=44930322&\");\n/* harmony import */ var _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./regMarketInfo.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./regMarketInfo.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _regMarketInfo_vue_vue_type_template_id_44930322___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue");
 
 /***/ }),
 
@@ -6773,6 +6902,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _reg
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./regMarketInfo.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/my/market/regMarketInfo.vue?vue&type=script&lang=js&?4d8f");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\regMarketInfo.vue?vue&type=style&index=0&lang=css&":
+/*!***********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=style&index=0&lang=css& ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./regMarketInfo.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\regMarketInfo.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_regMarketInfo_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/regMarketInfo.vue?vue&type=style&index=0&lang=css&");
 
 /***/ }),
 
@@ -6791,6 +6932,189 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2FregMarketInfo\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/my/market/regMarketInfo.js');
+__wxRoute = 'pages/my/market/verifyIdCard';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/verifyIdCard.js';
+
+define('pages/my/market/verifyIdCard.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/my/market/verifyIdCard"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _self;\nvar graceChecker = __webpack_require__(/*! ../../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      idCard1: 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/idcard1.png',\n      idCard2: 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/idcard2.png',\n      idCard3: 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/schoolcard.png',\n      name: '',\n      idNum: '' };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {\n    _self = this;\n  },\n  methods: {\n    selectImg1: function selectImg1() {\n      uni.chooseImage({\n        count: 1,\n        success: function success(res) {\n          uni.showLoading({\n            title: \"上传中\" });\n\n          uni.uploadFile({\n            url: _self.GLOBAL.serverSrc + 'market/index/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'card_front',\n            success: function success(uploadFileRes) {\n              var resObj = JSON.parse(uploadFileRes.data);\n              if (resObj.status === 200) {\n                _self.idCard1 = resObj.imagePath;\n              } else {\n                uni.showToast({\n                  title: resObj.msg,\n                  icon: \"none\" });\n\n              }\n            },\n            fail: function fail() {\n              uni.showToast({\n                title: '上传失败,请检查网络稍后重试！',\n                icon: \"none\" });\n\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } });\n\n    },\n    selectImg2: function selectImg2() {\n      uni.chooseImage({\n        count: 1,\n        success: function success(res) {\n          uni.showLoading({\n            title: \"上传中\" });\n\n          uni.uploadFile({\n            url: _self.GLOBAL.serverSrc + 'market/index/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'card_back',\n            success: function success(uploadFileRes) {\n              var resObj = JSON.parse(uploadFileRes.data);\n              if (resObj.status === 200) {\n                _self.idCard2 = resObj.imagePath;\n              } else {\n                uni.showToast({\n                  title: resObj.msg,\n                  icon: \"none\" });\n\n              }\n            },\n            fail: function fail() {\n              uni.showToast({\n                title: '上传失败,请检查网络稍后重试！',\n                icon: \"none\" });\n\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } });\n\n    },\n    selectImg3: function selectImg3() {\n      uni.chooseImage({\n        count: 1,\n        success: function success(res) {\n          uni.uploadFile({\n            url: _self.GLOBAL.serverSrc + 'market/index/upload',\n            filePath: res.tempFilePaths[0],\n            name: 'student_card',\n            success: function success(uploadFileRes) {\n              var resObj = JSON.parse(uploadFileRes.data);\n              if (resObj.status === 200) {\n                _self.idCard3 = resObj.imagePath;\n              } else {\n                uni.showToast({\n                  title: resObj.msg,\n                  icon: \"none\" });\n\n              }\n            },\n            fail: function fail() {\n              uni.showToast({\n                title: '上传失败,请检查网络稍后重试！',\n                icon: \"none\" });\n\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } });\n\n    },\n    previewImg1: function previewImg1() {\n      uni.previewImage({\n        urls: [_self.idCard1] });\n\n    },\n    previewImg2: function previewImg2() {\n      uni.previewImage({\n        urls: [_self.idCard2] });\n\n    },\n    previewImg3: function previewImg3() {\n      uni.previewImage({\n        urls: [_self.idCard3] });\n\n    },\n    uploadCards: function uploadCards() {var _this = this;\n      if (this.idCard1 == 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/idcard1.png' || this.idCard2 ==\n      'https://yuange666.oss-cn-beijing.aliyuncs.com/app/idcard2.png') {\n        uni.showToast({\n          title: \"请上传身份证照片\",\n          icon: \"none\" });\n\n        return;\n      } else if (this.idCard3 == 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/schoolcard.png') {\n        uni.showToast({\n          title: \"请上传学生证证照片\",\n          icon: \"none\" });\n\n        return;\n      } else {\n        var rule = [{\n          name: \"name\",\n          checkType: \"string\",\n          checkRule: \"2,4\",\n          errorMsg: \"请输入正确的姓名\" },\n\n        {\n          name: \"idNum\",\n          checkType: \"notnull\",\n          checkRule: \"18,18\",\n          errorMsg: \"请输入正确的身份证号\" }];\n\n\n        //进行表单检查\n        var formData = {\n          name: this.name,\n          idNum: this.idNum };\n\n        var checkRes = graceChecker.check(formData, rule);\n        if (checkRes) {\n          uni.showLoading({\n            title: \"提交中...\" });\n\n          uni.request({\n            url: this.GLOBAL.serverSrc + 'market/index/insertinfo',\n            method: 'POST',\n            data: {\n              user_id: this.user.id,\n              phone: this.user.phone,\n              token: this.user.token,\n              verify_name: this.name,\n              id_number: this.idNum,\n              card_front: this.idCard1,\n              card_back: this.idCard2,\n              student_card: this.idCard3 },\n\n            success: function success(res) {\n              if (res.data.status === 200) {\n                uni.reLaunch({\n                  url: './index' });\n\n              } else {\n                uni.showToast({\n                  title: res.data.msg,\n                  icon: \"none\" });\n\n              }\n              console.log(JSON.stringify(res));\n            },\n            fail: function fail(e) {\n              _this.GLOBAL.requestFail(e);\n            },\n            complete: function complete() {\n              uni.hideLoading();\n            } });\n\n        } else {\n          uni.showToast({\n            title: graceChecker.error,\n            icon: \"none\" });\n\n        }\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/verifyIdCard.vue?vue&type=script&lang=js&?ee3c");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=template&id=13c15ef0&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=template&id=13c15ef0& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"bg-white\", staticStyle: { width: \"100%\" } },\n    [\n      _c(\"view\", { staticClass: \"grace-idcard-desc has-bordertb\" }, [\n        _vm._v(\n          \"描述示例文本 : graceUI 极速开发之旅 ! 基于 uni-app 的优秀前端框架，大幅度提高布局效率!\"\n        )\n      ]),\n      _c(\"view\", { staticClass: \"has-bordertb\" }, [\n        _vm._m(0),\n        _c(\"view\", { staticClass: \"cu-form-group\" }, [\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.name,\n                expression: \"name\"\n              }\n            ],\n            attrs: {\n              name: \"input\",\n              placeholder: \"输入您的姓名\",\n              eventid: \"7f4ebc97-0\"\n            },\n            domProps: { value: _vm.name },\n            on: {\n              input: function($event) {\n                if ($event.target.composing) {\n                  return\n                }\n                _vm.name = $event.target.value\n              }\n            }\n          })\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"has-bordertb\" }, [\n        _vm._m(1),\n        _c(\"view\", { staticClass: \"cu-form-group\" }, [\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.idNum,\n                expression: \"idNum\"\n              }\n            ],\n            attrs: {\n              name: \"input\",\n              placeholder: \"输入您的身份证\",\n              eventid: \"7f4ebc97-1\"\n            },\n            domProps: { value: _vm.idNum },\n            on: {\n              input: function($event) {\n                if ($event.target.composing) {\n                  return\n                }\n                _vm.idNum = $event.target.value\n              }\n            }\n          })\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"has-bordertb\" }, [\n        _vm._m(2),\n        _c(\"view\", { staticClass: \"grace-idcard-items\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-idcard-uper-btn\",\n              attrs: { eventid: \"7f4ebc97-2\" },\n              on: { tap: _vm.selectImg1 }\n            },\n            [\n              _vm._m(3),\n              _c(\"view\", { staticClass: \"text\" }, [_vm._v(\"拍摄或选择照片\")])\n            ]\n          ),\n          _c(\"view\", { staticClass: \"grace-idcard-preview\" }, [\n            _c(\"image\", {\n              attrs: {\n                src: _vm.idCard1,\n                mode: \"widthFix\",\n                eventid: \"7f4ebc97-3\"\n              },\n              on: { tap: _vm.previewImg1 }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"has-bordertb\" }, [\n        _vm._m(4),\n        _c(\"view\", { staticClass: \"grace-idcard-items\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-idcard-uper-btn\",\n              attrs: { eventid: \"7f4ebc97-4\" },\n              on: { tap: _vm.selectImg2 }\n            },\n            [\n              _vm._m(5),\n              _c(\"view\", { staticClass: \"text\" }, [_vm._v(\"拍摄或选择照片\")])\n            ]\n          ),\n          _c(\"view\", { staticClass: \"grace-idcard-preview\" }, [\n            _c(\"image\", {\n              attrs: {\n                src: _vm.idCard2,\n                mode: \"widthFix\",\n                eventid: \"7f4ebc97-5\"\n              },\n              on: { tap: _vm.previewImg2 }\n            })\n          ])\n        ])\n      ]),\n      _c(\"view\", { staticClass: \"has-bordertb\" }, [\n        _vm._m(6),\n        _c(\"view\", { staticClass: \"grace-idcard-items\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-idcard-uper-btn\",\n              attrs: { eventid: \"7f4ebc97-6\" },\n              on: { tap: _vm.selectImg3 }\n            },\n            [\n              _vm._m(7),\n              _c(\"view\", { staticClass: \"text\" }, [_vm._v(\"拍摄或选择照片\")])\n            ]\n          ),\n          _c(\"view\", { staticClass: \"grace-idcard-preview\" }, [\n            _c(\"image\", {\n              attrs: {\n                src: _vm.idCard3,\n                mode: \"widthFix\",\n                eventid: \"7f4ebc97-7\"\n              },\n              on: { tap: _vm.previewImg3 }\n            })\n          ])\n        ])\n      ]),\n      _c(\n        \"view\",\n        { staticClass: \"grace-form grace-padding\" },\n        [\n          _c(\n            \"button\",\n            {\n              staticStyle: { \"background-color\": \"#fc4243\" },\n              attrs: { type: \"primary\", eventid: \"7f4ebc97-8\" },\n              on: { tap: _vm.uploadCards }\n            },\n            [_vm._v(\"提 交\")]\n          )\n        ],\n        1\n      )\n    ]\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-title text-green\" }),\n        _c(\"text\", [_vm._v(\"姓名\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-title text-green\" }),\n        _c(\"text\", [_vm._v(\"身份证号\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-title text-green\" }),\n        _c(\"text\", [_vm._v(\"身份证照片(正面)\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"img\" }, [\n      _c(\"image\", {\n        attrs: {\n          src: \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png\",\n          mode: \"widthFix\"\n        }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-title text-green\" }),\n        _c(\"text\", [_vm._v(\"身份证照片(背面)\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"img\" }, [\n      _c(\"image\", {\n        attrs: {\n          src: \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png\",\n          mode: \"widthFix\"\n        }\n      })\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-title text-green\" }),\n        _c(\"text\", [_vm._v(\"学生证(照片页)\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"img\" }, [\n      _c(\"image\", {\n        attrs: {\n          src: \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png\",\n          mode: \"widthFix\"\n        }\n      })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=template&id=13c15ef0&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2FverifyIdCard\"}":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fmy%2Fmarket%2FverifyIdCard"} ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _verifyIdCard = _interopRequireDefault(__webpack_require__(/*! ./pages/my/market/verifyIdCard.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_verifyIdCard.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fmy%252Fmarket%252FverifyIdCard%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue":
+/*!*************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./verifyIdCard.vue?vue&type=template&id=13c15ef0& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=template&id=13c15ef0&\");\n/* harmony import */ var _verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./verifyIdCard.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./verifyIdCard.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./verifyIdCard.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/my/market/verifyIdCard.vue?vue&type=script&lang=js&?23f1");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./verifyIdCard.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\verifyIdCard.vue?vue&type=template&id=13c15ef0&":
+/*!********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=template&id=13c15ef0& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./verifyIdCard.vue?vue&type=template&id=13c15ef0& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\verifyIdCard.vue?vue&type=template&id=13c15ef0&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_verifyIdCard_vue_vue_type_template_id_13c15ef0___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/verifyIdCard.vue?vue&type=template&id=13c15ef0&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2FverifyIdCard\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/my/market/verifyIdCard.js');
+__wxRoute = 'pages/my/market/manage';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/manage.js';
+
+define('pages/my/market/manage.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/my/market/manage"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\manage.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n//# sourceURL=uni-app:///pages/my/market/manage.vue?vue&type=script&lang=js&?3481");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\manage.vue?vue&type=template&id=df4ec39e&":
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=template&id=df4ec39e& ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\")\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=template&id=df4ec39e&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2Fmanage\"}":
+/*!****************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fmy%2Fmarket%2Fmanage"} ***!
+  \****************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _manage = _interopRequireDefault(__webpack_require__(/*! ./pages/my/market/manage.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\manage.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_manage.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fmy%252Fmarket%252Fmanage%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\manage.vue":
+/*!*******************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue ***!
+  \*******************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./manage.vue?vue&type=template&id=df4ec39e& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\manage.vue?vue&type=template&id=df4ec39e&\");\n/* harmony import */ var _manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./manage.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\manage.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\manage.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./manage.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\manage.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/my/market/manage.vue?vue&type=script&lang=js&?4eab");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\market\\manage.vue?vue&type=template&id=df4ec39e&":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=template&id=df4ec39e& ***!
+  \**************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./manage.vue?vue&type=template&id=df4ec39e& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\market\\\\manage.vue?vue&type=template&id=df4ec39e&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_manage_vue_vue_type_template_id_df4ec39e___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/manage.vue?vue&type=template&id=df4ec39e&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmarket%2Fmanage\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/my/market/manage.js');
 __wxRoute = 'pages/my/setting/setting';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/setting/setting.js';
 
 define('pages/my/setting/setting.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){

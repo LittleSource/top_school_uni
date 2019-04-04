@@ -108,7 +108,11 @@
 							provider: 'alipay',
 							orderInfo: alipaySdk, //微信、支付宝订单数据
 							success: function(res) {
-								console.log('success:' + JSON.stringify(res));
+								if(res.errMsg === 'requestPayment:ok'){
+									uni.showToast({
+										title: '付款成功'
+									});
+								}
 							},
 							fail: function(err) {
 								console.log('fail:' + JSON.stringify(err));

@@ -141,6 +141,15 @@
 		background-color: #f43f3b;
 	}
 
+	.grace-steps .current .step-circle {
+		background: #f43f3b;
+		color: #FFFFFF;
+	}
+
+	.grace-steps .current .step-title {
+		color: #f43f3b;
+	}
+
 	.ymkj-reply-list {
 		display: flex;
 		flex-wrap: nowrap;

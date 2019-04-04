@@ -1,0 +1,6 @@
+
+.grace-checked {
+	background: #fc4243 !important;
+	color: #FFFFFF;
+}
+

@@ -40,8 +40,9 @@ export default {
 			this.inputNumber = val;
 		},
 		inputNumber (val){
+			val = Number(val);
 			if(val > this.maxNum){val = this.maxNum; this.inputNumber = val;}
-			if(val < this.minNum){val = this.minNum; this.inputNumber = val; console.log(11)}
+			if(val < this.minNum){val = this.minNum; this.inputNumber = val;}
 			this.$emit('change', [val, this.index]);
 		}
 	},

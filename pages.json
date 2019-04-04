@@ -1,6 +1,5 @@
 {
-	"pages": [
-		{
+	"pages": [{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -11,7 +10,7 @@
 					"pullToRefresh": {
 						"support": true,
 						"color": "#fc4243",
-						"offset":"12%"
+						"offset": "12%"
 					},
 					"scrollIndicator": "none", //不显示滚动条
 					"titleNView": false
@@ -52,7 +51,7 @@
 				"enablePullDownRefresh": true,
 				"app-plus": {
 					"pullToRefresh": {
-						"style":"default",
+						"style": "default",
 						"support": true
 					},
 					"titleNView": {
@@ -75,7 +74,7 @@
 				"enablePullDownRefresh": true,
 				"app-plus": {
 					"pullToRefresh": {
-						"style":"default",
+						"style": "default",
 						"support": true
 					}
 				}
@@ -96,7 +95,7 @@
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "收银台"
 			}
-		},{
+		}, {
 			"path": "pages/common/login",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -117,7 +116,7 @@
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
-		},{
+		}, {
 			"path": "pages/register/selectSex",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -127,7 +126,7 @@
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
-		},{
+		}, {
 			"path": "pages/register/selectSchool",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -137,7 +136,7 @@
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
-		},{
+		}, {
 			"path": "pages/register/setAvatar",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -147,7 +146,7 @@
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
-		},{
+		}, {
 			"path": "pages/common/search",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -182,11 +181,10 @@
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "评论详情",
 				"enablePullDownRefresh": true, //开启下拉刷新
-				"app-plus":{
+				"app-plus": {
 					"pullToRefresh": {
-						"style":"default",
-						"support": true,
-						"color": "#fc4243"
+						"style": "default",
+						"support": true
 					},
 					"animationType": "slide-in-bottom"
 				}
@@ -214,9 +212,9 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "消息",
-				"app-plus":{
+				"app-plus": {
 					"pullToRefresh": {
-						"style":"default",
+						"style": "default",
 						"support": true
 					}
 				}
@@ -236,7 +234,14 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "我的店铺"
+				"navigationBarTitleText": "我的店铺",
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
 			}
 		},
 		{
@@ -245,6 +250,29 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "申请开通店铺"
+			}
+		},
+		{
+			"path": "pages/my/market/verifyIdCard",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "身份认证"
+			}
+		},
+		{
+			"path": "pages/my/market/manage",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "店铺管理",
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
 			}
 		},
 		{

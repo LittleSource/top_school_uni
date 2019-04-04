@@ -4481,6 +4481,13 @@ to {-webkit-transform:rotateY(360deg);transform:rotateY(360deg);}}
 	width: 100%;
 	background-color: #f43f3b;
 }
+.grace-steps .current .step-circle {
+	background: #f43f3b;
+	color: #FFFFFF;
+}
+.grace-steps .current .step-title {
+	color: #f43f3b;
+}
 .ymkj-reply-list {
 	display: -webkit-box;
 	display: -webkit-flex;
