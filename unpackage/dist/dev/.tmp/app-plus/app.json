@@ -7,6 +7,7 @@
     "pages/index/market/index",
     "pages/index/market/market",
     "pages/index/market/checkstand",
+    "pages/index/parttime/index",
     "pages/common/login",
     "pages/register/reg",
     "pages/register/selectSex",

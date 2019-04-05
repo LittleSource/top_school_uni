@@ -32,7 +32,7 @@
 					</view>
 				</view>
 				<view class="grace-boxes">
-					<view class="grace-boxes-img" @click="skip('../register/setAvatar')">
+					<view class="grace-boxes-img" @click="skip('./parttime/index')">
 						<image src="../../static/index/job.png" mode="widthFix"></image>
 						<view class="grace-boxes-text">找兼职</view>
 					</view>

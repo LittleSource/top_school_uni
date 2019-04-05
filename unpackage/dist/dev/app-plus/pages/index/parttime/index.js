@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"parttime-card{ height: 90px; width: 100%; margin: 5 5px; border-bottom: 1px solid rgba(128, 128, 128, 0.3); }\n.",[1],"grace-rows{ line-height: 28px; }\n",],undefined,{path:"./pages/index/parttime/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/parttime/index.wxml') } }));

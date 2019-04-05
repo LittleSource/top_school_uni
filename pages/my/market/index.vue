@@ -18,10 +18,10 @@
 	export default {
 		data() {
 			return{
-				merchant:0,
-				img:'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/noShop.png',
-				text1:'亲，您还没有开通店铺',
-				text2:'如果您拥有超市可以点击下方按钮申请开通'
+				merchant:-1,
+				img:'',
+				text1:'',
+				text2:''
 			}
 		},
 		computed: mapState(['user']),
@@ -46,6 +46,10 @@
 							this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png';
 							this.text1 = '店铺信息审核中';
 							this.text2 = '我们将会在1个工作日内完成审核';
+						}else{
+							this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/noShop.png',
+							this.text1 = '亲，您还没有开通店铺',
+							this.text2 = '如果您拥有超市可以点击下方按钮申请开通'
 						}
 					} else {
 						uni.showToast({
@@ -56,6 +60,7 @@
 				},
 				fail: (e) => {
 					this.GLOBAL.requestFail(e);
+					this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/noShop.png';
 					this.text1 = '网络错误,请检查网络';
 					this.text2 = JSON.stringify(e);
 				},

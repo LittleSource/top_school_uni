@@ -1,0 +1,51 @@
+
+.grace-boxes-img image {
+	width: 80rpx;
+	height: 80rpx;
+	border-radius: 8rpx;
+	overflow: hidden;
+}
+.box_A {
+	width: 100%;
+	height: 380rpx;
+	background: #ff4500;
+	text-align: center;
+	color: white;
+}
+.text_A {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	color: #F3F4F5;
+	font-size: small;
+}
+.text_B {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: xx-large;
+}
+.text_C {
+	width: 100%;
+	height: 100rpx;
+}
+.text_D {
+	width: 100%;
+	height: 130rpx;
+}
+.text_D1 {
+	width: 250rpx;
+	height: 130rpx;
+	float: left;
+}
+.text_D2 {
+	width: 250rpx;
+	height: 130rpx;
+	float: left;
+}
+.text_D3 {
+	width: 250rpx;
+	height: 130rpx;
+	float: left;
+}
+

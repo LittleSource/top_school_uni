@@ -1,11 +1,9 @@
 <template>
 	<view>
-		<header style="background-image: url('static/userbg.png');">
-		</header>
+		<header style="background-image: url('static/userbg.png');"></header>
 		<view class="info">
-			<img src="static/food1.png">
-			<p class="info_name"><span>源哥设计</span> <i class="iconfont icon-nan"></i></p>
-			<p class="info_text">小小帅哥一枚！</p>
+			<img :src="user.avatar">
+			<p class="info_name"><span>{{user.userName}}</span> <i class="iconfont icon-nan"></i></p>
 			<view class="info_item">
 				<p>16</p>
 				<p>关注</p>
@@ -21,23 +19,23 @@
 		</view>
 		<view class="iconCon">
 			<view>
-				<i class="iconfont icon-xiezuo icon_comment"></i>
-				<p>文章</p>
+				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<p>表白</p>
 			</view>
 			<view>
-				<i class="iconfont icon-tupian icon_comment"></i>
-				<p>图片</p>
+				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<p>订单</p>
 			</view>
 			<view>
-				<i class="iconfont icon-yinyue icon_comment"></i>
-				<p>音乐</p>
+				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<p>兼职</p>
 			</view>
 			<view>
-				<i class="iconfont icon-shipin icon_comment"></i>
-				<p>视频</p>
+				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<p>代办</p>
 			</view>
 		</view>
-		<view class="grace-list grace-common-mt">
+		<view class="grace-list">
 			<navigator class="items" v-for="(item, index) in lists" :key="index">
 				<view class="icons">
 					<image :src="staticUrl + item.img" mode="widthFix"></image>
@@ -64,7 +62,9 @@
 </template>
 
 <script>
-	import graceHeader from "../../graceUI/components/graceHeader.vue";
+	import {
+		mapState
+	} from 'vuex'
 	export default {
 		data() {
 			return {
@@ -90,9 +90,7 @@
 				]
 			}
 		},
-		components: {
-			graceHeader
-		}
+		computed: mapState(['user'])
 	}
 </script>
 
@@ -113,7 +111,7 @@
 		width: calc(100% - 32px);
 		background-color: #FFFFFF;
 		margin-left: 16px;
-		margin-top: -48px;
+		margin-top: -46px;
 		float: left;
 		border-radius: 8px;
 		box-shadow: 0 0 6px rgba(128, 128, 128, 0.6);
@@ -126,7 +124,7 @@
 		margin: 0 auto;
 		display: block;
 		margin-top: -33px;
-		border: 1px solid #ffda19;
+		border: 1px solid rgba(128, 128, 128, 0.2);
 	}
 
 	.info_name {
@@ -135,14 +133,6 @@
 		color: #444444;
 		height: 30px;
 		line-height: 30px;
-	}
-
-	.info_text {
-		text-align: center;
-		height: 30px;
-		line-height: 30px;
-		font-size: 14px;
-		color: #6F6F6F;
 	}
 
 	.info_item {
@@ -174,7 +164,6 @@
 		width: 100%;
 		float: left;
 		overflow: hidden;
-		margin-top: 16px;
 		padding: 32px 0;
 	}
 
@@ -182,5 +171,9 @@
 		float: left;
 		width: calc(100% / 4);
 		text-align: center;
+	}
+	
+	.icon_comment{
+		color: #FC4243;
 	}
 </style>

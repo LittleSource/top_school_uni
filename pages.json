@@ -95,6 +95,14 @@
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "收银台"
 			}
+		},
+		{
+			"path": "pages/index/parttime/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "找兼职"
+			}
 		}, {
 			"path": "pages/common/login",
 			"style": {
@@ -264,7 +272,7 @@
 			"path": "pages/my/market/manage",
 			"style": {
 				"navigationBarTextStyle": "white",
-				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "店铺管理",
 				"enablePullDownRefresh": true, //开启下拉刷新
 				"app-plus": {
