@@ -7,15 +7,15 @@
 			<view class="text_D">
 				<view class="text_D1">
 					<view>昨日收入</view>
-					<view>{{yestodayAmount}}</view>
+					<view>{{yestodayAmount == 0 ? '0.00' : yestodayAmount}}</view>
 				</view>
 				<view class="text_D2">
 					<view>本周收入</view>
-					<view>{{weekAmount}}</view>
+					<view>{{weekAmount == 0 ? '0.00' : weekAmount}}</view>
 				</view>
 				<view class="text_D3">
 					<view>本月收入</view>
-					<view>{{monthAmount}}</view>
+					<view>{{monthAmount == 0 ? '0.00' : monthAmount}}</view>
 				</view>
 			</view>
 		</view>
@@ -25,31 +25,31 @@
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/gongzi.png" mode="widthFix"></image>
 					</view>
-					<view class="grace-boxes-text">商品管理</view>
+					<view class="grace-boxes-text">订单管理</view>
 				</view>
-				<navigator class="grace-boxes">
+				<navigator class="grace-boxes" url="./goods/index">
+					<view class="grace-boxes-img">
+						<image src="../../../static/market/yaoqing.png" mode="widthFix"></image>
+					</view>
+					<view class="grace-boxes-text">商品管理</view>
+				</navigator>
+				<view class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/huandai.png" mode="widthFix"></image>
 					</view>
 					<view class="grace-boxes-text">分类管理</view>
-				</navigator>
+				</view>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/yue.png" mode="widthFix"></image>
 					</view>
-					<view class="grace-boxes-text">余额自动转入</view>
+					<view class="grace-boxes-text">提现</view>
 				</view>
-				<navigator class="grace-boxes">
+				<view class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/xinyuan.png" mode="widthFix"></image>
 					</view>
 					<view class="grace-boxes-text">心愿储蓄</view>
-				</navigator>
-				<view class="grace-boxes">
-					<view class="grace-boxes-img">
-						<image src="../../../static/market/yaoqing.png" mode="widthFix"></image>
-					</view>
-					<view class="grace-boxes-text">邀请有礼</view>
 				</view>
 			</view>
 		</view>
@@ -63,6 +63,7 @@
 	export default {
 		data() {
 			return {
+				marketId: 0,
 				todayAmount: 0.00,
 				yestodayAmount: 0.00,
 				weekAmount: 0.00,
@@ -71,20 +72,33 @@
 		},
 		computed: mapState(['user']),
 		onLoad: function() {
-			uni.startPullDownRefresh();
+			const market = uni.getStorageSync('market');
+			if(market.isMarket){
+				this.marketId = market.marketId;
+				uni.startPullDownRefresh();
+			}else{
+				this.GLOBAL.tokenFail();
+			}
 		},
 		onPullDownRefresh() {
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'market/management/amount',
 				method: 'GET',
 				data: {
-					user_id: this.user.id
+					market_id: this.marketId
 				},
 				success: res => {
-					this.todayAmount = res.data.today_amount;
-					this.yestodayAmount = res.data.yestoday_amount;
-					this.weekAmount = res.data.week_amount;
-					this.monthAmount = res.data.month_amount;
+					if (res.data.status === 200) {
+						this.todayAmount = res.data.today_amount;
+						this.yestodayAmount = res.data.yestoday_amount;
+						this.weekAmount = res.data.week_amount;
+						this.monthAmount = res.data.month_amount;
+					} else {
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
+					}
 				},
 				fail: (e) => {
 					this.GLOBAL.requestFail(e);

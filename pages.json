@@ -284,6 +284,14 @@
 			}
 		},
 		{
+			"path": "pages/my/market/goods/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "商品管理"
+			}
+		},
+		{
 			"path": "pages/my/setting/setting",
 			"style": {
 				"navigationBarTextStyle": "white",

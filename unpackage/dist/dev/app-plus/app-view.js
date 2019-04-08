@@ -2710,6 +2710,81 @@ function gz$gwx_44(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
 __WXML_GLOBAL__.ops_cached.$gwx_44=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'55169286'])
+Z([3,'_view 55169286'])
+Z([3,'height:100%;'])
+Z([3,'_view 55169286 grace-cate'])
+Z([3,'width:100%; height:calc(100%);'])
+Z([3,'_scroll-view 55169286 grace-cate-left'])
+Z([[7],[3,'leftTo']])
+Z([3,'index'])
+Z([3,'item'])
+Z([[7],[3,'mainCate']])
+Z(z[7])
+Z([3,'handleProxy'])
+Z([a,[3,'_view 55169286 '],[[4],[[5],[[5],[1,'item']],[[2,'?:'],[[2,'=='],[[7],[3,'currentCateIndex']],[[6],[[7],[3,'item']],[3,'cateid']]],[1,'current'],[1,'']]]]])
+Z([[6],[[7],[3,'item']],[3,'cateid']])
+Z([[7],[3,'$k']])
+Z([[2,'+'],[1,'55169286-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'cate'],[[6],[[7],[3,'item']],[3,'cateid']]])
+Z([[7],[3,'index']])
+Z([a,[[6],[[7],[3,'item']],[3,'title']]])
+Z(z[11])
+Z([3,'_scroll-view 55169286 grace-cate-right'])
+Z(z[14])
+Z([1,'55169286-2'])
+Z([[7],[3,'productListTo']])
+Z(z[7])
+Z([3,'cate'])
+Z(z[9])
+Z(z[7])
+Z(z[17])
+Z([3,'_view 55169286 grace-title grace-nowrap grace-space-between'])
+Z([[2,'+'],[1,'productList'],[[6],[[7],[3,'cate']],[3,'cateid']]])
+Z([3,'margin-top:15px;'])
+Z([3,'_view 55169286 grace-h5 grace-blod'])
+Z([a,[[6],[[7],[3,'cate']],[3,'title']]])
+Z([3,'_view 55169286 grace-news-list'])
+Z([3,'productIndex'])
+Z([3,'product'])
+Z([[6],[[7],[3,'allProducts']],[[2,'+'],[1,'cateproducts'],[[6],[[7],[3,'cate']],[3,'cateid']]]])
+Z(z[35])
+Z([3,'_view 55169286 grace-news-list-items'])
+Z([[7],[3,'productIndex']])
+Z([3,'_image 55169286 grace-news-list-img grace-list-imgs-l'])
+Z([3,'widthFix'])
+Z([[6],[[7],[3,'product']],[3,'img']])
+Z([3,'_view 55169286 grace-news-list-title'])
+Z([3,'_view 55169286 grace-news-list-title-main'])
+Z([a,[[6],[[7],[3,'product']],[3,'title']]])
+Z([3,'_view 55169286 price'])
+Z([a,[3,'￥'],[[6],[[7],[3,'product']],[3,'price']]])
+Z(z[1])
+Z(z[11])
+Z([3,'_view 55169286 grace-iconfont icon-remove'])
+Z(z[14])
+Z([[2,'+'],[[2,'+'],[[2,'+'],[1,'55169286-1-'],[[7],[3,'index']]],[1,'-']],[[7],[3,'productIndex']]])
+Z([[7],[3,'product']])
+Z(z[11])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'55169286-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[14])
+Z([1,'55169286-3'])
+Z([3,'3b86ca29'])
+Z([3,'simpleDialog2'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
+}
+function gz$gwx_45(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
+__WXML_GLOBAL__.ops_cached.$gwx_45=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'55169286'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+}
+function gz$gwx_46(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
+__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'1cad943f'])
 Z([3,'_view 1cad943f s-page-wrapper'])
 Z([3,'_view 1cad943f s-page'])
@@ -2730,19 +2805,19 @@ Z([1,'1cad943f-0'])
 Z([3,'background:#fc6666; margin-top:30px; width: 90%;'])
 Z([3,'primary'])
 Z([3,'申请开通'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
+})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
-function gz$gwx_45(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
-__WXML_GLOBAL__.ops_cached.$gwx_45=[];
+function gz$gwx_47(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
+__WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'1cad943f'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
-function gz$gwx_46(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
-__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+function gz$gwx_48(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
+__WXML_GLOBAL__.ops_cached.$gwx_48=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'7f259f98'])
 Z([3,'_view 7f259f98'])
@@ -2758,17 +2833,17 @@ Z([3,'_view 7f259f98 text_D1'])
 Z(z[1])
 Z([3,'昨日收入'])
 Z(z[1])
-Z([a,[[7],[3,'yestodayAmount']]])
+Z([a,[[2,'?:'],[[2,'=='],[[7],[3,'yestodayAmount']],[1,0]],[1,'0.00'],[[7],[3,'yestodayAmount']]]])
 Z([3,'_view 7f259f98 text_D2'])
 Z(z[1])
 Z([3,'本周收入'])
 Z(z[1])
-Z([a,[[7],[3,'weekAmount']]])
+Z([a,[[2,'?:'],[[2,'=='],[[7],[3,'weekAmount']],[1,0]],[1,'0.00'],[[7],[3,'weekAmount']]]])
 Z([3,'_view 7f259f98 text_D3'])
 Z(z[1])
 Z([3,'本月收入'])
 Z(z[1])
-Z([a,[[7],[3,'monthAmount']]])
+Z([a,[[2,'?:'],[[2,'=='],[[7],[3,'monthAmount']],[1,0]],[1,'0.00'],[[7],[3,'monthAmount']]]])
 Z([3,'_view 7f259f98 grace-padding grace-bg-white grace-common-mt'])
 Z([3,'_view 7f259f98 grace-wrap'])
 Z([3,'_view 7f259f98 grace-boxes'])
@@ -2777,8 +2852,16 @@ Z([3,'_image 7f259f98'])
 Z([3,'widthFix'])
 Z([3,'../../../static/market/gongzi.png'])
 Z([3,'_view 7f259f98 grace-boxes-text'])
-Z([3,'商品管理'])
+Z([3,'订单管理'])
 Z([3,'_navigator 7f259f98 grace-boxes'])
+Z([3,'./goods/index'])
+Z(z[28])
+Z(z[29])
+Z(z[30])
+Z([3,'../../../static/market/yaoqing.png'])
+Z(z[32])
+Z([3,'商品管理'])
+Z(z[27])
 Z(z[28])
 Z(z[29])
 Z(z[30])
@@ -2791,34 +2874,27 @@ Z(z[29])
 Z(z[30])
 Z([3,'../../../static/market/yue.png'])
 Z(z[32])
-Z([3,'余额自动转入'])
-Z(z[34])
+Z([3,'提现'])
+Z(z[27])
 Z(z[28])
 Z(z[29])
 Z(z[30])
 Z([3,'../../../static/market/xinyuan.png'])
 Z(z[32])
 Z([3,'心愿储蓄'])
-Z(z[27])
-Z(z[28])
-Z(z[29])
-Z(z[30])
-Z([3,'../../../static/market/yaoqing.png'])
-Z(z[32])
-Z([3,'邀请有礼'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
+})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
 }
-function gz$gwx_47(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
-__WXML_GLOBAL__.ops_cached.$gwx_47=[];
+function gz$gwx_49(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
+__WXML_GLOBAL__.ops_cached.$gwx_49=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'7f259f98'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
+})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
 }
-function gz$gwx_48(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
-__WXML_GLOBAL__.ops_cached.$gwx_48=[];
+function gz$gwx_50(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
+__WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'3ddaedaa'])
 Z([3,'_view 3ddaedaa grace-padding grace-bg-white grace-common-border'])
@@ -2885,25 +2961,25 @@ Z([3,'submit'])
 Z([3,'background:#fc6666;'])
 Z([3,'primary'])
 Z([3,'下一步'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
+})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
-function gz$gwx_49(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
-__WXML_GLOBAL__.ops_cached.$gwx_49=[];
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'3ddaedaa'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
-function gz$gwx_50(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
-__WXML_GLOBAL__.ops_cached.$gwx_50=[];
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'7f4ebc97'])
 Z([3,'_view 7f4ebc97 bg-white'])
 Z([3,'width: 100%;'])
 Z([3,'_view 7f4ebc97 grace-idcard-desc has-bordertb'])
-Z([3,'描述示例文本 : graceUI 极速开发之旅 ! 基于 uni-app 的优秀前端框架，大幅度提高布局效率!'])
+Z([3,'自2019年起，为了让商家更好的取得用户信任，所有商家必须经过身份认证后才可以进行发布商品等操作，我们将在1个工资日内完成审核。'])
 Z([3,'_view 7f4ebc97 has-bordertb'])
 Z([3,'_view 7f4ebc97 cu-bar bg-white'])
 Z([3,'_view 7f4ebc97 action'])
@@ -3012,19 +3088,19 @@ Z([1,'7f4ebc97-8'])
 Z([3,'background-color: #fc4243;'])
 Z([3,'primary'])
 Z([3,'提 交'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
-function gz$gwx_51(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
-__WXML_GLOBAL__.ops_cached.$gwx_51=[];
+function gz$gwx_53(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
+__WXML_GLOBAL__.ops_cached.$gwx_53=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'7f4ebc97'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
+})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
 }
-function gz$gwx_52(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
-__WXML_GLOBAL__.ops_cached.$gwx_52=[];
+function gz$gwx_54(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
+__WXML_GLOBAL__.ops_cached.$gwx_54=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'6819fcac'])
 Z([3,'_view 6819fcac'])
@@ -3103,19 +3179,19 @@ Z([3,'../../static/coloricon/setting.png'])
 Z(z[54])
 Z([3,'设置'])
 Z(z[58])
-})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
+})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
 }
-function gz$gwx_53(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
-__WXML_GLOBAL__.ops_cached.$gwx_53=[];
+function gz$gwx_55(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
+__WXML_GLOBAL__.ops_cached.$gwx_55=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6819fcac'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
+})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
 }
-function gz$gwx_54(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
-__WXML_GLOBAL__.ops_cached.$gwx_54=[];
+function gz$gwx_56(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
+__WXML_GLOBAL__.ops_cached.$gwx_56=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'c9670ade'])
 Z([3,'_view c9670ade'])
@@ -3146,19 +3222,19 @@ Z([3,'width:100%; background:#FFFFFF; border:0;'])
 Z([3,'退出登录'])
 Z(z[1])
 Z([3,'width:100%; height:30px;'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
+})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
 }
-function gz$gwx_55(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
-__WXML_GLOBAL__.ops_cached.$gwx_55=[];
+function gz$gwx_57(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
+__WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'c9670ade'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
+})(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
-function gz$gwx_56(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
-__WXML_GLOBAL__.ops_cached.$gwx_56=[];
+function gz$gwx_58(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
+__WXML_GLOBAL__.ops_cached.$gwx_58=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'4c98c0cb'])
 Z([3,'_view 4c98c0cb grace-padding'])
@@ -3238,19 +3314,19 @@ Z([3,'_view 4c98c0cb grace-iconfont icon-qq'])
 Z([3,'color: #01a1e5;'])
 Z([3,'_view 4c98c0cb grace-iconfont icon-weibo'])
 Z([3,'color: #fc4243;'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
+})(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
 }
-function gz$gwx_57(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
-__WXML_GLOBAL__.ops_cached.$gwx_57=[];
+function gz$gwx_59(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
+__WXML_GLOBAL__.ops_cached.$gwx_59=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'4c98c0cb'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
+})(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
 }
-function gz$gwx_58(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
-__WXML_GLOBAL__.ops_cached.$gwx_58=[];
+function gz$gwx_60(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
+__WXML_GLOBAL__.ops_cached.$gwx_60=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2d4a1539'])
 Z([3,'_view 2d4a1539 s-page-wrapper'])
@@ -3315,19 +3391,19 @@ Z(z[14])
 Z([1,'2d4a1539-3'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
+})(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
 }
-function gz$gwx_59(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
-__WXML_GLOBAL__.ops_cached.$gwx_59=[];
+function gz$gwx_61(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
+__WXML_GLOBAL__.ops_cached.$gwx_61=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'2d4a1539'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
+})(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
 }
-function gz$gwx_60(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
-__WXML_GLOBAL__.ops_cached.$gwx_60=[];
+function gz$gwx_62(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
+__WXML_GLOBAL__.ops_cached.$gwx_62=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'685fe0c1'])
 Z([3,'_view 685fe0c1 s-page-wrapper'])
@@ -3374,19 +3450,19 @@ Z([3,'3'])
 Z(z[30])
 Z(z[31])
 Z([3,'第三步'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
+})(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
-function gz$gwx_61(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
-__WXML_GLOBAL__.ops_cached.$gwx_61=[];
+function gz$gwx_63(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
+__WXML_GLOBAL__.ops_cached.$gwx_63=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
+})(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
 }
-function gz$gwx_62(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
-__WXML_GLOBAL__.ops_cached.$gwx_62=[];
+function gz$gwx_64(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_64)return __WXML_GLOBAL__.ops_cached.$gwx_64
+__WXML_GLOBAL__.ops_cached.$gwx_64=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'59b2495c'])
 Z([3,'_view 59b2495c s-page-wrapper'])
@@ -3446,21 +3522,21 @@ Z([3,'3'])
 Z(z[40])
 Z(z[41])
 Z([3,'第三步'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
+})(__WXML_GLOBAL__.ops_cached.$gwx_64);return __WXML_GLOBAL__.ops_cached.$gwx_64
 }
-function gz$gwx_63(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
-__WXML_GLOBAL__.ops_cached.$gwx_63=[];
+function gz$gwx_65(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_65)return __WXML_GLOBAL__.ops_cached.$gwx_65
+__WXML_GLOBAL__.ops_cached.$gwx_65=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'59b2495c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
+})(__WXML_GLOBAL__.ops_cached.$gwx_65);return __WXML_GLOBAL__.ops_cached.$gwx_65
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["2763a7ef-default-2763a7ef-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':2763a7ef-default-2763a7ef-2'
@@ -7711,12 +7787,176 @@ return r
 }
 e_[x[64]]={f:m42,j:[],i:[],ti:[x[65]],ic:[]}
 d_[x[66]]={}
-d_[x[66]]["1cad943f"]=function(e,s,r,gg){
+d_[x[66]]["55169286"]=function(e,s,r,gg){
 var z=gz$gwx_44()
-var b=x[66]+':1cad943f'
+var b=x[66]+':55169286'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/market/goods/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[66]);return}
+p_[b]=true
+try{
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:71")
+var oB=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:121")
+var xC=_mz(z,'view',['class',3,'style',1],[],e,s,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:scroll-view:1:200")
+var oD=_mz(z,'scroll-view',['scrollY',-1,'class',5,'scrollIntoView',1],[],e,s,gg)
+var fE=_v()
+_(oD,fE)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:298")
+var cF=function(oH,hG,cI,gg){
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:298")
+var lK=_mz(z,'view',['bindtap',11,'class',1,'data-cateid',2,'data-comkey',3,'data-eventid',4,'id',5,'key',6],[],oH,hG,gg)
+var aL=_oz(z,18,oH,hG,gg)
+_(lK,aL)
+cs.pop()
+_(cI,lK)
+return cI
+}
+fE.wxXCkey=2
+_2z(z,9,cF,e,s,gg,fE,'item','index','index')
+cs.pop()
+cs.pop()
+_(xC,oD)
+cs.push("./pages/my/market/goods/index.vue.wxml:scroll-view:1:658")
+var tM=_mz(z,'scroll-view',['scrollY',-1,'bindscroll',19,'class',1,'data-comkey',2,'data-eventid',3,'scrollIntoView',4],[],e,s,gg)
+var eN=_v()
+_(tM,eN)
+cs.push("./pages/my/market/goods/index.vue.wxml:block:1:842")
+var bO=function(xQ,oP,oR,gg){
+cs.push("./pages/my/market/goods/index.vue.wxml:block:1:842")
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:942")
+var cT=_mz(z,'view',['class',29,'id',1,'style',2],[],xQ,oP,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1076")
+var hU=_n('view')
+_rz(z,hU,'class',32,xQ,oP,gg)
+var oV=_oz(z,33,xQ,oP,gg)
+_(hU,oV)
+cs.pop()
+_(cT,hU)
+cs.pop()
+_(oR,cT)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1153")
+var cW=_n('view')
+_rz(z,cW,'class',34,xQ,oP,gg)
+var oX=_v()
+_(cW,oX)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1198")
+var lY=function(t1,aZ,e2,gg){
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1198")
+var o4=_mz(z,'view',['class',39,'key',1],[],t1,aZ,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:image:1:1397")
+var x5=_mz(z,'image',['class',41,'mode',1,'src',2],[],t1,aZ,gg)
+cs.pop()
+_(o4,x5)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1512")
+var o6=_n('view')
+_rz(z,o6,'class',44,t1,aZ,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1563")
+var f7=_n('view')
+_rz(z,f7,'class',45,t1,aZ,gg)
+var c8=_oz(z,46,t1,aZ,gg)
+_(f7,c8)
+cs.pop()
+_(o6,f7)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1643")
+var h9=_n('view')
+_rz(z,h9,'class',47,t1,aZ,gg)
+var o0=_oz(z,48,t1,aZ,gg)
+_(h9,o0)
+cs.pop()
+_(o6,h9)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1705")
+var cAB=_n('view')
+_rz(z,cAB,'class',49,t1,aZ,gg)
+cs.push("./pages/my/market/goods/index.vue.wxml:view:1:1734")
+var oBB=_mz(z,'view',['bindtap',50,'class',1,'data-comkey',2,'data-eventid',3,'data-product',4],[],t1,aZ,gg)
+cs.pop()
+_(cAB,oBB)
+cs.pop()
+_(o6,cAB)
+cs.pop()
+_(o4,o6)
+cs.pop()
+_(e2,o4)
+return e2
+}
+oX.wxXCkey=2
+_2z(z,37,lY,xQ,oP,gg,oX,'product','productIndex','productIndex')
+cs.pop()
+cs.pop()
+_(oR,cW)
+cs.pop()
+return oR
+}
+eN.wxXCkey=2
+_2z(z,26,bO,e,s,gg,eN,'cate','index','index')
+cs.pop()
+cs.pop()
+_(xC,tM)
+cs.pop()
+_(oB,xC)
+var lCB=_v()
+_(oB,lCB)
+cs.push("./pages/my/market/goods/index.vue.wxml:template:1:1980")
+var aDB=_oz(z,59,e,s,gg)
+var tEB=_gd(x[66],aDB,e_,d_)
+if(tEB){
+var eFB=_1z(z,56,e,s,gg) || {}
+var cur_globalf=gg.f
+lCB.wxXCkey=3
+tEB(eFB,eFB,lCB,gg)
+gg.f=cur_globalf
+}
+else _w(aDB,x[66],1,2156)
+cs.pop()
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m43=function(e,s,r,gg){
+var z=gz$gwx_44()
+var hYD=e_[x[66]].i
+_ai(hYD,x[16],e_,x[66],1,1)
+hYD.pop()
+return r
+}
+e_[x[66]]={f:m43,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[67]]={}
+var m44=function(e,s,r,gg){
+var z=gz$gwx_45()
+var c1D=e_[x[67]].i
+_ai(c1D,x[42],e_,x[67],1,1)
+var o2D=_v()
+_(r,o2D)
+cs.push("./pages/my/market/goods/index.wxml:template:2:6")
+var l3D=_oz(z,1,e,s,gg)
+var a4D=_gd(x[67],l3D,e_,d_)
+if(a4D){
+var t5D=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+o2D.wxXCkey=3
+a4D(t5D,t5D,o2D,gg)
+gg.f=cur_globalf
+}
+else _w(l3D,x[67],2,18)
+cs.pop()
+c1D.pop()
+return r
+}
+e_[x[67]]={f:m44,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[68]]={}
+d_[x[68]]["1cad943f"]=function(e,s,r,gg){
+var z=gz$gwx_46()
+var b=x[68]+':1cad943f'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[66]);return}
+if(p_[b]){_wl(b,x[68]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/index.vue.wxml:view:1:27")
@@ -7772,41 +8012,41 @@ throw err
 p_[b]=false
 return r
 }
-var m43=function(e,s,r,gg){
-var z=gz$gwx_44()
+var m45=function(e,s,r,gg){
+var z=gz$gwx_46()
 return r
 }
-e_[x[66]]={f:m43,j:[],i:[],ti:[],ic:[]}
-d_[x[67]]={}
-var m44=function(e,s,r,gg){
-var z=gz$gwx_45()
-var oZD=e_[x[67]].i
-_ai(oZD,x[42],e_,x[67],1,1)
-var c1D=_v()
-_(r,c1D)
+e_[x[68]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[69]]={}
+var m46=function(e,s,r,gg){
+var z=gz$gwx_47()
+var o8D=e_[x[69]].i
+_ai(o8D,x[42],e_,x[69],1,1)
+var x9D=_v()
+_(r,x9D)
 cs.push("./pages/my/market/index.wxml:template:2:6")
-var o2D=_oz(z,1,e,s,gg)
-var l3D=_gd(x[67],o2D,e_,d_)
-if(l3D){
-var a4D=_1z(z,0,e,s,gg) || {}
+var o0D=_oz(z,1,e,s,gg)
+var fAE=_gd(x[69],o0D,e_,d_)
+if(fAE){
+var cBE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-c1D.wxXCkey=3
-l3D(a4D,a4D,c1D,gg)
+x9D.wxXCkey=3
+fAE(cBE,cBE,x9D,gg)
 gg.f=cur_globalf
 }
-else _w(o2D,x[67],2,18)
+else _w(o0D,x[69],2,18)
 cs.pop()
-oZD.pop()
+o8D.pop()
 return r
 }
-e_[x[67]]={f:m44,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[68]]={}
-d_[x[68]]["7f259f98"]=function(e,s,r,gg){
-var z=gz$gwx_46()
-var b=x[68]+':7f259f98'
+e_[x[69]]={f:m46,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[70]]={}
+d_[x[70]]["7f259f98"]=function(e,s,r,gg){
+var z=gz$gwx_48()
+var b=x[70]+':7f259f98'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[68]);return}
+if(p_[b]){_wl(b,x[70]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/manage.vue.wxml:view:1:27")
@@ -7858,17 +8098,17 @@ cs.pop()
 _(lK,eN)
 cs.pop()
 _(oJ,lK)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:481")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:512")
 var oP=_n('view')
 _rz(z,oP,'class',15,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:518")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:549")
 var xQ=_n('view')
 _rz(z,xQ,'class',16,e,s,gg)
 var oR=_oz(z,17,e,s,gg)
 _(xQ,oR)
 cs.pop()
 _(oP,xQ)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:566")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:597")
 var fS=_n('view')
 _rz(z,fS,'class',18,e,s,gg)
 var cT=_oz(z,19,e,s,gg)
@@ -7877,17 +8117,17 @@ cs.pop()
 _(oP,fS)
 cs.pop()
 _(oJ,oP)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:623")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:681")
 var hU=_n('view')
 _rz(z,hU,'class',20,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:660")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:718")
 var oV=_n('view')
 _rz(z,oV,'class',21,e,s,gg)
 var cW=_oz(z,22,e,s,gg)
 _(oV,cW)
 cs.pop()
 _(hU,oV)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:708")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:766")
 var oX=_n('view')
 _rz(z,oX,'class',23,e,s,gg)
 var lY=_oz(z,24,e,s,gg)
@@ -7900,25 +8140,25 @@ cs.pop()
 _(xC,oJ)
 cs.pop()
 _(oB,xC)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:780")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:866")
 var aZ=_n('view')
 _rz(z,aZ,'class',25,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:854")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:940")
 var t1=_n('view')
 _rz(z,t1,'class',26,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:894")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:980")
 var e2=_n('view')
 _rz(z,e2,'class',27,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:935")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1021")
 var b3=_n('view')
 _rz(z,b3,'class',28,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:image:1:980")
+cs.push("./pages/my/market/manage.vue.wxml:image:1:1066")
 var o4=_mz(z,'image',['class',29,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(b3,o4)
 cs.pop()
 _(e2,b3)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1082")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1168")
 var x5=_n('view')
 _rz(z,x5,'class',32,e,s,gg)
 var o6=_oz(z,33,e,s,gg)
@@ -7927,85 +8167,84 @@ cs.pop()
 _(e2,x5)
 cs.pop()
 _(t1,e2)
-cs.push("./pages/my/market/manage.vue.wxml:navigator:1:1154")
-var f7=_n('navigator')
-_rz(z,f7,'class',34,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1205")
+cs.push("./pages/my/market/manage.vue.wxml:navigator:1:1240")
+var f7=_mz(z,'navigator',['class',34,'url',1],[],e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1311")
 var c8=_n('view')
-_rz(z,c8,'class',35,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:image:1:1250")
-var h9=_mz(z,'image',['class',36,'mode',1,'src',2],[],e,s,gg)
+_rz(z,c8,'class',36,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:image:1:1356")
+var h9=_mz(z,'image',['class',37,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(c8,h9)
 cs.pop()
 _(f7,c8)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1353")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1459")
 var o0=_n('view')
-_rz(z,o0,'class',39,e,s,gg)
-var cAB=_oz(z,40,e,s,gg)
+_rz(z,o0,'class',40,e,s,gg)
+var cAB=_oz(z,41,e,s,gg)
 _(o0,cAB)
 cs.pop()
 _(f7,o0)
 cs.pop()
 _(t1,f7)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1430")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1536")
 var oBB=_n('view')
-_rz(z,oBB,'class',41,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1471")
+_rz(z,oBB,'class',42,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1577")
 var lCB=_n('view')
-_rz(z,lCB,'class',42,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:image:1:1516")
-var aDB=_mz(z,'image',['class',43,'mode',1,'src',2],[],e,s,gg)
+_rz(z,lCB,'class',43,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:image:1:1622")
+var aDB=_mz(z,'image',['class',44,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(lCB,aDB)
 cs.pop()
 _(oBB,lCB)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1615")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1725")
 var tEB=_n('view')
-_rz(z,tEB,'class',46,e,s,gg)
-var eFB=_oz(z,47,e,s,gg)
+_rz(z,tEB,'class',47,e,s,gg)
+var eFB=_oz(z,48,e,s,gg)
 _(tEB,eFB)
 cs.pop()
 _(oBB,tEB)
 cs.pop()
 _(t1,oBB)
-cs.push("./pages/my/market/manage.vue.wxml:navigator:1:1693")
-var bGB=_n('navigator')
-_rz(z,bGB,'class',48,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1744")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1797")
+var bGB=_n('view')
+_rz(z,bGB,'class',49,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1838")
 var oHB=_n('view')
-_rz(z,oHB,'class',49,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:image:1:1789")
-var xIB=_mz(z,'image',['class',50,'mode',1,'src',2],[],e,s,gg)
+_rz(z,oHB,'class',50,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:image:1:1883")
+var xIB=_mz(z,'image',['class',51,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(oHB,xIB)
 cs.pop()
 _(bGB,oHB)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1892")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:1982")
 var oJB=_n('view')
-_rz(z,oJB,'class',53,e,s,gg)
-var fKB=_oz(z,54,e,s,gg)
+_rz(z,oJB,'class',54,e,s,gg)
+var fKB=_oz(z,55,e,s,gg)
 _(oJB,fKB)
 cs.pop()
 _(bGB,oJB)
 cs.pop()
 _(t1,bGB)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:1969")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:2048")
 var cLB=_n('view')
-_rz(z,cLB,'class',55,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:2010")
+_rz(z,cLB,'class',56,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:view:1:2089")
 var hMB=_n('view')
-_rz(z,hMB,'class',56,e,s,gg)
-cs.push("./pages/my/market/manage.vue.wxml:image:1:2055")
-var oNB=_mz(z,'image',['class',57,'mode',1,'src',2],[],e,s,gg)
+_rz(z,hMB,'class',57,e,s,gg)
+cs.push("./pages/my/market/manage.vue.wxml:image:1:2134")
+var oNB=_mz(z,'image',['class',58,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(hMB,oNB)
 cs.pop()
 _(cLB,hMB)
-cs.push("./pages/my/market/manage.vue.wxml:view:1:2158")
+cs.push("./pages/my/market/manage.vue.wxml:view:1:2237")
 var cOB=_n('view')
-_rz(z,cOB,'class',60,e,s,gg)
-var oPB=_oz(z,61,e,s,gg)
+_rz(z,cOB,'class',61,e,s,gg)
+var oPB=_oz(z,62,e,s,gg)
 _(cOB,oPB)
 cs.pop()
 _(cLB,cOB)
@@ -8024,41 +8263,41 @@ throw err
 p_[b]=false
 return r
 }
-var m45=function(e,s,r,gg){
-var z=gz$gwx_46()
+var m47=function(e,s,r,gg){
+var z=gz$gwx_48()
 return r
 }
-e_[x[68]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[69]]={}
-var m46=function(e,s,r,gg){
-var z=gz$gwx_47()
-var b7D=e_[x[69]].i
-_ai(b7D,x[70],e_,x[69],1,1)
-var o8D=_v()
-_(r,o8D)
+e_[x[70]]={f:m47,j:[],i:[],ti:[],ic:[]}
+d_[x[71]]={}
+var m48=function(e,s,r,gg){
+var z=gz$gwx_49()
+var cEE=e_[x[71]].i
+_ai(cEE,x[72],e_,x[71],1,1)
+var oFE=_v()
+_(r,oFE)
 cs.push("./pages/my/market/manage.wxml:template:2:6")
-var x9D=_oz(z,1,e,s,gg)
-var o0D=_gd(x[69],x9D,e_,d_)
-if(o0D){
-var fAE=_1z(z,0,e,s,gg) || {}
+var lGE=_oz(z,1,e,s,gg)
+var aHE=_gd(x[71],lGE,e_,d_)
+if(aHE){
+var tIE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8D.wxXCkey=3
-o0D(fAE,fAE,o8D,gg)
+oFE.wxXCkey=3
+aHE(tIE,tIE,oFE,gg)
 gg.f=cur_globalf
 }
-else _w(x9D,x[69],2,18)
+else _w(lGE,x[71],2,18)
 cs.pop()
-b7D.pop()
+cEE.pop()
 return r
 }
-e_[x[69]]={f:m46,j:[],i:[],ti:[x[70]],ic:[]}
-d_[x[71]]={}
-d_[x[71]]["3ddaedaa"]=function(e,s,r,gg){
-var z=gz$gwx_48()
-var b=x[71]+':3ddaedaa'
+e_[x[71]]={f:m48,j:[],i:[],ti:[x[72]],ic:[]}
+d_[x[73]]={}
+d_[x[73]]["3ddaedaa"]=function(e,s,r,gg){
+var z=gz$gwx_50()
+var b=x[73]+':3ddaedaa'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[71]);return}
+if(p_[b]){_wl(b,x[73]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/regMarketInfo.vue.wxml:view:1:27")
@@ -8221,41 +8460,41 @@ throw err
 p_[b]=false
 return r
 }
-var m47=function(e,s,r,gg){
-var z=gz$gwx_48()
+var m49=function(e,s,r,gg){
+var z=gz$gwx_50()
 return r
 }
-e_[x[71]]={f:m47,j:[],i:[],ti:[],ic:[]}
-d_[x[72]]={}
-var m48=function(e,s,r,gg){
-var z=gz$gwx_49()
-var oDE=e_[x[72]].i
-_ai(oDE,x[73],e_,x[72],1,1)
-var cEE=_v()
-_(r,cEE)
+e_[x[73]]={f:m49,j:[],i:[],ti:[],ic:[]}
+d_[x[74]]={}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+var oLE=e_[x[74]].i
+_ai(oLE,x[75],e_,x[74],1,1)
+var xME=_v()
+_(r,xME)
 cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
-var oFE=_oz(z,1,e,s,gg)
-var lGE=_gd(x[72],oFE,e_,d_)
-if(lGE){
-var aHE=_1z(z,0,e,s,gg) || {}
+var oNE=_oz(z,1,e,s,gg)
+var fOE=_gd(x[74],oNE,e_,d_)
+if(fOE){
+var cPE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cEE.wxXCkey=3
-lGE(aHE,aHE,cEE,gg)
+xME.wxXCkey=3
+fOE(cPE,cPE,xME,gg)
 gg.f=cur_globalf
 }
-else _w(oFE,x[72],2,18)
+else _w(oNE,x[74],2,18)
 cs.pop()
-oDE.pop()
+oLE.pop()
 return r
 }
-e_[x[72]]={f:m48,j:[],i:[],ti:[x[73]],ic:[]}
-d_[x[74]]={}
-d_[x[74]]["7f4ebc97"]=function(e,s,r,gg){
-var z=gz$gwx_50()
-var b=x[74]+':7f4ebc97'
+e_[x[74]]={f:m50,j:[],i:[],ti:[x[75]],ic:[]}
+d_[x[76]]={}
+d_[x[76]]["7f4ebc97"]=function(e,s,r,gg){
+var z=gz$gwx_52()
+var b=x[76]+':7f4ebc97'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[74]);return}
+if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:27")
@@ -8267,21 +8506,21 @@ var oD=_oz(z,4,e,s,gg)
 _(xC,oD)
 cs.pop()
 _(oB,xC)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:270")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:335")
 var fE=_n('view')
 _rz(z,fE,'class',5,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:312")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:377")
 var cF=_n('view')
 _rz(z,cF,'class',6,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:357")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:422")
 var hG=_n('view')
 _rz(z,hG,'class',7,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:393")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:458")
 var oH=_n('text')
 _rz(z,oH,'class',8,e,s,gg)
 cs.pop()
 _(hG,oH)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:451")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:516")
 var cI=_n('text')
 _rz(z,cI,'class',9,e,s,gg)
 var oJ=_oz(z,10,e,s,gg)
@@ -8292,10 +8531,10 @@ cs.pop()
 _(cF,hG)
 cs.pop()
 _(fE,cF)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:507")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:572")
 var lK=_n('view')
 _rz(z,lK,'class',11,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:input:1:550")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:input:1:615")
 var aL=_mz(z,'input',['bindinput',12,'class',1,'data-comkey',2,'data-eventid',3,'name',4,'placeholder',5,'value',6],[],e,s,gg)
 cs.pop()
 _(lK,aL)
@@ -8303,21 +8542,21 @@ cs.pop()
 _(fE,lK)
 cs.pop()
 _(oB,fE)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:737")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:802")
 var tM=_n('view')
 _rz(z,tM,'class',19,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:779")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:844")
 var eN=_n('view')
 _rz(z,eN,'class',20,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:824")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:889")
 var bO=_n('view')
 _rz(z,bO,'class',21,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:860")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:925")
 var oP=_n('text')
 _rz(z,oP,'class',22,e,s,gg)
 cs.pop()
 _(bO,oP)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:918")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:983")
 var xQ=_n('text')
 _rz(z,xQ,'class',23,e,s,gg)
 var oR=_oz(z,24,e,s,gg)
@@ -8328,10 +8567,10 @@ cs.pop()
 _(eN,bO)
 cs.pop()
 _(tM,eN)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:980")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1045")
 var fS=_n('view')
 _rz(z,fS,'class',25,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:input:1:1023")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:input:1:1088")
 var cT=_mz(z,'input',['bindinput',26,'class',1,'data-comkey',2,'data-eventid',3,'name',4,'placeholder',5,'value',6],[],e,s,gg)
 cs.pop()
 _(fS,cT)
@@ -8339,21 +8578,21 @@ cs.pop()
 _(tM,fS)
 cs.pop()
 _(oB,tM)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1214")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1279")
 var hU=_n('view')
 _rz(z,hU,'class',33,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1256")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1321")
 var oV=_n('view')
 _rz(z,oV,'class',34,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1301")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1366")
 var cW=_n('view')
 _rz(z,cW,'class',35,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:1337")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:1402")
 var oX=_n('text')
 _rz(z,oX,'class',36,e,s,gg)
 cs.pop()
 _(cW,oX)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:1395")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:1460")
 var lY=_n('text')
 _rz(z,lY,'class',37,e,s,gg)
 var aZ=_oz(z,38,e,s,gg)
@@ -8364,21 +8603,21 @@ cs.pop()
 _(oV,cW)
 cs.pop()
 _(hU,oV)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1468")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1533")
 var t1=_n('view')
 _rz(z,t1,'class',39,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1516")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1581")
 var e2=_mz(z,'view',['bindtap',40,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1642")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1707")
 var b3=_n('view')
 _rz(z,b3,'class',44,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:1675")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:1740")
 var o4=_mz(z,'image',['class',45,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(b3,o4)
 cs.pop()
 _(e2,b3)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1804")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1869")
 var x5=_n('view')
 _rz(z,x5,'class',48,e,s,gg)
 var o6=_oz(z,49,e,s,gg)
@@ -8387,10 +8626,10 @@ cs.pop()
 _(e2,x5)
 cs.pop()
 _(t1,e2)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1873")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:1938")
 var f7=_n('view')
 _rz(z,f7,'class',50,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:1923")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:1988")
 var c8=_mz(z,'image',['bindtap',51,'class',1,'data-comkey',2,'data-eventid',3,'mode',4,'src',5],[],e,s,gg)
 cs.pop()
 _(f7,c8)
@@ -8400,21 +8639,21 @@ cs.pop()
 _(hU,t1)
 cs.pop()
 _(oB,hU)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2092")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2157")
 var h9=_n('view')
 _rz(z,h9,'class',57,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2134")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2199")
 var o0=_n('view')
 _rz(z,o0,'class',58,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2179")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2244")
 var cAB=_n('view')
 _rz(z,cAB,'class',59,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:2215")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:2280")
 var oBB=_n('text')
 _rz(z,oBB,'class',60,e,s,gg)
 cs.pop()
 _(cAB,oBB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:2273")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:2338")
 var lCB=_n('text')
 _rz(z,lCB,'class',61,e,s,gg)
 var aDB=_oz(z,62,e,s,gg)
@@ -8425,21 +8664,21 @@ cs.pop()
 _(o0,cAB)
 cs.pop()
 _(h9,o0)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2346")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2411")
 var tEB=_n('view')
 _rz(z,tEB,'class',63,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2394")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2459")
 var eFB=_mz(z,'view',['bindtap',64,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2520")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2585")
 var bGB=_n('view')
 _rz(z,bGB,'class',68,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:2553")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:2618")
 var oHB=_mz(z,'image',['class',69,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(bGB,oHB)
 cs.pop()
 _(eFB,bGB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2682")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2747")
 var xIB=_n('view')
 _rz(z,xIB,'class',72,e,s,gg)
 var oJB=_oz(z,73,e,s,gg)
@@ -8448,10 +8687,10 @@ cs.pop()
 _(eFB,xIB)
 cs.pop()
 _(tEB,eFB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2751")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2816")
 var fKB=_n('view')
 _rz(z,fKB,'class',74,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:2801")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:2866")
 var cLB=_mz(z,'image',['bindtap',75,'class',1,'data-comkey',2,'data-eventid',3,'mode',4,'src',5],[],e,s,gg)
 cs.pop()
 _(fKB,cLB)
@@ -8461,21 +8700,21 @@ cs.pop()
 _(h9,tEB)
 cs.pop()
 _(oB,h9)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:2970")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3035")
 var hMB=_n('view')
 _rz(z,hMB,'class',81,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3012")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3077")
 var oNB=_n('view')
 _rz(z,oNB,'class',82,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3057")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3122")
 var cOB=_n('view')
 _rz(z,cOB,'class',83,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:3093")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:3158")
 var oPB=_n('text')
 _rz(z,oPB,'class',84,e,s,gg)
 cs.pop()
 _(cOB,oPB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:3151")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:text:1:3216")
 var lQB=_n('text')
 _rz(z,lQB,'class',85,e,s,gg)
 var aRB=_oz(z,86,e,s,gg)
@@ -8486,21 +8725,21 @@ cs.pop()
 _(oNB,cOB)
 cs.pop()
 _(hMB,oNB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3221")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3286")
 var tSB=_n('view')
 _rz(z,tSB,'class',87,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3269")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3334")
 var eTB=_mz(z,'view',['bindtap',88,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3395")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3460")
 var bUB=_n('view')
 _rz(z,bUB,'class',92,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:3428")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:3493")
 var oVB=_mz(z,'image',['class',93,'mode',1,'src',2],[],e,s,gg)
 cs.pop()
 _(bUB,oVB)
 cs.pop()
 _(eTB,bUB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3557")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3622")
 var xWB=_n('view')
 _rz(z,xWB,'class',96,e,s,gg)
 var oXB=_oz(z,97,e,s,gg)
@@ -8509,10 +8748,10 @@ cs.pop()
 _(eTB,xWB)
 cs.pop()
 _(tSB,eTB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3626")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3691")
 var fYB=_n('view')
 _rz(z,fYB,'class',98,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:3676")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:image:1:3741")
 var cZB=_mz(z,'image',['bindtap',99,'class',1,'data-comkey',2,'data-eventid',3,'mode',4,'src',5],[],e,s,gg)
 cs.pop()
 _(fYB,cZB)
@@ -8522,10 +8761,10 @@ cs.pop()
 _(hMB,tSB)
 cs.pop()
 _(oB,hMB)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3845")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:view:1:3910")
 var h1B=_n('view')
 _rz(z,h1B,'class',105,e,s,gg)
-cs.push("./pages/my/market/verifyIdCard.vue.wxml:button:1:3899")
+cs.push("./pages/my/market/verifyIdCard.vue.wxml:button:1:3964")
 var o2B=_mz(z,'button',['bindtap',106,'class',1,'data-comkey',2,'data-eventid',3,'style',4,'type',5],[],e,s,gg)
 var c3B=_oz(z,112,e,s,gg)
 _(o2B,c3B)
@@ -8542,41 +8781,41 @@ throw err
 p_[b]=false
 return r
 }
-var m49=function(e,s,r,gg){
-var z=gz$gwx_50()
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
 return r
 }
-e_[x[74]]={f:m49,j:[],i:[],ti:[],ic:[]}
-d_[x[75]]={}
-var m50=function(e,s,r,gg){
-var z=gz$gwx_51()
-var bKE=e_[x[75]].i
-_ai(bKE,x[76],e_,x[75],1,1)
-var oLE=_v()
-_(r,oLE)
+e_[x[76]]={f:m51,j:[],i:[],ti:[],ic:[]}
+d_[x[77]]={}
+var m52=function(e,s,r,gg){
+var z=gz$gwx_53()
+var cSE=e_[x[77]].i
+_ai(cSE,x[78],e_,x[77],1,1)
+var oTE=_v()
+_(r,oTE)
 cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
-var xME=_oz(z,1,e,s,gg)
-var oNE=_gd(x[75],xME,e_,d_)
-if(oNE){
-var fOE=_1z(z,0,e,s,gg) || {}
+var lUE=_oz(z,1,e,s,gg)
+var aVE=_gd(x[77],lUE,e_,d_)
+if(aVE){
+var tWE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oLE.wxXCkey=3
-oNE(fOE,fOE,oLE,gg)
+oTE.wxXCkey=3
+aVE(tWE,tWE,oTE,gg)
 gg.f=cur_globalf
 }
-else _w(xME,x[75],2,18)
+else _w(lUE,x[77],2,18)
 cs.pop()
-bKE.pop()
+cSE.pop()
 return r
 }
-e_[x[75]]={f:m50,j:[],i:[],ti:[x[76]],ic:[]}
-d_[x[77]]={}
-d_[x[77]]["6819fcac"]=function(e,s,r,gg){
-var z=gz$gwx_52()
-var b=x[77]+':6819fcac'
+e_[x[77]]={f:m52,j:[],i:[],ti:[x[78]],ic:[]}
+d_[x[79]]={}
+d_[x[79]]["6819fcac"]=function(e,s,r,gg){
+var z=gz$gwx_54()
+var b=x[79]+':6819fcac'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[77]);return}
+if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/my.vue.wxml:view:1:27")
@@ -8847,41 +9086,41 @@ throw err
 p_[b]=false
 return r
 }
-var m51=function(e,s,r,gg){
-var z=gz$gwx_52()
+var m53=function(e,s,r,gg){
+var z=gz$gwx_54()
 return r
 }
-e_[x[77]]={f:m51,j:[],i:[],ti:[],ic:[]}
-d_[x[78]]={}
-var m52=function(e,s,r,gg){
-var z=gz$gwx_53()
-var oRE=e_[x[78]].i
-_ai(oRE,x[79],e_,x[78],1,1)
-var cSE=_v()
-_(r,cSE)
+e_[x[79]]={f:m53,j:[],i:[],ti:[],ic:[]}
+d_[x[80]]={}
+var m54=function(e,s,r,gg){
+var z=gz$gwx_55()
+var oZE=e_[x[80]].i
+_ai(oZE,x[81],e_,x[80],1,1)
+var x1E=_v()
+_(r,x1E)
 cs.push("./pages/my/my.wxml:template:2:6")
-var oTE=_oz(z,1,e,s,gg)
-var lUE=_gd(x[78],oTE,e_,d_)
-if(lUE){
-var aVE=_1z(z,0,e,s,gg) || {}
+var o2E=_oz(z,1,e,s,gg)
+var f3E=_gd(x[80],o2E,e_,d_)
+if(f3E){
+var c4E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cSE.wxXCkey=3
-lUE(aVE,aVE,cSE,gg)
+x1E.wxXCkey=3
+f3E(c4E,c4E,x1E,gg)
 gg.f=cur_globalf
 }
-else _w(oTE,x[78],2,18)
+else _w(o2E,x[80],2,18)
 cs.pop()
-oRE.pop()
+oZE.pop()
 return r
 }
-e_[x[78]]={f:m52,j:[],i:[],ti:[x[79]],ic:[]}
-d_[x[80]]={}
-d_[x[80]]["c9670ade"]=function(e,s,r,gg){
-var z=gz$gwx_54()
-var b=x[80]+':c9670ade'
+e_[x[80]]={f:m54,j:[],i:[],ti:[x[81]],ic:[]}
+d_[x[82]]={}
+d_[x[82]]["c9670ade"]=function(e,s,r,gg){
+var z=gz$gwx_56()
+var b=x[82]+':c9670ade'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[80]);return}
+if(p_[b]){_wl(b,x[82]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/setting/setting.vue.wxml:view:1:27")
@@ -8971,41 +9210,41 @@ throw err
 p_[b]=false
 return r
 }
-var m53=function(e,s,r,gg){
-var z=gz$gwx_54()
+var m55=function(e,s,r,gg){
+var z=gz$gwx_56()
 return r
 }
-e_[x[80]]={f:m53,j:[],i:[],ti:[],ic:[]}
-d_[x[81]]={}
-var m54=function(e,s,r,gg){
-var z=gz$gwx_55()
-var bYE=e_[x[81]].i
-_ai(bYE,x[82],e_,x[81],1,1)
-var oZE=_v()
-_(r,oZE)
+e_[x[82]]={f:m55,j:[],i:[],ti:[],ic:[]}
+d_[x[83]]={}
+var m56=function(e,s,r,gg){
+var z=gz$gwx_57()
+var c7E=e_[x[83]].i
+_ai(c7E,x[84],e_,x[83],1,1)
+var o8E=_v()
+_(r,o8E)
 cs.push("./pages/my/setting/setting.wxml:template:2:6")
-var x1E=_oz(z,1,e,s,gg)
-var o2E=_gd(x[81],x1E,e_,d_)
-if(o2E){
-var f3E=_1z(z,0,e,s,gg) || {}
+var l9E=_oz(z,1,e,s,gg)
+var a0E=_gd(x[83],l9E,e_,d_)
+if(a0E){
+var tAF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oZE.wxXCkey=3
-o2E(f3E,f3E,oZE,gg)
+o8E.wxXCkey=3
+a0E(tAF,tAF,o8E,gg)
 gg.f=cur_globalf
 }
-else _w(x1E,x[81],2,18)
+else _w(l9E,x[83],2,18)
 cs.pop()
-bYE.pop()
+c7E.pop()
 return r
 }
-e_[x[81]]={f:m54,j:[],i:[],ti:[x[82]],ic:[]}
-d_[x[83]]={}
-d_[x[83]]["4c98c0cb"]=function(e,s,r,gg){
-var z=gz$gwx_56()
-var b=x[83]+':4c98c0cb'
+e_[x[83]]={f:m56,j:[],i:[],ti:[x[84]],ic:[]}
+d_[x[85]]={}
+d_[x[85]]["4c98c0cb"]=function(e,s,r,gg){
+var z=gz$gwx_58()
+var b=x[85]+':4c98c0cb'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[83]);return}
+if(p_[b]){_wl(b,x[85]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/reg.vue.wxml:view:1:27")
@@ -9154,41 +9393,41 @@ throw err
 p_[b]=false
 return r
 }
-var m55=function(e,s,r,gg){
-var z=gz$gwx_56()
+var m57=function(e,s,r,gg){
+var z=gz$gwx_58()
 return r
 }
-e_[x[83]]={f:m55,j:[],i:[],ti:[],ic:[]}
-d_[x[84]]={}
-var m56=function(e,s,r,gg){
-var z=gz$gwx_57()
-var o6E=e_[x[84]].i
-_ai(o6E,x[85],e_,x[84],1,1)
-var c7E=_v()
-_(r,c7E)
+e_[x[85]]={f:m57,j:[],i:[],ti:[],ic:[]}
+d_[x[86]]={}
+var m58=function(e,s,r,gg){
+var z=gz$gwx_59()
+var oDF=e_[x[86]].i
+_ai(oDF,x[87],e_,x[86],1,1)
+var xEF=_v()
+_(r,xEF)
 cs.push("./pages/register/reg.wxml:template:2:6")
-var o8E=_oz(z,1,e,s,gg)
-var l9E=_gd(x[84],o8E,e_,d_)
-if(l9E){
-var a0E=_1z(z,0,e,s,gg) || {}
+var oFF=_oz(z,1,e,s,gg)
+var fGF=_gd(x[86],oFF,e_,d_)
+if(fGF){
+var cHF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-c7E.wxXCkey=3
-l9E(a0E,a0E,c7E,gg)
+xEF.wxXCkey=3
+fGF(cHF,cHF,xEF,gg)
 gg.f=cur_globalf
 }
-else _w(o8E,x[84],2,18)
+else _w(oFF,x[86],2,18)
 cs.pop()
-o6E.pop()
+oDF.pop()
 return r
 }
-e_[x[84]]={f:m56,j:[],i:[],ti:[x[85]],ic:[]}
-d_[x[86]]={}
-d_[x[86]]["2d4a1539"]=function(e,s,r,gg){
-var z=gz$gwx_58()
-var b=x[86]+':2d4a1539'
+e_[x[86]]={f:m58,j:[],i:[],ti:[x[87]],ic:[]}
+d_[x[88]]={}
+d_[x[88]]["2d4a1539"]=function(e,s,r,gg){
+var z=gz$gwx_60()
+var b=x[88]+':2d4a1539'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[86]);return}
+if(p_[b]){_wl(b,x[88]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
@@ -9359,7 +9598,7 @@ var oJB=_v()
 _(oB,oJB)
 cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
 var fKB=_oz(z,61,e,s,gg)
-var cLB=_gd(x[86],fKB,e_,d_)
+var cLB=_gd(x[88],fKB,e_,d_)
 if(cLB){
 var hMB=_1z(z,58,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -9367,7 +9606,7 @@ oJB.wxXCkey=3
 cLB(hMB,hMB,oJB,gg)
 gg.f=cur_globalf
 }
-else _w(fKB,x[86],1,2169)
+else _w(fKB,x[88],1,2169)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -9378,44 +9617,44 @@ throw err
 p_[b]=false
 return r
 }
-var m57=function(e,s,r,gg){
-var z=gz$gwx_58()
-var eBF=e_[x[86]].i
-_ai(eBF,x[16],e_,x[86],1,1)
-eBF.pop()
+var m59=function(e,s,r,gg){
+var z=gz$gwx_60()
+var oJF=e_[x[88]].i
+_ai(oJF,x[16],e_,x[88],1,1)
+oJF.pop()
 return r
 }
-e_[x[86]]={f:m57,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[87]]={}
-var m58=function(e,s,r,gg){
-var z=gz$gwx_59()
-var oDF=e_[x[87]].i
-_ai(oDF,x[88],e_,x[87],1,1)
-var xEF=_v()
-_(r,xEF)
+e_[x[88]]={f:m59,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[89]]={}
+var m60=function(e,s,r,gg){
+var z=gz$gwx_61()
+var oLF=e_[x[89]].i
+_ai(oLF,x[90],e_,x[89],1,1)
+var lMF=_v()
+_(r,lMF)
 cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var oFF=_oz(z,1,e,s,gg)
-var fGF=_gd(x[87],oFF,e_,d_)
-if(fGF){
-var cHF=_1z(z,0,e,s,gg) || {}
+var aNF=_oz(z,1,e,s,gg)
+var tOF=_gd(x[89],aNF,e_,d_)
+if(tOF){
+var ePF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xEF.wxXCkey=3
-fGF(cHF,cHF,xEF,gg)
+lMF.wxXCkey=3
+tOF(ePF,ePF,lMF,gg)
 gg.f=cur_globalf
 }
-else _w(oFF,x[87],2,18)
+else _w(aNF,x[89],2,18)
 cs.pop()
-oDF.pop()
+oLF.pop()
 return r
 }
-e_[x[87]]={f:m58,j:[],i:[],ti:[x[88]],ic:[]}
-d_[x[89]]={}
-d_[x[89]]["685fe0c1"]=function(e,s,r,gg){
-var z=gz$gwx_60()
-var b=x[89]+':685fe0c1'
+e_[x[89]]={f:m60,j:[],i:[],ti:[x[90]],ic:[]}
+d_[x[91]]={}
+d_[x[91]]["685fe0c1"]=function(e,s,r,gg){
+var z=gz$gwx_62()
+var b=x[91]+':685fe0c1'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[89]);return}
+if(p_[b]){_wl(b,x[91]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/selectSex.vue.wxml:view:1:27")
@@ -9561,41 +9800,41 @@ throw err
 p_[b]=false
 return r
 }
-var m59=function(e,s,r,gg){
-var z=gz$gwx_60()
+var m61=function(e,s,r,gg){
+var z=gz$gwx_62()
 return r
 }
-e_[x[89]]={f:m59,j:[],i:[],ti:[],ic:[]}
-d_[x[90]]={}
-var m60=function(e,s,r,gg){
-var z=gz$gwx_61()
-var cKF=e_[x[90]].i
-_ai(cKF,x[91],e_,x[90],1,1)
-var oLF=_v()
-_(r,oLF)
+e_[x[91]]={f:m61,j:[],i:[],ti:[],ic:[]}
+d_[x[92]]={}
+var m62=function(e,s,r,gg){
+var z=gz$gwx_63()
+var xSF=e_[x[92]].i
+_ai(xSF,x[93],e_,x[92],1,1)
+var oTF=_v()
+_(r,oTF)
 cs.push("./pages/register/selectSex.wxml:template:2:6")
-var lMF=_oz(z,1,e,s,gg)
-var aNF=_gd(x[90],lMF,e_,d_)
-if(aNF){
-var tOF=_1z(z,0,e,s,gg) || {}
+var fUF=_oz(z,1,e,s,gg)
+var cVF=_gd(x[92],fUF,e_,d_)
+if(cVF){
+var hWF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oLF.wxXCkey=3
-aNF(tOF,tOF,oLF,gg)
+oTF.wxXCkey=3
+cVF(hWF,hWF,oTF,gg)
 gg.f=cur_globalf
 }
-else _w(lMF,x[90],2,18)
+else _w(fUF,x[92],2,18)
 cs.pop()
-cKF.pop()
+xSF.pop()
 return r
 }
-e_[x[90]]={f:m60,j:[],i:[],ti:[x[91]],ic:[]}
-d_[x[92]]={}
-d_[x[92]]["59b2495c"]=function(e,s,r,gg){
-var z=gz$gwx_62()
-var b=x[92]+':59b2495c'
+e_[x[92]]={f:m62,j:[],i:[],ti:[x[93]],ic:[]}
+d_[x[94]]={}
+d_[x[94]]["59b2495c"]=function(e,s,r,gg){
+var z=gz$gwx_64()
+var b=x[94]+':59b2495c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[92]);return}
+if(p_[b]){_wl(b,x[94]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/setAvatar.vue.wxml:view:1:27")
@@ -9762,34 +10001,34 @@ throw err
 p_[b]=false
 return r
 }
-var m61=function(e,s,r,gg){
-var z=gz$gwx_62()
+var m63=function(e,s,r,gg){
+var z=gz$gwx_64()
 return r
 }
-e_[x[92]]={f:m61,j:[],i:[],ti:[],ic:[]}
-d_[x[93]]={}
-var m62=function(e,s,r,gg){
-var z=gz$gwx_63()
-var oRF=e_[x[93]].i
-_ai(oRF,x[94],e_,x[93],1,1)
-var xSF=_v()
-_(r,xSF)
+e_[x[94]]={f:m63,j:[],i:[],ti:[],ic:[]}
+d_[x[95]]={}
+var m64=function(e,s,r,gg){
+var z=gz$gwx_65()
+var oZF=e_[x[95]].i
+_ai(oZF,x[96],e_,x[95],1,1)
+var l1F=_v()
+_(r,l1F)
 cs.push("./pages/register/setAvatar.wxml:template:2:6")
-var oTF=_oz(z,1,e,s,gg)
-var fUF=_gd(x[93],oTF,e_,d_)
-if(fUF){
-var cVF=_1z(z,0,e,s,gg) || {}
+var a2F=_oz(z,1,e,s,gg)
+var t3F=_gd(x[95],a2F,e_,d_)
+if(t3F){
+var e4F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xSF.wxXCkey=3
-fUF(cVF,cVF,xSF,gg)
+l1F.wxXCkey=3
+t3F(e4F,e4F,l1F,gg)
 gg.f=cur_globalf
 }
-else _w(oTF,x[93],2,18)
+else _w(a2F,x[95],2,18)
 cs.pop()
-oRF.pop()
+oZF.pop()
 return r
 }
-e_[x[93]]={f:m62,j:[],i:[],ti:[x[94]],ic:[]}
+e_[x[95]]={f:m64,j:[],i:[],ti:[x[96]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -9964,6 +10203,9 @@ __wxAppCode__['pages/message/chat.wxml']=$gwx('./pages/message/chat.wxml');
 
 __wxAppCode__['pages/message/message.wxss']=setCssToHead([".",[1],"grace-badge{ margin-right: 8px; }\n",],undefined,{path:"./pages/message/message.wxss"});    
 __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml');
+
+__wxAppCode__['pages/my/market/goods/index.wxss']=setCssToHead(["body { height: 100%; }\n.",[1],"grace-search-icon:before { color: #E2231A; }\n.",[1],"grace-news-list-items\x3ewx-image { width: 80px; height: 80px; }\n.",[1],"icons { float: left; }\n.",[1],"iconss { width: ",[0,50],"; height: ",[0,50],"; line-height: ",[0,80],"; margin: ",[0,15]," 0 ",[0,10]," ",[0,15],"; }\n.",[1],"icons wx-image { width: ",[0,50],"; height: ",[0,50],"; }\n.",[1],"grace-news-list-title .",[1],"price { line-height: 1.8em; color: #E2231A; }\n.",[1],"grace-iconfont{ float: right; width: 26px; height: 26px; color: #E2231A; }\n.",[1],"grace-add-to-card { width: 26px; height: 26px; line-height: 22px; border: 1px solid #E2231A; font-size: 26px; color: #E2231A; float: right; text-align: center; border-radius: 26px; }\n.",[1],"grace-badge { margin: 0 0 100% ",[0,-10],"; position: fixed; }\n.",[1],"delete { float: right; width: auto; color: grey; height: ",[0,80],"; line-height: ",[0,80],"; -webkit-flex-shrink: 0; -ms-flex-negative: 0; flex-shrink: 0; overflow: hidden; }\n",],undefined,{path:"./pages/my/market/goods/index.wxss"});    
+__wxAppCode__['pages/my/market/goods/index.wxml']=$gwx('./pages/my/market/goods/index.wxml');
 
 __wxAppCode__['pages/my/market/index.wxss']=undefined;    
 __wxAppCode__['pages/my/market/index.wxml']=$gwx('./pages/my/market/index.wxml');

@@ -17,18 +17,25 @@
 	} from 'vuex'
 	export default {
 		data() {
-			return{
-				merchant:-1,
-				img:'',
-				text1:'',
-				text2:''
+			return {
+				merchant: -1,
+				img: '',
+				text1: '',
+				text2: ''
 			}
 		},
 		computed: mapState(['user']),
 		onLoad: function() {
-			uni.startPullDownRefresh();
+			const market = uni.getStorageSync('market');
+			if(market.isMarket){
+				uni.redirectTo({
+					url: './manage'
+				});
+			}else{
+				uni.startPullDownRefresh();
+			}
 		},
-		onPullDownRefresh(){
+		onPullDownRefresh() {
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'market/index/getmerchant',
 				method: 'GET',
@@ -39,17 +46,25 @@
 					if (res.data.status === 200) {
 						this.merchant = res.data.merchant;
 						if (this.merchant === 1) {
-							uni.redirectTo({
-								url: './manage'
+							var market = {
+								isMarket:true,
+								marketId:res.data.market_id
+							};
+							uni.setStorage({
+								key: 'market',
+								data: market
 							});
-						}else if(this.merchant === 2){
+							uni.redirectTo({
+								url: './manage?market_id=' + market.marketId
+							});
+						} else if (this.merchant === 2) {
 							this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png';
 							this.text1 = '店铺信息审核中';
 							this.text2 = '我们将会在1个工作日内完成审核';
-						}else{
+						} else {
 							this.img = 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/noShop.png',
-							this.text1 = '亲，您还没有开通店铺',
-							this.text2 = '如果您拥有超市可以点击下方按钮申请开通'
+								this.text1 = '亲，您还没有开通店铺',
+								this.text2 = '如果您拥有超市可以点击下方按钮申请开通'
 						}
 					} else {
 						uni.showToast({

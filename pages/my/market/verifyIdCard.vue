@@ -1,7 +1,7 @@
 <template>
 	<view class="bg-white" style="width: 100%;">
 		<view class="grace-idcard-desc has-bordertb">
-			描述示例文本 : graceUI 极速开发之旅 ! 基于 uni-app 的优秀前端框架，大幅度提高布局效率!
+			自2019年起，为了让商家更好的取得用户信任，所有商家必须经过身份认证后才可以进行发布商品等操作，我们将在1个工资日内完成审核。
 		</view>
 		<view class="has-bordertb">
 			<view class="cu-bar bg-white">
@@ -278,7 +278,7 @@
 							},
 							success: res => {
 								if(res.data.status === 200){
-									uni.reLaunch({
+									uni.redirectTo({
 										url:'./index'
 									});
 								}else{
