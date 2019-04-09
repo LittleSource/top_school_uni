@@ -18,7 +18,7 @@
 								<view class="grace-news-list-title-main">{{product.title}}</view>
 								<view class="price">￥{{product.price}}</view>
 								<view>
-									<view :data-product='product' class='grace-iconfont icon-remove' @tap='addtocard'></view>
+									<view :data-product='product' class='grace-iconfont icon-remove' @tap='deleteGoods'></view>
 								</view>
 							</view>
 						</view>
@@ -53,7 +53,8 @@
 				// 产品列表对应分类
 				allProducts: {},
 				marketId: 0,
-				goodsCount: 0
+				goodsCount: 0,
+				deleteGoodsId: 0
 			}
 		},
 		computed: mapState(['user']),
@@ -64,28 +65,36 @@
 				},
 			});
 			const market = uni.getStorageSync('market');
-			if(market.isMarket){
+			if (market.isMarket) {
 				this.marketId = market.marketId;
 			}
-			uni.request({
-				url: this.GLOBAL.serverSrc + 'market/product/select',
-				method: 'GET',
-				data: {
-					token: this.user.token,
-					market_id: this.marketId
-				},
-				success: res => {
-					if (res.data.status === 200) {
-						this.allProducts = res.data.allProduct;
-						this.mainCate = res.data.mainCate;
-					}
-				},
-				fail: (e) => {
-					this.GLOBAL.requestFail(e);
-				}
-			});
+			this.getAllProducts();
 		},
 		methods: {
+			getAllProducts() {
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'market/product/select',
+					method: 'GET',
+					data: {
+						token: this.user.token,
+						market_id: this.marketId
+					},
+					success: res => {
+						if (res.data.status === 200) {
+							this.allProducts = res.data.allProduct;
+							this.mainCate = res.data.mainCate;
+						} else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: "none"
+							});
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
+				});
+			},
 			// 分类切换
 			changCate: function(e) {
 				var cateid = e.currentTarget.dataset.cateid;
@@ -121,18 +130,42 @@
 					}
 				});
 			},
-			// 加入到购物车
-			addtocard: function(e) {
-				this.goodsCount++; //用于购物车小红点
+			deleteGoods: function(e) {
+				this.goodsCount++;
 				var product = e.currentTarget.dataset.product;
-				console.log(JSON.stringify(product));
+				this.deleteGoodsId = product.id; //拿到将要删除的商品id
 				this.$refs.simpleDialog2.confirm({
 					title: '提示',
-					message: '确定删除卫龙吗?'
+					message: '确定删除' + product.title + '吗?'
 				});
 			},
-			confirmButton:function(){
-				
+			confirmButton: function() { //点击确定后与后端交互删除
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'market/management/productdel',
+					method: 'POST',
+					data: {
+						user_id: this.user.id,
+						phone: this.user.phone,
+						token: this.user.token,
+						id: this.deleteGoodsId
+					},
+					success: res => {
+						if (res.data.status === 200) {
+							uni.showToast({
+								title: '删除成功',
+							});
+							this.getAllProducts();//更新列表
+						} else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: "none"
+							});
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
+				});
 			},
 			showmenuX: function() {
 				this.popmenuShowX = !this.popmenuShowX;
@@ -174,12 +207,14 @@
 		line-height: 1.8em;
 		color: #E2231A;
 	}
-	.grace-iconfont{
+
+	.grace-iconfont {
 		float: right;
 		width: 26px;
 		height: 26px;
 		color: #E2231A;
 	}
+
 	.grace-add-to-card {
 		width: 26px;
 		height: 26px;

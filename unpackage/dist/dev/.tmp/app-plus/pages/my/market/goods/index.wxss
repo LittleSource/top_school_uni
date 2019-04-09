@@ -26,7 +26,7 @@ page {
 	line-height: 1.8em;
 	color: #E2231A;
 }
-.grace-iconfont{
+.grace-iconfont {
 	float: right;
 	width: 26px;
 	height: 26px;
