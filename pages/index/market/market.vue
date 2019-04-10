@@ -14,7 +14,7 @@
 					<view class="grace-news-list">
 						<view class="grace-news-list-items" v-for="(product, productIndex) in allProducts['cateproducts'+cate.cateid]"
 						 :key="productIndex">
-							<image :src="product.img" class="grace-news-list-img grace-list-imgs-l" mode="widthFix"></image>
+							<image :src="product.img" @click="showImg(product.img)" class="grace-news-list-img grace-list-imgs-l" mode="scaleToFill"></image>
 							<view class="grace-news-list-title">
 								<view class="grace-news-list-title-main">{{product.title}}</view>
 								<view class="price">￥{{product.price}}</view>
@@ -121,6 +121,12 @@
 			});
 		},
 		methods: {
+			showImg: function(imgurl) {
+				var imgarr=[imgurl];
+				uni.previewImage({
+					urls: imgarr
+				});
+			},
 			// 分类切换
 			changCate: function(e) {
 				var cateid = e.currentTarget.dataset.cateid;
@@ -184,9 +190,9 @@
 				var count = data[0];
 				this.shoppingCart[index].count = count;
 			},
-			deleteProduct:function(index){
-				this.shoppingCart.splice(index,1);
-				if(this.shoppingCart.length === 0){
+			deleteProduct: function(index) {
+				this.shoppingCart.splice(index, 1);
+				if (this.shoppingCart.length === 0) {
 					this.$refs.popup.close();
 				}
 			},

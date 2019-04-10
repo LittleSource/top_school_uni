@@ -5,19 +5,19 @@
 				<form @submit="formSubmit">
 					<view class="grace-items">
 						<view class="grace-label">商品名</view>
-						<input type="text" class="input" name="title" placeholder="请输入商品名称"></input>
+						<input type="text" class="input" name="title" :value="title" placeholder="请输入商品名称"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">商品价格</view>
-						<input type="number" class="input" name="price" placeholder="请输入出售价格"></input>
+						<input type="number" class="input" name="price" :value="price" placeholder="请输入出售价格"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">关键字</view>
-						<input type="text" class="input" name="keywords" placeholder="多个关键字用英文逗号隔开"></input>
+						<input type="text" class="input" name="keywords" :value="keywords" placeholder="多个关键字用英文逗号隔开"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">成本价格</view>
-						<input type="number" class="input" name="cost" placeholder="请输入成本价格"></input>
+						<input type="number" class="input" name="cost" :value="cost" placeholder="请输入成本价格"></input>
 					</view>
 					<view class="grace-items" style="height: 190upx;">
 						<view class="grace-label">商品图片</view>
@@ -35,7 +35,7 @@
 						</view>
 					</view>
 					<view style="padding:22upx 0; border-bottom: 1px solid #EBEBEB; ">
-						<button :loading="btnLoading" formType="submit" type="primary" style="width:100%; background: #fb6566;">确定添加</button>
+						<button :loading="btnLoading" formType="submit" type="primary" style="width:100%; background: #fb6566;">确定{{btnText}}</button>
 					</view>
 				</form>
 			</view>
@@ -50,25 +50,30 @@
 	export default {
 		data() {
 			return {
+				isEdit: false,
+				title: '',
+				price: '',
+				cost: '',
+				keywords: '',
+				cateid: 0,
 				marketId: 0,
+				productId: 0, //商品id 修改商品时才会有
 				catesIndex: 0,
 				cates: [],
 				catesList: [],
 				imgurl: 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png',
+				btnText: '添加',
 				btnLoading: false
 			}
 		},
 		computed: mapState(['user']),
 		onLoad(parameter) {
+			var _self = this;
 			this.marketId = parameter.market_id;
-			if (parameter.type === 'edit') {
-				console.log(parameter.product_id);//拿到商品id
-				return;
-			}
 			uni.showLoading({
 				title: '加载中...'
 			});
-			uni.request({
+			uni.request({ //获取商品分类
 				url: this.GLOBAL.serverSrc + 'market/management/productcate',
 				method: 'GET',
 				data: {
@@ -109,15 +114,62 @@
 					uni.hideLoading();
 				}
 			});
+			if (parameter.type === 'edit') { //如果编辑商品
+				uni.showLoading({
+					title: '加载商品中...'
+				});
+				this.isEdit = true;
+				this.btnText = '修改';
+				this.productId = parameter.product_id; //拿到商品id
+				uni.request({ //根据商品id获取商品信息
+					url: _self.GLOBAL.serverSrc + 'market/management/product',
+					method: 'GET',
+					data: {
+						product_id: this.productId
+					},
+					success: res => {
+						if (res.data.status === 200) {
+							var product = res.data.product;
+							_self.title = product.title;
+							_self.price = product.price;
+							_self.cost = product.cost;
+							_self.keywords = product.keywords;
+							_self.imgurl = product.img;
+							_self.cateid = product.cateid;
+							for (var i = 0; i < _self.catesList.length; i++) { //同步显示当前商品的分类
+								if (_self.catesList[i].cateid == _self.cateid) {
+									_self.catesIndex = i;
+								}
+							}
+						} else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: "none"
+							});
+						}
+					},
+					fail: (e) => {
+						_self.GLOBAL.requestFail(e);
+					},
+					complete: () => {
+						uni.hideLoading();
+					}
+				});
+			}
+			uni.setNavigationBarTitle({
+				title: '商品' + this.btnText
+			});
 		},
 		methods: {
 			bindPickerChange: function(e) {
 				this.catesIndex = e.detail.value;
+				console.log(this.catesIndex);
 			},
 			formSubmit: function(e) {
 				if (this.imgurl === 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png') {
 					uni.showToast({
-						title: '请上传商品图片'
+						title: '请上传商品图片',
+						icon: "none"
 					});
 					return;
 				}
@@ -150,6 +202,13 @@
 				var formData = e.detail.value;
 				var checkRes = graceChecker.check(formData, rule);
 				if (checkRes) {
+					var requrl = '';
+					if (this.isEdit) {
+						formData.product_id = this.productId;
+						requrl = this.GLOBAL.serverSrc + '/market/management/productupdate';
+					} else {
+						requrl = this.GLOBAL.serverSrc + '/market/management/productadd';
+					}
 					this.btnLoading = true;
 					formData.phone = this.user.phone;
 					formData.token = this.user.token;
@@ -157,13 +216,13 @@
 					formData.img = this.imgurl;
 					formData.cateid = this.catesList[this.catesIndex].cateid;
 					uni.request({
-						url: this.GLOBAL.serverSrc + '/market/management/productadd',
+						url: requrl,
 						method: 'POST',
 						data: formData,
 						success: res => {
-							if (res.status === 200) {
+							if (res.data.status === 200) {
 								uni.showToast({
-									title: '商品添加成功'
+									title: '商品' + this.btnText + '成功'
 								});
 								uni.redirectTo({
 									url: './index?market_id=' + this.marketId

@@ -13,7 +13,7 @@
 					<view class="grace-news-list">
 						<view class="grace-news-list-items" v-for="(product, productIndex) in allProducts['cateproducts'+cate.cateid]"
 						 :key="productIndex">
-							<image :src="product.img" class="grace-news-list-img grace-list-imgs-l" mode="widthFix"></image>
+							<image :src="product.img" @click="showImg(product.img)" class="grace-news-list-img grace-list-imgs-l" mode="scaleToFill"></image>
 							<view class="grace-news-list-title">
 								<view class="grace-news-list-title-main">{{product.title}}</view>
 								<view class="price">￥{{product.price}}</view>
@@ -71,7 +71,7 @@
 			}
 			this.getAllProducts();
 		},
-		onNavigationBarButtonTap(){
+		onNavigationBarButtonTap() {
 			uni.navigateTo({
 				url: './edit?type=add&market_id=' + this.marketId
 			});
@@ -99,6 +99,12 @@
 					fail: (e) => {
 						this.GLOBAL.requestFail(e);
 					}
+				});
+			},
+			showImg: function(imgurl) {
+				var imgarr=[imgurl];
+				uni.previewImage({
+					urls: imgarr
 				});
 			},
 			// 分类切换
@@ -136,10 +142,10 @@
 					}
 				});
 			},
-			editGoods:function(e){
+			editGoods: function(e) {
 				var product = e.currentTarget.dataset.product;
 				uni.navigateTo({
-					url: './edit?type=edit&product_id='+product.id
+					url: './edit?type=edit&market_id=' + this.marketId + '&product_id=' + product.id
 				});
 			},
 			deleteGoods: function(e) {
@@ -166,7 +172,7 @@
 							uni.showToast({
 								title: '删除成功',
 							});
-							this.getAllProducts();//更新列表
+							this.getAllProducts(); //更新列表
 						} else {
 							uni.showToast({
 								title: res.data.msg,
