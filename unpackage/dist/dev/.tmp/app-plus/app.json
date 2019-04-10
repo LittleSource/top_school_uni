@@ -25,6 +25,7 @@
     "pages/my/market/verifyIdCard",
     "pages/my/market/manage",
     "pages/my/market/goods/index",
+    "pages/my/market/goods/edit",
     "pages/my/setting/setting",
     "pages/message/chat"
   ],

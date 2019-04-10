@@ -11,7 +11,7 @@
 						<view class="grace-iconfont icon-search serach-icon"></view>
 						<view class="serach-text">搜索内容</view>
 					</view>
-					<view class="iconfont icon-jiahao title" style="font-size: 24px;" @click="showPopupMenu()"></view>
+					<view class="iconfont icon-scan scan" @click="showPopupMenu()"></view>
 				</view>
 			</view>
 		</view>
@@ -198,9 +198,9 @@
 		margin: 0 15upx;
 	}
 
-	.header .info .title {
-		margin-left: 8upx;
-		font-size: 22px;
+	.header .info .scan {
+		margin: 3px 0px 0px 8upx;
+		font-size: 20px;
 	}
 
 	.icon-changeschool {
@@ -209,7 +209,7 @@
 
 	.header .info .serach {
 		height: 30px;
-		width: 280upx;
+		width: 276upx;
 		border-radius: 8px;
 		overflow: hidden;
 		background-color: #F5F5F5 !important;

@@ -9,19 +9,6 @@ page {
 	width: 80px;
 	height: 80px;
 }
-.icons {
-	float: left;
-}
-.iconss {
-	width: 50rpx;
-	height: 50rpx;
-	line-height: 80rpx;
-	margin: 15rpx 0 10rpx 15rpx;
-}
-.icons image {
-	width: 50rpx;
-	height: 50rpx;
-}
 .grace-news-list-title .price {
 	line-height: 1.8em;
 	color: #E2231A;
@@ -31,31 +18,5 @@ page {
 	width: 26px;
 	height: 26px;
 	color: #E2231A;
-}
-.grace-add-to-card {
-	width: 26px;
-	height: 26px;
-	line-height: 22px;
-	border: 1px solid #E2231A;
-	font-size: 26px;
-	color: #E2231A;
-	float: right;
-	text-align: center;
-	border-radius: 26px;
-}
-.grace-badge {
-	margin: 0 0 100% -10rpx;
-	position: fixed;
-}
-.delete {
-	float: right;
-	width: auto;
-	color: grey;
-	height: 80rpx;
-	line-height: 80rpx;
-	-webkit-flex-shrink: 0;
-	    -ms-flex-negative: 0;
-	        flex-shrink: 0;
-	overflow: hidden;
 }
 

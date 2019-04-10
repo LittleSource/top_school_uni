@@ -19,6 +19,7 @@
 								<view class="price">￥{{product.price}}</view>
 								<view>
 									<view :data-product='product' class='grace-iconfont icon-remove' @tap='deleteGoods'></view>
+									<view :data-product='product' class='grace-iconfont icon-write' style="color: #6F6F6F;" @tap='editGoods'></view>
 								</view>
 							</view>
 						</view>
@@ -69,6 +70,11 @@
 				this.marketId = market.marketId;
 			}
 			this.getAllProducts();
+		},
+		onNavigationBarButtonTap(){
+			uni.navigateTo({
+				url: './edit?type=add&market_id=' + this.marketId
+			});
 		},
 		methods: {
 			getAllProducts() {
@@ -130,6 +136,12 @@
 					}
 				});
 			},
+			editGoods:function(e){
+				var product = e.currentTarget.dataset.product;
+				uni.navigateTo({
+					url: './edit?type=edit&product_id='+product.id
+				});
+			},
 			deleteGoods: function(e) {
 				this.goodsCount++;
 				var product = e.currentTarget.dataset.product;
@@ -187,22 +199,6 @@
 		height: 80px;
 	}
 
-	.icons {
-		float: left;
-	}
-
-	.iconss {
-		width: 50upx;
-		height: 50upx;
-		line-height: 80upx;
-		margin: 15upx 0 10upx 15upx;
-	}
-
-	.icons image {
-		width: 50upx;
-		height: 50upx;
-	}
-
 	.grace-news-list-title .price {
 		line-height: 1.8em;
 		color: #E2231A;
@@ -213,32 +209,5 @@
 		width: 26px;
 		height: 26px;
 		color: #E2231A;
-	}
-
-	.grace-add-to-card {
-		width: 26px;
-		height: 26px;
-		line-height: 22px;
-		border: 1px solid #E2231A;
-		font-size: 26px;
-		color: #E2231A;
-		float: right;
-		text-align: center;
-		border-radius: 26px;
-	}
-
-	.grace-badge {
-		margin: 0 0 100% -10upx;
-		position: fixed;
-	}
-
-	.delete {
-		float: right;
-		width: auto;
-		color: grey;
-		height: 80upx;
-		line-height: 80upx;
-		flex-shrink: 0;
-		overflow: hidden;
 	}
 </style>

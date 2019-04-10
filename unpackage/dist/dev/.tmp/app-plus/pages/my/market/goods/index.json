@@ -2,5 +2,13 @@
   "usingComponents": {},
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#fc4243",
-  "navigationBarTitleText": "商品管理"
+  "navigationBarTitleText": "商品管理",
+  "titleNView": {
+    "buttons": [
+      {
+        "fontSrc": "./static/font/iconfont.ttf",
+        "text": ""
+      }
+    ]
+  }
 }

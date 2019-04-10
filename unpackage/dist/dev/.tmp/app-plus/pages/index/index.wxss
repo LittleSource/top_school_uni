@@ -33,16 +33,16 @@
 	        align-items: center;
 	margin: 0 15rpx;
 }
-.header .info .title {
-	margin-left: 8rpx;
-	font-size: 22px;
+.header .info .scan {
+	margin: 3px 0px 0px 8rpx;
+	font-size: 20px;
 }
 .icon-changeschool {
 	font-size: 22px;
 }
 .header .info .serach {
 	height: 30px;
-	width: 280rpx;
+	width: 276rpx;
 	border-radius: 8px;
 	overflow: hidden;
 	background-color: #F5F5F5 !important;
