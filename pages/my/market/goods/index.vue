@@ -145,7 +145,7 @@
 			editGoods: function(e) {
 				var product = e.currentTarget.dataset.product;
 				uni.navigateTo({
-					url: './edit?type=edit&market_id=' + this.marketId + '&product_id=' + product.id
+					url: './edit?type=edit&product_id=' + product.id
 				});
 			},
 			deleteGoods: function(e) {

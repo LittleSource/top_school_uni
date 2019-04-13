@@ -7,7 +7,7 @@
   "id": "__UNI__4EA13A8",
   "name": "TOP校园",
   "version": {
-    "name": "1.1.3",
+    "name": "1.1.4",
     "code": "100"
   },
   "description": "",
@@ -24,7 +24,8 @@
         "appsecret": "db310ec3937d679e45ec5a72d090153c"
       }
     },
-    "Payment": {}
+    "Payment": {},
+    "Push": {}
   },
   "plus": {
     "useragent": {
@@ -123,6 +124,9 @@
             "appid": "wx2d1f29e580ac73c6",
             "appsecret": "db310ec3937d679e45ec5a72d090153c"
           }
+        },
+        "push": {
+          "unipush": {}
         },
         "audio": {
           "mp3": {

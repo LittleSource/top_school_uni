@@ -103,4 +103,15 @@ page {
 	margin: 0 0 100% -10rpx;
 	position: fixed;
 }
+.delete {
+	float: right;
+	width: auto;
+	color: grey;
+	height: 80rpx;
+	line-height: 80rpx;
+	-webkit-flex-shrink: 0;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	overflow: hidden;
+}
 

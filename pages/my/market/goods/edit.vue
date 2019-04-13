@@ -69,7 +69,16 @@
 		computed: mapState(['user']),
 		onLoad(parameter) {
 			var _self = this;
-			this.marketId = parameter.market_id;
+			const market = uni.getStorageSync('market');
+			if (market.isMarket) {
+				this.marketId = market.marketId;
+			}else{
+				uni.showToast({
+					title: '系统错误',
+					icon: "none"
+				});
+				return;
+			}
 			uni.showLoading({
 				title: '加载中...'
 			});
@@ -163,7 +172,6 @@
 		methods: {
 			bindPickerChange: function(e) {
 				this.catesIndex = e.detail.value;
-				console.log(this.catesIndex);
 			},
 			formSubmit: function(e) {
 				if (this.imgurl === 'https://yuange666.oss-cn-beijing.aliyuncs.com/app/camera.png') {

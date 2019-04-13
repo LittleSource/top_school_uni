@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"grace-checked { background: #fc4243 !important; color: #FFFFFF; }\n",],undefined,{path:"./pages/my/market/regMarketInfo.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/market/regMarketInfo.wxml') } }));

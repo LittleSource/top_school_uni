@@ -33,12 +33,12 @@
 					</view>
 					<view class="grace-boxes-text">商品管理</view>
 				</navigator>
-				<view class="grace-boxes">
+				<navigator class="grace-boxes" url="./classify">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/huandai.png" mode="widthFix"></image>
 					</view>
 					<view class="grace-boxes-text">分类管理</view>
-				</view>
+				</navigator>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/yue.png" mode="widthFix"></image>

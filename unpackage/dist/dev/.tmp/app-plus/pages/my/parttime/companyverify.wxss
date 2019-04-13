@@ -1,0 +1,38 @@
+
+.main-two {
+	margin: 0 auto;
+	clear: both;
+	font-size: 35rpx;
+}
+.p1 {
+	color: black;
+	float: left;
+	font-size: 35rpx;
+}
+.p2 {
+	color: red;
+	float: left;
+	font-size: 35rpx;
+}
+.text-two {
+	float: left;
+	margin: 20rpx auto;
+	height: 200rpx;
+}
+.add {
+	float: left;
+	width: 170rpx;
+	height: 170rpx;
+}
+.photo {
+	float: left;
+	margin-left: 50rpx;
+	width: 210rpx;
+	height: 170rpx;
+}
+.next {
+	margin: 0 auto;
+	padding: 25rpx 0;
+	font-size: 38rpx;
+}
+

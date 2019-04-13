@@ -1,0 +1,2 @@
+<import src="./companyverify.vue.wxml" />
+    <template is="84ed08b2" data="{{ ...$root['0'], $root }}"/>

@@ -43,6 +43,13 @@
 				<view class="title">{{item.title}}<text>{{item.desc}}</text></view>
 				<view class="arrow-right"></view>
 			</navigator>
+			<navigator class="items" url="./parttime/companyverify">
+				<view class="icons">
+					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
+				</view>
+				<view class="title">发布兼职</view>
+				<view class="arrow-right"></view>
+			</navigator>
 			<navigator class="items" url="./market/index">
 				<view class="icons">
 					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>

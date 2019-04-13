@@ -6,8 +6,7 @@
   "enablePullDownRefresh": true,
   "pullToRefresh": {
     "style": "default",
-    "support": true,
-    "color": "#fc4243"
+    "support": true
   },
   "animationType": "slide-in-bottom"
 }

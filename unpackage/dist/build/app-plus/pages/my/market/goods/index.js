@@ -1,0 +1,2 @@
+setCssToHead(["body { height: 100%; }\n.",[1],"grace-search-icon:before { color: #E2231A; }\n.",[1],"grace-news-list-items\x3ewx-image { width: 80px; height: 80px; }\n.",[1],"grace-news-list-title .",[1],"price { line-height: 1.8em; color: #E2231A; }\n.",[1],"grace-iconfont { float: right; width: 26px; height: 26px; color: #E2231A; }\n",],undefined,{path:"./pages/my/market/goods/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/my/market/goods/index.wxml') } }));

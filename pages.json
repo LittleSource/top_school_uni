@@ -101,7 +101,14 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "找兼职"
+				"navigationBarTitleText": "找兼职",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
 			}
 		}, {
 			"path": "pages/common/login",
@@ -284,6 +291,14 @@
 			}
 		},
 		{
+			"path": "pages/my/market/classify",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "分类管理"
+			}
+		},
+		{
 			"path": "pages/my/market/goods/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -304,6 +319,14 @@
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "商品XX"
+			}
+		}
+		, {
+			"path": "pages/my/parttime/companyverify",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "企业资料"
 			}
 		},
 		{

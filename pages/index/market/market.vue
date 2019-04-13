@@ -113,6 +113,11 @@
 					if (res.data.status === 200) {
 						this.allProducts = res.data.allProduct;
 						this.mainCate = res.data.mainCate;
+					}else{
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
 					}
 				},
 				fail: (e) => {
