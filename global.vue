@@ -6,7 +6,7 @@
 <script>
 	//全局配置文件
 	const serverChat = 'ws://118.24.124.19:8282';
-	const serverSrc = 'http://123.151.3.152/';//https://apii.ym998.cn/
+	const serverSrc = 'https://apii.ym998.cn/';//https://apii.ym998.cn/
 	export default {
 		serverSrc, //服务器地址
 		serverChat,
@@ -14,12 +14,12 @@
 			if (e.statusCode === 0) {
 				uni.showToast({
 					title: '网络错误, 请确保设备处在联网状态',
-					icon: "none"
+					icon:'none'
 				});
 			} else {
 				uni.showToast({
 					title: '发生网络错误啦！错误码：' + e.statusCode,
-					icon: "none"
+					icon:'none'
 				});
 			}
 		},

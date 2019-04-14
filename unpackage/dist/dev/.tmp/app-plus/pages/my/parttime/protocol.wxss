@@ -1,0 +1,46 @@
+
+.text{
+	width: 90%;
+	padding: 5%;
+	color: black;
+	font-size: 26rpx;
+	line-height: 45rpx;
+	margin-bottom: 90rpx;
+}
+._p{
+	margin-bottom: 40rpx;
+}
+.form{
+	width: 100%;
+	height: 90rpx;
+	background: white;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	padding: 0 ;
+}
+.one{
+	width: 300rpx;
+	height: 90rpx;
+	float: left;
+	background: black;
+	border-radius: 10rpx;
+	text-align: center;
+	font-size: 35rpx;
+	margin-left: 65rpx;
+	background: #e4e1dc;
+	color: black;
+}
+.two{
+	width: 300rpx;
+	height: 90rpx;
+	float: left;
+	margin-left: 10rpx;
+	background: black;
+	border-radius: 10rpx;
+	text-align: center;
+	font-size: 35rpx;
+	background: #fe6b3d;
+	color: white;
+}
+

@@ -115,7 +115,7 @@
 								}
 							},
 							fail: function(err) {
-								console.log('fail:' + JSON.stringify(err));
+								console.log(JSON.stringify(err.errMsg));
 							}
 						});
 					},

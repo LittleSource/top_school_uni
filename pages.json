@@ -204,24 +204,21 @@
 					"animationType": "slide-in-bottom"
 				}
 			}
-		},
-		{
+		},{
 			"path": "pages/common/update",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "检查更新"
 			}
-		},
-		{
+		},{
 			"path": "pages/hot/hot",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "热点"
 			}
-		},
-		{
+		},{
 			"path": "pages/message/message",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -234,8 +231,7 @@
 					}
 				}
 			}
-		},
-		{
+		},{
 			"path": "pages/my/my",
 			"style": {
 				"navigationStyle": "custom",
@@ -243,8 +239,7 @@
 					"titleNView": false //禁用原生导航栏
 				}
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -258,24 +253,21 @@
 					}
 				}
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/regMarketInfo",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "申请开通店铺"
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/verifyIdCard",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "身份认证"
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/manage",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -289,16 +281,14 @@
 					}
 				}
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/classify",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "分类管理"
 			}
-		},
-		{
+		},{
 			"path": "pages/my/market/goods/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -320,24 +310,47 @@
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "商品XX"
 			}
-		}
-		, {
+		},{
+			"path": "pages/my/parttime/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "兼职发布"
+			}
+		},{
+			"path": "pages/my/parttime/parttimereg",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "开通发布兼职权限",
+				"app-plus": {
+                    "titleNView": {
+                        "type": "transparent"//透明渐变导航栏
+                    }
+                }
+			}
+		},{
+			"path": "pages/my/parttime/protocol",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "兼职发布协议"
+			}
+		},{
 			"path": "pages/my/parttime/companyverify",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "企业资料"
 			}
-		},
-		{
+		},{
 			"path": "pages/my/setting/setting",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "设置"
 			}
-		},
-		{
+		},{
 			"path": "pages/message/chat",
 			"style": {
 				"navigationBarTextStyle": "white",
