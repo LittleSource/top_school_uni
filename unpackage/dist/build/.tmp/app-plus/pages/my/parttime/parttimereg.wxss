@@ -1,0 +1,72 @@
+
+.top {
+	width: 100%;
+	height: 300rpx;
+}
+.img {
+	width: 100%;
+	height: 250rpx;
+	padding-top: 50rpx;
+	text-align: center;
+	font-size: 60rpx;
+	color: white;
+	text-shadow: 3rpx 3rpx 3rpx gray;
+}
+.img-two {
+	font-size: 30rpx;
+	color: white;
+	margin-top: 25rpx;
+}
+.blue {
+	width: 600rpx;
+	height: 550rpx;
+	margin: 10rpx auto;
+	background: skyblue;
+	padding: 25rpx 30rpx;
+	border-radius: 15rpx;
+}
+.text {
+	float: left;
+	width: 300rpx;
+	color: white;
+	font-size: 20rpx;
+	line-height: 60rpx;
+}
+.text ._p.now {
+	font-size: 40rpx;
+	margin-bottom: 22rpx;
+	font-weight: bold;
+}
+.form {
+	float: right;
+	width: 280rpx;
+	height: 200rpx;
+	text-align: center;
+}
+.input {
+	width: 200rpx;
+	height: 58rpx;
+	float: right;
+	font-size: 35rpx;
+	line-height: 58rpx;
+	border-radius: 50rpx;
+	margin-top: 5rpx;
+}
+.bottom {
+	width: 600rpx;
+	height: 400rpx;
+	padding: 25rpx 30rpx;
+	margin: 30rpx auto;
+	background: #f9b95d;
+	border-radius: 15rpx;
+}
+.litter {
+	width: 200rpx;
+	height: 50rpx;
+	float: right;
+	text-align: right;
+	font-size: 23rpx;
+	margin-top: 30rpx;
+	color: white;
+}
+

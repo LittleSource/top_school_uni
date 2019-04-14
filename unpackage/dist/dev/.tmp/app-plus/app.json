@@ -24,6 +24,7 @@
     "pages/my/market/regMarketInfo",
     "pages/my/market/verifyIdCard",
     "pages/my/market/manage",
+    "pages/my/market/order/list",
     "pages/my/market/classify",
     "pages/my/market/goods/index",
     "pages/my/market/goods/edit",

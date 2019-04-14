@@ -1,0 +1,2 @@
+<import src="./parttimereg.vue.wxml" />
+    <template is="c55f47f6" data="{{ ...$root['0'], $root }}"/>

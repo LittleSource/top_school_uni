@@ -119,8 +119,9 @@
 							}
 						});
 					},
-					fail: () => {},
-					complete: () => {}
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
 				});
 			}
 		}

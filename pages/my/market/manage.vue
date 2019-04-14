@@ -21,12 +21,12 @@
 		</view>
 		<view class="grace-padding grace-bg-white grace-common-mt">
 			<view class="grace-wrap">
-				<view class="grace-boxes">
+				<navigator class="grace-boxes" url="./order/list">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/gongzi.png" mode="widthFix"></image>
 					</view>
 					<view class="grace-boxes-text">订单管理</view>
-				</view>
+				</navigator>
 				<navigator class="grace-boxes" url="./goods/index">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/yaoqing.png" mode="widthFix"></image>

@@ -27,6 +27,9 @@
     "pages/my/market/classify",
     "pages/my/market/goods/index",
     "pages/my/market/goods/edit",
+    "pages/my/parttime/index",
+    "pages/my/parttime/parttimereg",
+    "pages/my/parttime/protocol",
     "pages/my/parttime/companyverify",
     "pages/my/setting/setting",
     "pages/message/chat"
@@ -74,5 +77,5 @@
     "autoclose": false
   },
   "appname": "TOP校园",
-  "compilerVersion": "1.8.2"
+  "compilerVersion": "1.9.0"
 }
