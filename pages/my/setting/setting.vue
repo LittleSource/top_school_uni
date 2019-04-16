@@ -15,6 +15,9 @@
 			<view class='items'>
 				<navigator url="../../common/update" class="title">检查更新</navigator>
 			</view>
+			<view class='items'>
+				<navigator url="./about" class="title">关于TOP校园与帮助</navigator>
+			</view>
 		</view>
 		<view style="width:100%; margin-top:18px;">
 			<button @click="logout" style="width:100%; background:#FFFFFF; border:0;">退出登录</button>

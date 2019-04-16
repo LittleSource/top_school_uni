@@ -33,6 +33,7 @@
     "pages/my/parttime/protocol",
     "pages/my/parttime/companyverify",
     "pages/my/setting/setting",
+    "pages/my/setting/about",
     "pages/message/chat"
   ],
   "subPackages": [],
@@ -78,5 +79,5 @@
     "autoclose": false
   },
   "appname": "TOP校园",
-  "compilerVersion": "1.9.0"
+  "compilerVersion": "1.9.1"
 }

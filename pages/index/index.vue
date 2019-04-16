@@ -141,13 +141,13 @@
 				]
 			}
 		},
-		computed: mapState(['user','selectSchool']), // 拿到vuex的user对象,
+		computed: mapState(['user', 'selectSchool']), // 拿到vuex的user对象,
 		onLoad: function() {
- 			if (!this.user.hasLogin) {
- 				uni.redirectTo({
- 					url: '../common/login'
- 				});
- 			}
+			if (!this.user.hasLogin) {
+				uni.redirectTo({
+					url: '../common/login'
+				});
+			}
 		},
 		methods: {
 			skip(url) {
@@ -162,6 +162,12 @@
 						if (res.tapIndex === 0) {
 							uni.navigateTo({
 								url: './confession/publish'
+							});
+						} else if (res.tapIndex === 1) {
+							uni.scanCode({
+								success: function(res) {
+									console.log(JSON.stringify(res));
+								}
 							});
 						}
 						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');

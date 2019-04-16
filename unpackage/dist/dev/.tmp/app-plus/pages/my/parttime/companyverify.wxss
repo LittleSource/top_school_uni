@@ -1,38 +1,24 @@
 
-.main-two {
-	margin: 0 auto;
-	clear: both;
+view{
 	font-size: 35rpx;
 }
-.p1 {
-	color: black;
-	float: left;
-	font-size: 35rpx;
-}
-.p2 {
-	color: red;
-	float: left;
-	font-size: 35rpx;
-}
-.text-two {
-	float: left;
-	margin: 20rpx auto;
+.grace-team{
+	padding-top: 10rpx;
+	width: 90%;
 	height: 200rpx;
 }
-.add {
+.team-i{
 	float: left;
-	width: 170rpx;
-	height: 170rpx;
+	width: 25%;
+	height: 200rpx;
 }
-.photo {
-	float: left;
-	margin-left: 50rpx;
-	width: 210rpx;
-	height: 170rpx;
+.textarea{
+	width: 65%;
+	float: right;
+	height: 200rpx;
 }
-.next {
-	margin: 0 auto;
-	padding: 25rpx 0;
-	font-size: 38rpx;
+.text-top{
+	height: 50%;
+	border-bottom: 1px solid #f5f5f5;
 }
 

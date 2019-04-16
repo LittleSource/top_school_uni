@@ -1,0 +1,17 @@
+
+.order-card {
+	padding: 1%;
+	margin: 18rpx auto;
+	background: #FFFFFF;
+	border-radius: 8rpx;
+	webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
+	-webkit-box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
+	        box-shadow: 0 2px 1px -1px rgba(0, 0, 0, .2), 0 1px 1px 0 rgba(0, 0, 0, .10), 0 3px 5px 0 rgba(0, 0, 0, .12);
+}
+.grace-news-list{
+	padding: 0rpx 12rpx 12rpx 12rpx;
+}
+.grace-news-list-title-desc{
+	margin-top: 5rpx;
+}
+

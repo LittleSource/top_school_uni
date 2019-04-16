@@ -365,6 +365,13 @@
 				"navigationBarTitleText": "设置"
 			}
 		},{
+			"path": "pages/my/setting/about",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "关于"
+			}
+		},{
 			"path": "pages/message/chat",
 			"style": {
 				"navigationBarTextStyle": "white",

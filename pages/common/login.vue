@@ -75,9 +75,15 @@
 				uni.login({
 					provider: 'weixin',
 					success: function(loginRes) {
-						console.log(loginRes.authResult);
-					},fail: (e) => {
-						console.log(JSON.stringify(e));
+						console.log(JSON.stringify(loginRes));
+						uni.getUserInfo({
+							provider: 'weixin',
+							success: function(infoRes) {
+								console.log(JSON.stringify(infoRes));
+							}
+						});
+					},
+					fail: (e) => {
 					}
 				});
 			},
