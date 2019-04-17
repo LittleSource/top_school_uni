@@ -43,6 +43,13 @@
 				<view class="title">{{item.title}}<text>{{item.desc}}</text></view>
 				<view class="arrow-right"></view>
 			</navigator>
+			<navigator class="items" url="./address/address">
+				<view class="icons">
+					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
+				</view>
+				<view class="title">我的地址</view>
+				<view class="arrow-right"></view>
+			</navigator>
 			<navigator class="items" url="./parttime/index">
 				<view class="icons">
 					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>

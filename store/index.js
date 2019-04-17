@@ -16,6 +16,12 @@ const store = new Vuex.Store({
 			sex: 0,			//性别
 			merchant:0		//是否商家
 		},
+		addressInfo:{//地址信息
+			name:null,
+			phone:null,
+			city:null,
+			adress:null
+		}, 
 		school: {
 			id: '11853391869743621792',
 			title: '',
@@ -129,6 +135,8 @@ const store = new Vuex.Store({
 
 			state.school = payload.school;
 			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
+			
+			state.addressInfo = payload.addressInfo;//同步地址信息
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
 		},
@@ -149,6 +157,10 @@ const store = new Vuex.Store({
 				key: 'selectSchool',
 				data: state.selectSchool
 			});
+			uni.setStorage({
+				key: 'addressInfo',
+				data: state.addressInfo
+			});
 		},
 		checkSchool(state, payload) {
 			state.selectSchool = payload;
@@ -164,11 +176,18 @@ const store = new Vuex.Store({
 				}
 			});
 		},
+		changeAddressInfo(state, addressInfo){
+			state.addressInfo = addressInfo;
+			uni.setStorage({
+				key: 'addressInfo',
+				data: state.addressInfo
+			});
+		},
 		appOnLunch(state, user) {
 			state.user = user;
 			state.school = uni.getStorageSync('school');
 			state.selectSchool = uni.getStorageSync('selectSchool');
-			
+			state.addressInfo = uni.getStorageSync('addressInfo');
 			uni.setTabBarBadge({
 				index: 2,
 				text: state.unreadCount.toString()
@@ -322,9 +341,6 @@ const store = new Vuex.Store({
 				key: 'historyMsg',
 				data: state.historyMsg
 			});
-		},
-		addGoods(state,goods){//向购物车添加商品
-			
 		}
 	}
 })

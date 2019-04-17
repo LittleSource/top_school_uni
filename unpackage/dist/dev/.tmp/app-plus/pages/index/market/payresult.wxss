@@ -1,0 +1,22 @@
+
+.text_success {
+	text-align: center;
+	font-size: 42rpx;
+	color: black;
+	margin: 15rpx;
+	font-weight: bold;
+}
+.text_order {
+	text-align: center;
+	font-size: 36rpx;
+}
+.grace-rows{
+	padding: 10px;
+}
+.text_end {
+	margin-top: 50rpx;
+	text-align: center;
+	color: #8B8682;
+	font-size: 26rpx;
+}
+

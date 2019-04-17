@@ -97,11 +97,34 @@
 			}
 		},
 		{
+			"path": "pages/index/market/payresult",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "支付结果"
+			}
+		},
+		{
 			"path": "pages/index/parttime/index",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "找兼职",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/parttime/details",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "兼职详情",
 				"enablePullDownRefresh": true,
 				"app-plus": {
 					"pullToRefresh": {
@@ -240,6 +263,13 @@
 				}
 			}
 		},{
+			"path": "pages/my/address/address",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "我的地址"
+			}
+		},{
 			"path": "pages/my/market/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -299,14 +329,14 @@
 			"path": "pages/my/market/classify",
 			"style": {
 				"navigationBarTextStyle": "white",
-				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "分类管理"
 			}
 		},{
 			"path": "pages/my/market/goods/index",
 			"style": {
 				"navigationBarTextStyle": "white",
-				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "商品管理",
 				"titleNView": {
 					"buttons": [ //原生标题栏按钮配置
@@ -321,7 +351,7 @@
 			"path": "pages/my/market/goods/edit",
 			"style": {
 				"navigationBarTextStyle": "white",
-				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "商品XX"
 			}
 		},{

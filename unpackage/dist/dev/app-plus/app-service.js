@@ -1470,7 +1470,7 @@ function gz$gwx_38(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_38)return __WXML_GLOBAL__.ops_cached.$gwx_38
 __WXML_GLOBAL__.ops_cached.$gwx_38=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'78cdde7a'])
+Z([3,'011fc632'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_38);return __WXML_GLOBAL__.ops_cached.$gwx_38
 }
 function gz$gwx_39(){
@@ -1478,12 +1478,42 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_39)return __WXML_GLOBAL__.ops_cached.$gwx_39
 __WXML_GLOBAL__.ops_cached.$gwx_39=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'78cdde7a'])
+Z([3,'011fc632'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_39);return __WXML_GLOBAL__.ops_cached.$gwx_39
 }
 function gz$gwx_40(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_40)return __WXML_GLOBAL__.ops_cached.$gwx_40
 __WXML_GLOBAL__.ops_cached.$gwx_40=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'2a9ca1f3'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
+}
+function gz$gwx_41(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
+__WXML_GLOBAL__.ops_cached.$gwx_41=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2a9ca1f3'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
+}
+function gz$gwx_42(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
+__WXML_GLOBAL__.ops_cached.$gwx_42=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'78cdde7a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
+}
+function gz$gwx_43(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
+__WXML_GLOBAL__.ops_cached.$gwx_43=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'78cdde7a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
+}
+function gz$gwx_44(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
+__WXML_GLOBAL__.ops_cached.$gwx_44=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'631f5603'])
 Z([3,'_view 631f5603'])
@@ -1499,19 +1529,19 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z(z[4])
 Z([1,'631f5603-1'])
 Z([3,'63f6700e'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
+})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
 }
-function gz$gwx_41(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
-__WXML_GLOBAL__.ops_cached.$gwx_41=[];
+function gz$gwx_45(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
+__WXML_GLOBAL__.ops_cached.$gwx_45=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'631f5603'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
+})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
 }
-function gz$gwx_42(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
-__WXML_GLOBAL__.ops_cached.$gwx_42=[];
+function gz$gwx_46(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
+__WXML_GLOBAL__.ops_cached.$gwx_46=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'0878b97c'])
 Z([3,'index'])
@@ -1532,19 +1562,41 @@ Z([3,'_view 0878b97c grace-items'])
 Z(z[8])
 Z([[2,'+'],[1,'0878b97c-0-'],[[7],[3,'index']]])
 Z([[2,'>'],[[6],[[7],[3,'item']],[3,'unread']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
+})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
-function gz$gwx_43(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
-__WXML_GLOBAL__.ops_cached.$gwx_43=[];
+function gz$gwx_47(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
+__WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'0878b97c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
+})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
-function gz$gwx_44(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
-__WXML_GLOBAL__.ops_cached.$gwx_44=[];
+function gz$gwx_48(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
+__WXML_GLOBAL__.ops_cached.$gwx_48=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'1ab7b1d9'])
+Z([3,'handleProxy'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'1ab7b1d9-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[7],[3,'$k']])
+Z([1,'1ab7b1d9-5'])
+Z([3,'3de15c49'])
+Z([3,'mpvueCityPicker1'])
+Z([3,'#ff4243'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
+}
+function gz$gwx_49(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
+__WXML_GLOBAL__.ops_cached.$gwx_49=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'1ab7b1d9'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+}
+function gz$gwx_50(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
+__WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'6e291bf7'])
 Z([3,'_view 6e291bf7'])
@@ -1554,34 +1606,34 @@ Z([3,'cate'])
 Z([[7],[3,'catesList']])
 Z(z[3])
 Z([[2,'>'],[[6],[[7],[3,'catesList']],[3,'length']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
+})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
-function gz$gwx_45(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
-__WXML_GLOBAL__.ops_cached.$gwx_45=[];
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6e291bf7'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
-function gz$gwx_46(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
-__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'b0340454'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
-function gz$gwx_47(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
-__WXML_GLOBAL__.ops_cached.$gwx_47=[];
+function gz$gwx_53(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
+__WXML_GLOBAL__.ops_cached.$gwx_53=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'b0340454'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
+})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
 }
-function gz$gwx_48(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
-__WXML_GLOBAL__.ops_cached.$gwx_48=[];
+function gz$gwx_54(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
+__WXML_GLOBAL__.ops_cached.$gwx_54=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'55169286'])
 Z([3,'handleProxy'])
@@ -1590,52 +1642,6 @@ Z([[7],[3,'$k']])
 Z([1,'55169286-5'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
-}
-function gz$gwx_49(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
-__WXML_GLOBAL__.ops_cached.$gwx_49=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'55169286'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
-}
-function gz$gwx_50(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
-__WXML_GLOBAL__.ops_cached.$gwx_50=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'1cad943f'])
-Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
-}
-function gz$gwx_51(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
-__WXML_GLOBAL__.ops_cached.$gwx_51=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'1cad943f'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
-}
-function gz$gwx_52(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
-__WXML_GLOBAL__.ops_cached.$gwx_52=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7f259f98'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
-}
-function gz$gwx_53(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
-__WXML_GLOBAL__.ops_cached.$gwx_53=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7f259f98'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
-}
-function gz$gwx_54(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
-__WXML_GLOBAL__.ops_cached.$gwx_54=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'78f2e91c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
 }
 function gz$gwx_55(){
@@ -1643,14 +1649,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
 __WXML_GLOBAL__.ops_cached.$gwx_55=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'78f2e91c'])
+Z([3,'55169286'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
 }
 function gz$gwx_56(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
 __WXML_GLOBAL__.ops_cached.$gwx_56=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3ddaedaa'])
+Z([3,'1cad943f'])
+Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
 }
 function gz$gwx_57(){
@@ -1658,14 +1665,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
 __WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3ddaedaa'])
+Z([3,'1cad943f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
 function gz$gwx_58(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
 __WXML_GLOBAL__.ops_cached.$gwx_58=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7f4ebc97'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
 }
 function gz$gwx_59(){
@@ -1673,14 +1680,16 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
 __WXML_GLOBAL__.ops_cached.$gwx_59=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7f4ebc97'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
 }
 function gz$gwx_60(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
 __WXML_GLOBAL__.ops_cached.$gwx_60=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6819fcac'])
+Z([3,'78f2e91c'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'78f2e91c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e380f47c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
 }
 function gz$gwx_61(){
@@ -1688,14 +1697,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
 __WXML_GLOBAL__.ops_cached.$gwx_61=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6819fcac'])
+Z([3,'78f2e91c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
 }
 function gz$gwx_62(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
 __WXML_GLOBAL__.ops_cached.$gwx_62=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
 function gz$gwx_63(){
@@ -1703,14 +1712,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
 __WXML_GLOBAL__.ops_cached.$gwx_63=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
 }
 function gz$gwx_64(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_64)return __WXML_GLOBAL__.ops_cached.$gwx_64
 __WXML_GLOBAL__.ops_cached.$gwx_64=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6452f243'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_64);return __WXML_GLOBAL__.ops_cached.$gwx_64
 }
 function gz$gwx_65(){
@@ -1718,14 +1727,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_65)return __WXML_GLOBAL__.ops_cached.$gwx_65
 __WXML_GLOBAL__.ops_cached.$gwx_65=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6452f243'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_65);return __WXML_GLOBAL__.ops_cached.$gwx_65
 }
 function gz$gwx_66(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_66)return __WXML_GLOBAL__.ops_cached.$gwx_66
 __WXML_GLOBAL__.ops_cached.$gwx_66=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c55f47f6'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_66);return __WXML_GLOBAL__.ops_cached.$gwx_66
 }
 function gz$gwx_67(){
@@ -1733,14 +1742,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_67)return __WXML_GLOBAL__.ops_cached.$gwx_67
 __WXML_GLOBAL__.ops_cached.$gwx_67=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c55f47f6'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_67);return __WXML_GLOBAL__.ops_cached.$gwx_67
 }
 function gz$gwx_68(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_68)return __WXML_GLOBAL__.ops_cached.$gwx_68
 __WXML_GLOBAL__.ops_cached.$gwx_68=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'e234f8f2'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_68);return __WXML_GLOBAL__.ops_cached.$gwx_68
 }
 function gz$gwx_69(){
@@ -1748,14 +1757,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_69)return __WXML_GLOBAL__.ops_cached.$gwx_69
 __WXML_GLOBAL__.ops_cached.$gwx_69=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e234f8f2'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_69);return __WXML_GLOBAL__.ops_cached.$gwx_69
 }
 function gz$gwx_70(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_70)return __WXML_GLOBAL__.ops_cached.$gwx_70
 __WXML_GLOBAL__.ops_cached.$gwx_70=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'6452f243'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_70);return __WXML_GLOBAL__.ops_cached.$gwx_70
 }
 function gz$gwx_71(){
@@ -1763,14 +1772,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_71)return __WXML_GLOBAL__.ops_cached.$gwx_71
 __WXML_GLOBAL__.ops_cached.$gwx_71=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'6452f243'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_71);return __WXML_GLOBAL__.ops_cached.$gwx_71
 }
 function gz$gwx_72(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_72)return __WXML_GLOBAL__.ops_cached.$gwx_72
 __WXML_GLOBAL__.ops_cached.$gwx_72=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c9670ade'])
+Z([3,'c55f47f6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_72);return __WXML_GLOBAL__.ops_cached.$gwx_72
 }
 function gz$gwx_73(){
@@ -1778,14 +1787,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_73)return __WXML_GLOBAL__.ops_cached.$gwx_73
 __WXML_GLOBAL__.ops_cached.$gwx_73=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c9670ade'])
+Z([3,'c55f47f6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_73);return __WXML_GLOBAL__.ops_cached.$gwx_73
 }
 function gz$gwx_74(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_74)return __WXML_GLOBAL__.ops_cached.$gwx_74
 __WXML_GLOBAL__.ops_cached.$gwx_74=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4c98c0cb'])
+Z([3,'e234f8f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_74);return __WXML_GLOBAL__.ops_cached.$gwx_74
 }
 function gz$gwx_75(){
@@ -1793,12 +1802,57 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_75)return __WXML_GLOBAL__.ops_cached.$gwx_75
 __WXML_GLOBAL__.ops_cached.$gwx_75=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4c98c0cb'])
+Z([3,'e234f8f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_75);return __WXML_GLOBAL__.ops_cached.$gwx_75
 }
 function gz$gwx_76(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_76)return __WXML_GLOBAL__.ops_cached.$gwx_76
 __WXML_GLOBAL__.ops_cached.$gwx_76=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'undefined'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_76);return __WXML_GLOBAL__.ops_cached.$gwx_76
+}
+function gz$gwx_77(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_77)return __WXML_GLOBAL__.ops_cached.$gwx_77
+__WXML_GLOBAL__.ops_cached.$gwx_77=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'undefined'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_77);return __WXML_GLOBAL__.ops_cached.$gwx_77
+}
+function gz$gwx_78(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_78)return __WXML_GLOBAL__.ops_cached.$gwx_78
+__WXML_GLOBAL__.ops_cached.$gwx_78=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_78);return __WXML_GLOBAL__.ops_cached.$gwx_78
+}
+function gz$gwx_79(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_79)return __WXML_GLOBAL__.ops_cached.$gwx_79
+__WXML_GLOBAL__.ops_cached.$gwx_79=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_79);return __WXML_GLOBAL__.ops_cached.$gwx_79
+}
+function gz$gwx_80(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_80)return __WXML_GLOBAL__.ops_cached.$gwx_80
+__WXML_GLOBAL__.ops_cached.$gwx_80=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_80);return __WXML_GLOBAL__.ops_cached.$gwx_80
+}
+function gz$gwx_81(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_81)return __WXML_GLOBAL__.ops_cached.$gwx_81
+__WXML_GLOBAL__.ops_cached.$gwx_81=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_81);return __WXML_GLOBAL__.ops_cached.$gwx_81
+}
+function gz$gwx_82(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_82)return __WXML_GLOBAL__.ops_cached.$gwx_82
+__WXML_GLOBAL__.ops_cached.$gwx_82=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2d4a1539'])
 Z([3,'_view 2d4a1539 s-page-wrapper'])
@@ -1809,51 +1863,71 @@ Z([[7],[3,'$k']])
 Z([1,'2d4a1539-3'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_76);return __WXML_GLOBAL__.ops_cached.$gwx_76
+})(__WXML_GLOBAL__.ops_cached.$gwx_82);return __WXML_GLOBAL__.ops_cached.$gwx_82
 }
-function gz$gwx_77(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_77)return __WXML_GLOBAL__.ops_cached.$gwx_77
-__WXML_GLOBAL__.ops_cached.$gwx_77=[];
+function gz$gwx_83(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_83)return __WXML_GLOBAL__.ops_cached.$gwx_83
+__WXML_GLOBAL__.ops_cached.$gwx_83=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'2d4a1539'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_77);return __WXML_GLOBAL__.ops_cached.$gwx_77
+})(__WXML_GLOBAL__.ops_cached.$gwx_83);return __WXML_GLOBAL__.ops_cached.$gwx_83
 }
-function gz$gwx_78(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_78)return __WXML_GLOBAL__.ops_cached.$gwx_78
-__WXML_GLOBAL__.ops_cached.$gwx_78=[];
+function gz$gwx_84(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_84)return __WXML_GLOBAL__.ops_cached.$gwx_84
+__WXML_GLOBAL__.ops_cached.$gwx_84=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_78);return __WXML_GLOBAL__.ops_cached.$gwx_78
+})(__WXML_GLOBAL__.ops_cached.$gwx_84);return __WXML_GLOBAL__.ops_cached.$gwx_84
 }
-function gz$gwx_79(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_79)return __WXML_GLOBAL__.ops_cached.$gwx_79
-__WXML_GLOBAL__.ops_cached.$gwx_79=[];
+function gz$gwx_85(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_85)return __WXML_GLOBAL__.ops_cached.$gwx_85
+__WXML_GLOBAL__.ops_cached.$gwx_85=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_79);return __WXML_GLOBAL__.ops_cached.$gwx_79
+})(__WXML_GLOBAL__.ops_cached.$gwx_85);return __WXML_GLOBAL__.ops_cached.$gwx_85
 }
-function gz$gwx_80(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_80)return __WXML_GLOBAL__.ops_cached.$gwx_80
-__WXML_GLOBAL__.ops_cached.$gwx_80=[];
+function gz$gwx_86(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_86)return __WXML_GLOBAL__.ops_cached.$gwx_86
+__WXML_GLOBAL__.ops_cached.$gwx_86=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'59b2495c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_80);return __WXML_GLOBAL__.ops_cached.$gwx_80
+})(__WXML_GLOBAL__.ops_cached.$gwx_86);return __WXML_GLOBAL__.ops_cached.$gwx_86
 }
-function gz$gwx_81(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_81)return __WXML_GLOBAL__.ops_cached.$gwx_81
-__WXML_GLOBAL__.ops_cached.$gwx_81=[];
+function gz$gwx_87(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_87)return __WXML_GLOBAL__.ops_cached.$gwx_87
+__WXML_GLOBAL__.ops_cached.$gwx_87=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'59b2495c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_81);return __WXML_GLOBAL__.ops_cached.$gwx_81
+})(__WXML_GLOBAL__.ops_cached.$gwx_87);return __WXML_GLOBAL__.ops_cached.$gwx_87
+}
+function gz$gwx_88(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_88)return __WXML_GLOBAL__.ops_cached.$gwx_88
+__WXML_GLOBAL__.ops_cached.$gwx_88=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'3de15c49'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_88);return __WXML_GLOBAL__.ops_cached.$gwx_88
+}
+function gz$gwx_89(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_89)return __WXML_GLOBAL__.ops_cached.$gwx_89
+__WXML_GLOBAL__.ops_cached.$gwx_89=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'20908afe'])
+Z([a,[3,'_view 20908afe mpvue-picker-content  '],[[4],[[5],[[2,'?:'],[[7],[3,'showPicker']],[1,'mpvue-picker-view-show'],[1,'']]]]])
+Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'selector']],[[2,'>'],[[6],[[7],[3,'pickerValueSingleArray']],[3,'length']],[1,0]]])
+Z([[2,'==='],[[7],[3,'mode']],[1,'timeSelector']])
+Z([[2,'==='],[[7],[3,'mode']],[1,'multiSelector']])
+Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,2]]])
+Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,3]]])
+})(__WXML_GLOBAL__.ops_cached.$gwx_89);return __WXML_GLOBAL__.ops_cached.$gwx_89
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["2763a7ef-default-2763a7ef-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':2763a7ef-default-2763a7ef-2'
@@ -3154,7 +3228,7 @@ cs.pop()
 _(oB,hG)
 var cI=_v()
 _(oB,cI)
-cs.push("./pages/index/market/market.vue.wxml:template:1:3033")
+cs.push("./pages/index/market/market.vue.wxml:template:1:3066")
 var oJ=_oz(z,12,e,s,gg)
 var lK=_gd(x[53],oJ,e_,d_)
 if(lK){
@@ -3164,7 +3238,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[53],1,3160)
+else _w(oJ,x[53],1,3193)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3211,11 +3285,11 @@ return r
 }
 e_[x[54]]={f:m36,j:[],i:[],ti:[x[55]],ic:[]}
 d_[x[56]]={}
-d_[x[56]]["78cdde7a"]=function(e,s,r,gg){
+d_[x[56]]["011fc632"]=function(e,s,r,gg){
 var z=gz$gwx_38()
-var b=x[56]+':78cdde7a'
+var b=x[56]+':011fc632'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[56]);return}
 p_[b]=true
 try{
@@ -3235,10 +3309,10 @@ d_[x[57]]={}
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
 var eDD=e_[x[57]].i
-_ai(eDD,x[42],e_,x[57],1,1)
+_ai(eDD,x[58],e_,x[57],1,1)
 var bED=_v()
 _(r,bED)
-cs.push("./pages/index/parttime/index.wxml:template:2:6")
+cs.push("./pages/index/market/payresult.wxml:template:2:6")
 var oFD=_oz(z,1,e,s,gg)
 var xGD=_gd(x[57],oFD,e_,d_)
 if(xGD){
@@ -3253,14 +3327,102 @@ cs.pop()
 eDD.pop()
 return r
 }
-e_[x[57]]={f:m38,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[58]]={}
-d_[x[58]]["631f5603"]=function(e,s,r,gg){
+e_[x[57]]={f:m38,j:[],i:[],ti:[x[58]],ic:[]}
+d_[x[59]]={}
+d_[x[59]]["2a9ca1f3"]=function(e,s,r,gg){
 var z=gz$gwx_40()
-var b=x[58]+':631f5603'
+var b=x[59]+':2a9ca1f3'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[59]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m39=function(e,s,r,gg){
+var z=gz$gwx_40()
+return r
+}
+e_[x[59]]={f:m39,j:[],i:[],ti:[],ic:[]}
+d_[x[60]]={}
+var m40=function(e,s,r,gg){
+var z=gz$gwx_41()
+var hKD=e_[x[60]].i
+_ai(hKD,x[61],e_,x[60],1,1)
+var oLD=_v()
+_(r,oLD)
+cs.push("./pages/index/parttime/details.wxml:template:2:6")
+var cMD=_oz(z,1,e,s,gg)
+var oND=_gd(x[60],cMD,e_,d_)
+if(oND){
+var lOD=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oLD.wxXCkey=3
+oND(lOD,lOD,oLD,gg)
+gg.f=cur_globalf
+}
+else _w(cMD,x[60],2,18)
+cs.pop()
+hKD.pop()
+return r
+}
+e_[x[60]]={f:m40,j:[],i:[],ti:[x[61]],ic:[]}
+d_[x[62]]={}
+d_[x[62]]["78cdde7a"]=function(e,s,r,gg){
+var z=gz$gwx_42()
+var b=x[62]+':78cdde7a'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[62]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m41=function(e,s,r,gg){
+var z=gz$gwx_42()
+return r
+}
+e_[x[62]]={f:m41,j:[],i:[],ti:[],ic:[]}
+d_[x[63]]={}
+var m42=function(e,s,r,gg){
+var z=gz$gwx_43()
+var eRD=e_[x[63]].i
+_ai(eRD,x[42],e_,x[63],1,1)
+var bSD=_v()
+_(r,bSD)
+cs.push("./pages/index/parttime/index.wxml:template:2:6")
+var oTD=_oz(z,1,e,s,gg)
+var xUD=_gd(x[63],oTD,e_,d_)
+if(xUD){
+var oVD=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+bSD.wxXCkey=3
+xUD(oVD,oVD,bSD,gg)
+gg.f=cur_globalf
+}
+else _w(oTD,x[63],2,18)
+cs.pop()
+eRD.pop()
+return r
+}
+e_[x[63]]={f:m42,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[64]]={}
+d_[x[64]]["631f5603"]=function(e,s,r,gg){
+var z=gz$gwx_44()
+var b=x[64]+':631f5603'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/chat.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[58]);return}
+if(p_[b]){_wl(b,x[64]);return}
 p_[b]=true
 try{
 cs.push("./pages/message/chat.vue.wxml:view:1:142")
@@ -3270,7 +3432,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/message/chat.vue.wxml:template:1:171")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[58],oD,e_,d_)
+var fE=_gd(x[64],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3278,13 +3440,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[58],1,327)
+else _w(oD,x[64],1,327)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/message/chat.vue.wxml:template:1:350")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[58],oH,e_,d_)
+var cI=_gd(x[64],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3292,7 +3454,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[58],1,564)
+else _w(oH,x[64],1,564)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3303,46 +3465,46 @@ throw err
 p_[b]=false
 return r
 }
-var m39=function(e,s,r,gg){
-var z=gz$gwx_40()
-var cJD=e_[x[58]].i
-_ai(cJD,x[59],e_,x[58],1,1)
-_ai(cJD,x[60],e_,x[58],1,57)
-cJD.pop()
-cJD.pop()
+var m43=function(e,s,r,gg){
+var z=gz$gwx_44()
+var cXD=e_[x[64]].i
+_ai(cXD,x[65],e_,x[64],1,1)
+_ai(cXD,x[66],e_,x[64],1,57)
+cXD.pop()
+cXD.pop()
 return r
 }
-e_[x[58]]={f:m39,j:[],i:[],ti:[x[59],x[60]],ic:[]}
-d_[x[61]]={}
-var m40=function(e,s,r,gg){
-var z=gz$gwx_41()
-var oLD=e_[x[61]].i
-_ai(oLD,x[62],e_,x[61],1,1)
-var cMD=_v()
-_(r,cMD)
+e_[x[64]]={f:m43,j:[],i:[],ti:[x[65],x[66]],ic:[]}
+d_[x[67]]={}
+var m44=function(e,s,r,gg){
+var z=gz$gwx_45()
+var oZD=e_[x[67]].i
+_ai(oZD,x[68],e_,x[67],1,1)
+var c1D=_v()
+_(r,c1D)
 cs.push("./pages/message/chat.wxml:template:2:6")
-var oND=_oz(z,1,e,s,gg)
-var lOD=_gd(x[61],oND,e_,d_)
-if(lOD){
-var aPD=_1z(z,0,e,s,gg) || {}
+var o2D=_oz(z,1,e,s,gg)
+var l3D=_gd(x[67],o2D,e_,d_)
+if(l3D){
+var a4D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cMD.wxXCkey=3
-lOD(aPD,aPD,cMD,gg)
+c1D.wxXCkey=3
+l3D(a4D,a4D,c1D,gg)
 gg.f=cur_globalf
 }
-else _w(oND,x[61],2,18)
+else _w(o2D,x[67],2,18)
 cs.pop()
-oLD.pop()
+oZD.pop()
 return r
 }
-e_[x[61]]={f:m40,j:[],i:[],ti:[x[62]],ic:[]}
-d_[x[63]]={}
-d_[x[63]]["0878b97c"]=function(e,s,r,gg){
-var z=gz$gwx_42()
-var b=x[63]+':0878b97c'
+e_[x[67]]={f:m44,j:[],i:[],ti:[x[68]],ic:[]}
+d_[x[69]]={}
+d_[x[69]]["0878b97c"]=function(e,s,r,gg){
+var z=gz$gwx_46()
+var b=x[69]+':0878b97c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[63]);return}
+if(p_[b]){_wl(b,x[69]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3376,41 +3538,102 @@ throw err
 p_[b]=false
 return r
 }
-var m41=function(e,s,r,gg){
-var z=gz$gwx_42()
+var m45=function(e,s,r,gg){
+var z=gz$gwx_46()
 return r
 }
-e_[x[63]]={f:m41,j:[],i:[],ti:[],ic:[]}
-d_[x[64]]={}
-var m42=function(e,s,r,gg){
-var z=gz$gwx_43()
-var bSD=e_[x[64]].i
-_ai(bSD,x[65],e_,x[64],1,1)
-var oTD=_v()
-_(r,oTD)
+e_[x[69]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[70]]={}
+var m46=function(e,s,r,gg){
+var z=gz$gwx_47()
+var b7D=e_[x[70]].i
+_ai(b7D,x[71],e_,x[70],1,1)
+var o8D=_v()
+_(r,o8D)
 cs.push("./pages/message/message.wxml:template:2:6")
-var xUD=_oz(z,1,e,s,gg)
-var oVD=_gd(x[64],xUD,e_,d_)
-if(oVD){
-var fWD=_1z(z,0,e,s,gg) || {}
+var x9D=_oz(z,1,e,s,gg)
+var o0D=_gd(x[70],x9D,e_,d_)
+if(o0D){
+var fAE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oTD.wxXCkey=3
-oVD(fWD,fWD,oTD,gg)
+o8D.wxXCkey=3
+o0D(fAE,fAE,o8D,gg)
 gg.f=cur_globalf
 }
-else _w(xUD,x[64],2,18)
+else _w(x9D,x[70],2,18)
 cs.pop()
-bSD.pop()
+b7D.pop()
 return r
 }
-e_[x[64]]={f:m42,j:[],i:[],ti:[x[65]],ic:[]}
-d_[x[66]]={}
-d_[x[66]]["6e291bf7"]=function(e,s,r,gg){
-var z=gz$gwx_44()
-var b=x[66]+':6e291bf7'
+e_[x[70]]={f:m46,j:[],i:[],ti:[x[71]],ic:[]}
+d_[x[72]]={}
+d_[x[72]]["1ab7b1d9"]=function(e,s,r,gg){
+var z=gz$gwx_48()
+var b=x[72]+':1ab7b1d9'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/address/address.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[72]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/my/address/address.vue.wxml:template:1:1675")
+var xC=_oz(z,5,e,s,gg)
+var oD=_gd(x[72],xC,e_,d_)
+if(oD){
+var fE=_1z(z,2,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[72],1,1871)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m47=function(e,s,r,gg){
+var z=gz$gwx_48()
+var hCE=e_[x[72]].i
+_ai(hCE,x[73],e_,x[72],1,1)
+hCE.pop()
+return r
+}
+e_[x[72]]={f:m47,j:[],i:[],ti:[x[73]],ic:[]}
+d_[x[74]]={}
+var m48=function(e,s,r,gg){
+var z=gz$gwx_49()
+var cEE=e_[x[74]].i
+_ai(cEE,x[75],e_,x[74],1,1)
+var oFE=_v()
+_(r,oFE)
+cs.push("./pages/my/address/address.wxml:template:2:6")
+var lGE=_oz(z,1,e,s,gg)
+var aHE=_gd(x[74],lGE,e_,d_)
+if(aHE){
+var tIE=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oFE.wxXCkey=3
+aHE(tIE,tIE,oFE,gg)
+gg.f=cur_globalf
+}
+else _w(lGE,x[74],2,18)
+cs.pop()
+cEE.pop()
+return r
+}
+e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
+d_[x[76]]={}
+d_[x[76]]["6e291bf7"]=function(e,s,r,gg){
+var z=gz$gwx_50()
+var b=x[76]+':6e291bf7'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/classify.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[66]);return}
+if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/classify.vue.wxml:view:1:27")
@@ -3448,41 +3671,41 @@ throw err
 p_[b]=false
 return r
 }
-var m43=function(e,s,r,gg){
-var z=gz$gwx_44()
+var m49=function(e,s,r,gg){
+var z=gz$gwx_50()
 return r
 }
-e_[x[66]]={f:m43,j:[],i:[],ti:[],ic:[]}
-d_[x[67]]={}
-var m44=function(e,s,r,gg){
-var z=gz$gwx_45()
-var oZD=e_[x[67]].i
-_ai(oZD,x[68],e_,x[67],1,1)
-var c1D=_v()
-_(r,c1D)
+e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
+d_[x[77]]={}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+var oLE=e_[x[77]].i
+_ai(oLE,x[78],e_,x[77],1,1)
+var xME=_v()
+_(r,xME)
 cs.push("./pages/my/market/classify.wxml:template:2:6")
-var o2D=_oz(z,1,e,s,gg)
-var l3D=_gd(x[67],o2D,e_,d_)
-if(l3D){
-var a4D=_1z(z,0,e,s,gg) || {}
+var oNE=_oz(z,1,e,s,gg)
+var fOE=_gd(x[77],oNE,e_,d_)
+if(fOE){
+var cPE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-c1D.wxXCkey=3
-l3D(a4D,a4D,c1D,gg)
+xME.wxXCkey=3
+fOE(cPE,cPE,xME,gg)
 gg.f=cur_globalf
 }
-else _w(o2D,x[67],2,18)
+else _w(oNE,x[77],2,18)
 cs.pop()
-oZD.pop()
+oLE.pop()
 return r
 }
-e_[x[67]]={f:m44,j:[],i:[],ti:[x[68]],ic:[]}
-d_[x[69]]={}
-d_[x[69]]["b0340454"]=function(e,s,r,gg){
-var z=gz$gwx_46()
-var b=x[69]+':b0340454'
+e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
+d_[x[79]]={}
+d_[x[79]]["b0340454"]=function(e,s,r,gg){
+var z=gz$gwx_52()
+var b=x[79]+':b0340454'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/goods/edit.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[69]);return}
+if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3492,48 +3715,48 @@ throw err
 p_[b]=false
 return r
 }
-var m45=function(e,s,r,gg){
-var z=gz$gwx_46()
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
 return r
 }
-e_[x[69]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[70]]={}
-var m46=function(e,s,r,gg){
-var z=gz$gwx_47()
-var b7D=e_[x[70]].i
-_ai(b7D,x[71],e_,x[70],1,1)
-var o8D=_v()
-_(r,o8D)
+e_[x[79]]={f:m51,j:[],i:[],ti:[],ic:[]}
+d_[x[80]]={}
+var m52=function(e,s,r,gg){
+var z=gz$gwx_53()
+var cSE=e_[x[80]].i
+_ai(cSE,x[81],e_,x[80],1,1)
+var oTE=_v()
+_(r,oTE)
 cs.push("./pages/my/market/goods/edit.wxml:template:2:6")
-var x9D=_oz(z,1,e,s,gg)
-var o0D=_gd(x[70],x9D,e_,d_)
-if(o0D){
-var fAE=_1z(z,0,e,s,gg) || {}
+var lUE=_oz(z,1,e,s,gg)
+var aVE=_gd(x[80],lUE,e_,d_)
+if(aVE){
+var tWE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8D.wxXCkey=3
-o0D(fAE,fAE,o8D,gg)
+oTE.wxXCkey=3
+aVE(tWE,tWE,oTE,gg)
 gg.f=cur_globalf
 }
-else _w(x9D,x[70],2,18)
+else _w(lUE,x[80],2,18)
 cs.pop()
-b7D.pop()
+cSE.pop()
 return r
 }
-e_[x[70]]={f:m46,j:[],i:[],ti:[x[71]],ic:[]}
-d_[x[72]]={}
-d_[x[72]]["55169286"]=function(e,s,r,gg){
-var z=gz$gwx_48()
-var b=x[72]+':55169286'
+e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
+d_[x[82]]={}
+d_[x[82]]["55169286"]=function(e,s,r,gg){
+var z=gz$gwx_54()
+var b=x[82]+':55169286'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/goods/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[72]);return}
+if(p_[b]){_wl(b,x[82]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/my/market/goods/index.vue.wxml:template:1:2294")
 var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[72],xC,e_,d_)
+var oD=_gd(x[82],xC,e_,d_)
 if(oD){
 var fE=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3541,7 +3764,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[72],1,2470)
+else _w(xC,x[82],1,2470)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -3550,44 +3773,44 @@ throw err
 p_[b]=false
 return r
 }
-var m47=function(e,s,r,gg){
-var z=gz$gwx_48()
-var hCE=e_[x[72]].i
-_ai(hCE,x[16],e_,x[72],1,1)
-hCE.pop()
+var m53=function(e,s,r,gg){
+var z=gz$gwx_54()
+var bYE=e_[x[82]].i
+_ai(bYE,x[16],e_,x[82],1,1)
+bYE.pop()
 return r
 }
-e_[x[72]]={f:m47,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[73]]={}
-var m48=function(e,s,r,gg){
-var z=gz$gwx_49()
-var cEE=e_[x[73]].i
-_ai(cEE,x[42],e_,x[73],1,1)
-var oFE=_v()
-_(r,oFE)
+e_[x[82]]={f:m53,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[83]]={}
+var m54=function(e,s,r,gg){
+var z=gz$gwx_55()
+var x1E=e_[x[83]].i
+_ai(x1E,x[42],e_,x[83],1,1)
+var o2E=_v()
+_(r,o2E)
 cs.push("./pages/my/market/goods/index.wxml:template:2:6")
-var lGE=_oz(z,1,e,s,gg)
-var aHE=_gd(x[73],lGE,e_,d_)
-if(aHE){
-var tIE=_1z(z,0,e,s,gg) || {}
+var f3E=_oz(z,1,e,s,gg)
+var c4E=_gd(x[83],f3E,e_,d_)
+if(c4E){
+var h5E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oFE.wxXCkey=3
-aHE(tIE,tIE,oFE,gg)
+o2E.wxXCkey=3
+c4E(h5E,h5E,o2E,gg)
 gg.f=cur_globalf
 }
-else _w(lGE,x[73],2,18)
+else _w(f3E,x[83],2,18)
 cs.pop()
-cEE.pop()
+x1E.pop()
 return r
 }
-e_[x[73]]={f:m48,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[74]]={}
-d_[x[74]]["1cad943f"]=function(e,s,r,gg){
-var z=gz$gwx_50()
-var b=x[74]+':1cad943f'
+e_[x[83]]={f:m54,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[84]]={}
+d_[x[84]]["1cad943f"]=function(e,s,r,gg){
+var z=gz$gwx_56()
+var b=x[84]+':1cad943f'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[74]);return}
+if(p_[b]){_wl(b,x[84]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3604,173 +3827,41 @@ throw err
 p_[b]=false
 return r
 }
-var m49=function(e,s,r,gg){
-var z=gz$gwx_50()
-return r
-}
-e_[x[74]]={f:m49,j:[],i:[],ti:[],ic:[]}
-d_[x[75]]={}
-var m50=function(e,s,r,gg){
-var z=gz$gwx_51()
-var oLE=e_[x[75]].i
-_ai(oLE,x[42],e_,x[75],1,1)
-var xME=_v()
-_(r,xME)
-cs.push("./pages/my/market/index.wxml:template:2:6")
-var oNE=_oz(z,1,e,s,gg)
-var fOE=_gd(x[75],oNE,e_,d_)
-if(fOE){
-var cPE=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-xME.wxXCkey=3
-fOE(cPE,cPE,xME,gg)
-gg.f=cur_globalf
-}
-else _w(oNE,x[75],2,18)
-cs.pop()
-oLE.pop()
-return r
-}
-e_[x[75]]={f:m50,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[76]]={}
-d_[x[76]]["7f259f98"]=function(e,s,r,gg){
-var z=gz$gwx_52()
-var b=x[76]+':7f259f98'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[76]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m51=function(e,s,r,gg){
-var z=gz$gwx_52()
-return r
-}
-e_[x[76]]={f:m51,j:[],i:[],ti:[],ic:[]}
-d_[x[77]]={}
-var m52=function(e,s,r,gg){
-var z=gz$gwx_53()
-var cSE=e_[x[77]].i
-_ai(cSE,x[78],e_,x[77],1,1)
-var oTE=_v()
-_(r,oTE)
-cs.push("./pages/my/market/manage.wxml:template:2:6")
-var lUE=_oz(z,1,e,s,gg)
-var aVE=_gd(x[77],lUE,e_,d_)
-if(aVE){
-var tWE=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oTE.wxXCkey=3
-aVE(tWE,tWE,oTE,gg)
-gg.f=cur_globalf
-}
-else _w(lUE,x[77],2,18)
-cs.pop()
-cSE.pop()
-return r
-}
-e_[x[77]]={f:m52,j:[],i:[],ti:[x[78]],ic:[]}
-d_[x[79]]={}
-d_[x[79]]["78f2e91c"]=function(e,s,r,gg){
-var z=gz$gwx_54()
-var b=x[79]+':78f2e91c'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[79]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m53=function(e,s,r,gg){
-var z=gz$gwx_54()
-return r
-}
-e_[x[79]]={f:m53,j:[],i:[],ti:[],ic:[]}
-d_[x[80]]={}
-var m54=function(e,s,r,gg){
-var z=gz$gwx_55()
-var oZE=e_[x[80]].i
-_ai(oZE,x[81],e_,x[80],1,1)
-var x1E=_v()
-_(r,x1E)
-cs.push("./pages/my/market/order/list.wxml:template:2:6")
-var o2E=_oz(z,1,e,s,gg)
-var f3E=_gd(x[80],o2E,e_,d_)
-if(f3E){
-var c4E=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-x1E.wxXCkey=3
-f3E(c4E,c4E,x1E,gg)
-gg.f=cur_globalf
-}
-else _w(o2E,x[80],2,18)
-cs.pop()
-oZE.pop()
-return r
-}
-e_[x[80]]={f:m54,j:[],i:[],ti:[x[81]],ic:[]}
-d_[x[82]]={}
-d_[x[82]]["3ddaedaa"]=function(e,s,r,gg){
-var z=gz$gwx_56()
-var b=x[82]+':3ddaedaa'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[82]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m55=function(e,s,r,gg){
 var z=gz$gwx_56()
 return r
 }
-e_[x[82]]={f:m55,j:[],i:[],ti:[],ic:[]}
-d_[x[83]]={}
+e_[x[84]]={f:m55,j:[],i:[],ti:[],ic:[]}
+d_[x[85]]={}
 var m56=function(e,s,r,gg){
 var z=gz$gwx_57()
-var c7E=e_[x[83]].i
-_ai(c7E,x[84],e_,x[83],1,1)
-var o8E=_v()
-_(r,o8E)
-cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
-var l9E=_oz(z,1,e,s,gg)
-var a0E=_gd(x[83],l9E,e_,d_)
-if(a0E){
-var tAF=_1z(z,0,e,s,gg) || {}
+var o8E=e_[x[85]].i
+_ai(o8E,x[42],e_,x[85],1,1)
+var l9E=_v()
+_(r,l9E)
+cs.push("./pages/my/market/index.wxml:template:2:6")
+var a0E=_oz(z,1,e,s,gg)
+var tAF=_gd(x[85],a0E,e_,d_)
+if(tAF){
+var eBF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8E.wxXCkey=3
-a0E(tAF,tAF,o8E,gg)
+l9E.wxXCkey=3
+tAF(eBF,eBF,l9E,gg)
 gg.f=cur_globalf
 }
-else _w(l9E,x[83],2,18)
+else _w(a0E,x[85],2,18)
 cs.pop()
-c7E.pop()
+o8E.pop()
 return r
 }
-e_[x[83]]={f:m56,j:[],i:[],ti:[x[84]],ic:[]}
-d_[x[85]]={}
-d_[x[85]]["7f4ebc97"]=function(e,s,r,gg){
+e_[x[85]]={f:m56,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[86]]={}
+d_[x[86]]["7f259f98"]=function(e,s,r,gg){
 var z=gz$gwx_58()
-var b=x[85]+':7f4ebc97'
+var b=x[86]+':7f259f98'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[85]);return}
+gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[86]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3784,39 +3875,53 @@ var m57=function(e,s,r,gg){
 var z=gz$gwx_58()
 return r
 }
-e_[x[85]]={f:m57,j:[],i:[],ti:[],ic:[]}
-d_[x[86]]={}
+e_[x[86]]={f:m57,j:[],i:[],ti:[],ic:[]}
+d_[x[87]]={}
 var m58=function(e,s,r,gg){
 var z=gz$gwx_59()
-var oDF=e_[x[86]].i
-_ai(oDF,x[87],e_,x[86],1,1)
-var xEF=_v()
-_(r,xEF)
-cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
-var oFF=_oz(z,1,e,s,gg)
-var fGF=_gd(x[86],oFF,e_,d_)
-if(fGF){
-var cHF=_1z(z,0,e,s,gg) || {}
+var xEF=e_[x[87]].i
+_ai(xEF,x[88],e_,x[87],1,1)
+var oFF=_v()
+_(r,oFF)
+cs.push("./pages/my/market/manage.wxml:template:2:6")
+var fGF=_oz(z,1,e,s,gg)
+var cHF=_gd(x[87],fGF,e_,d_)
+if(cHF){
+var hIF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xEF.wxXCkey=3
-fGF(cHF,cHF,xEF,gg)
+oFF.wxXCkey=3
+cHF(hIF,hIF,oFF,gg)
 gg.f=cur_globalf
 }
-else _w(oFF,x[86],2,18)
+else _w(fGF,x[87],2,18)
 cs.pop()
-oDF.pop()
+xEF.pop()
 return r
 }
-e_[x[86]]={f:m58,j:[],i:[],ti:[x[87]],ic:[]}
-d_[x[88]]={}
-d_[x[88]]["6819fcac"]=function(e,s,r,gg){
+e_[x[87]]={f:m58,j:[],i:[],ti:[x[88]],ic:[]}
+d_[x[89]]={}
+d_[x[89]]["78f2e91c"]=function(e,s,r,gg){
 var z=gz$gwx_60()
-var b=x[88]+':6819fcac'
+var b=x[89]+':78f2e91c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[88]);return}
+gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[89]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/my/market/order/list.vue.wxml:template:1:1878")
+var xC=_oz(z,2,e,s,gg)
+var oD=_gd(x[89],xC,e_,d_)
+if(oD){
+var fE=_1z(z,1,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[89],1,1949)
+cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -3826,39 +3931,42 @@ return r
 }
 var m59=function(e,s,r,gg){
 var z=gz$gwx_60()
-return r
-}
-e_[x[88]]={f:m59,j:[],i:[],ti:[],ic:[]}
-d_[x[89]]={}
-var m60=function(e,s,r,gg){
-var z=gz$gwx_61()
 var cKF=e_[x[89]].i
-_ai(cKF,x[90],e_,x[89],1,1)
-var oLF=_v()
-_(r,oLF)
-cs.push("./pages/my/my.wxml:template:2:6")
-var lMF=_oz(z,1,e,s,gg)
-var aNF=_gd(x[89],lMF,e_,d_)
-if(aNF){
-var tOF=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oLF.wxXCkey=3
-aNF(tOF,tOF,oLF,gg)
-gg.f=cur_globalf
-}
-else _w(lMF,x[89],2,18)
-cs.pop()
+_ai(cKF,x[39],e_,x[89],1,1)
 cKF.pop()
 return r
 }
-e_[x[89]]={f:m60,j:[],i:[],ti:[x[90]],ic:[]}
-d_[x[91]]={}
-d_[x[91]]["undefined"]=function(e,s,r,gg){
+e_[x[89]]={f:m59,j:[],i:[],ti:[x[39]],ic:[]}
+d_[x[90]]={}
+var m60=function(e,s,r,gg){
+var z=gz$gwx_61()
+var lMF=e_[x[90]].i
+_ai(lMF,x[91],e_,x[90],1,1)
+var aNF=_v()
+_(r,aNF)
+cs.push("./pages/my/market/order/list.wxml:template:2:6")
+var tOF=_oz(z,1,e,s,gg)
+var ePF=_gd(x[90],tOF,e_,d_)
+if(ePF){
+var bQF=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aNF.wxXCkey=3
+ePF(bQF,bQF,aNF,gg)
+gg.f=cur_globalf
+}
+else _w(tOF,x[90],2,18)
+cs.pop()
+lMF.pop()
+return r
+}
+e_[x[90]]={f:m60,j:[],i:[],ti:[x[91]],ic:[]}
+d_[x[92]]={}
+d_[x[92]]["3ddaedaa"]=function(e,s,r,gg){
 var z=gz$gwx_62()
-var b=x[91]+':undefined'
+var b=x[92]+':3ddaedaa'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[91]);return}
+gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[92]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3872,37 +3980,37 @@ var m61=function(e,s,r,gg){
 var z=gz$gwx_62()
 return r
 }
-e_[x[91]]={f:m61,j:[],i:[],ti:[],ic:[]}
-d_[x[92]]={}
+e_[x[92]]={f:m61,j:[],i:[],ti:[],ic:[]}
+d_[x[93]]={}
 var m62=function(e,s,r,gg){
 var z=gz$gwx_63()
-var oRF=e_[x[92]].i
-_ai(oRF,x[93],e_,x[92],1,1)
-var xSF=_v()
-_(r,xSF)
-cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
-var oTF=_oz(z,1,e,s,gg)
-var fUF=_gd(x[92],oTF,e_,d_)
-if(fUF){
-var cVF=_1z(z,0,e,s,gg) || {}
+var oTF=e_[x[93]].i
+_ai(oTF,x[94],e_,x[93],1,1)
+var fUF=_v()
+_(r,fUF)
+cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
+var cVF=_oz(z,1,e,s,gg)
+var hWF=_gd(x[93],cVF,e_,d_)
+if(hWF){
+var oXF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xSF.wxXCkey=3
-fUF(cVF,cVF,xSF,gg)
+fUF.wxXCkey=3
+hWF(oXF,oXF,fUF,gg)
 gg.f=cur_globalf
 }
-else _w(oTF,x[92],2,18)
+else _w(cVF,x[93],2,18)
 cs.pop()
-oRF.pop()
+oTF.pop()
 return r
 }
-e_[x[92]]={f:m62,j:[],i:[],ti:[x[93]],ic:[]}
-d_[x[94]]={}
-d_[x[94]]["6452f243"]=function(e,s,r,gg){
+e_[x[93]]={f:m62,j:[],i:[],ti:[x[94]],ic:[]}
+d_[x[95]]={}
+d_[x[95]]["7f4ebc97"]=function(e,s,r,gg){
 var z=gz$gwx_64()
-var b=x[94]+':6452f243'
+var b=x[95]+':7f4ebc97'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[94]);return}
+gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[95]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3916,37 +4024,37 @@ var m63=function(e,s,r,gg){
 var z=gz$gwx_64()
 return r
 }
-e_[x[94]]={f:m63,j:[],i:[],ti:[],ic:[]}
-d_[x[95]]={}
+e_[x[95]]={f:m63,j:[],i:[],ti:[],ic:[]}
+d_[x[96]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
-var cYF=e_[x[95]].i
-_ai(cYF,x[42],e_,x[95],1,1)
-var oZF=_v()
-_(r,oZF)
-cs.push("./pages/my/parttime/index.wxml:template:2:6")
-var l1F=_oz(z,1,e,s,gg)
-var a2F=_gd(x[95],l1F,e_,d_)
-if(a2F){
-var t3F=_1z(z,0,e,s,gg) || {}
+var l1F=e_[x[96]].i
+_ai(l1F,x[97],e_,x[96],1,1)
+var a2F=_v()
+_(r,a2F)
+cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
+var t3F=_oz(z,1,e,s,gg)
+var e4F=_gd(x[96],t3F,e_,d_)
+if(e4F){
+var b5F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oZF.wxXCkey=3
-a2F(t3F,t3F,oZF,gg)
+a2F.wxXCkey=3
+e4F(b5F,b5F,a2F,gg)
 gg.f=cur_globalf
 }
-else _w(l1F,x[95],2,18)
+else _w(t3F,x[96],2,18)
 cs.pop()
-cYF.pop()
+l1F.pop()
 return r
 }
-e_[x[95]]={f:m64,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[96]]={}
-d_[x[96]]["c55f47f6"]=function(e,s,r,gg){
+e_[x[96]]={f:m64,j:[],i:[],ti:[x[97]],ic:[]}
+d_[x[98]]={}
+d_[x[98]]["6819fcac"]=function(e,s,r,gg){
 var z=gz$gwx_66()
-var b=x[96]+':c55f47f6'
+var b=x[98]+':6819fcac'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[96]);return}
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[98]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3960,37 +4068,37 @@ var m65=function(e,s,r,gg){
 var z=gz$gwx_66()
 return r
 }
-e_[x[96]]={f:m65,j:[],i:[],ti:[],ic:[]}
-d_[x[97]]={}
+e_[x[98]]={f:m65,j:[],i:[],ti:[],ic:[]}
+d_[x[99]]={}
 var m66=function(e,s,r,gg){
 var z=gz$gwx_67()
-var o6F=e_[x[97]].i
-_ai(o6F,x[98],e_,x[97],1,1)
-var x7F=_v()
-_(r,x7F)
-cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
-var o8F=_oz(z,1,e,s,gg)
-var f9F=_gd(x[97],o8F,e_,d_)
-if(f9F){
-var c0F=_1z(z,0,e,s,gg) || {}
+var o8F=e_[x[99]].i
+_ai(o8F,x[100],e_,x[99],1,1)
+var f9F=_v()
+_(r,f9F)
+cs.push("./pages/my/my.wxml:template:2:6")
+var c0F=_oz(z,1,e,s,gg)
+var hAG=_gd(x[99],c0F,e_,d_)
+if(hAG){
+var oBG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-x7F.wxXCkey=3
-f9F(c0F,c0F,x7F,gg)
+f9F.wxXCkey=3
+hAG(oBG,oBG,f9F,gg)
 gg.f=cur_globalf
 }
-else _w(o8F,x[97],2,18)
+else _w(c0F,x[99],2,18)
 cs.pop()
-o6F.pop()
+o8F.pop()
 return r
 }
-e_[x[97]]={f:m66,j:[],i:[],ti:[x[98]],ic:[]}
-d_[x[99]]={}
-d_[x[99]]["e234f8f2"]=function(e,s,r,gg){
+e_[x[99]]={f:m66,j:[],i:[],ti:[x[100]],ic:[]}
+d_[x[101]]={}
+d_[x[101]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_68()
-var b=x[99]+':e234f8f2'
+var b=x[101]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[99]);return}
+gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[101]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4004,37 +4112,37 @@ var m67=function(e,s,r,gg){
 var z=gz$gwx_68()
 return r
 }
-e_[x[99]]={f:m67,j:[],i:[],ti:[],ic:[]}
-d_[x[100]]={}
+e_[x[101]]={f:m67,j:[],i:[],ti:[],ic:[]}
+d_[x[102]]={}
 var m68=function(e,s,r,gg){
 var z=gz$gwx_69()
-var cCG=e_[x[100]].i
-_ai(cCG,x[101],e_,x[100],1,1)
-var oDG=_v()
-_(r,oDG)
-cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
-var lEG=_oz(z,1,e,s,gg)
-var aFG=_gd(x[100],lEG,e_,d_)
-if(aFG){
-var tGG=_1z(z,0,e,s,gg) || {}
+var lEG=e_[x[102]].i
+_ai(lEG,x[103],e_,x[102],1,1)
+var aFG=_v()
+_(r,aFG)
+cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
+var tGG=_oz(z,1,e,s,gg)
+var eHG=_gd(x[102],tGG,e_,d_)
+if(eHG){
+var bIG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oDG.wxXCkey=3
-aFG(tGG,tGG,oDG,gg)
+aFG.wxXCkey=3
+eHG(bIG,bIG,aFG,gg)
 gg.f=cur_globalf
 }
-else _w(lEG,x[100],2,18)
+else _w(tGG,x[102],2,18)
 cs.pop()
-cCG.pop()
+lEG.pop()
 return r
 }
-e_[x[100]]={f:m68,j:[],i:[],ti:[x[101]],ic:[]}
-d_[x[102]]={}
-d_[x[102]]["undefined"]=function(e,s,r,gg){
+e_[x[102]]={f:m68,j:[],i:[],ti:[x[103]],ic:[]}
+d_[x[104]]={}
+d_[x[104]]["6452f243"]=function(e,s,r,gg){
 var z=gz$gwx_70()
-var b=x[102]+':undefined'
+var b=x[104]+':6452f243'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[102]);return}
+gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[104]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4048,37 +4156,37 @@ var m69=function(e,s,r,gg){
 var z=gz$gwx_70()
 return r
 }
-e_[x[102]]={f:m69,j:[],i:[],ti:[],ic:[]}
-d_[x[103]]={}
+e_[x[104]]={f:m69,j:[],i:[],ti:[],ic:[]}
+d_[x[105]]={}
 var m70=function(e,s,r,gg){
 var z=gz$gwx_71()
-var oJG=e_[x[103]].i
-_ai(oJG,x[104],e_,x[103],1,1)
-var xKG=_v()
-_(r,xKG)
-cs.push("./pages/my/setting/about.wxml:template:2:6")
-var oLG=_oz(z,1,e,s,gg)
-var fMG=_gd(x[103],oLG,e_,d_)
-if(fMG){
-var cNG=_1z(z,0,e,s,gg) || {}
+var oLG=e_[x[105]].i
+_ai(oLG,x[42],e_,x[105],1,1)
+var fMG=_v()
+_(r,fMG)
+cs.push("./pages/my/parttime/index.wxml:template:2:6")
+var cNG=_oz(z,1,e,s,gg)
+var hOG=_gd(x[105],cNG,e_,d_)
+if(hOG){
+var oPG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xKG.wxXCkey=3
-fMG(cNG,cNG,xKG,gg)
+fMG.wxXCkey=3
+hOG(oPG,oPG,fMG,gg)
 gg.f=cur_globalf
 }
-else _w(oLG,x[103],2,18)
+else _w(cNG,x[105],2,18)
 cs.pop()
-oJG.pop()
+oLG.pop()
 return r
 }
-e_[x[103]]={f:m70,j:[],i:[],ti:[x[104]],ic:[]}
-d_[x[105]]={}
-d_[x[105]]["c9670ade"]=function(e,s,r,gg){
+e_[x[105]]={f:m70,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[106]]={}
+d_[x[106]]["c55f47f6"]=function(e,s,r,gg){
 var z=gz$gwx_72()
-var b=x[105]+':c9670ade'
+var b=x[106]+':c55f47f6'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[105]);return}
+gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[106]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4092,37 +4200,37 @@ var m71=function(e,s,r,gg){
 var z=gz$gwx_72()
 return r
 }
-e_[x[105]]={f:m71,j:[],i:[],ti:[],ic:[]}
-d_[x[106]]={}
+e_[x[106]]={f:m71,j:[],i:[],ti:[],ic:[]}
+d_[x[107]]={}
 var m72=function(e,s,r,gg){
 var z=gz$gwx_73()
-var cQG=e_[x[106]].i
-_ai(cQG,x[107],e_,x[106],1,1)
-var oRG=_v()
-_(r,oRG)
-cs.push("./pages/my/setting/setting.wxml:template:2:6")
-var lSG=_oz(z,1,e,s,gg)
-var aTG=_gd(x[106],lSG,e_,d_)
-if(aTG){
-var tUG=_1z(z,0,e,s,gg) || {}
+var lSG=e_[x[107]].i
+_ai(lSG,x[108],e_,x[107],1,1)
+var aTG=_v()
+_(r,aTG)
+cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
+var tUG=_oz(z,1,e,s,gg)
+var eVG=_gd(x[107],tUG,e_,d_)
+if(eVG){
+var bWG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oRG.wxXCkey=3
-aTG(tUG,tUG,oRG,gg)
+aTG.wxXCkey=3
+eVG(bWG,bWG,aTG,gg)
 gg.f=cur_globalf
 }
-else _w(lSG,x[106],2,18)
+else _w(tUG,x[107],2,18)
 cs.pop()
-cQG.pop()
+lSG.pop()
 return r
 }
-e_[x[106]]={f:m72,j:[],i:[],ti:[x[107]],ic:[]}
-d_[x[108]]={}
-d_[x[108]]["4c98c0cb"]=function(e,s,r,gg){
+e_[x[107]]={f:m72,j:[],i:[],ti:[x[108]],ic:[]}
+d_[x[109]]={}
+d_[x[109]]["e234f8f2"]=function(e,s,r,gg){
 var z=gz$gwx_74()
-var b=x[108]+':4c98c0cb'
+var b=x[109]+':e234f8f2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[108]);return}
+gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[109]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4136,37 +4244,169 @@ var m73=function(e,s,r,gg){
 var z=gz$gwx_74()
 return r
 }
-e_[x[108]]={f:m73,j:[],i:[],ti:[],ic:[]}
-d_[x[109]]={}
+e_[x[109]]={f:m73,j:[],i:[],ti:[],ic:[]}
+d_[x[110]]={}
 var m74=function(e,s,r,gg){
 var z=gz$gwx_75()
-var oXG=e_[x[109]].i
-_ai(oXG,x[110],e_,x[109],1,1)
-var xYG=_v()
-_(r,xYG)
-cs.push("./pages/register/reg.wxml:template:2:6")
-var oZG=_oz(z,1,e,s,gg)
-var f1G=_gd(x[109],oZG,e_,d_)
-if(f1G){
-var c2G=_1z(z,0,e,s,gg) || {}
+var oZG=e_[x[110]].i
+_ai(oZG,x[111],e_,x[110],1,1)
+var f1G=_v()
+_(r,f1G)
+cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
+var c2G=_oz(z,1,e,s,gg)
+var h3G=_gd(x[110],c2G,e_,d_)
+if(h3G){
+var o4G=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xYG.wxXCkey=3
-f1G(c2G,c2G,xYG,gg)
+f1G.wxXCkey=3
+h3G(o4G,o4G,f1G,gg)
 gg.f=cur_globalf
 }
-else _w(oZG,x[109],2,18)
+else _w(c2G,x[110],2,18)
 cs.pop()
-oXG.pop()
+oZG.pop()
 return r
 }
-e_[x[109]]={f:m74,j:[],i:[],ti:[x[110]],ic:[]}
-d_[x[111]]={}
-d_[x[111]]["2d4a1539"]=function(e,s,r,gg){
+e_[x[110]]={f:m74,j:[],i:[],ti:[x[111]],ic:[]}
+d_[x[112]]={}
+d_[x[112]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_76()
-var b=x[111]+':2d4a1539'
+var b=x[112]+':undefined'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[112]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m75=function(e,s,r,gg){
+var z=gz$gwx_76()
+return r
+}
+e_[x[112]]={f:m75,j:[],i:[],ti:[],ic:[]}
+d_[x[113]]={}
+var m76=function(e,s,r,gg){
+var z=gz$gwx_77()
+var l7G=e_[x[113]].i
+_ai(l7G,x[114],e_,x[113],1,1)
+var a8G=_v()
+_(r,a8G)
+cs.push("./pages/my/setting/about.wxml:template:2:6")
+var t9G=_oz(z,1,e,s,gg)
+var e0G=_gd(x[113],t9G,e_,d_)
+if(e0G){
+var bAH=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+a8G.wxXCkey=3
+e0G(bAH,bAH,a8G,gg)
+gg.f=cur_globalf
+}
+else _w(t9G,x[113],2,18)
+cs.pop()
+l7G.pop()
+return r
+}
+e_[x[113]]={f:m76,j:[],i:[],ti:[x[114]],ic:[]}
+d_[x[115]]={}
+d_[x[115]]["c9670ade"]=function(e,s,r,gg){
+var z=gz$gwx_78()
+var b=x[115]+':c9670ade'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[115]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m77=function(e,s,r,gg){
+var z=gz$gwx_78()
+return r
+}
+e_[x[115]]={f:m77,j:[],i:[],ti:[],ic:[]}
+d_[x[116]]={}
+var m78=function(e,s,r,gg){
+var z=gz$gwx_79()
+var oDH=e_[x[116]].i
+_ai(oDH,x[117],e_,x[116],1,1)
+var fEH=_v()
+_(r,fEH)
+cs.push("./pages/my/setting/setting.wxml:template:2:6")
+var cFH=_oz(z,1,e,s,gg)
+var hGH=_gd(x[116],cFH,e_,d_)
+if(hGH){
+var oHH=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+fEH.wxXCkey=3
+hGH(oHH,oHH,fEH,gg)
+gg.f=cur_globalf
+}
+else _w(cFH,x[116],2,18)
+cs.pop()
+oDH.pop()
+return r
+}
+e_[x[116]]={f:m78,j:[],i:[],ti:[x[117]],ic:[]}
+d_[x[118]]={}
+d_[x[118]]["4c98c0cb"]=function(e,s,r,gg){
+var z=gz$gwx_80()
+var b=x[118]+':4c98c0cb'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[118]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m79=function(e,s,r,gg){
+var z=gz$gwx_80()
+return r
+}
+e_[x[118]]={f:m79,j:[],i:[],ti:[],ic:[]}
+d_[x[119]]={}
+var m80=function(e,s,r,gg){
+var z=gz$gwx_81()
+var lKH=e_[x[119]].i
+_ai(lKH,x[120],e_,x[119],1,1)
+var aLH=_v()
+_(r,aLH)
+cs.push("./pages/register/reg.wxml:template:2:6")
+var tMH=_oz(z,1,e,s,gg)
+var eNH=_gd(x[119],tMH,e_,d_)
+if(eNH){
+var bOH=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aLH.wxXCkey=3
+eNH(bOH,bOH,aLH,gg)
+gg.f=cur_globalf
+}
+else _w(tMH,x[119],2,18)
+cs.pop()
+lKH.pop()
+return r
+}
+e_[x[119]]={f:m80,j:[],i:[],ti:[x[120]],ic:[]}
+d_[x[121]]={}
+d_[x[121]]["2d4a1539"]=function(e,s,r,gg){
+var z=gz$gwx_82()
+var b=x[121]+':2d4a1539'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[111]);return}
+if(p_[b]){_wl(b,x[121]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
@@ -4182,7 +4422,7 @@ var oD=_v()
 _(oB,oD)
 cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
 var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[111],fE,e_,d_)
+var cF=_gd(x[121],fE,e_,d_)
 if(cF){
 var hG=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -4190,7 +4430,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[111],1,2169)
+else _w(fE,x[121],1,2169)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -4202,44 +4442,44 @@ throw err
 p_[b]=false
 return r
 }
-var m75=function(e,s,r,gg){
-var z=gz$gwx_76()
-var o4G=e_[x[111]].i
-_ai(o4G,x[16],e_,x[111],1,1)
-o4G.pop()
+var m81=function(e,s,r,gg){
+var z=gz$gwx_82()
+var xQH=e_[x[121]].i
+_ai(xQH,x[16],e_,x[121],1,1)
+xQH.pop()
 return r
 }
-e_[x[111]]={f:m75,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[112]]={}
-var m76=function(e,s,r,gg){
-var z=gz$gwx_77()
-var o6G=e_[x[112]].i
-_ai(o6G,x[113],e_,x[112],1,1)
-var l7G=_v()
-_(r,l7G)
+e_[x[121]]={f:m81,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[122]]={}
+var m82=function(e,s,r,gg){
+var z=gz$gwx_83()
+var fSH=e_[x[122]].i
+_ai(fSH,x[123],e_,x[122],1,1)
+var cTH=_v()
+_(r,cTH)
 cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var a8G=_oz(z,1,e,s,gg)
-var t9G=_gd(x[112],a8G,e_,d_)
-if(t9G){
-var e0G=_1z(z,0,e,s,gg) || {}
+var hUH=_oz(z,1,e,s,gg)
+var oVH=_gd(x[122],hUH,e_,d_)
+if(oVH){
+var cWH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-l7G.wxXCkey=3
-t9G(e0G,e0G,l7G,gg)
+cTH.wxXCkey=3
+oVH(cWH,cWH,cTH,gg)
 gg.f=cur_globalf
 }
-else _w(a8G,x[112],2,18)
+else _w(hUH,x[122],2,18)
 cs.pop()
-o6G.pop()
+fSH.pop()
 return r
 }
-e_[x[112]]={f:m76,j:[],i:[],ti:[x[113]],ic:[]}
-d_[x[114]]={}
-d_[x[114]]["685fe0c1"]=function(e,s,r,gg){
-var z=gz$gwx_78()
-var b=x[114]+':685fe0c1'
+e_[x[122]]={f:m82,j:[],i:[],ti:[x[123]],ic:[]}
+d_[x[124]]={}
+d_[x[124]]["685fe0c1"]=function(e,s,r,gg){
+var z=gz$gwx_84()
+var b=x[124]+':685fe0c1'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[114]);return}
+if(p_[b]){_wl(b,x[124]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4249,41 +4489,41 @@ throw err
 p_[b]=false
 return r
 }
-var m77=function(e,s,r,gg){
-var z=gz$gwx_78()
+var m83=function(e,s,r,gg){
+var z=gz$gwx_84()
 return r
 }
-e_[x[114]]={f:m77,j:[],i:[],ti:[],ic:[]}
-d_[x[115]]={}
-var m78=function(e,s,r,gg){
-var z=gz$gwx_79()
-var xCH=e_[x[115]].i
-_ai(xCH,x[116],e_,x[115],1,1)
-var oDH=_v()
-_(r,oDH)
+e_[x[124]]={f:m83,j:[],i:[],ti:[],ic:[]}
+d_[x[125]]={}
+var m84=function(e,s,r,gg){
+var z=gz$gwx_85()
+var aZH=e_[x[125]].i
+_ai(aZH,x[126],e_,x[125],1,1)
+var t1H=_v()
+_(r,t1H)
 cs.push("./pages/register/selectSex.wxml:template:2:6")
-var fEH=_oz(z,1,e,s,gg)
-var cFH=_gd(x[115],fEH,e_,d_)
-if(cFH){
-var hGH=_1z(z,0,e,s,gg) || {}
+var e2H=_oz(z,1,e,s,gg)
+var b3H=_gd(x[125],e2H,e_,d_)
+if(b3H){
+var o4H=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oDH.wxXCkey=3
-cFH(hGH,hGH,oDH,gg)
+t1H.wxXCkey=3
+b3H(o4H,o4H,t1H,gg)
 gg.f=cur_globalf
 }
-else _w(fEH,x[115],2,18)
+else _w(e2H,x[125],2,18)
 cs.pop()
-xCH.pop()
+aZH.pop()
 return r
 }
-e_[x[115]]={f:m78,j:[],i:[],ti:[x[116]],ic:[]}
-d_[x[117]]={}
-d_[x[117]]["59b2495c"]=function(e,s,r,gg){
-var z=gz$gwx_80()
-var b=x[117]+':59b2495c'
+e_[x[125]]={f:m84,j:[],i:[],ti:[x[126]],ic:[]}
+d_[x[127]]={}
+d_[x[127]]["59b2495c"]=function(e,s,r,gg){
+var z=gz$gwx_86()
+var b=x[127]+':59b2495c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[117]);return}
+if(p_[b]){_wl(b,x[127]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4293,34 +4533,116 @@ throw err
 p_[b]=false
 return r
 }
-var m79=function(e,s,r,gg){
-var z=gz$gwx_80()
+var m85=function(e,s,r,gg){
+var z=gz$gwx_86()
 return r
 }
-e_[x[117]]={f:m79,j:[],i:[],ti:[],ic:[]}
-d_[x[118]]={}
-var m80=function(e,s,r,gg){
-var z=gz$gwx_81()
-var oJH=e_[x[118]].i
-_ai(oJH,x[119],e_,x[118],1,1)
-var lKH=_v()
-_(r,lKH)
+e_[x[127]]={f:m85,j:[],i:[],ti:[],ic:[]}
+d_[x[128]]={}
+var m86=function(e,s,r,gg){
+var z=gz$gwx_87()
+var f7H=e_[x[128]].i
+_ai(f7H,x[129],e_,x[128],1,1)
+var c8H=_v()
+_(r,c8H)
 cs.push("./pages/register/setAvatar.wxml:template:2:6")
-var aLH=_oz(z,1,e,s,gg)
-var tMH=_gd(x[118],aLH,e_,d_)
-if(tMH){
-var eNH=_1z(z,0,e,s,gg) || {}
+var h9H=_oz(z,1,e,s,gg)
+var o0H=_gd(x[128],h9H,e_,d_)
+if(o0H){
+var cAI=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lKH.wxXCkey=3
-tMH(eNH,eNH,lKH,gg)
+c8H.wxXCkey=3
+o0H(cAI,cAI,c8H,gg)
 gg.f=cur_globalf
 }
-else _w(aLH,x[118],2,18)
+else _w(h9H,x[128],2,18)
 cs.pop()
-oJH.pop()
+f7H.pop()
 return r
 }
-e_[x[118]]={f:m80,j:[],i:[],ti:[x[119]],ic:[]}
+e_[x[128]]={f:m86,j:[],i:[],ti:[x[129]],ic:[]}
+d_[x[130]]={}
+d_[x[130]]["3de15c49"]=function(e,s,r,gg){
+var z=gz$gwx_88()
+var b=x[130]+':3de15c49'
+r.wxVkey=b
+gg.f=$gdc(f_["./threeComponents/mpvueCityPicker.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[130]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m87=function(e,s,r,gg){
+var z=gz$gwx_88()
+return r
+}
+e_[x[130]]={f:m87,j:[],i:[],ti:[],ic:[]}
+d_[x[131]]={}
+d_[x[131]]["20908afe"]=function(e,s,r,gg){
+var z=gz$gwx_89()
+var b=x[131]+':20908afe'
+r.wxVkey=b
+gg.f=$gdc(f_["./threeComponents/mpvuePicker.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[131]);return}
+p_[b]=true
+try{
+cs.push("./threeComponents/mpvuePicker.vue.wxml:view:1:239")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./threeComponents/mpvuePicker.vue.wxml:picker-view:1:733")
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+if(_oz(z,3,e,s,gg)){oD.wxVkey=1
+cs.push("./threeComponents/mpvuePicker.vue.wxml:picker-view:1:1271")
+cs.pop()
+}
+var fE=_v()
+_(oB,fE)
+if(_oz(z,4,e,s,gg)){fE.wxVkey=1
+cs.push("./threeComponents/mpvuePicker.vue.wxml:picker-view:1:2011")
+cs.pop()
+}
+var cF=_v()
+_(oB,cF)
+if(_oz(z,5,e,s,gg)){cF.wxVkey=1
+cs.push("./threeComponents/mpvuePicker.vue.wxml:picker-view:1:2628")
+cs.pop()
+}
+var hG=_v()
+_(oB,hG)
+if(_oz(z,6,e,s,gg)){hG.wxVkey=1
+cs.push("./threeComponents/mpvuePicker.vue.wxml:picker-view:1:3402")
+cs.pop()
+}
+xC.wxXCkey=1
+oD.wxXCkey=1
+fE.wxXCkey=1
+cF.wxXCkey=1
+hG.wxXCkey=1
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m88=function(e,s,r,gg){
+var z=gz$gwx_89()
+return r
+}
+e_[x[131]]={f:m88,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -4341,7 +4663,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/parttime/index","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.1"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/market/payresult","pages/index/parttime/index","pages/index/parttime/details","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/address/address","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.1"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/common/checkSchool.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","titleNView":{"searchInput":{"autoFocus":true,"disabled":false,"align":"left","backgroundColor":"#FFFFFF","borderRadius":"15px","placeholder":"输入学校名称搜索"}}};
@@ -4383,6 +4705,12 @@ __wxAppCode__['pages/index/market/index.wxml']=$gwx('./pages/index/market/index.
 __wxAppCode__['pages/index/market/market.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"超市进店"};
 __wxAppCode__['pages/index/market/market.wxml']=$gwx('./pages/index/market/market.wxml');
 
+__wxAppCode__['pages/index/market/payresult.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"支付结果"};
+__wxAppCode__['pages/index/market/payresult.wxml']=$gwx('./pages/index/market/payresult.wxml');
+
+__wxAppCode__['pages/index/parttime/details.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"兼职详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
+__wxAppCode__['pages/index/parttime/details.wxml']=$gwx('./pages/index/parttime/details.wxml');
+
 __wxAppCode__['pages/index/parttime/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"找兼职","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/index/parttime/index.wxml']=$gwx('./pages/index/parttime/index.wxml');
 
@@ -4392,13 +4720,16 @@ __wxAppCode__['pages/message/chat.wxml']=$gwx('./pages/message/chat.wxml');
 __wxAppCode__['pages/message/message.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息","pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/message/message.wxml']=$gwx('./pages/message/message.wxml');
 
-__wxAppCode__['pages/my/market/classify.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"分类管理"};
+__wxAppCode__['pages/my/address/address.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"我的地址"};
+__wxAppCode__['pages/my/address/address.wxml']=$gwx('./pages/my/address/address.wxml');
+
+__wxAppCode__['pages/my/market/classify.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#ff4500","navigationBarTitleText":"分类管理"};
 __wxAppCode__['pages/my/market/classify.wxml']=$gwx('./pages/my/market/classify.wxml');
 
-__wxAppCode__['pages/my/market/goods/edit.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"商品XX"};
+__wxAppCode__['pages/my/market/goods/edit.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#ff4500","navigationBarTitleText":"商品XX"};
 __wxAppCode__['pages/my/market/goods/edit.wxml']=$gwx('./pages/my/market/goods/edit.wxml');
 
-__wxAppCode__['pages/my/market/goods/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"商品管理","titleNView":{"buttons":[{"fontSrc":"./static/font/iconfont.ttf","text":""}]}};
+__wxAppCode__['pages/my/market/goods/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#ff4500","navigationBarTitleText":"商品管理","titleNView":{"buttons":[{"fontSrc":"./static/font/iconfont.ttf","text":""}]}};
 __wxAppCode__['pages/my/market/goods/index.wxml']=$gwx('./pages/my/market/goods/index.wxml');
 
 __wxAppCode__['pages/my/market/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"我的店铺","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
@@ -4474,7 +4805,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'http://123.151.7.191/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'http://123.151.1.185/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/common/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 
@@ -4593,7 +4924,7 @@ eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Des
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false, //是否登录\n      id: 0,\n      token: '', //token\n      phone: '', //头像\n      avatar: '', //头像\n      password: '', //密码\n      userName: '', //昵称\n      sex: 0, //性别\n      merchant: 0 //是否商家\n    },\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: '../../../static/logo.png',\n      name: \"to源哥\",\n      msg: '你是肥蛇吗？',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: '../../../static/logo.png',\n      name: \"to蛇皮\",\n      msg: '源哥最帅',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: '../../../static/logo.png',\n      name: \"狸猫\",\n      msg: '怎么说呢',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      69: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] } },\n\n\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.token = payload.token;\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n      state.user.merchant = payload.user.merchant;\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({ index: 2 });\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    },\n    addGoods: function addGoods(state, goods) {//向购物车添加商品\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?7117");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false, //是否登录\n      id: 0,\n      token: '', //token\n      phone: '', //头像\n      avatar: '', //头像\n      password: '', //密码\n      userName: '', //昵称\n      sex: 0, //性别\n      merchant: 0 //是否商家\n    },\n    addressInfo: { //地址信息\n      name: null,\n      phone: null,\n      city: null,\n      adress: null },\n\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: '../../../static/logo.png',\n      name: \"to源哥\",\n      msg: '你是肥蛇吗？',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: '../../../static/logo.png',\n      name: \"to蛇皮\",\n      msg: '源哥最帅',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: '../../../static/logo.png',\n      name: \"狸猫\",\n      msg: '怎么说呢',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      69: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] } },\n\n\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.token = payload.token;\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n      state.user.merchant = payload.user.merchant;\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n\n      state.addressInfo = payload.addressInfo; //同步地址信息\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    changeAddressInfo: function changeAddressInfo(state, addressInfo) {\n      state.addressInfo = addressInfo;\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n      state.addressInfo = uni.getStorageSync('addressInfo');\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({ index: 2 });\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?7117");
 
 /***/ })
 
@@ -4765,7 +5096,7 @@ define('common/vendor.js',function(require, module, exports, window, document, f
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"NODE_ENV\":\"development\",\"VUE_APP_PLATFORM\":\"app-plus\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          extraObj['$' + index] = vm.__get_value(dataPath);\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"VUE_APP_PLATFORM\":\"app-plus\",\"NODE_ENV\":\"development\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          extraObj['$' + index] = vm.__get_value(dataPath);\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
 
 /***/ }),
 
@@ -5816,7 +6147,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-3\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: {\n                              src: product.img,\n                              mode: \"scaleToFill\",\n                              eventid:\n                                \"2763a7ef-1-\" + index + \"-\" + productIndex\n                            },\n                            on: {\n                              click: function($event) {\n                                _vm.showImg(product.img)\n                              }\n                            }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-product\": product,\n                                    eventid:\n                                      \"2763a7ef-2-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticStyle: { width: \"60%\" } }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"icons iconfont icon-gouwuche\",\n              attrs: { eventid: \"2763a7ef-4\" },\n              on: { click: _vm.showShppingcard }\n            },\n            [\n              _vm.shoppingCart.length > 0\n                ? _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n                    _vm._v(_vm._s(_vm.shoppingCart.length))\n                  ])\n                : _vm._e()\n            ]\n          ),\n          _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n          _c(\"view\", { staticClass: \"icons iconfont icon-jiahao\" })\n        ]),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [\n            _c(\n              \"button\",\n              {\n                attrs: { type: \"warn\", eventid: \"2763a7ef-5\" },\n                on: { click: _vm.settleAccounts }\n              },\n              [_vm._v(\"立即结算\")]\n            )\n          ],\n          1\n        )\n      ]),\n      _c(\n        \"popup-layer\",\n        {\n          ref: \"popup\",\n          attrs: { direction: _vm.direction, mpcomid: \"2763a7ef-2\" }\n        },\n        [\n          _vm.shoppingCart.length === 0\n            ? _c(\n                \"view\",\n                {\n                  staticStyle: {\n                    \"text-align\": \"center\",\n                    color: \"grey\",\n                    \"line-height\": \"80px\"\n                  }\n                },\n                [_vm._v(\"购物车内空空如也(＞﹏＜)\")]\n              )\n            : _c(\"view\", { staticClass: \"grace-form\" }, [\n                _c(\n                  \"view\",\n                  { staticStyle: { padding: \"0 8rpx\" } },\n                  _vm._l(_vm.shoppingCart, function(product, index) {\n                    return _c(\n                      \"view\",\n                      { key: index, staticClass: \"grace-items\" },\n                      [\n                        _c(\"view\", { staticClass: \"iconss\" }, [\n                          _c(\"image\", {\n                            staticStyle: { width: \"50rpx\", height: \"50rpx\" },\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          })\n                        ]),\n                        _c(\"view\", { staticClass: \"grace-label\" }, [\n                          _vm._v(_vm._s(product.title))\n                        ]),\n                        _c(\"graceNumberBox\", {\n                          attrs: {\n                            minNum: \"1\",\n                            value: product.count,\n                            index: index,\n                            eventid: \"2763a7ef-6-\" + index,\n                            mpcomid: \"2763a7ef-1-\" + index\n                          },\n                          on: { change: _vm.change }\n                        }),\n                        _c(\n                          \"view\",\n                          {\n                            staticClass: \"delete\",\n                            attrs: { eventid: \"2763a7ef-7-\" + index },\n                            on: {\n                              click: function($event) {\n                                _vm.deleteProduct(index)\n                              }\n                            }\n                          },\n                          [_vm._v(\"删除\")]\n                        )\n                      ],\n                      1\n                    )\n                  })\n                )\n              ])\n        ]\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticStyle: { height: \"100%\" } },\n    [\n      _c(\"graceSpeaker\", {\n        attrs: {\n          icon: \"../../../static/market/trumpet.png\",\n          msgs: _vm.notices,\n          mpcomid: \"2763a7ef-0\"\n        }\n      }),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-cate\",\n          staticStyle: { width: \"100%\", height: \"calc(100% - 90px)\" }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-left\",\n              attrs: { \"scroll-y\": \"\", \"scroll-into-view\": _vm.leftTo }\n            },\n            _vm._l(_vm.mainCate, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  class: [\n                    \"item\",\n                    _vm.currentCateIndex == item.cateid ? \"current\" : \"\"\n                  ],\n                  attrs: {\n                    \"data-cateid\": item.cateid,\n                    id: \"cate\" + item.cateid,\n                    eventid: \"2763a7ef-0-\" + index\n                  },\n                  on: { tap: _vm.changCate }\n                },\n                [_vm._v(_vm._s(item.title))]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              staticClass: \"grace-cate-right\",\n              attrs: {\n                \"scroll-y\": \"\",\n                \"scroll-into-view\": _vm.productListTo,\n                eventid: \"2763a7ef-3\"\n              },\n              on: { scroll: _vm.rscroll }\n            },\n            _vm._l(_vm.mainCate, function(cate, index) {\n              return _c(\"block\", { key: index }, [\n                _c(\n                  \"view\",\n                  {\n                    staticClass: \"grace-title grace-nowrap grace-space-between\",\n                    staticStyle: { \"margin-top\": \"15px\" },\n                    attrs: { id: \"productList\" + cate.cateid }\n                  },\n                  [\n                    _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                      _vm._v(_vm._s(cate.title))\n                    ])\n                  ]\n                ),\n                _c(\n                  \"view\",\n                  { staticClass: \"grace-news-list\" },\n                  _vm._l(\n                    _vm.allProducts[\"cateproducts\" + cate.cateid],\n                    function(product, productIndex) {\n                      return _c(\n                        \"view\",\n                        {\n                          key: productIndex,\n                          staticClass: \"grace-news-list-items\"\n                        },\n                        [\n                          _c(\"image\", {\n                            staticClass:\n                              \"grace-news-list-img grace-list-imgs-l\",\n                            attrs: {\n                              src: product.img,\n                              mode: \"scaleToFill\",\n                              eventid:\n                                \"2763a7ef-1-\" + index + \"-\" + productIndex\n                            },\n                            on: {\n                              click: function($event) {\n                                _vm.showImg(product.img)\n                              }\n                            }\n                          }),\n                          _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                            _c(\n                              \"view\",\n                              { staticClass: \"grace-news-list-title-main\" },\n                              [_vm._v(_vm._s(product.title))]\n                            ),\n                            _c(\"view\", { staticClass: \"price\" }, [\n                              _vm._v(\"￥\" + _vm._s(product.price))\n                            ]),\n                            _c(\"view\", [\n                              _c(\n                                \"view\",\n                                {\n                                  staticClass: \"grace-add-to-card\",\n                                  attrs: {\n                                    \"data-product\": product,\n                                    eventid:\n                                      \"2763a7ef-2-\" + index + \"-\" + productIndex\n                                  },\n                                  on: { tap: _vm.addtocard }\n                                },\n                                [_vm._v(\"+\")]\n                              )\n                            ])\n                          ])\n                        ]\n                      )\n                    }\n                  )\n                )\n              ])\n            })\n          )\n        ],\n        1\n      ),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\n          \"view\",\n          { staticStyle: { width: \"60%\" } },\n          [\n            _c(\n              \"view\",\n              {\n                staticClass: \"icons iconfont icon-gouwuche\",\n                attrs: { eventid: \"2763a7ef-4\" },\n                on: { click: _vm.showShppingcard }\n              },\n              [\n                _vm.shoppingCart.length > 0\n                  ? _c(\"text\", { staticClass: \"grace-badge grace-badge-red\" }, [\n                      _vm._v(_vm._s(_vm.shoppingCart.length))\n                    ])\n                  : _vm._e()\n              ]\n            ),\n            _c(\"view\", { staticClass: \"icons iconfont icon-lianxikefu\" }),\n            _c(\"navigator\", {\n              staticClass: \"icons iconfont icon-jiahao\",\n              attrs: { url: \"./payresult\" }\n            })\n          ],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticStyle: { width: \"40%\" } },\n          [\n            _c(\n              \"button\",\n              {\n                attrs: { type: \"warn\", eventid: \"2763a7ef-5\" },\n                on: { click: _vm.settleAccounts }\n              },\n              [_vm._v(\"立即结算\")]\n            )\n          ],\n          1\n        )\n      ]),\n      _c(\n        \"popup-layer\",\n        {\n          ref: \"popup\",\n          attrs: { direction: _vm.direction, mpcomid: \"2763a7ef-2\" }\n        },\n        [\n          _vm.shoppingCart.length === 0\n            ? _c(\n                \"view\",\n                {\n                  staticStyle: {\n                    \"text-align\": \"center\",\n                    color: \"grey\",\n                    \"line-height\": \"80px\"\n                  }\n                },\n                [_vm._v(\"购物车内空空如也(＞﹏＜)\")]\n              )\n            : _c(\"view\", { staticClass: \"grace-form\" }, [\n                _c(\n                  \"view\",\n                  { staticStyle: { padding: \"0 8rpx\" } },\n                  _vm._l(_vm.shoppingCart, function(product, index) {\n                    return _c(\n                      \"view\",\n                      { key: index, staticClass: \"grace-items\" },\n                      [\n                        _c(\"view\", { staticClass: \"iconss\" }, [\n                          _c(\"image\", {\n                            staticStyle: { width: \"50rpx\", height: \"50rpx\" },\n                            attrs: { src: product.img, mode: \"widthFix\" }\n                          })\n                        ]),\n                        _c(\"view\", { staticClass: \"grace-label\" }, [\n                          _vm._v(_vm._s(product.title))\n                        ]),\n                        _c(\"graceNumberBox\", {\n                          attrs: {\n                            minNum: \"1\",\n                            value: product.count,\n                            index: index,\n                            eventid: \"2763a7ef-6-\" + index,\n                            mpcomid: \"2763a7ef-1-\" + index\n                          },\n                          on: { change: _vm.change }\n                        }),\n                        _c(\n                          \"view\",\n                          {\n                            staticClass: \"delete\",\n                            attrs: { eventid: \"2763a7ef-7-\" + index },\n                            on: {\n                              click: function($event) {\n                                _vm.deleteProduct(index)\n                              }\n                            }\n                          },\n                          [_vm._v(\"删除\")]\n                        )\n                      ],\n                      1\n                    )\n                  })\n                )\n              ])\n        ]\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/market.vue?vue&type=template&id=843b3134&");
 
 /***/ }),
 
@@ -6040,7 +6371,7 @@ define('pages/index/market/checkstand.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      address: {},\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.address = res.data.address;\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    radioChange: function radioChange(env) {\n      this.payWay = env.detail.value;\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    changeWxpay: function changeWxpay() {\n      this.payWay = 'wxpay';\n    },\n    changeAlipay: function changeAlipay() {\n      this.payWay = 'alipay';\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
 
 /***/ }),
 
@@ -6063,7 +6394,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      { staticStyle: { \"margin-bottom\": \"90rpx\" } },\n      [\n        _vm._m(0),\n        _c(\"navigator\", { staticClass: \"cu-list menu\" }, [\n          _vm.address === null\n            ? _c(\"view\", { staticClass: \"cu-item arrow\" }, [\n                _c(\"view\", { staticClass: \"content padding-tb-arrow\" }, [\n                  _c(\"view\", { staticClass: \"iconfont icon-jiahao1\" }, [\n                    _vm._v(\"点击添加\")\n                  ]),\n                  _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                    _vm._v(\"您还没有设置收货地址\")\n                  ])\n                ])\n              ])\n            : _c(\"view\", { staticClass: \"cu-item arrow\" }, [\n                _c(\"view\", { staticClass: \"content padding-tb-arrow\" }, [\n                  _c(\"view\", [_vm._v(_vm._s(_vm.user.userName))]),\n                  _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                    _vm._v(\"天津电子信息技术学院五号楼522\")\n                  ])\n                ])\n              ])\n        ]),\n        _vm._m(1),\n        _c(\n          \"view\",\n          { staticClass: \"grace-list\" },\n          _vm._l(_vm.itemList, function(product, index) {\n            return _c(\"view\", { key: index, staticClass: \"items\" }, [\n              _c(\"view\", { staticClass: \"icons\" }, [\n                _c(\"image\", {\n                  attrs: { src: product.item_img, mode: \"scaleToFill\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"title\" }, [\n                _vm._v(_vm._s(product.item_name)),\n                _c(\"text\", { staticStyle: { color: \"#000\" } }, [\n                  _vm._v(\n                    _vm._s(product.item_price + \" × \" + product.item_count)\n                  )\n                ])\n              ])\n            ])\n          })\n        ),\n        _c(\"view\", { staticClass: \"bg-white text-right has-borderb\" }, [\n          _c(\"view\", { staticClass: \" text-xl padding\" }, [\n            _c(\"text\", { staticClass: \"text-black\" }, [\n              _vm._v(\"小计:￥\" + _vm._s(_vm.realPrice))\n            ])\n          ])\n        ]),\n        _vm._m(2),\n        _c(\"view\", { staticClass: \"cu-form-group has-bordertb\" }, [\n          _c(\"textarea\", {\n            attrs: {\n              placeholder: \"请输入订单留言\",\n              value: _vm.remark,\n              maxlength: \"-1\",\n              \"auto-height\": \"\",\n              \"placeholder-class\": \"placeholder\"\n            }\n          })\n        ]),\n        _vm._m(3),\n        _c(\n          \"radio-group\",\n          {\n            staticStyle: { width: \"100%\" },\n            attrs: { eventid: \"c7b673fe-0\", mpcomid: \"c7b673fe-0\" },\n            on: { change: _vm.radioChange }\n          },\n          [\n            _c(\"view\", { staticClass: \"cu-list menu menu-avatar\" }, [\n              _c(\"view\", { staticClass: \"cu-item\" }, [\n                _c(\"view\", { staticClass: \"cu-avatar round weixin lg\" }),\n                _c(\"view\", { staticClass: \"content\" }, [\n                  _c(\"view\", { staticClass: \"text-black\" }, [\n                    _vm._v(\"微信支付\"),\n                    _c(\"view\", { staticClass: \"cu-tag round bg-orange sm\" }, [\n                      _vm._v(\"推荐\")\n                    ])\n                  ]),\n                  _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                    _vm._v(\"亿万用户的选择,更快更安全\")\n                  ])\n                ]),\n                _c(\n                  \"view\",\n                  { staticClass: \"action\" },\n                  [\n                    _c(\"radio\", {\n                      staticClass: \"orange sm\",\n                      attrs: { value: \"wxpay\", checked: \"\" }\n                    })\n                  ],\n                  1\n                )\n              ]),\n              _c(\"view\", { staticClass: \"cu-item\" }, [\n                _c(\"view\", { staticClass: \"cu-avatar alipay round lg\" }),\n                _c(\"view\", { staticClass: \"content\" }, [\n                  _c(\"view\", { staticClass: \"text-black\" }, [_vm._v(\"支付宝\")]),\n                  _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                    _vm._v(\"推荐支付宝用户使用\")\n                  ])\n                ]),\n                _c(\n                  \"view\",\n                  { staticClass: \"action\" },\n                  [\n                    _c(\"radio\", {\n                      staticClass: \"orange sm\",\n                      attrs: { value: \"alipay\" }\n                    })\n                  ],\n                  1\n                )\n              ])\n            ])\n          ]\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"grace-footer\" }, [\n      _c(\n        \"view\",\n        {\n          staticStyle: {\n            width: \"50%\",\n            \"line-height\": \"90rpx\",\n            \"font-size\": \"36rpx\"\n          }\n        },\n        [\n          _c(\"text\", { staticStyle: { \"margin-left\": \"10px\" } }, [\n            _vm._v(_vm._s(_vm.realPrice) + \"元\")\n          ])\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticStyle: { width: \"50%\" } },\n        [\n          _c(\n            \"button\",\n            {\n              attrs: { type: \"warn\", eventid: \"c7b673fe-1\" },\n              on: { click: _vm.goPay }\n            },\n            [_vm._v(\"去支付\")]\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"收货地址\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"订单详情\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"订单留言\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"付款方式\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/checkstand.vue?vue&type=template&id=7feee4f8&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      { staticStyle: { \"margin-bottom\": \"90rpx\" } },\n      [\n        _vm._m(0),\n        _c(\n          \"navigator\",\n          {\n            staticClass: \"cu-list menu\",\n            attrs: { url: \"/pages/my/address/address\" }\n          },\n          [\n            _vm.addressInfo.city === null\n              ? _c(\"view\", { staticClass: \"cu-item arrow\" }, [\n                  _c(\"view\", { staticClass: \"content padding-tb-arrow\" }, [\n                    _c(\"view\", { staticClass: \"iconfont icon-jiahao1\" }, [\n                      _vm._v(\"点击添加\")\n                    ]),\n                    _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                      _vm._v(\"您还没有设置收货地址\")\n                    ])\n                  ])\n                ])\n              : _c(\"view\", { staticClass: \"cu-item arrow\" }, [\n                  _c(\"view\", { staticClass: \"content padding-tb-arrow\" }, [\n                    _c(\"view\", [\n                      _vm._v(\n                        _vm._s(\n                          _vm.addressInfo.name + \" \" + _vm.addressInfo.phone\n                        )\n                      )\n                    ]),\n                    _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                      _vm._v(\n                        _vm._s(_vm.addressInfo.city + _vm.addressInfo.address)\n                      )\n                    ])\n                  ])\n                ])\n          ]\n        ),\n        _vm._m(1),\n        _c(\n          \"view\",\n          { staticClass: \"grace-list\" },\n          _vm._l(_vm.itemList, function(product, index) {\n            return _c(\"view\", { key: index, staticClass: \"items\" }, [\n              _c(\"view\", { staticClass: \"icons\" }, [\n                _c(\"image\", {\n                  attrs: { src: product.item_img, mode: \"scaleToFill\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"title\" }, [\n                _vm._v(_vm._s(product.item_name)),\n                _c(\"text\", { staticStyle: { color: \"#000\" } }, [\n                  _vm._v(\n                    _vm._s(product.item_price + \" × \" + product.item_count)\n                  )\n                ])\n              ])\n            ])\n          })\n        ),\n        _c(\"view\", { staticClass: \"bg-white text-right has-borderb\" }, [\n          _c(\"view\", { staticClass: \" text-xl padding\" }, [\n            _c(\"text\", { staticClass: \"text-black\" }, [\n              _vm._v(\"小计:￥\" + _vm._s(_vm.realPrice))\n            ])\n          ])\n        ]),\n        _vm._m(2),\n        _c(\"view\", { staticClass: \"cu-form-group has-bordertb\" }, [\n          _c(\"textarea\", {\n            attrs: {\n              placeholder: \"请输入订单留言\",\n              value: _vm.remark,\n              maxlength: \"-1\",\n              \"auto-height\": \"\",\n              \"placeholder-class\": \"placeholder\"\n            }\n          })\n        ]),\n        _vm._m(3),\n        _c(\n          \"radio-group\",\n          { staticStyle: { width: \"100%\" }, attrs: { mpcomid: \"c7b673fe-0\" } },\n          [\n            _c(\"view\", { staticClass: \"cu-list menu menu-avatar\" }, [\n              _c(\n                \"view\",\n                {\n                  staticClass: \"cu-item\",\n                  attrs: { eventid: \"c7b673fe-0\" },\n                  on: { click: _vm.changeWxpay }\n                },\n                [\n                  _c(\"view\", { staticClass: \"cu-avatar round weixin lg\" }),\n                  _c(\"view\", { staticClass: \"content\" }, [\n                    _c(\"view\", { staticClass: \"text-black\" }, [\n                      _vm._v(\"微信支付\"),\n                      _c(\"view\", { staticClass: \"cu-tag round bg-orange sm\" }, [\n                        _vm._v(\"推荐\")\n                      ])\n                    ]),\n                    _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                      _vm._v(\"亿万用户的选择,更快更安全\")\n                    ])\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"action\" },\n                    [\n                      _c(\"radio\", {\n                        staticClass: \"orange sm\",\n                        attrs: {\n                          value: \"wxpay\",\n                          checked: _vm.payWay === \"wxpay\"\n                        }\n                      })\n                    ],\n                    1\n                  )\n                ]\n              ),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"cu-item\",\n                  attrs: { eventid: \"c7b673fe-1\" },\n                  on: { click: _vm.changeAlipay }\n                },\n                [\n                  _c(\"view\", { staticClass: \"cu-avatar alipay round lg\" }),\n                  _c(\"view\", { staticClass: \"content\" }, [\n                    _c(\"view\", { staticClass: \"text-black\" }, [\n                      _vm._v(\"支付宝\")\n                    ]),\n                    _c(\"view\", { staticClass: \"text-gray text-sm\" }, [\n                      _vm._v(\"推荐支付宝用户使用\")\n                    ])\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"action\" },\n                    [\n                      _c(\"radio\", {\n                        staticClass: \"orange sm\",\n                        attrs: {\n                          value: \"alipay\",\n                          checked: _vm.payWay === \"alipay\"\n                        }\n                      })\n                    ],\n                    1\n                  )\n                ]\n              )\n            ])\n          ]\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"grace-footer\" }, [\n      _c(\n        \"view\",\n        {\n          staticStyle: {\n            width: \"50%\",\n            \"line-height\": \"90rpx\",\n            \"font-size\": \"36rpx\"\n          }\n        },\n        [\n          _c(\"text\", { staticStyle: { \"margin-left\": \"10px\" } }, [\n            _vm._v(_vm._s(_vm.realPrice) + \"元\")\n          ])\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticStyle: { width: \"50%\" } },\n        [\n          _c(\n            \"button\",\n            {\n              attrs: { type: \"warn\", eventid: \"c7b673fe-2\" },\n              on: { click: _vm.goPay }\n            },\n            [_vm._v(\"去支付\")]\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"收货地址\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"订单详情\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"订单留言\")])\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"cu-bar bg-white margin-top\" }, [\n      _c(\"view\", { staticClass: \"action\" }, [\n        _c(\"text\", { staticClass: \"icon-titles text-orange\" }),\n        _c(\"text\", { staticClass: \"text-xl text-bold\" }, [_vm._v(\"付款方式\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/checkstand.vue?vue&type=template&id=7feee4f8&");
 
 /***/ }),
 
@@ -6130,6 +6461,109 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fmarket%2Fcheckstand\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/index/market/checkstand.js');
+__wxRoute = 'pages/index/market/payresult';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/market/payresult.js';
+
+define('pages/index/market/payresult.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/index/market/payresult"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      infoImg: 'http://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png' };\n\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/index/market/payresult.vue?vue&type=script&lang=js&?f02c");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=template&id=6723b9ea&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=template&id=6723b9ea& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"grace-padding\" }, [\n    _c(\n      \"view\",\n      {\n        staticStyle: { \"text-align\": \"center\", margin: \"50rpx auto 10rpx auto\" }\n      },\n      [\n        _c(\"image\", {\n          staticStyle: { width: \"300rpx\", height: \"300rpx\" },\n          attrs: { src: _vm.infoImg, mode: \"widthFix\" }\n        })\n      ]\n    ),\n    _vm._m(0),\n    _vm._m(1),\n    _c(\n      \"view\",\n      { staticClass: \"grace-rows\" },\n      [\n        _c(\"button\", { attrs: { type: \"warn\" } }, [_vm._v(\"查看订单\")]),\n        _c(\n          \"button\",\n          {\n            staticStyle: { \"margin-left\": \"-50rpx\" },\n            attrs: { type: \"default\" }\n          },\n          [_vm._v(\"返回首页\")]\n        )\n      ],\n      1\n    ),\n    _vm._m(2)\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"text_success\" }, [\n      _c(\"text\", [_vm._v(\"订单支付成功\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"text_order\" }, [\n      _c(\"text\", [_vm._v(\"订单金额：\")]),\n      _c(\"text\", { staticStyle: { color: \"#EE0000\", \"font-size\": \"32\" } }, [\n        _vm._v(\"¥ 129.00\")\n      ])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"text_end\" }, [\n      _c(\"text\", [\n        _vm._v(\n          \"注意：TOP校园不会以订单异常、系统升级为由，要求您点击任何链接进行退款操作，请勿上当受骗。\"\n        )\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=template&id=6723b9ea&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fmarket%2Fpayresult\"}":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Findex%2Fmarket%2Fpayresult"} ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _payresult = _interopRequireDefault(__webpack_require__(/*! ./pages/index/market/payresult.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_payresult.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Findex%252Fmarket%252Fpayresult%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue":
+/*!*************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./payresult.vue?vue&type=template&id=6723b9ea& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=template&id=6723b9ea&\");\n/* harmony import */ var _payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./payresult.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./payresult.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./payresult.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/index/market/payresult.vue?vue&type=script&lang=js&?cd2b");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./payresult.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\market\\payresult.vue?vue&type=template&id=6723b9ea&":
+/*!********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=template&id=6723b9ea& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./payresult.vue?vue&type=template&id=6723b9ea& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\market\\\\payresult.vue?vue&type=template&id=6723b9ea&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_payresult_vue_vue_type_template_id_6723b9ea___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/market/payresult.vue?vue&type=template&id=6723b9ea&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fmarket%2Fpayresult\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/index/market/payresult.js');
 __wxRoute = 'pages/index/parttime/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/parttime/index.js';
 
 define('pages/index/parttime/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -6166,7 +6600,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    _vm._l(_vm.jobList, function(job, index) {\n      return _c(\n        \"view\",\n        {\n          key: index,\n          staticClass: \"parttime-card\",\n          attrs: { eventid: \"78cdde7a-0-\" + index },\n          on: { click: _vm.getimage }\n        },\n        [\n          _c(\"view\", { staticClass: \"parttime-card-img\" }, [\n            _c(\"image\", {\n              staticClass: \"parttime-card-imge\",\n              attrs: { src: _vm.imagesList[1], mode: \"scaleToFill\" }\n            })\n          ]),\n          _c(\"view\", { staticClass: \"text-one\" }, [\n            _vm._v(_vm._s(job.jobtitle))\n          ]),\n          _c(\"view\", { staticClass: \"text-two\" }, [\n            _vm._v(_vm._s(job.treatment))\n          ]),\n          _c(\"view\", { staticClass: \"text-three\" }, [_vm._v(_vm._s(job.site))]),\n          _c(\"view\", { staticClass: \"text-four\" }, [\n            _vm._v(_vm._s(job.validtime))\n          ])\n        ]\n      )\n    })\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/index.vue?vue&type=template&id=b128cd48&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    _vm._l(_vm.jobList, function(job, index) {\n      return _c(\n        \"navigator\",\n        {\n          key: index,\n          staticClass: \"parttime-card\",\n          attrs: { url: \"./details\", eventid: \"78cdde7a-0-\" + index },\n          on: { click: _vm.getimage }\n        },\n        [\n          _c(\"view\", { staticClass: \"parttime-card-img\" }, [\n            _c(\"image\", {\n              staticClass: \"parttime-card-imge\",\n              attrs: { src: _vm.imagesList[1], mode: \"scaleToFill\" }\n            })\n          ]),\n          _c(\"view\", { staticClass: \"text-one\" }, [\n            _vm._v(_vm._s(job.jobtitle))\n          ]),\n          _c(\"view\", { staticClass: \"text-two\" }, [\n            _vm._v(_vm._s(job.treatment))\n          ]),\n          _c(\"view\", { staticClass: \"text-three\" }, [_vm._v(_vm._s(job.site))]),\n          _c(\"view\", { staticClass: \"text-four\" }, [\n            _vm._v(_vm._s(job.validtime))\n          ])\n        ]\n      )\n    })\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/index.vue?vue&type=template&id=b128cd48&");
 
 /***/ }),
 
@@ -6233,6 +6667,109 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fparttime%2Findex\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/index/parttime/index.js');
+__wxRoute = 'pages/index/parttime/details';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/parttime/details.js';
+
+define('pages/index/parttime/details.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/index/parttime/details"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      key: '' };\n\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/index/parttime/details.vue?vue&type=script&lang=js&?5b64");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=template&id=1eb59368&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=template&id=1eb59368& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      {\n        staticClass: \"img\",\n        staticStyle: {\n          \"background-image\": \"url('../../../static/parttime/hand.jpg')\",\n          opacity: \"1\"\n        }\n      },\n      [\n        _c(\n          \"view\",\n          { staticClass: \"img-first\" },\n          [_c(\"p\", [_vm._v(\"诚聘日结简单手机兼职App试玩员\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-two\" },\n          [_c(\"p\", [_vm._v(\"10000.00元/天\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-three\" },\n          [_c(\"p\", [_vm._v(\"北辰 | 其他\")])],\n          1\n        )\n      ]\n    ),\n    _c(\n      \"view\",\n      { staticClass: \"claim\" },\n      [\n        _c(\"p\", [_vm._v(\"招聘要求\")]),\n        _c(\"view\", { staticClass: \"day\" }, [_vm._v(\"日结\")]),\n        _c(\"view\", { staticClass: \"nine\" }, [_vm._v(\"招九百人\")]),\n        _c(\"view\", { staticClass: \"man\" }, [_vm._v(\"男女不限\")])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _vm._m(0),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _c(\n      \"view\",\n      { staticClass: \"details\" },\n      [\n        _c(\"view\", { staticClass: \"details-one\" }, [_vm._v(\"职位详情\")]),\n        _c(\"p\", [_vm._v(\"唯品会急招线上兼职，0成本在家可做！\")]),\n        _c(\"p\", [_vm._v(\"【报名流程】\")]),\n        _c(\"p\", [\n          _vm._v(\n            \"点击报名后请直接添加客服微信号，只有添加微信号才算报名成功，谢谢合作！(yxy88888888666)\"\n          )\n        ]),\n        _c(\"p\", [_vm._v(\"【报名方法】\")]),\n        _c(\"p\", [\n          _vm._v(\n            \"(点链接后是直接到企业QQ，点添加好友，然后按要求发消息给客服，安排兼职)\"\n          )\n        ]),\n        _c(\"p\", [\n          _vm._v(\n            \"薪资待遇：多劳多得，按照要求完成人物反馈给客服，每个任务1-30元的金额\"\n          )\n        ]),\n        _c(\"p\", [\n          _vm._v(\n            \"工作时间9：00-21：00基本上全天候，最后生命，绝不收费，不要受外面不健康兼职的影响\"\n          )\n        ]),\n        _c(\"p\", { staticClass: \"details-two\" }, [\n          _vm._v(\n            \"Tip:凡收取费用的或工作内容不符的兼职，请提高警惕并第一时间向我们举报\"\n          )\n        ])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _vm._m(1),\n    _c(\"view\", { staticClass: \"gray-one\" }, [\n      _vm._v(\"——————宝贝我也是有底线的——————\")\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"work\" }, [\n      _c(\"view\", { staticClass: \"work-one\" }, [_vm._v(\"工作福利\")]),\n      _c(\"view\", { staticClass: \"eat1\" }, [_vm._v(\"·包吃\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·包住\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·交通补贴\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·有提成\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·免费培训\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"worktime\" }, [\n      _c(\"view\", { staticClass: \"worktime-one\" }, [_vm._v(\"工作时间\")]),\n      _c(\"view\", { staticClass: \"work-begin\" }, [\n        _vm._v(\"开始时间：? 04月01日\")\n      ]),\n      _c(\"view\", { staticClass: \"work-end\" }, [_vm._v(\"结束时间：? 04月30日\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=template&id=1eb59368&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fparttime%2Fdetails\"}":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Findex%2Fparttime%2Fdetails"} ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _details = _interopRequireDefault(__webpack_require__(/*! ./pages/index/parttime/details.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_details.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Findex%252Fparttime%252Fdetails%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue":
+/*!*************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue ***!
+  \*************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./details.vue?vue&type=template&id=1eb59368& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=template&id=1eb59368&\");\n/* harmony import */ var _details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./details.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./details.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./details.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/index/parttime/details.vue?vue&type=script&lang=js&?fd79");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./details.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\index\\parttime\\details.vue?vue&type=template&id=1eb59368&":
+/*!********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=template&id=1eb59368& ***!
+  \********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./details.vue?vue&type=template&id=1eb59368& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\index\\\\parttime\\\\details.vue?vue&type=template&id=1eb59368&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_details_vue_vue_type_template_id_1eb59368___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/parttime/details.vue?vue&type=template&id=1eb59368&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Findex%2Fparttime%2Fdetails\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/index/parttime/details.js');
 __wxRoute = 'pages/common/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/login.js';
 
 define('pages/common/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -7310,7 +7847,7 @@ define('pages/my/my.js',function(require, module, exports, window, document, fra
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',\n      lists: [{\n        img: 'shange.png',\n        title: '布局栅格',\n        path: \"rows\",\n        desc: \"flex 基础布局\" },\n\n      {\n        img: 'scroll.png',\n        title: '滚动区域',\n        path: \"scroll\",\n        desc: \"\" },\n\n      {\n        img: 'moveview.png',\n        title: '可移动区域',\n        path: \"moveview\",\n        desc: \"\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user']) };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/my/my.vue?vue&type=script&lang=js&?e05a");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',\n      lists: [{\n        img: 'shange.png',\n        title: '布局栅格',\n        path: \"rows\",\n        desc: \"flex 基础布局\" },\n\n      {\n        img: 'scroll.png',\n        title: '滚动区域',\n        path: \"scroll\",\n        desc: \"\" },\n\n      {\n        img: 'moveview.png',\n        title: '可移动区域',\n        path: \"moveview\",\n        desc: \"\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user']) };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/my/my.vue?vue&type=script&lang=js&?e05a");
 
 /***/ }),
 
@@ -7333,7 +7870,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"header\", {\n      staticStyle: { \"background-image\": \"url('static/userbg.png')\" }\n    }),\n    _c(\n      \"view\",\n      { staticClass: \"info\" },\n      [\n        _c(\"img\", { attrs: { src: _vm.user.avatar } }),\n        _c(\n          \"p\",\n          { staticClass: \"info_name\" },\n          [\n            _c(\"span\", [_vm._v(_vm._s(_vm.user.userName))]),\n            _c(\"i\", { staticClass: \"iconfont icon-nan\" })\n          ],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"16\")]), _c(\"p\", [_vm._v(\"关注\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"32\")]), _c(\"p\", [_vm._v(\"粉丝\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"3\")]), _c(\"p\", [_vm._v(\"动态\")])],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"iconCon\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"表白\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"订单\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"兼职\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"代办\")])\n        ],\n        1\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"grace-list\" },\n      [\n        _vm._l(_vm.lists, function(item, index) {\n          return _c(\"navigator\", { key: index, staticClass: \"items\" }, [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.staticUrl + item.img, mode: \"widthFix\" }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [\n              _vm._v(_vm._s(item.title)),\n              _c(\"text\", [_vm._v(_vm._s(item.desc))])\n            ]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ])\n        }),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./parttime/index\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"发布兼职\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./market/index\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"我的店铺\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./setting/setting\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/setting.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"设置\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        )\n      ],\n      2\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/my.vue?vue&type=template&id=9c88d03a&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\"header\", {\n      staticStyle: { \"background-image\": \"url('static/userbg.png')\" }\n    }),\n    _c(\n      \"view\",\n      { staticClass: \"info\" },\n      [\n        _c(\"img\", { attrs: { src: _vm.user.avatar } }),\n        _c(\n          \"p\",\n          { staticClass: \"info_name\" },\n          [\n            _c(\"span\", [_vm._v(_vm._s(_vm.user.userName))]),\n            _c(\"i\", { staticClass: \"iconfont icon-nan\" })\n          ],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"16\")]), _c(\"p\", [_vm._v(\"关注\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"32\")]), _c(\"p\", [_vm._v(\"粉丝\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"info_item\" },\n          [_c(\"p\", [_vm._v(\"3\")]), _c(\"p\", [_vm._v(\"动态\")])],\n          1\n        )\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"iconCon\" }, [\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"表白\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"订单\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"兼职\")])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        [\n          _c(\"i\", { staticClass: \"grace-iconfont icon-refresh icon_comment\" }),\n          _c(\"p\", [_vm._v(\"代办\")])\n        ],\n        1\n      )\n    ]),\n    _c(\n      \"view\",\n      { staticClass: \"grace-list\" },\n      [\n        _vm._l(_vm.lists, function(item, index) {\n          return _c(\"navigator\", { key: index, staticClass: \"items\" }, [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: { src: _vm.staticUrl + item.img, mode: \"widthFix\" }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [\n              _vm._v(_vm._s(item.title)),\n              _c(\"text\", [_vm._v(_vm._s(item.desc))])\n            ]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ])\n        }),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./address/address\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"我的地址\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./parttime/index\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"发布兼职\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./market/index\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/shop.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"我的店铺\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        ),\n        _c(\n          \"navigator\",\n          { staticClass: \"items\", attrs: { url: \"./setting/setting\" } },\n          [\n            _c(\"view\", { staticClass: \"icons\" }, [\n              _c(\"image\", {\n                attrs: {\n                  src: \"../../static/coloricon/setting.png\",\n                  mode: \"widthFix\"\n                }\n              })\n            ]),\n            _c(\"view\", { staticClass: \"title\" }, [_vm._v(\"设置\")]),\n            _c(\"view\", { staticClass: \"arrow-right\" })\n          ]\n        )\n      ],\n      2\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/my.vue?vue&type=template&id=9c88d03a&");
 
 /***/ }),
 
@@ -7400,6 +7937,311 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_p
 },[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Fmy\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/my/my.js');
+__wxRoute = 'pages/my/address/address';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/address/address.js';
+
+define('pages/my/address/address.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/my/address/address"],{
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _mpvuePicker = _interopRequireDefault(__webpack_require__(/*! ../../../threeComponents/mpvuePicker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue\"));\nvar _mpvueCityPicker = _interopRequireDefault(__webpack_require__(/*! ../../../threeComponents/mpvueCityPicker.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n\n\n\n{\n  components: {\n    mpvuePicker: _mpvuePicker.default,\n    mpvueCityPicker: _mpvueCityPicker.default },\n\n  data: function data() {\n    return {\n      cityPickerValueDefault1: [1, 0, 3], //地区默认值\n      addressInfo_: {},\n      btnLoading: false };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad() {\n    this.addressInfo_ = this.addressInfo;\n    if (this.addressInfo_.city === null) {\n      this.addressInfo_.city = '请选择';\n    }\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['changeAddressInfo']), {\n    cityPicker: function cityPicker() {\n      this.$refs.mpvueCityPicker1.show();\n    },\n    onConfirm: function onConfirm(e) {\n      this.addressInfo.city = e.label;\n    },\n    formSubmit: function formSubmit(e) {var _this = this;\n      if (!this.addressInfo_.name) {\n        uni.showToast({\n          title: '姓名输入错误',\n          icon: \"none\" });\n\n      } else if (this.addressInfo_.phone.length !== 11) {\n        uni.showToast({\n          title: '手机号输入错误',\n          icon: \"none\" });\n\n      } else if (this.addressInfo_.city === '请选择') {\n        uni.showToast({\n          title: '请选择城市',\n          icon: \"none\" });\n\n      } else if (!this.addressInfo_.address) {\n        uni.showToast({\n          title: '请输入详细地址',\n          icon: \"none\" });\n\n      } else {\n        this.addressInfo_.user_id = this.user.id;\n        this.btnLoading = true;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'mine/address/update',\n          method: 'POST',\n          data: this.addressInfo_,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: '操作成功' });\n\n              _this.changeAddressInfo(_this.addressInfo_);\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requesFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      }\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/address/address.vue?vue&type=script&lang=js&?01ad");
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _province = _interopRequireDefault(__webpack_require__(/*! ./city-data/province.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\city-data\\\\province.js\"));\nvar _city = _interopRequireDefault(__webpack_require__(/*! ./city-data/city.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\city-data\\\\city.js\"));\nvar _area = _interopRequireDefault(__webpack_require__(/*! ./city-data/area.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\city-data\\\\area.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default2 =\n{\n  data: function data() {\n    return {\n      pickerValue: [0, 0, 0],\n      provinceDataList: [],\n      cityDataList: [],\n      areaDataList: [],\n      /* 是否显示控件 */\n      showPicker: false };\n\n  },\n  created: function created() {\n    this.init();\n  },\n  props: {\n    /* 默认值 */\n    pickerValueDefault: {\n      type: Array,\n      default: function _default() {\n        return [0, 0, 0];\n      } },\n\n    /* 主题色 */\n    themeColor: String },\n\n  watch: {\n    pickerValueDefault: function pickerValueDefault() {\n      this.init();\n    } },\n\n  methods: {\n    init: function init() {\n      this.handPickValueDefault(); // 对 pickerValueDefault 做兼容处理\n      this.provinceDataList = _province.default;\n      this.cityDataList = _city.default[this.pickerValueDefault[0]];\n      this.areaDataList = _area.default[this.pickerValueDefault[0]][this.pickerValueDefault[1]];\n      this.pickerValue = this.pickerValueDefault;\n    },\n    show: function show() {var _this = this;\n      setTimeout(function () {\n        _this.showPicker = true;\n      }, 0);\n    },\n    maskClick: function maskClick() {\n      this.pickerCancel();\n    },\n    pickerCancel: function pickerCancel() {\n      this.showPicker = false;\n      this._$emit('onCancel');\n    },\n    pickerConfirm: function pickerConfirm(e) {\n      this.showPicker = false;\n      this._$emit('onConfirm');\n    },\n    showPickerView: function showPickerView() {\n      this.showPicker = true;\n    },\n    handPickValueDefault: function handPickValueDefault() {\n      if (this.pickerValueDefault !== [0, 0, 0]) {\n        if (this.pickerValueDefault[0] > _province.default.length - 1) {\n          this.pickerValueDefault[0] = _province.default.length - 1;\n        }\n        if (this.pickerValueDefault[1] > _city.default[this.pickerValueDefault[0]].length - 1) {\n          this.pickerValueDefault[1] = _city.default[this.pickerValueDefault[0]].length - 1;\n        }\n        if (this.pickerValueDefault[2] > _area.default[this.pickerValueDefault[0]][this.pickerValueDefault[1]].length - 1) {\n          this.pickerValueDefault[2] = _area.default[this.pickerValueDefault[0]][this.pickerValueDefault[1]].length - 1;\n        }\n      }\n    },\n    pickerChange: function pickerChange(e) {\n      var changePickerValue = e.mp.detail.value;\n      if (this.pickerValue[0] !== changePickerValue[0]) {\n        // 第一级发生滚动\n        this.cityDataList = _city.default[changePickerValue[0]];\n        this.areaDataList = _area.default[changePickerValue[0]][0];\n        changePickerValue[1] = 0;\n        changePickerValue[2] = 0;\n      } else if (this.pickerValue[1] !== changePickerValue[1]) {\n        // 第二级滚动\n        this.areaDataList =\n        _area.default[changePickerValue[0]][changePickerValue[1]];\n        changePickerValue[2] = 0;\n      }\n      this.pickerValue = changePickerValue;\n      this._$emit('onChange');\n    },\n    _$emit: function _$emit(emitName) {\n      var pickObj = {\n        label: this._getLabel(),\n        value: this.pickerValue,\n        cityCode: this._getCityCode() };\n\n      this.$emit(emitName, pickObj);\n    },\n    _getLabel: function _getLabel() {\n      var pcikerLabel =\n      this.provinceDataList[this.pickerValue[0]].label +\n      '-' +\n      this.cityDataList[this.pickerValue[1]].label +\n      '-' +\n      this.areaDataList[this.pickerValue[2]].label;\n      return pcikerLabel;\n    },\n    _getCityCode: function _getCityCode() {\n      return this.areaDataList[this.pickerValue[2]].value;\n    } } };exports.default = _default2;\n\n//# sourceURL=uni-app:///threeComponents/mpvueCityPicker.vue?vue&type=script&lang=js&?503c");
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default2 =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      pickerChangeValue: [],\n      pickerValue: [],\n      pickerValueArrayChange: true,\n      modeChange: false,\n      pickerValueSingleArray: [],\n      pickerValueHour: [],\n      pickerValueMinute: [],\n      pickerValueMulArray: [],\n      pickerValueMulTwoOne: [],\n      pickerValueMulTwoTwo: [],\n      pickerValueMulThreeOne: [],\n      pickerValueMulThreeTwo: [],\n      pickerValueMulThreeThree: [],\n      /* 是否显示控件 */\n      showPicker: false };\n\n  },\n  props: {\n    /* mode */\n    mode: {\n      type: String,\n      default: 'selector' },\n\n    /* picker 数值 */\n    pickerValueArray: {\n      type: Array,\n      default: function _default() {\n        return [];\n      } },\n\n    /* 默认值 */\n    pickerValueDefault: {\n      type: Array,\n      default: function _default() {\n        return [];\n      } },\n\n    /* 几级联动 */\n    deepLength: {\n      type: Number,\n      default: 2 },\n\n    /* 主题色 */\n    themeColor: String },\n\n  watch: _defineProperty({\n    pickerValueArray: function pickerValueArray(oldVal, newVal) {\n      this.pickerValueArrayChange = true;\n    },\n    mode: function mode(oldVal, newVal) {\n      this.modeChange = true;\n    } }, \"pickerValueArray\", function pickerValueArray(\n  val) {\n    this.initPicker(val);\n  }),\n\n  methods: {\n    initPicker: function initPicker(valueArray) {\n      var pickerValueArray = valueArray;\n      this.pickerValue = this.pickerValueDefault;\n      // 初始化多级联动\n      if (this.mode === 'selector') {\n        this.pickerValueSingleArray = valueArray;\n      } else if (this.mode === 'timeSelector') {\n        this.modeChange = false;\n        var hourArray = [];\n        var minuteArray = [];\n        for (var i = 0; i < 24; i++) {\n          hourArray.push({\n            value: i,\n            label: i > 9 ? \"\".concat(i, \" \\u65F6\") : \"0\".concat(i, \" \\u65F6\") });\n\n        }\n        for (var _i = 0; _i < 60; _i++) {\n          minuteArray.push({\n            value: _i,\n            label: _i > 9 ? \"\".concat(_i, \" \\u5206\") : \"0\".concat(_i, \" \\u5206\") });\n\n        }\n        this.pickerValueHour = hourArray;\n        this.pickerValueMinute = minuteArray;\n      } else if (this.mode === 'multiSelector') {\n        this.pickerValueMulArray = valueArray;\n      } else if (this.mode === 'multiLinkageSelector' && this.deepLength === 2) {\n        // 两级联动\n        var pickerValueMulTwoOne = [];\n        var pickerValueMulTwoTwo = [];\n        // 第一列\n        for (var _i2 = 0, length = pickerValueArray.length; _i2 < length; _i2++) {\n          pickerValueMulTwoOne.push(pickerValueArray[_i2]);\n        }\n        // 渲染第二列\n        // 如果有设定的默认值\n        if (this.pickerValueDefault.length === 2) {\n          var num = this.pickerValueDefault[0];\n          for (\n          var _i3 = 0, _length = pickerValueArray[num].children.length; _i3 < _length; _i3++)\n          {\n            pickerValueMulTwoTwo.push(pickerValueArray[num].children[_i3]);\n          }\n        } else {\n          for (\n          var _i4 = 0, _length2 = pickerValueArray[0].children.length; _i4 < _length2; _i4++)\n          {\n            pickerValueMulTwoTwo.push(pickerValueArray[0].children[_i4]);\n          }\n        }\n        this.pickerValueMulTwoOne = pickerValueMulTwoOne;\n        this.pickerValueMulTwoTwo = pickerValueMulTwoTwo;\n      } else if (\n      this.mode === 'multiLinkageSelector' &&\n      this.deepLength === 3)\n      {\n        var pickerValueMulThreeOne = [];\n        var pickerValueMulThreeTwo = [];\n        var pickerValueMulThreeThree = [];\n        // 第一列\n        for (var _i5 = 0, _length3 = pickerValueArray.length; _i5 < _length3; _i5++) {\n          pickerValueMulThreeOne.push(pickerValueArray[_i5]);\n        }\n        // 渲染第二列\n        this.pickerValueDefault =\n        this.pickerValueDefault.length === 3 ?\n        this.pickerValueDefault :\n        [0, 0, 0];\n        if (this.pickerValueDefault.length === 3) {\n          var _num = this.pickerValueDefault[0];\n          for (\n          var _i6 = 0, _length4 = pickerValueArray[_num].children.length; _i6 < _length4; _i6++)\n          {\n            pickerValueMulThreeTwo.push(pickerValueArray[_num].children[_i6]);\n          }\n          // 第三列\n          var numSecond = this.pickerValueDefault[1];\n          for (var _i7 = 0, _length5 = pickerValueArray[_num].children[numSecond].children.length; _i7 < _length5; _i7++) {\n            pickerValueMulThreeThree.push(\n            pickerValueArray[_num].children[numSecond].children[_i7]);\n\n          }\n        }\n        this.pickerValueMulThreeOne = pickerValueMulThreeOne;\n        this.pickerValueMulThreeTwo = pickerValueMulThreeTwo;\n        this.pickerValueMulThreeThree = pickerValueMulThreeThree;\n      }\n    },\n    show: function show() {var _this = this;\n      setTimeout(function () {\n        if (_this.pickerValueArrayChange || _this.modeChange) {\n          _this.initPicker(_this.pickerValueArray);\n          _this.showPicker = true;\n          _this.pickerValueArrayChange = false;\n          _this.modeChange = false;\n        } else {\n          _this.showPicker = true;\n        }\n      }, 0);\n    },\n    maskClick: function maskClick() {\n      this.pickerCancel();\n    },\n    pickerCancel: function pickerCancel() {\n      this.showPicker = false;\n      this._initPickerVale();\n      var pickObj = {\n        index: this.pickerValue,\n        value: this._getPickerLabelAndValue(this.pickerValue, this.mode).value,\n        label: this._getPickerLabelAndValue(this.pickerValue, this.mode).label };\n\n      this.$emit('onCancel', pickObj);\n    },\n    pickerConfirm: function pickerConfirm(e) {\n      this.showPicker = false;\n      this._initPickerVale();\n      var pickObj = {\n        index: this.pickerValue,\n        value: this._getPickerLabelAndValue(this.pickerValue, this.mode).value,\n        label: this._getPickerLabelAndValue(this.pickerValue, this.mode).label };\n\n      this.$emit('onConfirm', pickObj);\n    },\n    showPickerView: function showPickerView() {\n      this.showPicker = true;\n    },\n    pickerChange: function pickerChange(e) {\n      this.pickerValue = e.mp.detail.value;\n      var pickObj = {\n        index: this.pickerValue,\n        value: this._getPickerLabelAndValue(this.pickerValue, this.mode).value,\n        label: this._getPickerLabelAndValue(this.pickerValue, this.mode).label };\n\n      this.$emit('onChange', pickObj);\n    },\n    pickerChangeMul: function pickerChangeMul(e) {\n      if (this.deepLength === 2) {\n        var pickerValueArray = this.pickerValueArray;\n        var changeValue = e.mp.detail.value;\n        // 处理第一列滚动\n        if (changeValue[0] !== this.pickerValue[0]) {\n          var pickerValueMulTwoTwo = [];\n          // 第一列滚动第二列数据更新\n          for (var i = 0, length = pickerValueArray[changeValue[0]].children.length; i < length; i++) {\n            pickerValueMulTwoTwo.push(pickerValueArray[changeValue[0]].children[i]);\n          }\n          this.pickerValueMulTwoTwo = pickerValueMulTwoTwo;\n          // 第二列初始化为 0\n          changeValue[1] = 0;\n        }\n        this.pickerValue = changeValue;\n      } else if (this.deepLength === 3) {\n        var _pickerValueArray = this.pickerValueArray;\n        var _changeValue = e.mp.detail.value;\n        var pickerValueMulThreeTwo = [];\n        var pickerValueMulThreeThree = [];\n        // 重新渲染第二列\n        // 如果是第一列滚动\n        if (_changeValue[0] !== this.pickerValue[0]) {\n          this.pickerValueMulThreeTwo = [];\n          for (var _i8 = 0, _length6 = _pickerValueArray[_changeValue[0]].children.length; _i8 < _length6; _i8++) {\n            pickerValueMulThreeTwo.push(_pickerValueArray[_changeValue[0]].children[_i8]);\n          }\n          // 重新渲染第三列\n          for (var _i9 = 0, _length7 = _pickerValueArray[_changeValue[0]].children[0].children.length; _i9 <\n          _length7; _i9++) {\n            pickerValueMulThreeThree.push(_pickerValueArray[_changeValue[0]].children[0].children[_i9]);\n          }\n          _changeValue[1] = 0;\n          _changeValue[2] = 0;\n          this.pickerValueMulThreeTwo = pickerValueMulThreeTwo;\n          this.pickerValueMulThreeThree = pickerValueMulThreeThree;\n        } else if (_changeValue[1] !== this.pickerValue[1]) {\n          // 第二列滚动\n          // 重新渲染第三列\n          this.pickerValueMulThreeThree = [];\n          pickerValueMulThreeTwo = this.pickerValueMulThreeTwo;\n          for (var _i10 = 0, _length8 = _pickerValueArray[_changeValue[0]].children[_changeValue[1]].children.length; _i10 <\n          _length8; _i10++) {\n            pickerValueMulThreeThree.push(_pickerValueArray[_changeValue[0]].children[_changeValue[1]].children[\n            _i10]);\n          }\n          _changeValue[2] = 0;\n          this.pickerValueMulThreeThree = pickerValueMulThreeThree;\n        }\n        this.pickerValue = _changeValue;\n      }\n      var pickObj = {\n        index: this.pickerValue,\n        value: this._getPickerLabelAndValue(this.pickerValue, this.mode).value,\n        label: this._getPickerLabelAndValue(this.pickerValue, this.mode).label };\n\n      this.$emit('onChange', pickObj);\n    },\n    // 获取 pxikerLabel\n    _getPickerLabelAndValue: function _getPickerLabelAndValue(value, mode) {\n      var pickerLable;\n      var pickerGetValue = [];\n      // selector\n      if (mode === 'selector') {\n        pickerLable = this.pickerValueSingleArray[value].label;\n        pickerGetValue.push(this.pickerValueSingleArray[value].value);\n      } else if (mode === 'timeSelector') {\n        pickerLable = \"\".concat(this.pickerValueHour[value[0]].label, \"-\").concat(this.pickerValueMinute[value[1]].label);\n        pickerGetValue.push(this.pickerValueHour[value[0]].value);\n        pickerGetValue.push(this.pickerValueHour[value[1]].value);\n      } else if (mode === 'multiSelector') {\n        for (var i = 0; i < value.length; i++) {\n          if (i > 0) {\n            pickerLable += this.pickerValueMulArray[i][value[i]].label + (i === value.length - 1 ? '' :\n            '-');\n          } else {\n            pickerLable = this.pickerValueMulArray[i][value[i]].label + '-';\n          }\n          pickerGetValue.push(this.pickerValueMulArray[i][value[i]].value);\n        }\n      } else if (mode === 'multiLinkageSelector') {\n        /* eslint-disable indent */\n        pickerLable =\n        this.deepLength === 2 ? \"\".concat(\n        this.pickerValueMulTwoOne[value[0]].label, \"-\").concat(this.pickerValueMulTwoTwo[value[1]].label) : \"\".concat(\n        this.pickerValueMulThreeOne[value[0]].label, \"-\").concat(this.pickerValueMulThreeTwo[value[1]].label, \"-\").concat(this.pickerValueMulThreeThree[value[2]].label);\n        if (this.deepLength === 2) {\n          pickerGetValue.push(this.pickerValueMulTwoOne[value[0]].value);\n          pickerGetValue.push(this.pickerValueMulTwoTwo[value[1]].value);\n        } else {\n          pickerGetValue.push(this.pickerValueMulThreeOne[value[0]].value);\n          pickerGetValue.push(this.pickerValueMulThreeTwo[value[1]].value);\n          pickerGetValue.push(this.pickerValueMulThreeThree[value[2]].value);\n        }\n        /* eslint-enable indent */\n      }\n      return {\n        label: pickerLable,\n        value: pickerGetValue };\n\n    },\n    // 初始化 pickerValue 默认值\n    _initPickerVale: function _initPickerVale() {\n      if (this.pickerValue.length === 0) {\n        if (this.mode === 'selector') {\n          this.pickerValue = [0];\n        } else if (this.mode === 'multiSelector') {\n          this.pickerValue = new Int8Array(this.pickerValueArray.length);\n        } else if (\n        this.mode === 'multiLinkageSelector' &&\n        this.deepLength === 2)\n        {\n          this.pickerValue = [0, 0];\n        } else if (\n        this.mode === 'multiLinkageSelector' &&\n        this.deepLength === 3)\n        {\n          this.pickerValue = [0, 0, 0];\n        }\n      }\n    } } };exports.default = _default2;\n\n//# sourceURL=uni-app:///threeComponents/mpvuePicker.vue?vue&type=script&lang=js&?4d07");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=template&id=020fabb2&":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=template&id=020fabb2& ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"grace-padding bg-white\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-form\" },\n        [\n          _c(\n            \"form\",\n            {\n              attrs: { eventid: \"1ab7b1d9-4\" },\n              on: { submit: _vm.formSubmit }\n            },\n            [\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"姓名\")]),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.addressInfo_.name,\n                      expression: \"addressInfo_.name\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: { type: \"text\", name: \"name\", eventid: \"1ab7b1d9-0\" },\n                  domProps: { value: _vm.addressInfo_.name },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.addressInfo_.name = $event.target.value\n                    }\n                  }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [_vm._v(\"手机号\")]),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.addressInfo_.phone,\n                      expression: \"addressInfo_.phone\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: {\n                    type: \"number\",\n                    name: \"phone\",\n                    eventid: \"1ab7b1d9-1\"\n                  },\n                  domProps: { value: _vm.addressInfo_.phone },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.addressInfo_.phone = $event.target.value\n                    }\n                  }\n                })\n              ]),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-items\",\n                  attrs: { eventid: \"1ab7b1d9-2\" },\n                  on: { click: _vm.cityPicker }\n                },\n                [\n                  _c(\"view\", { staticClass: \"grace-label\" }, [\n                    _vm._v(\"选择城市\")\n                  ]),\n                  _c(\"view\", { staticStyle: { \"line-height\": \"80rpx\" } }, [\n                    _vm._v(_vm._s(_vm.addressInfo_.city)),\n                    _c(\"text\", {\n                      staticClass: \"grace-iconfont icon-arrow-right\"\n                    })\n                  ])\n                ]\n              ),\n              _c(\"view\", { staticClass: \"grace-items\" }, [\n                _c(\"view\", { staticClass: \"grace-label\" }, [\n                  _vm._v(\"详细地址\")\n                ]),\n                _c(\"input\", {\n                  directives: [\n                    {\n                      name: \"model\",\n                      rawName: \"v-model\",\n                      value: _vm.addressInfo_.address,\n                      expression: \"addressInfo_.address\"\n                    }\n                  ],\n                  staticClass: \"input\",\n                  attrs: { type: \"text\", name: \"name\", eventid: \"1ab7b1d9-3\" },\n                  domProps: { value: _vm.addressInfo_.address },\n                  on: {\n                    input: function($event) {\n                      if ($event.target.composing) {\n                        return\n                      }\n                      _vm.addressInfo_.address = $event.target.value\n                    }\n                  }\n                })\n              ]),\n              _c(\n                \"view\",\n                { staticStyle: { padding: \"22rpx 0\" } },\n                [\n                  _c(\n                    \"button\",\n                    {\n                      staticStyle: {\n                        width: \"100%\",\n                        \"background-color\": \"#FC4243\"\n                      },\n                      attrs: {\n                        loading: _vm.btnLoading,\n                        formType: \"submit\",\n                        type: \"warn\"\n                      }\n                    },\n                    [_vm._v(\"提交\")]\n                  )\n                ],\n                1\n              )\n            ]\n          )\n        ],\n        1\n      ),\n      _c(\"mpvue-city-picker\", {\n        ref: \"mpvueCityPicker1\",\n        attrs: {\n          themeColor: \"#ff4243\",\n          pickerValueDefault: _vm.cityPickerValueDefault1,\n          eventid: \"1ab7b1d9-5\",\n          mpcomid: \"1ab7b1d9-0\"\n        },\n        on: { onConfirm: _vm.onConfirm }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=template&id=020fabb2&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=template&id=2ca55b80&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=template&id=2ca55b80& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\", { staticClass: \"mpvue-picker\" }, [\n    _c(\"div\", {\n      class: { pickerMask: _vm.showPicker },\n      attrs: { catchtouchmove: \"true\", eventid: \"3de15c49-0\" },\n      on: { click: _vm.maskClick }\n    }),\n    _c(\n      \"div\",\n      {\n        staticClass: \"mpvue-picker-content \",\n        class: { \"mpvue-picker-view-show\": _vm.showPicker }\n      },\n      [\n        _c(\n          \"div\",\n          {\n            staticClass: \"mpvue-picker__hd\",\n            attrs: { catchtouchmove: \"true\" }\n          },\n          [\n            _c(\n              \"div\",\n              {\n                staticClass: \"mpvue-picker__action\",\n                attrs: { eventid: \"3de15c49-1\" },\n                on: { click: _vm.pickerCancel }\n              },\n              [_vm._v(\"取消\")]\n            ),\n            _c(\n              \"div\",\n              {\n                staticClass: \"mpvue-picker__action\",\n                style: { color: _vm.themeColor },\n                attrs: { eventid: \"3de15c49-2\" },\n                on: { click: _vm.pickerConfirm }\n              },\n              [_vm._v(\"确定\")]\n            )\n          ]\n        ),\n        _c(\n          \"picker-view\",\n          {\n            staticClass: \"mpvue-picker-view\",\n            attrs: {\n              \"indicator-style\": \"height: 40px;\",\n              value: _vm.pickerValue,\n              eventid: \"3de15c49-3\"\n            },\n            on: { change: _vm.pickerChange }\n          },\n          [\n            _c(\n              \"block\",\n              [\n                _c(\n                  \"picker-view-column\",\n                  { attrs: { mpcomid: \"3de15c49-0\" } },\n                  _vm._l(_vm.provinceDataList, function(item, index) {\n                    return _c(\n                      \"div\",\n                      { key: index, staticClass: \"picker-item\" },\n                      [_vm._v(_vm._s(item.label))]\n                    )\n                  })\n                ),\n                _c(\n                  \"picker-view-column\",\n                  { attrs: { mpcomid: \"3de15c49-1\" } },\n                  _vm._l(_vm.cityDataList, function(item, index) {\n                    return _c(\n                      \"div\",\n                      { key: index, staticClass: \"picker-item\" },\n                      [_vm._v(_vm._s(item.label))]\n                    )\n                  })\n                ),\n                _c(\n                  \"picker-view-column\",\n                  { attrs: { mpcomid: \"3de15c49-2\" } },\n                  _vm._l(_vm.areaDataList, function(item, index) {\n                    return _c(\n                      \"div\",\n                      { key: index, staticClass: \"picker-item\" },\n                      [_vm._v(_vm._s(item.label))]\n                    )\n                  })\n                )\n              ],\n              1\n            )\n          ],\n          1\n        )\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=template&id=2ca55b80&");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=template&id=14438f35&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=template&id=14438f35& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"mpvue-picker\" }, [\n    _c(\"view\", {\n      class: { pickerMask: _vm.showPicker },\n      attrs: { catchtouchmove: \"true\", eventid: \"20908afe-0\" },\n      on: { click: _vm.maskClick }\n    }),\n    _c(\n      \"view\",\n      {\n        staticClass: \"mpvue-picker-content \",\n        class: { \"mpvue-picker-view-show\": _vm.showPicker }\n      },\n      [\n        _c(\n          \"view\",\n          {\n            staticClass: \"mpvue-picker__hd\",\n            attrs: { catchtouchmove: \"true\" }\n          },\n          [\n            _c(\n              \"view\",\n              {\n                staticClass: \"mpvue-picker__action\",\n                attrs: { eventid: \"20908afe-1\" },\n                on: { click: _vm.pickerCancel }\n              },\n              [_vm._v(\"取消\")]\n            ),\n            _c(\n              \"view\",\n              {\n                staticClass: \"mpvue-picker__action\",\n                style: { color: _vm.themeColor },\n                attrs: { eventid: \"20908afe-2\" },\n                on: { click: _vm.pickerConfirm }\n              },\n              [_vm._v(\"确定\")]\n            )\n          ]\n        ),\n        _vm.mode === \"selector\" && _vm.pickerValueSingleArray.length > 0\n          ? _c(\n              \"picker-view\",\n              {\n                staticClass: \"mpvue-picker-view\",\n                attrs: {\n                  \"indicator-style\": \"height: 40px;\",\n                  value: _vm.pickerValue,\n                  eventid: \"20908afe-3\"\n                },\n                on: { change: _vm.pickerChange }\n              },\n              [\n                _c(\n                  \"block\",\n                  [\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-0\" } },\n                      _vm._l(_vm.pickerValueSingleArray, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          : _vm._e(),\n        _vm.mode === \"timeSelector\"\n          ? _c(\n              \"picker-view\",\n              {\n                staticClass: \"mpvue-picker-view\",\n                attrs: {\n                  \"indicator-style\": \"height: 40px;\",\n                  value: _vm.pickerValue,\n                  eventid: \"20908afe-4\"\n                },\n                on: { change: _vm.pickerChange }\n              },\n              [\n                _c(\n                  \"block\",\n                  [\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-1\" } },\n                      _vm._l(_vm.pickerValueHour, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    ),\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-2\" } },\n                      _vm._l(_vm.pickerValueMinute, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          : _vm._e(),\n        _vm.mode === \"multiSelector\"\n          ? _c(\n              \"picker-view\",\n              {\n                staticClass: \"mpvue-picker-view\",\n                attrs: {\n                  \"indicator-style\": \"height: 40px;\",\n                  value: _vm.pickerValue,\n                  eventid: \"20908afe-5\"\n                },\n                on: { change: _vm.pickerChange }\n              },\n              _vm._l(_vm.pickerValueMulArray.length, function(n, index) {\n                return _c(\n                  \"block\",\n                  { key: index },\n                  [\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-3-\" + index } },\n                      _vm._l(_vm.pickerValueMulArray[n], function(\n                        item,\n                        index1\n                      ) {\n                        return _c(\n                          \"view\",\n                          { key: index1, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    )\n                  ],\n                  1\n                )\n              })\n            )\n          : _vm._e(),\n        _vm.mode === \"multiLinkageSelector\" && _vm.deepLength === 2\n          ? _c(\n              \"picker-view\",\n              {\n                staticClass: \"mpvue-picker-view\",\n                attrs: {\n                  \"indicator-style\": \"height: 40px;\",\n                  value: _vm.pickerValue,\n                  eventid: \"20908afe-6\"\n                },\n                on: { change: _vm.pickerChangeMul }\n              },\n              [\n                _c(\n                  \"block\",\n                  [\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-4\" } },\n                      _vm._l(_vm.pickerValueMulTwoOne, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    ),\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-5\" } },\n                      _vm._l(_vm.pickerValueMulTwoTwo, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          : _vm._e(),\n        _vm.mode === \"multiLinkageSelector\" && _vm.deepLength === 3\n          ? _c(\n              \"picker-view\",\n              {\n                staticClass: \"mpvue-picker-view\",\n                attrs: {\n                  \"indicator-style\": \"height: 40px;\",\n                  value: _vm.pickerValue,\n                  eventid: \"20908afe-7\"\n                },\n                on: { change: _vm.pickerChangeMul }\n              },\n              [\n                _c(\n                  \"block\",\n                  [\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-6\" } },\n                      _vm._l(_vm.pickerValueMulThreeOne, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    ),\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-7\" } },\n                      _vm._l(_vm.pickerValueMulThreeTwo, function(item, index) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    ),\n                    _c(\n                      \"picker-view-column\",\n                      { attrs: { mpcomid: \"20908afe-8\" } },\n                      _vm._l(_vm.pickerValueMulThreeThree, function(\n                        item,\n                        index\n                      ) {\n                        return _c(\n                          \"view\",\n                          { key: index, staticClass: \"picker-item\" },\n                          [_vm._v(_vm._s(item.label))]\n                        )\n                      })\n                    )\n                  ],\n                  1\n                )\n              ],\n              1\n            )\n          : _vm._e()\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=template&id=14438f35&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Faddress%2Faddress\"}":
+/*!******************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/main.js?{"page":"pages%2Fmy%2Faddress%2Faddress"} ***!
+  \******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _address = _interopRequireDefault(__webpack_require__(/*! ./pages/my/address/address.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_address.default));\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/main.js?%7B%22page%22:%22pages%252Fmy%252Faddress%252Faddress%22%7D");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue":
+/*!*********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./address.vue?vue&type=template&id=020fabb2& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=template&id=020fabb2&\");\n/* harmony import */ var _address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./address.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./address.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./address.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/my/address/address.vue?vue&type=script&lang=js&?4645");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=style&index=0&lang=css&":
+/*!******************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=style&index=0&lang=css& ***!
+  \******************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./address.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages\\my\\address\\address.vue?vue&type=template&id=020fabb2&":
+/*!****************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=template&id=020fabb2& ***!
+  \****************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./address.vue?vue&type=template&id=020fabb2& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\pages\\\\my\\\\address\\\\address.vue?vue&type=template&id=020fabb2&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_address_vue_vue_type_template_id_020fabb2___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/address/address.vue?vue&type=template&id=020fabb2&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\city-data\\area.js":
+/*!**************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/city-data/area.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; /* eslint-disable */\nvar areaData = [\n[\n[{\n  \"label\": \"东城区\",\n  \"value\": \"110101\" },\n\n{\n  \"label\": \"西城区\",\n  \"value\": \"110102\" },\n\n{\n  \"label\": \"朝阳区\",\n  \"value\": \"110105\" },\n\n{\n  \"label\": \"丰台区\",\n  \"value\": \"110106\" },\n\n{\n  \"label\": \"石景山区\",\n  \"value\": \"110107\" },\n\n{\n  \"label\": \"海淀区\",\n  \"value\": \"110108\" },\n\n{\n  \"label\": \"门头沟区\",\n  \"value\": \"110109\" },\n\n{\n  \"label\": \"房山区\",\n  \"value\": \"110111\" },\n\n{\n  \"label\": \"通州区\",\n  \"value\": \"110112\" },\n\n{\n  \"label\": \"顺义区\",\n  \"value\": \"110113\" },\n\n{\n  \"label\": \"昌平区\",\n  \"value\": \"110114\" },\n\n{\n  \"label\": \"大兴区\",\n  \"value\": \"110115\" },\n\n{\n  \"label\": \"怀柔区\",\n  \"value\": \"110116\" },\n\n{\n  \"label\": \"平谷区\",\n  \"value\": \"110117\" },\n\n{\n  \"label\": \"密云区\",\n  \"value\": \"110118\" },\n\n{\n  \"label\": \"延庆区\",\n  \"value\": \"110119\" }]],\n\n\n\n[\n[{\n  \"label\": \"和平区\",\n  \"value\": \"120101\" },\n\n{\n  \"label\": \"河东区\",\n  \"value\": \"120102\" },\n\n{\n  \"label\": \"河西区\",\n  \"value\": \"120103\" },\n\n{\n  \"label\": \"南开区\",\n  \"value\": \"120104\" },\n\n{\n  \"label\": \"河北区\",\n  \"value\": \"120105\" },\n\n{\n  \"label\": \"红桥区\",\n  \"value\": \"120106\" },\n\n{\n  \"label\": \"东丽区\",\n  \"value\": \"120110\" },\n\n{\n  \"label\": \"西青区\",\n  \"value\": \"120111\" },\n\n{\n  \"label\": \"津南区\",\n  \"value\": \"120112\" },\n\n{\n  \"label\": \"北辰区\",\n  \"value\": \"120113\" },\n\n{\n  \"label\": \"武清区\",\n  \"value\": \"120114\" },\n\n{\n  \"label\": \"宝坻区\",\n  \"value\": \"120115\" },\n\n{\n  \"label\": \"滨海新区\",\n  \"value\": \"120116\" },\n\n{\n  \"label\": \"宁河区\",\n  \"value\": \"120117\" },\n\n{\n  \"label\": \"静海区\",\n  \"value\": \"120118\" },\n\n{\n  \"label\": \"蓟州区\",\n  \"value\": \"120119\" }]],\n\n\n\n[\n[{\n  \"label\": \"长安区\",\n  \"value\": \"130102\" },\n\n{\n  \"label\": \"桥西区\",\n  \"value\": \"130104\" },\n\n{\n  \"label\": \"新华区\",\n  \"value\": \"130105\" },\n\n{\n  \"label\": \"井陉矿区\",\n  \"value\": \"130107\" },\n\n{\n  \"label\": \"裕华区\",\n  \"value\": \"130108\" },\n\n{\n  \"label\": \"藁城区\",\n  \"value\": \"130109\" },\n\n{\n  \"label\": \"鹿泉区\",\n  \"value\": \"130110\" },\n\n{\n  \"label\": \"栾城区\",\n  \"value\": \"130111\" },\n\n{\n  \"label\": \"井陉县\",\n  \"value\": \"130121\" },\n\n{\n  \"label\": \"正定县\",\n  \"value\": \"130123\" },\n\n{\n  \"label\": \"行唐县\",\n  \"value\": \"130125\" },\n\n{\n  \"label\": \"灵寿县\",\n  \"value\": \"130126\" },\n\n{\n  \"label\": \"高邑县\",\n  \"value\": \"130127\" },\n\n{\n  \"label\": \"深泽县\",\n  \"value\": \"130128\" },\n\n{\n  \"label\": \"赞皇县\",\n  \"value\": \"130129\" },\n\n{\n  \"label\": \"无极县\",\n  \"value\": \"130130\" },\n\n{\n  \"label\": \"平山县\",\n  \"value\": \"130131\" },\n\n{\n  \"label\": \"元氏县\",\n  \"value\": \"130132\" },\n\n{\n  \"label\": \"赵县\",\n  \"value\": \"130133\" },\n\n{\n  \"label\": \"石家庄高新技术产业开发区\",\n  \"value\": \"130171\" },\n\n{\n  \"label\": \"石家庄循环化工园区\",\n  \"value\": \"130172\" },\n\n{\n  \"label\": \"辛集市\",\n  \"value\": \"130181\" },\n\n{\n  \"label\": \"晋州市\",\n  \"value\": \"130183\" },\n\n{\n  \"label\": \"新乐市\",\n  \"value\": \"130184\" }],\n\n\n[{\n  \"label\": \"路南区\",\n  \"value\": \"130202\" },\n\n{\n  \"label\": \"路北区\",\n  \"value\": \"130203\" },\n\n{\n  \"label\": \"古冶区\",\n  \"value\": \"130204\" },\n\n{\n  \"label\": \"开平区\",\n  \"value\": \"130205\" },\n\n{\n  \"label\": \"丰南区\",\n  \"value\": \"130207\" },\n\n{\n  \"label\": \"丰润区\",\n  \"value\": \"130208\" },\n\n{\n  \"label\": \"曹妃甸区\",\n  \"value\": \"130209\" },\n\n{\n  \"label\": \"滦县\",\n  \"value\": \"130223\" },\n\n{\n  \"label\": \"滦南县\",\n  \"value\": \"130224\" },\n\n{\n  \"label\": \"乐亭县\",\n  \"value\": \"130225\" },\n\n{\n  \"label\": \"迁西县\",\n  \"value\": \"130227\" },\n\n{\n  \"label\": \"玉田县\",\n  \"value\": \"130229\" },\n\n{\n  \"label\": \"唐山市芦台经济技术开发区\",\n  \"value\": \"130271\" },\n\n{\n  \"label\": \"唐山市汉沽管理区\",\n  \"value\": \"130272\" },\n\n{\n  \"label\": \"唐山高新技术产业开发区\",\n  \"value\": \"130273\" },\n\n{\n  \"label\": \"河北唐山海港经济开发区\",\n  \"value\": \"130274\" },\n\n{\n  \"label\": \"遵化市\",\n  \"value\": \"130281\" },\n\n{\n  \"label\": \"迁安市\",\n  \"value\": \"130283\" }],\n\n\n[{\n  \"label\": \"海港区\",\n  \"value\": \"130302\" },\n\n{\n  \"label\": \"山海关区\",\n  \"value\": \"130303\" },\n\n{\n  \"label\": \"北戴河区\",\n  \"value\": \"130304\" },\n\n{\n  \"label\": \"抚宁区\",\n  \"value\": \"130306\" },\n\n{\n  \"label\": \"青龙满族自治县\",\n  \"value\": \"130321\" },\n\n{\n  \"label\": \"昌黎县\",\n  \"value\": \"130322\" },\n\n{\n  \"label\": \"卢龙县\",\n  \"value\": \"130324\" },\n\n{\n  \"label\": \"秦皇岛市经济技术开发区\",\n  \"value\": \"130371\" },\n\n{\n  \"label\": \"北戴河新区\",\n  \"value\": \"130372\" }],\n\n\n[{\n  \"label\": \"邯山区\",\n  \"value\": \"130402\" },\n\n{\n  \"label\": \"丛台区\",\n  \"value\": \"130403\" },\n\n{\n  \"label\": \"复兴区\",\n  \"value\": \"130404\" },\n\n{\n  \"label\": \"峰峰矿区\",\n  \"value\": \"130406\" },\n\n{\n  \"label\": \"肥乡区\",\n  \"value\": \"130407\" },\n\n{\n  \"label\": \"永年区\",\n  \"value\": \"130408\" },\n\n{\n  \"label\": \"临漳县\",\n  \"value\": \"130423\" },\n\n{\n  \"label\": \"成安县\",\n  \"value\": \"130424\" },\n\n{\n  \"label\": \"大名县\",\n  \"value\": \"130425\" },\n\n{\n  \"label\": \"涉县\",\n  \"value\": \"130426\" },\n\n{\n  \"label\": \"磁县\",\n  \"value\": \"130427\" },\n\n{\n  \"label\": \"邱县\",\n  \"value\": \"130430\" },\n\n{\n  \"label\": \"鸡泽县\",\n  \"value\": \"130431\" },\n\n{\n  \"label\": \"广平县\",\n  \"value\": \"130432\" },\n\n{\n  \"label\": \"馆陶县\",\n  \"value\": \"130433\" },\n\n{\n  \"label\": \"魏县\",\n  \"value\": \"130434\" },\n\n{\n  \"label\": \"曲周县\",\n  \"value\": \"130435\" },\n\n{\n  \"label\": \"邯郸经济技术开发区\",\n  \"value\": \"130471\" },\n\n{\n  \"label\": \"邯郸冀南新区\",\n  \"value\": \"130473\" },\n\n{\n  \"label\": \"武安市\",\n  \"value\": \"130481\" }],\n\n\n[{\n  \"label\": \"桥东区\",\n  \"value\": \"130502\" },\n\n{\n  \"label\": \"桥西区\",\n  \"value\": \"130503\" },\n\n{\n  \"label\": \"邢台县\",\n  \"value\": \"130521\" },\n\n{\n  \"label\": \"临城县\",\n  \"value\": \"130522\" },\n\n{\n  \"label\": \"内丘县\",\n  \"value\": \"130523\" },\n\n{\n  \"label\": \"柏乡县\",\n  \"value\": \"130524\" },\n\n{\n  \"label\": \"隆尧县\",\n  \"value\": \"130525\" },\n\n{\n  \"label\": \"任县\",\n  \"value\": \"130526\" },\n\n{\n  \"label\": \"南和县\",\n  \"value\": \"130527\" },\n\n{\n  \"label\": \"宁晋县\",\n  \"value\": \"130528\" },\n\n{\n  \"label\": \"巨鹿县\",\n  \"value\": \"130529\" },\n\n{\n  \"label\": \"新河县\",\n  \"value\": \"130530\" },\n\n{\n  \"label\": \"广宗县\",\n  \"value\": \"130531\" },\n\n{\n  \"label\": \"平乡县\",\n  \"value\": \"130532\" },\n\n{\n  \"label\": \"威县\",\n  \"value\": \"130533\" },\n\n{\n  \"label\": \"清河县\",\n  \"value\": \"130534\" },\n\n{\n  \"label\": \"临西县\",\n  \"value\": \"130535\" },\n\n{\n  \"label\": \"河北邢台经济开发区\",\n  \"value\": \"130571\" },\n\n{\n  \"label\": \"南宫市\",\n  \"value\": \"130581\" },\n\n{\n  \"label\": \"沙河市\",\n  \"value\": \"130582\" }],\n\n\n[{\n  \"label\": \"竞秀区\",\n  \"value\": \"130602\" },\n\n{\n  \"label\": \"莲池区\",\n  \"value\": \"130606\" },\n\n{\n  \"label\": \"满城区\",\n  \"value\": \"130607\" },\n\n{\n  \"label\": \"清苑区\",\n  \"value\": \"130608\" },\n\n{\n  \"label\": \"徐水区\",\n  \"value\": \"130609\" },\n\n{\n  \"label\": \"涞水县\",\n  \"value\": \"130623\" },\n\n{\n  \"label\": \"阜平县\",\n  \"value\": \"130624\" },\n\n{\n  \"label\": \"定兴县\",\n  \"value\": \"130626\" },\n\n{\n  \"label\": \"唐县\",\n  \"value\": \"130627\" },\n\n{\n  \"label\": \"高阳县\",\n  \"value\": \"130628\" },\n\n{\n  \"label\": \"容城县\",\n  \"value\": \"130629\" },\n\n{\n  \"label\": \"涞源县\",\n  \"value\": \"130630\" },\n\n{\n  \"label\": \"望都县\",\n  \"value\": \"130631\" },\n\n{\n  \"label\": \"安新县\",\n  \"value\": \"130632\" },\n\n{\n  \"label\": \"易县\",\n  \"value\": \"130633\" },\n\n{\n  \"label\": \"曲阳县\",\n  \"value\": \"130634\" },\n\n{\n  \"label\": \"蠡县\",\n  \"value\": \"130635\" },\n\n{\n  \"label\": \"顺平县\",\n  \"value\": \"130636\" },\n\n{\n  \"label\": \"博野县\",\n  \"value\": \"130637\" },\n\n{\n  \"label\": \"雄县\",\n  \"value\": \"130638\" },\n\n{\n  \"label\": \"保定高新技术产业开发区\",\n  \"value\": \"130671\" },\n\n{\n  \"label\": \"保定白沟新城\",\n  \"value\": \"130672\" },\n\n{\n  \"label\": \"涿州市\",\n  \"value\": \"130681\" },\n\n{\n  \"label\": \"定州市\",\n  \"value\": \"130682\" },\n\n{\n  \"label\": \"安国市\",\n  \"value\": \"130683\" },\n\n{\n  \"label\": \"高碑店市\",\n  \"value\": \"130684\" }],\n\n\n[{\n  \"label\": \"桥东区\",\n  \"value\": \"130702\" },\n\n{\n  \"label\": \"桥西区\",\n  \"value\": \"130703\" },\n\n{\n  \"label\": \"宣化区\",\n  \"value\": \"130705\" },\n\n{\n  \"label\": \"下花园区\",\n  \"value\": \"130706\" },\n\n{\n  \"label\": \"万全区\",\n  \"value\": \"130708\" },\n\n{\n  \"label\": \"崇礼区\",\n  \"value\": \"130709\" },\n\n{\n  \"label\": \"张北县\",\n  \"value\": \"130722\" },\n\n{\n  \"label\": \"康保县\",\n  \"value\": \"130723\" },\n\n{\n  \"label\": \"沽源县\",\n  \"value\": \"130724\" },\n\n{\n  \"label\": \"尚义县\",\n  \"value\": \"130725\" },\n\n{\n  \"label\": \"蔚县\",\n  \"value\": \"130726\" },\n\n{\n  \"label\": \"阳原县\",\n  \"value\": \"130727\" },\n\n{\n  \"label\": \"怀安县\",\n  \"value\": \"130728\" },\n\n{\n  \"label\": \"怀来县\",\n  \"value\": \"130730\" },\n\n{\n  \"label\": \"涿鹿县\",\n  \"value\": \"130731\" },\n\n{\n  \"label\": \"赤城县\",\n  \"value\": \"130732\" },\n\n{\n  \"label\": \"张家口市高新技术产业开发区\",\n  \"value\": \"130771\" },\n\n{\n  \"label\": \"张家口市察北管理区\",\n  \"value\": \"130772\" },\n\n{\n  \"label\": \"张家口市塞北管理区\",\n  \"value\": \"130773\" }],\n\n\n[{\n  \"label\": \"双桥区\",\n  \"value\": \"130802\" },\n\n{\n  \"label\": \"双滦区\",\n  \"value\": \"130803\" },\n\n{\n  \"label\": \"鹰手营子矿区\",\n  \"value\": \"130804\" },\n\n{\n  \"label\": \"承德县\",\n  \"value\": \"130821\" },\n\n{\n  \"label\": \"兴隆县\",\n  \"value\": \"130822\" },\n\n{\n  \"label\": \"滦平县\",\n  \"value\": \"130824\" },\n\n{\n  \"label\": \"隆化县\",\n  \"value\": \"130825\" },\n\n{\n  \"label\": \"丰宁满族自治县\",\n  \"value\": \"130826\" },\n\n{\n  \"label\": \"宽城满族自治县\",\n  \"value\": \"130827\" },\n\n{\n  \"label\": \"围场满族蒙古族自治县\",\n  \"value\": \"130828\" },\n\n{\n  \"label\": \"承德高新技术产业开发区\",\n  \"value\": \"130871\" },\n\n{\n  \"label\": \"平泉市\",\n  \"value\": \"130881\" }],\n\n\n[{\n  \"label\": \"新华区\",\n  \"value\": \"130902\" },\n\n{\n  \"label\": \"运河区\",\n  \"value\": \"130903\" },\n\n{\n  \"label\": \"沧县\",\n  \"value\": \"130921\" },\n\n{\n  \"label\": \"青县\",\n  \"value\": \"130922\" },\n\n{\n  \"label\": \"东光县\",\n  \"value\": \"130923\" },\n\n{\n  \"label\": \"海兴县\",\n  \"value\": \"130924\" },\n\n{\n  \"label\": \"盐山县\",\n  \"value\": \"130925\" },\n\n{\n  \"label\": \"肃宁县\",\n  \"value\": \"130926\" },\n\n{\n  \"label\": \"南皮县\",\n  \"value\": \"130927\" },\n\n{\n  \"label\": \"吴桥县\",\n  \"value\": \"130928\" },\n\n{\n  \"label\": \"献县\",\n  \"value\": \"130929\" },\n\n{\n  \"label\": \"孟村回族自治县\",\n  \"value\": \"130930\" },\n\n{\n  \"label\": \"河北沧州经济开发区\",\n  \"value\": \"130971\" },\n\n{\n  \"label\": \"沧州高新技术产业开发区\",\n  \"value\": \"130972\" },\n\n{\n  \"label\": \"沧州渤海新区\",\n  \"value\": \"130973\" },\n\n{\n  \"label\": \"泊头市\",\n  \"value\": \"130981\" },\n\n{\n  \"label\": \"任丘市\",\n  \"value\": \"130982\" },\n\n{\n  \"label\": \"黄骅市\",\n  \"value\": \"130983\" },\n\n{\n  \"label\": \"河间市\",\n  \"value\": \"130984\" }],\n\n\n[{\n  \"label\": \"安次区\",\n  \"value\": \"131002\" },\n\n{\n  \"label\": \"广阳区\",\n  \"value\": \"131003\" },\n\n{\n  \"label\": \"固安县\",\n  \"value\": \"131022\" },\n\n{\n  \"label\": \"永清县\",\n  \"value\": \"131023\" },\n\n{\n  \"label\": \"香河县\",\n  \"value\": \"131024\" },\n\n{\n  \"label\": \"大城县\",\n  \"value\": \"131025\" },\n\n{\n  \"label\": \"文安县\",\n  \"value\": \"131026\" },\n\n{\n  \"label\": \"大厂回族自治县\",\n  \"value\": \"131028\" },\n\n{\n  \"label\": \"廊坊经济技术开发区\",\n  \"value\": \"131071\" },\n\n{\n  \"label\": \"霸州市\",\n  \"value\": \"131081\" },\n\n{\n  \"label\": \"三河市\",\n  \"value\": \"131082\" }],\n\n\n[{\n  \"label\": \"桃城区\",\n  \"value\": \"131102\" },\n\n{\n  \"label\": \"冀州区\",\n  \"value\": \"131103\" },\n\n{\n  \"label\": \"枣强县\",\n  \"value\": \"131121\" },\n\n{\n  \"label\": \"武邑县\",\n  \"value\": \"131122\" },\n\n{\n  \"label\": \"武强县\",\n  \"value\": \"131123\" },\n\n{\n  \"label\": \"饶阳县\",\n  \"value\": \"131124\" },\n\n{\n  \"label\": \"安平县\",\n  \"value\": \"131125\" },\n\n{\n  \"label\": \"故城县\",\n  \"value\": \"131126\" },\n\n{\n  \"label\": \"景县\",\n  \"value\": \"131127\" },\n\n{\n  \"label\": \"阜城县\",\n  \"value\": \"131128\" },\n\n{\n  \"label\": \"河北衡水经济开发区\",\n  \"value\": \"131171\" },\n\n{\n  \"label\": \"衡水滨湖新区\",\n  \"value\": \"131172\" },\n\n{\n  \"label\": \"深州市\",\n  \"value\": \"131182\" }]],\n\n\n\n[\n[{\n  \"label\": \"小店区\",\n  \"value\": \"140105\" },\n\n{\n  \"label\": \"迎泽区\",\n  \"value\": \"140106\" },\n\n{\n  \"label\": \"杏花岭区\",\n  \"value\": \"140107\" },\n\n{\n  \"label\": \"尖草坪区\",\n  \"value\": \"140108\" },\n\n{\n  \"label\": \"万柏林区\",\n  \"value\": \"140109\" },\n\n{\n  \"label\": \"晋源区\",\n  \"value\": \"140110\" },\n\n{\n  \"label\": \"清徐县\",\n  \"value\": \"140121\" },\n\n{\n  \"label\": \"阳曲县\",\n  \"value\": \"140122\" },\n\n{\n  \"label\": \"娄烦县\",\n  \"value\": \"140123\" },\n\n{\n  \"label\": \"山西转型综合改革示范区\",\n  \"value\": \"140171\" },\n\n{\n  \"label\": \"古交市\",\n  \"value\": \"140181\" }],\n\n\n[{\n  \"label\": \"城区\",\n  \"value\": \"140202\" },\n\n{\n  \"label\": \"矿区\",\n  \"value\": \"140203\" },\n\n{\n  \"label\": \"南郊区\",\n  \"value\": \"140211\" },\n\n{\n  \"label\": \"新荣区\",\n  \"value\": \"140212\" },\n\n{\n  \"label\": \"阳高县\",\n  \"value\": \"140221\" },\n\n{\n  \"label\": \"天镇县\",\n  \"value\": \"140222\" },\n\n{\n  \"label\": \"广灵县\",\n  \"value\": \"140223\" },\n\n{\n  \"label\": \"灵丘县\",\n  \"value\": \"140224\" },\n\n{\n  \"label\": \"浑源县\",\n  \"value\": \"140225\" },\n\n{\n  \"label\": \"左云县\",\n  \"value\": \"140226\" },\n\n{\n  \"label\": \"大同县\",\n  \"value\": \"140227\" },\n\n{\n  \"label\": \"山西大同经济开发区\",\n  \"value\": \"140271\" }],\n\n\n[{\n  \"label\": \"城区\",\n  \"value\": \"140302\" },\n\n{\n  \"label\": \"矿区\",\n  \"value\": \"140303\" },\n\n{\n  \"label\": \"郊区\",\n  \"value\": \"140311\" },\n\n{\n  \"label\": \"平定县\",\n  \"value\": \"140321\" },\n\n{\n  \"label\": \"盂县\",\n  \"value\": \"140322\" },\n\n{\n  \"label\": \"山西阳泉经济开发区\",\n  \"value\": \"140371\" }],\n\n\n[{\n  \"label\": \"城区\",\n  \"value\": \"140402\" },\n\n{\n  \"label\": \"郊区\",\n  \"value\": \"140411\" },\n\n{\n  \"label\": \"长治县\",\n  \"value\": \"140421\" },\n\n{\n  \"label\": \"襄垣县\",\n  \"value\": \"140423\" },\n\n{\n  \"label\": \"屯留县\",\n  \"value\": \"140424\" },\n\n{\n  \"label\": \"平顺县\",\n  \"value\": \"140425\" },\n\n{\n  \"label\": \"黎城县\",\n  \"value\": \"140426\" },\n\n{\n  \"label\": \"壶关县\",\n  \"value\": \"140427\" },\n\n{\n  \"label\": \"长子县\",\n  \"value\": \"140428\" },\n\n{\n  \"label\": \"武乡县\",\n  \"value\": \"140429\" },\n\n{\n  \"label\": \"沁县\",\n  \"value\": \"140430\" },\n\n{\n  \"label\": \"沁源县\",\n  \"value\": \"140431\" },\n\n{\n  \"label\": \"山西长治高新技术产业园区\",\n  \"value\": \"140471\" },\n\n{\n  \"label\": \"潞城市\",\n  \"value\": \"140481\" }],\n\n\n[{\n  \"label\": \"城区\",\n  \"value\": \"140502\" },\n\n{\n  \"label\": \"沁水县\",\n  \"value\": \"140521\" },\n\n{\n  \"label\": \"阳城县\",\n  \"value\": \"140522\" },\n\n{\n  \"label\": \"陵川县\",\n  \"value\": \"140524\" },\n\n{\n  \"label\": \"泽州县\",\n  \"value\": \"140525\" },\n\n{\n  \"label\": \"高平市\",\n  \"value\": \"140581\" }],\n\n\n[{\n  \"label\": \"朔城区\",\n  \"value\": \"140602\" },\n\n{\n  \"label\": \"平鲁区\",\n  \"value\": \"140603\" },\n\n{\n  \"label\": \"山阴县\",\n  \"value\": \"140621\" },\n\n{\n  \"label\": \"应县\",\n  \"value\": \"140622\" },\n\n{\n  \"label\": \"右玉县\",\n  \"value\": \"140623\" },\n\n{\n  \"label\": \"怀仁县\",\n  \"value\": \"140624\" },\n\n{\n  \"label\": \"山西朔州经济开发区\",\n  \"value\": \"140671\" }],\n\n\n[{\n  \"label\": \"榆次区\",\n  \"value\": \"140702\" },\n\n{\n  \"label\": \"榆社县\",\n  \"value\": \"140721\" },\n\n{\n  \"label\": \"左权县\",\n  \"value\": \"140722\" },\n\n{\n  \"label\": \"和顺县\",\n  \"value\": \"140723\" },\n\n{\n  \"label\": \"昔阳县\",\n  \"value\": \"140724\" },\n\n{\n  \"label\": \"寿阳县\",\n  \"value\": \"140725\" },\n\n{\n  \"label\": \"太谷县\",\n  \"value\": \"140726\" },\n\n{\n  \"label\": \"祁县\",\n  \"value\": \"140727\" },\n\n{\n  \"label\": \"平遥县\",\n  \"value\": \"140728\" },\n\n{\n  \"label\": \"灵石县\",\n  \"value\": \"140729\" },\n\n{\n  \"label\": \"介休市\",\n  \"value\": \"140781\" }],\n\n\n[{\n  \"label\": \"盐湖区\",\n  \"value\": \"140802\" },\n\n{\n  \"label\": \"临猗县\",\n  \"value\": \"140821\" },\n\n{\n  \"label\": \"万荣县\",\n  \"value\": \"140822\" },\n\n{\n  \"label\": \"闻喜县\",\n  \"value\": \"140823\" },\n\n{\n  \"label\": \"稷山县\",\n  \"value\": \"140824\" },\n\n{\n  \"label\": \"新绛县\",\n  \"value\": \"140825\" },\n\n{\n  \"label\": \"绛县\",\n  \"value\": \"140826\" },\n\n{\n  \"label\": \"垣曲县\",\n  \"value\": \"140827\" },\n\n{\n  \"label\": \"夏县\",\n  \"value\": \"140828\" },\n\n{\n  \"label\": \"平陆县\",\n  \"value\": \"140829\" },\n\n{\n  \"label\": \"芮城县\",\n  \"value\": \"140830\" },\n\n{\n  \"label\": \"永济市\",\n  \"value\": \"140881\" },\n\n{\n  \"label\": \"河津市\",\n  \"value\": \"140882\" }],\n\n\n[{\n  \"label\": \"忻府区\",\n  \"value\": \"140902\" },\n\n{\n  \"label\": \"定襄县\",\n  \"value\": \"140921\" },\n\n{\n  \"label\": \"五台县\",\n  \"value\": \"140922\" },\n\n{\n  \"label\": \"代县\",\n  \"value\": \"140923\" },\n\n{\n  \"label\": \"繁峙县\",\n  \"value\": \"140924\" },\n\n{\n  \"label\": \"宁武县\",\n  \"value\": \"140925\" },\n\n{\n  \"label\": \"静乐县\",\n  \"value\": \"140926\" },\n\n{\n  \"label\": \"神池县\",\n  \"value\": \"140927\" },\n\n{\n  \"label\": \"五寨县\",\n  \"value\": \"140928\" },\n\n{\n  \"label\": \"岢岚县\",\n  \"value\": \"140929\" },\n\n{\n  \"label\": \"河曲县\",\n  \"value\": \"140930\" },\n\n{\n  \"label\": \"保德县\",\n  \"value\": \"140931\" },\n\n{\n  \"label\": \"偏关县\",\n  \"value\": \"140932\" },\n\n{\n  \"label\": \"五台山风景名胜区\",\n  \"value\": \"140971\" },\n\n{\n  \"label\": \"原平市\",\n  \"value\": \"140981\" }],\n\n\n[{\n  \"label\": \"尧都区\",\n  \"value\": \"141002\" },\n\n{\n  \"label\": \"曲沃县\",\n  \"value\": \"141021\" },\n\n{\n  \"label\": \"翼城县\",\n  \"value\": \"141022\" },\n\n{\n  \"label\": \"襄汾县\",\n  \"value\": \"141023\" },\n\n{\n  \"label\": \"洪洞县\",\n  \"value\": \"141024\" },\n\n{\n  \"label\": \"古县\",\n  \"value\": \"141025\" },\n\n{\n  \"label\": \"安泽县\",\n  \"value\": \"141026\" },\n\n{\n  \"label\": \"浮山县\",\n  \"value\": \"141027\" },\n\n{\n  \"label\": \"吉县\",\n  \"value\": \"141028\" },\n\n{\n  \"label\": \"乡宁县\",\n  \"value\": \"141029\" },\n\n{\n  \"label\": \"大宁县\",\n  \"value\": \"141030\" },\n\n{\n  \"label\": \"隰县\",\n  \"value\": \"141031\" },\n\n{\n  \"label\": \"永和县\",\n  \"value\": \"141032\" },\n\n{\n  \"label\": \"蒲县\",\n  \"value\": \"141033\" },\n\n{\n  \"label\": \"汾西县\",\n  \"value\": \"141034\" },\n\n{\n  \"label\": \"侯马市\",\n  \"value\": \"141081\" },\n\n{\n  \"label\": \"霍州市\",\n  \"value\": \"141082\" }],\n\n\n[{\n  \"label\": \"离石区\",\n  \"value\": \"141102\" },\n\n{\n  \"label\": \"文水县\",\n  \"value\": \"141121\" },\n\n{\n  \"label\": \"交城县\",\n  \"value\": \"141122\" },\n\n{\n  \"label\": \"兴县\",\n  \"value\": \"141123\" },\n\n{\n  \"label\": \"临县\",\n  \"value\": \"141124\" },\n\n{\n  \"label\": \"柳林县\",\n  \"value\": \"141125\" },\n\n{\n  \"label\": \"石楼县\",\n  \"value\": \"141126\" },\n\n{\n  \"label\": \"岚县\",\n  \"value\": \"141127\" },\n\n{\n  \"label\": \"方山县\",\n  \"value\": \"141128\" },\n\n{\n  \"label\": \"中阳县\",\n  \"value\": \"141129\" },\n\n{\n  \"label\": \"交口县\",\n  \"value\": \"141130\" },\n\n{\n  \"label\": \"孝义市\",\n  \"value\": \"141181\" },\n\n{\n  \"label\": \"汾阳市\",\n  \"value\": \"141182\" }]],\n\n\n\n[\n[{\n  \"label\": \"新城区\",\n  \"value\": \"150102\" },\n\n{\n  \"label\": \"回民区\",\n  \"value\": \"150103\" },\n\n{\n  \"label\": \"玉泉区\",\n  \"value\": \"150104\" },\n\n{\n  \"label\": \"赛罕区\",\n  \"value\": \"150105\" },\n\n{\n  \"label\": \"土默特左旗\",\n  \"value\": \"150121\" },\n\n{\n  \"label\": \"托克托县\",\n  \"value\": \"150122\" },\n\n{\n  \"label\": \"和林格尔县\",\n  \"value\": \"150123\" },\n\n{\n  \"label\": \"清水河县\",\n  \"value\": \"150124\" },\n\n{\n  \"label\": \"武川县\",\n  \"value\": \"150125\" },\n\n{\n  \"label\": \"呼和浩特金海工业园区\",\n  \"value\": \"150171\" },\n\n{\n  \"label\": \"呼和浩特经济技术开发区\",\n  \"value\": \"150172\" }],\n\n\n[{\n  \"label\": \"东河区\",\n  \"value\": \"150202\" },\n\n{\n  \"label\": \"昆都仑区\",\n  \"value\": \"150203\" },\n\n{\n  \"label\": \"青山区\",\n  \"value\": \"150204\" },\n\n{\n  \"label\": \"石拐区\",\n  \"value\": \"150205\" },\n\n{\n  \"label\": \"白云鄂博矿区\",\n  \"value\": \"150206\" },\n\n{\n  \"label\": \"九原区\",\n  \"value\": \"150207\" },\n\n{\n  \"label\": \"土默特右旗\",\n  \"value\": \"150221\" },\n\n{\n  \"label\": \"固阳县\",\n  \"value\": \"150222\" },\n\n{\n  \"label\": \"达尔罕茂明安联合旗\",\n  \"value\": \"150223\" },\n\n{\n  \"label\": \"包头稀土高新技术产业开发区\",\n  \"value\": \"150271\" }],\n\n\n[{\n  \"label\": \"海勃湾区\",\n  \"value\": \"150302\" },\n\n{\n  \"label\": \"海南区\",\n  \"value\": \"150303\" },\n\n{\n  \"label\": \"乌达区\",\n  \"value\": \"150304\" }],\n\n\n[{\n  \"label\": \"红山区\",\n  \"value\": \"150402\" },\n\n{\n  \"label\": \"元宝山区\",\n  \"value\": \"150403\" },\n\n{\n  \"label\": \"松山区\",\n  \"value\": \"150404\" },\n\n{\n  \"label\": \"阿鲁科尔沁旗\",\n  \"value\": \"150421\" },\n\n{\n  \"label\": \"巴林左旗\",\n  \"value\": \"150422\" },\n\n{\n  \"label\": \"巴林右旗\",\n  \"value\": \"150423\" },\n\n{\n  \"label\": \"林西县\",\n  \"value\": \"150424\" },\n\n{\n  \"label\": \"克什克腾旗\",\n  \"value\": \"150425\" },\n\n{\n  \"label\": \"翁牛特旗\",\n  \"value\": \"150426\" },\n\n{\n  \"label\": \"喀喇沁旗\",\n  \"value\": \"150428\" },\n\n{\n  \"label\": \"宁城县\",\n  \"value\": \"150429\" },\n\n{\n  \"label\": \"敖汉旗\",\n  \"value\": \"150430\" }],\n\n\n[{\n  \"label\": \"科尔沁区\",\n  \"value\": \"150502\" },\n\n{\n  \"label\": \"科尔沁左翼中旗\",\n  \"value\": \"150521\" },\n\n{\n  \"label\": \"科尔沁左翼后旗\",\n  \"value\": \"150522\" },\n\n{\n  \"label\": \"开鲁县\",\n  \"value\": \"150523\" },\n\n{\n  \"label\": \"库伦旗\",\n  \"value\": \"150524\" },\n\n{\n  \"label\": \"奈曼旗\",\n  \"value\": \"150525\" },\n\n{\n  \"label\": \"扎鲁特旗\",\n  \"value\": \"150526\" },\n\n{\n  \"label\": \"通辽经济技术开发区\",\n  \"value\": \"150571\" },\n\n{\n  \"label\": \"霍林郭勒市\",\n  \"value\": \"150581\" }],\n\n\n[{\n  \"label\": \"东胜区\",\n  \"value\": \"150602\" },\n\n{\n  \"label\": \"康巴什区\",\n  \"value\": \"150603\" },\n\n{\n  \"label\": \"达拉特旗\",\n  \"value\": \"150621\" },\n\n{\n  \"label\": \"准格尔旗\",\n  \"value\": \"150622\" },\n\n{\n  \"label\": \"鄂托克前旗\",\n  \"value\": \"150623\" },\n\n{\n  \"label\": \"鄂托克旗\",\n  \"value\": \"150624\" },\n\n{\n  \"label\": \"杭锦旗\",\n  \"value\": \"150625\" },\n\n{\n  \"label\": \"乌审旗\",\n  \"value\": \"150626\" },\n\n{\n  \"label\": \"伊金霍洛旗\",\n  \"value\": \"150627\" }],\n\n\n[{\n  \"label\": \"海拉尔区\",\n  \"value\": \"150702\" },\n\n{\n  \"label\": \"扎赉诺尔区\",\n  \"value\": \"150703\" },\n\n{\n  \"label\": \"阿荣旗\",\n  \"value\": \"150721\" },\n\n{\n  \"label\": \"莫力达瓦达斡尔族自治旗\",\n  \"value\": \"150722\" },\n\n{\n  \"label\": \"鄂伦春自治旗\",\n  \"value\": \"150723\" },\n\n{\n  \"label\": \"鄂温克族自治旗\",\n  \"value\": \"150724\" },\n\n{\n  \"label\": \"陈巴尔虎旗\",\n  \"value\": \"150725\" },\n\n{\n  \"label\": \"新巴尔虎左旗\",\n  \"value\": \"150726\" },\n\n{\n  \"label\": \"新巴尔虎右旗\",\n  \"value\": \"150727\" },\n\n{\n  \"label\": \"满洲里市\",\n  \"value\": \"150781\" },\n\n{\n  \"label\": \"牙克石市\",\n  \"value\": \"150782\" },\n\n{\n  \"label\": \"扎兰屯市\",\n  \"value\": \"150783\" },\n\n{\n  \"label\": \"额尔古纳市\",\n  \"value\": \"150784\" },\n\n{\n  \"label\": \"根河市\",\n  \"value\": \"150785\" }],\n\n\n[{\n  \"label\": \"临河区\",\n  \"value\": \"150802\" },\n\n{\n  \"label\": \"五原县\",\n  \"value\": \"150821\" },\n\n{\n  \"label\": \"磴口县\",\n  \"value\": \"150822\" },\n\n{\n  \"label\": \"乌拉特前旗\",\n  \"value\": \"150823\" },\n\n{\n  \"label\": \"乌拉特中旗\",\n  \"value\": \"150824\" },\n\n{\n  \"label\": \"乌拉特后旗\",\n  \"value\": \"150825\" },\n\n{\n  \"label\": \"杭锦后旗\",\n  \"value\": \"150826\" }],\n\n\n[{\n  \"label\": \"集宁区\",\n  \"value\": \"150902\" },\n\n{\n  \"label\": \"卓资县\",\n  \"value\": \"150921\" },\n\n{\n  \"label\": \"化德县\",\n  \"value\": \"150922\" },\n\n{\n  \"label\": \"商都县\",\n  \"value\": \"150923\" },\n\n{\n  \"label\": \"兴和县\",\n  \"value\": \"150924\" },\n\n{\n  \"label\": \"凉城县\",\n  \"value\": \"150925\" },\n\n{\n  \"label\": \"察哈尔右翼前旗\",\n  \"value\": \"150926\" },\n\n{\n  \"label\": \"察哈尔右翼中旗\",\n  \"value\": \"150927\" },\n\n{\n  \"label\": \"察哈尔右翼后旗\",\n  \"value\": \"150928\" },\n\n{\n  \"label\": \"四子王旗\",\n  \"value\": \"150929\" },\n\n{\n  \"label\": \"丰镇市\",\n  \"value\": \"150981\" }],\n\n\n[{\n  \"label\": \"乌兰浩特市\",\n  \"value\": \"152201\" },\n\n{\n  \"label\": \"阿尔山市\",\n  \"value\": \"152202\" },\n\n{\n  \"label\": \"科尔沁右翼前旗\",\n  \"value\": \"152221\" },\n\n{\n  \"label\": \"科尔沁右翼中旗\",\n  \"value\": \"152222\" },\n\n{\n  \"label\": \"扎赉特旗\",\n  \"value\": \"152223\" },\n\n{\n  \"label\": \"突泉县\",\n  \"value\": \"152224\" }],\n\n\n[{\n  \"label\": \"二连浩特市\",\n  \"value\": \"152501\" },\n\n{\n  \"label\": \"锡林浩特市\",\n  \"value\": \"152502\" },\n\n{\n  \"label\": \"阿巴嘎旗\",\n  \"value\": \"152522\" },\n\n{\n  \"label\": \"苏尼特左旗\",\n  \"value\": \"152523\" },\n\n{\n  \"label\": \"苏尼特右旗\",\n  \"value\": \"152524\" },\n\n{\n  \"label\": \"东乌珠穆沁旗\",\n  \"value\": \"152525\" },\n\n{\n  \"label\": \"西乌珠穆沁旗\",\n  \"value\": \"152526\" },\n\n{\n  \"label\": \"太仆寺旗\",\n  \"value\": \"152527\" },\n\n{\n  \"label\": \"镶黄旗\",\n  \"value\": \"152528\" },\n\n{\n  \"label\": \"正镶白旗\",\n  \"value\": \"152529\" },\n\n{\n  \"label\": \"正蓝旗\",\n  \"value\": \"152530\" },\n\n{\n  \"label\": \"多伦县\",\n  \"value\": \"152531\" },\n\n{\n  \"label\": \"乌拉盖管委会\",\n  \"value\": \"152571\" }],\n\n\n[{\n  \"label\": \"阿拉善左旗\",\n  \"value\": \"152921\" },\n\n{\n  \"label\": \"阿拉善右旗\",\n  \"value\": \"152922\" },\n\n{\n  \"label\": \"额济纳旗\",\n  \"value\": \"152923\" },\n\n{\n  \"label\": \"内蒙古阿拉善经济开发区\",\n  \"value\": \"152971\" }]],\n\n\n\n[\n[{\n  \"label\": \"和平区\",\n  \"value\": \"210102\" },\n\n{\n  \"label\": \"沈河区\",\n  \"value\": \"210103\" },\n\n{\n  \"label\": \"大东区\",\n  \"value\": \"210104\" },\n\n{\n  \"label\": \"皇姑区\",\n  \"value\": \"210105\" },\n\n{\n  \"label\": \"铁西区\",\n  \"value\": \"210106\" },\n\n{\n  \"label\": \"苏家屯区\",\n  \"value\": \"210111\" },\n\n{\n  \"label\": \"浑南区\",\n  \"value\": \"210112\" },\n\n{\n  \"label\": \"沈北新区\",\n  \"value\": \"210113\" },\n\n{\n  \"label\": \"于洪区\",\n  \"value\": \"210114\" },\n\n{\n  \"label\": \"辽中区\",\n  \"value\": \"210115\" },\n\n{\n  \"label\": \"康平县\",\n  \"value\": \"210123\" },\n\n{\n  \"label\": \"法库县\",\n  \"value\": \"210124\" },\n\n{\n  \"label\": \"新民市\",\n  \"value\": \"210181\" }],\n\n\n[{\n  \"label\": \"中山区\",\n  \"value\": \"210202\" },\n\n{\n  \"label\": \"西岗区\",\n  \"value\": \"210203\" },\n\n{\n  \"label\": \"沙河口区\",\n  \"value\": \"210204\" },\n\n{\n  \"label\": \"甘井子区\",\n  \"value\": \"210211\" },\n\n{\n  \"label\": \"旅顺口区\",\n  \"value\": \"210212\" },\n\n{\n  \"label\": \"金州区\",\n  \"value\": \"210213\" },\n\n{\n  \"label\": \"普兰店区\",\n  \"value\": \"210214\" },\n\n{\n  \"label\": \"长海县\",\n  \"value\": \"210224\" },\n\n{\n  \"label\": \"瓦房店市\",\n  \"value\": \"210281\" },\n\n{\n  \"label\": \"庄河市\",\n  \"value\": \"210283\" }],\n\n\n[{\n  \"label\": \"铁东区\",\n  \"value\": \"210302\" },\n\n{\n  \"label\": \"铁西区\",\n  \"value\": \"210303\" },\n\n{\n  \"label\": \"立山区\",\n  \"value\": \"210304\" },\n\n{\n  \"label\": \"千山区\",\n  \"value\": \"210311\" },\n\n{\n  \"label\": \"台安县\",\n  \"value\": \"210321\" },\n\n{\n  \"label\": \"岫岩满族自治县\",\n  \"value\": \"210323\" },\n\n{\n  \"label\": \"海城市\",\n  \"value\": \"210381\" }],\n\n\n[{\n  \"label\": \"新抚区\",\n  \"value\": \"210402\" },\n\n{\n  \"label\": \"东洲区\",\n  \"value\": \"210403\" },\n\n{\n  \"label\": \"望花区\",\n  \"value\": \"210404\" },\n\n{\n  \"label\": \"顺城区\",\n  \"value\": \"210411\" },\n\n{\n  \"label\": \"抚顺县\",\n  \"value\": \"210421\" },\n\n{\n  \"label\": \"新宾满族自治县\",\n  \"value\": \"210422\" },\n\n{\n  \"label\": \"清原满族自治县\",\n  \"value\": \"210423\" }],\n\n\n[{\n  \"label\": \"平山区\",\n  \"value\": \"210502\" },\n\n{\n  \"label\": \"溪湖区\",\n  \"value\": \"210503\" },\n\n{\n  \"label\": \"明山区\",\n  \"value\": \"210504\" },\n\n{\n  \"label\": \"南芬区\",\n  \"value\": \"210505\" },\n\n{\n  \"label\": \"本溪满族自治县\",\n  \"value\": \"210521\" },\n\n{\n  \"label\": \"桓仁满族自治县\",\n  \"value\": \"210522\" }],\n\n\n[{\n  \"label\": \"元宝区\",\n  \"value\": \"210602\" },\n\n{\n  \"label\": \"振兴区\",\n  \"value\": \"210603\" },\n\n{\n  \"label\": \"振安区\",\n  \"value\": \"210604\" },\n\n{\n  \"label\": \"宽甸满族自治县\",\n  \"value\": \"210624\" },\n\n{\n  \"label\": \"东港市\",\n  \"value\": \"210681\" },\n\n{\n  \"label\": \"凤城市\",\n  \"value\": \"210682\" }],\n\n\n[{\n  \"label\": \"古塔区\",\n  \"value\": \"210702\" },\n\n{\n  \"label\": \"凌河区\",\n  \"value\": \"210703\" },\n\n{\n  \"label\": \"太和区\",\n  \"value\": \"210711\" },\n\n{\n  \"label\": \"黑山县\",\n  \"value\": \"210726\" },\n\n{\n  \"label\": \"义县\",\n  \"value\": \"210727\" },\n\n{\n  \"label\": \"凌海市\",\n  \"value\": \"210781\" },\n\n{\n  \"label\": \"北镇市\",\n  \"value\": \"210782\" }],\n\n\n[{\n  \"label\": \"站前区\",\n  \"value\": \"210802\" },\n\n{\n  \"label\": \"西市区\",\n  \"value\": \"210803\" },\n\n{\n  \"label\": \"鲅鱼圈区\",\n  \"value\": \"210804\" },\n\n{\n  \"label\": \"老边区\",\n  \"value\": \"210811\" },\n\n{\n  \"label\": \"盖州市\",\n  \"value\": \"210881\" },\n\n{\n  \"label\": \"大石桥市\",\n  \"value\": \"210882\" }],\n\n\n[{\n  \"label\": \"海州区\",\n  \"value\": \"210902\" },\n\n{\n  \"label\": \"新邱区\",\n  \"value\": \"210903\" },\n\n{\n  \"label\": \"太平区\",\n  \"value\": \"210904\" },\n\n{\n  \"label\": \"清河门区\",\n  \"value\": \"210905\" },\n\n{\n  \"label\": \"细河区\",\n  \"value\": \"210911\" },\n\n{\n  \"label\": \"阜新蒙古族自治县\",\n  \"value\": \"210921\" },\n\n{\n  \"label\": \"彰武县\",\n  \"value\": \"210922\" }],\n\n\n[{\n  \"label\": \"白塔区\",\n  \"value\": \"211002\" },\n\n{\n  \"label\": \"文圣区\",\n  \"value\": \"211003\" },\n\n{\n  \"label\": \"宏伟区\",\n  \"value\": \"211004\" },\n\n{\n  \"label\": \"弓长岭区\",\n  \"value\": \"211005\" },\n\n{\n  \"label\": \"太子河区\",\n  \"value\": \"211011\" },\n\n{\n  \"label\": \"辽阳县\",\n  \"value\": \"211021\" },\n\n{\n  \"label\": \"灯塔市\",\n  \"value\": \"211081\" }],\n\n\n[{\n  \"label\": \"双台子区\",\n  \"value\": \"211102\" },\n\n{\n  \"label\": \"兴隆台区\",\n  \"value\": \"211103\" },\n\n{\n  \"label\": \"大洼区\",\n  \"value\": \"211104\" },\n\n{\n  \"label\": \"盘山县\",\n  \"value\": \"211122\" }],\n\n\n[{\n  \"label\": \"银州区\",\n  \"value\": \"211202\" },\n\n{\n  \"label\": \"清河区\",\n  \"value\": \"211204\" },\n\n{\n  \"label\": \"铁岭县\",\n  \"value\": \"211221\" },\n\n{\n  \"label\": \"西丰县\",\n  \"value\": \"211223\" },\n\n{\n  \"label\": \"昌图县\",\n  \"value\": \"211224\" },\n\n{\n  \"label\": \"调兵山市\",\n  \"value\": \"211281\" },\n\n{\n  \"label\": \"开原市\",\n  \"value\": \"211282\" }],\n\n\n[{\n  \"label\": \"双塔区\",\n  \"value\": \"211302\" },\n\n{\n  \"label\": \"龙城区\",\n  \"value\": \"211303\" },\n\n{\n  \"label\": \"朝阳县\",\n  \"value\": \"211321\" },\n\n{\n  \"label\": \"建平县\",\n  \"value\": \"211322\" },\n\n{\n  \"label\": \"喀喇沁左翼蒙古族自治县\",\n  \"value\": \"211324\" },\n\n{\n  \"label\": \"北票市\",\n  \"value\": \"211381\" },\n\n{\n  \"label\": \"凌源市\",\n  \"value\": \"211382\" }],\n\n\n[{\n  \"label\": \"连山区\",\n  \"value\": \"211402\" },\n\n{\n  \"label\": \"龙港区\",\n  \"value\": \"211403\" },\n\n{\n  \"label\": \"南票区\",\n  \"value\": \"211404\" },\n\n{\n  \"label\": \"绥中县\",\n  \"value\": \"211421\" },\n\n{\n  \"label\": \"建昌县\",\n  \"value\": \"211422\" },\n\n{\n  \"label\": \"兴城市\",\n  \"value\": \"211481\" }]],\n\n\n\n[\n[{\n  \"label\": \"南关区\",\n  \"value\": \"220102\" },\n\n{\n  \"label\": \"宽城区\",\n  \"value\": \"220103\" },\n\n{\n  \"label\": \"朝阳区\",\n  \"value\": \"220104\" },\n\n{\n  \"label\": \"二道区\",\n  \"value\": \"220105\" },\n\n{\n  \"label\": \"绿园区\",\n  \"value\": \"220106\" },\n\n{\n  \"label\": \"双阳区\",\n  \"value\": \"220112\" },\n\n{\n  \"label\": \"九台区\",\n  \"value\": \"220113\" },\n\n{\n  \"label\": \"农安县\",\n  \"value\": \"220122\" },\n\n{\n  \"label\": \"长春经济技术开发区\",\n  \"value\": \"220171\" },\n\n{\n  \"label\": \"长春净月高新技术产业开发区\",\n  \"value\": \"220172\" },\n\n{\n  \"label\": \"长春高新技术产业开发区\",\n  \"value\": \"220173\" },\n\n{\n  \"label\": \"长春汽车经济技术开发区\",\n  \"value\": \"220174\" },\n\n{\n  \"label\": \"榆树市\",\n  \"value\": \"220182\" },\n\n{\n  \"label\": \"德惠市\",\n  \"value\": \"220183\" }],\n\n\n[{\n  \"label\": \"昌邑区\",\n  \"value\": \"220202\" },\n\n{\n  \"label\": \"龙潭区\",\n  \"value\": \"220203\" },\n\n{\n  \"label\": \"船营区\",\n  \"value\": \"220204\" },\n\n{\n  \"label\": \"丰满区\",\n  \"value\": \"220211\" },\n\n{\n  \"label\": \"永吉县\",\n  \"value\": \"220221\" },\n\n{\n  \"label\": \"吉林经济开发区\",\n  \"value\": \"220271\" },\n\n{\n  \"label\": \"吉林高新技术产业开发区\",\n  \"value\": \"220272\" },\n\n{\n  \"label\": \"吉林中国新加坡食品区\",\n  \"value\": \"220273\" },\n\n{\n  \"label\": \"蛟河市\",\n  \"value\": \"220281\" },\n\n{\n  \"label\": \"桦甸市\",\n  \"value\": \"220282\" },\n\n{\n  \"label\": \"舒兰市\",\n  \"value\": \"220283\" },\n\n{\n  \"label\": \"磐石市\",\n  \"value\": \"220284\" }],\n\n\n[{\n  \"label\": \"铁西区\",\n  \"value\": \"220302\" },\n\n{\n  \"label\": \"铁东区\",\n  \"value\": \"220303\" },\n\n{\n  \"label\": \"梨树县\",\n  \"value\": \"220322\" },\n\n{\n  \"label\": \"伊通满族自治县\",\n  \"value\": \"220323\" },\n\n{\n  \"label\": \"公主岭市\",\n  \"value\": \"220381\" },\n\n{\n  \"label\": \"双辽市\",\n  \"value\": \"220382\" }],\n\n\n[{\n  \"label\": \"龙山区\",\n  \"value\": \"220402\" },\n\n{\n  \"label\": \"西安区\",\n  \"value\": \"220403\" },\n\n{\n  \"label\": \"东丰县\",\n  \"value\": \"220421\" },\n\n{\n  \"label\": \"东辽县\",\n  \"value\": \"220422\" }],\n\n\n[{\n  \"label\": \"东昌区\",\n  \"value\": \"220502\" },\n\n{\n  \"label\": \"二道江区\",\n  \"value\": \"220503\" },\n\n{\n  \"label\": \"通化县\",\n  \"value\": \"220521\" },\n\n{\n  \"label\": \"辉南县\",\n  \"value\": \"220523\" },\n\n{\n  \"label\": \"柳河县\",\n  \"value\": \"220524\" },\n\n{\n  \"label\": \"梅河口市\",\n  \"value\": \"220581\" },\n\n{\n  \"label\": \"集安市\",\n  \"value\": \"220582\" }],\n\n\n[{\n  \"label\": \"浑江区\",\n  \"value\": \"220602\" },\n\n{\n  \"label\": \"江源区\",\n  \"value\": \"220605\" },\n\n{\n  \"label\": \"抚松县\",\n  \"value\": \"220621\" },\n\n{\n  \"label\": \"靖宇县\",\n  \"value\": \"220622\" },\n\n{\n  \"label\": \"长白朝鲜族自治县\",\n  \"value\": \"220623\" },\n\n{\n  \"label\": \"临江市\",\n  \"value\": \"220681\" }],\n\n\n[{\n  \"label\": \"宁江区\",\n  \"value\": \"220702\" },\n\n{\n  \"label\": \"前郭尔罗斯蒙古族自治县\",\n  \"value\": \"220721\" },\n\n{\n  \"label\": \"长岭县\",\n  \"value\": \"220722\" },\n\n{\n  \"label\": \"乾安县\",\n  \"value\": \"220723\" },\n\n{\n  \"label\": \"吉林松原经济开发区\",\n  \"value\": \"220771\" },\n\n{\n  \"label\": \"扶余市\",\n  \"value\": \"220781\" }],\n\n\n[{\n  \"label\": \"洮北区\",\n  \"value\": \"220802\" },\n\n{\n  \"label\": \"镇赉县\",\n  \"value\": \"220821\" },\n\n{\n  \"label\": \"通榆县\",\n  \"value\": \"220822\" },\n\n{\n  \"label\": \"吉林白城经济开发区\",\n  \"value\": \"220871\" },\n\n{\n  \"label\": \"洮南市\",\n  \"value\": \"220881\" },\n\n{\n  \"label\": \"大安市\",\n  \"value\": \"220882\" }],\n\n\n[{\n  \"label\": \"延吉市\",\n  \"value\": \"222401\" },\n\n{\n  \"label\": \"图们市\",\n  \"value\": \"222402\" },\n\n{\n  \"label\": \"敦化市\",\n  \"value\": \"222403\" },\n\n{\n  \"label\": \"珲春市\",\n  \"value\": \"222404\" },\n\n{\n  \"label\": \"龙井市\",\n  \"value\": \"222405\" },\n\n{\n  \"label\": \"和龙市\",\n  \"value\": \"222406\" },\n\n{\n  \"label\": \"汪清县\",\n  \"value\": \"222424\" },\n\n{\n  \"label\": \"安图县\",\n  \"value\": \"222426\" }]],\n\n\n\n[\n[{\n  \"label\": \"道里区\",\n  \"value\": \"230102\" },\n\n{\n  \"label\": \"南岗区\",\n  \"value\": \"230103\" },\n\n{\n  \"label\": \"道外区\",\n  \"value\": \"230104\" },\n\n{\n  \"label\": \"平房区\",\n  \"value\": \"230108\" },\n\n{\n  \"label\": \"松北区\",\n  \"value\": \"230109\" },\n\n{\n  \"label\": \"香坊区\",\n  \"value\": \"230110\" },\n\n{\n  \"label\": \"呼兰区\",\n  \"value\": \"230111\" },\n\n{\n  \"label\": \"阿城区\",\n  \"value\": \"230112\" },\n\n{\n  \"label\": \"双城区\",\n  \"value\": \"230113\" },\n\n{\n  \"label\": \"依兰县\",\n  \"value\": \"230123\" },\n\n{\n  \"label\": \"方正县\",\n  \"value\": \"230124\" },\n\n{\n  \"label\": \"宾县\",\n  \"value\": \"230125\" },\n\n{\n  \"label\": \"巴彦县\",\n  \"value\": \"230126\" },\n\n{\n  \"label\": \"木兰县\",\n  \"value\": \"230127\" },\n\n{\n  \"label\": \"通河县\",\n  \"value\": \"230128\" },\n\n{\n  \"label\": \"延寿县\",\n  \"value\": \"230129\" },\n\n{\n  \"label\": \"尚志市\",\n  \"value\": \"230183\" },\n\n{\n  \"label\": \"五常市\",\n  \"value\": \"230184\" }],\n\n\n[{\n  \"label\": \"龙沙区\",\n  \"value\": \"230202\" },\n\n{\n  \"label\": \"建华区\",\n  \"value\": \"230203\" },\n\n{\n  \"label\": \"铁锋区\",\n  \"value\": \"230204\" },\n\n{\n  \"label\": \"昂昂溪区\",\n  \"value\": \"230205\" },\n\n{\n  \"label\": \"富拉尔基区\",\n  \"value\": \"230206\" },\n\n{\n  \"label\": \"碾子山区\",\n  \"value\": \"230207\" },\n\n{\n  \"label\": \"梅里斯达斡尔族区\",\n  \"value\": \"230208\" },\n\n{\n  \"label\": \"龙江县\",\n  \"value\": \"230221\" },\n\n{\n  \"label\": \"依安县\",\n  \"value\": \"230223\" },\n\n{\n  \"label\": \"泰来县\",\n  \"value\": \"230224\" },\n\n{\n  \"label\": \"甘南县\",\n  \"value\": \"230225\" },\n\n{\n  \"label\": \"富裕县\",\n  \"value\": \"230227\" },\n\n{\n  \"label\": \"克山县\",\n  \"value\": \"230229\" },\n\n{\n  \"label\": \"克东县\",\n  \"value\": \"230230\" },\n\n{\n  \"label\": \"拜泉县\",\n  \"value\": \"230231\" },\n\n{\n  \"label\": \"讷河市\",\n  \"value\": \"230281\" }],\n\n\n[{\n  \"label\": \"鸡冠区\",\n  \"value\": \"230302\" },\n\n{\n  \"label\": \"恒山区\",\n  \"value\": \"230303\" },\n\n{\n  \"label\": \"滴道区\",\n  \"value\": \"230304\" },\n\n{\n  \"label\": \"梨树区\",\n  \"value\": \"230305\" },\n\n{\n  \"label\": \"城子河区\",\n  \"value\": \"230306\" },\n\n{\n  \"label\": \"麻山区\",\n  \"value\": \"230307\" },\n\n{\n  \"label\": \"鸡东县\",\n  \"value\": \"230321\" },\n\n{\n  \"label\": \"虎林市\",\n  \"value\": \"230381\" },\n\n{\n  \"label\": \"密山市\",\n  \"value\": \"230382\" }],\n\n\n[{\n  \"label\": \"向阳区\",\n  \"value\": \"230402\" },\n\n{\n  \"label\": \"工农区\",\n  \"value\": \"230403\" },\n\n{\n  \"label\": \"南山区\",\n  \"value\": \"230404\" },\n\n{\n  \"label\": \"兴安区\",\n  \"value\": \"230405\" },\n\n{\n  \"label\": \"东山区\",\n  \"value\": \"230406\" },\n\n{\n  \"label\": \"兴山区\",\n  \"value\": \"230407\" },\n\n{\n  \"label\": \"萝北县\",\n  \"value\": \"230421\" },\n\n{\n  \"label\": \"绥滨县\",\n  \"value\": \"230422\" }],\n\n\n[{\n  \"label\": \"尖山区\",\n  \"value\": \"230502\" },\n\n{\n  \"label\": \"岭东区\",\n  \"value\": \"230503\" },\n\n{\n  \"label\": \"四方台区\",\n  \"value\": \"230505\" },\n\n{\n  \"label\": \"宝山区\",\n  \"value\": \"230506\" },\n\n{\n  \"label\": \"集贤县\",\n  \"value\": \"230521\" },\n\n{\n  \"label\": \"友谊县\",\n  \"value\": \"230522\" },\n\n{\n  \"label\": \"宝清县\",\n  \"value\": \"230523\" },\n\n{\n  \"label\": \"饶河县\",\n  \"value\": \"230524\" }],\n\n\n[{\n  \"label\": \"萨尔图区\",\n  \"value\": \"230602\" },\n\n{\n  \"label\": \"龙凤区\",\n  \"value\": \"230603\" },\n\n{\n  \"label\": \"让胡路区\",\n  \"value\": \"230604\" },\n\n{\n  \"label\": \"红岗区\",\n  \"value\": \"230605\" },\n\n{\n  \"label\": \"大同区\",\n  \"value\": \"230606\" },\n\n{\n  \"label\": \"肇州县\",\n  \"value\": \"230621\" },\n\n{\n  \"label\": \"肇源县\",\n  \"value\": \"230622\" },\n\n{\n  \"label\": \"林甸县\",\n  \"value\": \"230623\" },\n\n{\n  \"label\": \"杜尔伯特蒙古族自治县\",\n  \"value\": \"230624\" },\n\n{\n  \"label\": \"大庆高新技术产业开发区\",\n  \"value\": \"230671\" }],\n\n\n[{\n  \"label\": \"伊春区\",\n  \"value\": \"230702\" },\n\n{\n  \"label\": \"南岔区\",\n  \"value\": \"230703\" },\n\n{\n  \"label\": \"友好区\",\n  \"value\": \"230704\" },\n\n{\n  \"label\": \"西林区\",\n  \"value\": \"230705\" },\n\n{\n  \"label\": \"翠峦区\",\n  \"value\": \"230706\" },\n\n{\n  \"label\": \"新青区\",\n  \"value\": \"230707\" },\n\n{\n  \"label\": \"美溪区\",\n  \"value\": \"230708\" },\n\n{\n  \"label\": \"金山屯区\",\n  \"value\": \"230709\" },\n\n{\n  \"label\": \"五营区\",\n  \"value\": \"230710\" },\n\n{\n  \"label\": \"乌马河区\",\n  \"value\": \"230711\" },\n\n{\n  \"label\": \"汤旺河区\",\n  \"value\": \"230712\" },\n\n{\n  \"label\": \"带岭区\",\n  \"value\": \"230713\" },\n\n{\n  \"label\": \"乌伊岭区\",\n  \"value\": \"230714\" },\n\n{\n  \"label\": \"红星区\",\n  \"value\": \"230715\" },\n\n{\n  \"label\": \"上甘岭区\",\n  \"value\": \"230716\" },\n\n{\n  \"label\": \"嘉荫县\",\n  \"value\": \"230722\" },\n\n{\n  \"label\": \"铁力市\",\n  \"value\": \"230781\" }],\n\n\n[{\n  \"label\": \"向阳区\",\n  \"value\": \"230803\" },\n\n{\n  \"label\": \"前进区\",\n  \"value\": \"230804\" },\n\n{\n  \"label\": \"东风区\",\n  \"value\": \"230805\" },\n\n{\n  \"label\": \"郊区\",\n  \"value\": \"230811\" },\n\n{\n  \"label\": \"桦南县\",\n  \"value\": \"230822\" },\n\n{\n  \"label\": \"桦川县\",\n  \"value\": \"230826\" },\n\n{\n  \"label\": \"汤原县\",\n  \"value\": \"230828\" },\n\n{\n  \"label\": \"同江市\",\n  \"value\": \"230881\" },\n\n{\n  \"label\": \"富锦市\",\n  \"value\": \"230882\" },\n\n{\n  \"label\": \"抚远市\",\n  \"value\": \"230883\" }],\n\n\n[{\n  \"label\": \"新兴区\",\n  \"value\": \"230902\" },\n\n{\n  \"label\": \"桃山区\",\n  \"value\": \"230903\" },\n\n{\n  \"label\": \"茄子河区\",\n  \"value\": \"230904\" },\n\n{\n  \"label\": \"勃利县\",\n  \"value\": \"230921\" }],\n\n\n[{\n  \"label\": \"东安区\",\n  \"value\": \"231002\" },\n\n{\n  \"label\": \"阳明区\",\n  \"value\": \"231003\" },\n\n{\n  \"label\": \"爱民区\",\n  \"value\": \"231004\" },\n\n{\n  \"label\": \"西安区\",\n  \"value\": \"231005\" },\n\n{\n  \"label\": \"林口县\",\n  \"value\": \"231025\" },\n\n{\n  \"label\": \"牡丹江经济技术开发区\",\n  \"value\": \"231071\" },\n\n{\n  \"label\": \"绥芬河市\",\n  \"value\": \"231081\" },\n\n{\n  \"label\": \"海林市\",\n  \"value\": \"231083\" },\n\n{\n  \"label\": \"宁安市\",\n  \"value\": \"231084\" },\n\n{\n  \"label\": \"穆棱市\",\n  \"value\": \"231085\" },\n\n{\n  \"label\": \"东宁市\",\n  \"value\": \"231086\" }],\n\n\n[{\n  \"label\": \"爱辉区\",\n  \"value\": \"231102\" },\n\n{\n  \"label\": \"嫩江县\",\n  \"value\": \"231121\" },\n\n{\n  \"label\": \"逊克县\",\n  \"value\": \"231123\" },\n\n{\n  \"label\": \"孙吴县\",\n  \"value\": \"231124\" },\n\n{\n  \"label\": \"北安市\",\n  \"value\": \"231181\" },\n\n{\n  \"label\": \"五大连池市\",\n  \"value\": \"231182\" }],\n\n\n[{\n  \"label\": \"北林区\",\n  \"value\": \"231202\" },\n\n{\n  \"label\": \"望奎县\",\n  \"value\": \"231221\" },\n\n{\n  \"label\": \"兰西县\",\n  \"value\": \"231222\" },\n\n{\n  \"label\": \"青冈县\",\n  \"value\": \"231223\" },\n\n{\n  \"label\": \"庆安县\",\n  \"value\": \"231224\" },\n\n{\n  \"label\": \"明水县\",\n  \"value\": \"231225\" },\n\n{\n  \"label\": \"绥棱县\",\n  \"value\": \"231226\" },\n\n{\n  \"label\": \"安达市\",\n  \"value\": \"231281\" },\n\n{\n  \"label\": \"肇东市\",\n  \"value\": \"231282\" },\n\n{\n  \"label\": \"海伦市\",\n  \"value\": \"231283\" }],\n\n\n[{\n  \"label\": \"加格达奇区\",\n  \"value\": \"232701\" },\n\n{\n  \"label\": \"松岭区\",\n  \"value\": \"232702\" },\n\n{\n  \"label\": \"新林区\",\n  \"value\": \"232703\" },\n\n{\n  \"label\": \"呼中区\",\n  \"value\": \"232704\" },\n\n{\n  \"label\": \"呼玛县\",\n  \"value\": \"232721\" },\n\n{\n  \"label\": \"塔河县\",\n  \"value\": \"232722\" },\n\n{\n  \"label\": \"漠河县\",\n  \"value\": \"232723\" }]],\n\n\n\n[\n[{\n  \"label\": \"黄浦区\",\n  \"value\": \"310101\" },\n\n{\n  \"label\": \"徐汇区\",\n  \"value\": \"310104\" },\n\n{\n  \"label\": \"长宁区\",\n  \"value\": \"310105\" },\n\n{\n  \"label\": \"静安区\",\n  \"value\": \"310106\" },\n\n{\n  \"label\": \"普陀区\",\n  \"value\": \"310107\" },\n\n{\n  \"label\": \"虹口区\",\n  \"value\": \"310109\" },\n\n{\n  \"label\": \"杨浦区\",\n  \"value\": \"310110\" },\n\n{\n  \"label\": \"闵行区\",\n  \"value\": \"310112\" },\n\n{\n  \"label\": \"宝山区\",\n  \"value\": \"310113\" },\n\n{\n  \"label\": \"嘉定区\",\n  \"value\": \"310114\" },\n\n{\n  \"label\": \"浦东新区\",\n  \"value\": \"310115\" },\n\n{\n  \"label\": \"金山区\",\n  \"value\": \"310116\" },\n\n{\n  \"label\": \"松江区\",\n  \"value\": \"310117\" },\n\n{\n  \"label\": \"青浦区\",\n  \"value\": \"310118\" },\n\n{\n  \"label\": \"奉贤区\",\n  \"value\": \"310120\" },\n\n{\n  \"label\": \"崇明区\",\n  \"value\": \"310151\" }]],\n\n\n\n[\n[{\n  \"label\": \"玄武区\",\n  \"value\": \"320102\" },\n\n{\n  \"label\": \"秦淮区\",\n  \"value\": \"320104\" },\n\n{\n  \"label\": \"建邺区\",\n  \"value\": \"320105\" },\n\n{\n  \"label\": \"鼓楼区\",\n  \"value\": \"320106\" },\n\n{\n  \"label\": \"浦口区\",\n  \"value\": \"320111\" },\n\n{\n  \"label\": \"栖霞区\",\n  \"value\": \"320113\" },\n\n{\n  \"label\": \"雨花台区\",\n  \"value\": \"320114\" },\n\n{\n  \"label\": \"江宁区\",\n  \"value\": \"320115\" },\n\n{\n  \"label\": \"六合区\",\n  \"value\": \"320116\" },\n\n{\n  \"label\": \"溧水区\",\n  \"value\": \"320117\" },\n\n{\n  \"label\": \"高淳区\",\n  \"value\": \"320118\" }],\n\n\n[{\n  \"label\": \"锡山区\",\n  \"value\": \"320205\" },\n\n{\n  \"label\": \"惠山区\",\n  \"value\": \"320206\" },\n\n{\n  \"label\": \"滨湖区\",\n  \"value\": \"320211\" },\n\n{\n  \"label\": \"梁溪区\",\n  \"value\": \"320213\" },\n\n{\n  \"label\": \"新吴区\",\n  \"value\": \"320214\" },\n\n{\n  \"label\": \"江阴市\",\n  \"value\": \"320281\" },\n\n{\n  \"label\": \"宜兴市\",\n  \"value\": \"320282\" }],\n\n\n[{\n  \"label\": \"鼓楼区\",\n  \"value\": \"320302\" },\n\n{\n  \"label\": \"云龙区\",\n  \"value\": \"320303\" },\n\n{\n  \"label\": \"贾汪区\",\n  \"value\": \"320305\" },\n\n{\n  \"label\": \"泉山区\",\n  \"value\": \"320311\" },\n\n{\n  \"label\": \"铜山区\",\n  \"value\": \"320312\" },\n\n{\n  \"label\": \"丰县\",\n  \"value\": \"320321\" },\n\n{\n  \"label\": \"沛县\",\n  \"value\": \"320322\" },\n\n{\n  \"label\": \"睢宁县\",\n  \"value\": \"320324\" },\n\n{\n  \"label\": \"徐州经济技术开发区\",\n  \"value\": \"320371\" },\n\n{\n  \"label\": \"新沂市\",\n  \"value\": \"320381\" },\n\n{\n  \"label\": \"邳州市\",\n  \"value\": \"320382\" }],\n\n\n[{\n  \"label\": \"天宁区\",\n  \"value\": \"320402\" },\n\n{\n  \"label\": \"钟楼区\",\n  \"value\": \"320404\" },\n\n{\n  \"label\": \"新北区\",\n  \"value\": \"320411\" },\n\n{\n  \"label\": \"武进区\",\n  \"value\": \"320412\" },\n\n{\n  \"label\": \"金坛区\",\n  \"value\": \"320413\" },\n\n{\n  \"label\": \"溧阳市\",\n  \"value\": \"320481\" }],\n\n\n[{\n  \"label\": \"虎丘区\",\n  \"value\": \"320505\" },\n\n{\n  \"label\": \"吴中区\",\n  \"value\": \"320506\" },\n\n{\n  \"label\": \"相城区\",\n  \"value\": \"320507\" },\n\n{\n  \"label\": \"姑苏区\",\n  \"value\": \"320508\" },\n\n{\n  \"label\": \"吴江区\",\n  \"value\": \"320509\" },\n\n{\n  \"label\": \"苏州工业园区\",\n  \"value\": \"320571\" },\n\n{\n  \"label\": \"常熟市\",\n  \"value\": \"320581\" },\n\n{\n  \"label\": \"张家港市\",\n  \"value\": \"320582\" },\n\n{\n  \"label\": \"昆山市\",\n  \"value\": \"320583\" },\n\n{\n  \"label\": \"太仓市\",\n  \"value\": \"320585\" }],\n\n\n[{\n  \"label\": \"崇川区\",\n  \"value\": \"320602\" },\n\n{\n  \"label\": \"港闸区\",\n  \"value\": \"320611\" },\n\n{\n  \"label\": \"通州区\",\n  \"value\": \"320612\" },\n\n{\n  \"label\": \"海安县\",\n  \"value\": \"320621\" },\n\n{\n  \"label\": \"如东县\",\n  \"value\": \"320623\" },\n\n{\n  \"label\": \"南通经济技术开发区\",\n  \"value\": \"320671\" },\n\n{\n  \"label\": \"启东市\",\n  \"value\": \"320681\" },\n\n{\n  \"label\": \"如皋市\",\n  \"value\": \"320682\" },\n\n{\n  \"label\": \"海门市\",\n  \"value\": \"320684\" }],\n\n\n[{\n  \"label\": \"连云区\",\n  \"value\": \"320703\" },\n\n{\n  \"label\": \"海州区\",\n  \"value\": \"320706\" },\n\n{\n  \"label\": \"赣榆区\",\n  \"value\": \"320707\" },\n\n{\n  \"label\": \"东海县\",\n  \"value\": \"320722\" },\n\n{\n  \"label\": \"灌云县\",\n  \"value\": \"320723\" },\n\n{\n  \"label\": \"灌南县\",\n  \"value\": \"320724\" },\n\n{\n  \"label\": \"连云港经济技术开发区\",\n  \"value\": \"320771\" },\n\n{\n  \"label\": \"连云港高新技术产业开发区\",\n  \"value\": \"320772\" }],\n\n\n[{\n  \"label\": \"淮安区\",\n  \"value\": \"320803\" },\n\n{\n  \"label\": \"淮阴区\",\n  \"value\": \"320804\" },\n\n{\n  \"label\": \"清江浦区\",\n  \"value\": \"320812\" },\n\n{\n  \"label\": \"洪泽区\",\n  \"value\": \"320813\" },\n\n{\n  \"label\": \"涟水县\",\n  \"value\": \"320826\" },\n\n{\n  \"label\": \"盱眙县\",\n  \"value\": \"320830\" },\n\n{\n  \"label\": \"金湖县\",\n  \"value\": \"320831\" },\n\n{\n  \"label\": \"淮安经济技术开发区\",\n  \"value\": \"320871\" }],\n\n\n[{\n  \"label\": \"亭湖区\",\n  \"value\": \"320902\" },\n\n{\n  \"label\": \"盐都区\",\n  \"value\": \"320903\" },\n\n{\n  \"label\": \"大丰区\",\n  \"value\": \"320904\" },\n\n{\n  \"label\": \"响水县\",\n  \"value\": \"320921\" },\n\n{\n  \"label\": \"滨海县\",\n  \"value\": \"320922\" },\n\n{\n  \"label\": \"阜宁县\",\n  \"value\": \"320923\" },\n\n{\n  \"label\": \"射阳县\",\n  \"value\": \"320924\" },\n\n{\n  \"label\": \"建湖县\",\n  \"value\": \"320925\" },\n\n{\n  \"label\": \"盐城经济技术开发区\",\n  \"value\": \"320971\" },\n\n{\n  \"label\": \"东台市\",\n  \"value\": \"320981\" }],\n\n\n[{\n  \"label\": \"广陵区\",\n  \"value\": \"321002\" },\n\n{\n  \"label\": \"邗江区\",\n  \"value\": \"321003\" },\n\n{\n  \"label\": \"江都区\",\n  \"value\": \"321012\" },\n\n{\n  \"label\": \"宝应县\",\n  \"value\": \"321023\" },\n\n{\n  \"label\": \"扬州经济技术开发区\",\n  \"value\": \"321071\" },\n\n{\n  \"label\": \"仪征市\",\n  \"value\": \"321081\" },\n\n{\n  \"label\": \"高邮市\",\n  \"value\": \"321084\" }],\n\n\n[{\n  \"label\": \"京口区\",\n  \"value\": \"321102\" },\n\n{\n  \"label\": \"润州区\",\n  \"value\": \"321111\" },\n\n{\n  \"label\": \"丹徒区\",\n  \"value\": \"321112\" },\n\n{\n  \"label\": \"镇江新区\",\n  \"value\": \"321171\" },\n\n{\n  \"label\": \"丹阳市\",\n  \"value\": \"321181\" },\n\n{\n  \"label\": \"扬中市\",\n  \"value\": \"321182\" },\n\n{\n  \"label\": \"句容市\",\n  \"value\": \"321183\" }],\n\n\n[{\n  \"label\": \"海陵区\",\n  \"value\": \"321202\" },\n\n{\n  \"label\": \"高港区\",\n  \"value\": \"321203\" },\n\n{\n  \"label\": \"姜堰区\",\n  \"value\": \"321204\" },\n\n{\n  \"label\": \"泰州医药高新技术产业开发区\",\n  \"value\": \"321271\" },\n\n{\n  \"label\": \"兴化市\",\n  \"value\": \"321281\" },\n\n{\n  \"label\": \"靖江市\",\n  \"value\": \"321282\" },\n\n{\n  \"label\": \"泰兴市\",\n  \"value\": \"321283\" }],\n\n\n[{\n  \"label\": \"宿城区\",\n  \"value\": \"321302\" },\n\n{\n  \"label\": \"宿豫区\",\n  \"value\": \"321311\" },\n\n{\n  \"label\": \"沭阳县\",\n  \"value\": \"321322\" },\n\n{\n  \"label\": \"泗阳县\",\n  \"value\": \"321323\" },\n\n{\n  \"label\": \"泗洪县\",\n  \"value\": \"321324\" },\n\n{\n  \"label\": \"宿迁经济技术开发区\",\n  \"value\": \"321371\" }]],\n\n\n\n[\n[{\n  \"label\": \"上城区\",\n  \"value\": \"330102\" },\n\n{\n  \"label\": \"下城区\",\n  \"value\": \"330103\" },\n\n{\n  \"label\": \"江干区\",\n  \"value\": \"330104\" },\n\n{\n  \"label\": \"拱墅区\",\n  \"value\": \"330105\" },\n\n{\n  \"label\": \"西湖区\",\n  \"value\": \"330106\" },\n\n{\n  \"label\": \"滨江区\",\n  \"value\": \"330108\" },\n\n{\n  \"label\": \"萧山区\",\n  \"value\": \"330109\" },\n\n{\n  \"label\": \"余杭区\",\n  \"value\": \"330110\" },\n\n{\n  \"label\": \"富阳区\",\n  \"value\": \"330111\" },\n\n{\n  \"label\": \"临安区\",\n  \"value\": \"330112\" },\n\n{\n  \"label\": \"桐庐县\",\n  \"value\": \"330122\" },\n\n{\n  \"label\": \"淳安县\",\n  \"value\": \"330127\" },\n\n{\n  \"label\": \"建德市\",\n  \"value\": \"330182\" }],\n\n\n[{\n  \"label\": \"海曙区\",\n  \"value\": \"330203\" },\n\n{\n  \"label\": \"江北区\",\n  \"value\": \"330205\" },\n\n{\n  \"label\": \"北仑区\",\n  \"value\": \"330206\" },\n\n{\n  \"label\": \"镇海区\",\n  \"value\": \"330211\" },\n\n{\n  \"label\": \"鄞州区\",\n  \"value\": \"330212\" },\n\n{\n  \"label\": \"奉化区\",\n  \"value\": \"330213\" },\n\n{\n  \"label\": \"象山县\",\n  \"value\": \"330225\" },\n\n{\n  \"label\": \"宁海县\",\n  \"value\": \"330226\" },\n\n{\n  \"label\": \"余姚市\",\n  \"value\": \"330281\" },\n\n{\n  \"label\": \"慈溪市\",\n  \"value\": \"330282\" }],\n\n\n[{\n  \"label\": \"鹿城区\",\n  \"value\": \"330302\" },\n\n{\n  \"label\": \"龙湾区\",\n  \"value\": \"330303\" },\n\n{\n  \"label\": \"瓯海区\",\n  \"value\": \"330304\" },\n\n{\n  \"label\": \"洞头区\",\n  \"value\": \"330305\" },\n\n{\n  \"label\": \"永嘉县\",\n  \"value\": \"330324\" },\n\n{\n  \"label\": \"平阳县\",\n  \"value\": \"330326\" },\n\n{\n  \"label\": \"苍南县\",\n  \"value\": \"330327\" },\n\n{\n  \"label\": \"文成县\",\n  \"value\": \"330328\" },\n\n{\n  \"label\": \"泰顺县\",\n  \"value\": \"330329\" },\n\n{\n  \"label\": \"温州经济技术开发区\",\n  \"value\": \"330371\" },\n\n{\n  \"label\": \"瑞安市\",\n  \"value\": \"330381\" },\n\n{\n  \"label\": \"乐清市\",\n  \"value\": \"330382\" }],\n\n\n[{\n  \"label\": \"南湖区\",\n  \"value\": \"330402\" },\n\n{\n  \"label\": \"秀洲区\",\n  \"value\": \"330411\" },\n\n{\n  \"label\": \"嘉善县\",\n  \"value\": \"330421\" },\n\n{\n  \"label\": \"海盐县\",\n  \"value\": \"330424\" },\n\n{\n  \"label\": \"海宁市\",\n  \"value\": \"330481\" },\n\n{\n  \"label\": \"平湖市\",\n  \"value\": \"330482\" },\n\n{\n  \"label\": \"桐乡市\",\n  \"value\": \"330483\" }],\n\n\n[{\n  \"label\": \"吴兴区\",\n  \"value\": \"330502\" },\n\n{\n  \"label\": \"南浔区\",\n  \"value\": \"330503\" },\n\n{\n  \"label\": \"德清县\",\n  \"value\": \"330521\" },\n\n{\n  \"label\": \"长兴县\",\n  \"value\": \"330522\" },\n\n{\n  \"label\": \"安吉县\",\n  \"value\": \"330523\" }],\n\n\n[{\n  \"label\": \"越城区\",\n  \"value\": \"330602\" },\n\n{\n  \"label\": \"柯桥区\",\n  \"value\": \"330603\" },\n\n{\n  \"label\": \"上虞区\",\n  \"value\": \"330604\" },\n\n{\n  \"label\": \"新昌县\",\n  \"value\": \"330624\" },\n\n{\n  \"label\": \"诸暨市\",\n  \"value\": \"330681\" },\n\n{\n  \"label\": \"嵊州市\",\n  \"value\": \"330683\" }],\n\n\n[{\n  \"label\": \"婺城区\",\n  \"value\": \"330702\" },\n\n{\n  \"label\": \"金东区\",\n  \"value\": \"330703\" },\n\n{\n  \"label\": \"武义县\",\n  \"value\": \"330723\" },\n\n{\n  \"label\": \"浦江县\",\n  \"value\": \"330726\" },\n\n{\n  \"label\": \"磐安县\",\n  \"value\": \"330727\" },\n\n{\n  \"label\": \"兰溪市\",\n  \"value\": \"330781\" },\n\n{\n  \"label\": \"义乌市\",\n  \"value\": \"330782\" },\n\n{\n  \"label\": \"东阳市\",\n  \"value\": \"330783\" },\n\n{\n  \"label\": \"永康市\",\n  \"value\": \"330784\" }],\n\n\n[{\n  \"label\": \"柯城区\",\n  \"value\": \"330802\" },\n\n{\n  \"label\": \"衢江区\",\n  \"value\": \"330803\" },\n\n{\n  \"label\": \"常山县\",\n  \"value\": \"330822\" },\n\n{\n  \"label\": \"开化县\",\n  \"value\": \"330824\" },\n\n{\n  \"label\": \"龙游县\",\n  \"value\": \"330825\" },\n\n{\n  \"label\": \"江山市\",\n  \"value\": \"330881\" }],\n\n\n[{\n  \"label\": \"定海区\",\n  \"value\": \"330902\" },\n\n{\n  \"label\": \"普陀区\",\n  \"value\": \"330903\" },\n\n{\n  \"label\": \"岱山县\",\n  \"value\": \"330921\" },\n\n{\n  \"label\": \"嵊泗县\",\n  \"value\": \"330922\" }],\n\n\n[{\n  \"label\": \"椒江区\",\n  \"value\": \"331002\" },\n\n{\n  \"label\": \"黄岩区\",\n  \"value\": \"331003\" },\n\n{\n  \"label\": \"路桥区\",\n  \"value\": \"331004\" },\n\n{\n  \"label\": \"三门县\",\n  \"value\": \"331022\" },\n\n{\n  \"label\": \"天台县\",\n  \"value\": \"331023\" },\n\n{\n  \"label\": \"仙居县\",\n  \"value\": \"331024\" },\n\n{\n  \"label\": \"温岭市\",\n  \"value\": \"331081\" },\n\n{\n  \"label\": \"临海市\",\n  \"value\": \"331082\" },\n\n{\n  \"label\": \"玉环市\",\n  \"value\": \"331083\" }],\n\n\n[{\n  \"label\": \"莲都区\",\n  \"value\": \"331102\" },\n\n{\n  \"label\": \"青田县\",\n  \"value\": \"331121\" },\n\n{\n  \"label\": \"缙云县\",\n  \"value\": \"331122\" },\n\n{\n  \"label\": \"遂昌县\",\n  \"value\": \"331123\" },\n\n{\n  \"label\": \"松阳县\",\n  \"value\": \"331124\" },\n\n{\n  \"label\": \"云和县\",\n  \"value\": \"331125\" },\n\n{\n  \"label\": \"庆元县\",\n  \"value\": \"331126\" },\n\n{\n  \"label\": \"景宁畲族自治县\",\n  \"value\": \"331127\" },\n\n{\n  \"label\": \"龙泉市\",\n  \"value\": \"331181\" }]],\n\n\n\n[\n[{\n  \"label\": \"瑶海区\",\n  \"value\": \"340102\" },\n\n{\n  \"label\": \"庐阳区\",\n  \"value\": \"340103\" },\n\n{\n  \"label\": \"蜀山区\",\n  \"value\": \"340104\" },\n\n{\n  \"label\": \"包河区\",\n  \"value\": \"340111\" },\n\n{\n  \"label\": \"长丰县\",\n  \"value\": \"340121\" },\n\n{\n  \"label\": \"肥东县\",\n  \"value\": \"340122\" },\n\n{\n  \"label\": \"肥西县\",\n  \"value\": \"340123\" },\n\n{\n  \"label\": \"庐江县\",\n  \"value\": \"340124\" },\n\n{\n  \"label\": \"合肥高新技术产业开发区\",\n  \"value\": \"340171\" },\n\n{\n  \"label\": \"合肥经济技术开发区\",\n  \"value\": \"340172\" },\n\n{\n  \"label\": \"合肥新站高新技术产业开发区\",\n  \"value\": \"340173\" },\n\n{\n  \"label\": \"巢湖市\",\n  \"value\": \"340181\" }],\n\n\n[{\n  \"label\": \"镜湖区\",\n  \"value\": \"340202\" },\n\n{\n  \"label\": \"弋江区\",\n  \"value\": \"340203\" },\n\n{\n  \"label\": \"鸠江区\",\n  \"value\": \"340207\" },\n\n{\n  \"label\": \"三山区\",\n  \"value\": \"340208\" },\n\n{\n  \"label\": \"芜湖县\",\n  \"value\": \"340221\" },\n\n{\n  \"label\": \"繁昌县\",\n  \"value\": \"340222\" },\n\n{\n  \"label\": \"南陵县\",\n  \"value\": \"340223\" },\n\n{\n  \"label\": \"无为县\",\n  \"value\": \"340225\" },\n\n{\n  \"label\": \"芜湖经济技术开发区\",\n  \"value\": \"340271\" },\n\n{\n  \"label\": \"安徽芜湖长江大桥经济开发区\",\n  \"value\": \"340272\" }],\n\n\n[{\n  \"label\": \"龙子湖区\",\n  \"value\": \"340302\" },\n\n{\n  \"label\": \"蚌山区\",\n  \"value\": \"340303\" },\n\n{\n  \"label\": \"禹会区\",\n  \"value\": \"340304\" },\n\n{\n  \"label\": \"淮上区\",\n  \"value\": \"340311\" },\n\n{\n  \"label\": \"怀远县\",\n  \"value\": \"340321\" },\n\n{\n  \"label\": \"五河县\",\n  \"value\": \"340322\" },\n\n{\n  \"label\": \"固镇县\",\n  \"value\": \"340323\" },\n\n{\n  \"label\": \"蚌埠市高新技术开发区\",\n  \"value\": \"340371\" },\n\n{\n  \"label\": \"蚌埠市经济开发区\",\n  \"value\": \"340372\" }],\n\n\n[{\n  \"label\": \"大通区\",\n  \"value\": \"340402\" },\n\n{\n  \"label\": \"田家庵区\",\n  \"value\": \"340403\" },\n\n{\n  \"label\": \"谢家集区\",\n  \"value\": \"340404\" },\n\n{\n  \"label\": \"八公山区\",\n  \"value\": \"340405\" },\n\n{\n  \"label\": \"潘集区\",\n  \"value\": \"340406\" },\n\n{\n  \"label\": \"凤台县\",\n  \"value\": \"340421\" },\n\n{\n  \"label\": \"寿县\",\n  \"value\": \"340422\" }],\n\n\n[{\n  \"label\": \"花山区\",\n  \"value\": \"340503\" },\n\n{\n  \"label\": \"雨山区\",\n  \"value\": \"340504\" },\n\n{\n  \"label\": \"博望区\",\n  \"value\": \"340506\" },\n\n{\n  \"label\": \"当涂县\",\n  \"value\": \"340521\" },\n\n{\n  \"label\": \"含山县\",\n  \"value\": \"340522\" },\n\n{\n  \"label\": \"和县\",\n  \"value\": \"340523\" }],\n\n\n[{\n  \"label\": \"杜集区\",\n  \"value\": \"340602\" },\n\n{\n  \"label\": \"相山区\",\n  \"value\": \"340603\" },\n\n{\n  \"label\": \"烈山区\",\n  \"value\": \"340604\" },\n\n{\n  \"label\": \"濉溪县\",\n  \"value\": \"340621\" }],\n\n\n[{\n  \"label\": \"铜官区\",\n  \"value\": \"340705\" },\n\n{\n  \"label\": \"义安区\",\n  \"value\": \"340706\" },\n\n{\n  \"label\": \"郊区\",\n  \"value\": \"340711\" },\n\n{\n  \"label\": \"枞阳县\",\n  \"value\": \"340722\" }],\n\n\n[{\n  \"label\": \"迎江区\",\n  \"value\": \"340802\" },\n\n{\n  \"label\": \"大观区\",\n  \"value\": \"340803\" },\n\n{\n  \"label\": \"宜秀区\",\n  \"value\": \"340811\" },\n\n{\n  \"label\": \"怀宁县\",\n  \"value\": \"340822\" },\n\n{\n  \"label\": \"潜山县\",\n  \"value\": \"340824\" },\n\n{\n  \"label\": \"太湖县\",\n  \"value\": \"340825\" },\n\n{\n  \"label\": \"宿松县\",\n  \"value\": \"340826\" },\n\n{\n  \"label\": \"望江县\",\n  \"value\": \"340827\" },\n\n{\n  \"label\": \"岳西县\",\n  \"value\": \"340828\" },\n\n{\n  \"label\": \"安徽安庆经济开发区\",\n  \"value\": \"340871\" },\n\n{\n  \"label\": \"桐城市\",\n  \"value\": \"340881\" }],\n\n\n[{\n  \"label\": \"屯溪区\",\n  \"value\": \"341002\" },\n\n{\n  \"label\": \"黄山区\",\n  \"value\": \"341003\" },\n\n{\n  \"label\": \"徽州区\",\n  \"value\": \"341004\" },\n\n{\n  \"label\": \"歙县\",\n  \"value\": \"341021\" },\n\n{\n  \"label\": \"休宁县\",\n  \"value\": \"341022\" },\n\n{\n  \"label\": \"黟县\",\n  \"value\": \"341023\" },\n\n{\n  \"label\": \"祁门县\",\n  \"value\": \"341024\" }],\n\n\n[{\n  \"label\": \"琅琊区\",\n  \"value\": \"341102\" },\n\n{\n  \"label\": \"南谯区\",\n  \"value\": \"341103\" },\n\n{\n  \"label\": \"来安县\",\n  \"value\": \"341122\" },\n\n{\n  \"label\": \"全椒县\",\n  \"value\": \"341124\" },\n\n{\n  \"label\": \"定远县\",\n  \"value\": \"341125\" },\n\n{\n  \"label\": \"凤阳县\",\n  \"value\": \"341126\" },\n\n{\n  \"label\": \"苏滁现代产业园\",\n  \"value\": \"341171\" },\n\n{\n  \"label\": \"滁州经济技术开发区\",\n  \"value\": \"341172\" },\n\n{\n  \"label\": \"天长市\",\n  \"value\": \"341181\" },\n\n{\n  \"label\": \"明光市\",\n  \"value\": \"341182\" }],\n\n\n[{\n  \"label\": \"颍州区\",\n  \"value\": \"341202\" },\n\n{\n  \"label\": \"颍东区\",\n  \"value\": \"341203\" },\n\n{\n  \"label\": \"颍泉区\",\n  \"value\": \"341204\" },\n\n{\n  \"label\": \"临泉县\",\n  \"value\": \"341221\" },\n\n{\n  \"label\": \"太和县\",\n  \"value\": \"341222\" },\n\n{\n  \"label\": \"阜南县\",\n  \"value\": \"341225\" },\n\n{\n  \"label\": \"颍上县\",\n  \"value\": \"341226\" },\n\n{\n  \"label\": \"阜阳合肥现代产业园区\",\n  \"value\": \"341271\" },\n\n{\n  \"label\": \"阜阳经济技术开发区\",\n  \"value\": \"341272\" },\n\n{\n  \"label\": \"界首市\",\n  \"value\": \"341282\" }],\n\n\n[{\n  \"label\": \"埇桥区\",\n  \"value\": \"341302\" },\n\n{\n  \"label\": \"砀山县\",\n  \"value\": \"341321\" },\n\n{\n  \"label\": \"萧县\",\n  \"value\": \"341322\" },\n\n{\n  \"label\": \"灵璧县\",\n  \"value\": \"341323\" },\n\n{\n  \"label\": \"泗县\",\n  \"value\": \"341324\" },\n\n{\n  \"label\": \"宿州马鞍山现代产业园区\",\n  \"value\": \"341371\" },\n\n{\n  \"label\": \"宿州经济技术开发区\",\n  \"value\": \"341372\" }],\n\n\n[{\n  \"label\": \"金安区\",\n  \"value\": \"341502\" },\n\n{\n  \"label\": \"裕安区\",\n  \"value\": \"341503\" },\n\n{\n  \"label\": \"叶集区\",\n  \"value\": \"341504\" },\n\n{\n  \"label\": \"霍邱县\",\n  \"value\": \"341522\" },\n\n{\n  \"label\": \"舒城县\",\n  \"value\": \"341523\" },\n\n{\n  \"label\": \"金寨县\",\n  \"value\": \"341524\" },\n\n{\n  \"label\": \"霍山县\",\n  \"value\": \"341525\" }],\n\n\n[{\n  \"label\": \"谯城区\",\n  \"value\": \"341602\" },\n\n{\n  \"label\": \"涡阳县\",\n  \"value\": \"341621\" },\n\n{\n  \"label\": \"蒙城县\",\n  \"value\": \"341622\" },\n\n{\n  \"label\": \"利辛县\",\n  \"value\": \"341623\" }],\n\n\n[{\n  \"label\": \"贵池区\",\n  \"value\": \"341702\" },\n\n{\n  \"label\": \"东至县\",\n  \"value\": \"341721\" },\n\n{\n  \"label\": \"石台县\",\n  \"value\": \"341722\" },\n\n{\n  \"label\": \"青阳县\",\n  \"value\": \"341723\" }],\n\n\n[{\n  \"label\": \"宣州区\",\n  \"value\": \"341802\" },\n\n{\n  \"label\": \"郎溪县\",\n  \"value\": \"341821\" },\n\n{\n  \"label\": \"广德县\",\n  \"value\": \"341822\" },\n\n{\n  \"label\": \"泾县\",\n  \"value\": \"341823\" },\n\n{\n  \"label\": \"绩溪县\",\n  \"value\": \"341824\" },\n\n{\n  \"label\": \"旌德县\",\n  \"value\": \"341825\" },\n\n{\n  \"label\": \"宣城市经济开发区\",\n  \"value\": \"341871\" },\n\n{\n  \"label\": \"宁国市\",\n  \"value\": \"341881\" }]],\n\n\n\n[\n[{\n  \"label\": \"鼓楼区\",\n  \"value\": \"350102\" },\n\n{\n  \"label\": \"台江区\",\n  \"value\": \"350103\" },\n\n{\n  \"label\": \"仓山区\",\n  \"value\": \"350104\" },\n\n{\n  \"label\": \"马尾区\",\n  \"value\": \"350105\" },\n\n{\n  \"label\": \"晋安区\",\n  \"value\": \"350111\" },\n\n{\n  \"label\": \"闽侯县\",\n  \"value\": \"350121\" },\n\n{\n  \"label\": \"连江县\",\n  \"value\": \"350122\" },\n\n{\n  \"label\": \"罗源县\",\n  \"value\": \"350123\" },\n\n{\n  \"label\": \"闽清县\",\n  \"value\": \"350124\" },\n\n{\n  \"label\": \"永泰县\",\n  \"value\": \"350125\" },\n\n{\n  \"label\": \"平潭县\",\n  \"value\": \"350128\" },\n\n{\n  \"label\": \"福清市\",\n  \"value\": \"350181\" },\n\n{\n  \"label\": \"长乐市\",\n  \"value\": \"350182\" }],\n\n\n[{\n  \"label\": \"思明区\",\n  \"value\": \"350203\" },\n\n{\n  \"label\": \"海沧区\",\n  \"value\": \"350205\" },\n\n{\n  \"label\": \"湖里区\",\n  \"value\": \"350206\" },\n\n{\n  \"label\": \"集美区\",\n  \"value\": \"350211\" },\n\n{\n  \"label\": \"同安区\",\n  \"value\": \"350212\" },\n\n{\n  \"label\": \"翔安区\",\n  \"value\": \"350213\" }],\n\n\n[{\n  \"label\": \"城厢区\",\n  \"value\": \"350302\" },\n\n{\n  \"label\": \"涵江区\",\n  \"value\": \"350303\" },\n\n{\n  \"label\": \"荔城区\",\n  \"value\": \"350304\" },\n\n{\n  \"label\": \"秀屿区\",\n  \"value\": \"350305\" },\n\n{\n  \"label\": \"仙游县\",\n  \"value\": \"350322\" }],\n\n\n[{\n  \"label\": \"梅列区\",\n  \"value\": \"350402\" },\n\n{\n  \"label\": \"三元区\",\n  \"value\": \"350403\" },\n\n{\n  \"label\": \"明溪县\",\n  \"value\": \"350421\" },\n\n{\n  \"label\": \"清流县\",\n  \"value\": \"350423\" },\n\n{\n  \"label\": \"宁化县\",\n  \"value\": \"350424\" },\n\n{\n  \"label\": \"大田县\",\n  \"value\": \"350425\" },\n\n{\n  \"label\": \"尤溪县\",\n  \"value\": \"350426\" },\n\n{\n  \"label\": \"沙县\",\n  \"value\": \"350427\" },\n\n{\n  \"label\": \"将乐县\",\n  \"value\": \"350428\" },\n\n{\n  \"label\": \"泰宁县\",\n  \"value\": \"350429\" },\n\n{\n  \"label\": \"建宁县\",\n  \"value\": \"350430\" },\n\n{\n  \"label\": \"永安市\",\n  \"value\": \"350481\" }],\n\n\n[{\n  \"label\": \"鲤城区\",\n  \"value\": \"350502\" },\n\n{\n  \"label\": \"丰泽区\",\n  \"value\": \"350503\" },\n\n{\n  \"label\": \"洛江区\",\n  \"value\": \"350504\" },\n\n{\n  \"label\": \"泉港区\",\n  \"value\": \"350505\" },\n\n{\n  \"label\": \"惠安县\",\n  \"value\": \"350521\" },\n\n{\n  \"label\": \"安溪县\",\n  \"value\": \"350524\" },\n\n{\n  \"label\": \"永春县\",\n  \"value\": \"350525\" },\n\n{\n  \"label\": \"德化县\",\n  \"value\": \"350526\" },\n\n{\n  \"label\": \"金门县\",\n  \"value\": \"350527\" },\n\n{\n  \"label\": \"石狮市\",\n  \"value\": \"350581\" },\n\n{\n  \"label\": \"晋江市\",\n  \"value\": \"350582\" },\n\n{\n  \"label\": \"南安市\",\n  \"value\": \"350583\" }],\n\n\n[{\n  \"label\": \"芗城区\",\n  \"value\": \"350602\" },\n\n{\n  \"label\": \"龙文区\",\n  \"value\": \"350603\" },\n\n{\n  \"label\": \"云霄县\",\n  \"value\": \"350622\" },\n\n{\n  \"label\": \"漳浦县\",\n  \"value\": \"350623\" },\n\n{\n  \"label\": \"诏安县\",\n  \"value\": \"350624\" },\n\n{\n  \"label\": \"长泰县\",\n  \"value\": \"350625\" },\n\n{\n  \"label\": \"东山县\",\n  \"value\": \"350626\" },\n\n{\n  \"label\": \"南靖县\",\n  \"value\": \"350627\" },\n\n{\n  \"label\": \"平和县\",\n  \"value\": \"350628\" },\n\n{\n  \"label\": \"华安县\",\n  \"value\": \"350629\" },\n\n{\n  \"label\": \"龙海市\",\n  \"value\": \"350681\" }],\n\n\n[{\n  \"label\": \"延平区\",\n  \"value\": \"350702\" },\n\n{\n  \"label\": \"建阳区\",\n  \"value\": \"350703\" },\n\n{\n  \"label\": \"顺昌县\",\n  \"value\": \"350721\" },\n\n{\n  \"label\": \"浦城县\",\n  \"value\": \"350722\" },\n\n{\n  \"label\": \"光泽县\",\n  \"value\": \"350723\" },\n\n{\n  \"label\": \"松溪县\",\n  \"value\": \"350724\" },\n\n{\n  \"label\": \"政和县\",\n  \"value\": \"350725\" },\n\n{\n  \"label\": \"邵武市\",\n  \"value\": \"350781\" },\n\n{\n  \"label\": \"武夷山市\",\n  \"value\": \"350782\" },\n\n{\n  \"label\": \"建瓯市\",\n  \"value\": \"350783\" }],\n\n\n[{\n  \"label\": \"新罗区\",\n  \"value\": \"350802\" },\n\n{\n  \"label\": \"永定区\",\n  \"value\": \"350803\" },\n\n{\n  \"label\": \"长汀县\",\n  \"value\": \"350821\" },\n\n{\n  \"label\": \"上杭县\",\n  \"value\": \"350823\" },\n\n{\n  \"label\": \"武平县\",\n  \"value\": \"350824\" },\n\n{\n  \"label\": \"连城县\",\n  \"value\": \"350825\" },\n\n{\n  \"label\": \"漳平市\",\n  \"value\": \"350881\" }],\n\n\n[{\n  \"label\": \"蕉城区\",\n  \"value\": \"350902\" },\n\n{\n  \"label\": \"霞浦县\",\n  \"value\": \"350921\" },\n\n{\n  \"label\": \"古田县\",\n  \"value\": \"350922\" },\n\n{\n  \"label\": \"屏南县\",\n  \"value\": \"350923\" },\n\n{\n  \"label\": \"寿宁县\",\n  \"value\": \"350924\" },\n\n{\n  \"label\": \"周宁县\",\n  \"value\": \"350925\" },\n\n{\n  \"label\": \"柘荣县\",\n  \"value\": \"350926\" },\n\n{\n  \"label\": \"福安市\",\n  \"value\": \"350981\" },\n\n{\n  \"label\": \"福鼎市\",\n  \"value\": \"350982\" }]],\n\n\n\n[\n[{\n  \"label\": \"东湖区\",\n  \"value\": \"360102\" },\n\n{\n  \"label\": \"西湖区\",\n  \"value\": \"360103\" },\n\n{\n  \"label\": \"青云谱区\",\n  \"value\": \"360104\" },\n\n{\n  \"label\": \"湾里区\",\n  \"value\": \"360105\" },\n\n{\n  \"label\": \"青山湖区\",\n  \"value\": \"360111\" },\n\n{\n  \"label\": \"新建区\",\n  \"value\": \"360112\" },\n\n{\n  \"label\": \"南昌县\",\n  \"value\": \"360121\" },\n\n{\n  \"label\": \"安义县\",\n  \"value\": \"360123\" },\n\n{\n  \"label\": \"进贤县\",\n  \"value\": \"360124\" }],\n\n\n[{\n  \"label\": \"昌江区\",\n  \"value\": \"360202\" },\n\n{\n  \"label\": \"珠山区\",\n  \"value\": \"360203\" },\n\n{\n  \"label\": \"浮梁县\",\n  \"value\": \"360222\" },\n\n{\n  \"label\": \"乐平市\",\n  \"value\": \"360281\" }],\n\n\n[{\n  \"label\": \"安源区\",\n  \"value\": \"360302\" },\n\n{\n  \"label\": \"湘东区\",\n  \"value\": \"360313\" },\n\n{\n  \"label\": \"莲花县\",\n  \"value\": \"360321\" },\n\n{\n  \"label\": \"上栗县\",\n  \"value\": \"360322\" },\n\n{\n  \"label\": \"芦溪县\",\n  \"value\": \"360323\" }],\n\n\n[{\n  \"label\": \"濂溪区\",\n  \"value\": \"360402\" },\n\n{\n  \"label\": \"浔阳区\",\n  \"value\": \"360403\" },\n\n{\n  \"label\": \"柴桑区\",\n  \"value\": \"360404\" },\n\n{\n  \"label\": \"武宁县\",\n  \"value\": \"360423\" },\n\n{\n  \"label\": \"修水县\",\n  \"value\": \"360424\" },\n\n{\n  \"label\": \"永修县\",\n  \"value\": \"360425\" },\n\n{\n  \"label\": \"德安县\",\n  \"value\": \"360426\" },\n\n{\n  \"label\": \"都昌县\",\n  \"value\": \"360428\" },\n\n{\n  \"label\": \"湖口县\",\n  \"value\": \"360429\" },\n\n{\n  \"label\": \"彭泽县\",\n  \"value\": \"360430\" },\n\n{\n  \"label\": \"瑞昌市\",\n  \"value\": \"360481\" },\n\n{\n  \"label\": \"共青城市\",\n  \"value\": \"360482\" },\n\n{\n  \"label\": \"庐山市\",\n  \"value\": \"360483\" }],\n\n\n[{\n  \"label\": \"渝水区\",\n  \"value\": \"360502\" },\n\n{\n  \"label\": \"分宜县\",\n  \"value\": \"360521\" }],\n\n\n[{\n  \"label\": \"月湖区\",\n  \"value\": \"360602\" },\n\n{\n  \"label\": \"余江县\",\n  \"value\": \"360622\" },\n\n{\n  \"label\": \"贵溪市\",\n  \"value\": \"360681\" }],\n\n\n[{\n  \"label\": \"章贡区\",\n  \"value\": \"360702\" },\n\n{\n  \"label\": \"南康区\",\n  \"value\": \"360703\" },\n\n{\n  \"label\": \"赣县区\",\n  \"value\": \"360704\" },\n\n{\n  \"label\": \"信丰县\",\n  \"value\": \"360722\" },\n\n{\n  \"label\": \"大余县\",\n  \"value\": \"360723\" },\n\n{\n  \"label\": \"上犹县\",\n  \"value\": \"360724\" },\n\n{\n  \"label\": \"崇义县\",\n  \"value\": \"360725\" },\n\n{\n  \"label\": \"安远县\",\n  \"value\": \"360726\" },\n\n{\n  \"label\": \"龙南县\",\n  \"value\": \"360727\" },\n\n{\n  \"label\": \"定南县\",\n  \"value\": \"360728\" },\n\n{\n  \"label\": \"全南县\",\n  \"value\": \"360729\" },\n\n{\n  \"label\": \"宁都县\",\n  \"value\": \"360730\" },\n\n{\n  \"label\": \"于都县\",\n  \"value\": \"360731\" },\n\n{\n  \"label\": \"兴国县\",\n  \"value\": \"360732\" },\n\n{\n  \"label\": \"会昌县\",\n  \"value\": \"360733\" },\n\n{\n  \"label\": \"寻乌县\",\n  \"value\": \"360734\" },\n\n{\n  \"label\": \"石城县\",\n  \"value\": \"360735\" },\n\n{\n  \"label\": \"瑞金市\",\n  \"value\": \"360781\" }],\n\n\n[{\n  \"label\": \"吉州区\",\n  \"value\": \"360802\" },\n\n{\n  \"label\": \"青原区\",\n  \"value\": \"360803\" },\n\n{\n  \"label\": \"吉安县\",\n  \"value\": \"360821\" },\n\n{\n  \"label\": \"吉水县\",\n  \"value\": \"360822\" },\n\n{\n  \"label\": \"峡江县\",\n  \"value\": \"360823\" },\n\n{\n  \"label\": \"新干县\",\n  \"value\": \"360824\" },\n\n{\n  \"label\": \"永丰县\",\n  \"value\": \"360825\" },\n\n{\n  \"label\": \"泰和县\",\n  \"value\": \"360826\" },\n\n{\n  \"label\": \"遂川县\",\n  \"value\": \"360827\" },\n\n{\n  \"label\": \"万安县\",\n  \"value\": \"360828\" },\n\n{\n  \"label\": \"安福县\",\n  \"value\": \"360829\" },\n\n{\n  \"label\": \"永新县\",\n  \"value\": \"360830\" },\n\n{\n  \"label\": \"井冈山市\",\n  \"value\": \"360881\" }],\n\n\n[{\n  \"label\": \"袁州区\",\n  \"value\": \"360902\" },\n\n{\n  \"label\": \"奉新县\",\n  \"value\": \"360921\" },\n\n{\n  \"label\": \"万载县\",\n  \"value\": \"360922\" },\n\n{\n  \"label\": \"上高县\",\n  \"value\": \"360923\" },\n\n{\n  \"label\": \"宜丰县\",\n  \"value\": \"360924\" },\n\n{\n  \"label\": \"靖安县\",\n  \"value\": \"360925\" },\n\n{\n  \"label\": \"铜鼓县\",\n  \"value\": \"360926\" },\n\n{\n  \"label\": \"丰城市\",\n  \"value\": \"360981\" },\n\n{\n  \"label\": \"樟树市\",\n  \"value\": \"360982\" },\n\n{\n  \"label\": \"高安市\",\n  \"value\": \"360983\" }],\n\n\n[{\n  \"label\": \"临川区\",\n  \"value\": \"361002\" },\n\n{\n  \"label\": \"东乡区\",\n  \"value\": \"361003\" },\n\n{\n  \"label\": \"南城县\",\n  \"value\": \"361021\" },\n\n{\n  \"label\": \"黎川县\",\n  \"value\": \"361022\" },\n\n{\n  \"label\": \"南丰县\",\n  \"value\": \"361023\" },\n\n{\n  \"label\": \"崇仁县\",\n  \"value\": \"361024\" },\n\n{\n  \"label\": \"乐安县\",\n  \"value\": \"361025\" },\n\n{\n  \"label\": \"宜黄县\",\n  \"value\": \"361026\" },\n\n{\n  \"label\": \"金溪县\",\n  \"value\": \"361027\" },\n\n{\n  \"label\": \"资溪县\",\n  \"value\": \"361028\" },\n\n{\n  \"label\": \"广昌县\",\n  \"value\": \"361030\" }],\n\n\n[{\n  \"label\": \"信州区\",\n  \"value\": \"361102\" },\n\n{\n  \"label\": \"广丰区\",\n  \"value\": \"361103\" },\n\n{\n  \"label\": \"上饶县\",\n  \"value\": \"361121\" },\n\n{\n  \"label\": \"玉山县\",\n  \"value\": \"361123\" },\n\n{\n  \"label\": \"铅山县\",\n  \"value\": \"361124\" },\n\n{\n  \"label\": \"横峰县\",\n  \"value\": \"361125\" },\n\n{\n  \"label\": \"弋阳县\",\n  \"value\": \"361126\" },\n\n{\n  \"label\": \"余干县\",\n  \"value\": \"361127\" },\n\n{\n  \"label\": \"鄱阳县\",\n  \"value\": \"361128\" },\n\n{\n  \"label\": \"万年县\",\n  \"value\": \"361129\" },\n\n{\n  \"label\": \"婺源县\",\n  \"value\": \"361130\" },\n\n{\n  \"label\": \"德兴市\",\n  \"value\": \"361181\" }]],\n\n\n\n[\n[{\n  \"label\": \"历下区\",\n  \"value\": \"370102\" },\n\n{\n  \"label\": \"市中区\",\n  \"value\": \"370103\" },\n\n{\n  \"label\": \"槐荫区\",\n  \"value\": \"370104\" },\n\n{\n  \"label\": \"天桥区\",\n  \"value\": \"370105\" },\n\n{\n  \"label\": \"历城区\",\n  \"value\": \"370112\" },\n\n{\n  \"label\": \"长清区\",\n  \"value\": \"370113\" },\n\n{\n  \"label\": \"章丘区\",\n  \"value\": \"370114\" },\n\n{\n  \"label\": \"平阴县\",\n  \"value\": \"370124\" },\n\n{\n  \"label\": \"济阳县\",\n  \"value\": \"370125\" },\n\n{\n  \"label\": \"商河县\",\n  \"value\": \"370126\" },\n\n{\n  \"label\": \"济南高新技术产业开发区\",\n  \"value\": \"370171\" }],\n\n\n[{\n  \"label\": \"市南区\",\n  \"value\": \"370202\" },\n\n{\n  \"label\": \"市北区\",\n  \"value\": \"370203\" },\n\n{\n  \"label\": \"黄岛区\",\n  \"value\": \"370211\" },\n\n{\n  \"label\": \"崂山区\",\n  \"value\": \"370212\" },\n\n{\n  \"label\": \"李沧区\",\n  \"value\": \"370213\" },\n\n{\n  \"label\": \"城阳区\",\n  \"value\": \"370214\" },\n\n{\n  \"label\": \"即墨区\",\n  \"value\": \"370215\" },\n\n{\n  \"label\": \"青岛高新技术产业开发区\",\n  \"value\": \"370271\" },\n\n{\n  \"label\": \"胶州市\",\n  \"value\": \"370281\" },\n\n{\n  \"label\": \"平度市\",\n  \"value\": \"370283\" },\n\n{\n  \"label\": \"莱西市\",\n  \"value\": \"370285\" }],\n\n\n[{\n  \"label\": \"淄川区\",\n  \"value\": \"370302\" },\n\n{\n  \"label\": \"张店区\",\n  \"value\": \"370303\" },\n\n{\n  \"label\": \"博山区\",\n  \"value\": \"370304\" },\n\n{\n  \"label\": \"临淄区\",\n  \"value\": \"370305\" },\n\n{\n  \"label\": \"周村区\",\n  \"value\": \"370306\" },\n\n{\n  \"label\": \"桓台县\",\n  \"value\": \"370321\" },\n\n{\n  \"label\": \"高青县\",\n  \"value\": \"370322\" },\n\n{\n  \"label\": \"沂源县\",\n  \"value\": \"370323\" }],\n\n\n[{\n  \"label\": \"市中区\",\n  \"value\": \"370402\" },\n\n{\n  \"label\": \"薛城区\",\n  \"value\": \"370403\" },\n\n{\n  \"label\": \"峄城区\",\n  \"value\": \"370404\" },\n\n{\n  \"label\": \"台儿庄区\",\n  \"value\": \"370405\" },\n\n{\n  \"label\": \"山亭区\",\n  \"value\": \"370406\" },\n\n{\n  \"label\": \"滕州市\",\n  \"value\": \"370481\" }],\n\n\n[{\n  \"label\": \"东营区\",\n  \"value\": \"370502\" },\n\n{\n  \"label\": \"河口区\",\n  \"value\": \"370503\" },\n\n{\n  \"label\": \"垦利区\",\n  \"value\": \"370505\" },\n\n{\n  \"label\": \"利津县\",\n  \"value\": \"370522\" },\n\n{\n  \"label\": \"广饶县\",\n  \"value\": \"370523\" },\n\n{\n  \"label\": \"东营经济技术开发区\",\n  \"value\": \"370571\" },\n\n{\n  \"label\": \"东营港经济开发区\",\n  \"value\": \"370572\" }],\n\n\n[{\n  \"label\": \"芝罘区\",\n  \"value\": \"370602\" },\n\n{\n  \"label\": \"福山区\",\n  \"value\": \"370611\" },\n\n{\n  \"label\": \"牟平区\",\n  \"value\": \"370612\" },\n\n{\n  \"label\": \"莱山区\",\n  \"value\": \"370613\" },\n\n{\n  \"label\": \"长岛县\",\n  \"value\": \"370634\" },\n\n{\n  \"label\": \"烟台高新技术产业开发区\",\n  \"value\": \"370671\" },\n\n{\n  \"label\": \"烟台经济技术开发区\",\n  \"value\": \"370672\" },\n\n{\n  \"label\": \"龙口市\",\n  \"value\": \"370681\" },\n\n{\n  \"label\": \"莱阳市\",\n  \"value\": \"370682\" },\n\n{\n  \"label\": \"莱州市\",\n  \"value\": \"370683\" },\n\n{\n  \"label\": \"蓬莱市\",\n  \"value\": \"370684\" },\n\n{\n  \"label\": \"招远市\",\n  \"value\": \"370685\" },\n\n{\n  \"label\": \"栖霞市\",\n  \"value\": \"370686\" },\n\n{\n  \"label\": \"海阳市\",\n  \"value\": \"370687\" }],\n\n\n[{\n  \"label\": \"潍城区\",\n  \"value\": \"370702\" },\n\n{\n  \"label\": \"寒亭区\",\n  \"value\": \"370703\" },\n\n{\n  \"label\": \"坊子区\",\n  \"value\": \"370704\" },\n\n{\n  \"label\": \"奎文区\",\n  \"value\": \"370705\" },\n\n{\n  \"label\": \"临朐县\",\n  \"value\": \"370724\" },\n\n{\n  \"label\": \"昌乐县\",\n  \"value\": \"370725\" },\n\n{\n  \"label\": \"潍坊滨海经济技术开发区\",\n  \"value\": \"370772\" },\n\n{\n  \"label\": \"青州市\",\n  \"value\": \"370781\" },\n\n{\n  \"label\": \"诸城市\",\n  \"value\": \"370782\" },\n\n{\n  \"label\": \"寿光市\",\n  \"value\": \"370783\" },\n\n{\n  \"label\": \"安丘市\",\n  \"value\": \"370784\" },\n\n{\n  \"label\": \"高密市\",\n  \"value\": \"370785\" },\n\n{\n  \"label\": \"昌邑市\",\n  \"value\": \"370786\" }],\n\n\n[{\n  \"label\": \"任城区\",\n  \"value\": \"370811\" },\n\n{\n  \"label\": \"兖州区\",\n  \"value\": \"370812\" },\n\n{\n  \"label\": \"微山县\",\n  \"value\": \"370826\" },\n\n{\n  \"label\": \"鱼台县\",\n  \"value\": \"370827\" },\n\n{\n  \"label\": \"金乡县\",\n  \"value\": \"370828\" },\n\n{\n  \"label\": \"嘉祥县\",\n  \"value\": \"370829\" },\n\n{\n  \"label\": \"汶上县\",\n  \"value\": \"370830\" },\n\n{\n  \"label\": \"泗水县\",\n  \"value\": \"370831\" },\n\n{\n  \"label\": \"梁山县\",\n  \"value\": \"370832\" },\n\n{\n  \"label\": \"济宁高新技术产业开发区\",\n  \"value\": \"370871\" },\n\n{\n  \"label\": \"曲阜市\",\n  \"value\": \"370881\" },\n\n{\n  \"label\": \"邹城市\",\n  \"value\": \"370883\" }],\n\n\n[{\n  \"label\": \"泰山区\",\n  \"value\": \"370902\" },\n\n{\n  \"label\": \"岱岳区\",\n  \"value\": \"370911\" },\n\n{\n  \"label\": \"宁阳县\",\n  \"value\": \"370921\" },\n\n{\n  \"label\": \"东平县\",\n  \"value\": \"370923\" },\n\n{\n  \"label\": \"新泰市\",\n  \"value\": \"370982\" },\n\n{\n  \"label\": \"肥城市\",\n  \"value\": \"370983\" }],\n\n\n[{\n  \"label\": \"环翠区\",\n  \"value\": \"371002\" },\n\n{\n  \"label\": \"文登区\",\n  \"value\": \"371003\" },\n\n{\n  \"label\": \"威海火炬高技术产业开发区\",\n  \"value\": \"371071\" },\n\n{\n  \"label\": \"威海经济技术开发区\",\n  \"value\": \"371072\" },\n\n{\n  \"label\": \"威海临港经济技术开发区\",\n  \"value\": \"371073\" },\n\n{\n  \"label\": \"荣成市\",\n  \"value\": \"371082\" },\n\n{\n  \"label\": \"乳山市\",\n  \"value\": \"371083\" }],\n\n\n[{\n  \"label\": \"东港区\",\n  \"value\": \"371102\" },\n\n{\n  \"label\": \"岚山区\",\n  \"value\": \"371103\" },\n\n{\n  \"label\": \"五莲县\",\n  \"value\": \"371121\" },\n\n{\n  \"label\": \"莒县\",\n  \"value\": \"371122\" },\n\n{\n  \"label\": \"日照经济技术开发区\",\n  \"value\": \"371171\" },\n\n{\n  \"label\": \"日照国际海洋城\",\n  \"value\": \"371172\" }],\n\n\n[{\n  \"label\": \"莱城区\",\n  \"value\": \"371202\" },\n\n{\n  \"label\": \"钢城区\",\n  \"value\": \"371203\" }],\n\n\n[{\n  \"label\": \"兰山区\",\n  \"value\": \"371302\" },\n\n{\n  \"label\": \"罗庄区\",\n  \"value\": \"371311\" },\n\n{\n  \"label\": \"河东区\",\n  \"value\": \"371312\" },\n\n{\n  \"label\": \"沂南县\",\n  \"value\": \"371321\" },\n\n{\n  \"label\": \"郯城县\",\n  \"value\": \"371322\" },\n\n{\n  \"label\": \"沂水县\",\n  \"value\": \"371323\" },\n\n{\n  \"label\": \"兰陵县\",\n  \"value\": \"371324\" },\n\n{\n  \"label\": \"费县\",\n  \"value\": \"371325\" },\n\n{\n  \"label\": \"平邑县\",\n  \"value\": \"371326\" },\n\n{\n  \"label\": \"莒南县\",\n  \"value\": \"371327\" },\n\n{\n  \"label\": \"蒙阴县\",\n  \"value\": \"371328\" },\n\n{\n  \"label\": \"临沭县\",\n  \"value\": \"371329\" },\n\n{\n  \"label\": \"临沂高新技术产业开发区\",\n  \"value\": \"371371\" },\n\n{\n  \"label\": \"临沂经济技术开发区\",\n  \"value\": \"371372\" },\n\n{\n  \"label\": \"临沂临港经济开发区\",\n  \"value\": \"371373\" }],\n\n\n[{\n  \"label\": \"德城区\",\n  \"value\": \"371402\" },\n\n{\n  \"label\": \"陵城区\",\n  \"value\": \"371403\" },\n\n{\n  \"label\": \"宁津县\",\n  \"value\": \"371422\" },\n\n{\n  \"label\": \"庆云县\",\n  \"value\": \"371423\" },\n\n{\n  \"label\": \"临邑县\",\n  \"value\": \"371424\" },\n\n{\n  \"label\": \"齐河县\",\n  \"value\": \"371425\" },\n\n{\n  \"label\": \"平原县\",\n  \"value\": \"371426\" },\n\n{\n  \"label\": \"夏津县\",\n  \"value\": \"371427\" },\n\n{\n  \"label\": \"武城县\",\n  \"value\": \"371428\" },\n\n{\n  \"label\": \"德州经济技术开发区\",\n  \"value\": \"371471\" },\n\n{\n  \"label\": \"德州运河经济开发区\",\n  \"value\": \"371472\" },\n\n{\n  \"label\": \"乐陵市\",\n  \"value\": \"371481\" },\n\n{\n  \"label\": \"禹城市\",\n  \"value\": \"371482\" }],\n\n\n[{\n  \"label\": \"东昌府区\",\n  \"value\": \"371502\" },\n\n{\n  \"label\": \"阳谷县\",\n  \"value\": \"371521\" },\n\n{\n  \"label\": \"莘县\",\n  \"value\": \"371522\" },\n\n{\n  \"label\": \"茌平县\",\n  \"value\": \"371523\" },\n\n{\n  \"label\": \"东阿县\",\n  \"value\": \"371524\" },\n\n{\n  \"label\": \"冠县\",\n  \"value\": \"371525\" },\n\n{\n  \"label\": \"高唐县\",\n  \"value\": \"371526\" },\n\n{\n  \"label\": \"临清市\",\n  \"value\": \"371581\" }],\n\n\n[{\n  \"label\": \"滨城区\",\n  \"value\": \"371602\" },\n\n{\n  \"label\": \"沾化区\",\n  \"value\": \"371603\" },\n\n{\n  \"label\": \"惠民县\",\n  \"value\": \"371621\" },\n\n{\n  \"label\": \"阳信县\",\n  \"value\": \"371622\" },\n\n{\n  \"label\": \"无棣县\",\n  \"value\": \"371623\" },\n\n{\n  \"label\": \"博兴县\",\n  \"value\": \"371625\" },\n\n{\n  \"label\": \"邹平县\",\n  \"value\": \"371626\" }],\n\n\n[{\n  \"label\": \"牡丹区\",\n  \"value\": \"371702\" },\n\n{\n  \"label\": \"定陶区\",\n  \"value\": \"371703\" },\n\n{\n  \"label\": \"曹县\",\n  \"value\": \"371721\" },\n\n{\n  \"label\": \"单县\",\n  \"value\": \"371722\" },\n\n{\n  \"label\": \"成武县\",\n  \"value\": \"371723\" },\n\n{\n  \"label\": \"巨野县\",\n  \"value\": \"371724\" },\n\n{\n  \"label\": \"郓城县\",\n  \"value\": \"371725\" },\n\n{\n  \"label\": \"鄄城县\",\n  \"value\": \"371726\" },\n\n{\n  \"label\": \"东明县\",\n  \"value\": \"371728\" },\n\n{\n  \"label\": \"菏泽经济技术开发区\",\n  \"value\": \"371771\" },\n\n{\n  \"label\": \"菏泽高新技术开发区\",\n  \"value\": \"371772\" }]],\n\n\n\n[\n[{\n  \"label\": \"中原区\",\n  \"value\": \"410102\" },\n\n{\n  \"label\": \"二七区\",\n  \"value\": \"410103\" },\n\n{\n  \"label\": \"管城回族区\",\n  \"value\": \"410104\" },\n\n{\n  \"label\": \"金水区\",\n  \"value\": \"410105\" },\n\n{\n  \"label\": \"上街区\",\n  \"value\": \"410106\" },\n\n{\n  \"label\": \"惠济区\",\n  \"value\": \"410108\" },\n\n{\n  \"label\": \"中牟县\",\n  \"value\": \"410122\" },\n\n{\n  \"label\": \"郑州经济技术开发区\",\n  \"value\": \"410171\" },\n\n{\n  \"label\": \"郑州高新技术产业开发区\",\n  \"value\": \"410172\" },\n\n{\n  \"label\": \"郑州航空港经济综合实验区\",\n  \"value\": \"410173\" },\n\n{\n  \"label\": \"巩义市\",\n  \"value\": \"410181\" },\n\n{\n  \"label\": \"荥阳市\",\n  \"value\": \"410182\" },\n\n{\n  \"label\": \"新密市\",\n  \"value\": \"410183\" },\n\n{\n  \"label\": \"新郑市\",\n  \"value\": \"410184\" },\n\n{\n  \"label\": \"登封市\",\n  \"value\": \"410185\" }],\n\n\n[{\n  \"label\": \"龙亭区\",\n  \"value\": \"410202\" },\n\n{\n  \"label\": \"顺河回族区\",\n  \"value\": \"410203\" },\n\n{\n  \"label\": \"鼓楼区\",\n  \"value\": \"410204\" },\n\n{\n  \"label\": \"禹王台区\",\n  \"value\": \"410205\" },\n\n{\n  \"label\": \"祥符区\",\n  \"value\": \"410212\" },\n\n{\n  \"label\": \"杞县\",\n  \"value\": \"410221\" },\n\n{\n  \"label\": \"通许县\",\n  \"value\": \"410222\" },\n\n{\n  \"label\": \"尉氏县\",\n  \"value\": \"410223\" },\n\n{\n  \"label\": \"兰考县\",\n  \"value\": \"410225\" }],\n\n\n[{\n  \"label\": \"老城区\",\n  \"value\": \"410302\" },\n\n{\n  \"label\": \"西工区\",\n  \"value\": \"410303\" },\n\n{\n  \"label\": \"瀍河回族区\",\n  \"value\": \"410304\" },\n\n{\n  \"label\": \"涧西区\",\n  \"value\": \"410305\" },\n\n{\n  \"label\": \"吉利区\",\n  \"value\": \"410306\" },\n\n{\n  \"label\": \"洛龙区\",\n  \"value\": \"410311\" },\n\n{\n  \"label\": \"孟津县\",\n  \"value\": \"410322\" },\n\n{\n  \"label\": \"新安县\",\n  \"value\": \"410323\" },\n\n{\n  \"label\": \"栾川县\",\n  \"value\": \"410324\" },\n\n{\n  \"label\": \"嵩县\",\n  \"value\": \"410325\" },\n\n{\n  \"label\": \"汝阳县\",\n  \"value\": \"410326\" },\n\n{\n  \"label\": \"宜阳县\",\n  \"value\": \"410327\" },\n\n{\n  \"label\": \"洛宁县\",\n  \"value\": \"410328\" },\n\n{\n  \"label\": \"伊川县\",\n  \"value\": \"410329\" },\n\n{\n  \"label\": \"洛阳高新技术产业开发区\",\n  \"value\": \"410371\" },\n\n{\n  \"label\": \"偃师市\",\n  \"value\": \"410381\" }],\n\n\n[{\n  \"label\": \"新华区\",\n  \"value\": \"410402\" },\n\n{\n  \"label\": \"卫东区\",\n  \"value\": \"410403\" },\n\n{\n  \"label\": \"石龙区\",\n  \"value\": \"410404\" },\n\n{\n  \"label\": \"湛河区\",\n  \"value\": \"410411\" },\n\n{\n  \"label\": \"宝丰县\",\n  \"value\": \"410421\" },\n\n{\n  \"label\": \"叶县\",\n  \"value\": \"410422\" },\n\n{\n  \"label\": \"鲁山县\",\n  \"value\": \"410423\" },\n\n{\n  \"label\": \"郏县\",\n  \"value\": \"410425\" },\n\n{\n  \"label\": \"平顶山高新技术产业开发区\",\n  \"value\": \"410471\" },\n\n{\n  \"label\": \"平顶山市新城区\",\n  \"value\": \"410472\" },\n\n{\n  \"label\": \"舞钢市\",\n  \"value\": \"410481\" },\n\n{\n  \"label\": \"汝州市\",\n  \"value\": \"410482\" }],\n\n\n[{\n  \"label\": \"文峰区\",\n  \"value\": \"410502\" },\n\n{\n  \"label\": \"北关区\",\n  \"value\": \"410503\" },\n\n{\n  \"label\": \"殷都区\",\n  \"value\": \"410505\" },\n\n{\n  \"label\": \"龙安区\",\n  \"value\": \"410506\" },\n\n{\n  \"label\": \"安阳县\",\n  \"value\": \"410522\" },\n\n{\n  \"label\": \"汤阴县\",\n  \"value\": \"410523\" },\n\n{\n  \"label\": \"滑县\",\n  \"value\": \"410526\" },\n\n{\n  \"label\": \"内黄县\",\n  \"value\": \"410527\" },\n\n{\n  \"label\": \"安阳高新技术产业开发区\",\n  \"value\": \"410571\" },\n\n{\n  \"label\": \"林州市\",\n  \"value\": \"410581\" }],\n\n\n[{\n  \"label\": \"鹤山区\",\n  \"value\": \"410602\" },\n\n{\n  \"label\": \"山城区\",\n  \"value\": \"410603\" },\n\n{\n  \"label\": \"淇滨区\",\n  \"value\": \"410611\" },\n\n{\n  \"label\": \"浚县\",\n  \"value\": \"410621\" },\n\n{\n  \"label\": \"淇县\",\n  \"value\": \"410622\" },\n\n{\n  \"label\": \"鹤壁经济技术开发区\",\n  \"value\": \"410671\" }],\n\n\n[{\n  \"label\": \"红旗区\",\n  \"value\": \"410702\" },\n\n{\n  \"label\": \"卫滨区\",\n  \"value\": \"410703\" },\n\n{\n  \"label\": \"凤泉区\",\n  \"value\": \"410704\" },\n\n{\n  \"label\": \"牧野区\",\n  \"value\": \"410711\" },\n\n{\n  \"label\": \"新乡县\",\n  \"value\": \"410721\" },\n\n{\n  \"label\": \"获嘉县\",\n  \"value\": \"410724\" },\n\n{\n  \"label\": \"原阳县\",\n  \"value\": \"410725\" },\n\n{\n  \"label\": \"延津县\",\n  \"value\": \"410726\" },\n\n{\n  \"label\": \"封丘县\",\n  \"value\": \"410727\" },\n\n{\n  \"label\": \"长垣县\",\n  \"value\": \"410728\" },\n\n{\n  \"label\": \"新乡高新技术产业开发区\",\n  \"value\": \"410771\" },\n\n{\n  \"label\": \"新乡经济技术开发区\",\n  \"value\": \"410772\" },\n\n{\n  \"label\": \"新乡市平原城乡一体化示范区\",\n  \"value\": \"410773\" },\n\n{\n  \"label\": \"卫辉市\",\n  \"value\": \"410781\" },\n\n{\n  \"label\": \"辉县市\",\n  \"value\": \"410782\" }],\n\n\n[{\n  \"label\": \"解放区\",\n  \"value\": \"410802\" },\n\n{\n  \"label\": \"中站区\",\n  \"value\": \"410803\" },\n\n{\n  \"label\": \"马村区\",\n  \"value\": \"410804\" },\n\n{\n  \"label\": \"山阳区\",\n  \"value\": \"410811\" },\n\n{\n  \"label\": \"修武县\",\n  \"value\": \"410821\" },\n\n{\n  \"label\": \"博爱县\",\n  \"value\": \"410822\" },\n\n{\n  \"label\": \"武陟县\",\n  \"value\": \"410823\" },\n\n{\n  \"label\": \"温县\",\n  \"value\": \"410825\" },\n\n{\n  \"label\": \"焦作城乡一体化示范区\",\n  \"value\": \"410871\" },\n\n{\n  \"label\": \"沁阳市\",\n  \"value\": \"410882\" },\n\n{\n  \"label\": \"孟州市\",\n  \"value\": \"410883\" }],\n\n\n[{\n  \"label\": \"华龙区\",\n  \"value\": \"410902\" },\n\n{\n  \"label\": \"清丰县\",\n  \"value\": \"410922\" },\n\n{\n  \"label\": \"南乐县\",\n  \"value\": \"410923\" },\n\n{\n  \"label\": \"范县\",\n  \"value\": \"410926\" },\n\n{\n  \"label\": \"台前县\",\n  \"value\": \"410927\" },\n\n{\n  \"label\": \"濮阳县\",\n  \"value\": \"410928\" },\n\n{\n  \"label\": \"河南濮阳工业园区\",\n  \"value\": \"410971\" },\n\n{\n  \"label\": \"濮阳经济技术开发区\",\n  \"value\": \"410972\" }],\n\n\n[{\n  \"label\": \"魏都区\",\n  \"value\": \"411002\" },\n\n{\n  \"label\": \"建安区\",\n  \"value\": \"411003\" },\n\n{\n  \"label\": \"鄢陵县\",\n  \"value\": \"411024\" },\n\n{\n  \"label\": \"襄城县\",\n  \"value\": \"411025\" },\n\n{\n  \"label\": \"许昌经济技术开发区\",\n  \"value\": \"411071\" },\n\n{\n  \"label\": \"禹州市\",\n  \"value\": \"411081\" },\n\n{\n  \"label\": \"长葛市\",\n  \"value\": \"411082\" }],\n\n\n[{\n  \"label\": \"源汇区\",\n  \"value\": \"411102\" },\n\n{\n  \"label\": \"郾城区\",\n  \"value\": \"411103\" },\n\n{\n  \"label\": \"召陵区\",\n  \"value\": \"411104\" },\n\n{\n  \"label\": \"舞阳县\",\n  \"value\": \"411121\" },\n\n{\n  \"label\": \"临颍县\",\n  \"value\": \"411122\" },\n\n{\n  \"label\": \"漯河经济技术开发区\",\n  \"value\": \"411171\" }],\n\n\n[{\n  \"label\": \"湖滨区\",\n  \"value\": \"411202\" },\n\n{\n  \"label\": \"陕州区\",\n  \"value\": \"411203\" },\n\n{\n  \"label\": \"渑池县\",\n  \"value\": \"411221\" },\n\n{\n  \"label\": \"卢氏县\",\n  \"value\": \"411224\" },\n\n{\n  \"label\": \"河南三门峡经济开发区\",\n  \"value\": \"411271\" },\n\n{\n  \"label\": \"义马市\",\n  \"value\": \"411281\" },\n\n{\n  \"label\": \"灵宝市\",\n  \"value\": \"411282\" }],\n\n\n[{\n  \"label\": \"宛城区\",\n  \"value\": \"411302\" },\n\n{\n  \"label\": \"卧龙区\",\n  \"value\": \"411303\" },\n\n{\n  \"label\": \"南召县\",\n  \"value\": \"411321\" },\n\n{\n  \"label\": \"方城县\",\n  \"value\": \"411322\" },\n\n{\n  \"label\": \"西峡县\",\n  \"value\": \"411323\" },\n\n{\n  \"label\": \"镇平县\",\n  \"value\": \"411324\" },\n\n{\n  \"label\": \"内乡县\",\n  \"value\": \"411325\" },\n\n{\n  \"label\": \"淅川县\",\n  \"value\": \"411326\" },\n\n{\n  \"label\": \"社旗县\",\n  \"value\": \"411327\" },\n\n{\n  \"label\": \"唐河县\",\n  \"value\": \"411328\" },\n\n{\n  \"label\": \"新野县\",\n  \"value\": \"411329\" },\n\n{\n  \"label\": \"桐柏县\",\n  \"value\": \"411330\" },\n\n{\n  \"label\": \"南阳高新技术产业开发区\",\n  \"value\": \"411371\" },\n\n{\n  \"label\": \"南阳市城乡一体化示范区\",\n  \"value\": \"411372\" },\n\n{\n  \"label\": \"邓州市\",\n  \"value\": \"411381\" }],\n\n\n[{\n  \"label\": \"梁园区\",\n  \"value\": \"411402\" },\n\n{\n  \"label\": \"睢阳区\",\n  \"value\": \"411403\" },\n\n{\n  \"label\": \"民权县\",\n  \"value\": \"411421\" },\n\n{\n  \"label\": \"睢县\",\n  \"value\": \"411422\" },\n\n{\n  \"label\": \"宁陵县\",\n  \"value\": \"411423\" },\n\n{\n  \"label\": \"柘城县\",\n  \"value\": \"411424\" },\n\n{\n  \"label\": \"虞城县\",\n  \"value\": \"411425\" },\n\n{\n  \"label\": \"夏邑县\",\n  \"value\": \"411426\" },\n\n{\n  \"label\": \"豫东综合物流产业聚集区\",\n  \"value\": \"411471\" },\n\n{\n  \"label\": \"河南商丘经济开发区\",\n  \"value\": \"411472\" },\n\n{\n  \"label\": \"永城市\",\n  \"value\": \"411481\" }],\n\n\n[{\n  \"label\": \"浉河区\",\n  \"value\": \"411502\" },\n\n{\n  \"label\": \"平桥区\",\n  \"value\": \"411503\" },\n\n{\n  \"label\": \"罗山县\",\n  \"value\": \"411521\" },\n\n{\n  \"label\": \"光山县\",\n  \"value\": \"411522\" },\n\n{\n  \"label\": \"新县\",\n  \"value\": \"411523\" },\n\n{\n  \"label\": \"商城县\",\n  \"value\": \"411524\" },\n\n{\n  \"label\": \"固始县\",\n  \"value\": \"411525\" },\n\n{\n  \"label\": \"潢川县\",\n  \"value\": \"411526\" },\n\n{\n  \"label\": \"淮滨县\",\n  \"value\": \"411527\" },\n\n{\n  \"label\": \"息县\",\n  \"value\": \"411528\" },\n\n{\n  \"label\": \"信阳高新技术产业开发区\",\n  \"value\": \"411571\" }],\n\n\n[{\n  \"label\": \"川汇区\",\n  \"value\": \"411602\" },\n\n{\n  \"label\": \"扶沟县\",\n  \"value\": \"411621\" },\n\n{\n  \"label\": \"西华县\",\n  \"value\": \"411622\" },\n\n{\n  \"label\": \"商水县\",\n  \"value\": \"411623\" },\n\n{\n  \"label\": \"沈丘县\",\n  \"value\": \"411624\" },\n\n{\n  \"label\": \"郸城县\",\n  \"value\": \"411625\" },\n\n{\n  \"label\": \"淮阳县\",\n  \"value\": \"411626\" },\n\n{\n  \"label\": \"太康县\",\n  \"value\": \"411627\" },\n\n{\n  \"label\": \"鹿邑县\",\n  \"value\": \"411628\" },\n\n{\n  \"label\": \"河南周口经济开发区\",\n  \"value\": \"411671\" },\n\n{\n  \"label\": \"项城市\",\n  \"value\": \"411681\" }],\n\n\n[{\n  \"label\": \"驿城区\",\n  \"value\": \"411702\" },\n\n{\n  \"label\": \"西平县\",\n  \"value\": \"411721\" },\n\n{\n  \"label\": \"上蔡县\",\n  \"value\": \"411722\" },\n\n{\n  \"label\": \"平舆县\",\n  \"value\": \"411723\" },\n\n{\n  \"label\": \"正阳县\",\n  \"value\": \"411724\" },\n\n{\n  \"label\": \"确山县\",\n  \"value\": \"411725\" },\n\n{\n  \"label\": \"泌阳县\",\n  \"value\": \"411726\" },\n\n{\n  \"label\": \"汝南县\",\n  \"value\": \"411727\" },\n\n{\n  \"label\": \"遂平县\",\n  \"value\": \"411728\" },\n\n{\n  \"label\": \"新蔡县\",\n  \"value\": \"411729\" },\n\n{\n  \"label\": \"河南驻马店经济开发区\",\n  \"value\": \"411771\" }],\n\n\n[{\n  \"label\": \"济源市\",\n  \"value\": \"419001\" }]],\n\n\n[\n[{\n  \"label\": \"江岸区\",\n  \"value\": \"420102\" },\n\n{\n  \"label\": \"江汉区\",\n  \"value\": \"420103\" },\n\n{\n  \"label\": \"硚口区\",\n  \"value\": \"420104\" },\n\n{\n  \"label\": \"汉阳区\",\n  \"value\": \"420105\" },\n\n{\n  \"label\": \"武昌区\",\n  \"value\": \"420106\" },\n\n{\n  \"label\": \"青山区\",\n  \"value\": \"420107\" },\n\n{\n  \"label\": \"洪山区\",\n  \"value\": \"420111\" },\n\n{\n  \"label\": \"东西湖区\",\n  \"value\": \"420112\" },\n\n{\n  \"label\": \"汉南区\",\n  \"value\": \"420113\" },\n\n{\n  \"label\": \"蔡甸区\",\n  \"value\": \"420114\" },\n\n{\n  \"label\": \"江夏区\",\n  \"value\": \"420115\" },\n\n{\n  \"label\": \"黄陂区\",\n  \"value\": \"420116\" },\n\n{\n  \"label\": \"新洲区\",\n  \"value\": \"420117\" }],\n\n\n[{\n  \"label\": \"黄石港区\",\n  \"value\": \"420202\" },\n\n{\n  \"label\": \"西塞山区\",\n  \"value\": \"420203\" },\n\n{\n  \"label\": \"下陆区\",\n  \"value\": \"420204\" },\n\n{\n  \"label\": \"铁山区\",\n  \"value\": \"420205\" },\n\n{\n  \"label\": \"阳新县\",\n  \"value\": \"420222\" },\n\n{\n  \"label\": \"大冶市\",\n  \"value\": \"420281\" }],\n\n\n[{\n  \"label\": \"茅箭区\",\n  \"value\": \"420302\" },\n\n{\n  \"label\": \"张湾区\",\n  \"value\": \"420303\" },\n\n{\n  \"label\": \"郧阳区\",\n  \"value\": \"420304\" },\n\n{\n  \"label\": \"郧西县\",\n  \"value\": \"420322\" },\n\n{\n  \"label\": \"竹山县\",\n  \"value\": \"420323\" },\n\n{\n  \"label\": \"竹溪县\",\n  \"value\": \"420324\" },\n\n{\n  \"label\": \"房县\",\n  \"value\": \"420325\" },\n\n{\n  \"label\": \"丹江口市\",\n  \"value\": \"420381\" }],\n\n\n[{\n  \"label\": \"西陵区\",\n  \"value\": \"420502\" },\n\n{\n  \"label\": \"伍家岗区\",\n  \"value\": \"420503\" },\n\n{\n  \"label\": \"点军区\",\n  \"value\": \"420504\" },\n\n{\n  \"label\": \"猇亭区\",\n  \"value\": \"420505\" },\n\n{\n  \"label\": \"夷陵区\",\n  \"value\": \"420506\" },\n\n{\n  \"label\": \"远安县\",\n  \"value\": \"420525\" },\n\n{\n  \"label\": \"兴山县\",\n  \"value\": \"420526\" },\n\n{\n  \"label\": \"秭归县\",\n  \"value\": \"420527\" },\n\n{\n  \"label\": \"长阳土家族自治县\",\n  \"value\": \"420528\" },\n\n{\n  \"label\": \"五峰土家族自治县\",\n  \"value\": \"420529\" },\n\n{\n  \"label\": \"宜都市\",\n  \"value\": \"420581\" },\n\n{\n  \"label\": \"当阳市\",\n  \"value\": \"420582\" },\n\n{\n  \"label\": \"枝江市\",\n  \"value\": \"420583\" }],\n\n\n[{\n  \"label\": \"襄城区\",\n  \"value\": \"420602\" },\n\n{\n  \"label\": \"樊城区\",\n  \"value\": \"420606\" },\n\n{\n  \"label\": \"襄州区\",\n  \"value\": \"420607\" },\n\n{\n  \"label\": \"南漳县\",\n  \"value\": \"420624\" },\n\n{\n  \"label\": \"谷城县\",\n  \"value\": \"420625\" },\n\n{\n  \"label\": \"保康县\",\n  \"value\": \"420626\" },\n\n{\n  \"label\": \"老河口市\",\n  \"value\": \"420682\" },\n\n{\n  \"label\": \"枣阳市\",\n  \"value\": \"420683\" },\n\n{\n  \"label\": \"宜城市\",\n  \"value\": \"420684\" }],\n\n\n[{\n  \"label\": \"梁子湖区\",\n  \"value\": \"420702\" },\n\n{\n  \"label\": \"华容区\",\n  \"value\": \"420703\" },\n\n{\n  \"label\": \"鄂城区\",\n  \"value\": \"420704\" }],\n\n\n[{\n  \"label\": \"东宝区\",\n  \"value\": \"420802\" },\n\n{\n  \"label\": \"掇刀区\",\n  \"value\": \"420804\" },\n\n{\n  \"label\": \"京山县\",\n  \"value\": \"420821\" },\n\n{\n  \"label\": \"沙洋县\",\n  \"value\": \"420822\" },\n\n{\n  \"label\": \"钟祥市\",\n  \"value\": \"420881\" }],\n\n\n[{\n  \"label\": \"孝南区\",\n  \"value\": \"420902\" },\n\n{\n  \"label\": \"孝昌县\",\n  \"value\": \"420921\" },\n\n{\n  \"label\": \"大悟县\",\n  \"value\": \"420922\" },\n\n{\n  \"label\": \"云梦县\",\n  \"value\": \"420923\" },\n\n{\n  \"label\": \"应城市\",\n  \"value\": \"420981\" },\n\n{\n  \"label\": \"安陆市\",\n  \"value\": \"420982\" },\n\n{\n  \"label\": \"汉川市\",\n  \"value\": \"420984\" }],\n\n\n[{\n  \"label\": \"沙市区\",\n  \"value\": \"421002\" },\n\n{\n  \"label\": \"荆州区\",\n  \"value\": \"421003\" },\n\n{\n  \"label\": \"公安县\",\n  \"value\": \"421022\" },\n\n{\n  \"label\": \"监利县\",\n  \"value\": \"421023\" },\n\n{\n  \"label\": \"江陵县\",\n  \"value\": \"421024\" },\n\n{\n  \"label\": \"荆州经济技术开发区\",\n  \"value\": \"421071\" },\n\n{\n  \"label\": \"石首市\",\n  \"value\": \"421081\" },\n\n{\n  \"label\": \"洪湖市\",\n  \"value\": \"421083\" },\n\n{\n  \"label\": \"松滋市\",\n  \"value\": \"421087\" }],\n\n\n[{\n  \"label\": \"黄州区\",\n  \"value\": \"421102\" },\n\n{\n  \"label\": \"团风县\",\n  \"value\": \"421121\" },\n\n{\n  \"label\": \"红安县\",\n  \"value\": \"421122\" },\n\n{\n  \"label\": \"罗田县\",\n  \"value\": \"421123\" },\n\n{\n  \"label\": \"英山县\",\n  \"value\": \"421124\" },\n\n{\n  \"label\": \"浠水县\",\n  \"value\": \"421125\" },\n\n{\n  \"label\": \"蕲春县\",\n  \"value\": \"421126\" },\n\n{\n  \"label\": \"黄梅县\",\n  \"value\": \"421127\" },\n\n{\n  \"label\": \"龙感湖管理区\",\n  \"value\": \"421171\" },\n\n{\n  \"label\": \"麻城市\",\n  \"value\": \"421181\" },\n\n{\n  \"label\": \"武穴市\",\n  \"value\": \"421182\" }],\n\n\n[{\n  \"label\": \"咸安区\",\n  \"value\": \"421202\" },\n\n{\n  \"label\": \"嘉鱼县\",\n  \"value\": \"421221\" },\n\n{\n  \"label\": \"通城县\",\n  \"value\": \"421222\" },\n\n{\n  \"label\": \"崇阳县\",\n  \"value\": \"421223\" },\n\n{\n  \"label\": \"通山县\",\n  \"value\": \"421224\" },\n\n{\n  \"label\": \"赤壁市\",\n  \"value\": \"421281\" }],\n\n\n[{\n  \"label\": \"曾都区\",\n  \"value\": \"421303\" },\n\n{\n  \"label\": \"随县\",\n  \"value\": \"421321\" },\n\n{\n  \"label\": \"广水市\",\n  \"value\": \"421381\" }],\n\n\n[{\n  \"label\": \"恩施市\",\n  \"value\": \"422801\" },\n\n{\n  \"label\": \"利川市\",\n  \"value\": \"422802\" },\n\n{\n  \"label\": \"建始县\",\n  \"value\": \"422822\" },\n\n{\n  \"label\": \"巴东县\",\n  \"value\": \"422823\" },\n\n{\n  \"label\": \"宣恩县\",\n  \"value\": \"422825\" },\n\n{\n  \"label\": \"咸丰县\",\n  \"value\": \"422826\" },\n\n{\n  \"label\": \"来凤县\",\n  \"value\": \"422827\" },\n\n{\n  \"label\": \"鹤峰县\",\n  \"value\": \"422828\" }],\n\n\n[{\n  \"label\": \"仙桃市\",\n  \"value\": \"429004\" },\n\n{\n  \"label\": \"潜江市\",\n  \"value\": \"429005\" },\n\n{\n  \"label\": \"天门市\",\n  \"value\": \"429006\" },\n\n{\n  \"label\": \"神农架林区\",\n  \"value\": \"429021\" }]],\n\n\n\n[\n[{\n  \"label\": \"芙蓉区\",\n  \"value\": \"430102\" },\n\n{\n  \"label\": \"天心区\",\n  \"value\": \"430103\" },\n\n{\n  \"label\": \"岳麓区\",\n  \"value\": \"430104\" },\n\n{\n  \"label\": \"开福区\",\n  \"value\": \"430105\" },\n\n{\n  \"label\": \"雨花区\",\n  \"value\": \"430111\" },\n\n{\n  \"label\": \"望城区\",\n  \"value\": \"430112\" },\n\n{\n  \"label\": \"长沙县\",\n  \"value\": \"430121\" },\n\n{\n  \"label\": \"浏阳市\",\n  \"value\": \"430181\" },\n\n{\n  \"label\": \"宁乡市\",\n  \"value\": \"430182\" }],\n\n\n[{\n  \"label\": \"荷塘区\",\n  \"value\": \"430202\" },\n\n{\n  \"label\": \"芦淞区\",\n  \"value\": \"430203\" },\n\n{\n  \"label\": \"石峰区\",\n  \"value\": \"430204\" },\n\n{\n  \"label\": \"天元区\",\n  \"value\": \"430211\" },\n\n{\n  \"label\": \"株洲县\",\n  \"value\": \"430221\" },\n\n{\n  \"label\": \"攸县\",\n  \"value\": \"430223\" },\n\n{\n  \"label\": \"茶陵县\",\n  \"value\": \"430224\" },\n\n{\n  \"label\": \"炎陵县\",\n  \"value\": \"430225\" },\n\n{\n  \"label\": \"云龙示范区\",\n  \"value\": \"430271\" },\n\n{\n  \"label\": \"醴陵市\",\n  \"value\": \"430281\" }],\n\n\n[{\n  \"label\": \"雨湖区\",\n  \"value\": \"430302\" },\n\n{\n  \"label\": \"岳塘区\",\n  \"value\": \"430304\" },\n\n{\n  \"label\": \"湘潭县\",\n  \"value\": \"430321\" },\n\n{\n  \"label\": \"湖南湘潭高新技术产业园区\",\n  \"value\": \"430371\" },\n\n{\n  \"label\": \"湘潭昭山示范区\",\n  \"value\": \"430372\" },\n\n{\n  \"label\": \"湘潭九华示范区\",\n  \"value\": \"430373\" },\n\n{\n  \"label\": \"湘乡市\",\n  \"value\": \"430381\" },\n\n{\n  \"label\": \"韶山市\",\n  \"value\": \"430382\" }],\n\n\n[{\n  \"label\": \"珠晖区\",\n  \"value\": \"430405\" },\n\n{\n  \"label\": \"雁峰区\",\n  \"value\": \"430406\" },\n\n{\n  \"label\": \"石鼓区\",\n  \"value\": \"430407\" },\n\n{\n  \"label\": \"蒸湘区\",\n  \"value\": \"430408\" },\n\n{\n  \"label\": \"南岳区\",\n  \"value\": \"430412\" },\n\n{\n  \"label\": \"衡阳县\",\n  \"value\": \"430421\" },\n\n{\n  \"label\": \"衡南县\",\n  \"value\": \"430422\" },\n\n{\n  \"label\": \"衡山县\",\n  \"value\": \"430423\" },\n\n{\n  \"label\": \"衡东县\",\n  \"value\": \"430424\" },\n\n{\n  \"label\": \"祁东县\",\n  \"value\": \"430426\" },\n\n{\n  \"label\": \"衡阳综合保税区\",\n  \"value\": \"430471\" },\n\n{\n  \"label\": \"湖南衡阳高新技术产业园区\",\n  \"value\": \"430472\" },\n\n{\n  \"label\": \"湖南衡阳松木经济开发区\",\n  \"value\": \"430473\" },\n\n{\n  \"label\": \"耒阳市\",\n  \"value\": \"430481\" },\n\n{\n  \"label\": \"常宁市\",\n  \"value\": \"430482\" }],\n\n\n[{\n  \"label\": \"双清区\",\n  \"value\": \"430502\" },\n\n{\n  \"label\": \"大祥区\",\n  \"value\": \"430503\" },\n\n{\n  \"label\": \"北塔区\",\n  \"value\": \"430511\" },\n\n{\n  \"label\": \"邵东县\",\n  \"value\": \"430521\" },\n\n{\n  \"label\": \"新邵县\",\n  \"value\": \"430522\" },\n\n{\n  \"label\": \"邵阳县\",\n  \"value\": \"430523\" },\n\n{\n  \"label\": \"隆回县\",\n  \"value\": \"430524\" },\n\n{\n  \"label\": \"洞口县\",\n  \"value\": \"430525\" },\n\n{\n  \"label\": \"绥宁县\",\n  \"value\": \"430527\" },\n\n{\n  \"label\": \"新宁县\",\n  \"value\": \"430528\" },\n\n{\n  \"label\": \"城步苗族自治县\",\n  \"value\": \"430529\" },\n\n{\n  \"label\": \"武冈市\",\n  \"value\": \"430581\" }],\n\n\n[{\n  \"label\": \"岳阳楼区\",\n  \"value\": \"430602\" },\n\n{\n  \"label\": \"云溪区\",\n  \"value\": \"430603\" },\n\n{\n  \"label\": \"君山区\",\n  \"value\": \"430611\" },\n\n{\n  \"label\": \"岳阳县\",\n  \"value\": \"430621\" },\n\n{\n  \"label\": \"华容县\",\n  \"value\": \"430623\" },\n\n{\n  \"label\": \"湘阴县\",\n  \"value\": \"430624\" },\n\n{\n  \"label\": \"平江县\",\n  \"value\": \"430626\" },\n\n{\n  \"label\": \"岳阳市屈原管理区\",\n  \"value\": \"430671\" },\n\n{\n  \"label\": \"汨罗市\",\n  \"value\": \"430681\" },\n\n{\n  \"label\": \"临湘市\",\n  \"value\": \"430682\" }],\n\n\n[{\n  \"label\": \"武陵区\",\n  \"value\": \"430702\" },\n\n{\n  \"label\": \"鼎城区\",\n  \"value\": \"430703\" },\n\n{\n  \"label\": \"安乡县\",\n  \"value\": \"430721\" },\n\n{\n  \"label\": \"汉寿县\",\n  \"value\": \"430722\" },\n\n{\n  \"label\": \"澧县\",\n  \"value\": \"430723\" },\n\n{\n  \"label\": \"临澧县\",\n  \"value\": \"430724\" },\n\n{\n  \"label\": \"桃源县\",\n  \"value\": \"430725\" },\n\n{\n  \"label\": \"石门县\",\n  \"value\": \"430726\" },\n\n{\n  \"label\": \"常德市西洞庭管理区\",\n  \"value\": \"430771\" },\n\n{\n  \"label\": \"津市市\",\n  \"value\": \"430781\" }],\n\n\n[{\n  \"label\": \"永定区\",\n  \"value\": \"430802\" },\n\n{\n  \"label\": \"武陵源区\",\n  \"value\": \"430811\" },\n\n{\n  \"label\": \"慈利县\",\n  \"value\": \"430821\" },\n\n{\n  \"label\": \"桑植县\",\n  \"value\": \"430822\" }],\n\n\n[{\n  \"label\": \"资阳区\",\n  \"value\": \"430902\" },\n\n{\n  \"label\": \"赫山区\",\n  \"value\": \"430903\" },\n\n{\n  \"label\": \"南县\",\n  \"value\": \"430921\" },\n\n{\n  \"label\": \"桃江县\",\n  \"value\": \"430922\" },\n\n{\n  \"label\": \"安化县\",\n  \"value\": \"430923\" },\n\n{\n  \"label\": \"益阳市大通湖管理区\",\n  \"value\": \"430971\" },\n\n{\n  \"label\": \"湖南益阳高新技术产业园区\",\n  \"value\": \"430972\" },\n\n{\n  \"label\": \"沅江市\",\n  \"value\": \"430981\" }],\n\n\n[{\n  \"label\": \"北湖区\",\n  \"value\": \"431002\" },\n\n{\n  \"label\": \"苏仙区\",\n  \"value\": \"431003\" },\n\n{\n  \"label\": \"桂阳县\",\n  \"value\": \"431021\" },\n\n{\n  \"label\": \"宜章县\",\n  \"value\": \"431022\" },\n\n{\n  \"label\": \"永兴县\",\n  \"value\": \"431023\" },\n\n{\n  \"label\": \"嘉禾县\",\n  \"value\": \"431024\" },\n\n{\n  \"label\": \"临武县\",\n  \"value\": \"431025\" },\n\n{\n  \"label\": \"汝城县\",\n  \"value\": \"431026\" },\n\n{\n  \"label\": \"桂东县\",\n  \"value\": \"431027\" },\n\n{\n  \"label\": \"安仁县\",\n  \"value\": \"431028\" },\n\n{\n  \"label\": \"资兴市\",\n  \"value\": \"431081\" }],\n\n\n[{\n  \"label\": \"零陵区\",\n  \"value\": \"431102\" },\n\n{\n  \"label\": \"冷水滩区\",\n  \"value\": \"431103\" },\n\n{\n  \"label\": \"祁阳县\",\n  \"value\": \"431121\" },\n\n{\n  \"label\": \"东安县\",\n  \"value\": \"431122\" },\n\n{\n  \"label\": \"双牌县\",\n  \"value\": \"431123\" },\n\n{\n  \"label\": \"道县\",\n  \"value\": \"431124\" },\n\n{\n  \"label\": \"江永县\",\n  \"value\": \"431125\" },\n\n{\n  \"label\": \"宁远县\",\n  \"value\": \"431126\" },\n\n{\n  \"label\": \"蓝山县\",\n  \"value\": \"431127\" },\n\n{\n  \"label\": \"新田县\",\n  \"value\": \"431128\" },\n\n{\n  \"label\": \"江华瑶族自治县\",\n  \"value\": \"431129\" },\n\n{\n  \"label\": \"永州经济技术开发区\",\n  \"value\": \"431171\" },\n\n{\n  \"label\": \"永州市金洞管理区\",\n  \"value\": \"431172\" },\n\n{\n  \"label\": \"永州市回龙圩管理区\",\n  \"value\": \"431173\" }],\n\n\n[{\n  \"label\": \"鹤城区\",\n  \"value\": \"431202\" },\n\n{\n  \"label\": \"中方县\",\n  \"value\": \"431221\" },\n\n{\n  \"label\": \"沅陵县\",\n  \"value\": \"431222\" },\n\n{\n  \"label\": \"辰溪县\",\n  \"value\": \"431223\" },\n\n{\n  \"label\": \"溆浦县\",\n  \"value\": \"431224\" },\n\n{\n  \"label\": \"会同县\",\n  \"value\": \"431225\" },\n\n{\n  \"label\": \"麻阳苗族自治县\",\n  \"value\": \"431226\" },\n\n{\n  \"label\": \"新晃侗族自治县\",\n  \"value\": \"431227\" },\n\n{\n  \"label\": \"芷江侗族自治县\",\n  \"value\": \"431228\" },\n\n{\n  \"label\": \"靖州苗族侗族自治县\",\n  \"value\": \"431229\" },\n\n{\n  \"label\": \"通道侗族自治县\",\n  \"value\": \"431230\" },\n\n{\n  \"label\": \"怀化市洪江管理区\",\n  \"value\": \"431271\" },\n\n{\n  \"label\": \"洪江市\",\n  \"value\": \"431281\" }],\n\n\n[{\n  \"label\": \"娄星区\",\n  \"value\": \"431302\" },\n\n{\n  \"label\": \"双峰县\",\n  \"value\": \"431321\" },\n\n{\n  \"label\": \"新化县\",\n  \"value\": \"431322\" },\n\n{\n  \"label\": \"冷水江市\",\n  \"value\": \"431381\" },\n\n{\n  \"label\": \"涟源市\",\n  \"value\": \"431382\" }],\n\n\n[{\n  \"label\": \"吉首市\",\n  \"value\": \"433101\" },\n\n{\n  \"label\": \"泸溪县\",\n  \"value\": \"433122\" },\n\n{\n  \"label\": \"凤凰县\",\n  \"value\": \"433123\" },\n\n{\n  \"label\": \"花垣县\",\n  \"value\": \"433124\" },\n\n{\n  \"label\": \"保靖县\",\n  \"value\": \"433125\" },\n\n{\n  \"label\": \"古丈县\",\n  \"value\": \"433126\" },\n\n{\n  \"label\": \"永顺县\",\n  \"value\": \"433127\" },\n\n{\n  \"label\": \"龙山县\",\n  \"value\": \"433130\" },\n\n{\n  \"label\": \"湖南吉首经济开发区\",\n  \"value\": \"433172\" },\n\n{\n  \"label\": \"湖南永顺经济开发区\",\n  \"value\": \"433173\" }]],\n\n\n\n[\n[{\n  \"label\": \"荔湾区\",\n  \"value\": \"440103\" },\n\n{\n  \"label\": \"越秀区\",\n  \"value\": \"440104\" },\n\n{\n  \"label\": \"海珠区\",\n  \"value\": \"440105\" },\n\n{\n  \"label\": \"天河区\",\n  \"value\": \"440106\" },\n\n{\n  \"label\": \"白云区\",\n  \"value\": \"440111\" },\n\n{\n  \"label\": \"黄埔区\",\n  \"value\": \"440112\" },\n\n{\n  \"label\": \"番禺区\",\n  \"value\": \"440113\" },\n\n{\n  \"label\": \"花都区\",\n  \"value\": \"440114\" },\n\n{\n  \"label\": \"南沙区\",\n  \"value\": \"440115\" },\n\n{\n  \"label\": \"从化区\",\n  \"value\": \"440117\" },\n\n{\n  \"label\": \"增城区\",\n  \"value\": \"440118\" }],\n\n\n[{\n  \"label\": \"武江区\",\n  \"value\": \"440203\" },\n\n{\n  \"label\": \"浈江区\",\n  \"value\": \"440204\" },\n\n{\n  \"label\": \"曲江区\",\n  \"value\": \"440205\" },\n\n{\n  \"label\": \"始兴县\",\n  \"value\": \"440222\" },\n\n{\n  \"label\": \"仁化县\",\n  \"value\": \"440224\" },\n\n{\n  \"label\": \"翁源县\",\n  \"value\": \"440229\" },\n\n{\n  \"label\": \"乳源瑶族自治县\",\n  \"value\": \"440232\" },\n\n{\n  \"label\": \"新丰县\",\n  \"value\": \"440233\" },\n\n{\n  \"label\": \"乐昌市\",\n  \"value\": \"440281\" },\n\n{\n  \"label\": \"南雄市\",\n  \"value\": \"440282\" }],\n\n\n[{\n  \"label\": \"罗湖区\",\n  \"value\": \"440303\" },\n\n{\n  \"label\": \"福田区\",\n  \"value\": \"440304\" },\n\n{\n  \"label\": \"南山区\",\n  \"value\": \"440305\" },\n\n{\n  \"label\": \"宝安区\",\n  \"value\": \"440306\" },\n\n{\n  \"label\": \"龙岗区\",\n  \"value\": \"440307\" },\n\n{\n  \"label\": \"盐田区\",\n  \"value\": \"440308\" },\n\n{\n  \"label\": \"龙华区\",\n  \"value\": \"440309\" },\n\n{\n  \"label\": \"坪山区\",\n  \"value\": \"440310\" }],\n\n\n[{\n  \"label\": \"香洲区\",\n  \"value\": \"440402\" },\n\n{\n  \"label\": \"斗门区\",\n  \"value\": \"440403\" },\n\n{\n  \"label\": \"金湾区\",\n  \"value\": \"440404\" }],\n\n\n[{\n  \"label\": \"龙湖区\",\n  \"value\": \"440507\" },\n\n{\n  \"label\": \"金平区\",\n  \"value\": \"440511\" },\n\n{\n  \"label\": \"濠江区\",\n  \"value\": \"440512\" },\n\n{\n  \"label\": \"潮阳区\",\n  \"value\": \"440513\" },\n\n{\n  \"label\": \"潮南区\",\n  \"value\": \"440514\" },\n\n{\n  \"label\": \"澄海区\",\n  \"value\": \"440515\" },\n\n{\n  \"label\": \"南澳县\",\n  \"value\": \"440523\" }],\n\n\n[{\n  \"label\": \"禅城区\",\n  \"value\": \"440604\" },\n\n{\n  \"label\": \"南海区\",\n  \"value\": \"440605\" },\n\n{\n  \"label\": \"顺德区\",\n  \"value\": \"440606\" },\n\n{\n  \"label\": \"三水区\",\n  \"value\": \"440607\" },\n\n{\n  \"label\": \"高明区\",\n  \"value\": \"440608\" }],\n\n\n[{\n  \"label\": \"蓬江区\",\n  \"value\": \"440703\" },\n\n{\n  \"label\": \"江海区\",\n  \"value\": \"440704\" },\n\n{\n  \"label\": \"新会区\",\n  \"value\": \"440705\" },\n\n{\n  \"label\": \"台山市\",\n  \"value\": \"440781\" },\n\n{\n  \"label\": \"开平市\",\n  \"value\": \"440783\" },\n\n{\n  \"label\": \"鹤山市\",\n  \"value\": \"440784\" },\n\n{\n  \"label\": \"恩平市\",\n  \"value\": \"440785\" }],\n\n\n[{\n  \"label\": \"赤坎区\",\n  \"value\": \"440802\" },\n\n{\n  \"label\": \"霞山区\",\n  \"value\": \"440803\" },\n\n{\n  \"label\": \"坡头区\",\n  \"value\": \"440804\" },\n\n{\n  \"label\": \"麻章区\",\n  \"value\": \"440811\" },\n\n{\n  \"label\": \"遂溪县\",\n  \"value\": \"440823\" },\n\n{\n  \"label\": \"徐闻县\",\n  \"value\": \"440825\" },\n\n{\n  \"label\": \"廉江市\",\n  \"value\": \"440881\" },\n\n{\n  \"label\": \"雷州市\",\n  \"value\": \"440882\" },\n\n{\n  \"label\": \"吴川市\",\n  \"value\": \"440883\" }],\n\n\n[{\n  \"label\": \"茂南区\",\n  \"value\": \"440902\" },\n\n{\n  \"label\": \"电白区\",\n  \"value\": \"440904\" },\n\n{\n  \"label\": \"高州市\",\n  \"value\": \"440981\" },\n\n{\n  \"label\": \"化州市\",\n  \"value\": \"440982\" },\n\n{\n  \"label\": \"信宜市\",\n  \"value\": \"440983\" }],\n\n\n[{\n  \"label\": \"端州区\",\n  \"value\": \"441202\" },\n\n{\n  \"label\": \"鼎湖区\",\n  \"value\": \"441203\" },\n\n{\n  \"label\": \"高要区\",\n  \"value\": \"441204\" },\n\n{\n  \"label\": \"广宁县\",\n  \"value\": \"441223\" },\n\n{\n  \"label\": \"怀集县\",\n  \"value\": \"441224\" },\n\n{\n  \"label\": \"封开县\",\n  \"value\": \"441225\" },\n\n{\n  \"label\": \"德庆县\",\n  \"value\": \"441226\" },\n\n{\n  \"label\": \"四会市\",\n  \"value\": \"441284\" }],\n\n\n[{\n  \"label\": \"惠城区\",\n  \"value\": \"441302\" },\n\n{\n  \"label\": \"惠阳区\",\n  \"value\": \"441303\" },\n\n{\n  \"label\": \"博罗县\",\n  \"value\": \"441322\" },\n\n{\n  \"label\": \"惠东县\",\n  \"value\": \"441323\" },\n\n{\n  \"label\": \"龙门县\",\n  \"value\": \"441324\" }],\n\n\n[{\n  \"label\": \"梅江区\",\n  \"value\": \"441402\" },\n\n{\n  \"label\": \"梅县区\",\n  \"value\": \"441403\" },\n\n{\n  \"label\": \"大埔县\",\n  \"value\": \"441422\" },\n\n{\n  \"label\": \"丰顺县\",\n  \"value\": \"441423\" },\n\n{\n  \"label\": \"五华县\",\n  \"value\": \"441424\" },\n\n{\n  \"label\": \"平远县\",\n  \"value\": \"441426\" },\n\n{\n  \"label\": \"蕉岭县\",\n  \"value\": \"441427\" },\n\n{\n  \"label\": \"兴宁市\",\n  \"value\": \"441481\" }],\n\n\n[{\n  \"label\": \"城区\",\n  \"value\": \"441502\" },\n\n{\n  \"label\": \"海丰县\",\n  \"value\": \"441521\" },\n\n{\n  \"label\": \"陆河县\",\n  \"value\": \"441523\" },\n\n{\n  \"label\": \"陆丰市\",\n  \"value\": \"441581\" }],\n\n\n[{\n  \"label\": \"源城区\",\n  \"value\": \"441602\" },\n\n{\n  \"label\": \"紫金县\",\n  \"value\": \"441621\" },\n\n{\n  \"label\": \"龙川县\",\n  \"value\": \"441622\" },\n\n{\n  \"label\": \"连平县\",\n  \"value\": \"441623\" },\n\n{\n  \"label\": \"和平县\",\n  \"value\": \"441624\" },\n\n{\n  \"label\": \"东源县\",\n  \"value\": \"441625\" }],\n\n\n[{\n  \"label\": \"江城区\",\n  \"value\": \"441702\" },\n\n{\n  \"label\": \"阳东区\",\n  \"value\": \"441704\" },\n\n{\n  \"label\": \"阳西县\",\n  \"value\": \"441721\" },\n\n{\n  \"label\": \"阳春市\",\n  \"value\": \"441781\" }],\n\n\n[{\n  \"label\": \"清城区\",\n  \"value\": \"441802\" },\n\n{\n  \"label\": \"清新区\",\n  \"value\": \"441803\" },\n\n{\n  \"label\": \"佛冈县\",\n  \"value\": \"441821\" },\n\n{\n  \"label\": \"阳山县\",\n  \"value\": \"441823\" },\n\n{\n  \"label\": \"连山壮族瑶族自治县\",\n  \"value\": \"441825\" },\n\n{\n  \"label\": \"连南瑶族自治县\",\n  \"value\": \"441826\" },\n\n{\n  \"label\": \"英德市\",\n  \"value\": \"441881\" },\n\n{\n  \"label\": \"连州市\",\n  \"value\": \"441882\" }],\n\n\n[{\n  \"label\": \"东莞市\",\n  \"value\": \"441900\" }],\n\n[{\n  \"label\": \"中山市\",\n  \"value\": \"442000\" }],\n\n[{\n  \"label\": \"湘桥区\",\n  \"value\": \"445102\" },\n\n{\n  \"label\": \"潮安区\",\n  \"value\": \"445103\" },\n\n{\n  \"label\": \"饶平县\",\n  \"value\": \"445122\" }],\n\n\n[{\n  \"label\": \"榕城区\",\n  \"value\": \"445202\" },\n\n{\n  \"label\": \"揭东区\",\n  \"value\": \"445203\" },\n\n{\n  \"label\": \"揭西县\",\n  \"value\": \"445222\" },\n\n{\n  \"label\": \"惠来县\",\n  \"value\": \"445224\" },\n\n{\n  \"label\": \"普宁市\",\n  \"value\": \"445281\" }],\n\n\n[{\n  \"label\": \"云城区\",\n  \"value\": \"445302\" },\n\n{\n  \"label\": \"云安区\",\n  \"value\": \"445303\" },\n\n{\n  \"label\": \"新兴县\",\n  \"value\": \"445321\" },\n\n{\n  \"label\": \"郁南县\",\n  \"value\": \"445322\" },\n\n{\n  \"label\": \"罗定市\",\n  \"value\": \"445381\" }]],\n\n\n\n[\n[{\n  \"label\": \"兴宁区\",\n  \"value\": \"450102\" },\n\n{\n  \"label\": \"青秀区\",\n  \"value\": \"450103\" },\n\n{\n  \"label\": \"江南区\",\n  \"value\": \"450105\" },\n\n{\n  \"label\": \"西乡塘区\",\n  \"value\": \"450107\" },\n\n{\n  \"label\": \"良庆区\",\n  \"value\": \"450108\" },\n\n{\n  \"label\": \"邕宁区\",\n  \"value\": \"450109\" },\n\n{\n  \"label\": \"武鸣区\",\n  \"value\": \"450110\" },\n\n{\n  \"label\": \"隆安县\",\n  \"value\": \"450123\" },\n\n{\n  \"label\": \"马山县\",\n  \"value\": \"450124\" },\n\n{\n  \"label\": \"上林县\",\n  \"value\": \"450125\" },\n\n{\n  \"label\": \"宾阳县\",\n  \"value\": \"450126\" },\n\n{\n  \"label\": \"横县\",\n  \"value\": \"450127\" }],\n\n\n[{\n  \"label\": \"城中区\",\n  \"value\": \"450202\" },\n\n{\n  \"label\": \"鱼峰区\",\n  \"value\": \"450203\" },\n\n{\n  \"label\": \"柳南区\",\n  \"value\": \"450204\" },\n\n{\n  \"label\": \"柳北区\",\n  \"value\": \"450205\" },\n\n{\n  \"label\": \"柳江区\",\n  \"value\": \"450206\" },\n\n{\n  \"label\": \"柳城县\",\n  \"value\": \"450222\" },\n\n{\n  \"label\": \"鹿寨县\",\n  \"value\": \"450223\" },\n\n{\n  \"label\": \"融安县\",\n  \"value\": \"450224\" },\n\n{\n  \"label\": \"融水苗族自治县\",\n  \"value\": \"450225\" },\n\n{\n  \"label\": \"三江侗族自治县\",\n  \"value\": \"450226\" }],\n\n\n[{\n  \"label\": \"秀峰区\",\n  \"value\": \"450302\" },\n\n{\n  \"label\": \"叠彩区\",\n  \"value\": \"450303\" },\n\n{\n  \"label\": \"象山区\",\n  \"value\": \"450304\" },\n\n{\n  \"label\": \"七星区\",\n  \"value\": \"450305\" },\n\n{\n  \"label\": \"雁山区\",\n  \"value\": \"450311\" },\n\n{\n  \"label\": \"临桂区\",\n  \"value\": \"450312\" },\n\n{\n  \"label\": \"阳朔县\",\n  \"value\": \"450321\" },\n\n{\n  \"label\": \"灵川县\",\n  \"value\": \"450323\" },\n\n{\n  \"label\": \"全州县\",\n  \"value\": \"450324\" },\n\n{\n  \"label\": \"兴安县\",\n  \"value\": \"450325\" },\n\n{\n  \"label\": \"永福县\",\n  \"value\": \"450326\" },\n\n{\n  \"label\": \"灌阳县\",\n  \"value\": \"450327\" },\n\n{\n  \"label\": \"龙胜各族自治县\",\n  \"value\": \"450328\" },\n\n{\n  \"label\": \"资源县\",\n  \"value\": \"450329\" },\n\n{\n  \"label\": \"平乐县\",\n  \"value\": \"450330\" },\n\n{\n  \"label\": \"荔浦县\",\n  \"value\": \"450331\" },\n\n{\n  \"label\": \"恭城瑶族自治县\",\n  \"value\": \"450332\" }],\n\n\n[{\n  \"label\": \"万秀区\",\n  \"value\": \"450403\" },\n\n{\n  \"label\": \"长洲区\",\n  \"value\": \"450405\" },\n\n{\n  \"label\": \"龙圩区\",\n  \"value\": \"450406\" },\n\n{\n  \"label\": \"苍梧县\",\n  \"value\": \"450421\" },\n\n{\n  \"label\": \"藤县\",\n  \"value\": \"450422\" },\n\n{\n  \"label\": \"蒙山县\",\n  \"value\": \"450423\" },\n\n{\n  \"label\": \"岑溪市\",\n  \"value\": \"450481\" }],\n\n\n[{\n  \"label\": \"海城区\",\n  \"value\": \"450502\" },\n\n{\n  \"label\": \"银海区\",\n  \"value\": \"450503\" },\n\n{\n  \"label\": \"铁山港区\",\n  \"value\": \"450512\" },\n\n{\n  \"label\": \"合浦县\",\n  \"value\": \"450521\" }],\n\n\n[{\n  \"label\": \"港口区\",\n  \"value\": \"450602\" },\n\n{\n  \"label\": \"防城区\",\n  \"value\": \"450603\" },\n\n{\n  \"label\": \"上思县\",\n  \"value\": \"450621\" },\n\n{\n  \"label\": \"东兴市\",\n  \"value\": \"450681\" }],\n\n\n[{\n  \"label\": \"钦南区\",\n  \"value\": \"450702\" },\n\n{\n  \"label\": \"钦北区\",\n  \"value\": \"450703\" },\n\n{\n  \"label\": \"灵山县\",\n  \"value\": \"450721\" },\n\n{\n  \"label\": \"浦北县\",\n  \"value\": \"450722\" }],\n\n\n[{\n  \"label\": \"港北区\",\n  \"value\": \"450802\" },\n\n{\n  \"label\": \"港南区\",\n  \"value\": \"450803\" },\n\n{\n  \"label\": \"覃塘区\",\n  \"value\": \"450804\" },\n\n{\n  \"label\": \"平南县\",\n  \"value\": \"450821\" },\n\n{\n  \"label\": \"桂平市\",\n  \"value\": \"450881\" }],\n\n\n[{\n  \"label\": \"玉州区\",\n  \"value\": \"450902\" },\n\n{\n  \"label\": \"福绵区\",\n  \"value\": \"450903\" },\n\n{\n  \"label\": \"容县\",\n  \"value\": \"450921\" },\n\n{\n  \"label\": \"陆川县\",\n  \"value\": \"450922\" },\n\n{\n  \"label\": \"博白县\",\n  \"value\": \"450923\" },\n\n{\n  \"label\": \"兴业县\",\n  \"value\": \"450924\" },\n\n{\n  \"label\": \"北流市\",\n  \"value\": \"450981\" }],\n\n\n[{\n  \"label\": \"右江区\",\n  \"value\": \"451002\" },\n\n{\n  \"label\": \"田阳县\",\n  \"value\": \"451021\" },\n\n{\n  \"label\": \"田东县\",\n  \"value\": \"451022\" },\n\n{\n  \"label\": \"平果县\",\n  \"value\": \"451023\" },\n\n{\n  \"label\": \"德保县\",\n  \"value\": \"451024\" },\n\n{\n  \"label\": \"那坡县\",\n  \"value\": \"451026\" },\n\n{\n  \"label\": \"凌云县\",\n  \"value\": \"451027\" },\n\n{\n  \"label\": \"乐业县\",\n  \"value\": \"451028\" },\n\n{\n  \"label\": \"田林县\",\n  \"value\": \"451029\" },\n\n{\n  \"label\": \"西林县\",\n  \"value\": \"451030\" },\n\n{\n  \"label\": \"隆林各族自治县\",\n  \"value\": \"451031\" },\n\n{\n  \"label\": \"靖西市\",\n  \"value\": \"451081\" }],\n\n\n[{\n  \"label\": \"八步区\",\n  \"value\": \"451102\" },\n\n{\n  \"label\": \"平桂区\",\n  \"value\": \"451103\" },\n\n{\n  \"label\": \"昭平县\",\n  \"value\": \"451121\" },\n\n{\n  \"label\": \"钟山县\",\n  \"value\": \"451122\" },\n\n{\n  \"label\": \"富川瑶族自治县\",\n  \"value\": \"451123\" }],\n\n\n[{\n  \"label\": \"金城江区\",\n  \"value\": \"451202\" },\n\n{\n  \"label\": \"宜州区\",\n  \"value\": \"451203\" },\n\n{\n  \"label\": \"南丹县\",\n  \"value\": \"451221\" },\n\n{\n  \"label\": \"天峨县\",\n  \"value\": \"451222\" },\n\n{\n  \"label\": \"凤山县\",\n  \"value\": \"451223\" },\n\n{\n  \"label\": \"东兰县\",\n  \"value\": \"451224\" },\n\n{\n  \"label\": \"罗城仫佬族自治县\",\n  \"value\": \"451225\" },\n\n{\n  \"label\": \"环江毛南族自治县\",\n  \"value\": \"451226\" },\n\n{\n  \"label\": \"巴马瑶族自治县\",\n  \"value\": \"451227\" },\n\n{\n  \"label\": \"都安瑶族自治县\",\n  \"value\": \"451228\" },\n\n{\n  \"label\": \"大化瑶族自治县\",\n  \"value\": \"451229\" }],\n\n\n[{\n  \"label\": \"兴宾区\",\n  \"value\": \"451302\" },\n\n{\n  \"label\": \"忻城县\",\n  \"value\": \"451321\" },\n\n{\n  \"label\": \"象州县\",\n  \"value\": \"451322\" },\n\n{\n  \"label\": \"武宣县\",\n  \"value\": \"451323\" },\n\n{\n  \"label\": \"金秀瑶族自治县\",\n  \"value\": \"451324\" },\n\n{\n  \"label\": \"合山市\",\n  \"value\": \"451381\" }],\n\n\n[{\n  \"label\": \"江州区\",\n  \"value\": \"451402\" },\n\n{\n  \"label\": \"扶绥县\",\n  \"value\": \"451421\" },\n\n{\n  \"label\": \"宁明县\",\n  \"value\": \"451422\" },\n\n{\n  \"label\": \"龙州县\",\n  \"value\": \"451423\" },\n\n{\n  \"label\": \"大新县\",\n  \"value\": \"451424\" },\n\n{\n  \"label\": \"天等县\",\n  \"value\": \"451425\" },\n\n{\n  \"label\": \"凭祥市\",\n  \"value\": \"451481\" }]],\n\n\n\n[\n[{\n  \"label\": \"秀英区\",\n  \"value\": \"460105\" },\n\n{\n  \"label\": \"龙华区\",\n  \"value\": \"460106\" },\n\n{\n  \"label\": \"琼山区\",\n  \"value\": \"460107\" },\n\n{\n  \"label\": \"美兰区\",\n  \"value\": \"460108\" }],\n\n\n[{\n  \"label\": \"海棠区\",\n  \"value\": \"460202\" },\n\n{\n  \"label\": \"吉阳区\",\n  \"value\": \"460203\" },\n\n{\n  \"label\": \"天涯区\",\n  \"value\": \"460204\" },\n\n{\n  \"label\": \"崖州区\",\n  \"value\": \"460205\" }],\n\n\n[{\n  \"label\": \"西沙群岛\",\n  \"value\": \"460321\" },\n\n{\n  \"label\": \"南沙群岛\",\n  \"value\": \"460322\" },\n\n{\n  \"label\": \"中沙群岛的岛礁及其海域\",\n  \"value\": \"460323\" }],\n\n\n[{\n  \"label\": \"儋州市\",\n  \"value\": \"460400\" }],\n\n[{\n  \"label\": \"五指山市\",\n  \"value\": \"469001\" },\n\n{\n  \"label\": \"琼海市\",\n  \"value\": \"469002\" },\n\n{\n  \"label\": \"文昌市\",\n  \"value\": \"469005\" },\n\n{\n  \"label\": \"万宁市\",\n  \"value\": \"469006\" },\n\n{\n  \"label\": \"东方市\",\n  \"value\": \"469007\" },\n\n{\n  \"label\": \"定安县\",\n  \"value\": \"469021\" },\n\n{\n  \"label\": \"屯昌县\",\n  \"value\": \"469022\" },\n\n{\n  \"label\": \"澄迈县\",\n  \"value\": \"469023\" },\n\n{\n  \"label\": \"临高县\",\n  \"value\": \"469024\" },\n\n{\n  \"label\": \"白沙黎族自治县\",\n  \"value\": \"469025\" },\n\n{\n  \"label\": \"昌江黎族自治县\",\n  \"value\": \"469026\" },\n\n{\n  \"label\": \"乐东黎族自治县\",\n  \"value\": \"469027\" },\n\n{\n  \"label\": \"陵水黎族自治县\",\n  \"value\": \"469028\" },\n\n{\n  \"label\": \"保亭黎族苗族自治县\",\n  \"value\": \"469029\" },\n\n{\n  \"label\": \"琼中黎族苗族自治县\",\n  \"value\": \"469030\" }]],\n\n\n\n[\n[{\n  \"label\": \"万州区\",\n  \"value\": \"500101\" },\n\n{\n  \"label\": \"涪陵区\",\n  \"value\": \"500102\" },\n\n{\n  \"label\": \"渝中区\",\n  \"value\": \"500103\" },\n\n{\n  \"label\": \"大渡口区\",\n  \"value\": \"500104\" },\n\n{\n  \"label\": \"江北区\",\n  \"value\": \"500105\" },\n\n{\n  \"label\": \"沙坪坝区\",\n  \"value\": \"500106\" },\n\n{\n  \"label\": \"九龙坡区\",\n  \"value\": \"500107\" },\n\n{\n  \"label\": \"南岸区\",\n  \"value\": \"500108\" },\n\n{\n  \"label\": \"北碚区\",\n  \"value\": \"500109\" },\n\n{\n  \"label\": \"綦江区\",\n  \"value\": \"500110\" },\n\n{\n  \"label\": \"大足区\",\n  \"value\": \"500111\" },\n\n{\n  \"label\": \"渝北区\",\n  \"value\": \"500112\" },\n\n{\n  \"label\": \"巴南区\",\n  \"value\": \"500113\" },\n\n{\n  \"label\": \"黔江区\",\n  \"value\": \"500114\" },\n\n{\n  \"label\": \"长寿区\",\n  \"value\": \"500115\" },\n\n{\n  \"label\": \"江津区\",\n  \"value\": \"500116\" },\n\n{\n  \"label\": \"合川区\",\n  \"value\": \"500117\" },\n\n{\n  \"label\": \"永川区\",\n  \"value\": \"500118\" },\n\n{\n  \"label\": \"南川区\",\n  \"value\": \"500119\" },\n\n{\n  \"label\": \"璧山区\",\n  \"value\": \"500120\" },\n\n{\n  \"label\": \"铜梁区\",\n  \"value\": \"500151\" },\n\n{\n  \"label\": \"潼南区\",\n  \"value\": \"500152\" },\n\n{\n  \"label\": \"荣昌区\",\n  \"value\": \"500153\" },\n\n{\n  \"label\": \"开州区\",\n  \"value\": \"500154\" },\n\n{\n  \"label\": \"梁平区\",\n  \"value\": \"500155\" },\n\n{\n  \"label\": \"武隆区\",\n  \"value\": \"500156\" }],\n\n\n[{\n  \"label\": \"城口县\",\n  \"value\": \"500229\" },\n\n{\n  \"label\": \"丰都县\",\n  \"value\": \"500230\" },\n\n{\n  \"label\": \"垫江县\",\n  \"value\": \"500231\" },\n\n{\n  \"label\": \"忠县\",\n  \"value\": \"500233\" },\n\n{\n  \"label\": \"云阳县\",\n  \"value\": \"500235\" },\n\n{\n  \"label\": \"奉节县\",\n  \"value\": \"500236\" },\n\n{\n  \"label\": \"巫山县\",\n  \"value\": \"500237\" },\n\n{\n  \"label\": \"巫溪县\",\n  \"value\": \"500238\" },\n\n{\n  \"label\": \"石柱土家族自治县\",\n  \"value\": \"500240\" },\n\n{\n  \"label\": \"秀山土家族苗族自治县\",\n  \"value\": \"500241\" },\n\n{\n  \"label\": \"酉阳土家族苗族自治县\",\n  \"value\": \"500242\" },\n\n{\n  \"label\": \"彭水苗族土家族自治县\",\n  \"value\": \"500243\" }]],\n\n\n\n[\n[{\n  \"label\": \"锦江区\",\n  \"value\": \"510104\" },\n\n{\n  \"label\": \"青羊区\",\n  \"value\": \"510105\" },\n\n{\n  \"label\": \"金牛区\",\n  \"value\": \"510106\" },\n\n{\n  \"label\": \"武侯区\",\n  \"value\": \"510107\" },\n\n{\n  \"label\": \"成华区\",\n  \"value\": \"510108\" },\n\n{\n  \"label\": \"龙泉驿区\",\n  \"value\": \"510112\" },\n\n{\n  \"label\": \"青白江区\",\n  \"value\": \"510113\" },\n\n{\n  \"label\": \"新都区\",\n  \"value\": \"510114\" },\n\n{\n  \"label\": \"温江区\",\n  \"value\": \"510115\" },\n\n{\n  \"label\": \"双流区\",\n  \"value\": \"510116\" },\n\n{\n  \"label\": \"郫都区\",\n  \"value\": \"510117\" },\n\n{\n  \"label\": \"金堂县\",\n  \"value\": \"510121\" },\n\n{\n  \"label\": \"大邑县\",\n  \"value\": \"510129\" },\n\n{\n  \"label\": \"蒲江县\",\n  \"value\": \"510131\" },\n\n{\n  \"label\": \"新津县\",\n  \"value\": \"510132\" },\n\n{\n  \"label\": \"都江堰市\",\n  \"value\": \"510181\" },\n\n{\n  \"label\": \"彭州市\",\n  \"value\": \"510182\" },\n\n{\n  \"label\": \"邛崃市\",\n  \"value\": \"510183\" },\n\n{\n  \"label\": \"崇州市\",\n  \"value\": \"510184\" },\n\n{\n  \"label\": \"简阳市\",\n  \"value\": \"510185\" }],\n\n\n[{\n  \"label\": \"自流井区\",\n  \"value\": \"510302\" },\n\n{\n  \"label\": \"贡井区\",\n  \"value\": \"510303\" },\n\n{\n  \"label\": \"大安区\",\n  \"value\": \"510304\" },\n\n{\n  \"label\": \"沿滩区\",\n  \"value\": \"510311\" },\n\n{\n  \"label\": \"荣县\",\n  \"value\": \"510321\" },\n\n{\n  \"label\": \"富顺县\",\n  \"value\": \"510322\" }],\n\n\n[{\n  \"label\": \"东区\",\n  \"value\": \"510402\" },\n\n{\n  \"label\": \"西区\",\n  \"value\": \"510403\" },\n\n{\n  \"label\": \"仁和区\",\n  \"value\": \"510411\" },\n\n{\n  \"label\": \"米易县\",\n  \"value\": \"510421\" },\n\n{\n  \"label\": \"盐边县\",\n  \"value\": \"510422\" }],\n\n\n[{\n  \"label\": \"江阳区\",\n  \"value\": \"510502\" },\n\n{\n  \"label\": \"纳溪区\",\n  \"value\": \"510503\" },\n\n{\n  \"label\": \"龙马潭区\",\n  \"value\": \"510504\" },\n\n{\n  \"label\": \"泸县\",\n  \"value\": \"510521\" },\n\n{\n  \"label\": \"合江县\",\n  \"value\": \"510522\" },\n\n{\n  \"label\": \"叙永县\",\n  \"value\": \"510524\" },\n\n{\n  \"label\": \"古蔺县\",\n  \"value\": \"510525\" }],\n\n\n[{\n  \"label\": \"旌阳区\",\n  \"value\": \"510603\" },\n\n{\n  \"label\": \"罗江区\",\n  \"value\": \"510604\" },\n\n{\n  \"label\": \"中江县\",\n  \"value\": \"510623\" },\n\n{\n  \"label\": \"广汉市\",\n  \"value\": \"510681\" },\n\n{\n  \"label\": \"什邡市\",\n  \"value\": \"510682\" },\n\n{\n  \"label\": \"绵竹市\",\n  \"value\": \"510683\" }],\n\n\n[{\n  \"label\": \"涪城区\",\n  \"value\": \"510703\" },\n\n{\n  \"label\": \"游仙区\",\n  \"value\": \"510704\" },\n\n{\n  \"label\": \"安州区\",\n  \"value\": \"510705\" },\n\n{\n  \"label\": \"三台县\",\n  \"value\": \"510722\" },\n\n{\n  \"label\": \"盐亭县\",\n  \"value\": \"510723\" },\n\n{\n  \"label\": \"梓潼县\",\n  \"value\": \"510725\" },\n\n{\n  \"label\": \"北川羌族自治县\",\n  \"value\": \"510726\" },\n\n{\n  \"label\": \"平武县\",\n  \"value\": \"510727\" },\n\n{\n  \"label\": \"江油市\",\n  \"value\": \"510781\" }],\n\n\n[{\n  \"label\": \"利州区\",\n  \"value\": \"510802\" },\n\n{\n  \"label\": \"昭化区\",\n  \"value\": \"510811\" },\n\n{\n  \"label\": \"朝天区\",\n  \"value\": \"510812\" },\n\n{\n  \"label\": \"旺苍县\",\n  \"value\": \"510821\" },\n\n{\n  \"label\": \"青川县\",\n  \"value\": \"510822\" },\n\n{\n  \"label\": \"剑阁县\",\n  \"value\": \"510823\" },\n\n{\n  \"label\": \"苍溪县\",\n  \"value\": \"510824\" }],\n\n\n[{\n  \"label\": \"船山区\",\n  \"value\": \"510903\" },\n\n{\n  \"label\": \"安居区\",\n  \"value\": \"510904\" },\n\n{\n  \"label\": \"蓬溪县\",\n  \"value\": \"510921\" },\n\n{\n  \"label\": \"射洪县\",\n  \"value\": \"510922\" },\n\n{\n  \"label\": \"大英县\",\n  \"value\": \"510923\" }],\n\n\n[{\n  \"label\": \"市中区\",\n  \"value\": \"511002\" },\n\n{\n  \"label\": \"东兴区\",\n  \"value\": \"511011\" },\n\n{\n  \"label\": \"威远县\",\n  \"value\": \"511024\" },\n\n{\n  \"label\": \"资中县\",\n  \"value\": \"511025\" },\n\n{\n  \"label\": \"内江经济开发区\",\n  \"value\": \"511071\" },\n\n{\n  \"label\": \"隆昌市\",\n  \"value\": \"511083\" }],\n\n\n[{\n  \"label\": \"市中区\",\n  \"value\": \"511102\" },\n\n{\n  \"label\": \"沙湾区\",\n  \"value\": \"511111\" },\n\n{\n  \"label\": \"五通桥区\",\n  \"value\": \"511112\" },\n\n{\n  \"label\": \"金口河区\",\n  \"value\": \"511113\" },\n\n{\n  \"label\": \"犍为县\",\n  \"value\": \"511123\" },\n\n{\n  \"label\": \"井研县\",\n  \"value\": \"511124\" },\n\n{\n  \"label\": \"夹江县\",\n  \"value\": \"511126\" },\n\n{\n  \"label\": \"沐川县\",\n  \"value\": \"511129\" },\n\n{\n  \"label\": \"峨边彝族自治县\",\n  \"value\": \"511132\" },\n\n{\n  \"label\": \"马边彝族自治县\",\n  \"value\": \"511133\" },\n\n{\n  \"label\": \"峨眉山市\",\n  \"value\": \"511181\" }],\n\n\n[{\n  \"label\": \"顺庆区\",\n  \"value\": \"511302\" },\n\n{\n  \"label\": \"高坪区\",\n  \"value\": \"511303\" },\n\n{\n  \"label\": \"嘉陵区\",\n  \"value\": \"511304\" },\n\n{\n  \"label\": \"南部县\",\n  \"value\": \"511321\" },\n\n{\n  \"label\": \"营山县\",\n  \"value\": \"511322\" },\n\n{\n  \"label\": \"蓬安县\",\n  \"value\": \"511323\" },\n\n{\n  \"label\": \"仪陇县\",\n  \"value\": \"511324\" },\n\n{\n  \"label\": \"西充县\",\n  \"value\": \"511325\" },\n\n{\n  \"label\": \"阆中市\",\n  \"value\": \"511381\" }],\n\n\n[{\n  \"label\": \"东坡区\",\n  \"value\": \"511402\" },\n\n{\n  \"label\": \"彭山区\",\n  \"value\": \"511403\" },\n\n{\n  \"label\": \"仁寿县\",\n  \"value\": \"511421\" },\n\n{\n  \"label\": \"洪雅县\",\n  \"value\": \"511423\" },\n\n{\n  \"label\": \"丹棱县\",\n  \"value\": \"511424\" },\n\n{\n  \"label\": \"青神县\",\n  \"value\": \"511425\" }],\n\n\n[{\n  \"label\": \"翠屏区\",\n  \"value\": \"511502\" },\n\n{\n  \"label\": \"南溪区\",\n  \"value\": \"511503\" },\n\n{\n  \"label\": \"宜宾县\",\n  \"value\": \"511521\" },\n\n{\n  \"label\": \"江安县\",\n  \"value\": \"511523\" },\n\n{\n  \"label\": \"长宁县\",\n  \"value\": \"511524\" },\n\n{\n  \"label\": \"高县\",\n  \"value\": \"511525\" },\n\n{\n  \"label\": \"珙县\",\n  \"value\": \"511526\" },\n\n{\n  \"label\": \"筠连县\",\n  \"value\": \"511527\" },\n\n{\n  \"label\": \"兴文县\",\n  \"value\": \"511528\" },\n\n{\n  \"label\": \"屏山县\",\n  \"value\": \"511529\" }],\n\n\n[{\n  \"label\": \"广安区\",\n  \"value\": \"511602\" },\n\n{\n  \"label\": \"前锋区\",\n  \"value\": \"511603\" },\n\n{\n  \"label\": \"岳池县\",\n  \"value\": \"511621\" },\n\n{\n  \"label\": \"武胜县\",\n  \"value\": \"511622\" },\n\n{\n  \"label\": \"邻水县\",\n  \"value\": \"511623\" },\n\n{\n  \"label\": \"华蓥市\",\n  \"value\": \"511681\" }],\n\n\n[{\n  \"label\": \"通川区\",\n  \"value\": \"511702\" },\n\n{\n  \"label\": \"达川区\",\n  \"value\": \"511703\" },\n\n{\n  \"label\": \"宣汉县\",\n  \"value\": \"511722\" },\n\n{\n  \"label\": \"开江县\",\n  \"value\": \"511723\" },\n\n{\n  \"label\": \"大竹县\",\n  \"value\": \"511724\" },\n\n{\n  \"label\": \"渠县\",\n  \"value\": \"511725\" },\n\n{\n  \"label\": \"达州经济开发区\",\n  \"value\": \"511771\" },\n\n{\n  \"label\": \"万源市\",\n  \"value\": \"511781\" }],\n\n\n[{\n  \"label\": \"雨城区\",\n  \"value\": \"511802\" },\n\n{\n  \"label\": \"名山区\",\n  \"value\": \"511803\" },\n\n{\n  \"label\": \"荥经县\",\n  \"value\": \"511822\" },\n\n{\n  \"label\": \"汉源县\",\n  \"value\": \"511823\" },\n\n{\n  \"label\": \"石棉县\",\n  \"value\": \"511824\" },\n\n{\n  \"label\": \"天全县\",\n  \"value\": \"511825\" },\n\n{\n  \"label\": \"芦山县\",\n  \"value\": \"511826\" },\n\n{\n  \"label\": \"宝兴县\",\n  \"value\": \"511827\" }],\n\n\n[{\n  \"label\": \"巴州区\",\n  \"value\": \"511902\" },\n\n{\n  \"label\": \"恩阳区\",\n  \"value\": \"511903\" },\n\n{\n  \"label\": \"通江县\",\n  \"value\": \"511921\" },\n\n{\n  \"label\": \"南江县\",\n  \"value\": \"511922\" },\n\n{\n  \"label\": \"平昌县\",\n  \"value\": \"511923\" },\n\n{\n  \"label\": \"巴中经济开发区\",\n  \"value\": \"511971\" }],\n\n\n[{\n  \"label\": \"雁江区\",\n  \"value\": \"512002\" },\n\n{\n  \"label\": \"安岳县\",\n  \"value\": \"512021\" },\n\n{\n  \"label\": \"乐至县\",\n  \"value\": \"512022\" }],\n\n\n[{\n  \"label\": \"马尔康市\",\n  \"value\": \"513201\" },\n\n{\n  \"label\": \"汶川县\",\n  \"value\": \"513221\" },\n\n{\n  \"label\": \"理县\",\n  \"value\": \"513222\" },\n\n{\n  \"label\": \"茂县\",\n  \"value\": \"513223\" },\n\n{\n  \"label\": \"松潘县\",\n  \"value\": \"513224\" },\n\n{\n  \"label\": \"九寨沟县\",\n  \"value\": \"513225\" },\n\n{\n  \"label\": \"金川县\",\n  \"value\": \"513226\" },\n\n{\n  \"label\": \"小金县\",\n  \"value\": \"513227\" },\n\n{\n  \"label\": \"黑水县\",\n  \"value\": \"513228\" },\n\n{\n  \"label\": \"壤塘县\",\n  \"value\": \"513230\" },\n\n{\n  \"label\": \"阿坝县\",\n  \"value\": \"513231\" },\n\n{\n  \"label\": \"若尔盖县\",\n  \"value\": \"513232\" },\n\n{\n  \"label\": \"红原县\",\n  \"value\": \"513233\" }],\n\n\n[{\n  \"label\": \"康定市\",\n  \"value\": \"513301\" },\n\n{\n  \"label\": \"泸定县\",\n  \"value\": \"513322\" },\n\n{\n  \"label\": \"丹巴县\",\n  \"value\": \"513323\" },\n\n{\n  \"label\": \"九龙县\",\n  \"value\": \"513324\" },\n\n{\n  \"label\": \"雅江县\",\n  \"value\": \"513325\" },\n\n{\n  \"label\": \"道孚县\",\n  \"value\": \"513326\" },\n\n{\n  \"label\": \"炉霍县\",\n  \"value\": \"513327\" },\n\n{\n  \"label\": \"甘孜县\",\n  \"value\": \"513328\" },\n\n{\n  \"label\": \"新龙县\",\n  \"value\": \"513329\" },\n\n{\n  \"label\": \"德格县\",\n  \"value\": \"513330\" },\n\n{\n  \"label\": \"白玉县\",\n  \"value\": \"513331\" },\n\n{\n  \"label\": \"石渠县\",\n  \"value\": \"513332\" },\n\n{\n  \"label\": \"色达县\",\n  \"value\": \"513333\" },\n\n{\n  \"label\": \"理塘县\",\n  \"value\": \"513334\" },\n\n{\n  \"label\": \"巴塘县\",\n  \"value\": \"513335\" },\n\n{\n  \"label\": \"乡城县\",\n  \"value\": \"513336\" },\n\n{\n  \"label\": \"稻城县\",\n  \"value\": \"513337\" },\n\n{\n  \"label\": \"得荣县\",\n  \"value\": \"513338\" }],\n\n\n[{\n  \"label\": \"西昌市\",\n  \"value\": \"513401\" },\n\n{\n  \"label\": \"木里藏族自治县\",\n  \"value\": \"513422\" },\n\n{\n  \"label\": \"盐源县\",\n  \"value\": \"513423\" },\n\n{\n  \"label\": \"德昌县\",\n  \"value\": \"513424\" },\n\n{\n  \"label\": \"会理县\",\n  \"value\": \"513425\" },\n\n{\n  \"label\": \"会东县\",\n  \"value\": \"513426\" },\n\n{\n  \"label\": \"宁南县\",\n  \"value\": \"513427\" },\n\n{\n  \"label\": \"普格县\",\n  \"value\": \"513428\" },\n\n{\n  \"label\": \"布拖县\",\n  \"value\": \"513429\" },\n\n{\n  \"label\": \"金阳县\",\n  \"value\": \"513430\" },\n\n{\n  \"label\": \"昭觉县\",\n  \"value\": \"513431\" },\n\n{\n  \"label\": \"喜德县\",\n  \"value\": \"513432\" },\n\n{\n  \"label\": \"冕宁县\",\n  \"value\": \"513433\" },\n\n{\n  \"label\": \"越西县\",\n  \"value\": \"513434\" },\n\n{\n  \"label\": \"甘洛县\",\n  \"value\": \"513435\" },\n\n{\n  \"label\": \"美姑县\",\n  \"value\": \"513436\" },\n\n{\n  \"label\": \"雷波县\",\n  \"value\": \"513437\" }]],\n\n\n\n[\n[{\n  \"label\": \"南明区\",\n  \"value\": \"520102\" },\n\n{\n  \"label\": \"云岩区\",\n  \"value\": \"520103\" },\n\n{\n  \"label\": \"花溪区\",\n  \"value\": \"520111\" },\n\n{\n  \"label\": \"乌当区\",\n  \"value\": \"520112\" },\n\n{\n  \"label\": \"白云区\",\n  \"value\": \"520113\" },\n\n{\n  \"label\": \"观山湖区\",\n  \"value\": \"520115\" },\n\n{\n  \"label\": \"开阳县\",\n  \"value\": \"520121\" },\n\n{\n  \"label\": \"息烽县\",\n  \"value\": \"520122\" },\n\n{\n  \"label\": \"修文县\",\n  \"value\": \"520123\" },\n\n{\n  \"label\": \"清镇市\",\n  \"value\": \"520181\" }],\n\n\n[{\n  \"label\": \"钟山区\",\n  \"value\": \"520201\" },\n\n{\n  \"label\": \"六枝特区\",\n  \"value\": \"520203\" },\n\n{\n  \"label\": \"水城县\",\n  \"value\": \"520221\" },\n\n{\n  \"label\": \"盘州市\",\n  \"value\": \"520281\" }],\n\n\n[{\n  \"label\": \"红花岗区\",\n  \"value\": \"520302\" },\n\n{\n  \"label\": \"汇川区\",\n  \"value\": \"520303\" },\n\n{\n  \"label\": \"播州区\",\n  \"value\": \"520304\" },\n\n{\n  \"label\": \"桐梓县\",\n  \"value\": \"520322\" },\n\n{\n  \"label\": \"绥阳县\",\n  \"value\": \"520323\" },\n\n{\n  \"label\": \"正安县\",\n  \"value\": \"520324\" },\n\n{\n  \"label\": \"道真仡佬族苗族自治县\",\n  \"value\": \"520325\" },\n\n{\n  \"label\": \"务川仡佬族苗族自治县\",\n  \"value\": \"520326\" },\n\n{\n  \"label\": \"凤冈县\",\n  \"value\": \"520327\" },\n\n{\n  \"label\": \"湄潭县\",\n  \"value\": \"520328\" },\n\n{\n  \"label\": \"余庆县\",\n  \"value\": \"520329\" },\n\n{\n  \"label\": \"习水县\",\n  \"value\": \"520330\" },\n\n{\n  \"label\": \"赤水市\",\n  \"value\": \"520381\" },\n\n{\n  \"label\": \"仁怀市\",\n  \"value\": \"520382\" }],\n\n\n[{\n  \"label\": \"西秀区\",\n  \"value\": \"520402\" },\n\n{\n  \"label\": \"平坝区\",\n  \"value\": \"520403\" },\n\n{\n  \"label\": \"普定县\",\n  \"value\": \"520422\" },\n\n{\n  \"label\": \"镇宁布依族苗族自治县\",\n  \"value\": \"520423\" },\n\n{\n  \"label\": \"关岭布依族苗族自治县\",\n  \"value\": \"520424\" },\n\n{\n  \"label\": \"紫云苗族布依族自治县\",\n  \"value\": \"520425\" }],\n\n\n[{\n  \"label\": \"七星关区\",\n  \"value\": \"520502\" },\n\n{\n  \"label\": \"大方县\",\n  \"value\": \"520521\" },\n\n{\n  \"label\": \"黔西县\",\n  \"value\": \"520522\" },\n\n{\n  \"label\": \"金沙县\",\n  \"value\": \"520523\" },\n\n{\n  \"label\": \"织金县\",\n  \"value\": \"520524\" },\n\n{\n  \"label\": \"纳雍县\",\n  \"value\": \"520525\" },\n\n{\n  \"label\": \"威宁彝族回族苗族自治县\",\n  \"value\": \"520526\" },\n\n{\n  \"label\": \"赫章县\",\n  \"value\": \"520527\" }],\n\n\n[{\n  \"label\": \"碧江区\",\n  \"value\": \"520602\" },\n\n{\n  \"label\": \"万山区\",\n  \"value\": \"520603\" },\n\n{\n  \"label\": \"江口县\",\n  \"value\": \"520621\" },\n\n{\n  \"label\": \"玉屏侗族自治县\",\n  \"value\": \"520622\" },\n\n{\n  \"label\": \"石阡县\",\n  \"value\": \"520623\" },\n\n{\n  \"label\": \"思南县\",\n  \"value\": \"520624\" },\n\n{\n  \"label\": \"印江土家族苗族自治县\",\n  \"value\": \"520625\" },\n\n{\n  \"label\": \"德江县\",\n  \"value\": \"520626\" },\n\n{\n  \"label\": \"沿河土家族自治县\",\n  \"value\": \"520627\" },\n\n{\n  \"label\": \"松桃苗族自治县\",\n  \"value\": \"520628\" }],\n\n\n[{\n  \"label\": \"兴义市\",\n  \"value\": \"522301\" },\n\n{\n  \"label\": \"兴仁县\",\n  \"value\": \"522322\" },\n\n{\n  \"label\": \"普安县\",\n  \"value\": \"522323\" },\n\n{\n  \"label\": \"晴隆县\",\n  \"value\": \"522324\" },\n\n{\n  \"label\": \"贞丰县\",\n  \"value\": \"522325\" },\n\n{\n  \"label\": \"望谟县\",\n  \"value\": \"522326\" },\n\n{\n  \"label\": \"册亨县\",\n  \"value\": \"522327\" },\n\n{\n  \"label\": \"安龙县\",\n  \"value\": \"522328\" }],\n\n\n[{\n  \"label\": \"凯里市\",\n  \"value\": \"522601\" },\n\n{\n  \"label\": \"黄平县\",\n  \"value\": \"522622\" },\n\n{\n  \"label\": \"施秉县\",\n  \"value\": \"522623\" },\n\n{\n  \"label\": \"三穗县\",\n  \"value\": \"522624\" },\n\n{\n  \"label\": \"镇远县\",\n  \"value\": \"522625\" },\n\n{\n  \"label\": \"岑巩县\",\n  \"value\": \"522626\" },\n\n{\n  \"label\": \"天柱县\",\n  \"value\": \"522627\" },\n\n{\n  \"label\": \"锦屏县\",\n  \"value\": \"522628\" },\n\n{\n  \"label\": \"剑河县\",\n  \"value\": \"522629\" },\n\n{\n  \"label\": \"台江县\",\n  \"value\": \"522630\" },\n\n{\n  \"label\": \"黎平县\",\n  \"value\": \"522631\" },\n\n{\n  \"label\": \"榕江县\",\n  \"value\": \"522632\" },\n\n{\n  \"label\": \"从江县\",\n  \"value\": \"522633\" },\n\n{\n  \"label\": \"雷山县\",\n  \"value\": \"522634\" },\n\n{\n  \"label\": \"麻江县\",\n  \"value\": \"522635\" },\n\n{\n  \"label\": \"丹寨县\",\n  \"value\": \"522636\" }],\n\n\n[{\n  \"label\": \"都匀市\",\n  \"value\": \"522701\" },\n\n{\n  \"label\": \"福泉市\",\n  \"value\": \"522702\" },\n\n{\n  \"label\": \"荔波县\",\n  \"value\": \"522722\" },\n\n{\n  \"label\": \"贵定县\",\n  \"value\": \"522723\" },\n\n{\n  \"label\": \"瓮安县\",\n  \"value\": \"522725\" },\n\n{\n  \"label\": \"独山县\",\n  \"value\": \"522726\" },\n\n{\n  \"label\": \"平塘县\",\n  \"value\": \"522727\" },\n\n{\n  \"label\": \"罗甸县\",\n  \"value\": \"522728\" },\n\n{\n  \"label\": \"长顺县\",\n  \"value\": \"522729\" },\n\n{\n  \"label\": \"龙里县\",\n  \"value\": \"522730\" },\n\n{\n  \"label\": \"惠水县\",\n  \"value\": \"522731\" },\n\n{\n  \"label\": \"三都水族自治县\",\n  \"value\": \"522732\" }]],\n\n\n\n[\n[{\n  \"label\": \"五华区\",\n  \"value\": \"530102\" },\n\n{\n  \"label\": \"盘龙区\",\n  \"value\": \"530103\" },\n\n{\n  \"label\": \"官渡区\",\n  \"value\": \"530111\" },\n\n{\n  \"label\": \"西山区\",\n  \"value\": \"530112\" },\n\n{\n  \"label\": \"东川区\",\n  \"value\": \"530113\" },\n\n{\n  \"label\": \"呈贡区\",\n  \"value\": \"530114\" },\n\n{\n  \"label\": \"晋宁区\",\n  \"value\": \"530115\" },\n\n{\n  \"label\": \"富民县\",\n  \"value\": \"530124\" },\n\n{\n  \"label\": \"宜良县\",\n  \"value\": \"530125\" },\n\n{\n  \"label\": \"石林彝族自治县\",\n  \"value\": \"530126\" },\n\n{\n  \"label\": \"嵩明县\",\n  \"value\": \"530127\" },\n\n{\n  \"label\": \"禄劝彝族苗族自治县\",\n  \"value\": \"530128\" },\n\n{\n  \"label\": \"寻甸回族彝族自治县\",\n  \"value\": \"530129\" },\n\n{\n  \"label\": \"安宁市\",\n  \"value\": \"530181\" }],\n\n\n[{\n  \"label\": \"麒麟区\",\n  \"value\": \"530302\" },\n\n{\n  \"label\": \"沾益区\",\n  \"value\": \"530303\" },\n\n{\n  \"label\": \"马龙县\",\n  \"value\": \"530321\" },\n\n{\n  \"label\": \"陆良县\",\n  \"value\": \"530322\" },\n\n{\n  \"label\": \"师宗县\",\n  \"value\": \"530323\" },\n\n{\n  \"label\": \"罗平县\",\n  \"value\": \"530324\" },\n\n{\n  \"label\": \"富源县\",\n  \"value\": \"530325\" },\n\n{\n  \"label\": \"会泽县\",\n  \"value\": \"530326\" },\n\n{\n  \"label\": \"宣威市\",\n  \"value\": \"530381\" }],\n\n\n[{\n  \"label\": \"红塔区\",\n  \"value\": \"530402\" },\n\n{\n  \"label\": \"江川区\",\n  \"value\": \"530403\" },\n\n{\n  \"label\": \"澄江县\",\n  \"value\": \"530422\" },\n\n{\n  \"label\": \"通海县\",\n  \"value\": \"530423\" },\n\n{\n  \"label\": \"华宁县\",\n  \"value\": \"530424\" },\n\n{\n  \"label\": \"易门县\",\n  \"value\": \"530425\" },\n\n{\n  \"label\": \"峨山彝族自治县\",\n  \"value\": \"530426\" },\n\n{\n  \"label\": \"新平彝族傣族自治县\",\n  \"value\": \"530427\" },\n\n{\n  \"label\": \"元江哈尼族彝族傣族自治县\",\n  \"value\": \"530428\" }],\n\n\n[{\n  \"label\": \"隆阳区\",\n  \"value\": \"530502\" },\n\n{\n  \"label\": \"施甸县\",\n  \"value\": \"530521\" },\n\n{\n  \"label\": \"龙陵县\",\n  \"value\": \"530523\" },\n\n{\n  \"label\": \"昌宁县\",\n  \"value\": \"530524\" },\n\n{\n  \"label\": \"腾冲市\",\n  \"value\": \"530581\" }],\n\n\n[{\n  \"label\": \"昭阳区\",\n  \"value\": \"530602\" },\n\n{\n  \"label\": \"鲁甸县\",\n  \"value\": \"530621\" },\n\n{\n  \"label\": \"巧家县\",\n  \"value\": \"530622\" },\n\n{\n  \"label\": \"盐津县\",\n  \"value\": \"530623\" },\n\n{\n  \"label\": \"大关县\",\n  \"value\": \"530624\" },\n\n{\n  \"label\": \"永善县\",\n  \"value\": \"530625\" },\n\n{\n  \"label\": \"绥江县\",\n  \"value\": \"530626\" },\n\n{\n  \"label\": \"镇雄县\",\n  \"value\": \"530627\" },\n\n{\n  \"label\": \"彝良县\",\n  \"value\": \"530628\" },\n\n{\n  \"label\": \"威信县\",\n  \"value\": \"530629\" },\n\n{\n  \"label\": \"水富县\",\n  \"value\": \"530630\" }],\n\n\n[{\n  \"label\": \"古城区\",\n  \"value\": \"530702\" },\n\n{\n  \"label\": \"玉龙纳西族自治县\",\n  \"value\": \"530721\" },\n\n{\n  \"label\": \"永胜县\",\n  \"value\": \"530722\" },\n\n{\n  \"label\": \"华坪县\",\n  \"value\": \"530723\" },\n\n{\n  \"label\": \"宁蒗彝族自治县\",\n  \"value\": \"530724\" }],\n\n\n[{\n  \"label\": \"思茅区\",\n  \"value\": \"530802\" },\n\n{\n  \"label\": \"宁洱哈尼族彝族自治县\",\n  \"value\": \"530821\" },\n\n{\n  \"label\": \"墨江哈尼族自治县\",\n  \"value\": \"530822\" },\n\n{\n  \"label\": \"景东彝族自治县\",\n  \"value\": \"530823\" },\n\n{\n  \"label\": \"景谷傣族彝族自治县\",\n  \"value\": \"530824\" },\n\n{\n  \"label\": \"镇沅彝族哈尼族拉祜族自治县\",\n  \"value\": \"530825\" },\n\n{\n  \"label\": \"江城哈尼族彝族自治县\",\n  \"value\": \"530826\" },\n\n{\n  \"label\": \"孟连傣族拉祜族佤族自治县\",\n  \"value\": \"530827\" },\n\n{\n  \"label\": \"澜沧拉祜族自治县\",\n  \"value\": \"530828\" },\n\n{\n  \"label\": \"西盟佤族自治县\",\n  \"value\": \"530829\" }],\n\n\n[{\n  \"label\": \"临翔区\",\n  \"value\": \"530902\" },\n\n{\n  \"label\": \"凤庆县\",\n  \"value\": \"530921\" },\n\n{\n  \"label\": \"云县\",\n  \"value\": \"530922\" },\n\n{\n  \"label\": \"永德县\",\n  \"value\": \"530923\" },\n\n{\n  \"label\": \"镇康县\",\n  \"value\": \"530924\" },\n\n{\n  \"label\": \"双江拉祜族佤族布朗族傣族自治县\",\n  \"value\": \"530925\" },\n\n{\n  \"label\": \"耿马傣族佤族自治县\",\n  \"value\": \"530926\" },\n\n{\n  \"label\": \"沧源佤族自治县\",\n  \"value\": \"530927\" }],\n\n\n[{\n  \"label\": \"楚雄市\",\n  \"value\": \"532301\" },\n\n{\n  \"label\": \"双柏县\",\n  \"value\": \"532322\" },\n\n{\n  \"label\": \"牟定县\",\n  \"value\": \"532323\" },\n\n{\n  \"label\": \"南华县\",\n  \"value\": \"532324\" },\n\n{\n  \"label\": \"姚安县\",\n  \"value\": \"532325\" },\n\n{\n  \"label\": \"大姚县\",\n  \"value\": \"532326\" },\n\n{\n  \"label\": \"永仁县\",\n  \"value\": \"532327\" },\n\n{\n  \"label\": \"元谋县\",\n  \"value\": \"532328\" },\n\n{\n  \"label\": \"武定县\",\n  \"value\": \"532329\" },\n\n{\n  \"label\": \"禄丰县\",\n  \"value\": \"532331\" }],\n\n\n[{\n  \"label\": \"个旧市\",\n  \"value\": \"532501\" },\n\n{\n  \"label\": \"开远市\",\n  \"value\": \"532502\" },\n\n{\n  \"label\": \"蒙自市\",\n  \"value\": \"532503\" },\n\n{\n  \"label\": \"弥勒市\",\n  \"value\": \"532504\" },\n\n{\n  \"label\": \"屏边苗族自治县\",\n  \"value\": \"532523\" },\n\n{\n  \"label\": \"建水县\",\n  \"value\": \"532524\" },\n\n{\n  \"label\": \"石屏县\",\n  \"value\": \"532525\" },\n\n{\n  \"label\": \"泸西县\",\n  \"value\": \"532527\" },\n\n{\n  \"label\": \"元阳县\",\n  \"value\": \"532528\" },\n\n{\n  \"label\": \"红河县\",\n  \"value\": \"532529\" },\n\n{\n  \"label\": \"金平苗族瑶族傣族自治县\",\n  \"value\": \"532530\" },\n\n{\n  \"label\": \"绿春县\",\n  \"value\": \"532531\" },\n\n{\n  \"label\": \"河口瑶族自治县\",\n  \"value\": \"532532\" }],\n\n\n[{\n  \"label\": \"文山市\",\n  \"value\": \"532601\" },\n\n{\n  \"label\": \"砚山县\",\n  \"value\": \"532622\" },\n\n{\n  \"label\": \"西畴县\",\n  \"value\": \"532623\" },\n\n{\n  \"label\": \"麻栗坡县\",\n  \"value\": \"532624\" },\n\n{\n  \"label\": \"马关县\",\n  \"value\": \"532625\" },\n\n{\n  \"label\": \"丘北县\",\n  \"value\": \"532626\" },\n\n{\n  \"label\": \"广南县\",\n  \"value\": \"532627\" },\n\n{\n  \"label\": \"富宁县\",\n  \"value\": \"532628\" }],\n\n\n[{\n  \"label\": \"景洪市\",\n  \"value\": \"532801\" },\n\n{\n  \"label\": \"勐海县\",\n  \"value\": \"532822\" },\n\n{\n  \"label\": \"勐腊县\",\n  \"value\": \"532823\" }],\n\n\n[{\n  \"label\": \"大理市\",\n  \"value\": \"532901\" },\n\n{\n  \"label\": \"漾濞彝族自治县\",\n  \"value\": \"532922\" },\n\n{\n  \"label\": \"祥云县\",\n  \"value\": \"532923\" },\n\n{\n  \"label\": \"宾川县\",\n  \"value\": \"532924\" },\n\n{\n  \"label\": \"弥渡县\",\n  \"value\": \"532925\" },\n\n{\n  \"label\": \"南涧彝族自治县\",\n  \"value\": \"532926\" },\n\n{\n  \"label\": \"巍山彝族回族自治县\",\n  \"value\": \"532927\" },\n\n{\n  \"label\": \"永平县\",\n  \"value\": \"532928\" },\n\n{\n  \"label\": \"云龙县\",\n  \"value\": \"532929\" },\n\n{\n  \"label\": \"洱源县\",\n  \"value\": \"532930\" },\n\n{\n  \"label\": \"剑川县\",\n  \"value\": \"532931\" },\n\n{\n  \"label\": \"鹤庆县\",\n  \"value\": \"532932\" }],\n\n\n[{\n  \"label\": \"瑞丽市\",\n  \"value\": \"533102\" },\n\n{\n  \"label\": \"芒市\",\n  \"value\": \"533103\" },\n\n{\n  \"label\": \"梁河县\",\n  \"value\": \"533122\" },\n\n{\n  \"label\": \"盈江县\",\n  \"value\": \"533123\" },\n\n{\n  \"label\": \"陇川县\",\n  \"value\": \"533124\" }],\n\n\n[{\n  \"label\": \"泸水市\",\n  \"value\": \"533301\" },\n\n{\n  \"label\": \"福贡县\",\n  \"value\": \"533323\" },\n\n{\n  \"label\": \"贡山独龙族怒族自治县\",\n  \"value\": \"533324\" },\n\n{\n  \"label\": \"兰坪白族普米族自治县\",\n  \"value\": \"533325\" }],\n\n\n[{\n  \"label\": \"香格里拉市\",\n  \"value\": \"533401\" },\n\n{\n  \"label\": \"德钦县\",\n  \"value\": \"533422\" },\n\n{\n  \"label\": \"维西傈僳族自治县\",\n  \"value\": \"533423\" }]],\n\n\n\n[\n[{\n  \"label\": \"城关区\",\n  \"value\": \"540102\" },\n\n{\n  \"label\": \"堆龙德庆区\",\n  \"value\": \"540103\" },\n\n{\n  \"label\": \"林周县\",\n  \"value\": \"540121\" },\n\n{\n  \"label\": \"当雄县\",\n  \"value\": \"540122\" },\n\n{\n  \"label\": \"尼木县\",\n  \"value\": \"540123\" },\n\n{\n  \"label\": \"曲水县\",\n  \"value\": \"540124\" },\n\n{\n  \"label\": \"达孜县\",\n  \"value\": \"540126\" },\n\n{\n  \"label\": \"墨竹工卡县\",\n  \"value\": \"540127\" },\n\n{\n  \"label\": \"格尔木藏青工业园区\",\n  \"value\": \"540171\" },\n\n{\n  \"label\": \"拉萨经济技术开发区\",\n  \"value\": \"540172\" },\n\n{\n  \"label\": \"西藏文化旅游创意园区\",\n  \"value\": \"540173\" },\n\n{\n  \"label\": \"达孜工业园区\",\n  \"value\": \"540174\" }],\n\n\n[{\n  \"label\": \"桑珠孜区\",\n  \"value\": \"540202\" },\n\n{\n  \"label\": \"南木林县\",\n  \"value\": \"540221\" },\n\n{\n  \"label\": \"江孜县\",\n  \"value\": \"540222\" },\n\n{\n  \"label\": \"定日县\",\n  \"value\": \"540223\" },\n\n{\n  \"label\": \"萨迦县\",\n  \"value\": \"540224\" },\n\n{\n  \"label\": \"拉孜县\",\n  \"value\": \"540225\" },\n\n{\n  \"label\": \"昂仁县\",\n  \"value\": \"540226\" },\n\n{\n  \"label\": \"谢通门县\",\n  \"value\": \"540227\" },\n\n{\n  \"label\": \"白朗县\",\n  \"value\": \"540228\" },\n\n{\n  \"label\": \"仁布县\",\n  \"value\": \"540229\" },\n\n{\n  \"label\": \"康马县\",\n  \"value\": \"540230\" },\n\n{\n  \"label\": \"定结县\",\n  \"value\": \"540231\" },\n\n{\n  \"label\": \"仲巴县\",\n  \"value\": \"540232\" },\n\n{\n  \"label\": \"亚东县\",\n  \"value\": \"540233\" },\n\n{\n  \"label\": \"吉隆县\",\n  \"value\": \"540234\" },\n\n{\n  \"label\": \"聂拉木县\",\n  \"value\": \"540235\" },\n\n{\n  \"label\": \"萨嘎县\",\n  \"value\": \"540236\" },\n\n{\n  \"label\": \"岗巴县\",\n  \"value\": \"540237\" }],\n\n\n[{\n  \"label\": \"卡若区\",\n  \"value\": \"540302\" },\n\n{\n  \"label\": \"江达县\",\n  \"value\": \"540321\" },\n\n{\n  \"label\": \"贡觉县\",\n  \"value\": \"540322\" },\n\n{\n  \"label\": \"类乌齐县\",\n  \"value\": \"540323\" },\n\n{\n  \"label\": \"丁青县\",\n  \"value\": \"540324\" },\n\n{\n  \"label\": \"察雅县\",\n  \"value\": \"540325\" },\n\n{\n  \"label\": \"八宿县\",\n  \"value\": \"540326\" },\n\n{\n  \"label\": \"左贡县\",\n  \"value\": \"540327\" },\n\n{\n  \"label\": \"芒康县\",\n  \"value\": \"540328\" },\n\n{\n  \"label\": \"洛隆县\",\n  \"value\": \"540329\" },\n\n{\n  \"label\": \"边坝县\",\n  \"value\": \"540330\" }],\n\n\n[{\n  \"label\": \"巴宜区\",\n  \"value\": \"540402\" },\n\n{\n  \"label\": \"工布江达县\",\n  \"value\": \"540421\" },\n\n{\n  \"label\": \"米林县\",\n  \"value\": \"540422\" },\n\n{\n  \"label\": \"墨脱县\",\n  \"value\": \"540423\" },\n\n{\n  \"label\": \"波密县\",\n  \"value\": \"540424\" },\n\n{\n  \"label\": \"察隅县\",\n  \"value\": \"540425\" },\n\n{\n  \"label\": \"朗县\",\n  \"value\": \"540426\" }],\n\n\n[{\n  \"label\": \"乃东区\",\n  \"value\": \"540502\" },\n\n{\n  \"label\": \"扎囊县\",\n  \"value\": \"540521\" },\n\n{\n  \"label\": \"贡嘎县\",\n  \"value\": \"540522\" },\n\n{\n  \"label\": \"桑日县\",\n  \"value\": \"540523\" },\n\n{\n  \"label\": \"琼结县\",\n  \"value\": \"540524\" },\n\n{\n  \"label\": \"曲松县\",\n  \"value\": \"540525\" },\n\n{\n  \"label\": \"措美县\",\n  \"value\": \"540526\" },\n\n{\n  \"label\": \"洛扎县\",\n  \"value\": \"540527\" },\n\n{\n  \"label\": \"加查县\",\n  \"value\": \"540528\" },\n\n{\n  \"label\": \"隆子县\",\n  \"value\": \"540529\" },\n\n{\n  \"label\": \"错那县\",\n  \"value\": \"540530\" },\n\n{\n  \"label\": \"浪卡子县\",\n  \"value\": \"540531\" }],\n\n\n[{\n  \"label\": \"那曲县\",\n  \"value\": \"542421\" },\n\n{\n  \"label\": \"嘉黎县\",\n  \"value\": \"542422\" },\n\n{\n  \"label\": \"比如县\",\n  \"value\": \"542423\" },\n\n{\n  \"label\": \"聂荣县\",\n  \"value\": \"542424\" },\n\n{\n  \"label\": \"安多县\",\n  \"value\": \"542425\" },\n\n{\n  \"label\": \"申扎县\",\n  \"value\": \"542426\" },\n\n{\n  \"label\": \"索县\",\n  \"value\": \"542427\" },\n\n{\n  \"label\": \"班戈县\",\n  \"value\": \"542428\" },\n\n{\n  \"label\": \"巴青县\",\n  \"value\": \"542429\" },\n\n{\n  \"label\": \"尼玛县\",\n  \"value\": \"542430\" },\n\n{\n  \"label\": \"双湖县\",\n  \"value\": \"542431\" }],\n\n\n[{\n  \"label\": \"普兰县\",\n  \"value\": \"542521\" },\n\n{\n  \"label\": \"札达县\",\n  \"value\": \"542522\" },\n\n{\n  \"label\": \"噶尔县\",\n  \"value\": \"542523\" },\n\n{\n  \"label\": \"日土县\",\n  \"value\": \"542524\" },\n\n{\n  \"label\": \"革吉县\",\n  \"value\": \"542525\" },\n\n{\n  \"label\": \"改则县\",\n  \"value\": \"542526\" },\n\n{\n  \"label\": \"措勤县\",\n  \"value\": \"542527\" }]],\n\n\n\n[\n[{\n  \"label\": \"新城区\",\n  \"value\": \"610102\" },\n\n{\n  \"label\": \"碑林区\",\n  \"value\": \"610103\" },\n\n{\n  \"label\": \"莲湖区\",\n  \"value\": \"610104\" },\n\n{\n  \"label\": \"灞桥区\",\n  \"value\": \"610111\" },\n\n{\n  \"label\": \"未央区\",\n  \"value\": \"610112\" },\n\n{\n  \"label\": \"雁塔区\",\n  \"value\": \"610113\" },\n\n{\n  \"label\": \"阎良区\",\n  \"value\": \"610114\" },\n\n{\n  \"label\": \"临潼区\",\n  \"value\": \"610115\" },\n\n{\n  \"label\": \"长安区\",\n  \"value\": \"610116\" },\n\n{\n  \"label\": \"高陵区\",\n  \"value\": \"610117\" },\n\n{\n  \"label\": \"鄠邑区\",\n  \"value\": \"610118\" },\n\n{\n  \"label\": \"蓝田县\",\n  \"value\": \"610122\" },\n\n{\n  \"label\": \"周至县\",\n  \"value\": \"610124\" }],\n\n\n[{\n  \"label\": \"王益区\",\n  \"value\": \"610202\" },\n\n{\n  \"label\": \"印台区\",\n  \"value\": \"610203\" },\n\n{\n  \"label\": \"耀州区\",\n  \"value\": \"610204\" },\n\n{\n  \"label\": \"宜君县\",\n  \"value\": \"610222\" }],\n\n\n[{\n  \"label\": \"渭滨区\",\n  \"value\": \"610302\" },\n\n{\n  \"label\": \"金台区\",\n  \"value\": \"610303\" },\n\n{\n  \"label\": \"陈仓区\",\n  \"value\": \"610304\" },\n\n{\n  \"label\": \"凤翔县\",\n  \"value\": \"610322\" },\n\n{\n  \"label\": \"岐山县\",\n  \"value\": \"610323\" },\n\n{\n  \"label\": \"扶风县\",\n  \"value\": \"610324\" },\n\n{\n  \"label\": \"眉县\",\n  \"value\": \"610326\" },\n\n{\n  \"label\": \"陇县\",\n  \"value\": \"610327\" },\n\n{\n  \"label\": \"千阳县\",\n  \"value\": \"610328\" },\n\n{\n  \"label\": \"麟游县\",\n  \"value\": \"610329\" },\n\n{\n  \"label\": \"凤县\",\n  \"value\": \"610330\" },\n\n{\n  \"label\": \"太白县\",\n  \"value\": \"610331\" }],\n\n\n[{\n  \"label\": \"秦都区\",\n  \"value\": \"610402\" },\n\n{\n  \"label\": \"杨陵区\",\n  \"value\": \"610403\" },\n\n{\n  \"label\": \"渭城区\",\n  \"value\": \"610404\" },\n\n{\n  \"label\": \"三原县\",\n  \"value\": \"610422\" },\n\n{\n  \"label\": \"泾阳县\",\n  \"value\": \"610423\" },\n\n{\n  \"label\": \"乾县\",\n  \"value\": \"610424\" },\n\n{\n  \"label\": \"礼泉县\",\n  \"value\": \"610425\" },\n\n{\n  \"label\": \"永寿县\",\n  \"value\": \"610426\" },\n\n{\n  \"label\": \"彬县\",\n  \"value\": \"610427\" },\n\n{\n  \"label\": \"长武县\",\n  \"value\": \"610428\" },\n\n{\n  \"label\": \"旬邑县\",\n  \"value\": \"610429\" },\n\n{\n  \"label\": \"淳化县\",\n  \"value\": \"610430\" },\n\n{\n  \"label\": \"武功县\",\n  \"value\": \"610431\" },\n\n{\n  \"label\": \"兴平市\",\n  \"value\": \"610481\" }],\n\n\n[{\n  \"label\": \"临渭区\",\n  \"value\": \"610502\" },\n\n{\n  \"label\": \"华州区\",\n  \"value\": \"610503\" },\n\n{\n  \"label\": \"潼关县\",\n  \"value\": \"610522\" },\n\n{\n  \"label\": \"大荔县\",\n  \"value\": \"610523\" },\n\n{\n  \"label\": \"合阳县\",\n  \"value\": \"610524\" },\n\n{\n  \"label\": \"澄城县\",\n  \"value\": \"610525\" },\n\n{\n  \"label\": \"蒲城县\",\n  \"value\": \"610526\" },\n\n{\n  \"label\": \"白水县\",\n  \"value\": \"610527\" },\n\n{\n  \"label\": \"富平县\",\n  \"value\": \"610528\" },\n\n{\n  \"label\": \"韩城市\",\n  \"value\": \"610581\" },\n\n{\n  \"label\": \"华阴市\",\n  \"value\": \"610582\" }],\n\n\n[{\n  \"label\": \"宝塔区\",\n  \"value\": \"610602\" },\n\n{\n  \"label\": \"安塞区\",\n  \"value\": \"610603\" },\n\n{\n  \"label\": \"延长县\",\n  \"value\": \"610621\" },\n\n{\n  \"label\": \"延川县\",\n  \"value\": \"610622\" },\n\n{\n  \"label\": \"子长县\",\n  \"value\": \"610623\" },\n\n{\n  \"label\": \"志丹县\",\n  \"value\": \"610625\" },\n\n{\n  \"label\": \"吴起县\",\n  \"value\": \"610626\" },\n\n{\n  \"label\": \"甘泉县\",\n  \"value\": \"610627\" },\n\n{\n  \"label\": \"富县\",\n  \"value\": \"610628\" },\n\n{\n  \"label\": \"洛川县\",\n  \"value\": \"610629\" },\n\n{\n  \"label\": \"宜川县\",\n  \"value\": \"610630\" },\n\n{\n  \"label\": \"黄龙县\",\n  \"value\": \"610631\" },\n\n{\n  \"label\": \"黄陵县\",\n  \"value\": \"610632\" }],\n\n\n[{\n  \"label\": \"汉台区\",\n  \"value\": \"610702\" },\n\n{\n  \"label\": \"南郑区\",\n  \"value\": \"610703\" },\n\n{\n  \"label\": \"城固县\",\n  \"value\": \"610722\" },\n\n{\n  \"label\": \"洋县\",\n  \"value\": \"610723\" },\n\n{\n  \"label\": \"西乡县\",\n  \"value\": \"610724\" },\n\n{\n  \"label\": \"勉县\",\n  \"value\": \"610725\" },\n\n{\n  \"label\": \"宁强县\",\n  \"value\": \"610726\" },\n\n{\n  \"label\": \"略阳县\",\n  \"value\": \"610727\" },\n\n{\n  \"label\": \"镇巴县\",\n  \"value\": \"610728\" },\n\n{\n  \"label\": \"留坝县\",\n  \"value\": \"610729\" },\n\n{\n  \"label\": \"佛坪县\",\n  \"value\": \"610730\" }],\n\n\n[{\n  \"label\": \"榆阳区\",\n  \"value\": \"610802\" },\n\n{\n  \"label\": \"横山区\",\n  \"value\": \"610803\" },\n\n{\n  \"label\": \"府谷县\",\n  \"value\": \"610822\" },\n\n{\n  \"label\": \"靖边县\",\n  \"value\": \"610824\" },\n\n{\n  \"label\": \"定边县\",\n  \"value\": \"610825\" },\n\n{\n  \"label\": \"绥德县\",\n  \"value\": \"610826\" },\n\n{\n  \"label\": \"米脂县\",\n  \"value\": \"610827\" },\n\n{\n  \"label\": \"佳县\",\n  \"value\": \"610828\" },\n\n{\n  \"label\": \"吴堡县\",\n  \"value\": \"610829\" },\n\n{\n  \"label\": \"清涧县\",\n  \"value\": \"610830\" },\n\n{\n  \"label\": \"子洲县\",\n  \"value\": \"610831\" },\n\n{\n  \"label\": \"神木市\",\n  \"value\": \"610881\" }],\n\n\n[{\n  \"label\": \"汉滨区\",\n  \"value\": \"610902\" },\n\n{\n  \"label\": \"汉阴县\",\n  \"value\": \"610921\" },\n\n{\n  \"label\": \"石泉县\",\n  \"value\": \"610922\" },\n\n{\n  \"label\": \"宁陕县\",\n  \"value\": \"610923\" },\n\n{\n  \"label\": \"紫阳县\",\n  \"value\": \"610924\" },\n\n{\n  \"label\": \"岚皋县\",\n  \"value\": \"610925\" },\n\n{\n  \"label\": \"平利县\",\n  \"value\": \"610926\" },\n\n{\n  \"label\": \"镇坪县\",\n  \"value\": \"610927\" },\n\n{\n  \"label\": \"旬阳县\",\n  \"value\": \"610928\" },\n\n{\n  \"label\": \"白河县\",\n  \"value\": \"610929\" }],\n\n\n[{\n  \"label\": \"商州区\",\n  \"value\": \"611002\" },\n\n{\n  \"label\": \"洛南县\",\n  \"value\": \"611021\" },\n\n{\n  \"label\": \"丹凤县\",\n  \"value\": \"611022\" },\n\n{\n  \"label\": \"商南县\",\n  \"value\": \"611023\" },\n\n{\n  \"label\": \"山阳县\",\n  \"value\": \"611024\" },\n\n{\n  \"label\": \"镇安县\",\n  \"value\": \"611025\" },\n\n{\n  \"label\": \"柞水县\",\n  \"value\": \"611026\" }]],\n\n\n\n[\n[{\n  \"label\": \"城关区\",\n  \"value\": \"620102\" },\n\n{\n  \"label\": \"七里河区\",\n  \"value\": \"620103\" },\n\n{\n  \"label\": \"西固区\",\n  \"value\": \"620104\" },\n\n{\n  \"label\": \"安宁区\",\n  \"value\": \"620105\" },\n\n{\n  \"label\": \"红古区\",\n  \"value\": \"620111\" },\n\n{\n  \"label\": \"永登县\",\n  \"value\": \"620121\" },\n\n{\n  \"label\": \"皋兰县\",\n  \"value\": \"620122\" },\n\n{\n  \"label\": \"榆中县\",\n  \"value\": \"620123\" },\n\n{\n  \"label\": \"兰州新区\",\n  \"value\": \"620171\" }],\n\n\n[{\n  \"label\": \"嘉峪关市\",\n  \"value\": \"620201\" }],\n\n[{\n  \"label\": \"金川区\",\n  \"value\": \"620302\" },\n\n{\n  \"label\": \"永昌县\",\n  \"value\": \"620321\" }],\n\n\n[{\n  \"label\": \"白银区\",\n  \"value\": \"620402\" },\n\n{\n  \"label\": \"平川区\",\n  \"value\": \"620403\" },\n\n{\n  \"label\": \"靖远县\",\n  \"value\": \"620421\" },\n\n{\n  \"label\": \"会宁县\",\n  \"value\": \"620422\" },\n\n{\n  \"label\": \"景泰县\",\n  \"value\": \"620423\" }],\n\n\n[{\n  \"label\": \"秦州区\",\n  \"value\": \"620502\" },\n\n{\n  \"label\": \"麦积区\",\n  \"value\": \"620503\" },\n\n{\n  \"label\": \"清水县\",\n  \"value\": \"620521\" },\n\n{\n  \"label\": \"秦安县\",\n  \"value\": \"620522\" },\n\n{\n  \"label\": \"甘谷县\",\n  \"value\": \"620523\" },\n\n{\n  \"label\": \"武山县\",\n  \"value\": \"620524\" },\n\n{\n  \"label\": \"张家川回族自治县\",\n  \"value\": \"620525\" }],\n\n\n[{\n  \"label\": \"凉州区\",\n  \"value\": \"620602\" },\n\n{\n  \"label\": \"民勤县\",\n  \"value\": \"620621\" },\n\n{\n  \"label\": \"古浪县\",\n  \"value\": \"620622\" },\n\n{\n  \"label\": \"天祝藏族自治县\",\n  \"value\": \"620623\" }],\n\n\n[{\n  \"label\": \"甘州区\",\n  \"value\": \"620702\" },\n\n{\n  \"label\": \"肃南裕固族自治县\",\n  \"value\": \"620721\" },\n\n{\n  \"label\": \"民乐县\",\n  \"value\": \"620722\" },\n\n{\n  \"label\": \"临泽县\",\n  \"value\": \"620723\" },\n\n{\n  \"label\": \"高台县\",\n  \"value\": \"620724\" },\n\n{\n  \"label\": \"山丹县\",\n  \"value\": \"620725\" }],\n\n\n[{\n  \"label\": \"崆峒区\",\n  \"value\": \"620802\" },\n\n{\n  \"label\": \"泾川县\",\n  \"value\": \"620821\" },\n\n{\n  \"label\": \"灵台县\",\n  \"value\": \"620822\" },\n\n{\n  \"label\": \"崇信县\",\n  \"value\": \"620823\" },\n\n{\n  \"label\": \"华亭县\",\n  \"value\": \"620824\" },\n\n{\n  \"label\": \"庄浪县\",\n  \"value\": \"620825\" },\n\n{\n  \"label\": \"静宁县\",\n  \"value\": \"620826\" },\n\n{\n  \"label\": \"平凉工业园区\",\n  \"value\": \"620871\" }],\n\n\n[{\n  \"label\": \"肃州区\",\n  \"value\": \"620902\" },\n\n{\n  \"label\": \"金塔县\",\n  \"value\": \"620921\" },\n\n{\n  \"label\": \"瓜州县\",\n  \"value\": \"620922\" },\n\n{\n  \"label\": \"肃北蒙古族自治县\",\n  \"value\": \"620923\" },\n\n{\n  \"label\": \"阿克塞哈萨克族自治县\",\n  \"value\": \"620924\" },\n\n{\n  \"label\": \"玉门市\",\n  \"value\": \"620981\" },\n\n{\n  \"label\": \"敦煌市\",\n  \"value\": \"620982\" }],\n\n\n[{\n  \"label\": \"西峰区\",\n  \"value\": \"621002\" },\n\n{\n  \"label\": \"庆城县\",\n  \"value\": \"621021\" },\n\n{\n  \"label\": \"环县\",\n  \"value\": \"621022\" },\n\n{\n  \"label\": \"华池县\",\n  \"value\": \"621023\" },\n\n{\n  \"label\": \"合水县\",\n  \"value\": \"621024\" },\n\n{\n  \"label\": \"正宁县\",\n  \"value\": \"621025\" },\n\n{\n  \"label\": \"宁县\",\n  \"value\": \"621026\" },\n\n{\n  \"label\": \"镇原县\",\n  \"value\": \"621027\" }],\n\n\n[{\n  \"label\": \"安定区\",\n  \"value\": \"621102\" },\n\n{\n  \"label\": \"通渭县\",\n  \"value\": \"621121\" },\n\n{\n  \"label\": \"陇西县\",\n  \"value\": \"621122\" },\n\n{\n  \"label\": \"渭源县\",\n  \"value\": \"621123\" },\n\n{\n  \"label\": \"临洮县\",\n  \"value\": \"621124\" },\n\n{\n  \"label\": \"漳县\",\n  \"value\": \"621125\" },\n\n{\n  \"label\": \"岷县\",\n  \"value\": \"621126\" }],\n\n\n[{\n  \"label\": \"武都区\",\n  \"value\": \"621202\" },\n\n{\n  \"label\": \"成县\",\n  \"value\": \"621221\" },\n\n{\n  \"label\": \"文县\",\n  \"value\": \"621222\" },\n\n{\n  \"label\": \"宕昌县\",\n  \"value\": \"621223\" },\n\n{\n  \"label\": \"康县\",\n  \"value\": \"621224\" },\n\n{\n  \"label\": \"西和县\",\n  \"value\": \"621225\" },\n\n{\n  \"label\": \"礼县\",\n  \"value\": \"621226\" },\n\n{\n  \"label\": \"徽县\",\n  \"value\": \"621227\" },\n\n{\n  \"label\": \"两当县\",\n  \"value\": \"621228\" }],\n\n\n[{\n  \"label\": \"临夏市\",\n  \"value\": \"622901\" },\n\n{\n  \"label\": \"临夏县\",\n  \"value\": \"622921\" },\n\n{\n  \"label\": \"康乐县\",\n  \"value\": \"622922\" },\n\n{\n  \"label\": \"永靖县\",\n  \"value\": \"622923\" },\n\n{\n  \"label\": \"广河县\",\n  \"value\": \"622924\" },\n\n{\n  \"label\": \"和政县\",\n  \"value\": \"622925\" },\n\n{\n  \"label\": \"东乡族自治县\",\n  \"value\": \"622926\" },\n\n{\n  \"label\": \"积石山保安族东乡族撒拉族自治县\",\n  \"value\": \"622927\" }],\n\n\n[{\n  \"label\": \"合作市\",\n  \"value\": \"623001\" },\n\n{\n  \"label\": \"临潭县\",\n  \"value\": \"623021\" },\n\n{\n  \"label\": \"卓尼县\",\n  \"value\": \"623022\" },\n\n{\n  \"label\": \"舟曲县\",\n  \"value\": \"623023\" },\n\n{\n  \"label\": \"迭部县\",\n  \"value\": \"623024\" },\n\n{\n  \"label\": \"玛曲县\",\n  \"value\": \"623025\" },\n\n{\n  \"label\": \"碌曲县\",\n  \"value\": \"623026\" },\n\n{\n  \"label\": \"夏河县\",\n  \"value\": \"623027\" }]],\n\n\n\n[\n[{\n  \"label\": \"城东区\",\n  \"value\": \"630102\" },\n\n{\n  \"label\": \"城中区\",\n  \"value\": \"630103\" },\n\n{\n  \"label\": \"城西区\",\n  \"value\": \"630104\" },\n\n{\n  \"label\": \"城北区\",\n  \"value\": \"630105\" },\n\n{\n  \"label\": \"大通回族土族自治县\",\n  \"value\": \"630121\" },\n\n{\n  \"label\": \"湟中县\",\n  \"value\": \"630122\" },\n\n{\n  \"label\": \"湟源县\",\n  \"value\": \"630123\" }],\n\n\n[{\n  \"label\": \"乐都区\",\n  \"value\": \"630202\" },\n\n{\n  \"label\": \"平安区\",\n  \"value\": \"630203\" },\n\n{\n  \"label\": \"民和回族土族自治县\",\n  \"value\": \"630222\" },\n\n{\n  \"label\": \"互助土族自治县\",\n  \"value\": \"630223\" },\n\n{\n  \"label\": \"化隆回族自治县\",\n  \"value\": \"630224\" },\n\n{\n  \"label\": \"循化撒拉族自治县\",\n  \"value\": \"630225\" }],\n\n\n[{\n  \"label\": \"门源回族自治县\",\n  \"value\": \"632221\" },\n\n{\n  \"label\": \"祁连县\",\n  \"value\": \"632222\" },\n\n{\n  \"label\": \"海晏县\",\n  \"value\": \"632223\" },\n\n{\n  \"label\": \"刚察县\",\n  \"value\": \"632224\" }],\n\n\n[{\n  \"label\": \"同仁县\",\n  \"value\": \"632321\" },\n\n{\n  \"label\": \"尖扎县\",\n  \"value\": \"632322\" },\n\n{\n  \"label\": \"泽库县\",\n  \"value\": \"632323\" },\n\n{\n  \"label\": \"河南蒙古族自治县\",\n  \"value\": \"632324\" }],\n\n\n[{\n  \"label\": \"共和县\",\n  \"value\": \"632521\" },\n\n{\n  \"label\": \"同德县\",\n  \"value\": \"632522\" },\n\n{\n  \"label\": \"贵德县\",\n  \"value\": \"632523\" },\n\n{\n  \"label\": \"兴海县\",\n  \"value\": \"632524\" },\n\n{\n  \"label\": \"贵南县\",\n  \"value\": \"632525\" }],\n\n\n[{\n  \"label\": \"玛沁县\",\n  \"value\": \"632621\" },\n\n{\n  \"label\": \"班玛县\",\n  \"value\": \"632622\" },\n\n{\n  \"label\": \"甘德县\",\n  \"value\": \"632623\" },\n\n{\n  \"label\": \"达日县\",\n  \"value\": \"632624\" },\n\n{\n  \"label\": \"久治县\",\n  \"value\": \"632625\" },\n\n{\n  \"label\": \"玛多县\",\n  \"value\": \"632626\" }],\n\n\n[{\n  \"label\": \"玉树市\",\n  \"value\": \"632701\" },\n\n{\n  \"label\": \"杂多县\",\n  \"value\": \"632722\" },\n\n{\n  \"label\": \"称多县\",\n  \"value\": \"632723\" },\n\n{\n  \"label\": \"治多县\",\n  \"value\": \"632724\" },\n\n{\n  \"label\": \"囊谦县\",\n  \"value\": \"632725\" },\n\n{\n  \"label\": \"曲麻莱县\",\n  \"value\": \"632726\" }],\n\n\n[{\n  \"label\": \"格尔木市\",\n  \"value\": \"632801\" },\n\n{\n  \"label\": \"德令哈市\",\n  \"value\": \"632802\" },\n\n{\n  \"label\": \"乌兰县\",\n  \"value\": \"632821\" },\n\n{\n  \"label\": \"都兰县\",\n  \"value\": \"632822\" },\n\n{\n  \"label\": \"天峻县\",\n  \"value\": \"632823\" },\n\n{\n  \"label\": \"大柴旦行政委员会\",\n  \"value\": \"632857\" },\n\n{\n  \"label\": \"冷湖行政委员会\",\n  \"value\": \"632858\" },\n\n{\n  \"label\": \"茫崖行政委员会\",\n  \"value\": \"632859\" }]],\n\n\n\n[\n[{\n  \"label\": \"兴庆区\",\n  \"value\": \"640104\" },\n\n{\n  \"label\": \"西夏区\",\n  \"value\": \"640105\" },\n\n{\n  \"label\": \"金凤区\",\n  \"value\": \"640106\" },\n\n{\n  \"label\": \"永宁县\",\n  \"value\": \"640121\" },\n\n{\n  \"label\": \"贺兰县\",\n  \"value\": \"640122\" },\n\n{\n  \"label\": \"灵武市\",\n  \"value\": \"640181\" }],\n\n\n[{\n  \"label\": \"大武口区\",\n  \"value\": \"640202\" },\n\n{\n  \"label\": \"惠农区\",\n  \"value\": \"640205\" },\n\n{\n  \"label\": \"平罗县\",\n  \"value\": \"640221\" }],\n\n\n[{\n  \"label\": \"利通区\",\n  \"value\": \"640302\" },\n\n{\n  \"label\": \"红寺堡区\",\n  \"value\": \"640303\" },\n\n{\n  \"label\": \"盐池县\",\n  \"value\": \"640323\" },\n\n{\n  \"label\": \"同心县\",\n  \"value\": \"640324\" },\n\n{\n  \"label\": \"青铜峡市\",\n  \"value\": \"640381\" }],\n\n\n[{\n  \"label\": \"原州区\",\n  \"value\": \"640402\" },\n\n{\n  \"label\": \"西吉县\",\n  \"value\": \"640422\" },\n\n{\n  \"label\": \"隆德县\",\n  \"value\": \"640423\" },\n\n{\n  \"label\": \"泾源县\",\n  \"value\": \"640424\" },\n\n{\n  \"label\": \"彭阳县\",\n  \"value\": \"640425\" }],\n\n\n[{\n  \"label\": \"沙坡头区\",\n  \"value\": \"640502\" },\n\n{\n  \"label\": \"中宁县\",\n  \"value\": \"640521\" },\n\n{\n  \"label\": \"海原县\",\n  \"value\": \"640522\" }]],\n\n\n\n[\n[{\n  \"label\": \"天山区\",\n  \"value\": \"650102\" },\n\n{\n  \"label\": \"沙依巴克区\",\n  \"value\": \"650103\" },\n\n{\n  \"label\": \"新市区\",\n  \"value\": \"650104\" },\n\n{\n  \"label\": \"水磨沟区\",\n  \"value\": \"650105\" },\n\n{\n  \"label\": \"头屯河区\",\n  \"value\": \"650106\" },\n\n{\n  \"label\": \"达坂城区\",\n  \"value\": \"650107\" },\n\n{\n  \"label\": \"米东区\",\n  \"value\": \"650109\" },\n\n{\n  \"label\": \"乌鲁木齐县\",\n  \"value\": \"650121\" },\n\n{\n  \"label\": \"乌鲁木齐经济技术开发区\",\n  \"value\": \"650171\" },\n\n{\n  \"label\": \"乌鲁木齐高新技术产业开发区\",\n  \"value\": \"650172\" }],\n\n\n[{\n  \"label\": \"独山子区\",\n  \"value\": \"650202\" },\n\n{\n  \"label\": \"克拉玛依区\",\n  \"value\": \"650203\" },\n\n{\n  \"label\": \"白碱滩区\",\n  \"value\": \"650204\" },\n\n{\n  \"label\": \"乌尔禾区\",\n  \"value\": \"650205\" }],\n\n\n[{\n  \"label\": \"高昌区\",\n  \"value\": \"650402\" },\n\n{\n  \"label\": \"鄯善县\",\n  \"value\": \"650421\" },\n\n{\n  \"label\": \"托克逊县\",\n  \"value\": \"650422\" }],\n\n\n[{\n  \"label\": \"伊州区\",\n  \"value\": \"650502\" },\n\n{\n  \"label\": \"巴里坤哈萨克自治县\",\n  \"value\": \"650521\" },\n\n{\n  \"label\": \"伊吾县\",\n  \"value\": \"650522\" }],\n\n\n[{\n  \"label\": \"昌吉市\",\n  \"value\": \"652301\" },\n\n{\n  \"label\": \"阜康市\",\n  \"value\": \"652302\" },\n\n{\n  \"label\": \"呼图壁县\",\n  \"value\": \"652323\" },\n\n{\n  \"label\": \"玛纳斯县\",\n  \"value\": \"652324\" },\n\n{\n  \"label\": \"奇台县\",\n  \"value\": \"652325\" },\n\n{\n  \"label\": \"吉木萨尔县\",\n  \"value\": \"652327\" },\n\n{\n  \"label\": \"木垒哈萨克自治县\",\n  \"value\": \"652328\" }],\n\n\n[{\n  \"label\": \"博乐市\",\n  \"value\": \"652701\" },\n\n{\n  \"label\": \"阿拉山口市\",\n  \"value\": \"652702\" },\n\n{\n  \"label\": \"精河县\",\n  \"value\": \"652722\" },\n\n{\n  \"label\": \"温泉县\",\n  \"value\": \"652723\" }],\n\n\n[{\n  \"label\": \"库尔勒市\",\n  \"value\": \"652801\" },\n\n{\n  \"label\": \"轮台县\",\n  \"value\": \"652822\" },\n\n{\n  \"label\": \"尉犁县\",\n  \"value\": \"652823\" },\n\n{\n  \"label\": \"若羌县\",\n  \"value\": \"652824\" },\n\n{\n  \"label\": \"且末县\",\n  \"value\": \"652825\" },\n\n{\n  \"label\": \"焉耆回族自治县\",\n  \"value\": \"652826\" },\n\n{\n  \"label\": \"和静县\",\n  \"value\": \"652827\" },\n\n{\n  \"label\": \"和硕县\",\n  \"value\": \"652828\" },\n\n{\n  \"label\": \"博湖县\",\n  \"value\": \"652829\" },\n\n{\n  \"label\": \"库尔勒经济技术开发区\",\n  \"value\": \"652871\" }],\n\n\n[{\n  \"label\": \"阿克苏市\",\n  \"value\": \"652901\" },\n\n{\n  \"label\": \"温宿县\",\n  \"value\": \"652922\" },\n\n{\n  \"label\": \"库车县\",\n  \"value\": \"652923\" },\n\n{\n  \"label\": \"沙雅县\",\n  \"value\": \"652924\" },\n\n{\n  \"label\": \"新和县\",\n  \"value\": \"652925\" },\n\n{\n  \"label\": \"拜城县\",\n  \"value\": \"652926\" },\n\n{\n  \"label\": \"乌什县\",\n  \"value\": \"652927\" },\n\n{\n  \"label\": \"阿瓦提县\",\n  \"value\": \"652928\" },\n\n{\n  \"label\": \"柯坪县\",\n  \"value\": \"652929\" }],\n\n\n[{\n  \"label\": \"阿图什市\",\n  \"value\": \"653001\" },\n\n{\n  \"label\": \"阿克陶县\",\n  \"value\": \"653022\" },\n\n{\n  \"label\": \"阿合奇县\",\n  \"value\": \"653023\" },\n\n{\n  \"label\": \"乌恰县\",\n  \"value\": \"653024\" }],\n\n\n[{\n  \"label\": \"喀什市\",\n  \"value\": \"653101\" },\n\n{\n  \"label\": \"疏附县\",\n  \"value\": \"653121\" },\n\n{\n  \"label\": \"疏勒县\",\n  \"value\": \"653122\" },\n\n{\n  \"label\": \"英吉沙县\",\n  \"value\": \"653123\" },\n\n{\n  \"label\": \"泽普县\",\n  \"value\": \"653124\" },\n\n{\n  \"label\": \"莎车县\",\n  \"value\": \"653125\" },\n\n{\n  \"label\": \"叶城县\",\n  \"value\": \"653126\" },\n\n{\n  \"label\": \"麦盖提县\",\n  \"value\": \"653127\" },\n\n{\n  \"label\": \"岳普湖县\",\n  \"value\": \"653128\" },\n\n{\n  \"label\": \"伽师县\",\n  \"value\": \"653129\" },\n\n{\n  \"label\": \"巴楚县\",\n  \"value\": \"653130\" },\n\n{\n  \"label\": \"塔什库尔干塔吉克自治县\",\n  \"value\": \"653131\" }],\n\n\n[{\n  \"label\": \"和田市\",\n  \"value\": \"653201\" },\n\n{\n  \"label\": \"和田县\",\n  \"value\": \"653221\" },\n\n{\n  \"label\": \"墨玉县\",\n  \"value\": \"653222\" },\n\n{\n  \"label\": \"皮山县\",\n  \"value\": \"653223\" },\n\n{\n  \"label\": \"洛浦县\",\n  \"value\": \"653224\" },\n\n{\n  \"label\": \"策勒县\",\n  \"value\": \"653225\" },\n\n{\n  \"label\": \"于田县\",\n  \"value\": \"653226\" },\n\n{\n  \"label\": \"民丰县\",\n  \"value\": \"653227\" }],\n\n\n[{\n  \"label\": \"伊宁市\",\n  \"value\": \"654002\" },\n\n{\n  \"label\": \"奎屯市\",\n  \"value\": \"654003\" },\n\n{\n  \"label\": \"霍尔果斯市\",\n  \"value\": \"654004\" },\n\n{\n  \"label\": \"伊宁县\",\n  \"value\": \"654021\" },\n\n{\n  \"label\": \"察布查尔锡伯自治县\",\n  \"value\": \"654022\" },\n\n{\n  \"label\": \"霍城县\",\n  \"value\": \"654023\" },\n\n{\n  \"label\": \"巩留县\",\n  \"value\": \"654024\" },\n\n{\n  \"label\": \"新源县\",\n  \"value\": \"654025\" },\n\n{\n  \"label\": \"昭苏县\",\n  \"value\": \"654026\" },\n\n{\n  \"label\": \"特克斯县\",\n  \"value\": \"654027\" },\n\n{\n  \"label\": \"尼勒克县\",\n  \"value\": \"654028\" }],\n\n\n[{\n  \"label\": \"塔城市\",\n  \"value\": \"654201\" },\n\n{\n  \"label\": \"乌苏市\",\n  \"value\": \"654202\" },\n\n{\n  \"label\": \"额敏县\",\n  \"value\": \"654221\" },\n\n{\n  \"label\": \"沙湾县\",\n  \"value\": \"654223\" },\n\n{\n  \"label\": \"托里县\",\n  \"value\": \"654224\" },\n\n{\n  \"label\": \"裕民县\",\n  \"value\": \"654225\" },\n\n{\n  \"label\": \"和布克赛尔蒙古自治县\",\n  \"value\": \"654226\" }],\n\n\n[{\n  \"label\": \"阿勒泰市\",\n  \"value\": \"654301\" },\n\n{\n  \"label\": \"布尔津县\",\n  \"value\": \"654321\" },\n\n{\n  \"label\": \"富蕴县\",\n  \"value\": \"654322\" },\n\n{\n  \"label\": \"福海县\",\n  \"value\": \"654323\" },\n\n{\n  \"label\": \"哈巴河县\",\n  \"value\": \"654324\" },\n\n{\n  \"label\": \"青河县\",\n  \"value\": \"654325\" },\n\n{\n  \"label\": \"吉木乃县\",\n  \"value\": \"654326\" }],\n\n\n[{\n  \"label\": \"石河子市\",\n  \"value\": \"659001\" },\n\n{\n  \"label\": \"阿拉尔市\",\n  \"value\": \"659002\" },\n\n{\n  \"label\": \"图木舒克市\",\n  \"value\": \"659003\" },\n\n{\n  \"label\": \"五家渠市\",\n  \"value\": \"659004\" },\n\n{\n  \"label\": \"铁门关市\",\n  \"value\": \"659006\" }]],\n\n\n\n[\n[{\n  \"label\": \"台北\",\n  \"value\": \"660101\" }],\n\n[{\n  \"label\": \"高雄\",\n  \"value\": \"660201\" }],\n\n[{\n  \"label\": \"基隆\",\n  \"value\": \"660301\" }],\n\n[{\n  \"label\": \"台中\",\n  \"value\": \"660401\" }],\n\n[{\n  \"label\": \"台南\",\n  \"value\": \"660501\" }],\n\n[{\n  \"label\": \"新竹\",\n  \"value\": \"660601\" }],\n\n[{\n  \"label\": \"嘉义\",\n  \"value\": \"660701\" }],\n\n[{\n  \"label\": \"宜兰\",\n  \"value\": \"660801\" }],\n\n[{\n  \"label\": \"桃园\",\n  \"value\": \"660901\" }],\n\n[{\n  \"label\": \"苗栗\",\n  \"value\": \"661001\" }],\n\n[{\n  \"label\": \"彰化\",\n  \"value\": \"661101\" }],\n\n[{\n  \"label\": \"南投\",\n  \"value\": \"661201\" }],\n\n[{\n  \"label\": \"云林\",\n  \"value\": \"661301\" }],\n\n[{\n  \"label\": \"屏东\",\n  \"value\": \"661401\" }],\n\n[{\n  \"label\": \"台东\",\n  \"value\": \"661501\" }],\n\n[{\n  \"label\": \"花莲\",\n  \"value\": \"661601\" }],\n\n[{\n  \"label\": \"澎湖\",\n  \"value\": \"661701\" }]],\n\n\n[\n[{\n  \"label\": \"香港岛\",\n  \"value\": \"670101\" }],\n\n[{\n  \"label\": \"九龙\",\n  \"value\": \"670201\" }],\n\n[{\n  \"label\": \"新界\",\n  \"value\": \"670301\" }]],\n\n\n[\n[{\n  \"label\": \"澳门半岛\",\n  \"value\": \"680101\" }],\n\n[{\n  \"label\": \"氹仔岛\",\n  \"value\": \"680201\" }],\n\n[{\n  \"label\": \"路环岛\",\n  \"value\": \"680301\" }],\n\n[{\n  \"label\": \"路氹城\",\n  \"value\": \"680401\" }]]];var _default =\n\n\n\nareaData;exports.default = _default;\n\n//# sourceURL=uni-app:///threeComponents/city-data/area.js?1316");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\city-data\\city.js":
+/*!**************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/city-data/city.js ***!
+  \**************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; /* eslint-disable */\nvar cityData = [\n[{\n  \"label\": \"市辖区\",\n  \"value\": \"1101\" }],\n\n[{\n  \"label\": \"市辖区\",\n  \"value\": \"1201\" }],\n\n[{\n  \"label\": \"石家庄市\",\n  \"value\": \"1301\" },\n\n{\n  \"label\": \"唐山市\",\n  \"value\": \"1302\" },\n\n{\n  \"label\": \"秦皇岛市\",\n  \"value\": \"1303\" },\n\n{\n  \"label\": \"邯郸市\",\n  \"value\": \"1304\" },\n\n{\n  \"label\": \"邢台市\",\n  \"value\": \"1305\" },\n\n{\n  \"label\": \"保定市\",\n  \"value\": \"1306\" },\n\n{\n  \"label\": \"张家口市\",\n  \"value\": \"1307\" },\n\n{\n  \"label\": \"承德市\",\n  \"value\": \"1308\" },\n\n{\n  \"label\": \"沧州市\",\n  \"value\": \"1309\" },\n\n{\n  \"label\": \"廊坊市\",\n  \"value\": \"1310\" },\n\n{\n  \"label\": \"衡水市\",\n  \"value\": \"1311\" }],\n\n\n[{\n  \"label\": \"太原市\",\n  \"value\": \"1401\" },\n\n{\n  \"label\": \"大同市\",\n  \"value\": \"1402\" },\n\n{\n  \"label\": \"阳泉市\",\n  \"value\": \"1403\" },\n\n{\n  \"label\": \"长治市\",\n  \"value\": \"1404\" },\n\n{\n  \"label\": \"晋城市\",\n  \"value\": \"1405\" },\n\n{\n  \"label\": \"朔州市\",\n  \"value\": \"1406\" },\n\n{\n  \"label\": \"晋中市\",\n  \"value\": \"1407\" },\n\n{\n  \"label\": \"运城市\",\n  \"value\": \"1408\" },\n\n{\n  \"label\": \"忻州市\",\n  \"value\": \"1409\" },\n\n{\n  \"label\": \"临汾市\",\n  \"value\": \"1410\" },\n\n{\n  \"label\": \"吕梁市\",\n  \"value\": \"1411\" }],\n\n\n[{\n  \"label\": \"呼和浩特市\",\n  \"value\": \"1501\" },\n\n{\n  \"label\": \"包头市\",\n  \"value\": \"1502\" },\n\n{\n  \"label\": \"乌海市\",\n  \"value\": \"1503\" },\n\n{\n  \"label\": \"赤峰市\",\n  \"value\": \"1504\" },\n\n{\n  \"label\": \"通辽市\",\n  \"value\": \"1505\" },\n\n{\n  \"label\": \"鄂尔多斯市\",\n  \"value\": \"1506\" },\n\n{\n  \"label\": \"呼伦贝尔市\",\n  \"value\": \"1507\" },\n\n{\n  \"label\": \"巴彦淖尔市\",\n  \"value\": \"1508\" },\n\n{\n  \"label\": \"乌兰察布市\",\n  \"value\": \"1509\" },\n\n{\n  \"label\": \"兴安盟\",\n  \"value\": \"1522\" },\n\n{\n  \"label\": \"锡林郭勒盟\",\n  \"value\": \"1525\" },\n\n{\n  \"label\": \"阿拉善盟\",\n  \"value\": \"1529\" }],\n\n\n[{\n  \"label\": \"沈阳市\",\n  \"value\": \"2101\" },\n\n{\n  \"label\": \"大连市\",\n  \"value\": \"2102\" },\n\n{\n  \"label\": \"鞍山市\",\n  \"value\": \"2103\" },\n\n{\n  \"label\": \"抚顺市\",\n  \"value\": \"2104\" },\n\n{\n  \"label\": \"本溪市\",\n  \"value\": \"2105\" },\n\n{\n  \"label\": \"丹东市\",\n  \"value\": \"2106\" },\n\n{\n  \"label\": \"锦州市\",\n  \"value\": \"2107\" },\n\n{\n  \"label\": \"营口市\",\n  \"value\": \"2108\" },\n\n{\n  \"label\": \"阜新市\",\n  \"value\": \"2109\" },\n\n{\n  \"label\": \"辽阳市\",\n  \"value\": \"2110\" },\n\n{\n  \"label\": \"盘锦市\",\n  \"value\": \"2111\" },\n\n{\n  \"label\": \"铁岭市\",\n  \"value\": \"2112\" },\n\n{\n  \"label\": \"朝阳市\",\n  \"value\": \"2113\" },\n\n{\n  \"label\": \"葫芦岛市\",\n  \"value\": \"2114\" }],\n\n\n[{\n  \"label\": \"长春市\",\n  \"value\": \"2201\" },\n\n{\n  \"label\": \"吉林市\",\n  \"value\": \"2202\" },\n\n{\n  \"label\": \"四平市\",\n  \"value\": \"2203\" },\n\n{\n  \"label\": \"辽源市\",\n  \"value\": \"2204\" },\n\n{\n  \"label\": \"通化市\",\n  \"value\": \"2205\" },\n\n{\n  \"label\": \"白山市\",\n  \"value\": \"2206\" },\n\n{\n  \"label\": \"松原市\",\n  \"value\": \"2207\" },\n\n{\n  \"label\": \"白城市\",\n  \"value\": \"2208\" },\n\n{\n  \"label\": \"延边朝鲜族自治州\",\n  \"value\": \"2224\" }],\n\n\n[{\n  \"label\": \"哈尔滨市\",\n  \"value\": \"2301\" },\n\n{\n  \"label\": \"齐齐哈尔市\",\n  \"value\": \"2302\" },\n\n{\n  \"label\": \"鸡西市\",\n  \"value\": \"2303\" },\n\n{\n  \"label\": \"鹤岗市\",\n  \"value\": \"2304\" },\n\n{\n  \"label\": \"双鸭山市\",\n  \"value\": \"2305\" },\n\n{\n  \"label\": \"大庆市\",\n  \"value\": \"2306\" },\n\n{\n  \"label\": \"伊春市\",\n  \"value\": \"2307\" },\n\n{\n  \"label\": \"佳木斯市\",\n  \"value\": \"2308\" },\n\n{\n  \"label\": \"七台河市\",\n  \"value\": \"2309\" },\n\n{\n  \"label\": \"牡丹江市\",\n  \"value\": \"2310\" },\n\n{\n  \"label\": \"黑河市\",\n  \"value\": \"2311\" },\n\n{\n  \"label\": \"绥化市\",\n  \"value\": \"2312\" },\n\n{\n  \"label\": \"大兴安岭地区\",\n  \"value\": \"2327\" }],\n\n\n[{\n  \"label\": \"市辖区\",\n  \"value\": \"3101\" }],\n\n[{\n  \"label\": \"南京市\",\n  \"value\": \"3201\" },\n\n{\n  \"label\": \"无锡市\",\n  \"value\": \"3202\" },\n\n{\n  \"label\": \"徐州市\",\n  \"value\": \"3203\" },\n\n{\n  \"label\": \"常州市\",\n  \"value\": \"3204\" },\n\n{\n  \"label\": \"苏州市\",\n  \"value\": \"3205\" },\n\n{\n  \"label\": \"南通市\",\n  \"value\": \"3206\" },\n\n{\n  \"label\": \"连云港市\",\n  \"value\": \"3207\" },\n\n{\n  \"label\": \"淮安市\",\n  \"value\": \"3208\" },\n\n{\n  \"label\": \"盐城市\",\n  \"value\": \"3209\" },\n\n{\n  \"label\": \"扬州市\",\n  \"value\": \"3210\" },\n\n{\n  \"label\": \"镇江市\",\n  \"value\": \"3211\" },\n\n{\n  \"label\": \"泰州市\",\n  \"value\": \"3212\" },\n\n{\n  \"label\": \"宿迁市\",\n  \"value\": \"3213\" }],\n\n\n[{\n  \"label\": \"杭州市\",\n  \"value\": \"3301\" },\n\n{\n  \"label\": \"宁波市\",\n  \"value\": \"3302\" },\n\n{\n  \"label\": \"温州市\",\n  \"value\": \"3303\" },\n\n{\n  \"label\": \"嘉兴市\",\n  \"value\": \"3304\" },\n\n{\n  \"label\": \"湖州市\",\n  \"value\": \"3305\" },\n\n{\n  \"label\": \"绍兴市\",\n  \"value\": \"3306\" },\n\n{\n  \"label\": \"金华市\",\n  \"value\": \"3307\" },\n\n{\n  \"label\": \"衢州市\",\n  \"value\": \"3308\" },\n\n{\n  \"label\": \"舟山市\",\n  \"value\": \"3309\" },\n\n{\n  \"label\": \"台州市\",\n  \"value\": \"3310\" },\n\n{\n  \"label\": \"丽水市\",\n  \"value\": \"3311\" }],\n\n\n[{\n  \"label\": \"合肥市\",\n  \"value\": \"3401\" },\n\n{\n  \"label\": \"芜湖市\",\n  \"value\": \"3402\" },\n\n{\n  \"label\": \"蚌埠市\",\n  \"value\": \"3403\" },\n\n{\n  \"label\": \"淮南市\",\n  \"value\": \"3404\" },\n\n{\n  \"label\": \"马鞍山市\",\n  \"value\": \"3405\" },\n\n{\n  \"label\": \"淮北市\",\n  \"value\": \"3406\" },\n\n{\n  \"label\": \"铜陵市\",\n  \"value\": \"3407\" },\n\n{\n  \"label\": \"安庆市\",\n  \"value\": \"3408\" },\n\n{\n  \"label\": \"黄山市\",\n  \"value\": \"3410\" },\n\n{\n  \"label\": \"滁州市\",\n  \"value\": \"3411\" },\n\n{\n  \"label\": \"阜阳市\",\n  \"value\": \"3412\" },\n\n{\n  \"label\": \"宿州市\",\n  \"value\": \"3413\" },\n\n{\n  \"label\": \"六安市\",\n  \"value\": \"3415\" },\n\n{\n  \"label\": \"亳州市\",\n  \"value\": \"3416\" },\n\n{\n  \"label\": \"池州市\",\n  \"value\": \"3417\" },\n\n{\n  \"label\": \"宣城市\",\n  \"value\": \"3418\" }],\n\n\n[{\n  \"label\": \"福州市\",\n  \"value\": \"3501\" },\n\n{\n  \"label\": \"厦门市\",\n  \"value\": \"3502\" },\n\n{\n  \"label\": \"莆田市\",\n  \"value\": \"3503\" },\n\n{\n  \"label\": \"三明市\",\n  \"value\": \"3504\" },\n\n{\n  \"label\": \"泉州市\",\n  \"value\": \"3505\" },\n\n{\n  \"label\": \"漳州市\",\n  \"value\": \"3506\" },\n\n{\n  \"label\": \"南平市\",\n  \"value\": \"3507\" },\n\n{\n  \"label\": \"龙岩市\",\n  \"value\": \"3508\" },\n\n{\n  \"label\": \"宁德市\",\n  \"value\": \"3509\" }],\n\n\n[{\n  \"label\": \"南昌市\",\n  \"value\": \"3601\" },\n\n{\n  \"label\": \"景德镇市\",\n  \"value\": \"3602\" },\n\n{\n  \"label\": \"萍乡市\",\n  \"value\": \"3603\" },\n\n{\n  \"label\": \"九江市\",\n  \"value\": \"3604\" },\n\n{\n  \"label\": \"新余市\",\n  \"value\": \"3605\" },\n\n{\n  \"label\": \"鹰潭市\",\n  \"value\": \"3606\" },\n\n{\n  \"label\": \"赣州市\",\n  \"value\": \"3607\" },\n\n{\n  \"label\": \"吉安市\",\n  \"value\": \"3608\" },\n\n{\n  \"label\": \"宜春市\",\n  \"value\": \"3609\" },\n\n{\n  \"label\": \"抚州市\",\n  \"value\": \"3610\" },\n\n{\n  \"label\": \"上饶市\",\n  \"value\": \"3611\" }],\n\n\n[{\n  \"label\": \"济南市\",\n  \"value\": \"3701\" },\n\n{\n  \"label\": \"青岛市\",\n  \"value\": \"3702\" },\n\n{\n  \"label\": \"淄博市\",\n  \"value\": \"3703\" },\n\n{\n  \"label\": \"枣庄市\",\n  \"value\": \"3704\" },\n\n{\n  \"label\": \"东营市\",\n  \"value\": \"3705\" },\n\n{\n  \"label\": \"烟台市\",\n  \"value\": \"3706\" },\n\n{\n  \"label\": \"潍坊市\",\n  \"value\": \"3707\" },\n\n{\n  \"label\": \"济宁市\",\n  \"value\": \"3708\" },\n\n{\n  \"label\": \"泰安市\",\n  \"value\": \"3709\" },\n\n{\n  \"label\": \"威海市\",\n  \"value\": \"3710\" },\n\n{\n  \"label\": \"日照市\",\n  \"value\": \"3711\" },\n\n{\n  \"label\": \"莱芜市\",\n  \"value\": \"3712\" },\n\n{\n  \"label\": \"临沂市\",\n  \"value\": \"3713\" },\n\n{\n  \"label\": \"德州市\",\n  \"value\": \"3714\" },\n\n{\n  \"label\": \"聊城市\",\n  \"value\": \"3715\" },\n\n{\n  \"label\": \"滨州市\",\n  \"value\": \"3716\" },\n\n{\n  \"label\": \"菏泽市\",\n  \"value\": \"3717\" }],\n\n\n[{\n  \"label\": \"郑州市\",\n  \"value\": \"4101\" },\n\n{\n  \"label\": \"开封市\",\n  \"value\": \"4102\" },\n\n{\n  \"label\": \"洛阳市\",\n  \"value\": \"4103\" },\n\n{\n  \"label\": \"平顶山市\",\n  \"value\": \"4104\" },\n\n{\n  \"label\": \"安阳市\",\n  \"value\": \"4105\" },\n\n{\n  \"label\": \"鹤壁市\",\n  \"value\": \"4106\" },\n\n{\n  \"label\": \"新乡市\",\n  \"value\": \"4107\" },\n\n{\n  \"label\": \"焦作市\",\n  \"value\": \"4108\" },\n\n{\n  \"label\": \"濮阳市\",\n  \"value\": \"4109\" },\n\n{\n  \"label\": \"许昌市\",\n  \"value\": \"4110\" },\n\n{\n  \"label\": \"漯河市\",\n  \"value\": \"4111\" },\n\n{\n  \"label\": \"三门峡市\",\n  \"value\": \"4112\" },\n\n{\n  \"label\": \"南阳市\",\n  \"value\": \"4113\" },\n\n{\n  \"label\": \"商丘市\",\n  \"value\": \"4114\" },\n\n{\n  \"label\": \"信阳市\",\n  \"value\": \"4115\" },\n\n{\n  \"label\": \"周口市\",\n  \"value\": \"4116\" },\n\n{\n  \"label\": \"驻马店市\",\n  \"value\": \"4117\" },\n\n{\n  \"label\": \"省直辖县级行政区划\",\n  \"value\": \"4190\" }],\n\n\n[{\n  \"label\": \"武汉市\",\n  \"value\": \"4201\" },\n\n{\n  \"label\": \"黄石市\",\n  \"value\": \"4202\" },\n\n{\n  \"label\": \"十堰市\",\n  \"value\": \"4203\" },\n\n{\n  \"label\": \"宜昌市\",\n  \"value\": \"4205\" },\n\n{\n  \"label\": \"襄阳市\",\n  \"value\": \"4206\" },\n\n{\n  \"label\": \"鄂州市\",\n  \"value\": \"4207\" },\n\n{\n  \"label\": \"荆门市\",\n  \"value\": \"4208\" },\n\n{\n  \"label\": \"孝感市\",\n  \"value\": \"4209\" },\n\n{\n  \"label\": \"荆州市\",\n  \"value\": \"4210\" },\n\n{\n  \"label\": \"黄冈市\",\n  \"value\": \"4211\" },\n\n{\n  \"label\": \"咸宁市\",\n  \"value\": \"4212\" },\n\n{\n  \"label\": \"随州市\",\n  \"value\": \"4213\" },\n\n{\n  \"label\": \"恩施土家族苗族自治州\",\n  \"value\": \"4228\" },\n\n{\n  \"label\": \"省直辖县级行政区划\",\n  \"value\": \"4290\" }],\n\n\n[{\n  \"label\": \"长沙市\",\n  \"value\": \"4301\" },\n\n{\n  \"label\": \"株洲市\",\n  \"value\": \"4302\" },\n\n{\n  \"label\": \"湘潭市\",\n  \"value\": \"4303\" },\n\n{\n  \"label\": \"衡阳市\",\n  \"value\": \"4304\" },\n\n{\n  \"label\": \"邵阳市\",\n  \"value\": \"4305\" },\n\n{\n  \"label\": \"岳阳市\",\n  \"value\": \"4306\" },\n\n{\n  \"label\": \"常德市\",\n  \"value\": \"4307\" },\n\n{\n  \"label\": \"张家界市\",\n  \"value\": \"4308\" },\n\n{\n  \"label\": \"益阳市\",\n  \"value\": \"4309\" },\n\n{\n  \"label\": \"郴州市\",\n  \"value\": \"4310\" },\n\n{\n  \"label\": \"永州市\",\n  \"value\": \"4311\" },\n\n{\n  \"label\": \"怀化市\",\n  \"value\": \"4312\" },\n\n{\n  \"label\": \"娄底市\",\n  \"value\": \"4313\" },\n\n{\n  \"label\": \"湘西土家族苗族自治州\",\n  \"value\": \"4331\" }],\n\n\n[{\n  \"label\": \"广州市\",\n  \"value\": \"4401\" },\n\n{\n  \"label\": \"韶关市\",\n  \"value\": \"4402\" },\n\n{\n  \"label\": \"深圳市\",\n  \"value\": \"4403\" },\n\n{\n  \"label\": \"珠海市\",\n  \"value\": \"4404\" },\n\n{\n  \"label\": \"汕头市\",\n  \"value\": \"4405\" },\n\n{\n  \"label\": \"佛山市\",\n  \"value\": \"4406\" },\n\n{\n  \"label\": \"江门市\",\n  \"value\": \"4407\" },\n\n{\n  \"label\": \"湛江市\",\n  \"value\": \"4408\" },\n\n{\n  \"label\": \"茂名市\",\n  \"value\": \"4409\" },\n\n{\n  \"label\": \"肇庆市\",\n  \"value\": \"4412\" },\n\n{\n  \"label\": \"惠州市\",\n  \"value\": \"4413\" },\n\n{\n  \"label\": \"梅州市\",\n  \"value\": \"4414\" },\n\n{\n  \"label\": \"汕尾市\",\n  \"value\": \"4415\" },\n\n{\n  \"label\": \"河源市\",\n  \"value\": \"4416\" },\n\n{\n  \"label\": \"阳江市\",\n  \"value\": \"4417\" },\n\n{\n  \"label\": \"清远市\",\n  \"value\": \"4418\" },\n\n{\n  \"label\": \"东莞市\",\n  \"value\": \"4419\" },\n\n{\n  \"label\": \"中山市\",\n  \"value\": \"4420\" },\n\n{\n  \"label\": \"潮州市\",\n  \"value\": \"4451\" },\n\n{\n  \"label\": \"揭阳市\",\n  \"value\": \"4452\" },\n\n{\n  \"label\": \"云浮市\",\n  \"value\": \"4453\" }],\n\n\n[{\n  \"label\": \"南宁市\",\n  \"value\": \"4501\" },\n\n{\n  \"label\": \"柳州市\",\n  \"value\": \"4502\" },\n\n{\n  \"label\": \"桂林市\",\n  \"value\": \"4503\" },\n\n{\n  \"label\": \"梧州市\",\n  \"value\": \"4504\" },\n\n{\n  \"label\": \"北海市\",\n  \"value\": \"4505\" },\n\n{\n  \"label\": \"防城港市\",\n  \"value\": \"4506\" },\n\n{\n  \"label\": \"钦州市\",\n  \"value\": \"4507\" },\n\n{\n  \"label\": \"贵港市\",\n  \"value\": \"4508\" },\n\n{\n  \"label\": \"玉林市\",\n  \"value\": \"4509\" },\n\n{\n  \"label\": \"百色市\",\n  \"value\": \"4510\" },\n\n{\n  \"label\": \"贺州市\",\n  \"value\": \"4511\" },\n\n{\n  \"label\": \"河池市\",\n  \"value\": \"4512\" },\n\n{\n  \"label\": \"来宾市\",\n  \"value\": \"4513\" },\n\n{\n  \"label\": \"崇左市\",\n  \"value\": \"4514\" }],\n\n\n[{\n  \"label\": \"海口市\",\n  \"value\": \"4601\" },\n\n{\n  \"label\": \"三亚市\",\n  \"value\": \"4602\" },\n\n{\n  \"label\": \"三沙市\",\n  \"value\": \"4603\" },\n\n{\n  \"label\": \"儋州市\",\n  \"value\": \"4604\" },\n\n{\n  \"label\": \"省直辖县级行政区划\",\n  \"value\": \"4690\" }],\n\n\n[{\n  \"label\": \"市辖区\",\n  \"value\": \"5001\" },\n\n{\n  \"label\": \"县\",\n  \"value\": \"5002\" }],\n\n\n[{\n  \"label\": \"成都市\",\n  \"value\": \"5101\" },\n\n{\n  \"label\": \"自贡市\",\n  \"value\": \"5103\" },\n\n{\n  \"label\": \"攀枝花市\",\n  \"value\": \"5104\" },\n\n{\n  \"label\": \"泸州市\",\n  \"value\": \"5105\" },\n\n{\n  \"label\": \"德阳市\",\n  \"value\": \"5106\" },\n\n{\n  \"label\": \"绵阳市\",\n  \"value\": \"5107\" },\n\n{\n  \"label\": \"广元市\",\n  \"value\": \"5108\" },\n\n{\n  \"label\": \"遂宁市\",\n  \"value\": \"5109\" },\n\n{\n  \"label\": \"内江市\",\n  \"value\": \"5110\" },\n\n{\n  \"label\": \"乐山市\",\n  \"value\": \"5111\" },\n\n{\n  \"label\": \"南充市\",\n  \"value\": \"5113\" },\n\n{\n  \"label\": \"眉山市\",\n  \"value\": \"5114\" },\n\n{\n  \"label\": \"宜宾市\",\n  \"value\": \"5115\" },\n\n{\n  \"label\": \"广安市\",\n  \"value\": \"5116\" },\n\n{\n  \"label\": \"达州市\",\n  \"value\": \"5117\" },\n\n{\n  \"label\": \"雅安市\",\n  \"value\": \"5118\" },\n\n{\n  \"label\": \"巴中市\",\n  \"value\": \"5119\" },\n\n{\n  \"label\": \"资阳市\",\n  \"value\": \"5120\" },\n\n{\n  \"label\": \"阿坝藏族羌族自治州\",\n  \"value\": \"5132\" },\n\n{\n  \"label\": \"甘孜藏族自治州\",\n  \"value\": \"5133\" },\n\n{\n  \"label\": \"凉山彝族自治州\",\n  \"value\": \"5134\" }],\n\n\n[{\n  \"label\": \"贵阳市\",\n  \"value\": \"5201\" },\n\n{\n  \"label\": \"六盘水市\",\n  \"value\": \"5202\" },\n\n{\n  \"label\": \"遵义市\",\n  \"value\": \"5203\" },\n\n{\n  \"label\": \"安顺市\",\n  \"value\": \"5204\" },\n\n{\n  \"label\": \"毕节市\",\n  \"value\": \"5205\" },\n\n{\n  \"label\": \"铜仁市\",\n  \"value\": \"5206\" },\n\n{\n  \"label\": \"黔西南布依族苗族自治州\",\n  \"value\": \"5223\" },\n\n{\n  \"label\": \"黔东南苗族侗族自治州\",\n  \"value\": \"5226\" },\n\n{\n  \"label\": \"黔南布依族苗族自治州\",\n  \"value\": \"5227\" }],\n\n\n[{\n  \"label\": \"昆明市\",\n  \"value\": \"5301\" },\n\n{\n  \"label\": \"曲靖市\",\n  \"value\": \"5303\" },\n\n{\n  \"label\": \"玉溪市\",\n  \"value\": \"5304\" },\n\n{\n  \"label\": \"保山市\",\n  \"value\": \"5305\" },\n\n{\n  \"label\": \"昭通市\",\n  \"value\": \"5306\" },\n\n{\n  \"label\": \"丽江市\",\n  \"value\": \"5307\" },\n\n{\n  \"label\": \"普洱市\",\n  \"value\": \"5308\" },\n\n{\n  \"label\": \"临沧市\",\n  \"value\": \"5309\" },\n\n{\n  \"label\": \"楚雄彝族自治州\",\n  \"value\": \"5323\" },\n\n{\n  \"label\": \"红河哈尼族彝族自治州\",\n  \"value\": \"5325\" },\n\n{\n  \"label\": \"文山壮族苗族自治州\",\n  \"value\": \"5326\" },\n\n{\n  \"label\": \"西双版纳傣族自治州\",\n  \"value\": \"5328\" },\n\n{\n  \"label\": \"大理白族自治州\",\n  \"value\": \"5329\" },\n\n{\n  \"label\": \"德宏傣族景颇族自治州\",\n  \"value\": \"5331\" },\n\n{\n  \"label\": \"怒江傈僳族自治州\",\n  \"value\": \"5333\" },\n\n{\n  \"label\": \"迪庆藏族自治州\",\n  \"value\": \"5334\" }],\n\n\n[{\n  \"label\": \"拉萨市\",\n  \"value\": \"5401\" },\n\n{\n  \"label\": \"日喀则市\",\n  \"value\": \"5402\" },\n\n{\n  \"label\": \"昌都市\",\n  \"value\": \"5403\" },\n\n{\n  \"label\": \"林芝市\",\n  \"value\": \"5404\" },\n\n{\n  \"label\": \"山南市\",\n  \"value\": \"5405\" },\n\n{\n  \"label\": \"那曲地区\",\n  \"value\": \"5424\" },\n\n{\n  \"label\": \"阿里地区\",\n  \"value\": \"5425\" }],\n\n\n[{\n  \"label\": \"西安市\",\n  \"value\": \"6101\" },\n\n{\n  \"label\": \"铜川市\",\n  \"value\": \"6102\" },\n\n{\n  \"label\": \"宝鸡市\",\n  \"value\": \"6103\" },\n\n{\n  \"label\": \"咸阳市\",\n  \"value\": \"6104\" },\n\n{\n  \"label\": \"渭南市\",\n  \"value\": \"6105\" },\n\n{\n  \"label\": \"延安市\",\n  \"value\": \"6106\" },\n\n{\n  \"label\": \"汉中市\",\n  \"value\": \"6107\" },\n\n{\n  \"label\": \"榆林市\",\n  \"value\": \"6108\" },\n\n{\n  \"label\": \"安康市\",\n  \"value\": \"6109\" },\n\n{\n  \"label\": \"商洛市\",\n  \"value\": \"6110\" }],\n\n\n[{\n  \"label\": \"兰州市\",\n  \"value\": \"6201\" },\n\n{\n  \"label\": \"嘉峪关市\",\n  \"value\": \"6202\" },\n\n{\n  \"label\": \"金昌市\",\n  \"value\": \"6203\" },\n\n{\n  \"label\": \"白银市\",\n  \"value\": \"6204\" },\n\n{\n  \"label\": \"天水市\",\n  \"value\": \"6205\" },\n\n{\n  \"label\": \"武威市\",\n  \"value\": \"6206\" },\n\n{\n  \"label\": \"张掖市\",\n  \"value\": \"6207\" },\n\n{\n  \"label\": \"平凉市\",\n  \"value\": \"6208\" },\n\n{\n  \"label\": \"酒泉市\",\n  \"value\": \"6209\" },\n\n{\n  \"label\": \"庆阳市\",\n  \"value\": \"6210\" },\n\n{\n  \"label\": \"定西市\",\n  \"value\": \"6211\" },\n\n{\n  \"label\": \"陇南市\",\n  \"value\": \"6212\" },\n\n{\n  \"label\": \"临夏回族自治州\",\n  \"value\": \"6229\" },\n\n{\n  \"label\": \"甘南藏族自治州\",\n  \"value\": \"6230\" }],\n\n\n[{\n  \"label\": \"西宁市\",\n  \"value\": \"6301\" },\n\n{\n  \"label\": \"海东市\",\n  \"value\": \"6302\" },\n\n{\n  \"label\": \"海北藏族自治州\",\n  \"value\": \"6322\" },\n\n{\n  \"label\": \"黄南藏族自治州\",\n  \"value\": \"6323\" },\n\n{\n  \"label\": \"海南藏族自治州\",\n  \"value\": \"6325\" },\n\n{\n  \"label\": \"果洛藏族自治州\",\n  \"value\": \"6326\" },\n\n{\n  \"label\": \"玉树藏族自治州\",\n  \"value\": \"6327\" },\n\n{\n  \"label\": \"海西蒙古族藏族自治州\",\n  \"value\": \"6328\" }],\n\n\n[{\n  \"label\": \"银川市\",\n  \"value\": \"6401\" },\n\n{\n  \"label\": \"石嘴山市\",\n  \"value\": \"6402\" },\n\n{\n  \"label\": \"吴忠市\",\n  \"value\": \"6403\" },\n\n{\n  \"label\": \"固原市\",\n  \"value\": \"6404\" },\n\n{\n  \"label\": \"中卫市\",\n  \"value\": \"6405\" }],\n\n\n[{\n  \"label\": \"乌鲁木齐市\",\n  \"value\": \"6501\" },\n\n{\n  \"label\": \"克拉玛依市\",\n  \"value\": \"6502\" },\n\n{\n  \"label\": \"吐鲁番市\",\n  \"value\": \"6504\" },\n\n{\n  \"label\": \"哈密市\",\n  \"value\": \"6505\" },\n\n{\n  \"label\": \"昌吉回族自治州\",\n  \"value\": \"6523\" },\n\n{\n  \"label\": \"博尔塔拉蒙古自治州\",\n  \"value\": \"6527\" },\n\n{\n  \"label\": \"巴音郭楞蒙古自治州\",\n  \"value\": \"6528\" },\n\n{\n  \"label\": \"阿克苏地区\",\n  \"value\": \"6529\" },\n\n{\n  \"label\": \"克孜勒苏柯尔克孜自治州\",\n  \"value\": \"6530\" },\n\n{\n  \"label\": \"喀什地区\",\n  \"value\": \"6531\" },\n\n{\n  \"label\": \"和田地区\",\n  \"value\": \"6532\" },\n\n{\n  \"label\": \"伊犁哈萨克自治州\",\n  \"value\": \"6540\" },\n\n{\n  \"label\": \"塔城地区\",\n  \"value\": \"6542\" },\n\n{\n  \"label\": \"阿勒泰地区\",\n  \"value\": \"6543\" },\n\n{\n  \"label\": \"自治区直辖县级行政区划\",\n  \"value\": \"6590\" }],\n\n\n[{\n  \"label\": \"台北\",\n  \"value\": \"6601\" },\n\n{\n  \"label\": \"高雄\",\n  \"value\": \"6602\" },\n\n{\n  \"label\": \"基隆\",\n  \"value\": \"6603\" },\n\n{\n  \"label\": \"台中\",\n  \"value\": \"6604\" },\n\n{\n  \"label\": \"台南\",\n  \"value\": \"6605\" },\n\n{\n  \"label\": \"新竹\",\n  \"value\": \"6606\" },\n\n{\n  \"label\": \"嘉义\",\n  \"value\": \"6607\" },\n\n{\n  \"label\": \"宜兰\",\n  \"value\": \"6608\" },\n\n{\n  \"label\": \"桃园\",\n  \"value\": \"6609\" },\n\n{\n  \"label\": \"苗栗\",\n  \"value\": \"6610\" },\n\n{\n  \"label\": \"彰化\",\n  \"value\": \"6611\" },\n\n{\n  \"label\": \"南投\",\n  \"value\": \"6612\" },\n\n{\n  \"label\": \"云林\",\n  \"value\": \"6613\" },\n\n{\n  \"label\": \"屏东\",\n  \"value\": \"6614\" },\n\n{\n  \"label\": \"台东\",\n  \"value\": \"6615\" },\n\n{\n  \"label\": \"花莲\",\n  \"value\": \"6616\" },\n\n{\n  \"label\": \"澎湖\",\n  \"value\": \"6617\" }],\n\n\n[{\n  \"label\": \"香港岛\",\n  \"value\": \"6701\" },\n\n{\n  \"label\": \"九龙\",\n  \"value\": \"6702\" },\n\n{\n  \"label\": \"新界\",\n  \"value\": \"6703\" }],\n\n\n[{\n  \"label\": \"澳门半岛\",\n  \"value\": \"6801\" },\n\n{\n  \"label\": \"氹仔岛\",\n  \"value\": \"6802\" },\n\n{\n  \"label\": \"路环岛\",\n  \"value\": \"6803\" },\n\n{\n  \"label\": \"路氹城\",\n  \"value\": \"6804\" }]];var _default =\n\n\n\ncityData;exports.default = _default;\n\n//# sourceURL=uni-app:///threeComponents/city-data/city.js?80b8");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\city-data\\province.js":
+/*!******************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/city-data/province.js ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0; /* eslint-disable */\nvar provinceData = [{\n  \"label\": \"北京市\",\n  \"value\": \"11\" },\n\n{\n  \"label\": \"天津市\",\n  \"value\": \"12\" },\n\n{\n  \"label\": \"河北省\",\n  \"value\": \"13\" },\n\n{\n  \"label\": \"山西省\",\n  \"value\": \"14\" },\n\n{\n  \"label\": \"内蒙古自治区\",\n  \"value\": \"15\" },\n\n{\n  \"label\": \"辽宁省\",\n  \"value\": \"21\" },\n\n{\n  \"label\": \"吉林省\",\n  \"value\": \"22\" },\n\n{\n  \"label\": \"黑龙江省\",\n  \"value\": \"23\" },\n\n{\n  \"label\": \"上海市\",\n  \"value\": \"31\" },\n\n{\n  \"label\": \"江苏省\",\n  \"value\": \"32\" },\n\n{\n  \"label\": \"浙江省\",\n  \"value\": \"33\" },\n\n{\n  \"label\": \"安徽省\",\n  \"value\": \"34\" },\n\n{\n  \"label\": \"福建省\",\n  \"value\": \"35\" },\n\n{\n  \"label\": \"江西省\",\n  \"value\": \"36\" },\n\n{\n  \"label\": \"山东省\",\n  \"value\": \"37\" },\n\n{\n  \"label\": \"河南省\",\n  \"value\": \"41\" },\n\n{\n  \"label\": \"湖北省\",\n  \"value\": \"42\" },\n\n{\n  \"label\": \"湖南省\",\n  \"value\": \"43\" },\n\n{\n  \"label\": \"广东省\",\n  \"value\": \"44\" },\n\n{\n  \"label\": \"广西壮族自治区\",\n  \"value\": \"45\" },\n\n{\n  \"label\": \"海南省\",\n  \"value\": \"46\" },\n\n{\n  \"label\": \"重庆市\",\n  \"value\": \"50\" },\n\n{\n  \"label\": \"四川省\",\n  \"value\": \"51\" },\n\n{\n  \"label\": \"贵州省\",\n  \"value\": \"52\" },\n\n{\n  \"label\": \"云南省\",\n  \"value\": \"53\" },\n\n{\n  \"label\": \"西藏自治区\",\n  \"value\": \"54\" },\n\n{\n  \"label\": \"陕西省\",\n  \"value\": \"61\" },\n\n{\n  \"label\": \"甘肃省\",\n  \"value\": \"62\" },\n\n{\n  \"label\": \"青海省\",\n  \"value\": \"63\" },\n\n{\n  \"label\": \"宁夏回族自治区\",\n  \"value\": \"64\" },\n\n{\n  \"label\": \"新疆维吾尔自治区\",\n  \"value\": \"65\" },\n\n{\n  \"label\": \"台湾\",\n  \"value\": \"66\" },\n\n{\n  \"label\": \"香港\",\n  \"value\": \"67\" },\n\n{\n  \"label\": \"澳门\",\n  \"value\": \"68\" }];var _default =\n\n\nprovinceData;exports.default = _default;\n\n//# sourceURL=uni-app:///threeComponents/city-data/province.js?839a");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue":
+/*!****************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mpvueCityPicker.vue?vue&type=template&id=2ca55b80& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=template&id=2ca55b80&\");\n/* harmony import */ var _mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mpvueCityPicker.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mpvueCityPicker.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./mpvueCityPicker.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///threeComponents/mpvueCityPicker.vue?vue&type=script&lang=js&?6502");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./mpvueCityPicker.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvueCityPicker.vue?vue&type=template&id=2ca55b80&":
+/*!***********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=template&id=2ca55b80& ***!
+  \***********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./mpvueCityPicker.vue?vue&type=template&id=2ca55b80& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvueCityPicker.vue?vue&type=template&id=2ca55b80&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvueCityPicker_vue_vue_type_template_id_2ca55b80___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvueCityPicker.vue?vue&type=template&id=2ca55b80&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue":
+/*!************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mpvuePicker.vue?vue&type=template&id=14438f35& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=template&id=14438f35&\");\n/* harmony import */ var _mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mpvuePicker.vue?vue&type=script&lang=js& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./mpvuePicker.vue?vue&type=style&index=0&lang=css& */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=script&lang=js&":
+/*!*************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=script&lang=js& ***!
+  \*************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./mpvuePicker.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///threeComponents/mpvuePicker.vue?vue&type=script&lang=js&?ed29");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=style&index=0&lang=css&":
+/*!*********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=style&index=0&lang=css& ***!
+  \*********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./mpvuePicker.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=style&index=0&lang=css&");
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\threeComponents\\mpvuePicker.vue?vue&type=template&id=14438f35&":
+/*!*******************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=template&id=14438f35& ***!
+  \*******************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./mpvuePicker.vue?vue&type=template&id=14438f35& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\threeComponents\\\\mpvuePicker.vue?vue&type=template&id=14438f35&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_mpvuePicker_vue_vue_type_template_id_14438f35___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/threeComponents/mpvuePicker.vue?vue&type=template&id=14438f35&");
+
+/***/ })
+
+},[["C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\main.js?{\"page\":\"pages%2Fmy%2Faddress%2Faddress\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/my/address/address.js');
 __wxRoute = 'pages/my/market/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/index.js';
 
 define('pages/my/market/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -7802,7 +8644,7 @@ define('pages/my/market/order/list.js',function(require, module, exports, window
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      marketId: 0,\n      orderList: [] };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {var _this = this;\n    var market = uni.getStorageSync('market');\n    if (market.isMarket) {\n      this.marketId = market.marketId;\n    }\n    uni.showLoading({\n      title: '加载中...',\n      mask: true });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/management/order',\n      method: 'POST',\n      data: {\n        phone: this.user.phone,\n        token: this.user.token,\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.orderList = res.data.orderList;\n          console.log(JSON.stringify(_this.orderList));\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        uni.hideLoading();\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/order/list.vue?vue&type=script&lang=js&?6b13");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../../graceUI/components/graceLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      marketId: 0,\n      //分类信息\n      categories: [{\n        cateid: 0,\n        name: \"待处理\" },\n\n      {\n        cateid: 1,\n        name: \"待付款\" },\n\n      {\n        cateid: 2,\n        name: \"已处理\" },\n\n      {\n        cateid: 3,\n        name: \"已退款\" }],\n\n\n      // 当前选择的分类\n      cateCurrentIndex: 0,\n      // 内容实例，内容区域您根据项目情况设计即可，覆盖模式\n      orderList: [],\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {\n    var market = uni.getStorageSync('market');\n    if (market.isMarket) {\n      this.marketId = market.marketId;\n      uni.startPullDownRefresh();\n    } else {\n      uni.showToast({\n        title: '系统错误',\n        mask: false,\n        duration: 1500 });\n\n      uni.navigateBack();\n    }\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList(1, this.categories[this.cateCurrentIndex].name);\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this = this;\n    this.loading.show = true;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/management/order',\n      method: 'POST',\n      data: {\n        phone: this.user.phone,\n        token: this.user.token,\n        market_id: this.marketId,\n        page: this.loading.nextPages,\n        type: this.categories[this.cateCurrentIndex].name },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.orderList = _this.orderList.concat(res.data.orderList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      }, complete: function complete() {\n        _this.loading.type = 0;\n        _this.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    getList: function getList(page, type) {var _this2 = this;\n      uni.showLoading({\n        title: '加载中...' });\n\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'market/management/order',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          market_id: this.marketId,\n          page: page,\n          type: type },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this2.orderList = res.data.orderList;\n            if (_this2.orderList.length === 0) {\n              _this2.loading.show = false;\n            }\n            _this2.loading.totalPages = res.data.totalPages;\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        },\n        complete: function complete() {\n          uni.hideLoading();\n        } });\n\n    },\n    tabChange: function tabChange(e) {\n      // 选中的索引\n      var index = e.currentTarget.dataset.index;\n      this.cateCurrentIndex = index;\n      // 动态替换内容\n      this.getList(1, this.categories[index].name);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/order/list.vue?vue&type=script&lang=js&?6b13");
 
 /***/ }),
 
@@ -7825,7 +8667,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=C:/Users/Administ
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"grace-padding\" }, [\n    _c(\n      \"view\",\n      { staticClass: \"grace-news-list\" },\n      [\n        _c(\"navigator\", [\n          _c(\"view\", { staticClass: \"grace-news-list-items\" }, [\n            _c(\"image\", {\n              staticClass: \"grace-news-list-img grace-list-imgs-l\",\n              attrs: { src: \"../../../../static/logo.png\", mode: \"widthFix\" }\n            }),\n            _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n              _c(\"view\", { staticClass: \"grace-news-list-title-main\" }, [\n                _vm._v(\"可乐等10件商品\")\n              ]),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"订单号201904031131365696212\")]\n              ),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"留言要买什么东西\")]\n              ),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"2018-02-25\")]\n              )\n            ])\n          ])\n        ]),\n        _c(\"navigator\", [\n          _c(\"view\", { staticClass: \"grace-news-list-items\" }, [\n            _c(\"image\", {\n              staticClass: \"grace-news-list-img grace-list-imgs-l\",\n              attrs: { src: \"../../../../static/logo.png\", mode: \"widthFix\" }\n            }),\n            _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n              _c(\"view\", { staticClass: \"grace-news-list-title-main\" }, [\n                _vm._v(\"一个项目经理不搞砸几个项目\")\n              ]),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"搞砸了就是有前途\")]\n              ),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"搞砸了就是有前途\")]\n              ),\n              _c(\n                \"text\",\n                {\n                  staticClass: \"grace-news-list-title-desc grace-text-overflow\"\n                },\n                [_vm._v(\"搞砸了就是有前途\")]\n              )\n            ])\n          ])\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/order/list.vue?vue&type=template&id=aca3b6ea&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"scroll-view\",\n        {\n          staticClass: \"grace-tab-title grace-center\",\n          attrs: { \"scroll-x\": \"true\", id: \"grace-tab-title\" }\n        },\n        _vm._l(_vm.categories, function(cate, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              class: [_vm.cateCurrentIndex == index ? \"grace-tab-current\" : \"\"],\n              attrs: {\n                \"data-cateid\": cate.cateid,\n                \"data-index\": index,\n                eventid: \"78f2e91c-0-\" + index\n              },\n              on: { tap: _vm.tabChange }\n            },\n            [_vm._v(_vm._s(cate.name))]\n          )\n        })\n      ),\n      _vm.orderList.length === 0\n        ? _c(\"view\", { staticClass: \"no-order\" }, [\n            _vm._v(\n              \"您暂无\" +\n                _vm._s(_vm.categories[_vm.cateCurrentIndex].name) +\n                \"的订单哦\"\n            )\n          ])\n        : _c(\n            \"view\",\n            { staticStyle: { \"margin-top\": \"50px\" } },\n            _vm._l(_vm.orderList, function(order, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"order-card grace-rows has-borderb\"\n                },\n                [\n                  _c(\"view\", { staticStyle: { width: \"80rpx\" } }, [\n                    _c(\"image\", {\n                      staticStyle: { width: \"70rpx\", height: \"70rpx\" },\n                      attrs: { src: order.first_img, mode: \"widthFix\" }\n                    })\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"right\", staticStyle: { width: \"660rpx\" } },\n                    [\n                      _c(\n                        \"view\",\n                        { staticClass: \"grace-rows grace-space-between\" },\n                        [\n                          _c(\n                            \"view\",\n                            { staticStyle: { \"font-size\": \"35rpx\" } },\n                            [_vm._v(_vm._s(order.first_product) + \" >\")]\n                          ),\n                          _c(\n                            \"text\",\n                            { staticStyle: { \"font-size\": \"30rpx\" } },\n                            [_vm._v(\"已送达\")]\n                          )\n                        ]\n                      ),\n                      _c(\"view\", { staticClass: \"time has-borderb\" }, [\n                        _c(\"text\", [_vm._v(_vm._s(order.create_time))])\n                      ]),\n                      _c(\n                        \"view\",\n                        {\n                          staticClass:\n                            \"rice grace-rows grace-space-between has-borderb\"\n                        },\n                        [\n                          _c(\"view\", [\n                            _vm._v(\"订单号:\" + _vm._s(order.out_trade_no))\n                          ]),\n                          _c(\"text\", [_vm._v(\"¥\" + _vm._s(order.real_price))])\n                        ]\n                      ),\n                      _c(\n                        \"view\",\n                        { staticClass: \"btn-area\" },\n                        [\n                          _c(\n                            \"button\",\n                            {\n                              staticClass: \"mini-btn\",\n                              attrs: {\n                                type: \"primary\",\n                                size: \"mini\",\n                                plain: \"true\"\n                              }\n                            },\n                            [_vm._v(\"已处理\")]\n                          )\n                        ],\n                        1\n                      )\n                    ]\n                  )\n                ]\n              )\n            })\n          ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"78f2e91c-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/my/market/order/list.vue?vue&type=template&id=aca3b6ea&");
 
 /***/ }),
 

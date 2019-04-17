@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<view class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
+		<navigator url="./details" class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
 			<view class="parttime-card-img">
 				<image class="parttime-card-imge" :src="imagesList[1]" mode="scaleToFill"></image>
 			</view>
@@ -8,7 +8,7 @@
 			<view class="text-two">{{job.treatment}}</view>
 			<view class="text-three">{{job.site}}</view>
 			<view class="text-four">{{job.validtime}}</view>
-		</view>
+		</navigator>
 	</view>
 </template>
 <script>

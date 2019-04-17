@@ -7,8 +7,8 @@
 					<text class='text-xl text-bold'>收货地址</text>
 				</view>
 			</view>
-			<navigator class="cu-list menu">
-				<view v-if="address === null" class="cu-item arrow">
+			<navigator class="cu-list menu" url="/pages/my/address/address">
+				<view v-if="addressInfo.city === null" class="cu-item arrow">
 					<view class='content padding-tb-arrow'>
 						<view class="iconfont icon-jiahao1"> 点击添加</view>
 						<view class='text-gray text-sm'>您还没有设置收货地址</view>
@@ -16,8 +16,8 @@
 				</view>
 				<view v-else class="cu-item arrow">
 					<view class='content padding-tb-arrow'>
-						<view>{{user.userName}}</view>
-						<view class='text-gray text-sm'>天津电子信息技术学院五号楼522</view>
+						<view>{{addressInfo.name + ' ' + addressInfo.phone}}</view>
+						<view class='text-gray text-sm'>{{addressInfo.city + addressInfo.address}}</view>
 					</view>
 				</view>
 			</navigator>
@@ -55,9 +55,9 @@
 					<text class='text-xl text-bold'>付款方式</text>
 				</view>
 			</view>
-			<radio-group style="width: 100%;" @change="radioChange">
+			<radio-group style="width: 100%;">
 				<view class="cu-list menu menu-avatar">
-					<view class="cu-item">
+					<view class="cu-item" @click="changeWxpay">
 						<view class="cu-avatar round weixin lg"></view>
 						<view class='content'>
 							<view class='text-black'>微信支付
@@ -66,17 +66,17 @@
 							<view class='text-gray text-sm'>亿万用户的选择,更快更安全</view>
 						</view>
 						<view class='action'>
-							<radio class='orange sm' value="wxpay" checked></radio>
+							<radio class='orange sm' value="wxpay" :checked="payWay==='wxpay'"></radio>
 						</view>
 					</view>
-					<view class="cu-item">
+					<view class="cu-item" @click="changeAlipay">
 						<view class="cu-avatar alipay round lg"></view>
 						<view class='content'>
 							<view class='text-black'>支付宝</view>
 							<view class='text-gray text-sm'>推荐支付宝用户使用</view>
 						</view>
 						<view class='action'>
-							<radio class='orange sm' value="alipay"></radio>
+							<radio class='orange sm' value="alipay" :checked="payWay==='alipay'"></radio>
 						</view>
 					</view>
 				</view>
@@ -105,11 +105,10 @@
 				realPrice: 999,
 				orderId: 0,
 				remark: '',
-				address:{},
 				payWay: 'wxpay'
 			}
 		},
-		computed: mapState(['user']),
+		computed: mapState(['user','addressInfo']),
 		onLoad: function(parameter) {
 			this.orderId = parameter.order_id;
 			this.realPrice = parameter.real_price;
@@ -125,7 +124,6 @@
 				success: res => {
 					uni.hideLoading();
 					if (res.data.status === 200) {
-						this.address = res.data.address;
 						this.itemList = res.data.itemList;
 					} else {
 						uni.showToast({
@@ -141,18 +139,21 @@
 			});
 		},
 		methods: {
-			radioChange(env){
-				this.payWay = env.detail.value;
+			changeWxpay() {
+				this.payWay = 'wxpay';
 			},
-			goPay(){
-				if(this.payWay === 'wxpay'){
+			changeAlipay() {
+				this.payWay = 'alipay';
+			},
+			goPay() {
+				if (this.payWay === 'wxpay') {
 					this.wxpay();
-				}else if(this.payWay === 'alipay'){
+				} else if (this.payWay === 'alipay') {
 					this.alipay();
-				}else{
+				} else {
 					uni.showToast({
-						title:'请选择一个付款方式哦！',
-						icon:'none'
+						title: '请选择一个付款方式哦！',
+						icon: 'none'
 					})
 				}
 			},
