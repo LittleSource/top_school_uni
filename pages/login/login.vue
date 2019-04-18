@@ -46,6 +46,7 @@
 	</view>
 </template>
 <script>
+	var _self;
 	import {
 		mapMutations
 	} from 'vuex'
@@ -67,6 +68,7 @@
 			}
 		},
 		onReady() {
+			_self = this;
 			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
 		},
 		methods: {
@@ -75,16 +77,9 @@
 				uni.login({
 					provider: 'weixin',
 					success: function(loginRes) {
-						console.log(JSON.stringify(loginRes));
-						uni.getUserInfo({
-							provider: 'weixin',
-							success: function(infoRes) {
-								console.log(JSON.stringify(infoRes));
-							}
-						});
+						_self.thirdLogin(loginRes.authResult.openid, 0);
 					},
-					fail: (e) => {
-					}
+					fail: (e) => {}
 				});
 			},
 			loginWithQQ: function() {
@@ -94,7 +89,45 @@
 				})
 			},
 			loginWithWb: function() {
-
+				uni.navigateTo({
+					url: './logintemp',
+				});
+			},
+			thirdLogin: function(openId, type) {
+				uni.showLoading({
+					title:'登录中...'
+				});
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'common/login/verifyopenid',
+					method: 'GET',
+					data: {
+						openId: openId,
+						type: type
+					},
+					success: res => {
+						if(res.data.status === 200){
+							this.login(res.data);
+							uni.reLaunch({
+								url: '../index/index'
+							});
+						}else if(res.data.status === 201){//若openid未绑定
+							uni.navigateTo({
+								url: './logintemp?open_id='+openId+'&type='+type
+							});
+						}else{
+							uni.showToast({
+								title: res.data.msg,
+								icon:'none'
+							});
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					},
+					complete: () => {
+						uni.hideLoading();
+					}
+				});
 			},
 			loginNow: function(e) {
 				// 表单验证

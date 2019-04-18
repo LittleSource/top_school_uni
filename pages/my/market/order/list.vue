@@ -64,7 +64,7 @@
 				// 内容实例，内容区域您根据项目情况设计即可，覆盖模式
 				orderList: [],
 				loading: {
-					show: true,
+					show: false,
 					nextPages: 2,
 					totalPages: 2,
 					type: 0,
@@ -152,10 +152,12 @@
 					success: res => {
 						if (res.data.status === 200) {
 							this.orderList = res.data.orderList;
-							if(this.orderList.length === 0){
+							this.loading.totalPages = res.data.totalPages;
+							if(this.loading.totalPages > 1 && this.orderList.length > 0){
+								this.loading.show = true;
+							}else{
 								this.loading.show = false;
 							}
-							this.loading.totalPages = res.data.totalPages;
 						} else {
 							uni.showToast({
 								title: res.data.msg,
@@ -176,7 +178,8 @@
 				var index = e.currentTarget.dataset.index;
 				this.cateCurrentIndex = index;
 				// 动态替换内容
-				this.getList(1, this.categories[index].name)
+				this.loading.nextPages = 2;
+				this.getList(1, this.categories[index].name);
 			}
 		}
 	}

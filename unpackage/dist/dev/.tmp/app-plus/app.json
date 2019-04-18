@@ -10,7 +10,9 @@
     "pages/index/market/payresult",
     "pages/index/parttime/index",
     "pages/index/parttime/details",
-    "pages/common/login",
+    "pages/login/login",
+    "pages/login/logintemp",
+    "pages/login/binding",
     "pages/register/reg",
     "pages/register/selectSex",
     "pages/register/selectSchool",
@@ -82,5 +84,5 @@
     "autoclose": false
   },
   "appname": "TOP校园",
-  "compilerVersion": "1.9.1"
+  "compilerVersion": "1.9.2"
 }

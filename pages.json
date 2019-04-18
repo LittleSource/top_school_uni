@@ -134,13 +134,36 @@
 				}
 			}
 		}, {
-			"path": "pages/common/login",
+			"path": "pages/login/login",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "登录",
 				"app-plus": {
 					"titleNView": false,
+					"bounce": "none" //关闭窗口回弹效果
+				}
+			}
+		}, {
+			"path": "pages/login/logintemp",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "第三方登录",
+				"app-plus": {
+					"bounce": "none", //关闭窗口回弹效果
+					"titleNView": {
+						"type": "transparent" //透明渐变导航栏
+					}
+				}
+			}
+		}, {
+			"path": "pages/login/binding",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "绑定已有账号",
+				"app-plus": {
 					"bounce": "none" //关闭窗口回弹效果
 				}
 			}
@@ -227,21 +250,21 @@
 					"animationType": "slide-in-bottom"
 				}
 			}
-		},{
+		}, {
 			"path": "pages/common/update",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "检查更新"
 			}
-		},{
+		}, {
 			"path": "pages/hot/hot",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "热点"
 			}
-		},{
+		}, {
 			"path": "pages/message/message",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -254,7 +277,7 @@
 					}
 				}
 			}
-		},{
+		}, {
 			"path": "pages/my/my",
 			"style": {
 				"navigationStyle": "custom",
@@ -262,14 +285,14 @@
 					"titleNView": false //禁用原生导航栏
 				}
 			}
-		},{
+		}, {
 			"path": "pages/my/address/address",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "我的地址"
 			}
-		},{
+		}, {
 			"path": "pages/my/market/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -283,21 +306,21 @@
 					}
 				}
 			}
-		},{
+		}, {
 			"path": "pages/my/market/regMarketInfo",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "申请开通店铺"
 			}
-		},{
+		}, {
 			"path": "pages/my/market/verifyIdCard",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "身份认证"
 			}
-		},{
+		}, {
 			"path": "pages/my/market/manage",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -311,7 +334,7 @@
 					}
 				}
 			}
-		},{
+		}, {
 			"path": "pages/my/market/order/list",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -325,14 +348,14 @@
 					}
 				}
 			}
-		},{
+		}, {
 			"path": "pages/my/market/classify",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "分类管理"
 			}
-		},{
+		}, {
 			"path": "pages/my/market/goods/index",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -354,54 +377,54 @@
 				"navigationBarBackgroundColor": "#ff4500",
 				"navigationBarTitleText": "商品XX"
 			}
-		},{
+		}, {
 			"path": "pages/my/parttime/index",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "兼职发布"
 			}
-		},{
+		}, {
 			"path": "pages/my/parttime/parttimereg",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "开通发布兼职权限",
 				"app-plus": {
-                    "titleNView": {
-                        "type": "transparent"//透明渐变导航栏
-                    }
-                }
+					"titleNView": {
+						"type": "transparent" //透明渐变导航栏
+					}
+				}
 			}
-		},{
+		}, {
 			"path": "pages/my/parttime/protocol",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "兼职发布协议"
 			}
-		},{
+		}, {
 			"path": "pages/my/parttime/companyverify",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "企业资料"
 			}
-		},{
+		}, {
 			"path": "pages/my/setting/setting",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "设置"
 			}
-		},{
+		}, {
 			"path": "pages/my/setting/about",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
 				"navigationBarTitleText": "关于"
 			}
-		},{
+		}, {
 			"path": "pages/message/chat",
 			"style": {
 				"navigationBarTextStyle": "white",

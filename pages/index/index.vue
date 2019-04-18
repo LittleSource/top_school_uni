@@ -145,7 +145,7 @@
 		onLoad: function() {
 			if (!this.user.hasLogin) {
 				uni.redirectTo({
-					url: '../common/login'
+					url: '../login/login'
 				});
 			}
 		},

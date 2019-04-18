@@ -1,7 +1,7 @@
 {
   "usingComponents": {},
   "navigationBarTextStyle": "white",
-  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarBackgroundColor": "#ff4500",
   "navigationBarTitleText": "商品管理",
   "titleNView": {
     "buttons": [

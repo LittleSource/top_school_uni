@@ -7,7 +7,9 @@
     "pages/index/market/index",
     "pages/index/market/market",
     "pages/index/market/checkstand",
+    "pages/index/market/payresult",
     "pages/index/parttime/index",
+    "pages/index/parttime/details",
     "pages/common/login",
     "pages/register/reg",
     "pages/register/selectSex",
@@ -20,6 +22,7 @@
     "pages/hot/hot",
     "pages/message/message",
     "pages/my/my",
+    "pages/my/address/address",
     "pages/my/market/index",
     "pages/my/market/regMarketInfo",
     "pages/my/market/verifyIdCard",
@@ -79,5 +82,5 @@
     "autoclose": false
   },
   "appname": "TOP校园",
-  "compilerVersion": "1.9.1"
+  "compilerVersion": "1.9.2"
 }

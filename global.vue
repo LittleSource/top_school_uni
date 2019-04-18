@@ -6,7 +6,7 @@
 <script>
 	//全局配置文件
 	const serverChat = 'ws://118.24.124.19:8282';
-	const serverSrc = 'http://123.151.1.185/';//https://apii.ym998.cn/
+	const serverSrc = 'http://123.151.2.47/';//https://apii.ym998.cn/
 	export default {
 		serverSrc, //服务器地址
 		serverChat,
@@ -35,7 +35,7 @@
 				key: 'market'
 			});
 			uni.redirectTo({
-				url: '/pages/common/login'
+				url: '/pages/login/login'
 			});
 		},
 		checkUpdater: function(currentId, updaterPage) {

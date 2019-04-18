@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"body { width: 100%; background-repeat: no-repeat; background-size: 100% 100%; }\n.",[1],"btn-area { padding: ",[0,20]," ",[0,80],"; }\n",],undefined,{path:"./pages/login/logintemp.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/login/logintemp.wxml') } }));

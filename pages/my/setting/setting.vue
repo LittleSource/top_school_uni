@@ -39,7 +39,7 @@
 			logout: function() {
 				this.logOut();
 				uni.reLaunch({
-					url: '/pages/common/login'
+					url: '/pages/login/login'
 				})
 			}
 		},

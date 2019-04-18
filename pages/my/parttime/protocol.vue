@@ -33,7 +33,6 @@
 		},
 		methods: {
 			agree() {
-				console.log(typeof(this.type));
 				if(this.type === 1){
 					uni.navigateTo({
 						url: './companyverify'

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarTitleText": "第三方登录",
+  "bounce": "none",
+  "titleNView": {
+    "type": "transparent"
+  }
+}
