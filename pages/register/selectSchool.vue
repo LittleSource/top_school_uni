@@ -47,7 +47,9 @@
 </template>
 
 <script>
-	import { mapMutations } from 'vuex'
+	import {
+		mapMutations
+	} from 'vuex'
 	import simpleDialog from '../../components/dialog.vue';
 	import QQMapWX from '../../common/qqmap-wx-jssdk.min.js';
 	var qqmapsdk = new QQMapWX({
@@ -60,7 +62,13 @@
 		data() {
 			return {
 				schoolList: [],
-				selectSchool:{}
+				selectSchool: {},
+				isThird: 0
+			}
+		},
+		onLoad(parameter) {
+			if (parseInt(parameter.is_third) === 1) {
+				this.isThird = 1;
 			}
 		},
 		methods: {
@@ -99,19 +107,19 @@
 				});
 				//静默上传到学校表
 				uni.request({
-					url: this.GLOBAL.serverSrc+'common/school/getSchool',
+					url: this.GLOBAL.serverSrc + 'common/school/getSchool',
 					method: 'POST',
 					data: {
-						'id':school.id,
-						'title':school.title,
-						'addr':school.addr
+						'id': school.id,
+						'title': school.title,
+						'addr': school.addr
 					}
 				});
 			},
 			confirmButton() {
 				this.regSetSchool(this.selectSchool);
 				uni.navigateTo({
-					url: './setAvatar'
+					url: './setAvatar?is_third=' + this.isThird
 				});
 			},
 			back() {
@@ -134,7 +142,8 @@
 		border-right-width: 0px;
 		border-top-width: 0px;
 	}
-	.grace-list .items .title{
+
+	.grace-list .items .title {
 		margin-left: 0;
 	}
 </style>

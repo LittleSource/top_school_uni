@@ -40,8 +40,6 @@
 		onLoad(parameter) {
 			this.openId = parameter.open_id;
 			this.type = parameter.type;
-			console.log(this.openId);
-			console.log(this.type);
 		},
 		methods: {
 			...mapMutations(['login']),

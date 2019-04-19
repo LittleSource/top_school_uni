@@ -44,19 +44,26 @@
 </template>
 
 <script>
-	import { mapMutations } from 'vuex'
+	import {
+		mapMutations
+	} from 'vuex'
 	export default {
 		data() {
 			return {
-
+				isThird: 0
 			};
+		},
+		onLoad(parameter) {
+			if (parseInt(parameter.is_third) === 1) {
+				this.isThird = 1;
+			}
 		},
 		methods: {
 			...mapMutations(['regSetSex']),
 			setSex(sex) {
 				this.regSetSex(sex);
 				uni.navigateTo({
-					url: './selectSchool'
+					url: './selectSchool?is_third=' + this.isThird
 				});
 			}
 		}

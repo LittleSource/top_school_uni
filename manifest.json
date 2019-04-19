@@ -14,14 +14,9 @@
             "delay" : 0
         },
         "modules" : {
-            "OAuth" : {
-                "weixin" : {
-                    "appid" : "wx2d1f29e580ac73c6",
-                    "appsecret" : "db310ec3937d679e45ec5a72d090153c"
-                }
-            },
             "Payment" : {},
-            "Push" : {}
+            "Push" : {},
+            "OAuth" : {}
         },
         /* 模块配置 */
         "distribute" : {
@@ -72,6 +67,9 @@
                     "weixin" : {
                         "appid" : "wx884704c8a8e160c0",
                         "appsecret" : "1ae1b71428627efd3d2291bae2cd2273"
+                    },
+                    "qq" : {
+                        "appid" : "101567423"
                     }
                 },
                 "push" : {
@@ -80,7 +78,7 @@
             },
             "icons" : {
                 "ios" : {
-                    "appstore" : "C:/Users/Administrator/Desktop/APP素材/logo.png",
+                    "appstore" : "F:/Company/TOP校园/APP素材/logo.png",
                     "ipad" : {
                         "app" : "unpackage/res/icons/76x76.png",
                         "app@2x" : "unpackage/res/icons/152x152.png",

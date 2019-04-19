@@ -1228,7 +1228,12 @@ function gz$gwx_16(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
 __WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7ba207e8'])
+Z([3,'04015d09'])
+Z([3,'handleProxy'])
+Z([3,'_view 04015d09 search-keyword'])
+Z([[7],[3,'$k']])
+Z([1,'04015d09-9'])
+Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
 function gz$gwx_17(){
@@ -1236,32 +1241,12 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
 __WXML_GLOBAL__.ops_cached.$gwx_17=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7ba207e8'])
+Z([3,'04015d09'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
 }
 function gz$gwx_18(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
 __WXML_GLOBAL__.ops_cached.$gwx_18=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'04015d09'])
-Z([3,'handleProxy'])
-Z([3,'_view 04015d09 search-keyword'])
-Z([[7],[3,'$k']])
-Z([1,'04015d09-9'])
-Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
-}
-function gz$gwx_19(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
-__WXML_GLOBAL__.ops_cached.$gwx_19=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'04015d09'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
-}
-function gz$gwx_20(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
-__WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'0807302a'])
 Z([3,'_view 0807302a flex-column'])
@@ -1270,6 +1255,21 @@ Z([3,'_view 0807302a minorContent bottom_aera'])
 Z([[2,'&&'],[[7],[3,'startProgress']],[[2,'!'],[[7],[3,'currentIsLatest']]]])
 Z([[2,'&&'],[[2,'!'],[[7],[3,'startProgress']]],[[2,'!'],[[7],[3,'currentIsLatest']]]])
 Z([[7],[3,'currentIsLatest']])
+})(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
+}
+function gz$gwx_19(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
+__WXML_GLOBAL__.ops_cached.$gwx_19=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'0807302a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
+}
+function gz$gwx_20(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
+__WXML_GLOBAL__.ops_cached.$gwx_20=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'98a44ff0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
 function gz$gwx_21(){
@@ -1277,27 +1277,12 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
 __WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0807302a'])
+Z([3,'98a44ff0'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
 function gz$gwx_22(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
 __WXML_GLOBAL__.ops_cached.$gwx_22=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'98a44ff0'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
-}
-function gz$gwx_23(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
-__WXML_GLOBAL__.ops_cached.$gwx_23=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'98a44ff0'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
-}
-function gz$gwx_24(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
-__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'22ce7d59'])
 Z([3,'_view 22ce7d59'])
@@ -1310,19 +1295,19 @@ Z([[2,'>'],[[6],[[6],[[7],[3,'comment']],[3,'reply_list']],[3,'length']],[1,0]])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'22ce7d59-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'dd17cd9a'])
 Z([3,'../../../static/index/love.png'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
 }
-function gz$gwx_25(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
-__WXML_GLOBAL__.ops_cached.$gwx_25=[];
+function gz$gwx_23(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
+__WXML_GLOBAL__.ops_cached.$gwx_23=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'22ce7d59'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
 }
-function gz$gwx_26(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
-__WXML_GLOBAL__.ops_cached.$gwx_26=[];
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'227202ca'])
 Z([3,'_view 227202ca ymkj-gradient-bg'])
@@ -1330,6 +1315,24 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z([3,'e380f47c'])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'227202ca-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'93f8d13c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
+}
+function gz$gwx_25(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
+__WXML_GLOBAL__.ops_cached.$gwx_25=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'227202ca'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
+}
+function gz$gwx_26(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
+__WXML_GLOBAL__.ops_cached.$gwx_26=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'67be4df2'])
+Z([3,'_view data-v-132e9304 grace-bg-white'])
+Z([[7],[3,'Loading']])
+Z([[7],[3,'btnImg']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_26);return __WXML_GLOBAL__.ops_cached.$gwx_26
 }
 function gz$gwx_27(){
@@ -1337,17 +1340,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_27)return __WXML_GLOBAL__.ops_cached.$gwx_27
 __WXML_GLOBAL__.ops_cached.$gwx_27=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'227202ca'])
+Z([3,'67be4df2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_27);return __WXML_GLOBAL__.ops_cached.$gwx_27
 }
 function gz$gwx_28(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
 __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'67be4df2'])
-Z([3,'_view data-v-132e9304 grace-bg-white'])
-Z([[7],[3,'Loading']])
-Z([[7],[3,'btnImg']])
+Z([3,'200c6b52'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
@@ -1355,14 +1355,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_29)return __WXML_GLOBAL__.ops_cached.$gwx_29
 __WXML_GLOBAL__.ops_cached.$gwx_29=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'67be4df2'])
+Z([3,'200c6b52'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_29);return __WXML_GLOBAL__.ops_cached.$gwx_29
 }
 function gz$gwx_30(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_30)return __WXML_GLOBAL__.ops_cached.$gwx_30
 __WXML_GLOBAL__.ops_cached.$gwx_30=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'200c6b52'])
+Z([3,'c7b673fe'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_30);return __WXML_GLOBAL__.ops_cached.$gwx_30
 }
 function gz$gwx_31(){
@@ -1370,27 +1370,12 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
 __WXML_GLOBAL__.ops_cached.$gwx_31=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'200c6b52'])
+Z([3,'c7b673fe'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_31);return __WXML_GLOBAL__.ops_cached.$gwx_31
 }
 function gz$gwx_32(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
 __WXML_GLOBAL__.ops_cached.$gwx_32=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c7b673fe'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
-}
-function gz$gwx_33(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
-__WXML_GLOBAL__.ops_cached.$gwx_33=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c7b673fe'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
-}
-function gz$gwx_34(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
-__WXML_GLOBAL__.ops_cached.$gwx_34=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'5be952bf'])
 Z([3,'_view 5be952bf'])
@@ -1428,19 +1413,19 @@ Z(z[19])
 Z([[2,'=='],[[7],[3,'index']],[[7],[3,'cateIndex']]])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'5be952bf-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'e380f47c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
+})(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
 }
-function gz$gwx_35(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
-__WXML_GLOBAL__.ops_cached.$gwx_35=[];
+function gz$gwx_33(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
+__WXML_GLOBAL__.ops_cached.$gwx_33=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'5be952bf'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
+})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
 }
-function gz$gwx_36(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
-__WXML_GLOBAL__.ops_cached.$gwx_36=[];
+function gz$gwx_34(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
+__WXML_GLOBAL__.ops_cached.$gwx_34=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2763a7ef'])
 Z([3,'_view 2763a7ef'])
@@ -1456,6 +1441,21 @@ Z([[2,'>'],[[6],[[7],[3,'shoppingCart']],[3,'length']],[1,0]])
 Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'2763a7ef-2']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'2763a7ef-default-2763a7ef-2']]])
 Z([3,'36ed7ea2'])
 Z([3,'popup'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
+}
+function gz$gwx_35(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
+__WXML_GLOBAL__.ops_cached.$gwx_35=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2763a7ef'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
+}
+function gz$gwx_36(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
+__WXML_GLOBAL__.ops_cached.$gwx_36=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'011fc632'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_36);return __WXML_GLOBAL__.ops_cached.$gwx_36
 }
 function gz$gwx_37(){
@@ -1463,14 +1463,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_37)return __WXML_GLOBAL__.ops_cached.$gwx_37
 __WXML_GLOBAL__.ops_cached.$gwx_37=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2763a7ef'])
+Z([3,'011fc632'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_37);return __WXML_GLOBAL__.ops_cached.$gwx_37
 }
 function gz$gwx_38(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_38)return __WXML_GLOBAL__.ops_cached.$gwx_38
 __WXML_GLOBAL__.ops_cached.$gwx_38=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'011fc632'])
+Z([3,'2a9ca1f3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_38);return __WXML_GLOBAL__.ops_cached.$gwx_38
 }
 function gz$gwx_39(){
@@ -1478,14 +1478,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_39)return __WXML_GLOBAL__.ops_cached.$gwx_39
 __WXML_GLOBAL__.ops_cached.$gwx_39=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'011fc632'])
+Z([3,'2a9ca1f3'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_39);return __WXML_GLOBAL__.ops_cached.$gwx_39
 }
 function gz$gwx_40(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_40)return __WXML_GLOBAL__.ops_cached.$gwx_40
 __WXML_GLOBAL__.ops_cached.$gwx_40=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'2a9ca1f3'])
+Z([3,'78cdde7a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
 }
 function gz$gwx_41(){
@@ -1493,14 +1493,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
 __WXML_GLOBAL__.ops_cached.$gwx_41=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2a9ca1f3'])
+Z([3,'78cdde7a'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
 }
 function gz$gwx_42(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
 __WXML_GLOBAL__.ops_cached.$gwx_42=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'78cdde7a'])
+Z([3,'6cb9909c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
 }
 function gz$gwx_43(){
@@ -1508,12 +1508,42 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
 __WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'78cdde7a'])
+Z([3,'6cb9909c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 function gz$gwx_44(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
 __WXML_GLOBAL__.ops_cached.$gwx_44=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'1e826b40'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
+}
+function gz$gwx_45(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
+__WXML_GLOBAL__.ops_cached.$gwx_45=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'1e826b40'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+}
+function gz$gwx_46(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
+__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'15dde1d8'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
+}
+function gz$gwx_47(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
+__WXML_GLOBAL__.ops_cached.$gwx_47=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'15dde1d8'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
+}
+function gz$gwx_48(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
+__WXML_GLOBAL__.ops_cached.$gwx_48=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'631f5603'])
 Z([3,'_view 631f5603'])
@@ -1529,19 +1559,19 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z(z[4])
 Z([1,'631f5603-1'])
 Z([3,'63f6700e'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
+})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
 }
-function gz$gwx_45(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
-__WXML_GLOBAL__.ops_cached.$gwx_45=[];
+function gz$gwx_49(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
+__WXML_GLOBAL__.ops_cached.$gwx_49=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'631f5603'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
+})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
 }
-function gz$gwx_46(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
-__WXML_GLOBAL__.ops_cached.$gwx_46=[];
+function gz$gwx_50(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
+__WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'0878b97c'])
 Z([3,'index'])
@@ -1562,19 +1592,19 @@ Z([3,'_view 0878b97c grace-items'])
 Z(z[8])
 Z([[2,'+'],[1,'0878b97c-0-'],[[7],[3,'index']]])
 Z([[2,'>'],[[6],[[7],[3,'item']],[3,'unread']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
+})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
-function gz$gwx_47(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
-__WXML_GLOBAL__.ops_cached.$gwx_47=[];
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'0878b97c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
-function gz$gwx_48(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
-__WXML_GLOBAL__.ops_cached.$gwx_48=[];
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'1ab7b1d9'])
 Z([3,'handleProxy'])
@@ -1584,19 +1614,19 @@ Z([1,'1ab7b1d9-5'])
 Z([3,'3de15c49'])
 Z([3,'mpvueCityPicker1'])
 Z([3,'#ff4243'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
-function gz$gwx_49(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
-__WXML_GLOBAL__.ops_cached.$gwx_49=[];
+function gz$gwx_53(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
+__WXML_GLOBAL__.ops_cached.$gwx_53=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'1ab7b1d9'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
 }
-function gz$gwx_50(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
-__WXML_GLOBAL__.ops_cached.$gwx_50=[];
+function gz$gwx_54(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
+__WXML_GLOBAL__.ops_cached.$gwx_54=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'6e291bf7'])
 Z([3,'_view 6e291bf7'])
@@ -1606,34 +1636,34 @@ Z([3,'cate'])
 Z([[7],[3,'catesList']])
 Z(z[3])
 Z([[2,'>'],[[6],[[7],[3,'catesList']],[3,'length']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
+})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
 }
-function gz$gwx_51(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
-__WXML_GLOBAL__.ops_cached.$gwx_51=[];
+function gz$gwx_55(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
+__WXML_GLOBAL__.ops_cached.$gwx_55=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6e291bf7'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
+})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
 }
-function gz$gwx_52(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
-__WXML_GLOBAL__.ops_cached.$gwx_52=[];
+function gz$gwx_56(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
+__WXML_GLOBAL__.ops_cached.$gwx_56=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'b0340454'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
+})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
 }
-function gz$gwx_53(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
-__WXML_GLOBAL__.ops_cached.$gwx_53=[];
+function gz$gwx_57(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
+__WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'b0340454'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
+})(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
-function gz$gwx_54(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
-__WXML_GLOBAL__.ops_cached.$gwx_54=[];
+function gz$gwx_58(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
+__WXML_GLOBAL__.ops_cached.$gwx_58=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'55169286'])
 Z([3,'handleProxy'])
@@ -1642,37 +1672,6 @@ Z([[7],[3,'$k']])
 Z([1,'55169286-5'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
-}
-function gz$gwx_55(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
-__WXML_GLOBAL__.ops_cached.$gwx_55=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'55169286'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
-}
-function gz$gwx_56(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
-__WXML_GLOBAL__.ops_cached.$gwx_56=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'1cad943f'])
-Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
-}
-function gz$gwx_57(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
-__WXML_GLOBAL__.ops_cached.$gwx_57=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'1cad943f'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
-}
-function gz$gwx_58(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
-__WXML_GLOBAL__.ops_cached.$gwx_58=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
 }
 function gz$gwx_59(){
@@ -1680,16 +1679,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
 __WXML_GLOBAL__.ops_cached.$gwx_59=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7f259f98'])
+Z([3,'55169286'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
 }
 function gz$gwx_60(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
 __WXML_GLOBAL__.ops_cached.$gwx_60=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'78f2e91c'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'78f2e91c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e380f47c'])
+Z([3,'1cad943f'])
+Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
 }
 function gz$gwx_61(){
@@ -1697,14 +1695,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
 __WXML_GLOBAL__.ops_cached.$gwx_61=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'78f2e91c'])
+Z([3,'1cad943f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
 }
 function gz$gwx_62(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
 __WXML_GLOBAL__.ops_cached.$gwx_62=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3ddaedaa'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
 function gz$gwx_63(){
@@ -1712,14 +1710,16 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
 __WXML_GLOBAL__.ops_cached.$gwx_63=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3ddaedaa'])
+Z([3,'7f259f98'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
 }
 function gz$gwx_64(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_64)return __WXML_GLOBAL__.ops_cached.$gwx_64
 __WXML_GLOBAL__.ops_cached.$gwx_64=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7f4ebc97'])
+Z([3,'78f2e91c'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'78f2e91c-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e380f47c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_64);return __WXML_GLOBAL__.ops_cached.$gwx_64
 }
 function gz$gwx_65(){
@@ -1727,14 +1727,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_65)return __WXML_GLOBAL__.ops_cached.$gwx_65
 __WXML_GLOBAL__.ops_cached.$gwx_65=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7f4ebc97'])
+Z([3,'78f2e91c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_65);return __WXML_GLOBAL__.ops_cached.$gwx_65
 }
 function gz$gwx_66(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_66)return __WXML_GLOBAL__.ops_cached.$gwx_66
 __WXML_GLOBAL__.ops_cached.$gwx_66=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6819fcac'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_66);return __WXML_GLOBAL__.ops_cached.$gwx_66
 }
 function gz$gwx_67(){
@@ -1742,14 +1742,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_67)return __WXML_GLOBAL__.ops_cached.$gwx_67
 __WXML_GLOBAL__.ops_cached.$gwx_67=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6819fcac'])
+Z([3,'3ddaedaa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_67);return __WXML_GLOBAL__.ops_cached.$gwx_67
 }
 function gz$gwx_68(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_68)return __WXML_GLOBAL__.ops_cached.$gwx_68
 __WXML_GLOBAL__.ops_cached.$gwx_68=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_68);return __WXML_GLOBAL__.ops_cached.$gwx_68
 }
 function gz$gwx_69(){
@@ -1757,14 +1757,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_69)return __WXML_GLOBAL__.ops_cached.$gwx_69
 __WXML_GLOBAL__.ops_cached.$gwx_69=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'7f4ebc97'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_69);return __WXML_GLOBAL__.ops_cached.$gwx_69
 }
 function gz$gwx_70(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_70)return __WXML_GLOBAL__.ops_cached.$gwx_70
 __WXML_GLOBAL__.ops_cached.$gwx_70=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6452f243'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_70);return __WXML_GLOBAL__.ops_cached.$gwx_70
 }
 function gz$gwx_71(){
@@ -1772,14 +1772,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_71)return __WXML_GLOBAL__.ops_cached.$gwx_71
 __WXML_GLOBAL__.ops_cached.$gwx_71=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6452f243'])
+Z([3,'6819fcac'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_71);return __WXML_GLOBAL__.ops_cached.$gwx_71
 }
 function gz$gwx_72(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_72)return __WXML_GLOBAL__.ops_cached.$gwx_72
 __WXML_GLOBAL__.ops_cached.$gwx_72=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c55f47f6'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_72);return __WXML_GLOBAL__.ops_cached.$gwx_72
 }
 function gz$gwx_73(){
@@ -1787,14 +1787,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_73)return __WXML_GLOBAL__.ops_cached.$gwx_73
 __WXML_GLOBAL__.ops_cached.$gwx_73=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c55f47f6'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_73);return __WXML_GLOBAL__.ops_cached.$gwx_73
 }
 function gz$gwx_74(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_74)return __WXML_GLOBAL__.ops_cached.$gwx_74
 __WXML_GLOBAL__.ops_cached.$gwx_74=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'e234f8f2'])
+Z([3,'6452f243'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_74);return __WXML_GLOBAL__.ops_cached.$gwx_74
 }
 function gz$gwx_75(){
@@ -1802,14 +1802,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_75)return __WXML_GLOBAL__.ops_cached.$gwx_75
 __WXML_GLOBAL__.ops_cached.$gwx_75=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e234f8f2'])
+Z([3,'6452f243'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_75);return __WXML_GLOBAL__.ops_cached.$gwx_75
 }
 function gz$gwx_76(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_76)return __WXML_GLOBAL__.ops_cached.$gwx_76
 __WXML_GLOBAL__.ops_cached.$gwx_76=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'c55f47f6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_76);return __WXML_GLOBAL__.ops_cached.$gwx_76
 }
 function gz$gwx_77(){
@@ -1817,14 +1817,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_77)return __WXML_GLOBAL__.ops_cached.$gwx_77
 __WXML_GLOBAL__.ops_cached.$gwx_77=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'c55f47f6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_77);return __WXML_GLOBAL__.ops_cached.$gwx_77
 }
 function gz$gwx_78(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_78)return __WXML_GLOBAL__.ops_cached.$gwx_78
 __WXML_GLOBAL__.ops_cached.$gwx_78=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'c9670ade'])
+Z([3,'e234f8f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_78);return __WXML_GLOBAL__.ops_cached.$gwx_78
 }
 function gz$gwx_79(){
@@ -1832,14 +1832,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_79)return __WXML_GLOBAL__.ops_cached.$gwx_79
 __WXML_GLOBAL__.ops_cached.$gwx_79=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'c9670ade'])
+Z([3,'e234f8f2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_79);return __WXML_GLOBAL__.ops_cached.$gwx_79
 }
 function gz$gwx_80(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_80)return __WXML_GLOBAL__.ops_cached.$gwx_80
 __WXML_GLOBAL__.ops_cached.$gwx_80=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4c98c0cb'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_80);return __WXML_GLOBAL__.ops_cached.$gwx_80
 }
 function gz$gwx_81(){
@@ -1847,12 +1847,42 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_81)return __WXML_GLOBAL__.ops_cached.$gwx_81
 __WXML_GLOBAL__.ops_cached.$gwx_81=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4c98c0cb'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_81);return __WXML_GLOBAL__.ops_cached.$gwx_81
 }
 function gz$gwx_82(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_82)return __WXML_GLOBAL__.ops_cached.$gwx_82
 __WXML_GLOBAL__.ops_cached.$gwx_82=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_82);return __WXML_GLOBAL__.ops_cached.$gwx_82
+}
+function gz$gwx_83(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_83)return __WXML_GLOBAL__.ops_cached.$gwx_83
+__WXML_GLOBAL__.ops_cached.$gwx_83=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'c9670ade'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_83);return __WXML_GLOBAL__.ops_cached.$gwx_83
+}
+function gz$gwx_84(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_84)return __WXML_GLOBAL__.ops_cached.$gwx_84
+__WXML_GLOBAL__.ops_cached.$gwx_84=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_84);return __WXML_GLOBAL__.ops_cached.$gwx_84
+}
+function gz$gwx_85(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_85)return __WXML_GLOBAL__.ops_cached.$gwx_85
+__WXML_GLOBAL__.ops_cached.$gwx_85=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4c98c0cb'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_85);return __WXML_GLOBAL__.ops_cached.$gwx_85
+}
+function gz$gwx_86(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_86)return __WXML_GLOBAL__.ops_cached.$gwx_86
+__WXML_GLOBAL__.ops_cached.$gwx_86=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2d4a1539'])
 Z([3,'_view 2d4a1539 s-page-wrapper'])
@@ -1863,36 +1893,6 @@ Z([[7],[3,'$k']])
 Z([1,'2d4a1539-3'])
 Z([3,'3b86ca29'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_82);return __WXML_GLOBAL__.ops_cached.$gwx_82
-}
-function gz$gwx_83(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_83)return __WXML_GLOBAL__.ops_cached.$gwx_83
-__WXML_GLOBAL__.ops_cached.$gwx_83=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'2d4a1539'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_83);return __WXML_GLOBAL__.ops_cached.$gwx_83
-}
-function gz$gwx_84(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_84)return __WXML_GLOBAL__.ops_cached.$gwx_84
-__WXML_GLOBAL__.ops_cached.$gwx_84=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_84);return __WXML_GLOBAL__.ops_cached.$gwx_84
-}
-function gz$gwx_85(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_85)return __WXML_GLOBAL__.ops_cached.$gwx_85
-__WXML_GLOBAL__.ops_cached.$gwx_85=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'685fe0c1'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_85);return __WXML_GLOBAL__.ops_cached.$gwx_85
-}
-function gz$gwx_86(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_86)return __WXML_GLOBAL__.ops_cached.$gwx_86
-__WXML_GLOBAL__.ops_cached.$gwx_86=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'59b2495c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_86);return __WXML_GLOBAL__.ops_cached.$gwx_86
 }
 function gz$gwx_87(){
@@ -1900,19 +1900,49 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_87)return __WXML_GLOBAL__.ops_cached.$gwx_87
 __WXML_GLOBAL__.ops_cached.$gwx_87=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'59b2495c'])
+Z([3,'2d4a1539'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_87);return __WXML_GLOBAL__.ops_cached.$gwx_87
 }
 function gz$gwx_88(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_88)return __WXML_GLOBAL__.ops_cached.$gwx_88
 __WXML_GLOBAL__.ops_cached.$gwx_88=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3de15c49'])
+Z([3,'685fe0c1'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_88);return __WXML_GLOBAL__.ops_cached.$gwx_88
 }
 function gz$gwx_89(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_89)return __WXML_GLOBAL__.ops_cached.$gwx_89
 __WXML_GLOBAL__.ops_cached.$gwx_89=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'685fe0c1'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_89);return __WXML_GLOBAL__.ops_cached.$gwx_89
+}
+function gz$gwx_90(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_90)return __WXML_GLOBAL__.ops_cached.$gwx_90
+__WXML_GLOBAL__.ops_cached.$gwx_90=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_90);return __WXML_GLOBAL__.ops_cached.$gwx_90
+}
+function gz$gwx_91(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_91)return __WXML_GLOBAL__.ops_cached.$gwx_91
+__WXML_GLOBAL__.ops_cached.$gwx_91=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'59b2495c'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_91);return __WXML_GLOBAL__.ops_cached.$gwx_91
+}
+function gz$gwx_92(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_92)return __WXML_GLOBAL__.ops_cached.$gwx_92
+__WXML_GLOBAL__.ops_cached.$gwx_92=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'3de15c49'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_92);return __WXML_GLOBAL__.ops_cached.$gwx_92
+}
+function gz$gwx_93(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_93)return __WXML_GLOBAL__.ops_cached.$gwx_93
+__WXML_GLOBAL__.ops_cached.$gwx_93=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'20908afe'])
 Z([a,[3,'_view 20908afe mpvue-picker-content  '],[[4],[[5],[[2,'?:'],[[7],[3,'showPicker']],[1,'mpvue-picker-view-show'],[1,'']]]]])
@@ -1921,13 +1951,13 @@ Z([[2,'==='],[[7],[3,'mode']],[1,'timeSelector']])
 Z([[2,'==='],[[7],[3,'mode']],[1,'multiSelector']])
 Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,2]]])
 Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,3]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_89);return __WXML_GLOBAL__.ops_cached.$gwx_89
+})(__WXML_GLOBAL__.ops_cached.$gwx_93);return __WXML_GLOBAL__.ops_cached.$gwx_93
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','/components/dialog.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','/common/slots.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/login.vue.wxml','./pages/common/login.wxml','./login.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/message/chat.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','/components/dialog.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','/common/slots.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/login/binding.vue.wxml','./pages/login/binding.wxml','./binding.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/login/logintemp.vue.wxml','./pages/login/logintemp.wxml','./logintemp.vue.wxml','./pages/message/chat.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["2763a7ef-default-2763a7ef-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':2763a7ef-default-2763a7ef-2'
@@ -2518,56 +2548,12 @@ return r
 }
 e_[x[26]]={f:m14,j:[],i:[],ti:[x[27]],ic:[]}
 d_[x[28]]={}
-d_[x[28]]["7ba207e8"]=function(e,s,r,gg){
+d_[x[28]]["04015d09"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[28]+':7ba207e8'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/common/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[28]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m15=function(e,s,r,gg){
-var z=gz$gwx_16()
-return r
-}
-e_[x[28]]={f:m15,j:[],i:[],ti:[],ic:[]}
-d_[x[29]]={}
-var m16=function(e,s,r,gg){
-var z=gz$gwx_17()
-var x5=e_[x[29]].i
-_ai(x5,x[30],e_,x[29],1,1)
-var o6=_v()
-_(r,o6)
-cs.push("./pages/common/login.wxml:template:2:6")
-var f7=_oz(z,1,e,s,gg)
-var c8=_gd(x[29],f7,e_,d_)
-if(c8){
-var h9=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-o6.wxXCkey=3
-c8(h9,h9,o6,gg)
-gg.f=cur_globalf
-}
-else _w(f7,x[29],2,18)
-cs.pop()
-x5.pop()
-return r
-}
-e_[x[29]]={f:m16,j:[],i:[],ti:[x[30]],ic:[]}
-d_[x[31]]={}
-d_[x[31]]["04015d09"]=function(e,s,r,gg){
-var z=gz$gwx_18()
-var b=x[31]+':04015d09'
+var b=x[28]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[31]);return}
+if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -2588,41 +2574,41 @@ throw err
 p_[b]=false
 return r
 }
-var m17=function(e,s,r,gg){
-var z=gz$gwx_18()
+var m15=function(e,s,r,gg){
+var z=gz$gwx_16()
 return r
 }
-e_[x[31]]={f:m17,j:[],i:[],ti:[],ic:[]}
-d_[x[32]]={}
-var m18=function(e,s,r,gg){
-var z=gz$gwx_19()
-var oBB=e_[x[32]].i
-_ai(oBB,x[33],e_,x[32],1,1)
-var lCB=_v()
-_(r,lCB)
+e_[x[28]]={f:m15,j:[],i:[],ti:[],ic:[]}
+d_[x[29]]={}
+var m16=function(e,s,r,gg){
+var z=gz$gwx_17()
+var x5=e_[x[29]].i
+_ai(x5,x[30],e_,x[29],1,1)
+var o6=_v()
+_(r,o6)
 cs.push("./pages/common/search.wxml:template:2:6")
-var aDB=_oz(z,1,e,s,gg)
-var tEB=_gd(x[32],aDB,e_,d_)
-if(tEB){
-var eFB=_1z(z,0,e,s,gg) || {}
+var f7=_oz(z,1,e,s,gg)
+var c8=_gd(x[29],f7,e_,d_)
+if(c8){
+var h9=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-lCB.wxXCkey=3
-tEB(eFB,eFB,lCB,gg)
+o6.wxXCkey=3
+c8(h9,h9,o6,gg)
 gg.f=cur_globalf
 }
-else _w(aDB,x[32],2,18)
+else _w(f7,x[29],2,18)
 cs.pop()
-oBB.pop()
+x5.pop()
 return r
 }
-e_[x[32]]={f:m18,j:[],i:[],ti:[x[33]],ic:[]}
-d_[x[34]]={}
-d_[x[34]]["0807302a"]=function(e,s,r,gg){
-var z=gz$gwx_20()
-var b=x[34]+':0807302a'
+e_[x[29]]={f:m16,j:[],i:[],ti:[x[30]],ic:[]}
+d_[x[31]]={}
+d_[x[31]]["0807302a"]=function(e,s,r,gg){
+var z=gz$gwx_18()
+var b=x[31]+':0807302a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/update.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[34]);return}
+if(p_[b]){_wl(b,x[31]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/update.vue.wxml:view:1:27")
@@ -2670,6 +2656,50 @@ throw err
 p_[b]=false
 return r
 }
+var m17=function(e,s,r,gg){
+var z=gz$gwx_18()
+return r
+}
+e_[x[31]]={f:m17,j:[],i:[],ti:[],ic:[]}
+d_[x[32]]={}
+var m18=function(e,s,r,gg){
+var z=gz$gwx_19()
+var oBB=e_[x[32]].i
+_ai(oBB,x[33],e_,x[32],1,1)
+var lCB=_v()
+_(r,lCB)
+cs.push("./pages/common/update.wxml:template:2:6")
+var aDB=_oz(z,1,e,s,gg)
+var tEB=_gd(x[32],aDB,e_,d_)
+if(tEB){
+var eFB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+lCB.wxXCkey=3
+tEB(eFB,eFB,lCB,gg)
+gg.f=cur_globalf
+}
+else _w(aDB,x[32],2,18)
+cs.pop()
+oBB.pop()
+return r
+}
+e_[x[32]]={f:m18,j:[],i:[],ti:[x[33]],ic:[]}
+d_[x[34]]={}
+d_[x[34]]["98a44ff0"]=function(e,s,r,gg){
+var z=gz$gwx_20()
+var b=x[34]+':98a44ff0'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[34]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
 var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
 return r
@@ -2682,7 +2712,7 @@ var xIB=e_[x[35]].i
 _ai(xIB,x[36],e_,x[35],1,1)
 var oJB=_v()
 _(r,oJB)
-cs.push("./pages/common/update.wxml:template:2:6")
+cs.push("./pages/hot/hot.wxml:template:2:6")
 var fKB=_oz(z,1,e,s,gg)
 var cLB=_gd(x[35],fKB,e_,d_)
 if(cLB){
@@ -2699,56 +2729,12 @@ return r
 }
 e_[x[35]]={f:m20,j:[],i:[],ti:[x[36]],ic:[]}
 d_[x[37]]={}
-d_[x[37]]["98a44ff0"]=function(e,s,r,gg){
+d_[x[37]]["22ce7d59"]=function(e,s,r,gg){
 var z=gz$gwx_22()
-var b=x[37]+':98a44ff0'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[37]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m21=function(e,s,r,gg){
-var z=gz$gwx_22()
-return r
-}
-e_[x[37]]={f:m21,j:[],i:[],ti:[],ic:[]}
-d_[x[38]]={}
-var m22=function(e,s,r,gg){
-var z=gz$gwx_23()
-var oPB=e_[x[38]].i
-_ai(oPB,x[39],e_,x[38],1,1)
-var lQB=_v()
-_(r,lQB)
-cs.push("./pages/hot/hot.wxml:template:2:6")
-var aRB=_oz(z,1,e,s,gg)
-var tSB=_gd(x[38],aRB,e_,d_)
-if(tSB){
-var eTB=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-lQB.wxXCkey=3
-tSB(eTB,eTB,lQB,gg)
-gg.f=cur_globalf
-}
-else _w(aRB,x[38],2,18)
-cs.pop()
-oPB.pop()
-return r
-}
-e_[x[38]]={f:m22,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[40]]={}
-d_[x[40]]["22ce7d59"]=function(e,s,r,gg){
-var z=gz$gwx_24()
-var b=x[40]+':22ce7d59'
+var b=x[37]+':22ce7d59'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[40]);return}
+if(p_[b]){_wl(b,x[37]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
@@ -2780,7 +2766,7 @@ var lK=_v()
 _(oB,lK)
 cs.push("./pages/index/confession/detail.vue.wxml:template:1:4270")
 var aL=_oz(z,9,e,s,gg)
-var tM=_gd(x[40],aL,e_,d_)
+var tM=_gd(x[37],aL,e_,d_)
 if(tM){
 var eN=_1z(z,8,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2788,7 +2774,7 @@ lK.wxXCkey=3
 tM(eN,eN,lK,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[40],1,4382)
+else _w(aL,x[37],1,4382)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -2800,44 +2786,44 @@ throw err
 p_[b]=false
 return r
 }
-var m23=function(e,s,r,gg){
-var z=gz$gwx_24()
-var oVB=e_[x[40]].i
-_ai(oVB,x[7],e_,x[40],1,1)
-oVB.pop()
+var m21=function(e,s,r,gg){
+var z=gz$gwx_22()
+var cOB=e_[x[37]].i
+_ai(cOB,x[9],e_,x[37],1,1)
+cOB.pop()
 return r
 }
-e_[x[40]]={f:m23,j:[],i:[],ti:[x[7]],ic:[]}
-d_[x[41]]={}
-var m24=function(e,s,r,gg){
-var z=gz$gwx_25()
-var oXB=e_[x[41]].i
-_ai(oXB,x[42],e_,x[41],1,1)
-var fYB=_v()
-_(r,fYB)
+e_[x[37]]={f:m21,j:[],i:[],ti:[x[9]],ic:[]}
+d_[x[38]]={}
+var m22=function(e,s,r,gg){
+var z=gz$gwx_23()
+var lQB=e_[x[38]].i
+_ai(lQB,x[39],e_,x[38],1,1)
+var aRB=_v()
+_(r,aRB)
 cs.push("./pages/index/confession/detail.wxml:template:2:6")
-var cZB=_oz(z,1,e,s,gg)
-var h1B=_gd(x[41],cZB,e_,d_)
-if(h1B){
-var o2B=_1z(z,0,e,s,gg) || {}
+var tSB=_oz(z,1,e,s,gg)
+var eTB=_gd(x[38],tSB,e_,d_)
+if(eTB){
+var bUB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fYB.wxXCkey=3
-h1B(o2B,o2B,fYB,gg)
+aRB.wxXCkey=3
+eTB(bUB,bUB,aRB,gg)
 gg.f=cur_globalf
 }
-else _w(cZB,x[41],2,18)
+else _w(tSB,x[38],2,18)
 cs.pop()
-oXB.pop()
+lQB.pop()
 return r
 }
-e_[x[41]]={f:m24,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[43]]={}
-d_[x[43]]["227202ca"]=function(e,s,r,gg){
-var z=gz$gwx_26()
-var b=x[43]+':227202ca'
+e_[x[38]]={f:m22,j:[],i:[],ti:[x[39]],ic:[]}
+d_[x[40]]={}
+d_[x[40]]["227202ca"]=function(e,s,r,gg){
+var z=gz$gwx_24()
+var b=x[40]+':227202ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[43]);return}
+if(p_[b]){_wl(b,x[40]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
@@ -2847,7 +2833,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1608")
 var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[43],oD,e_,d_)
+var fE=_gd(x[40],oD,e_,d_)
 if(fE){
 var cF=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2855,13 +2841,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[43],1,1679)
+else _w(oD,x[40],1,1679)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1702")
 var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[43],oH,e_,d_)
+var cI=_gd(x[40],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2869,7 +2855,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[43],1,1773)
+else _w(oH,x[40],1,1773)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2880,46 +2866,46 @@ throw err
 p_[b]=false
 return r
 }
-var m25=function(e,s,r,gg){
-var z=gz$gwx_26()
-var o4B=e_[x[43]].i
-_ai(o4B,x[8],e_,x[43],1,1)
-_ai(o4B,x[9],e_,x[43],1,59)
-o4B.pop()
-o4B.pop()
+var m23=function(e,s,r,gg){
+var z=gz$gwx_24()
+var xWB=e_[x[40]].i
+_ai(xWB,x[7],e_,x[40],1,1)
+_ai(xWB,x[8],e_,x[40],1,59)
+xWB.pop()
+xWB.pop()
 return r
 }
-e_[x[43]]={f:m25,j:[],i:[],ti:[x[8],x[9]],ic:[]}
-d_[x[44]]={}
-var m26=function(e,s,r,gg){
-var z=gz$gwx_27()
-var a6B=e_[x[44]].i
-_ai(a6B,x[45],e_,x[44],1,1)
-var t7B=_v()
-_(r,t7B)
+e_[x[40]]={f:m23,j:[],i:[],ti:[x[7],x[8]],ic:[]}
+d_[x[41]]={}
+var m24=function(e,s,r,gg){
+var z=gz$gwx_25()
+var fYB=e_[x[41]].i
+_ai(fYB,x[42],e_,x[41],1,1)
+var cZB=_v()
+_(r,cZB)
 cs.push("./pages/index/confession/index.wxml:template:2:6")
-var e8B=_oz(z,1,e,s,gg)
-var b9B=_gd(x[44],e8B,e_,d_)
-if(b9B){
-var o0B=_1z(z,0,e,s,gg) || {}
+var h1B=_oz(z,1,e,s,gg)
+var o2B=_gd(x[41],h1B,e_,d_)
+if(o2B){
+var c3B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-t7B.wxXCkey=3
-b9B(o0B,o0B,t7B,gg)
+cZB.wxXCkey=3
+o2B(c3B,c3B,cZB,gg)
 gg.f=cur_globalf
 }
-else _w(e8B,x[44],2,18)
+else _w(h1B,x[41],2,18)
 cs.pop()
-a6B.pop()
+fYB.pop()
 return r
 }
-e_[x[44]]={f:m26,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[46]]={}
-d_[x[46]]["67be4df2"]=function(e,s,r,gg){
-var z=gz$gwx_28()
-var b=x[46]+':67be4df2'
+e_[x[41]]={f:m24,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[43]]={}
+d_[x[43]]["67be4df2"]=function(e,s,r,gg){
+var z=gz$gwx_26()
+var b=x[43]+':67be4df2'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/publish.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[46]);return}
+if(p_[b]){_wl(b,x[43]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/publish.vue.wxml:view:1:27")
@@ -2948,6 +2934,50 @@ throw err
 p_[b]=false
 return r
 }
+var m25=function(e,s,r,gg){
+var z=gz$gwx_26()
+return r
+}
+e_[x[43]]={f:m25,j:[],i:[],ti:[],ic:[]}
+d_[x[44]]={}
+var m26=function(e,s,r,gg){
+var z=gz$gwx_27()
+var a6B=e_[x[44]].i
+_ai(a6B,x[45],e_,x[44],1,1)
+var t7B=_v()
+_(r,t7B)
+cs.push("./pages/index/confession/publish.wxml:template:2:6")
+var e8B=_oz(z,1,e,s,gg)
+var b9B=_gd(x[44],e8B,e_,d_)
+if(b9B){
+var o0B=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+t7B.wxXCkey=3
+b9B(o0B,o0B,t7B,gg)
+gg.f=cur_globalf
+}
+else _w(e8B,x[44],2,18)
+cs.pop()
+a6B.pop()
+return r
+}
+e_[x[44]]={f:m26,j:[],i:[],ti:[x[45]],ic:[]}
+d_[x[46]]={}
+d_[x[46]]["200c6b52"]=function(e,s,r,gg){
+var z=gz$gwx_28()
+var b=x[46]+':200c6b52'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[46]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
 var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
 return r
@@ -2957,10 +2987,10 @@ d_[x[47]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
 var fCC=e_[x[47]].i
-_ai(fCC,x[48],e_,x[47],1,1)
+_ai(fCC,x[42],e_,x[47],1,1)
 var cDC=_v()
 _(r,cDC)
-cs.push("./pages/index/confession/publish.wxml:template:2:6")
+cs.push("./pages/index/index.wxml:template:2:6")
 var hEC=_oz(z,1,e,s,gg)
 var oFC=_gd(x[47],hEC,e_,d_)
 if(oFC){
@@ -2975,14 +3005,14 @@ cs.pop()
 fCC.pop()
 return r
 }
-e_[x[47]]={f:m28,j:[],i:[],ti:[x[48]],ic:[]}
-d_[x[49]]={}
-d_[x[49]]["200c6b52"]=function(e,s,r,gg){
+e_[x[47]]={f:m28,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[48]]={}
+d_[x[48]]["c7b673fe"]=function(e,s,r,gg){
 var z=gz$gwx_30()
-var b=x[49]+':200c6b52'
+var b=x[48]+':c7b673fe'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[49]);return}
+gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[48]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2996,17 +3026,17 @@ var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
 return r
 }
-e_[x[49]]={f:m29,j:[],i:[],ti:[],ic:[]}
-d_[x[50]]={}
+e_[x[48]]={f:m29,j:[],i:[],ti:[],ic:[]}
+d_[x[49]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var aJC=e_[x[50]].i
-_ai(aJC,x[45],e_,x[50],1,1)
+var aJC=e_[x[49]].i
+_ai(aJC,x[50],e_,x[49],1,1)
 var tKC=_v()
 _(r,tKC)
-cs.push("./pages/index/index.wxml:template:2:6")
+cs.push("./pages/index/market/checkstand.wxml:template:2:6")
 var eLC=_oz(z,1,e,s,gg)
-var bMC=_gd(x[50],eLC,e_,d_)
+var bMC=_gd(x[49],eLC,e_,d_)
 if(bMC){
 var oNC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3014,63 +3044,19 @@ tKC.wxXCkey=3
 bMC(oNC,oNC,tKC,gg)
 gg.f=cur_globalf
 }
-else _w(eLC,x[50],2,18)
+else _w(eLC,x[49],2,18)
 cs.pop()
 aJC.pop()
 return r
 }
-e_[x[50]]={f:m30,j:[],i:[],ti:[x[45]],ic:[]}
+e_[x[49]]={f:m30,j:[],i:[],ti:[x[50]],ic:[]}
 d_[x[51]]={}
-d_[x[51]]["c7b673fe"]=function(e,s,r,gg){
+d_[x[51]]["5be952bf"]=function(e,s,r,gg){
 var z=gz$gwx_32()
-var b=x[51]+':c7b673fe'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[51]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m31=function(e,s,r,gg){
-var z=gz$gwx_32()
-return r
-}
-e_[x[51]]={f:m31,j:[],i:[],ti:[],ic:[]}
-d_[x[52]]={}
-var m32=function(e,s,r,gg){
-var z=gz$gwx_33()
-var fQC=e_[x[52]].i
-_ai(fQC,x[53],e_,x[52],1,1)
-var cRC=_v()
-_(r,cRC)
-cs.push("./pages/index/market/checkstand.wxml:template:2:6")
-var hSC=_oz(z,1,e,s,gg)
-var oTC=_gd(x[52],hSC,e_,d_)
-if(oTC){
-var cUC=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-cRC.wxXCkey=3
-oTC(cUC,cUC,cRC,gg)
-gg.f=cur_globalf
-}
-else _w(hSC,x[52],2,18)
-cs.pop()
-fQC.pop()
-return r
-}
-e_[x[52]]={f:m32,j:[],i:[],ti:[x[53]],ic:[]}
-d_[x[54]]={}
-d_[x[54]]["5be952bf"]=function(e,s,r,gg){
-var z=gz$gwx_34()
-var b=x[54]+':5be952bf'
+var b=x[51]+':5be952bf'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[54]);return}
+if(p_[b]){_wl(b,x[51]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/index.vue.wxml:view:1:85")
@@ -3156,7 +3142,7 @@ var lY=_v()
 _(oB,lY)
 cs.push("./pages/index/market/index.vue.wxml:template:1:3474")
 var aZ=_oz(z,35,e,s,gg)
-var t1=_gd(x[54],aZ,e_,d_)
+var t1=_gd(x[51],aZ,e_,d_)
 if(t1){
 var e2=_1z(z,34,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3164,7 +3150,7 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[54],1,3545)
+else _w(aZ,x[51],1,3545)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3175,44 +3161,44 @@ throw err
 p_[b]=false
 return r
 }
-var m33=function(e,s,r,gg){
-var z=gz$gwx_34()
-var lWC=e_[x[54]].i
-_ai(lWC,x[8],e_,x[54],1,1)
-lWC.pop()
+var m31=function(e,s,r,gg){
+var z=gz$gwx_32()
+var oPC=e_[x[51]].i
+_ai(oPC,x[7],e_,x[51],1,1)
+oPC.pop()
 return r
 }
-e_[x[54]]={f:m33,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[55]]={}
-var m34=function(e,s,r,gg){
-var z=gz$gwx_35()
-var tYC=e_[x[55]].i
-_ai(tYC,x[45],e_,x[55],1,1)
-var eZC=_v()
-_(r,eZC)
+e_[x[51]]={f:m31,j:[],i:[],ti:[x[7]],ic:[]}
+d_[x[52]]={}
+var m32=function(e,s,r,gg){
+var z=gz$gwx_33()
+var cRC=e_[x[52]].i
+_ai(cRC,x[42],e_,x[52],1,1)
+var hSC=_v()
+_(r,hSC)
 cs.push("./pages/index/market/index.wxml:template:2:6")
-var b1C=_oz(z,1,e,s,gg)
-var o2C=_gd(x[55],b1C,e_,d_)
-if(o2C){
-var x3C=_1z(z,0,e,s,gg) || {}
+var oTC=_oz(z,1,e,s,gg)
+var cUC=_gd(x[52],oTC,e_,d_)
+if(cUC){
+var oVC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eZC.wxXCkey=3
-o2C(x3C,x3C,eZC,gg)
+hSC.wxXCkey=3
+cUC(oVC,oVC,hSC,gg)
 gg.f=cur_globalf
 }
-else _w(b1C,x[55],2,18)
+else _w(oTC,x[52],2,18)
 cs.pop()
-tYC.pop()
+cRC.pop()
 return r
 }
-e_[x[55]]={f:m34,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[56]]={}
-d_[x[56]]["2763a7ef"]=function(e,s,r,gg){
-var z=gz$gwx_36()
-var b=x[56]+':2763a7ef'
+e_[x[52]]={f:m32,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[53]]={}
+d_[x[53]]["2763a7ef"]=function(e,s,r,gg){
+var z=gz$gwx_34()
+var b=x[53]+':2763a7ef'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/market.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[56]);return}
+if(p_[b]){_wl(b,x[53]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/market.vue.wxml:view:1:194")
@@ -3221,7 +3207,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/market/market.vue.wxml:template:1:244")
 var oD=_oz(z,5,e,s,gg)
-var fE=_gd(x[56],oD,e_,d_)
+var fE=_gd(x[53],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3229,7 +3215,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[56],1,357)
+else _w(oD,x[53],1,357)
 cs.pop()
 cs.push("./pages/index/market/market.vue.wxml:view:1:2430")
 var hG=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
@@ -3246,7 +3232,7 @@ var cI=_v()
 _(oB,cI)
 cs.push("./pages/index/market/market.vue.wxml:template:1:3066")
 var oJ=_oz(z,12,e,s,gg)
-var lK=_gd(x[56],oJ,e_,d_)
+var lK=_gd(x[53],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3254,7 +3240,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[56],1,3193)
+else _w(oJ,x[53],1,3193)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3265,18 +3251,62 @@ throw err
 p_[b]=false
 return r
 }
-var m35=function(e,s,r,gg){
-var z=gz$gwx_36()
-var f5C=e_[x[56]].i
-_ai(f5C,x[1],e_,x[56],1,1)
-_ai(f5C,x[2],e_,x[56],1,59)
-_ai(f5C,x[3],e_,x[56],1,108)
-f5C.pop()
-f5C.pop()
-f5C.pop()
+var m33=function(e,s,r,gg){
+var z=gz$gwx_34()
+var aXC=e_[x[53]].i
+_ai(aXC,x[1],e_,x[53],1,1)
+_ai(aXC,x[2],e_,x[53],1,59)
+_ai(aXC,x[3],e_,x[53],1,108)
+aXC.pop()
+aXC.pop()
+aXC.pop()
 return r
 }
-e_[x[56]]={f:m35,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+e_[x[53]]={f:m33,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+d_[x[54]]={}
+var m34=function(e,s,r,gg){
+var z=gz$gwx_35()
+var eZC=e_[x[54]].i
+_ai(eZC,x[55],e_,x[54],1,1)
+var b1C=_v()
+_(r,b1C)
+cs.push("./pages/index/market/market.wxml:template:2:6")
+var o2C=_oz(z,1,e,s,gg)
+var x3C=_gd(x[54],o2C,e_,d_)
+if(x3C){
+var o4C=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+b1C.wxXCkey=3
+x3C(o4C,o4C,b1C,gg)
+gg.f=cur_globalf
+}
+else _w(o2C,x[54],2,18)
+cs.pop()
+eZC.pop()
+return r
+}
+e_[x[54]]={f:m34,j:[],i:[],ti:[x[55]],ic:[]}
+d_[x[56]]={}
+d_[x[56]]["011fc632"]=function(e,s,r,gg){
+var z=gz$gwx_36()
+var b=x[56]+':011fc632'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[56]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m35=function(e,s,r,gg){
+var z=gz$gwx_36()
+return r
+}
+e_[x[56]]={f:m35,j:[],i:[],ti:[],ic:[]}
 d_[x[57]]={}
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
@@ -3284,7 +3314,7 @@ var h7C=e_[x[57]].i
 _ai(h7C,x[58],e_,x[57],1,1)
 var o8C=_v()
 _(r,o8C)
-cs.push("./pages/index/market/market.wxml:template:2:6")
+cs.push("./pages/index/market/payresult.wxml:template:2:6")
 var c9C=_oz(z,1,e,s,gg)
 var o0C=_gd(x[57],c9C,e_,d_)
 if(o0C){
@@ -3301,11 +3331,11 @@ return r
 }
 e_[x[57]]={f:m36,j:[],i:[],ti:[x[58]],ic:[]}
 d_[x[59]]={}
-d_[x[59]]["011fc632"]=function(e,s,r,gg){
+d_[x[59]]["2a9ca1f3"]=function(e,s,r,gg){
 var z=gz$gwx_38()
-var b=x[59]+':011fc632'
+var b=x[59]+':2a9ca1f3'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[59]);return}
 p_[b]=true
 try{
@@ -3328,7 +3358,7 @@ var eDD=e_[x[60]].i
 _ai(eDD,x[61],e_,x[60],1,1)
 var bED=_v()
 _(r,bED)
-cs.push("./pages/index/market/payresult.wxml:template:2:6")
+cs.push("./pages/index/parttime/details.wxml:template:2:6")
 var oFD=_oz(z,1,e,s,gg)
 var xGD=_gd(x[60],oFD,e_,d_)
 if(xGD){
@@ -3345,11 +3375,11 @@ return r
 }
 e_[x[60]]={f:m38,j:[],i:[],ti:[x[61]],ic:[]}
 d_[x[62]]={}
-d_[x[62]]["2a9ca1f3"]=function(e,s,r,gg){
+d_[x[62]]["78cdde7a"]=function(e,s,r,gg){
 var z=gz$gwx_40()
-var b=x[62]+':2a9ca1f3'
+var b=x[62]+':78cdde7a'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[62]);return}
 p_[b]=true
 try{
@@ -3369,10 +3399,10 @@ d_[x[63]]={}
 var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
 var hKD=e_[x[63]].i
-_ai(hKD,x[64],e_,x[63],1,1)
+_ai(hKD,x[42],e_,x[63],1,1)
 var oLD=_v()
 _(r,oLD)
-cs.push("./pages/index/parttime/details.wxml:template:2:6")
+cs.push("./pages/index/parttime/index.wxml:template:2:6")
 var cMD=_oz(z,1,e,s,gg)
 var oND=_gd(x[63],cMD,e_,d_)
 if(oND){
@@ -3387,14 +3417,14 @@ cs.pop()
 hKD.pop()
 return r
 }
-e_[x[63]]={f:m40,j:[],i:[],ti:[x[64]],ic:[]}
-d_[x[65]]={}
-d_[x[65]]["78cdde7a"]=function(e,s,r,gg){
+e_[x[63]]={f:m40,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[64]]={}
+d_[x[64]]["6cb9909c"]=function(e,s,r,gg){
 var z=gz$gwx_42()
-var b=x[65]+':78cdde7a'
+var b=x[64]+':6cb9909c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[65]);return}
+gg.f=$gdc(f_["./pages/login/binding.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[64]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3408,17 +3438,17 @@ var m41=function(e,s,r,gg){
 var z=gz$gwx_42()
 return r
 }
-e_[x[65]]={f:m41,j:[],i:[],ti:[],ic:[]}
-d_[x[66]]={}
+e_[x[64]]={f:m41,j:[],i:[],ti:[],ic:[]}
+d_[x[65]]={}
 var m42=function(e,s,r,gg){
 var z=gz$gwx_43()
-var eRD=e_[x[66]].i
-_ai(eRD,x[45],e_,x[66],1,1)
+var eRD=e_[x[65]].i
+_ai(eRD,x[66],e_,x[65],1,1)
 var bSD=_v()
 _(r,bSD)
-cs.push("./pages/index/parttime/index.wxml:template:2:6")
+cs.push("./pages/login/binding.wxml:template:2:6")
 var oTD=_oz(z,1,e,s,gg)
-var xUD=_gd(x[66],oTD,e_,d_)
+var xUD=_gd(x[65],oTD,e_,d_)
 if(xUD){
 var oVD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3426,19 +3456,107 @@ bSD.wxXCkey=3
 xUD(oVD,oVD,bSD,gg)
 gg.f=cur_globalf
 }
-else _w(oTD,x[66],2,18)
+else _w(oTD,x[65],2,18)
 cs.pop()
 eRD.pop()
 return r
 }
-e_[x[66]]={f:m42,j:[],i:[],ti:[x[45]],ic:[]}
+e_[x[65]]={f:m42,j:[],i:[],ti:[x[66]],ic:[]}
 d_[x[67]]={}
-d_[x[67]]["631f5603"]=function(e,s,r,gg){
+d_[x[67]]["1e826b40"]=function(e,s,r,gg){
 var z=gz$gwx_44()
-var b=x[67]+':631f5603'
+var b=x[67]+':1e826b40'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[67]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m43=function(e,s,r,gg){
+var z=gz$gwx_44()
+return r
+}
+e_[x[67]]={f:m43,j:[],i:[],ti:[],ic:[]}
+d_[x[68]]={}
+var m44=function(e,s,r,gg){
+var z=gz$gwx_45()
+var hYD=e_[x[68]].i
+_ai(hYD,x[69],e_,x[68],1,1)
+var oZD=_v()
+_(r,oZD)
+cs.push("./pages/login/login.wxml:template:2:6")
+var c1D=_oz(z,1,e,s,gg)
+var o2D=_gd(x[68],c1D,e_,d_)
+if(o2D){
+var l3D=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oZD.wxXCkey=3
+o2D(l3D,l3D,oZD,gg)
+gg.f=cur_globalf
+}
+else _w(c1D,x[68],2,18)
+cs.pop()
+hYD.pop()
+return r
+}
+e_[x[68]]={f:m44,j:[],i:[],ti:[x[69]],ic:[]}
+d_[x[70]]={}
+d_[x[70]]["15dde1d8"]=function(e,s,r,gg){
+var z=gz$gwx_46()
+var b=x[70]+':15dde1d8'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/login/logintemp.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[70]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m45=function(e,s,r,gg){
+var z=gz$gwx_46()
+return r
+}
+e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[71]]={}
+var m46=function(e,s,r,gg){
+var z=gz$gwx_47()
+var e6D=e_[x[71]].i
+_ai(e6D,x[72],e_,x[71],1,1)
+var b7D=_v()
+_(r,b7D)
+cs.push("./pages/login/logintemp.wxml:template:2:6")
+var o8D=_oz(z,1,e,s,gg)
+var x9D=_gd(x[71],o8D,e_,d_)
+if(x9D){
+var o0D=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+b7D.wxXCkey=3
+x9D(o0D,o0D,b7D,gg)
+gg.f=cur_globalf
+}
+else _w(o8D,x[71],2,18)
+cs.pop()
+e6D.pop()
+return r
+}
+e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
+d_[x[73]]={}
+d_[x[73]]["631f5603"]=function(e,s,r,gg){
+var z=gz$gwx_48()
+var b=x[73]+':631f5603'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/chat.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[67]);return}
+if(p_[b]){_wl(b,x[73]);return}
 p_[b]=true
 try{
 cs.push("./pages/message/chat.vue.wxml:view:1:142")
@@ -3448,7 +3566,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/message/chat.vue.wxml:template:1:171")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[67],oD,e_,d_)
+var fE=_gd(x[73],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3456,13 +3574,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[67],1,327)
+else _w(oD,x[73],1,327)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/message/chat.vue.wxml:template:1:350")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[67],oH,e_,d_)
+var cI=_gd(x[73],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3470,7 +3588,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[67],1,564)
+else _w(oH,x[73],1,564)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3481,46 +3599,46 @@ throw err
 p_[b]=false
 return r
 }
-var m43=function(e,s,r,gg){
-var z=gz$gwx_44()
-var cXD=e_[x[67]].i
-_ai(cXD,x[5],e_,x[67],1,1)
-_ai(cXD,x[6],e_,x[67],1,57)
-cXD.pop()
-cXD.pop()
+var m47=function(e,s,r,gg){
+var z=gz$gwx_48()
+var cBE=e_[x[73]].i
+_ai(cBE,x[5],e_,x[73],1,1)
+_ai(cBE,x[6],e_,x[73],1,57)
+cBE.pop()
+cBE.pop()
 return r
 }
-e_[x[67]]={f:m43,j:[],i:[],ti:[x[5],x[6]],ic:[]}
-d_[x[68]]={}
-var m44=function(e,s,r,gg){
-var z=gz$gwx_45()
-var oZD=e_[x[68]].i
-_ai(oZD,x[69],e_,x[68],1,1)
-var c1D=_v()
-_(r,c1D)
+e_[x[73]]={f:m47,j:[],i:[],ti:[x[5],x[6]],ic:[]}
+d_[x[74]]={}
+var m48=function(e,s,r,gg){
+var z=gz$gwx_49()
+var oDE=e_[x[74]].i
+_ai(oDE,x[75],e_,x[74],1,1)
+var cEE=_v()
+_(r,cEE)
 cs.push("./pages/message/chat.wxml:template:2:6")
-var o2D=_oz(z,1,e,s,gg)
-var l3D=_gd(x[68],o2D,e_,d_)
-if(l3D){
-var a4D=_1z(z,0,e,s,gg) || {}
+var oFE=_oz(z,1,e,s,gg)
+var lGE=_gd(x[74],oFE,e_,d_)
+if(lGE){
+var aHE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-c1D.wxXCkey=3
-l3D(a4D,a4D,c1D,gg)
+cEE.wxXCkey=3
+lGE(aHE,aHE,cEE,gg)
 gg.f=cur_globalf
 }
-else _w(o2D,x[68],2,18)
+else _w(oFE,x[74],2,18)
 cs.pop()
-oZD.pop()
+oDE.pop()
 return r
 }
-e_[x[68]]={f:m44,j:[],i:[],ti:[x[69]],ic:[]}
-d_[x[70]]={}
-d_[x[70]]["0878b97c"]=function(e,s,r,gg){
-var z=gz$gwx_46()
-var b=x[70]+':0878b97c'
+e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
+d_[x[76]]={}
+d_[x[76]]["0878b97c"]=function(e,s,r,gg){
+var z=gz$gwx_50()
+var b=x[76]+':0878b97c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[70]);return}
+if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3554,48 +3672,48 @@ throw err
 p_[b]=false
 return r
 }
-var m45=function(e,s,r,gg){
-var z=gz$gwx_46()
+var m49=function(e,s,r,gg){
+var z=gz$gwx_50()
 return r
 }
-e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[71]]={}
-var m46=function(e,s,r,gg){
-var z=gz$gwx_47()
-var b7D=e_[x[71]].i
-_ai(b7D,x[72],e_,x[71],1,1)
-var o8D=_v()
-_(r,o8D)
+e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
+d_[x[77]]={}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+var bKE=e_[x[77]].i
+_ai(bKE,x[78],e_,x[77],1,1)
+var oLE=_v()
+_(r,oLE)
 cs.push("./pages/message/message.wxml:template:2:6")
-var x9D=_oz(z,1,e,s,gg)
-var o0D=_gd(x[71],x9D,e_,d_)
-if(o0D){
-var fAE=_1z(z,0,e,s,gg) || {}
+var xME=_oz(z,1,e,s,gg)
+var oNE=_gd(x[77],xME,e_,d_)
+if(oNE){
+var fOE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8D.wxXCkey=3
-o0D(fAE,fAE,o8D,gg)
+oLE.wxXCkey=3
+oNE(fOE,fOE,oLE,gg)
 gg.f=cur_globalf
 }
-else _w(x9D,x[71],2,18)
+else _w(xME,x[77],2,18)
 cs.pop()
-b7D.pop()
+bKE.pop()
 return r
 }
-e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
-d_[x[73]]={}
-d_[x[73]]["1ab7b1d9"]=function(e,s,r,gg){
-var z=gz$gwx_48()
-var b=x[73]+':1ab7b1d9'
+e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
+d_[x[79]]={}
+d_[x[79]]["1ab7b1d9"]=function(e,s,r,gg){
+var z=gz$gwx_52()
+var b=x[79]+':1ab7b1d9'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/address/address.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[73]);return}
+if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/my/address/address.vue.wxml:template:1:1675")
 var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[73],xC,e_,d_)
+var oD=_gd(x[79],xC,e_,d_)
 if(oD){
 var fE=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3603,7 +3721,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[73],1,1871)
+else _w(xC,x[79],1,1871)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -3612,44 +3730,44 @@ throw err
 p_[b]=false
 return r
 }
-var m47=function(e,s,r,gg){
-var z=gz$gwx_48()
-var hCE=e_[x[73]].i
-_ai(hCE,x[10],e_,x[73],1,1)
-hCE.pop()
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
+var hQE=e_[x[79]].i
+_ai(hQE,x[10],e_,x[79],1,1)
+hQE.pop()
 return r
 }
-e_[x[73]]={f:m47,j:[],i:[],ti:[x[10]],ic:[]}
-d_[x[74]]={}
-var m48=function(e,s,r,gg){
-var z=gz$gwx_49()
-var cEE=e_[x[74]].i
-_ai(cEE,x[75],e_,x[74],1,1)
-var oFE=_v()
-_(r,oFE)
+e_[x[79]]={f:m51,j:[],i:[],ti:[x[10]],ic:[]}
+d_[x[80]]={}
+var m52=function(e,s,r,gg){
+var z=gz$gwx_53()
+var cSE=e_[x[80]].i
+_ai(cSE,x[81],e_,x[80],1,1)
+var oTE=_v()
+_(r,oTE)
 cs.push("./pages/my/address/address.wxml:template:2:6")
-var lGE=_oz(z,1,e,s,gg)
-var aHE=_gd(x[74],lGE,e_,d_)
-if(aHE){
-var tIE=_1z(z,0,e,s,gg) || {}
+var lUE=_oz(z,1,e,s,gg)
+var aVE=_gd(x[80],lUE,e_,d_)
+if(aVE){
+var tWE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oFE.wxXCkey=3
-aHE(tIE,tIE,oFE,gg)
+oTE.wxXCkey=3
+aVE(tWE,tWE,oTE,gg)
 gg.f=cur_globalf
 }
-else _w(lGE,x[74],2,18)
+else _w(lUE,x[80],2,18)
 cs.pop()
-cEE.pop()
+cSE.pop()
 return r
 }
-e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
-d_[x[76]]={}
-d_[x[76]]["6e291bf7"]=function(e,s,r,gg){
-var z=gz$gwx_50()
-var b=x[76]+':6e291bf7'
+e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
+d_[x[82]]={}
+d_[x[82]]["6e291bf7"]=function(e,s,r,gg){
+var z=gz$gwx_54()
+var b=x[82]+':6e291bf7'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/classify.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[76]);return}
+if(p_[b]){_wl(b,x[82]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/classify.vue.wxml:view:1:27")
@@ -3687,41 +3805,41 @@ throw err
 p_[b]=false
 return r
 }
-var m49=function(e,s,r,gg){
-var z=gz$gwx_50()
+var m53=function(e,s,r,gg){
+var z=gz$gwx_54()
 return r
 }
-e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
-d_[x[77]]={}
-var m50=function(e,s,r,gg){
-var z=gz$gwx_51()
-var oLE=e_[x[77]].i
-_ai(oLE,x[78],e_,x[77],1,1)
-var xME=_v()
-_(r,xME)
+e_[x[82]]={f:m53,j:[],i:[],ti:[],ic:[]}
+d_[x[83]]={}
+var m54=function(e,s,r,gg){
+var z=gz$gwx_55()
+var oZE=e_[x[83]].i
+_ai(oZE,x[84],e_,x[83],1,1)
+var x1E=_v()
+_(r,x1E)
 cs.push("./pages/my/market/classify.wxml:template:2:6")
-var oNE=_oz(z,1,e,s,gg)
-var fOE=_gd(x[77],oNE,e_,d_)
-if(fOE){
-var cPE=_1z(z,0,e,s,gg) || {}
+var o2E=_oz(z,1,e,s,gg)
+var f3E=_gd(x[83],o2E,e_,d_)
+if(f3E){
+var c4E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-xME.wxXCkey=3
-fOE(cPE,cPE,xME,gg)
+x1E.wxXCkey=3
+f3E(c4E,c4E,x1E,gg)
 gg.f=cur_globalf
 }
-else _w(oNE,x[77],2,18)
+else _w(o2E,x[83],2,18)
 cs.pop()
-oLE.pop()
+oZE.pop()
 return r
 }
-e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
-d_[x[79]]={}
-d_[x[79]]["b0340454"]=function(e,s,r,gg){
-var z=gz$gwx_52()
-var b=x[79]+':b0340454'
+e_[x[83]]={f:m54,j:[],i:[],ti:[x[84]],ic:[]}
+d_[x[85]]={}
+d_[x[85]]["b0340454"]=function(e,s,r,gg){
+var z=gz$gwx_56()
+var b=x[85]+':b0340454'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/goods/edit.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[79]);return}
+if(p_[b]){_wl(b,x[85]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3731,48 +3849,48 @@ throw err
 p_[b]=false
 return r
 }
-var m51=function(e,s,r,gg){
-var z=gz$gwx_52()
+var m55=function(e,s,r,gg){
+var z=gz$gwx_56()
 return r
 }
-e_[x[79]]={f:m51,j:[],i:[],ti:[],ic:[]}
-d_[x[80]]={}
-var m52=function(e,s,r,gg){
-var z=gz$gwx_53()
-var cSE=e_[x[80]].i
-_ai(cSE,x[81],e_,x[80],1,1)
-var oTE=_v()
-_(r,oTE)
+e_[x[85]]={f:m55,j:[],i:[],ti:[],ic:[]}
+d_[x[86]]={}
+var m56=function(e,s,r,gg){
+var z=gz$gwx_57()
+var c7E=e_[x[86]].i
+_ai(c7E,x[87],e_,x[86],1,1)
+var o8E=_v()
+_(r,o8E)
 cs.push("./pages/my/market/goods/edit.wxml:template:2:6")
-var lUE=_oz(z,1,e,s,gg)
-var aVE=_gd(x[80],lUE,e_,d_)
-if(aVE){
-var tWE=_1z(z,0,e,s,gg) || {}
+var l9E=_oz(z,1,e,s,gg)
+var a0E=_gd(x[86],l9E,e_,d_)
+if(a0E){
+var tAF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oTE.wxXCkey=3
-aVE(tWE,tWE,oTE,gg)
+o8E.wxXCkey=3
+a0E(tAF,tAF,o8E,gg)
 gg.f=cur_globalf
 }
-else _w(lUE,x[80],2,18)
+else _w(l9E,x[86],2,18)
 cs.pop()
-cSE.pop()
+c7E.pop()
 return r
 }
-e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
-d_[x[82]]={}
-d_[x[82]]["55169286"]=function(e,s,r,gg){
-var z=gz$gwx_54()
-var b=x[82]+':55169286'
+e_[x[86]]={f:m56,j:[],i:[],ti:[x[87]],ic:[]}
+d_[x[88]]={}
+d_[x[88]]["55169286"]=function(e,s,r,gg){
+var z=gz$gwx_58()
+var b=x[88]+':55169286'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/goods/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[82]);return}
+if(p_[b]){_wl(b,x[88]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/my/market/goods/index.vue.wxml:template:1:2294")
 var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[82],xC,e_,d_)
+var oD=_gd(x[88],xC,e_,d_)
 if(oD){
 var fE=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3780,7 +3898,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[82],1,2470)
+else _w(xC,x[88],1,2470)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -3789,44 +3907,44 @@ throw err
 p_[b]=false
 return r
 }
-var m53=function(e,s,r,gg){
-var z=gz$gwx_54()
-var bYE=e_[x[82]].i
-_ai(bYE,x[4],e_,x[82],1,1)
-bYE.pop()
+var m57=function(e,s,r,gg){
+var z=gz$gwx_58()
+var bCF=e_[x[88]].i
+_ai(bCF,x[4],e_,x[88],1,1)
+bCF.pop()
 return r
 }
-e_[x[82]]={f:m53,j:[],i:[],ti:[x[4]],ic:[]}
-d_[x[83]]={}
-var m54=function(e,s,r,gg){
-var z=gz$gwx_55()
-var x1E=e_[x[83]].i
-_ai(x1E,x[45],e_,x[83],1,1)
-var o2E=_v()
-_(r,o2E)
+e_[x[88]]={f:m57,j:[],i:[],ti:[x[4]],ic:[]}
+d_[x[89]]={}
+var m58=function(e,s,r,gg){
+var z=gz$gwx_59()
+var xEF=e_[x[89]].i
+_ai(xEF,x[42],e_,x[89],1,1)
+var oFF=_v()
+_(r,oFF)
 cs.push("./pages/my/market/goods/index.wxml:template:2:6")
-var f3E=_oz(z,1,e,s,gg)
-var c4E=_gd(x[83],f3E,e_,d_)
-if(c4E){
-var h5E=_1z(z,0,e,s,gg) || {}
+var fGF=_oz(z,1,e,s,gg)
+var cHF=_gd(x[89],fGF,e_,d_)
+if(cHF){
+var hIF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o2E.wxXCkey=3
-c4E(h5E,h5E,o2E,gg)
+oFF.wxXCkey=3
+cHF(hIF,hIF,oFF,gg)
 gg.f=cur_globalf
 }
-else _w(f3E,x[83],2,18)
+else _w(fGF,x[89],2,18)
 cs.pop()
-x1E.pop()
+xEF.pop()
 return r
 }
-e_[x[83]]={f:m54,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[84]]={}
-d_[x[84]]["1cad943f"]=function(e,s,r,gg){
-var z=gz$gwx_56()
-var b=x[84]+':1cad943f'
+e_[x[89]]={f:m58,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[90]]={}
+d_[x[90]]["1cad943f"]=function(e,s,r,gg){
+var z=gz$gwx_60()
+var b=x[90]+':1cad943f'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[84]);return}
+if(p_[b]){_wl(b,x[90]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3843,145 +3961,40 @@ throw err
 p_[b]=false
 return r
 }
-var m55=function(e,s,r,gg){
-var z=gz$gwx_56()
-return r
-}
-e_[x[84]]={f:m55,j:[],i:[],ti:[],ic:[]}
-d_[x[85]]={}
-var m56=function(e,s,r,gg){
-var z=gz$gwx_57()
-var o8E=e_[x[85]].i
-_ai(o8E,x[45],e_,x[85],1,1)
-var l9E=_v()
-_(r,l9E)
-cs.push("./pages/my/market/index.wxml:template:2:6")
-var a0E=_oz(z,1,e,s,gg)
-var tAF=_gd(x[85],a0E,e_,d_)
-if(tAF){
-var eBF=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-l9E.wxXCkey=3
-tAF(eBF,eBF,l9E,gg)
-gg.f=cur_globalf
-}
-else _w(a0E,x[85],2,18)
-cs.pop()
-o8E.pop()
-return r
-}
-e_[x[85]]={f:m56,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[86]]={}
-d_[x[86]]["7f259f98"]=function(e,s,r,gg){
-var z=gz$gwx_58()
-var b=x[86]+':7f259f98'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[86]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m57=function(e,s,r,gg){
-var z=gz$gwx_58()
-return r
-}
-e_[x[86]]={f:m57,j:[],i:[],ti:[],ic:[]}
-d_[x[87]]={}
-var m58=function(e,s,r,gg){
-var z=gz$gwx_59()
-var xEF=e_[x[87]].i
-_ai(xEF,x[88],e_,x[87],1,1)
-var oFF=_v()
-_(r,oFF)
-cs.push("./pages/my/market/manage.wxml:template:2:6")
-var fGF=_oz(z,1,e,s,gg)
-var cHF=_gd(x[87],fGF,e_,d_)
-if(cHF){
-var hIF=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oFF.wxXCkey=3
-cHF(hIF,hIF,oFF,gg)
-gg.f=cur_globalf
-}
-else _w(fGF,x[87],2,18)
-cs.pop()
-xEF.pop()
-return r
-}
-e_[x[87]]={f:m58,j:[],i:[],ti:[x[88]],ic:[]}
-d_[x[89]]={}
-d_[x[89]]["78f2e91c"]=function(e,s,r,gg){
-var z=gz$gwx_60()
-var b=x[89]+':78f2e91c'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[89]);return}
-p_[b]=true
-try{
-var oB=_v()
-_(r,oB)
-cs.push("./pages/my/market/order/list.vue.wxml:template:1:1878")
-var xC=_oz(z,2,e,s,gg)
-var oD=_gd(x[89],xC,e_,d_)
-if(oD){
-var fE=_1z(z,1,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[89],1,1949)
-cs.pop()
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m59=function(e,s,r,gg){
 var z=gz$gwx_60()
-var cKF=e_[x[89]].i
-_ai(cKF,x[8],e_,x[89],1,1)
-cKF.pop()
 return r
 }
-e_[x[89]]={f:m59,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[90]]={}
+e_[x[90]]={f:m59,j:[],i:[],ti:[],ic:[]}
+d_[x[91]]={}
 var m60=function(e,s,r,gg){
 var z=gz$gwx_61()
-var lMF=e_[x[90]].i
-_ai(lMF,x[91],e_,x[90],1,1)
-var aNF=_v()
-_(r,aNF)
-cs.push("./pages/my/market/order/list.wxml:template:2:6")
-var tOF=_oz(z,1,e,s,gg)
-var ePF=_gd(x[90],tOF,e_,d_)
-if(ePF){
-var bQF=_1z(z,0,e,s,gg) || {}
+var oLF=e_[x[91]].i
+_ai(oLF,x[42],e_,x[91],1,1)
+var lMF=_v()
+_(r,lMF)
+cs.push("./pages/my/market/index.wxml:template:2:6")
+var aNF=_oz(z,1,e,s,gg)
+var tOF=_gd(x[91],aNF,e_,d_)
+if(tOF){
+var ePF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aNF.wxXCkey=3
-ePF(bQF,bQF,aNF,gg)
+lMF.wxXCkey=3
+tOF(ePF,ePF,lMF,gg)
 gg.f=cur_globalf
 }
-else _w(tOF,x[90],2,18)
+else _w(aNF,x[91],2,18)
 cs.pop()
-lMF.pop()
+oLF.pop()
 return r
 }
-e_[x[90]]={f:m60,j:[],i:[],ti:[x[91]],ic:[]}
+e_[x[91]]={f:m60,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[92]]={}
-d_[x[92]]["3ddaedaa"]=function(e,s,r,gg){
+d_[x[92]]["7f259f98"]=function(e,s,r,gg){
 var z=gz$gwx_62()
-var b=x[92]+':3ddaedaa'
+var b=x[92]+':7f259f98'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[92]);return}
 p_[b]=true
 try{
@@ -4000,35 +4013,49 @@ e_[x[92]]={f:m61,j:[],i:[],ti:[],ic:[]}
 d_[x[93]]={}
 var m62=function(e,s,r,gg){
 var z=gz$gwx_63()
-var oTF=e_[x[93]].i
-_ai(oTF,x[94],e_,x[93],1,1)
-var fUF=_v()
-_(r,fUF)
-cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
-var cVF=_oz(z,1,e,s,gg)
-var hWF=_gd(x[93],cVF,e_,d_)
-if(hWF){
-var oXF=_1z(z,0,e,s,gg) || {}
+var xSF=e_[x[93]].i
+_ai(xSF,x[94],e_,x[93],1,1)
+var oTF=_v()
+_(r,oTF)
+cs.push("./pages/my/market/manage.wxml:template:2:6")
+var fUF=_oz(z,1,e,s,gg)
+var cVF=_gd(x[93],fUF,e_,d_)
+if(cVF){
+var hWF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fUF.wxXCkey=3
-hWF(oXF,oXF,fUF,gg)
+oTF.wxXCkey=3
+cVF(hWF,hWF,oTF,gg)
 gg.f=cur_globalf
 }
-else _w(cVF,x[93],2,18)
+else _w(fUF,x[93],2,18)
 cs.pop()
-oTF.pop()
+xSF.pop()
 return r
 }
 e_[x[93]]={f:m62,j:[],i:[],ti:[x[94]],ic:[]}
 d_[x[95]]={}
-d_[x[95]]["7f4ebc97"]=function(e,s,r,gg){
+d_[x[95]]["78f2e91c"]=function(e,s,r,gg){
 var z=gz$gwx_64()
-var b=x[95]+':7f4ebc97'
+var b=x[95]+':78f2e91c'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[95]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/my/market/order/list.vue.wxml:template:1:1878")
+var xC=_oz(z,2,e,s,gg)
+var oD=_gd(x[95],xC,e_,d_)
+if(oD){
+var fE=_1z(z,1,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[95],1,1949)
+cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -4038,9 +4065,12 @@ return r
 }
 var m63=function(e,s,r,gg){
 var z=gz$gwx_64()
+var cYF=e_[x[95]].i
+_ai(cYF,x[7],e_,x[95],1,1)
+cYF.pop()
 return r
 }
-e_[x[95]]={f:m63,j:[],i:[],ti:[],ic:[]}
+e_[x[95]]={f:m63,j:[],i:[],ti:[x[7]],ic:[]}
 d_[x[96]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
@@ -4048,7 +4078,7 @@ var l1F=e_[x[96]].i
 _ai(l1F,x[97],e_,x[96],1,1)
 var a2F=_v()
 _(r,a2F)
-cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
+cs.push("./pages/my/market/order/list.wxml:template:2:6")
 var t3F=_oz(z,1,e,s,gg)
 var e4F=_gd(x[96],t3F,e_,d_)
 if(e4F){
@@ -4065,11 +4095,11 @@ return r
 }
 e_[x[96]]={f:m64,j:[],i:[],ti:[x[97]],ic:[]}
 d_[x[98]]={}
-d_[x[98]]["6819fcac"]=function(e,s,r,gg){
+d_[x[98]]["3ddaedaa"]=function(e,s,r,gg){
 var z=gz$gwx_66()
-var b=x[98]+':6819fcac'
+var b=x[98]+':3ddaedaa'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[98]);return}
 p_[b]=true
 try{
@@ -4092,7 +4122,7 @@ var o8F=e_[x[99]].i
 _ai(o8F,x[100],e_,x[99],1,1)
 var f9F=_v()
 _(r,f9F)
-cs.push("./pages/my/my.wxml:template:2:6")
+cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
 var c0F=_oz(z,1,e,s,gg)
 var hAG=_gd(x[99],c0F,e_,d_)
 if(hAG){
@@ -4109,11 +4139,11 @@ return r
 }
 e_[x[99]]={f:m66,j:[],i:[],ti:[x[100]],ic:[]}
 d_[x[101]]={}
-d_[x[101]]["undefined"]=function(e,s,r,gg){
+d_[x[101]]["7f4ebc97"]=function(e,s,r,gg){
 var z=gz$gwx_68()
-var b=x[101]+':undefined'
+var b=x[101]+':7f4ebc97'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[101]);return}
 p_[b]=true
 try{
@@ -4136,7 +4166,7 @@ var lEG=e_[x[102]].i
 _ai(lEG,x[103],e_,x[102],1,1)
 var aFG=_v()
 _(r,aFG)
-cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
+cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
 var tGG=_oz(z,1,e,s,gg)
 var eHG=_gd(x[102],tGG,e_,d_)
 if(eHG){
@@ -4153,11 +4183,11 @@ return r
 }
 e_[x[102]]={f:m68,j:[],i:[],ti:[x[103]],ic:[]}
 d_[x[104]]={}
-d_[x[104]]["6452f243"]=function(e,s,r,gg){
+d_[x[104]]["6819fcac"]=function(e,s,r,gg){
 var z=gz$gwx_70()
-var b=x[104]+':6452f243'
+var b=x[104]+':6819fcac'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[104]);return}
 p_[b]=true
 try{
@@ -4177,10 +4207,10 @@ d_[x[105]]={}
 var m70=function(e,s,r,gg){
 var z=gz$gwx_71()
 var oLG=e_[x[105]].i
-_ai(oLG,x[45],e_,x[105],1,1)
+_ai(oLG,x[106],e_,x[105],1,1)
 var fMG=_v()
 _(r,fMG)
-cs.push("./pages/my/parttime/index.wxml:template:2:6")
+cs.push("./pages/my/my.wxml:template:2:6")
 var cNG=_oz(z,1,e,s,gg)
 var hOG=_gd(x[105],cNG,e_,d_)
 if(hOG){
@@ -4195,14 +4225,14 @@ cs.pop()
 oLG.pop()
 return r
 }
-e_[x[105]]={f:m70,j:[],i:[],ti:[x[45]],ic:[]}
-d_[x[106]]={}
-d_[x[106]]["c55f47f6"]=function(e,s,r,gg){
+e_[x[105]]={f:m70,j:[],i:[],ti:[x[106]],ic:[]}
+d_[x[107]]={}
+d_[x[107]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_72()
-var b=x[106]+':c55f47f6'
+var b=x[107]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[106]);return}
+gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[107]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4216,17 +4246,17 @@ var m71=function(e,s,r,gg){
 var z=gz$gwx_72()
 return r
 }
-e_[x[106]]={f:m71,j:[],i:[],ti:[],ic:[]}
-d_[x[107]]={}
+e_[x[107]]={f:m71,j:[],i:[],ti:[],ic:[]}
+d_[x[108]]={}
 var m72=function(e,s,r,gg){
 var z=gz$gwx_73()
-var lSG=e_[x[107]].i
-_ai(lSG,x[108],e_,x[107],1,1)
+var lSG=e_[x[108]].i
+_ai(lSG,x[109],e_,x[108],1,1)
 var aTG=_v()
 _(r,aTG)
-cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
+cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
 var tUG=_oz(z,1,e,s,gg)
-var eVG=_gd(x[107],tUG,e_,d_)
+var eVG=_gd(x[108],tUG,e_,d_)
 if(eVG){
 var bWG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -4234,19 +4264,19 @@ aTG.wxXCkey=3
 eVG(bWG,bWG,aTG,gg)
 gg.f=cur_globalf
 }
-else _w(tUG,x[107],2,18)
+else _w(tUG,x[108],2,18)
 cs.pop()
 lSG.pop()
 return r
 }
-e_[x[107]]={f:m72,j:[],i:[],ti:[x[108]],ic:[]}
-d_[x[109]]={}
-d_[x[109]]["e234f8f2"]=function(e,s,r,gg){
+e_[x[108]]={f:m72,j:[],i:[],ti:[x[109]],ic:[]}
+d_[x[110]]={}
+d_[x[110]]["6452f243"]=function(e,s,r,gg){
 var z=gz$gwx_74()
-var b=x[109]+':e234f8f2'
+var b=x[110]+':6452f243'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[109]);return}
+gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[110]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4260,17 +4290,17 @@ var m73=function(e,s,r,gg){
 var z=gz$gwx_74()
 return r
 }
-e_[x[109]]={f:m73,j:[],i:[],ti:[],ic:[]}
-d_[x[110]]={}
+e_[x[110]]={f:m73,j:[],i:[],ti:[],ic:[]}
+d_[x[111]]={}
 var m74=function(e,s,r,gg){
 var z=gz$gwx_75()
-var oZG=e_[x[110]].i
-_ai(oZG,x[111],e_,x[110],1,1)
+var oZG=e_[x[111]].i
+_ai(oZG,x[42],e_,x[111],1,1)
 var f1G=_v()
 _(r,f1G)
-cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
+cs.push("./pages/my/parttime/index.wxml:template:2:6")
 var c2G=_oz(z,1,e,s,gg)
-var h3G=_gd(x[110],c2G,e_,d_)
+var h3G=_gd(x[111],c2G,e_,d_)
 if(h3G){
 var o4G=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -4278,18 +4308,18 @@ f1G.wxXCkey=3
 h3G(o4G,o4G,f1G,gg)
 gg.f=cur_globalf
 }
-else _w(c2G,x[110],2,18)
+else _w(c2G,x[111],2,18)
 cs.pop()
 oZG.pop()
 return r
 }
-e_[x[110]]={f:m74,j:[],i:[],ti:[x[111]],ic:[]}
+e_[x[111]]={f:m74,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[112]]={}
-d_[x[112]]["undefined"]=function(e,s,r,gg){
+d_[x[112]]["c55f47f6"]=function(e,s,r,gg){
 var z=gz$gwx_76()
-var b=x[112]+':undefined'
+var b=x[112]+':c55f47f6'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[112]);return}
 p_[b]=true
 try{
@@ -4312,7 +4342,7 @@ var l7G=e_[x[113]].i
 _ai(l7G,x[114],e_,x[113],1,1)
 var a8G=_v()
 _(r,a8G)
-cs.push("./pages/my/setting/about.wxml:template:2:6")
+cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
 var t9G=_oz(z,1,e,s,gg)
 var e0G=_gd(x[113],t9G,e_,d_)
 if(e0G){
@@ -4329,11 +4359,11 @@ return r
 }
 e_[x[113]]={f:m76,j:[],i:[],ti:[x[114]],ic:[]}
 d_[x[115]]={}
-d_[x[115]]["c9670ade"]=function(e,s,r,gg){
+d_[x[115]]["e234f8f2"]=function(e,s,r,gg){
 var z=gz$gwx_78()
-var b=x[115]+':c9670ade'
+var b=x[115]+':e234f8f2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[115]);return}
 p_[b]=true
 try{
@@ -4356,7 +4386,7 @@ var oDH=e_[x[116]].i
 _ai(oDH,x[117],e_,x[116],1,1)
 var fEH=_v()
 _(r,fEH)
-cs.push("./pages/my/setting/setting.wxml:template:2:6")
+cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
 var cFH=_oz(z,1,e,s,gg)
 var hGH=_gd(x[116],cFH,e_,d_)
 if(hGH){
@@ -4373,11 +4403,11 @@ return r
 }
 e_[x[116]]={f:m78,j:[],i:[],ti:[x[117]],ic:[]}
 d_[x[118]]={}
-d_[x[118]]["4c98c0cb"]=function(e,s,r,gg){
+d_[x[118]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_80()
-var b=x[118]+':4c98c0cb'
+var b=x[118]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[118]);return}
 p_[b]=true
 try{
@@ -4400,7 +4430,7 @@ var lKH=e_[x[119]].i
 _ai(lKH,x[120],e_,x[119],1,1)
 var aLH=_v()
 _(r,aLH)
-cs.push("./pages/register/reg.wxml:template:2:6")
+cs.push("./pages/my/setting/about.wxml:template:2:6")
 var tMH=_oz(z,1,e,s,gg)
 var eNH=_gd(x[119],tMH,e_,d_)
 if(eNH){
@@ -4417,40 +4447,14 @@ return r
 }
 e_[x[119]]={f:m80,j:[],i:[],ti:[x[120]],ic:[]}
 d_[x[121]]={}
-d_[x[121]]["2d4a1539"]=function(e,s,r,gg){
+d_[x[121]]["c9670ade"]=function(e,s,r,gg){
 var z=gz$gwx_82()
-var b=x[121]+':2d4a1539'
+var b=x[121]+':c9670ade'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[121]);return}
 p_[b]=true
 try{
-cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/register/selectSchool.vue.wxml:view:1:776")
-cs.pop()
-}
-var oD=_v()
-_(oB,oD)
-cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
-var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[121],fE,e_,d_)
-if(cF){
-var hG=_1z(z,4,e,s,gg) || {}
-var cur_globalf=gg.f
-oD.wxXCkey=3
-cF(hG,hG,oD,gg)
-gg.f=cur_globalf
-}
-else _w(fE,x[121],1,2169)
-cs.pop()
-xC.wxXCkey=1
-cs.pop()
-_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -4460,41 +4464,38 @@ return r
 }
 var m81=function(e,s,r,gg){
 var z=gz$gwx_82()
-var xQH=e_[x[121]].i
-_ai(xQH,x[4],e_,x[121],1,1)
-xQH.pop()
 return r
 }
-e_[x[121]]={f:m81,j:[],i:[],ti:[x[4]],ic:[]}
+e_[x[121]]={f:m81,j:[],i:[],ti:[],ic:[]}
 d_[x[122]]={}
 var m82=function(e,s,r,gg){
 var z=gz$gwx_83()
-var fSH=e_[x[122]].i
-_ai(fSH,x[123],e_,x[122],1,1)
-var cTH=_v()
-_(r,cTH)
-cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var hUH=_oz(z,1,e,s,gg)
-var oVH=_gd(x[122],hUH,e_,d_)
-if(oVH){
-var cWH=_1z(z,0,e,s,gg) || {}
+var oRH=e_[x[122]].i
+_ai(oRH,x[123],e_,x[122],1,1)
+var fSH=_v()
+_(r,fSH)
+cs.push("./pages/my/setting/setting.wxml:template:2:6")
+var cTH=_oz(z,1,e,s,gg)
+var hUH=_gd(x[122],cTH,e_,d_)
+if(hUH){
+var oVH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cTH.wxXCkey=3
-oVH(cWH,cWH,cTH,gg)
+fSH.wxXCkey=3
+hUH(oVH,oVH,fSH,gg)
 gg.f=cur_globalf
 }
-else _w(hUH,x[122],2,18)
+else _w(cTH,x[122],2,18)
 cs.pop()
-fSH.pop()
+oRH.pop()
 return r
 }
 e_[x[122]]={f:m82,j:[],i:[],ti:[x[123]],ic:[]}
 d_[x[124]]={}
-d_[x[124]]["685fe0c1"]=function(e,s,r,gg){
+d_[x[124]]["4c98c0cb"]=function(e,s,r,gg){
 var z=gz$gwx_84()
-var b=x[124]+':685fe0c1'
+var b=x[124]+':4c98c0cb'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[124]);return}
 p_[b]=true
 try{
@@ -4513,35 +4514,61 @@ e_[x[124]]={f:m83,j:[],i:[],ti:[],ic:[]}
 d_[x[125]]={}
 var m84=function(e,s,r,gg){
 var z=gz$gwx_85()
-var aZH=e_[x[125]].i
-_ai(aZH,x[126],e_,x[125],1,1)
-var t1H=_v()
-_(r,t1H)
-cs.push("./pages/register/selectSex.wxml:template:2:6")
-var e2H=_oz(z,1,e,s,gg)
-var b3H=_gd(x[125],e2H,e_,d_)
-if(b3H){
-var o4H=_1z(z,0,e,s,gg) || {}
+var lYH=e_[x[125]].i
+_ai(lYH,x[126],e_,x[125],1,1)
+var aZH=_v()
+_(r,aZH)
+cs.push("./pages/register/reg.wxml:template:2:6")
+var t1H=_oz(z,1,e,s,gg)
+var e2H=_gd(x[125],t1H,e_,d_)
+if(e2H){
+var b3H=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-t1H.wxXCkey=3
-b3H(o4H,o4H,t1H,gg)
+aZH.wxXCkey=3
+e2H(b3H,b3H,aZH,gg)
 gg.f=cur_globalf
 }
-else _w(e2H,x[125],2,18)
+else _w(t1H,x[125],2,18)
 cs.pop()
-aZH.pop()
+lYH.pop()
 return r
 }
 e_[x[125]]={f:m84,j:[],i:[],ti:[x[126]],ic:[]}
 d_[x[127]]={}
-d_[x[127]]["59b2495c"]=function(e,s,r,gg){
+d_[x[127]]["2d4a1539"]=function(e,s,r,gg){
 var z=gz$gwx_86()
-var b=x[127]+':59b2495c'
+var b=x[127]+':2d4a1539'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[127]);return}
 p_[b]=true
 try{
+cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/register/selectSchool.vue.wxml:view:1:776")
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
+var fE=_oz(z,7,e,s,gg)
+var cF=_gd(x[127],fE,e_,d_)
+if(cF){
+var hG=_1z(z,4,e,s,gg) || {}
+var cur_globalf=gg.f
+oD.wxXCkey=3
+cF(hG,hG,oD,gg)
+gg.f=cur_globalf
+}
+else _w(fE,x[127],1,2169)
+cs.pop()
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -4551,9 +4578,12 @@ return r
 }
 var m85=function(e,s,r,gg){
 var z=gz$gwx_86()
+var x5H=e_[x[127]].i
+_ai(x5H,x[4],e_,x[127],1,1)
+x5H.pop()
 return r
 }
-e_[x[127]]={f:m85,j:[],i:[],ti:[],ic:[]}
+e_[x[127]]={f:m85,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[128]]={}
 var m86=function(e,s,r,gg){
 var z=gz$gwx_87()
@@ -4561,7 +4591,7 @@ var f7H=e_[x[128]].i
 _ai(f7H,x[129],e_,x[128],1,1)
 var c8H=_v()
 _(r,c8H)
-cs.push("./pages/register/setAvatar.wxml:template:2:6")
+cs.push("./pages/register/selectSchool.wxml:template:2:6")
 var h9H=_oz(z,1,e,s,gg)
 var o0H=_gd(x[128],h9H,e_,d_)
 if(o0H){
@@ -4578,11 +4608,11 @@ return r
 }
 e_[x[128]]={f:m86,j:[],i:[],ti:[x[129]],ic:[]}
 d_[x[130]]={}
-d_[x[130]]["3de15c49"]=function(e,s,r,gg){
+d_[x[130]]["685fe0c1"]=function(e,s,r,gg){
 var z=gz$gwx_88()
-var b=x[130]+':3de15c49'
+var b=x[130]+':685fe0c1'
 r.wxVkey=b
-gg.f=$gdc(f_["./threeComponents/mpvueCityPicker.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[130]);return}
 p_[b]=true
 try{
@@ -4599,12 +4629,100 @@ return r
 }
 e_[x[130]]={f:m87,j:[],i:[],ti:[],ic:[]}
 d_[x[131]]={}
-d_[x[131]]["20908afe"]=function(e,s,r,gg){
+var m88=function(e,s,r,gg){
 var z=gz$gwx_89()
-var b=x[131]+':20908afe'
+var aDI=e_[x[131]].i
+_ai(aDI,x[132],e_,x[131],1,1)
+var tEI=_v()
+_(r,tEI)
+cs.push("./pages/register/selectSex.wxml:template:2:6")
+var eFI=_oz(z,1,e,s,gg)
+var bGI=_gd(x[131],eFI,e_,d_)
+if(bGI){
+var oHI=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+tEI.wxXCkey=3
+bGI(oHI,oHI,tEI,gg)
+gg.f=cur_globalf
+}
+else _w(eFI,x[131],2,18)
+cs.pop()
+aDI.pop()
+return r
+}
+e_[x[131]]={f:m88,j:[],i:[],ti:[x[132]],ic:[]}
+d_[x[133]]={}
+d_[x[133]]["59b2495c"]=function(e,s,r,gg){
+var z=gz$gwx_90()
+var b=x[133]+':59b2495c'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[133]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m89=function(e,s,r,gg){
+var z=gz$gwx_90()
+return r
+}
+e_[x[133]]={f:m89,j:[],i:[],ti:[],ic:[]}
+d_[x[134]]={}
+var m90=function(e,s,r,gg){
+var z=gz$gwx_91()
+var fKI=e_[x[134]].i
+_ai(fKI,x[135],e_,x[134],1,1)
+var cLI=_v()
+_(r,cLI)
+cs.push("./pages/register/setAvatar.wxml:template:2:6")
+var hMI=_oz(z,1,e,s,gg)
+var oNI=_gd(x[134],hMI,e_,d_)
+if(oNI){
+var cOI=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+cLI.wxXCkey=3
+oNI(cOI,cOI,cLI,gg)
+gg.f=cur_globalf
+}
+else _w(hMI,x[134],2,18)
+cs.pop()
+fKI.pop()
+return r
+}
+e_[x[134]]={f:m90,j:[],i:[],ti:[x[135]],ic:[]}
+d_[x[136]]={}
+d_[x[136]]["3de15c49"]=function(e,s,r,gg){
+var z=gz$gwx_92()
+var b=x[136]+':3de15c49'
+r.wxVkey=b
+gg.f=$gdc(f_["./threeComponents/mpvueCityPicker.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[136]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m91=function(e,s,r,gg){
+var z=gz$gwx_92()
+return r
+}
+e_[x[136]]={f:m91,j:[],i:[],ti:[],ic:[]}
+d_[x[137]]={}
+d_[x[137]]["20908afe"]=function(e,s,r,gg){
+var z=gz$gwx_93()
+var b=x[137]+':20908afe'
 r.wxVkey=b
 gg.f=$gdc(f_["./threeComponents/mpvuePicker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[131]);return}
+if(p_[b]){_wl(b,x[137]);return}
 p_[b]=true
 try{
 cs.push("./threeComponents/mpvuePicker.vue.wxml:view:1:239")
@@ -4654,11 +4772,11 @@ throw err
 p_[b]=false
 return r
 }
-var m88=function(e,s,r,gg){
-var z=gz$gwx_89()
+var m92=function(e,s,r,gg){
+var z=gz$gwx_93()
 return r
 }
-e_[x[131]]={f:m88,j:[],i:[],ti:[],ic:[]}
+e_[x[137]]={f:m92,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -4679,7 +4797,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/market/payresult","pages/index/parttime/index","pages/index/parttime/details","pages/common/login","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/address/address","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.2"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/market/payresult","pages/index/parttime/index","pages/index/parttime/details","pages/login/login","pages/login/logintemp","pages/login/binding","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/address/address","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.2"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/common/checkSchool.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","titleNView":{"searchInput":{"autoFocus":true,"disabled":false,"align":"left","backgroundColor":"#FFFFFF","borderRadius":"15px","placeholder":"输入学校名称搜索"}}};
@@ -4687,9 +4805,6 @@ __wxAppCode__['pages/common/checkSchool.wxml']=$gwx('./pages/common/checkSchool.
 
 __wxAppCode__['pages/common/comment.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"评论详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true},"animationType":"slide-in-bottom"};
 __wxAppCode__['pages/common/comment.wxml']=$gwx('./pages/common/comment.wxml');
-
-__wxAppCode__['pages/common/login.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"登录","titleNView":false,"bounce":"none"};
-__wxAppCode__['pages/common/login.wxml']=$gwx('./pages/common/login.wxml');
 
 __wxAppCode__['pages/common/search.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationStyle":"custom","titleNView":false};
 __wxAppCode__['pages/common/search.wxml']=$gwx('./pages/common/search.wxml');
@@ -4729,6 +4844,15 @@ __wxAppCode__['pages/index/parttime/details.wxml']=$gwx('./pages/index/parttime/
 
 __wxAppCode__['pages/index/parttime/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"找兼职","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/index/parttime/index.wxml']=$gwx('./pages/index/parttime/index.wxml');
+
+__wxAppCode__['pages/login/binding.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"绑定已有账号","bounce":"none"};
+__wxAppCode__['pages/login/binding.wxml']=$gwx('./pages/login/binding.wxml');
+
+__wxAppCode__['pages/login/login.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"登录","titleNView":false,"bounce":"none"};
+__wxAppCode__['pages/login/login.wxml']=$gwx('./pages/login/login.wxml');
+
+__wxAppCode__['pages/login/logintemp.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"第三方登录","bounce":"none","titleNView":{"type":"transparent"}};
+__wxAppCode__['pages/login/logintemp.wxml']=$gwx('./pages/login/logintemp.wxml');
 
 __wxAppCode__['pages/message/chat.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"消息"};
 __wxAppCode__['pages/message/chat.wxml']=$gwx('./pages/message/chat.wxml');
@@ -4799,7 +4923,7 @@ __wxAppCode__['pages/register/setAvatar.wxml']=$gwx('./pages/register/setAvatar.
 
 
 define('common/main.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["common/main"],{"2c83":function(e,t,s){"use strict";s("859d");var o=i(s("f3d3")),n=i(s("ed8f")),a=i(s("e233")),r=i(s("9778"));function i(e){return e&&e.__esModule?e:{default:e}}function u(e){for(var t=1;t<arguments.length;t++){var s=null!=arguments[t]?arguments[t]:{},o=Object.keys(s);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(s).filter(function(e){return Object.getOwnPropertyDescriptor(s,e).enumerable}))),o.forEach(function(t){c(e,t,s[t])})}return e}function c(e,t,s){return t in e?Object.defineProperty(e,t,{value:s,enumerable:!0,configurable:!0,writable:!0}):e[t]=s,e}o.default.config.productionTip=!1,o.default.prototype.GLOBAL=a.default,o.default.prototype.$store=r.default,n.default.mpType="app";var d=new o.default(u({store:r.default},n.default));d.$mount()},"3c04":function(e,t,s){"use strict";s.r(t);var o=s("e6b7"),n=s.n(o);for(var a in o)"default"!==a&&function(e){s.d(t,e,function(){return o[e]})}(a);t["default"]=n.a},"456c":function(e,t,s){"use strict";var o=function(){var e=this,t=e.$createElement,s=e._self._c||t;return s("view")},n=[];s.d(t,"a",function(){return o}),s.d(t,"b",function(){return n})},"8cc7":function(e,t,s){},"8d42":function(e,t,s){"use strict";var o=s("8cc7"),n=s.n(o);n.a},9778:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=r(s("f3d3")),n=r(s("2f62")),a=r(s("e233"));function r(e){return e&&e.__esModule?e:{default:e}}o.default.use(n.default);var i=new n.default.Store({state:{user:{hasLogin:!1,id:0,token:"",phone:"",avatar:"",password:"",userName:"",sex:0,merchant:0},addressInfo:{name:null,phone:null,city:null,adress:null},school:{id:"11853391869743621792",title:"",addr:""},selectSchool:{id:"11853391869743621792",title:"",addr:""},msgList:[{id:69,to_id:67,avatar:"../../../static/logo.png",name:"to源哥",msg:"你是肥蛇吗？",status:"未读",unread:1},{id:67,to_id:69,avatar:"../../../static/logo.png",name:"to蛇皮",msg:"源哥最帅",status:"未读",unread:1},{id:111,to_id:70,avatar:"../../../static/logo.png",name:"狸猫",msg:"怎么说呢",status:"未读",unread:1}],unreadCount:3,historyMsg:{67:[{id:100,name:"历史",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"历史消息演示文本内容...",date:"2018 01-01 00:00"},{id:100,name:"历史",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"源哥最帅",date:"2018 01-01 00:00"}],69:[{id:100,name:"to蛇皮",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"历史消息演示文本内容...",date:"2018 01-01 00:00"}],70:[{id:100,name:"to蛇皮",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"怎么说呢",date:"2018 01-01 00:00"}]}},mutations:{regSetPhoneAndPass:function(e,t){e.user.phone=t.phone,e.user.password=t.password},regSetSex:function(e,t){e.user.sex=t},regSetSchool:function(e,t){e.school=t,e.selectSchool=t},regSetAvatar:function(e,t){e.user.avatar=t},regSetUserName:function(e,t){e.user.userName=t},regAfterLogin:function(e,t){e.user.id=t.user.user_id,e.user.phone=t.user.phone,e.user.sex=t.user.sex,e.user.userName=t.user.user_name,e.user.avatar=t.user.avatar,e.user.token=t.token,e.user.password="",e.user.hasLogin=!0,this.commit("loginAfterSetStorage")},login:function(e,t){e.user.id=t.user.user_id,e.user.phone=t.user.phone,e.user.sex=t.user.sex,e.user.userName=t.user.user_name,e.user.avatar=t.user.avatar,e.user.merchant=t.user.merchant,e.user.token=t.token,e.school=t.school,e.selectSchool=e.school,e.addressInfo=t.addressInfo,e.user.hasLogin=!0,this.commit("loginAfterSetStorage")},logOut:function(t){t.hasLogin=!1,e.clearStorage()},loginAfterSetStorage:function(t){e.setStorage({key:"user",data:t.user}),e.setStorage({key:"school",data:t.school}),e.setStorage({key:"selectSchool",data:t.selectSchool}),e.setStorage({key:"addressInfo",data:t.addressInfo})},checkSchool:function(t,s){t.selectSchool=s,e.setStorage({key:"selectSchool",data:s,fail:function(){e.showModal({title:"提示",content:"学校切换失败！",showCancel:!1})}})},changeAddressInfo:function(t,s){t.addressInfo=s,e.setStorage({key:"addressInfo",data:t.addressInfo})},appOnLunch:function(t,s){t.user=s,t.school=e.getStorageSync("school"),t.selectSchool=e.getStorageSync("selectSchool"),t.addressInfo=e.getStorageSync("addressInfo"),e.setTabBarBadge({index:2,text:t.unreadCount.toString()})},onMessage:function(t){var s=this;e.onSocketOpen(function(o){console.log("WebSocket连接已打开！");var n={ctype:"init",id:t.user.id};e.sendSocketMessage({data:JSON.stringify(n)}),e.onSocketMessage(function(e){a.default.playMessage();var o=JSON.parse(e.data);console.log(JSON.stringify(o));var n=new Object;n.newMsg=o;var r="";switch(o.ctype){case 2:r="[图片]";break;case 3:r="[语音]";break;case 4:r="[系统通知]";break;default:r=o.msg}n.msgObj={id:t.user.id,to_id:o.id,avatar:o.face,name:o.name,msg:r,status:"未读",unread:1},s.commit("addMsg",n)})})},addMsg:function(t,s){for(var o=!1,n=0;n<t.msgList.length;n++)if(t.msgList[n].to_id===s.msgObj.to_id){o=!0;break}o?(t.historyMsg[s.newMsg.id].push(s.newMsg),t.msgList[n].msg=s.msgObj.msg,t.msgList[n].unread+=1):(t.historyMsg[s.newMsg.to_id]=[],t.historyMsg[s.newMsg.to_id].push(s.newMsg),t.msgList.unshift(s.msgObj)),e.setTabBarBadge({index:2,text:t.unreadCount.toString()}),this.commit("setMsgStorage")},sendMsg:function(t,s){e.sendSocketMessage({data:JSON.stringify(s)});for(var o=!1,n=0;n<t.msgList.length;n++)if(t.msgList[n].to_id==s.to_id){o=!0;break}var a="";switch(s.ctype){case 2:a="[图片]";break;case 3:a="[语音]";break;case 4:a="[系统通知]";break;default:a=s.msg}if(o)t.historyMsg[s.to_id].push(s),t.msgList[n].msg=a;else{var r={id:t.user.id,to_id:s.id,avatar:s.face,name:s.name,msg:a,status:"已读",unread:0};t.historyMsg[s.to_id]=[],t.historyMsg[s.to_id].push(s),t.msgList.unshift(r)}this.commit("setMsgStorage")},changeMsg:function(t,s){t.unreadCount-=t.msgList[s].unread,0!==t.unreadCount?e.setTabBarBadge({index:2,text:t.unreadCount.toString()}):e.removeTabBarBadge({index:2}),t.msgList[s].unread=0,t.msgList[s].status="已读",this.commit("setMsgStorage")},delMsg:function(e,t){e.msgList.splice(t,1),this.commit("setMsgStorage")},setMsgStorage:function(t){e.setStorage({key:"msgList",data:t.msgList}),e.setStorage({key:"historyMsg",data:t.historyMsg})}}}),u=i;t.default=u}).call(this,s("6e42")["default"])},a08b:function(e,t,s){"use strict";s.r(t);var o=s("c4ab"),n=s.n(o);for(var a in o)"default"!==a&&function(e){s.d(t,e,function(){return o[e]})}(a);t["default"]=n.a},c4ab:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s="ws://118.24.124.19:8282",o="http://123.151.1.185/",n={serverSrc:o,serverChat:s,requestFail:function(t){0===t.statusCode?e.showToast({title:"网络错误, 请确保设备处在联网状态",icon:"none"}):e.showToast({title:"发生网络错误啦！错误码："+t.statusCode,icon:"none"})},tokenFail:function(){e.showToast({title:"身份验证失效，请重新登录！",icon:"none"}),e.removeStorage({key:"user"}),e.removeStorage({key:"market"}),e.redirectTo({url:"/pages/common/login"})},checkUpdater:function(t,s){e.request({url:o+"common/check_update/update",method:"GET",success:function(o){200===o.statusCode&&t!=o.data.version&&e.showModal({title:"发现新版本",content:"有新版本可用，请问您是否更新？",success:function(t){t.confirm&&e.navigateTo({url:s})}})}})},playMessage:function(){var t=e.createInnerAudioContext();t.autoplay=!0,t.src=this.serverSrc+"static/music/message.mp3",t.onPlay(function(){}),t.onError(function(e){console.log(e.errMsg),console.log(e.errCode)})}};t.default=n}).call(this,s("6e42")["default"])},e233:function(e,t,s){"use strict";s.r(t);var o=s("456c"),n=s("a08b");for(var a in n)"default"!==a&&function(e){s.d(t,e,function(){return n[e]})}(a);var r=s("2877"),i=Object(r["a"])(n["default"],o["a"],o["b"],!1,null,null,null);t["default"]=i.exports},e6b7:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=s("2f62");function n(e){for(var t=1;t<arguments.length;t++){var s=null!=arguments[t]?arguments[t]:{},o=Object.keys(s);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(s).filter(function(e){return Object.getOwnPropertyDescriptor(s,e).enumerable}))),o.forEach(function(t){a(e,t,s[t])})}return e}function a(e,t,s){return t in e?Object.defineProperty(e,t,{value:s,enumerable:!0,configurable:!0,writable:!0}):e[t]=s,e}var r={computed:(0,o.mapState)(["msgList"]),methods:n({},(0,o.mapMutations)(["appOnLunch","addMsg","onMessage"])),onLaunch:function(){var t=e.getStorageSync("user");!0===t.hasLogin&&(this.appOnLunch(t),e.connectSocket({url:this.GLOBAL.serverChat}),this.onMessage());var s=e.getStorageSync("updated");!0===s.completed&&e.removeSavedFile({filePath:s.packgePath,success:function(t){e.removeStorageSync("updated")}})},onShow:function(){},onHide:function(){e.connectSocket({url:this.GLOBAL.serverChat}),this.onMessage(),e.request({url:this.GLOBAL.serverSrc+"message/top_chat/recordlist",method:"POST",data:{msgList:this.msgList}}),console.log("App Hide")}};t.default=r}).call(this,s("6e42")["default"])},ed8f:function(e,t,s){"use strict";s.r(t);var o=s("3c04");for(var n in o)"default"!==n&&function(e){s.d(t,e,function(){return o[e]})}(n);s("8d42");var a,r,i=s("2877"),u=Object(i["a"])(o["default"],a,r,!1,null,null,null);t["default"]=u.exports}},[["2c83","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["common/main"],{"2c83":function(e,t,s){"use strict";s("859d");var o=i(s("f3d3")),n=i(s("ed8f")),a=i(s("e233")),r=i(s("9778"));function i(e){return e&&e.__esModule?e:{default:e}}function u(e){for(var t=1;t<arguments.length;t++){var s=null!=arguments[t]?arguments[t]:{},o=Object.keys(s);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(s).filter(function(e){return Object.getOwnPropertyDescriptor(s,e).enumerable}))),o.forEach(function(t){c(e,t,s[t])})}return e}function c(e,t,s){return t in e?Object.defineProperty(e,t,{value:s,enumerable:!0,configurable:!0,writable:!0}):e[t]=s,e}o.default.config.productionTip=!1,o.default.prototype.GLOBAL=a.default,o.default.prototype.$store=r.default,n.default.mpType="app";var d=new o.default(u({store:r.default},n.default));d.$mount()},"3c04":function(e,t,s){"use strict";s.r(t);var o=s("e6b7"),n=s.n(o);for(var a in o)"default"!==a&&function(e){s.d(t,e,function(){return o[e]})}(a);t["default"]=n.a},"3e78":function(e,t,s){"use strict";var o=function(){var e=this,t=e.$createElement,s=e._self._c||t;return s("view")},n=[];s.d(t,"a",function(){return o}),s.d(t,"b",function(){return n})},"8cc7":function(e,t,s){},"8d42":function(e,t,s){"use strict";var o=s("8cc7"),n=s.n(o);n.a},9778:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=r(s("f3d3")),n=r(s("2f62")),a=r(s("e233"));function r(e){return e&&e.__esModule?e:{default:e}}o.default.use(n.default);var i=new n.default.Store({state:{user:{hasLogin:!1,id:0,token:"",phone:"",avatar:"",password:"",userName:"",sex:0,merchant:0},addressInfo:{name:null,phone:null,city:null,adress:null},school:{id:"11853391869743621792",title:"",addr:""},selectSchool:{id:"11853391869743621792",title:"",addr:""},msgList:[{id:69,to_id:67,avatar:"../../../static/logo.png",name:"to源哥",msg:"你是肥蛇吗？",status:"未读",unread:1},{id:67,to_id:69,avatar:"../../../static/logo.png",name:"to蛇皮",msg:"源哥最帅",status:"未读",unread:1},{id:111,to_id:70,avatar:"../../../static/logo.png",name:"狸猫",msg:"怎么说呢",status:"未读",unread:1}],unreadCount:3,historyMsg:{67:[{id:100,name:"历史",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"历史消息演示文本内容...",date:"2018 01-01 00:00"},{id:100,name:"历史",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"源哥最帅",date:"2018 01-01 00:00"}],69:[{id:100,name:"to蛇皮",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"历史消息演示文本内容...",date:"2018 01-01 00:00"}],70:[{id:100,name:"to蛇皮",face:"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",ctype:1,msg:"怎么说呢",date:"2018 01-01 00:00"}]}},mutations:{regSetPhoneAndPass:function(e,t){e.user.phone=t.phone,e.user.password=t.password},regSetSex:function(e,t){e.user.sex=t},regSetSchool:function(e,t){e.school=t,e.selectSchool=t},regSetAvatar:function(e,t){e.user.avatar=t},regSetUserName:function(e,t){e.user.userName=t},regAfterLogin:function(e,t){e.user.id=t.user.user_id,e.user.phone=t.user.phone,e.user.sex=t.user.sex,e.user.userName=t.user.user_name,e.user.avatar=t.user.avatar,e.user.token=t.token,e.user.password="",e.user.hasLogin=!0,this.commit("loginAfterSetStorage")},login:function(e,t){e.user.id=t.user.user_id,e.user.phone=t.user.phone,e.user.sex=t.user.sex,e.user.userName=t.user.user_name,e.user.avatar=t.user.avatar,e.user.merchant=t.user.merchant,e.user.token=t.token,e.school=t.school,e.selectSchool=e.school,e.addressInfo=t.addressInfo,e.user.hasLogin=!0,this.commit("loginAfterSetStorage")},logOut:function(t){t.hasLogin=!1,e.clearStorage()},loginAfterSetStorage:function(t){e.setStorage({key:"user",data:t.user}),e.setStorage({key:"school",data:t.school}),e.setStorage({key:"selectSchool",data:t.selectSchool}),e.setStorage({key:"addressInfo",data:t.addressInfo})},checkSchool:function(t,s){t.selectSchool=s,e.setStorage({key:"selectSchool",data:s,fail:function(){e.showModal({title:"提示",content:"学校切换失败！",showCancel:!1})}})},changeAddressInfo:function(t,s){t.addressInfo=s,e.setStorage({key:"addressInfo",data:t.addressInfo})},appOnLunch:function(t,s){t.user=s,t.school=e.getStorageSync("school"),t.selectSchool=e.getStorageSync("selectSchool"),t.addressInfo=e.getStorageSync("addressInfo"),e.setTabBarBadge({index:2,text:t.unreadCount.toString()})},onMessage:function(t){var s=this;e.onSocketOpen(function(o){console.log("WebSocket连接已打开！");var n={ctype:"init",id:t.user.id};e.sendSocketMessage({data:JSON.stringify(n)}),e.onSocketMessage(function(e){a.default.playMessage();var o=JSON.parse(e.data);console.log(JSON.stringify(o));var n=new Object;n.newMsg=o;var r="";switch(o.ctype){case 2:r="[图片]";break;case 3:r="[语音]";break;case 4:r="[系统通知]";break;default:r=o.msg}n.msgObj={id:t.user.id,to_id:o.id,avatar:o.face,name:o.name,msg:r,status:"未读",unread:1},s.commit("addMsg",n)})})},addMsg:function(t,s){for(var o=!1,n=0;n<t.msgList.length;n++)if(t.msgList[n].to_id===s.msgObj.to_id){o=!0;break}o?(t.historyMsg[s.newMsg.id].push(s.newMsg),t.msgList[n].msg=s.msgObj.msg,t.msgList[n].unread+=1):(t.historyMsg[s.newMsg.to_id]=[],t.historyMsg[s.newMsg.to_id].push(s.newMsg),t.msgList.unshift(s.msgObj)),e.setTabBarBadge({index:2,text:t.unreadCount.toString()}),this.commit("setMsgStorage")},sendMsg:function(t,s){e.sendSocketMessage({data:JSON.stringify(s)});for(var o=!1,n=0;n<t.msgList.length;n++)if(t.msgList[n].to_id==s.to_id){o=!0;break}var a="";switch(s.ctype){case 2:a="[图片]";break;case 3:a="[语音]";break;case 4:a="[系统通知]";break;default:a=s.msg}if(o)t.historyMsg[s.to_id].push(s),t.msgList[n].msg=a;else{var r={id:t.user.id,to_id:s.id,avatar:s.face,name:s.name,msg:a,status:"已读",unread:0};t.historyMsg[s.to_id]=[],t.historyMsg[s.to_id].push(s),t.msgList.unshift(r)}this.commit("setMsgStorage")},changeMsg:function(t,s){t.unreadCount-=t.msgList[s].unread,0!==t.unreadCount?e.setTabBarBadge({index:2,text:t.unreadCount.toString()}):e.removeTabBarBadge({index:2}),t.msgList[s].unread=0,t.msgList[s].status="已读",this.commit("setMsgStorage")},delMsg:function(e,t){e.msgList.splice(t,1),this.commit("setMsgStorage")},setMsgStorage:function(t){e.setStorage({key:"msgList",data:t.msgList}),e.setStorage({key:"historyMsg",data:t.historyMsg})}}}),u=i;t.default=u}).call(this,s("6e42")["default"])},a08b:function(e,t,s){"use strict";s.r(t);var o=s("c4ab"),n=s.n(o);for(var a in o)"default"!==a&&function(e){s.d(t,e,function(){return o[e]})}(a);t["default"]=n.a},c4ab:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s="ws://118.24.124.19:8282",o="http://123.151.2.47/",n={serverSrc:o,serverChat:s,requestFail:function(t){0===t.statusCode?e.showToast({title:"网络错误, 请确保设备处在联网状态",icon:"none"}):e.showToast({title:"发生网络错误啦！错误码："+t.statusCode,icon:"none"})},tokenFail:function(){e.showToast({title:"身份验证失效，请重新登录！",icon:"none"}),e.removeStorage({key:"user"}),e.removeStorage({key:"market"}),e.redirectTo({url:"/pages/login/login"})},checkUpdater:function(t,s){e.request({url:o+"common/check_update/update",method:"GET",success:function(o){200===o.statusCode&&t!=o.data.version&&e.showModal({title:"发现新版本",content:"有新版本可用，请问您是否更新？",success:function(t){t.confirm&&e.navigateTo({url:s})}})}})},playMessage:function(){var t=e.createInnerAudioContext();t.autoplay=!0,t.src=this.serverSrc+"static/music/message.mp3",t.onPlay(function(){}),t.onError(function(e){console.log(e.errMsg),console.log(e.errCode)})}};t.default=n}).call(this,s("6e42")["default"])},e233:function(e,t,s){"use strict";s.r(t);var o=s("3e78"),n=s("a08b");for(var a in n)"default"!==a&&function(e){s.d(t,e,function(){return n[e]})}(a);var r=s("2877"),i=Object(r["a"])(n["default"],o["a"],o["b"],!1,null,null,null);t["default"]=i.exports},e6b7:function(e,t,s){"use strict";(function(e){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var o=s("2f62");function n(e){for(var t=1;t<arguments.length;t++){var s=null!=arguments[t]?arguments[t]:{},o=Object.keys(s);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(s).filter(function(e){return Object.getOwnPropertyDescriptor(s,e).enumerable}))),o.forEach(function(t){a(e,t,s[t])})}return e}function a(e,t,s){return t in e?Object.defineProperty(e,t,{value:s,enumerable:!0,configurable:!0,writable:!0}):e[t]=s,e}var r={computed:(0,o.mapState)(["msgList"]),methods:n({},(0,o.mapMutations)(["appOnLunch","addMsg","onMessage"])),onLaunch:function(){var t=e.getStorageSync("user");!0===t.hasLogin&&(this.appOnLunch(t),e.connectSocket({url:this.GLOBAL.serverChat}),this.onMessage());var s=e.getStorageSync("updated");!0===s.completed&&e.removeSavedFile({filePath:s.packgePath,success:function(t){e.removeStorageSync("updated")}})},onShow:function(){},onHide:function(){e.connectSocket({url:this.GLOBAL.serverChat}),this.onMessage(),e.request({url:this.GLOBAL.serverSrc+"message/top_chat/recordlist",method:"POST",data:{msgList:this.msgList}}),console.log("App Hide")}};t.default=r}).call(this,s("6e42")["default"])},ed8f:function(e,t,s){"use strict";s.r(t);var o=s("3c04");for(var n in o)"default"!==n&&function(e){s.d(t,e,function(){return o[e]})}(n);s("8d42");var a,r,i=s("2877"),u=Object(i["a"])(o["default"],a,r,!1,null,null,null);t["default"]=u.exports}},[["2c83","common/runtime","common/vendor"]]]);
 });
 define('common/runtime.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
 "use strict";(function (e) {function r(r) {for (var n, l, i = r[0], a = r[1], f = r[2], p = 0, s = []; p < i.length; p++) {l = i[p], o[l] && s.push(o[l][0]), o[l] = 0;}for (n in a) {Object.prototype.hasOwnProperty.call(a, n) && (e[n] = a[n]);}c && c(r);while (s.length) {s.shift()();}return u.push.apply(u, f || []), t();}function t() {for (var e, r = 0; r < u.length; r++) {for (var t = u[r], n = !0, i = 1; i < t.length; i++) {var a = t[i];0 !== o[a] && (n = !1);}n && (u.splice(r--, 1), e = l(l.s = t[0]));}return e;}var n = {},o = { "common/runtime": 0 },u = [];function l(r) {if (n[r]) return n[r].exports;var t = n[r] = { i: r, l: !1, exports: {} };return e[r].call(t.exports, t, t.exports, l), t.l = !0, t.exports;}l.m = e, l.c = n, l.d = function (e, r, t) {l.o(e, r) || Object.defineProperty(e, r, { enumerable: !0, get: t });}, l.r = function (e) {"undefined" !== typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 });}, l.t = function (e, r) {if (1 & r && (e = l(e)), 8 & r) return e;if (4 & r && "object" === typeof e && e && e.__esModule) return e;var t = Object.create(null);if (l.r(t), Object.defineProperty(t, "default", { enumerable: !0, value: e }), 2 & r && "string" != typeof e) for (var n in e) {l.d(t, n, function (r) {return e[r];}.bind(null, n));}return t;}, l.n = function (e) {var r = e && e.__esModule ? function () {return e["default"];} : function () {return e;};return l.d(r, "a", r), r;}, l.o = function (e, r) {return Object.prototype.hasOwnProperty.call(e, r);}, l.p = "/";var i = global["webpackJsonp"] = global["webpackJsonp"] || [],a = i.push.bind(i);i.push = r, i = i.slice();for (var f = 0; f < i.length; f++) {r(i[f]);}var c = a;t();})([]);
@@ -4825,7 +4949,7 @@ require('app.js');
 __wxRoute = 'pages/index/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/index.js';
 
 define('pages/index/index.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"41c1":function(i,t,e){"use strict";var s=function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"body"},[e("view",{staticClass:"header"},[e("view",{staticClass:"status-bar"}),e("view",{staticClass:"info grace-rows"},[e("view",{staticClass:"grace-iconfont icon-position grace-ellipsis",attrs:{eventid:"200c6b52-0"},on:{click:function(t){i.skip("../common/checkSchool?index=true")}}},[e("text",{staticClass:"is-bold",staticStyle:{"margin-left":"5rpx"}},[i._v(i._s(i.selectSchool.title))])]),e("view",{staticClass:"grace-rows"},[e("view",{staticClass:"serach",attrs:{eventid:"200c6b52-1"},on:{click:function(t){i.skip("../common/search")}}},[e("view",{staticClass:"grace-iconfont icon-search serach-icon"}),e("view",{staticClass:"serach-text"},[i._v("搜索内容")])]),e("view",{staticClass:"iconfont icon-scan scan",attrs:{eventid:"200c6b52-2"},on:{click:function(t){i.showPopupMenu()}}})])])]),e("view",{staticClass:"index grace-padding",staticStyle:{position:"relative"}},[e("swiper",{staticClass:"grace-swiper",staticStyle:{height:"290rpx"},attrs:{autoplay:"true","indicator-dots":"","indicator-color":"rgba(255, 255, 255, 0.5)","indicator-active-color":"#fc4243",interval:"3000"}},i._l(i.swiperimgs,function(i,t){return e("swiper-item",{key:t,attrs:{mpcomid:"200c6b52-0-"+t}},[e("navigator",{attrs:{url:i.path,"open-type":i.openType}},[e("image",{attrs:{src:i.imgUrl,mode:"widthFix"}})])],1)})),e("view",{staticClass:"grace-wrap"},[e("view",{staticClass:"grace-boxes",attrs:{eventid:"200c6b52-3"},on:{click:function(t){i.skip("./confession/index")}}},[i._m(0)]),e("view",{staticClass:"grace-boxes"},[e("view",{staticClass:"grace-boxes-img",attrs:{eventid:"200c6b52-4"},on:{click:function(t){i.skip("./parttime/index")}}},[e("image",{attrs:{src:"../../static/index/job.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("找兼职")])])]),e("view",{staticClass:"grace-boxes",attrs:{eventid:"200c6b52-5"},on:{click:function(t){i.skip("./market/index")}}},[i._m(1)]),i._m(2)]),e("view",{staticClass:"grace-common-mt grace-common-border"},[e("view",{staticClass:"grace-title grace-nowrap grace-space-between"},[e("view",{staticClass:"grace-h5 grace-blod"},[i._v("标题")]),e("navigator",{staticClass:"grace-more-r"},[i._v("更多"),e("text",{staticClass:"grace-iconfont icon-arrow-right"})])],1),e("view",{staticClass:"grace-imgitems"},[e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])])])])],1)])},a=[function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/love.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("表白墙")])])},function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/shop.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("逛超市")])])},function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes"},[e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/secondhand.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("淘二手")])])])}];e.d(t,"a",function(){return s}),e.d(t,"b",function(){return a})},"44a7":function(i,t,e){"use strict";(function(i){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s=e("2f62"),a={data:function(){return{popupMenu:{show:!1,top:30},swiperimgs:[{imgUrl:"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg",path:"../alert/alert",openType:"navigate"},{imgUrl:"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg",path:"../index/index",openType:"switchTab"},{imgUrl:"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg",path:"../gy/gy",openType:"switchTab"}]}},computed:(0,s.mapState)(["user","selectSchool"]),onLoad:function(){this.user.hasLogin||i.redirectTo({url:"../common/login"})},methods:{skip:function(t){i.navigateTo({url:t})},showPopupMenu:function(){i.showActionSheet({itemList:["发布心情到表白墙","B","C"],success:function(t){0===t.tapIndex?i.navigateTo({url:"./confession/publish"}):1===t.tapIndex&&i.scanCode({success:function(i){console.log(JSON.stringify(i))}}),console.log("选中了第"+(t.tapIndex+1)+"个按钮")}})}}};t.default=a}).call(this,e("6e42")["default"])},"47bc":function(i,t,e){"use strict";e.r(t);var s=e("41c1"),a=e("8870");for(var c in a)"default"!==c&&function(i){e.d(t,i,function(){return a[i]})}(c);e("f59f");var r=e("2877"),n=Object(r["a"])(a["default"],s["a"],s["b"],!1,null,null,null);t["default"]=n.exports},8870:function(i,t,e){"use strict";e.r(t);var s=e("44a7"),a=e.n(s);for(var c in s)"default"!==c&&function(i){e.d(t,i,function(){return s[i]})}(c);t["default"]=a.a},cd84:function(i,t,e){},f58e:function(i,t,e){"use strict";e("859d");var s=c(e("b0ce")),a=c(e("47bc"));function c(i){return i&&i.__esModule?i:{default:i}}Page((0,s.default)(a.default))},f59f:function(i,t,e){"use strict";var s=e("cd84"),a=e.n(s);a.a}},[["f58e","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/index"],{"44a7":function(i,t,e){"use strict";(function(i){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var s=e("2f62"),a={data:function(){return{popupMenu:{show:!1,top:30},swiperimgs:[{imgUrl:"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg",path:"../alert/alert",openType:"navigate"},{imgUrl:"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg",path:"../index/index",openType:"switchTab"},{imgUrl:"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg",path:"../gy/gy",openType:"switchTab"}]}},computed:(0,s.mapState)(["user","selectSchool"]),onLoad:function(){this.user.hasLogin||i.redirectTo({url:"../login/login"})},methods:{skip:function(t){i.navigateTo({url:t})},showPopupMenu:function(){i.showActionSheet({itemList:["发布心情到表白墙","B","C"],success:function(t){0===t.tapIndex?i.navigateTo({url:"./confession/publish"}):1===t.tapIndex&&i.scanCode({success:function(i){console.log(JSON.stringify(i))}}),console.log("选中了第"+(t.tapIndex+1)+"个按钮")}})}}};t.default=a}).call(this,e("6e42")["default"])},"47bc":function(i,t,e){"use strict";e.r(t);var s=e("6513"),a=e("8870");for(var c in a)"default"!==c&&function(i){e.d(t,i,function(){return a[i]})}(c);e("f59f");var r=e("2877"),n=Object(r["a"])(a["default"],s["a"],s["b"],!1,null,null,null);t["default"]=n.exports},6513:function(i,t,e){"use strict";var s=function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"body"},[e("view",{staticClass:"header"},[e("view",{staticClass:"status-bar"}),e("view",{staticClass:"info grace-rows"},[e("view",{staticClass:"grace-iconfont icon-position grace-ellipsis",attrs:{eventid:"200c6b52-0"},on:{click:function(t){i.skip("../common/checkSchool?index=true")}}},[e("text",{staticClass:"is-bold",staticStyle:{"margin-left":"5rpx"}},[i._v(i._s(i.selectSchool.title))])]),e("view",{staticClass:"grace-rows"},[e("view",{staticClass:"serach",attrs:{eventid:"200c6b52-1"},on:{click:function(t){i.skip("../common/search")}}},[e("view",{staticClass:"grace-iconfont icon-search serach-icon"}),e("view",{staticClass:"serach-text"},[i._v("搜索内容")])]),e("view",{staticClass:"iconfont icon-scan scan",attrs:{eventid:"200c6b52-2"},on:{click:function(t){i.showPopupMenu()}}})])])]),e("view",{staticClass:"index grace-padding",staticStyle:{position:"relative"}},[e("swiper",{staticClass:"grace-swiper",staticStyle:{height:"290rpx"},attrs:{autoplay:"true","indicator-dots":"","indicator-color":"rgba(255, 255, 255, 0.5)","indicator-active-color":"#fc4243",interval:"3000"}},i._l(i.swiperimgs,function(i,t){return e("swiper-item",{key:t,attrs:{mpcomid:"200c6b52-0-"+t}},[e("navigator",{attrs:{url:i.path,"open-type":i.openType}},[e("image",{attrs:{src:i.imgUrl,mode:"widthFix"}})])],1)})),e("view",{staticClass:"grace-wrap"},[e("view",{staticClass:"grace-boxes",attrs:{eventid:"200c6b52-3"},on:{click:function(t){i.skip("./confession/index")}}},[i._m(0)]),e("view",{staticClass:"grace-boxes"},[e("view",{staticClass:"grace-boxes-img",attrs:{eventid:"200c6b52-4"},on:{click:function(t){i.skip("./parttime/index")}}},[e("image",{attrs:{src:"../../static/index/job.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("找兼职")])])]),e("view",{staticClass:"grace-boxes",attrs:{eventid:"200c6b52-5"},on:{click:function(t){i.skip("./market/index")}}},[i._m(1)]),i._m(2)]),e("view",{staticClass:"grace-common-mt grace-common-border"},[e("view",{staticClass:"grace-title grace-nowrap grace-space-between"},[e("view",{staticClass:"grace-h5 grace-blod"},[i._v("标题")]),e("navigator",{staticClass:"grace-more-r"},[i._v("更多"),e("text",{staticClass:"grace-iconfont icon-arrow-right"})])],1),e("view",{staticClass:"grace-imgitems"},[e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[0].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])]),e("view",{staticClass:"grace-items"},[e("image",{attrs:{src:i.swiperimgs[1].imgUrl,mode:"widthFix"}}),e("view",{staticClass:"grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r"},[i._v("标签")]),e("view",{staticClass:"grace-imgitems-more"},[i._v("我想做自己披星戴月闯荡的盖世英雄")])])])])],1)])},a=[function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/love.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("表白墙")])])},function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/shop.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("逛超市")])])},function(){var i=this,t=i.$createElement,e=i._self._c||t;return e("view",{staticClass:"grace-boxes"},[e("view",{staticClass:"grace-boxes-img"},[e("image",{attrs:{src:"../../static/index/secondhand.png",mode:"widthFix"}}),e("view",{staticClass:"grace-boxes-text"},[i._v("淘二手")])])])}];e.d(t,"a",function(){return s}),e.d(t,"b",function(){return a})},8870:function(i,t,e){"use strict";e.r(t);var s=e("44a7"),a=e.n(s);for(var c in s)"default"!==c&&function(i){e.d(t,i,function(){return s[i]})}(c);t["default"]=a.a},cd84:function(i,t,e){},f58e:function(i,t,e){"use strict";e("859d");var s=c(e("b0ce")),a=c(e("47bc"));function c(i){return i&&i.__esModule?i:{default:i}}Page((0,s.default)(a.default))},f59f:function(i,t,e){"use strict";var s=e("cd84"),a=e.n(s);a.a}},[["f58e","common/runtime","common/vendor"]]]);
 });
 require('pages/index/index.js');
 __wxRoute = 'pages/index/confession/index';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/index/confession/index.js';
@@ -4882,12 +5006,24 @@ define('pages/index/parttime/details.js',function(require, module, exports, wind
 (global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/parttime/details"],{"255a":function(t,a,e){},"3f11":function(t,a,e){"use strict";e.r(a);var s=e("a15e"),i=e.n(s);for(var n in s)"default"!==n&&function(t){e.d(a,t,function(){return s[t]})}(n);a["default"]=i.a},"596d":function(t,a,e){"use strict";e.r(a);var s=e("90d5"),i=e("3f11");for(var n in i)"default"!==n&&function(t){e.d(a,t,function(){return i[t]})}(n);e("675e");var c=e("2877"),v=Object(c["a"])(i["default"],s["a"],s["b"],!1,null,null,null);a["default"]=v.exports},"675e":function(t,a,e){"use strict";var s=e("255a"),i=e.n(s);i.a},"90d5":function(t,a,e){"use strict";var s=function(){var t=this,a=t.$createElement,e=t._self._c||a;return e("view",[e("view",{staticClass:"img",staticStyle:{"background-image":"url('../../../static/parttime/hand.jpg')",opacity:"1"}},[e("view",{staticClass:"img-first"},[e("p",[t._v("诚聘日结简单手机兼职App试玩员")])],1),e("view",{staticClass:"img-two"},[e("p",[t._v("10000.00元/天")])],1),e("view",{staticClass:"img-three"},[e("p",[t._v("北辰 | 其他")])],1)]),e("view",{staticClass:"claim"},[e("p",[t._v("招聘要求")]),e("view",{staticClass:"day"},[t._v("日结")]),e("view",{staticClass:"nine"},[t._v("招九百人")]),e("view",{staticClass:"man"},[t._v("男女不限")])],1),e("view",{staticClass:"gray"}),t._m(0),e("view",{staticClass:"gray"}),e("view",{staticClass:"details"},[e("view",{staticClass:"details-one"},[t._v("职位详情")]),e("p",[t._v("唯品会急招线上兼职，0成本在家可做！")]),e("p",[t._v("【报名流程】")]),e("p",[t._v("点击报名后请直接添加客服微信号，只有添加微信号才算报名成功，谢谢合作！(yxy88888888666)")]),e("p",[t._v("【报名方法】")]),e("p",[t._v("(点链接后是直接到企业QQ，点添加好友，然后按要求发消息给客服，安排兼职)")]),e("p",[t._v("薪资待遇：多劳多得，按照要求完成人物反馈给客服，每个任务1-30元的金额")]),e("p",[t._v("工作时间9：00-21：00基本上全天候，最后生命，绝不收费，不要受外面不健康兼职的影响")]),e("p",{staticClass:"details-two"},[t._v("Tip:凡收取费用的或工作内容不符的兼职，请提高警惕并第一时间向我们举报")])],1),e("view",{staticClass:"gray"}),t._m(1),e("view",{staticClass:"gray-one"},[t._v("——————宝贝我也是有底线的——————")])])},i=[function(){var t=this,a=t.$createElement,e=t._self._c||a;return e("view",{staticClass:"work"},[e("view",{staticClass:"work-one"},[t._v("工作福利")]),e("view",{staticClass:"eat1"},[t._v("·包吃")]),e("view",{staticClass:"eat"},[t._v("·包住")]),e("view",{staticClass:"eat"},[t._v("·交通补贴")]),e("view",{staticClass:"eat"},[t._v("·有提成")]),e("view",{staticClass:"eat"},[t._v("·免费培训")])])},function(){var t=this,a=t.$createElement,e=t._self._c||a;return e("view",{staticClass:"worktime"},[e("view",{staticClass:"worktime-one"},[t._v("工作时间")]),e("view",{staticClass:"work-begin"},[t._v("开始时间：? 04月01日")]),e("view",{staticClass:"work-end"},[t._v("结束时间：? 04月30日")])])}];e.d(a,"a",function(){return s}),e.d(a,"b",function(){return i})},a15e:function(t,a,e){"use strict";Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var s={data:function(){return{key:""}}};a.default=s},df84:function(t,a,e){"use strict";e("859d");var s=n(e("b0ce")),i=n(e("596d"));function n(t){return t&&t.__esModule?t:{default:t}}Page((0,s.default)(i.default))}},[["df84","common/runtime","common/vendor"]]]);
 });
 require('pages/index/parttime/details.js');
-__wxRoute = 'pages/common/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/common/login.js';
+__wxRoute = 'pages/login/login';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/login/login.js';
 
-define('pages/common/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/common/login"],{"053f":function(t,e,n){},"45fb":function(t,e,n){"use strict";n("859d");var i=a(n("b0ce")),o=a(n("f5a0"));function a(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(o.default))},"57f2":function(t,e,n){"use strict";var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[t._m(0),n("view",{staticClass:"grace-padding",staticStyle:{"background-color":"#fffcfa"}},[n("view",{staticClass:"grace-center",style:{"margin-top":t.margin+"px","margin-bottom":t.margin+"px"}},[n("image",{staticClass:"ym-logo",attrs:{src:"../../static/logo.png"}})]),n("view",{staticClass:"grace-form",staticStyle:{width:"95%",margin:"0 auto"}},[n("form",{attrs:{eventid:"7ba207e8-3"},on:{submit:t.loginNow}},[n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-shouji"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.phoneno,expression:"phoneno"}],staticClass:"input",attrs:{type:"number",name:"phone",placeholder:"请输入手机号",maxlength:"11",eventid:"7ba207e8-0"},domProps:{value:t.phoneno},on:{input:function(e){e.target.composing||(t.phoneno=e.target.value)}}})]),n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-mima1"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.password,expression:"password"}],staticClass:"input",attrs:{type:"text",password:"",name:"password",placeholder:"请输入密码",maxlength:"20",eventid:"7ba207e8-1"},domProps:{value:t.password},on:{input:function(e){e.target.composing||(t.password=e.target.value)}}})]),n("button",{staticStyle:{background:"linear-gradient(to right,#fc6666,#ff8c55)","margin-top":"30px"},attrs:{loading:t.btnLoading,"form-type":"submit",type:"primary"}},[t._v("登录"),n("text",{staticClass:"grace-iconfont icon-arrow-right"})]),n("view",{staticClass:"grace-space-between grace-rows",staticStyle:{"margin-top":"20rpx"}},[n("text",[t._v("忘记密码")]),n("text",{attrs:{eventid:"7ba207e8-2"},on:{tap:t.reg}},[t._v("还没有账号？点击注册")])])],1)],1)]),n("view",{staticClass:"login-footer grace-wrap",style:{top:t.positionTop+"px"}},[n("view",{staticClass:"item-border"}),t._m(1),n("view",{staticClass:"grace-login-three"},[n("view",{staticClass:"grace-iconfont icon-weixin",staticStyle:{color:"#00c40b"},attrs:{eventid:"7ba207e8-4"},on:{tap:t.loginWithWx}}),n("view",{staticClass:"grace-iconfont icon-qq",staticStyle:{color:"#01a1e5"},attrs:{eventid:"7ba207e8-5"},on:{tap:t.loginWithQQ}}),n("view",{staticClass:"grace-iconfont icon-weibo",staticStyle:{color:"#fc4243"},attrs:{eventid:"7ba207e8-6"},on:{tap:t.loginWithWb}})])])])},o=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticStyle:{background:"linear-gradient(to right,#ff8c55,#fc6666)",width:"100%",height:"80px"}},[n("image",{staticClass:"gif-wave",attrs:{src:"../../static/common/login/wave.gif",mode:"scaleToFill"}})])},function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"grace-title"},[n("view",{staticClass:"grace-h5 grace-blod grace-center",staticStyle:{color:"grey"}},[t._v("使用其他账号登录")])])}];n.d(e,"a",function(){return i}),n.d(e,"b",function(){return o})},"60fb":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=n("2f62");function o(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},i=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(i=i.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),i.forEach(function(e){a(t,e,n[e])})}return t}function a(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var r=n("4e77"),s={data:function(){return{positionTop:500,countNum:120,countDownTimer:null,phoneno:"",password:"",btnLoading:!1}},computed:{margin:function(){return.08*this.positionTop}},onReady:function(){this.positionTop=t.getSystemInfoSync().windowHeight-105},methods:o({},(0,i.mapMutations)(["login"]),{loginWithWx:function(){t.login({provider:"weixin",success:function(e){console.log(JSON.stringify(e)),t.getUserInfo({provider:"weixin",success:function(t){console.log(JSON.stringify(t))}})},fail:function(t){}})},loginWithQQ:function(){t.showToast({title:"QQ登录功能开发中",icon:"none"})},loginWithWb:function(){},loginNow:function(e){var n=this,i=[{name:"phone",checkType:"phoneno",errorMsg:"请输入正确的手机号"},{name:"password",checkType:"string",checkRule:"8,20",errorMsg:"密码长度应为8-20个字符"}],o=e.detail.value,a=r.check(o,i);a?(this.btnLoading=!0,t.request({url:this.GLOBAL.serverSrc+"common/login/login",method:"POST",data:e.detail.value,success:function(e){200===e.data.status?(n.login(e.data),t.reLaunch({url:"../index/index"})):t.showToast({title:e.data.msg,icon:"none"})},fail:function(t){n.GLOBAL.requestFail(t)},complete:function(){n.btnLoading=!1}})):t.showToast({title:r.error,icon:"none"})},reg:function(){t.navigateTo({url:"../register/reg"})}})};e.default=s}).call(this,n("6e42")["default"])},"9f04":function(t,e,n){"use strict";n.r(e);var i=n("60fb"),o=n.n(i);for(var a in i)"default"!==a&&function(t){n.d(e,t,function(){return i[t]})}(a);e["default"]=o.a},f5a0:function(t,e,n){"use strict";n.r(e);var i=n("57f2"),o=n("9f04");for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);n("fc3a");var r=n("2877"),s=Object(r["a"])(o["default"],i["a"],i["b"],!1,null,null,null);e["default"]=s.exports},fc3a:function(t,e,n){"use strict";var i=n("053f"),o=n.n(i);o.a}},[["45fb","common/runtime","common/vendor"]]]);
+define('pages/login/login.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/login/login"],{"17fb":function(t,e,n){},"25a0":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i,o=n("2f62");function a(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},i=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(i=i.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),i.forEach(function(e){r(t,e,n[e])})}return t}function r(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var s=n("4e77"),c={data:function(){return{positionTop:500,countNum:120,countDownTimer:null,phoneno:"",password:"",btnLoading:!1}},computed:{margin:function(){return.08*this.positionTop}},onReady:function(){i=this,this.positionTop=t.getSystemInfoSync().windowHeight-105},methods:a({},(0,o.mapMutations)(["login"]),{loginWithWx:function(){t.login({provider:"weixin",success:function(t){i.thirdLogin(t.authResult.openid,0)},fail:function(t){}})},loginWithQQ:function(){t.login({provider:"qq",success:function(t){console.log(JSON.stringify(t)),i.thirdLogin(t.authResult.openid,1)},fail:function(t){}})},loginWithWb:function(){t.navigateTo({url:"./logintemp"})},thirdLogin:function(e,n){var i=this;t.showLoading({title:"登录中..."}),t.request({url:this.GLOBAL.serverSrc+"common/login/verifyopenid",method:"GET",data:{openId:e,type:n},success:function(o){200===o.data.status?(i.login(o.data),t.reLaunch({url:"../index/index"})):201===o.data.status?t.navigateTo({url:"./logintemp?open_id="+e+"&type="+n}):t.showToast({title:o.data.msg,icon:"none"})},fail:function(t){i.GLOBAL.requestFail(t)},complete:function(){t.hideLoading()}})},loginNow:function(e){var n=this,i=[{name:"phone",checkType:"phoneno",errorMsg:"请输入正确的手机号"},{name:"password",checkType:"string",checkRule:"8,20",errorMsg:"密码长度应为8-20个字符"}],o=e.detail.value,a=s.check(o,i);a?(this.btnLoading=!0,t.request({url:this.GLOBAL.serverSrc+"common/login/login",method:"POST",data:e.detail.value,success:function(e){200===e.data.status?(n.login(e.data),t.reLaunch({url:"../index/index"})):t.showToast({title:e.data.msg,icon:"none"})},fail:function(t){n.GLOBAL.requestFail(t)},complete:function(){n.btnLoading=!1}})):t.showToast({title:s.error,icon:"none"})},reg:function(){t.navigateTo({url:"../register/reg"})}})};e.default=c}).call(this,n("6e42")["default"])},"32d9":function(t,e,n){"use strict";n.r(e);var i=n("25a0"),o=n.n(i);for(var a in i)"default"!==a&&function(t){n.d(e,t,function(){return i[t]})}(a);e["default"]=o.a},6458:function(t,e,n){"use strict";var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[t._m(0),n("view",{staticClass:"grace-padding",staticStyle:{"background-color":"#fffcfa"}},[n("view",{staticClass:"grace-center",style:{"margin-top":t.margin+"px","margin-bottom":t.margin+"px"}},[n("image",{staticClass:"ym-logo",attrs:{src:"../../static/logo.png"}})]),n("view",{staticClass:"grace-form",staticStyle:{width:"95%",margin:"0 auto"}},[n("form",{attrs:{eventid:"1e826b40-3"},on:{submit:t.loginNow}},[n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-shouji"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.phoneno,expression:"phoneno"}],staticClass:"input",attrs:{type:"number",name:"phone",placeholder:"请输入手机号",maxlength:"11",eventid:"1e826b40-0"},domProps:{value:t.phoneno},on:{input:function(e){e.target.composing||(t.phoneno=e.target.value)}}})]),n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-mima1"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.password,expression:"password"}],staticClass:"input",attrs:{type:"text",password:"",name:"password",placeholder:"请输入密码",maxlength:"20",eventid:"1e826b40-1"},domProps:{value:t.password},on:{input:function(e){e.target.composing||(t.password=e.target.value)}}})]),n("button",{staticStyle:{background:"linear-gradient(to right,#fc6666,#ff8c55)","margin-top":"30px"},attrs:{loading:t.btnLoading,"form-type":"submit",type:"primary"}},[t._v("登录"),n("text",{staticClass:"grace-iconfont icon-arrow-right"})]),n("view",{staticClass:"grace-space-between grace-rows",staticStyle:{"margin-top":"20rpx"}},[n("text",[t._v("忘记密码")]),n("text",{attrs:{eventid:"1e826b40-2"},on:{tap:t.reg}},[t._v("还没有账号？点击注册")])])],1)],1)]),n("view",{staticClass:"login-footer grace-wrap",style:{top:t.positionTop+"px"}},[n("view",{staticClass:"item-border"}),t._m(1),n("view",{staticClass:"grace-login-three"},[n("view",{staticClass:"grace-iconfont icon-weixin",staticStyle:{color:"#00c40b"},attrs:{eventid:"1e826b40-4"},on:{tap:t.loginWithWx}}),n("view",{staticClass:"grace-iconfont icon-qq",staticStyle:{color:"#01a1e5"},attrs:{eventid:"1e826b40-5"},on:{tap:t.loginWithQQ}}),n("view",{staticClass:"grace-iconfont icon-weibo",staticStyle:{color:"#fc4243"},attrs:{eventid:"1e826b40-6"},on:{tap:t.loginWithWb}})])])])},o=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticStyle:{background:"linear-gradient(to right,#ff8c55,#fc6666)",width:"100%",height:"80px"}},[n("image",{staticClass:"gif-wave",attrs:{src:"../../static/common/login/wave.gif",mode:"scaleToFill"}})])},function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"grace-title"},[n("view",{staticClass:"grace-h5 grace-blod grace-center",staticStyle:{color:"grey"}},[t._v("使用其他账号登录")])])}];n.d(e,"a",function(){return i}),n.d(e,"b",function(){return o})},"711b":function(t,e,n){"use strict";n("859d");var i=a(n("b0ce")),o=a(n("c83e"));function a(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(o.default))},c7e1:function(t,e,n){"use strict";var i=n("17fb"),o=n.n(i);o.a},c83e:function(t,e,n){"use strict";n.r(e);var i=n("6458"),o=n("32d9");for(var a in o)"default"!==a&&function(t){n.d(e,t,function(){return o[t]})}(a);n("c7e1");var r=n("2877"),s=Object(r["a"])(o["default"],i["a"],i["b"],!1,null,null,null);e["default"]=s.exports}},[["711b","common/runtime","common/vendor"]]]);
 });
-require('pages/common/login.js');
+require('pages/login/login.js');
+__wxRoute = 'pages/login/logintemp';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/login/logintemp.js';
+
+define('pages/login/logintemp.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/login/logintemp"],{"2ac5":function(t,n,e){"use strict";e("859d");var i=a(e("b0ce")),o=a(e("6ad8"));function a(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(o.default))},"6ad8":function(t,n,e){"use strict";e.r(n);var i=e("f1f2"),o=e("bcb2");for(var a in o)"default"!==a&&function(t){e.d(n,t,function(){return o[t]})}(a);e("9913");var c=e("2877"),u=Object(c["a"])(o["default"],i["a"],i["b"],!1,null,null,null);n["default"]=u.exports},9913:function(t,n,e){"use strict";var i=e("ccd0"),o=e.n(i);o.a},bcb2:function(t,n,e){"use strict";e.r(n);var i=e("c0ae"),o=e.n(i);for(var a in i)"default"!==a&&function(t){e.d(n,t,function(){return i[t]})}(a);n["default"]=o.a},c0ae:function(t,n,e){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var e={data:function(){return{windowHeight:600,openId:"",type:-1}},onLoad:function(n){this.windowHeight=t.getSystemInfoSync().windowHeight,this.openId=n.open_id,this.type=n.type},methods:{binding:function(){t.navigateTo({url:"./binding?open_id="+this.openId+"&type="+this.type})},register:function(){t.getUserInfo({provider:"weixin",success:function(t){console.log(JSON.stringify(t))}})}}};n.default=e}).call(this,e("6e42")["default"])},ccd0:function(t,n,e){},f1f2:function(t,n,e){"use strict";var i=function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("view",{staticClass:"body",style:{height:t.windowHeight+"px","background-image":"url(../../static/common/login/loginbg.jpg)"}},[e("view",{staticStyle:{"padding-top":"60%"}}),e("view",{staticClass:"btn-area"},[e("button",{attrs:{plain:"",type:"warn",eventid:"15dde1d8-0"},on:{click:t.register}},[t._v("注册新账号")]),e("button",{staticStyle:{"margin-top":"20px"},attrs:{plain:"",type:"default",eventid:"15dde1d8-1"},on:{click:t.binding}},[t._v("绑定已有账号")])],1)])},o=[];e.d(n,"a",function(){return i}),e.d(n,"b",function(){return o})}},[["2ac5","common/runtime","common/vendor"]]]);
+});
+require('pages/login/logintemp.js');
+__wxRoute = 'pages/login/binding';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/login/binding.js';
+
+define('pages/login/binding.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/login/binding"],{"0daa":function(t,e,n){"use strict";var o=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("view",{staticClass:"grace-padding",staticStyle:{"background-color":"#fffcfa"}},[n("view",{staticClass:"grace-form",staticStyle:{width:"95%",margin:"0 auto"}},[n("form",{attrs:{eventid:"6cb9909c-2"},on:{submit:t.bindNow}},[n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-shouji"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.phoneno,expression:"phoneno"}],staticClass:"input",attrs:{type:"number",name:"phone",placeholder:"请输入手机号",maxlength:"11",eventid:"6cb9909c-0"},domProps:{value:t.phoneno},on:{input:function(e){e.target.composing||(t.phoneno=e.target.value)}}})]),n("view",{staticClass:"grace-items  item-border"},[n("view",{staticClass:"grace-label"},[n("view",{staticClass:"iconfont icon-mima1"})]),n("input",{directives:[{name:"model",rawName:"v-model",value:t.password,expression:"password"}],staticClass:"input",attrs:{type:"text",password:"",name:"password",placeholder:"请输入密码",maxlength:"20",eventid:"6cb9909c-1"},domProps:{value:t.password},on:{input:function(e){e.target.composing||(t.password=e.target.value)}}})]),n("button",{staticStyle:{background:"linear-gradient(to right,#fc6666,#ff8c55)","margin-top":"30px"},attrs:{loading:t.btnLoading,"form-type":"submit",type:"primary"}},[t._v("开始绑定"),n("text",{staticClass:"grace-iconfont icon-arrow-right"})])],1)],1)])])},a=[];n.d(e,"a",function(){return o}),n.d(e,"b",function(){return a})},bd31:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var o=n("2f62");function a(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},o=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(o=o.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),o.forEach(function(e){i(t,e,n[e])})}return t}function i(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var r=n("4e77"),s={data:function(){return{margin:0,openId:"",type:-1}},onLoad:function(t){this.openId=t.open_id,this.type=t.type,console.log(this.openId),console.log(this.type)},methods:a({},(0,o.mapMutations)(["login"]),{bindNow:function(e){var n=this,o=[{name:"phone",checkType:"phoneno",errorMsg:"请输入正确的手机号"},{name:"password",checkType:"string",checkRule:"8,20",errorMsg:"密码长度应为8-20个字符"}],a=e.detail.value,i=r.check(a,o);if(i){this.btnLoading=!0;var s=e.detail.value;s.openId=this.openId,s.type=this.type,t.request({url:this.GLOBAL.serverSrc+"common/login/binding",method:"POST",data:s,success:function(e){console.log(JSON.stringify(e)),200===e.data.status?(n.login(e.data),t.showToast({title:"绑定成功"})):t.showToast({title:e.data.msg,icon:"none"})},fail:function(t){n.GLOBAL.requestFail(t)},complete:function(){n.btnLoading=!1}})}else t.showToast({title:r.error,icon:"none"})}})};e.default=s}).call(this,n("6e42")["default"])},c302:function(t,e,n){"use strict";n.r(e);var o=n("bd31"),a=n.n(o);for(var i in o)"default"!==i&&function(t){n.d(e,t,function(){return o[t]})}(i);e["default"]=a.a},ca94:function(t,e,n){"use strict";n("859d");var o=i(n("b0ce")),a=i(n("ddbb"));function i(t){return t&&t.__esModule?t:{default:t}}Page((0,o.default)(a.default))},ddbb:function(t,e,n){"use strict";n.r(e);var o=n("0daa"),a=n("c302");for(var i in a)"default"!==i&&function(t){n.d(e,t,function(){return a[t]})}(i);var r=n("2877"),s=Object(r["a"])(a["default"],o["a"],o["b"],!1,null,null,null);e["default"]=s.exports}},[["ca94","common/runtime","common/vendor"]]]);
+});
+require('pages/login/binding.js');
 __wxRoute = 'pages/register/reg';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/register/reg.js';
 
 define('pages/register/reg.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -4987,7 +5123,7 @@ require('pages/my/market/manage.js');
 __wxRoute = 'pages/my/market/order/list';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/order/list.js';
 
 define('pages/my/market/order/list.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/market/order/list"],{"0a4c":function(t,e,a){"use strict";var i=function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("view",[a("scroll-view",{staticClass:"grace-tab-title grace-center",attrs:{"scroll-x":"true",id:"grace-tab-title"}},t._l(t.categories,function(e,i){return a("view",{key:i,class:[t.cateCurrentIndex==i?"grace-tab-current":""],attrs:{"data-cateid":e.cateid,"data-index":i,eventid:"78f2e91c-0-"+i},on:{tap:t.tabChange}},[t._v(t._s(e.name))])})),0===t.orderList.length?a("view",{staticClass:"no-order"},[t._v("您暂无"+t._s(t.categories[t.cateCurrentIndex].name)+"的订单哦")]):a("view",{staticStyle:{"margin-top":"50px"}},t._l(t.orderList,function(e,i){return a("view",{key:i,staticClass:"order-card grace-rows has-borderb"},[a("view",{staticStyle:{width:"80rpx"}},[a("image",{staticStyle:{width:"70rpx",height:"70rpx"},attrs:{src:e.first_img,mode:"widthFix"}})]),a("view",{staticClass:"right",staticStyle:{width:"660rpx"}},[a("view",{staticClass:"grace-rows grace-space-between"},[a("view",{staticStyle:{"font-size":"35rpx"}},[t._v(t._s(e.first_product)+" >")]),a("text",{staticStyle:{"font-size":"30rpx"}},[t._v("已送达")])]),a("view",{staticClass:"time has-borderb"},[a("text",[t._v(t._s(e.create_time))])]),a("view",{staticClass:"rice grace-rows grace-space-between has-borderb"},[a("view",[t._v("订单号:"+t._s(e.out_trade_no))]),a("text",[t._v("¥"+t._s(e.real_price))])]),a("view",{staticClass:"btn-area"},[a("button",{staticClass:"mini-btn",attrs:{type:"primary",size:"mini",plain:"true"}},[t._v("已处理")])],1)])])})),a("graceLoading",{attrs:{loadingType:t.loading.type,loadingText:t.loading.text,show:t.loading.show,mpcomid:"78f2e91c-0"}})],1)},n=[];a.d(e,"a",function(){return i}),a.d(e,"b",function(){return n})},"52c8":function(t,e,a){"use strict";a.r(e);var i=a("dfc7"),n=a.n(i);for(var r in i)"default"!==r&&function(t){a.d(e,t,function(){return i[t]})}(r);e["default"]=n.a},"6d9a":function(t,e,a){"use strict";var i=a("af2b"),n=a.n(i);n.a},af2b:function(t,e,a){},ba79:function(t,e,a){"use strict";a.r(e);var i=a("0a4c"),n=a("52c8");for(var r in n)"default"!==r&&function(t){a.d(e,t,function(){return n[t]})}(r);a("6d9a");var s=a("2877"),o=Object(s["a"])(n["default"],i["a"],i["b"],!1,null,null,null);e["default"]=o.exports},dfc7:function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=r(a("6d02")),n=a("2f62");function r(t){return t&&t.__esModule?t:{default:t}}var s={components:{graceLoading:i.default},data:function(){return{marketId:0,categories:[{cateid:0,name:"待处理"},{cateid:1,name:"待付款"},{cateid:2,name:"已处理"},{cateid:3,name:"已退款"}],cateCurrentIndex:0,orderList:[],loading:{show:!1,nextPages:2,totalPages:2,type:0,text:["加载更多","loading ......","已加载全部"]}}},computed:(0,n.mapState)(["user"]),onLoad:function(){var e=t.getStorageSync("market");e.isMarket?(this.marketId=e.marketId,t.startPullDownRefresh()):(t.showToast({title:"系统错误",mask:!1,duration:1500}),t.navigateBack())},onPullDownRefresh:function(){this.getList(1,this.categories[this.cateCurrentIndex].name),setTimeout(function(){t.stopPullDownRefresh()},1e3)},onReachBottom:function(){var e=this;this.loading.show=!0,1!==this.loading.type&&(this.loading.nextPages>this.loading.totalPages?this.loading.type=2:(this.loading.type=1,t.request({url:this.GLOBAL.serverSrc+"market/management/order",method:"POST",data:{phone:this.user.phone,token:this.user.token,market_id:this.marketId,page:this.loading.nextPages,type:this.categories[this.cateCurrentIndex].name},success:function(a){200===a.data.status?e.orderList=e.orderList.concat(a.data.orderList):t.showToast({title:a.data.msg,icon:"none"})},fail:function(t){e.GLOBAL.requestFail(t)},complete:function(){e.loading.type=0,e.loading.nextPages++}})))},methods:{getList:function(e,a){var i=this;t.showLoading({title:"加载中..."}),t.request({url:this.GLOBAL.serverSrc+"market/management/order",method:"POST",data:{phone:this.user.phone,token:this.user.token,market_id:this.marketId,page:e,type:a},success:function(e){200===e.data.status?(i.orderList=e.data.orderList,i.orderList.length>0&&(i.loading.show=!0),i.loading.totalPages=e.data.totalPages):t.showToast({title:e.data.msg,icon:"none"})},fail:function(t){i.GLOBAL.requestFail(t)},complete:function(){t.hideLoading()}})},tabChange:function(t){var e=t.currentTarget.dataset.index;this.cateCurrentIndex=e,this.getList(1,this.categories[e].name)}}};e.default=s}).call(this,a("6e42")["default"])},f114:function(t,e,a){"use strict";a("859d");var i=r(a("b0ce")),n=r(a("ba79"));function r(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(n.default))}},[["f114","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/market/order/list"],{"52c8":function(t,e,a){"use strict";a.r(e);var i=a("dfc7"),n=a.n(i);for(var r in i)"default"!==r&&function(t){a.d(e,t,function(){return i[t]})}(r);e["default"]=n.a},"6d9a":function(t,e,a){"use strict";var i=a("af2b"),n=a.n(i);n.a},af2b:function(t,e,a){},ba79:function(t,e,a){"use strict";a.r(e);var i=a("fd1c"),n=a("52c8");for(var r in n)"default"!==r&&function(t){a.d(e,t,function(){return n[t]})}(r);a("6d9a");var s=a("2877"),o=Object(s["a"])(n["default"],i["a"],i["b"],!1,null,null,null);e["default"]=o.exports},dfc7:function(t,e,a){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=r(a("6d02")),n=a("2f62");function r(t){return t&&t.__esModule?t:{default:t}}var s={components:{graceLoading:i.default},data:function(){return{marketId:0,categories:[{cateid:0,name:"待处理"},{cateid:1,name:"待付款"},{cateid:2,name:"已处理"},{cateid:3,name:"已退款"}],cateCurrentIndex:0,orderList:[],loading:{show:!1,nextPages:2,totalPages:2,type:0,text:["加载更多","loading ......","已加载全部"]}}},computed:(0,n.mapState)(["user"]),onLoad:function(){var e=t.getStorageSync("market");e.isMarket?(this.marketId=e.marketId,t.startPullDownRefresh()):(t.showToast({title:"系统错误",mask:!1,duration:1500}),t.navigateBack())},onPullDownRefresh:function(){this.getList(1,this.categories[this.cateCurrentIndex].name),setTimeout(function(){t.stopPullDownRefresh()},1e3)},onReachBottom:function(){var e=this;this.loading.show=!0,1!==this.loading.type&&(this.loading.nextPages>this.loading.totalPages?this.loading.type=2:(this.loading.type=1,t.request({url:this.GLOBAL.serverSrc+"market/management/order",method:"POST",data:{phone:this.user.phone,token:this.user.token,market_id:this.marketId,page:this.loading.nextPages,type:this.categories[this.cateCurrentIndex].name},success:function(a){200===a.data.status?e.orderList=e.orderList.concat(a.data.orderList):t.showToast({title:a.data.msg,icon:"none"})},fail:function(t){e.GLOBAL.requestFail(t)},complete:function(){e.loading.type=0,e.loading.nextPages++}})))},methods:{getList:function(e,a){var i=this;t.showLoading({title:"加载中..."}),t.request({url:this.GLOBAL.serverSrc+"market/management/order",method:"POST",data:{phone:this.user.phone,token:this.user.token,market_id:this.marketId,page:e,type:a},success:function(e){200===e.data.status?(i.orderList=e.data.orderList,i.loading.totalPages=e.data.totalPages,i.loading.totalPages>1&&i.orderList.length>0?i.loading.show=!0:i.loading.show=!1):t.showToast({title:e.data.msg,icon:"none"})},fail:function(t){i.GLOBAL.requestFail(t)},complete:function(){t.hideLoading()}})},tabChange:function(t){var e=t.currentTarget.dataset.index;this.cateCurrentIndex=e,this.loading.nextPages=2,this.getList(1,this.categories[e].name)}}};e.default=s}).call(this,a("6e42")["default"])},f114:function(t,e,a){"use strict";a("859d");var i=r(a("b0ce")),n=r(a("ba79"));function r(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(n.default))},fd1c:function(t,e,a){"use strict";var i=function(){var t=this,e=t.$createElement,a=t._self._c||e;return a("view",[a("scroll-view",{staticClass:"grace-tab-title grace-center",attrs:{"scroll-x":"true",id:"grace-tab-title"}},t._l(t.categories,function(e,i){return a("view",{key:i,class:[t.cateCurrentIndex==i?"grace-tab-current":""],attrs:{"data-cateid":e.cateid,"data-index":i,eventid:"78f2e91c-0-"+i},on:{tap:t.tabChange}},[t._v(t._s(e.name))])})),0===t.orderList.length?a("view",{staticClass:"no-order"},[t._v("您暂无"+t._s(t.categories[t.cateCurrentIndex].name)+"的订单哦")]):a("view",{staticStyle:{"margin-top":"50px"}},t._l(t.orderList,function(e,i){return a("view",{key:i,staticClass:"order-card grace-rows has-borderb"},[a("view",{staticStyle:{width:"80rpx"}},[a("image",{staticStyle:{width:"70rpx",height:"70rpx"},attrs:{src:e.first_img,mode:"widthFix"}})]),a("view",{staticClass:"right",staticStyle:{width:"660rpx"}},[a("view",{staticClass:"grace-rows grace-space-between"},[a("view",{staticStyle:{"font-size":"35rpx"}},[t._v(t._s(e.first_product)+" >")]),a("text",{staticStyle:{"font-size":"30rpx"}},[t._v("已送达")])]),a("view",{staticClass:"time has-borderb"},[a("text",[t._v(t._s(e.create_time))])]),a("view",{staticClass:"rice grace-rows grace-space-between has-borderb"},[a("view",[t._v("订单号:"+t._s(e.out_trade_no))]),a("text",[t._v("¥"+t._s(e.real_price))])]),a("view",{staticClass:"btn-area"},[a("button",{staticClass:"mini-btn",attrs:{type:"primary",size:"mini",plain:"true"}},[t._v("已处理")])],1)])])})),a("graceLoading",{attrs:{loadingType:t.loading.type,loadingText:t.loading.text,show:t.loading.show,mpcomid:"78f2e91c-0"}})],1)},n=[];a.d(e,"a",function(){return i}),a.d(e,"b",function(){return n})}},[["f114","common/runtime","common/vendor"]]]);
 });
 require('pages/my/market/order/list.js');
 __wxRoute = 'pages/my/market/classify';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/market/classify.js';
@@ -5023,7 +5159,7 @@ require('pages/my/parttime/parttimereg.js');
 __wxRoute = 'pages/my/parttime/protocol';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/parttime/protocol.js';
 
 define('pages/my/parttime/protocol.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/parttime/protocol"],{"1dae":function(t,e,n){"use strict";n.r(e);var a=n("8279"),o=n.n(a);for(var u in a)"default"!==u&&function(t){n.d(e,t,function(){return a[t]})}(u);e["default"]=o.a},"513b":function(t,e,n){"use strict";n.r(e);var a=n("5da6"),o=n("1dae");for(var u in o)"default"!==u&&function(t){n.d(e,t,function(){return o[t]})}(u);n("6074");var i=n("2877"),r=Object(i["a"])(o["default"],a["a"],a["b"],!1,null,null,null);e["default"]=r.exports},"5da6":function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("view",{staticClass:"text"},[n("p",[t._v('为打造真实可靠的"TOP校园"平台，共同营造安全、有效的兼职信息对接系统、本人/公司(以下简称"我方")承诺:')]),n("p",[t._v("1. 本账号仅用于我方使用TOP校园提供的简直招聘信息发布服务，除非有法律固定且征得TOP校园平台的同意，否则，本账户和密码我方承诺不以任何方式转让、赠与或继承。")]),n("p",[t._v("2. 如因我方失误导致本账号遗失，我方原为本账号所有行为负责。")]),n("p",[t._v('3. 在签署本声明时，我方已阅读"TOP校园平台用户协议"相关规定，除了本协议承诺外我方承诺遵守"用户协议"相关规定。')]),n("p",[t._v("4. 我方保证其在TOP校园平台服务中所产生的一切信息均为真实、准确，且愿意接受TOP校园平台监督。")]),n("p",[t._v('5. 我方承诺在TOP校园平台所发布的兼职信息不出现"要做兼职先办卡"、"网络兼职"或"工拖欠情况"等情况，如出现以上情况，我方愿意赔偿乙方及相应受害者一切损失(包括但不限于各种赔偿费、诉讼代理费以及为此支出的其他合理费用)。')]),n("p",[t._v("6. 我方保证我方拥有所提供的信息的版权，或获得他人授权，并保证该信息不侵犯到任何第三方人的合法权益")]),n("p",[t._v('7. 在使用TOP校园平台服务时产生的所有"内容"，我方对其承担全部责任，TOP校园平台(及其所有者)不对信息的真实性、准确性，有效性和安全性负责。')]),n("p",[t._v("8. 如因我方违反本条规定造成TOP校园平台被第三人的索赔，我方愿全额承担TOP校园平台一切损失(包括但不限于各种赔偿费，诉讼代理费及为此支出的其他合理费用。)")]),n("p",[t._v("9. 同时当我方向TOP校园平台提供内容时，我方及授予TOP校园平台永久性的、全球的、不可撤销的、免使用费的、可再次授权给他人的使用权。")]),n("p",[t._v("10. 我方自行评估和承担在TOP校园平台上提供的使用内容而产生的一切风险、损失。")]),n("p",[t._v("11. TOP校园平台有权利单方面无理由删除任何免费信息，有权利暂停任何付费信息的发布直至我方提供相关证据证明该信息的真实性。")]),n("p",[t._v("12. 如因我方违反本声明而造成TOP校园平台及其用户损失，TOP校园平台有权向我方索取一切赔偿。")])],1),n("view",{staticClass:"form"},[n("button",{staticClass:"one",attrs:{type:"default",eventid:"e234f8f2-0"},on:{click:t.idsagree}},[t._v("不同意")]),n("button",{staticClass:"two",attrs:{type:"warn",eventid:"e234f8f2-1"},on:{click:t.agree}},[t._v("同意")])],1)])},o=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return o})},6074:function(t,e,n){"use strict";var a=n("f095"),o=n.n(a);o.a},"75a4":function(t,e,n){"use strict";n("859d");var a=u(n("b0ce")),o=u(n("513b"));function u(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(o.default))},8279:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={data:function(){return{type:0}},onLoad:function(t){this.type=parseInt(t.type)},methods:{agree:function(){console.log(typeof this.type),1===this.type?t.navigateTo({url:"./companyverify"}):2===this.type&&t.navigateTo({url:"./companyverify"})},disagree:function(){t.navigateBack()}}};e.default=n}).call(this,n("6e42")["default"])},f095:function(t,e,n){}},[["75a4","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/parttime/protocol"],{"1dae":function(t,e,n){"use strict";n.r(e);var a=n("8279"),u=n.n(a);for(var i in a)"default"!==i&&function(t){n.d(e,t,function(){return a[t]})}(i);e["default"]=u.a},"513b":function(t,e,n){"use strict";n.r(e);var a=n("a95e"),u=n("1dae");for(var i in u)"default"!==i&&function(t){n.d(e,t,function(){return u[t]})}(i);n("6074");var r=n("2877"),o=Object(r["a"])(u["default"],a["a"],a["b"],!1,null,null,null);e["default"]=o.exports},6074:function(t,e,n){"use strict";var a=n("f095"),u=n.n(a);u.a},"75a4":function(t,e,n){"use strict";n("859d");var a=i(n("b0ce")),u=i(n("513b"));function i(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(u.default))},8279:function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={data:function(){return{type:0}},onLoad:function(t){this.type=parseInt(t.type)},methods:{agree:function(){1===this.type?t.navigateTo({url:"./companyverify"}):2===this.type&&t.navigateTo({url:"./companyverify"})},disagree:function(){t.navigateBack()}}};e.default=n}).call(this,n("6e42")["default"])},a95e:function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("view",{staticClass:"text"},[n("p",[t._v('为打造真实可靠的"TOP校园"平台，共同营造安全、有效的兼职信息对接系统、本人/公司(以下简称"我方")承诺:')]),n("p",[t._v("1. 本账号仅用于我方使用TOP校园提供的简直招聘信息发布服务，除非有法律固定且征得TOP校园平台的同意，否则，本账户和密码我方承诺不以任何方式转让、赠与或继承。")]),n("p",[t._v("2. 如因我方失误导致本账号遗失，我方原为本账号所有行为负责。")]),n("p",[t._v('3. 在签署本声明时，我方已阅读"TOP校园平台用户协议"相关规定，除了本协议承诺外我方承诺遵守"用户协议"相关规定。')]),n("p",[t._v("4. 我方保证其在TOP校园平台服务中所产生的一切信息均为真实、准确，且愿意接受TOP校园平台监督。")]),n("p",[t._v('5. 我方承诺在TOP校园平台所发布的兼职信息不出现"要做兼职先办卡"、"网络兼职"或"工拖欠情况"等情况，如出现以上情况，我方愿意赔偿乙方及相应受害者一切损失(包括但不限于各种赔偿费、诉讼代理费以及为此支出的其他合理费用)。')]),n("p",[t._v("6. 我方保证我方拥有所提供的信息的版权，或获得他人授权，并保证该信息不侵犯到任何第三方人的合法权益")]),n("p",[t._v('7. 在使用TOP校园平台服务时产生的所有"内容"，我方对其承担全部责任，TOP校园平台(及其所有者)不对信息的真实性、准确性，有效性和安全性负责。')]),n("p",[t._v("8. 如因我方违反本条规定造成TOP校园平台被第三人的索赔，我方愿全额承担TOP校园平台一切损失(包括但不限于各种赔偿费，诉讼代理费及为此支出的其他合理费用。)")]),n("p",[t._v("9. 同时当我方向TOP校园平台提供内容时，我方及授予TOP校园平台永久性的、全球的、不可撤销的、免使用费的、可再次授权给他人的使用权。")]),n("p",[t._v("10. 我方自行评估和承担在TOP校园平台上提供的使用内容而产生的一切风险、损失。")]),n("p",[t._v("11. TOP校园平台有权利单方面无理由删除任何免费信息，有权利暂停任何付费信息的发布直至我方提供相关证据证明该信息的真实性。")]),n("p",[t._v("12. 如因我方违反本声明而造成TOP校园平台及其用户损失，TOP校园平台有权向我方索取一切赔偿。")])],1),n("view",{staticClass:"form"},[n("button",{staticClass:"one",attrs:{type:"default",eventid:"e234f8f2-0"},on:{click:t.idsagree}},[t._v("不同意")]),n("button",{staticClass:"two",attrs:{type:"warn",eventid:"e234f8f2-1"},on:{click:t.agree}},[t._v("同意")])],1)])},u=[];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return u})},f095:function(t,e,n){}},[["75a4","common/runtime","common/vendor"]]]);
 });
 require('pages/my/parttime/protocol.js');
 __wxRoute = 'pages/my/parttime/companyverify';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/parttime/companyverify.js';
@@ -5035,7 +5171,7 @@ require('pages/my/parttime/companyverify.js');
 __wxRoute = 'pages/my/setting/setting';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/setting/setting.js';
 
 define('pages/my/setting/setting.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
-(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/setting/setting"],{2291:function(t,e,n){"use strict";n("859d");var a=r(n("b0ce")),i=r(n("f9e4"));function r(t){return t&&t.__esModule?t:{default:t}}Page((0,a.default)(i.default))},"68f0":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=n("2f62");function i(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},a=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(a=a.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),a.forEach(function(e){r(t,e,n[e])})}return t}function r(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var c={data:function(){return{}},methods:i({},(0,a.mapMutations)(["logOut"]),{logout:function(){this.logOut(),t.reLaunch({url:"/pages/common/login"})}})};e.default=c}).call(this,n("6e42")["default"])},"8d94":function(t,e,n){"use strict";var a=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("view",{staticClass:"grace-list grace-bg-white grace-common-mt"},[t._m(0),t._m(1),n("view",{staticClass:"items"},[n("navigator",{staticClass:"title",attrs:{url:"../../common/update"}},[t._v("检查更新")])],1),n("view",{staticClass:"items"},[n("navigator",{staticClass:"title",attrs:{url:"./about"}},[t._v("关于TOP校园与帮助")])],1)]),n("view",{staticStyle:{width:"100%","margin-top":"18px"}},[n("button",{staticStyle:{width:"100%",background:"#FFFFFF",border:"0"},attrs:{eventid:"c9670ade-0"},on:{click:t.logout}},[t._v("退出登录")])],1),n("view",{staticStyle:{width:"100%",height:"30px"}})])},i=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"items"},[n("view",{staticClass:"title"},[t._v("认证"),n("text",[t._v("已认证")])]),n("view",{staticClass:"arrow-right"})])},function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"items"},[n("view",{staticClass:"title"},[t._v("通知"),n("switch",{staticStyle:{float:"right"},attrs:{checked:""}})]),n("view",{staticClass:"arrow-right"})])}];n.d(e,"a",function(){return a}),n.d(e,"b",function(){return i})},bcdd:function(t,e,n){"use strict";n.r(e);var a=n("68f0"),i=n.n(a);for(var r in a)"default"!==r&&function(t){n.d(e,t,function(){return a[t]})}(r);e["default"]=i.a},f9e4:function(t,e,n){"use strict";n.r(e);var a=n("8d94"),i=n("bcdd");for(var r in i)"default"!==r&&function(t){n.d(e,t,function(){return i[t]})}(r);var c=n("2877"),s=Object(c["a"])(i["default"],a["a"],a["b"],!1,null,null,null);e["default"]=s.exports}},[["2291","common/runtime","common/vendor"]]]);
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/my/setting/setting"],{2291:function(t,e,n){"use strict";n("859d");var i=r(n("b0ce")),a=r(n("f9e4"));function r(t){return t&&t.__esModule?t:{default:t}}Page((0,i.default)(a.default))},"39fe":function(t,e,n){"use strict";var i=function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",[n("view",{staticClass:"grace-list grace-bg-white grace-common-mt"},[t._m(0),t._m(1),n("view",{staticClass:"items"},[n("navigator",{staticClass:"title",attrs:{url:"../../common/update"}},[t._v("检查更新")])],1),n("view",{staticClass:"items"},[n("navigator",{staticClass:"title",attrs:{url:"./about"}},[t._v("关于TOP校园与帮助")])],1)]),n("view",{staticStyle:{width:"100%","margin-top":"18px"}},[n("button",{staticStyle:{width:"100%",background:"#FFFFFF",border:"0"},attrs:{eventid:"c9670ade-0"},on:{click:t.logout}},[t._v("退出登录")])],1),n("view",{staticStyle:{width:"100%",height:"30px"}})])},a=[function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"items"},[n("view",{staticClass:"title"},[t._v("认证"),n("text",[t._v("已认证")])]),n("view",{staticClass:"arrow-right"})])},function(){var t=this,e=t.$createElement,n=t._self._c||e;return n("view",{staticClass:"items"},[n("view",{staticClass:"title"},[t._v("通知"),n("switch",{staticStyle:{float:"right"},attrs:{checked:""}})]),n("view",{staticClass:"arrow-right"})])}];n.d(e,"a",function(){return i}),n.d(e,"b",function(){return a})},"68f0":function(t,e,n){"use strict";(function(t){Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i=n("2f62");function a(t){for(var e=1;e<arguments.length;e++){var n=null!=arguments[e]?arguments[e]:{},i=Object.keys(n);"function"===typeof Object.getOwnPropertySymbols&&(i=i.concat(Object.getOwnPropertySymbols(n).filter(function(t){return Object.getOwnPropertyDescriptor(n,t).enumerable}))),i.forEach(function(e){r(t,e,n[e])})}return t}function r(t,e,n){return e in t?Object.defineProperty(t,e,{value:n,enumerable:!0,configurable:!0,writable:!0}):t[e]=n,t}var c={data:function(){return{}},methods:a({},(0,i.mapMutations)(["logOut"]),{logout:function(){this.logOut(),t.reLaunch({url:"/pages/login/login"})}})};e.default=c}).call(this,n("6e42")["default"])},bcdd:function(t,e,n){"use strict";n.r(e);var i=n("68f0"),a=n.n(i);for(var r in i)"default"!==r&&function(t){n.d(e,t,function(){return i[t]})}(r);e["default"]=a.a},f9e4:function(t,e,n){"use strict";n.r(e);var i=n("39fe"),a=n("bcdd");for(var r in a)"default"!==r&&function(t){n.d(e,t,function(){return a[t]})}(r);var c=n("2877"),s=Object(c["a"])(a["default"],i["a"],i["b"],!1,null,null,null);e["default"]=s.exports}},[["2291","common/runtime","common/vendor"]]]);
 });
 require('pages/my/setting/setting.js');
 __wxRoute = 'pages/my/setting/about';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/my/setting/about.js';

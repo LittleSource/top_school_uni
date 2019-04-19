@@ -72,21 +72,23 @@
 			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
 		},
 		methods: {
-			...mapMutations(['login']),
+			...mapMutations(['login', 'setOpenId']),
 			loginWithWx: function() {
 				uni.login({
 					provider: 'weixin',
 					success: function(loginRes) {
 						_self.thirdLogin(loginRes.authResult.openid, 0);
-					},
-					fail: (e) => {}
+					}
 				});
 			},
 			loginWithQQ: function() {
-				uni.showToast({
-					title: "QQ登录功能开发中",
-					icon: "none"
-				})
+				uni.login({
+					provider: 'qq',
+					success: function(loginRes) {
+						console.log(JSON.stringify(loginRes));
+						_self.thirdLogin(loginRes.authResult.openid, 1);
+					}
+				});
 			},
 			loginWithWb: function() {
 				uni.navigateTo({
@@ -95,7 +97,7 @@
 			},
 			thirdLogin: function(openId, type) {
 				uni.showLoading({
-					title:'登录中...'
+					title: '登录中...'
 				});
 				uni.request({
 					url: this.GLOBAL.serverSrc + 'common/login/verifyopenid',
@@ -105,19 +107,23 @@
 						type: type
 					},
 					success: res => {
-						if(res.data.status === 200){
+						if (res.data.status === 200) {
 							this.login(res.data);
 							uni.reLaunch({
 								url: '../index/index'
 							});
-						}else if(res.data.status === 201){//若openid未绑定
+						} else if (res.data.status === 201) { //若openid未绑定
+							var playload = new Object();
+							playload.openId = openId;
+							playload.type = type;
+							this.setOpenId(playload);
 							uni.navigateTo({
-								url: './logintemp?open_id='+openId+'&type='+type
+								url: './logintemp?type=' + type
 							});
-						}else{
+						} else {
 							uni.showToast({
 								title: res.data.msg,
-								icon:'none'
+								icon: 'none'
 							});
 						}
 					},

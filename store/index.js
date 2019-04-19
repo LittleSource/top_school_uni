@@ -6,22 +6,24 @@ Vue.use(Vuex)
 const store = new Vuex.Store({
 	state: {
 		user: {
-			hasLogin: false,//是否登录
-			id: 0,			
-			token: '',		//token
-			phone: '',		//头像
-			avatar: '',		//头像
-			password: '',	//密码
-			userName: '',	//昵称
-			sex: 0,			//性别
-			merchant:0		//是否商家
+			hasLogin: false, //是否登录
+			id: 0,
+			openId: '',
+			type: -1, //第三方登录类型
+			token: '', //token
+			phone: '', //手机号
+			avatar: '', //头像
+			password: '', //密码
+			userName: '', //昵称
+			sex: 0, //性别
+			merchant: 0 //是否商家
 		},
-		addressInfo:{//地址信息
-			name:null,
-			phone:null,
-			city:null,
-			adress:null
-		}, 
+		addressInfo: { //地址信息
+			name: null,
+			phone: null,
+			city: null,
+			adress: null
+		},
 		school: {
 			id: '11853391869743621792',
 			title: '',
@@ -59,7 +61,7 @@ const store = new Vuex.Store({
 				unread: 1
 			}
 		],
-		unreadCount:3,
+		unreadCount: 3,
 		historyMsg: {
 			67: [{
 				id: 100,
@@ -119,7 +121,9 @@ const store = new Vuex.Store({
 			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
 
+			state.user.openId = payload.user.openId;
 			state.user.token = payload.token;
+
 			state.user.password = ''; //为了安全置空密码
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
@@ -131,12 +135,13 @@ const store = new Vuex.Store({
 			state.user.userName = payload.user.user_name;
 			state.user.avatar = payload.user.avatar;
 			state.user.merchant = payload.user.merchant;
+			state.user.openId = payload.user.openId;
 			state.user.token = payload.token;
 
 			state.school = payload.school;
 			state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校
-			
-			state.addressInfo = payload.addressInfo;//同步地址信息
+
+			state.addressInfo = payload.addressInfo; //同步地址信息
 			state.user.hasLogin = true;
 			this.commit('loginAfterSetStorage');
 		},
@@ -162,6 +167,10 @@ const store = new Vuex.Store({
 				data: state.addressInfo
 			});
 		},
+		setOpenId(state, playload) {
+			state.user.openId = playload.openId;
+			state.user.type = playload.type;
+		},
 		checkSchool(state, payload) {
 			state.selectSchool = payload;
 			uni.setStorage({
@@ -176,7 +185,7 @@ const store = new Vuex.Store({
 				}
 			});
 		},
-		changeAddressInfo(state, addressInfo){
+		changeAddressInfo(state, addressInfo) {
 			state.addressInfo = addressInfo;
 			uni.setStorage({
 				key: 'addressInfo',
@@ -263,7 +272,7 @@ const store = new Vuex.Store({
 				index: 2,
 				text: state.unreadCount.toString()
 			});
-			
+
 			this.commit('setMsgStorage');
 		},
 		sendMsg(state, newMsg) {
@@ -315,15 +324,17 @@ const store = new Vuex.Store({
 		changeMsg(state, index) {
 			//设置tabbar的小红点
 			state.unreadCount -= state.msgList[index].unread;
-			if(state.unreadCount !== 0){
+			if (state.unreadCount !== 0) {
 				uni.setTabBarBadge({
 					index: 2,
 					text: state.unreadCount.toString()
 				});
-			}else{
-				uni.removeTabBarBadge({index:2});
+			} else {
+				uni.removeTabBarBadge({
+					index: 2
+				});
 			}
-			
+
 			state.msgList[index].unread = 0;
 			state.msgList[index].status = "已读";
 			this.commit('setMsgStorage');

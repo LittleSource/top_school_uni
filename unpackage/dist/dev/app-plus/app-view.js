@@ -4116,19 +4116,9 @@ Z([3,'_view 4c98c0cb reg-footer'])
 Z([a,[3,' '],[[2,'+'],[[2,'+'],[1,'top:'],[[2,'+'],[[7],[3,'positionTop']],[1,'px']]],[1,';']]])
 Z([3,'_view 4c98c0cb item-border'])
 Z([3,'_view 4c98c0cb grace-title'])
-Z([3,'_view 4c98c0cb grace-h5 grace-blod grace-center'])
+Z([3,'_view 4c98c0cb grace-h5 grace-center'])
 Z([3,'color:grey'])
-Z([3,'使用其他账号登录'])
-Z([3,'_view 4c98c0cb grace-login-three'])
-Z(z[8])
-Z([3,'_view 4c98c0cb grace-iconfont icon-weixin'])
-Z(z[10])
-Z([1,'4c98c0cb-4'])
-Z([3,'color: #00c40b;'])
-Z([3,'_view 4c98c0cb grace-iconfont icon-qq'])
-Z([3,'color: #01a1e5;'])
-Z([3,'_view 4c98c0cb grace-iconfont icon-weibo'])
-Z([3,'color: #fc4243;'])
+Z([3,'Copyright © 源梦网络科技'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_84);return __WXML_GLOBAL__.ops_cached.$gwx_84
 }
 function gz$gwx_85(){
@@ -12420,23 +12410,6 @@ cs.pop()
 _(e2,b3)
 cs.pop()
 _(aZ,e2)
-cs.push("./pages/register/reg.vue.wxml:view:1:2348")
-var x5=_n('view')
-_rz(z,x5,'class',68,e,s,gg)
-cs.push("./pages/register/reg.vue.wxml:view:1:2395")
-var o6=_mz(z,'view',['bindtap',69,'class',1,'data-comkey',2,'data-eventid',3,'style',4],[],e,s,gg)
-cs.pop()
-_(x5,o6)
-cs.push("./pages/register/reg.vue.wxml:view:1:2557")
-var f7=_mz(z,'view',['class',74,'style',1],[],e,s,gg)
-cs.pop()
-_(x5,f7)
-cs.push("./pages/register/reg.vue.wxml:view:1:2640")
-var c8=_mz(z,'view',['class',76,'style',1],[],e,s,gg)
-cs.pop()
-_(x5,c8)
-cs.pop()
-_(aZ,x5)
 cs.pop()
 _(oB,aZ)
 cs.pop()
@@ -13744,7 +13717,7 @@ __wxAppCode__['pages/my/setting/setting.wxml']=$gwx('./pages/my/setting/setting.
 __wxAppCode__['pages/register/reg.wxss']=setCssToHead([".",[1],"ym-logo { width: 68px; height: 68px; border-radius: 8px; webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .15); -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .15); box-shadow: 3px 3px 4px rgba(0, 0, 0, .15); }\n.",[1],"item-border { border-bottom: 1px solid #E0E0E0 !important; }\n.",[1],"grace-items { max-height: ",[0,85],"; }\n.",[1],"login-sendmsg-btn { border: 1px solid #fc7677 !important; background: none !important; color: #fc7677 !important; width: 100%; height: 35px; line-height: 35px; margin-top: 6px; font-size: 14px !important; }\n.",[1],"grace-login-three { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; }\n.",[1],"grace-login-three wx-view { width: 50px; height: 50px; line-height: 50px; font-size: 46px; text-align: center; margin: 8px 15px; }\n.",[1],"reg-footer { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: absolute; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; top: 0; left: 0; width: 100%; }\n",],undefined,{path:"./pages/register/reg.wxss"});    
 __wxAppCode__['pages/register/reg.wxml']=$gwx('./pages/register/reg.wxml');
 
-__wxAppCode__['pages/register/selectSchool.wxss']=setCssToHead([".",[1],"form { width: 90%; margin: 0 auto; }\n.",[1],"input { font-size: 25px; border-bottom: #a9a9a9 2px solid; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; }\n.",[1],"grace-list .",[1],"items .",[1],"title{ margin-left: 0; }\n",],undefined,{path:"./pages/register/selectSchool.wxss"});    
+__wxAppCode__['pages/register/selectSchool.wxss']=setCssToHead([".",[1],"form { width: 90%; margin: 0 auto; }\n.",[1],"input { font-size: 25px; border-bottom: #a9a9a9 2px solid; border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; }\n.",[1],"grace-list .",[1],"items .",[1],"title { margin-left: 0; }\n",],undefined,{path:"./pages/register/selectSchool.wxss"});    
 __wxAppCode__['pages/register/selectSchool.wxml']=$gwx('./pages/register/selectSchool.wxml');
 
 __wxAppCode__['pages/register/selectSex.wxss']=undefined;    

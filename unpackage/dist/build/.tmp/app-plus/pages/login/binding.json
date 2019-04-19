@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarTitleText": "绑定已有账号",
+  "bounce": "none"
+}

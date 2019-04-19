@@ -55,10 +55,18 @@
 			return {
 				userName: '',
 				avatarPath: '',
-				hasAvatar: false
+				hasAvatar: false,
+				isThird: 0
 			};
 		},
 		computed: mapState(['user', 'school']), // 拿到vuex的register对象
+		onLoad(parameter) {
+			if (parseInt(parameter.is_third) === 1) {
+				this.isThird = 1;
+				this.userName = this.user.userName;
+				this.avatarPath = this.user.avatar;
+			}
+		},
 		methods: {
 			//映射vuex的regSetNickName方法
 			...mapMutations(['regSetUserName', 'regAfterLogin', 'regSetAvatar']),
@@ -82,12 +90,15 @@
 						url: this.GLOBAL.serverSrc + '/common/register/register',
 						method: 'POST',
 						data: {
-							'phone': this.user.phone,
-							'password': this.user.password,
-							'user_name': this.user.userName,
-							'avatar': this.user.avatar,
-							'sex': this.user.sex,
-							'id': this.school.id
+							phone: this.user.phone,
+							password: this.user.password,
+							user_name: this.user.userName,
+							avatar: this.user.avatar,
+							sex: this.user.sex,
+							id: this.school.id,
+							is_third: this.isThird,
+							open_id: this.user.openId,
+							type: this.user.type
 						},
 						success: res => {
 							if (res.data.status === 200) { //注册成功

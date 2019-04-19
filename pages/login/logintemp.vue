@@ -9,31 +9,64 @@
 </template>
 
 <script>
+	var _self;
+	import {
+		mapMutations
+	} from 'vuex'
 	export default {
 		data() {
 			return {
 				windowHeight: 600,
-				openId: '',
 				type: -1
 			}
 		},
 		onLoad(parameter) {
+			_self = this;
 			this.windowHeight = uni.getSystemInfoSync().windowHeight;
-			this.openId = parameter.open_id;
-			this.type = parameter.type;
+			this.type = parseInt(parameter.type);
 		},
 		methods: {
+			...mapMutations(['regSetUserName', 'regSetAvatar']),
 			binding() {
 				uni.navigateTo({
-					url: './binding?open_id=' + this.openId + '&type=' + this.type
-				})
+					url: './binding'
+				});
 			},
 			register() {
+				var provider = ''; //服务商
+				switch (this.type) {
+					case 0:
+						provider = 'weixin';
+						break;
+					case 1:
+						provider = 'qq';
+						break;
+					case 2:
+						provider = 'sinaweibo';
+						break;
+				}
 				uni.getUserInfo({
-					provider: 'weixin',
+					provider: provider,
 					success: function(infoRes) {
-						console.log(JSON.stringify(infoRes));
+						switch (_self.type) {
+							case 0:
+								_self.regSetUserName(infoRes.userInfo.nickName);
+								_self.regSetAvatar(infoRes.userInfo.avatarUrl);
+								console.log(infoRes.userInfo.avatarUrl);
+								break;
+							case 1:
+								_self.regSetUserName(infoRes.userInfo.nickname);
+								_self.regSetAvatar(infoRes.userInfo.figureurl_qq);
+								break;
+							case 2:
+								provider = 'sinaweibo';
+								break;
+						}
+						console.log(JSON.stringify(infoRes.userInfo));
 					}
+				});
+				uni.navigateTo({
+					url: '/pages/register/reg?is_third=1'
 				});
 			}
 		}

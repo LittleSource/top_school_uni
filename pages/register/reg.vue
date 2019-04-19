@@ -37,12 +37,7 @@
 		<view class="reg-footer" v-bind:style="{top: positionTop + 'px'}">
 			<view class="item-border"></view>
 			<view class="grace-title">
-				<view class="grace-h5 grace-blod grace-center" style="color:grey">使用其他账号登录</view>
-			</view>
-			<view class="grace-login-three">
-				<view class="grace-iconfont icon-weixin" style="color: #00c40b;" @tap="loginWithWx"></view>
-				<view class="grace-iconfont icon-qq" style="color: #01a1e5;"></view>
-				<view class="grace-iconfont icon-weibo" style="color: #fc4243;"></view>
+				<view class="grace-h5 grace-center" style="color:grey">Copyright © 源梦网络科技</view>
 			</view>
 		</view>
 	</view>
@@ -61,11 +56,15 @@
 				countDownTimer: null,
 				phoneno: '',
 				password: '',
-				btnLoading: false
+				btnLoading: false,
+				isThird: 0
 			}
 		},
-		onLoad() {
-			this.positionTop = uni.getSystemInfoSync().windowHeight - 105;
+		onLoad(parameter) {
+			if (parseInt(parameter.is_third) === 1) {
+				this.isThird = 1;
+			}
+			this.positionTop = uni.getSystemInfoSync().windowHeight - 40;
 		},
 		methods: {
 			...mapMutations(['regSetPhoneAndPass']),
@@ -112,7 +111,7 @@
 								};
 								this.regSetPhoneAndPass(payload);
 								uni.navigateTo({
-									url: './selectSex'
+									url: './selectSex?is_third=' + this.isThird
 								});
 							} else {
 								uni.showToast({
@@ -155,6 +154,7 @@
 					url: this.GLOBAL.serverSrc + 'common/register/sendVcode?phone=' + this.phoneno,
 					method: 'GET',
 					success: res => {
+						console.log(JSON.stringify(res));
 						if (res.data.status === 200) {
 							uni.showToast({
 								title: res.data.msg,
