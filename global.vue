@@ -6,7 +6,7 @@
 <script>
 	//全局配置文件
 	const serverChat = 'ws://118.24.124.19:8282';
-	const serverSrc = 'http://123.151.6.219/';//https://apii.ym998.cn/
+	const serverSrc = 'https://apii.ym998.cn/';//https://apii.ym998.cn/
 	export default {
 		serverSrc, //服务器地址
 		serverChat,

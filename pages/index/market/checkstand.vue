@@ -176,6 +176,9 @@
 										title: '付款成功'
 									});
 								}
+								uni.redirectTo({
+									url:'./payresult'
+								})
 							},
 							fail: function(err) {
 								console.log(JSON.stringify(err.errMsg));

@@ -154,7 +154,6 @@
 					url: this.GLOBAL.serverSrc + 'common/register/sendVcode?phone=' + this.phoneno,
 					method: 'GET',
 					success: res => {
-						console.log(JSON.stringify(res));
 						if (res.data.status === 200) {
 							uni.showToast({
 								title: res.data.msg,

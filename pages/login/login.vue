@@ -91,8 +91,9 @@
 				});
 			},
 			loginWithWb: function() {
-				uni.navigateTo({
-					url: './logintemp',
+				uni.showToast({
+					title: '微博登陆审核中...',
+					icon: 'none'
 				});
 			},
 			thirdLogin: function(openId, type) {

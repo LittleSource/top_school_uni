@@ -156,21 +156,9 @@
 				});
 			},
 			showPopupMenu() {
-				uni.showActionSheet({
-					itemList: ['发布心情到表白墙', 'B', 'C'],
+				uni.scanCode({
 					success: function(res) {
-						if (res.tapIndex === 0) {
-							uni.navigateTo({
-								url: './confession/publish'
-							});
-						} else if (res.tapIndex === 1) {
-							uni.scanCode({
-								success: function(res) {
-									console.log(JSON.stringify(res));
-								}
-							});
-						}
-						console.log('选中了第' + (res.tapIndex + 1) + '个按钮');
+						console.log(JSON.stringify(res));
 					}
 				});
 			}

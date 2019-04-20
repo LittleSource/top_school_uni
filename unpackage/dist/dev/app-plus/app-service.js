@@ -1957,7 +1957,7 @@ __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/login/binding.vue.wxml','./pages/login/binding.wxml','./binding.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/login/logintemp.vue.wxml','./pages/login/logintemp.wxml','./logintemp.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','/components/dialog.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','/common/slots.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/login/binding.vue.wxml','./pages/login/binding.wxml','./binding.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/login/logintemp.vue.wxml','./pages/login/logintemp.wxml','./logintemp.vue.wxml','./pages/message/chat.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["2763a7ef-default-2763a7ef-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':2763a7ef-default-2763a7ef-2'
@@ -1969,18 +1969,18 @@ try{
 var oB=_v()
 _(r,oB)
 if(_oz(z,1,e,s,gg)){oB.wxVkey=1
-cs.push("./common/slots.wxml:view:5:47")
+cs.push("./common/slots.wxml:view:13:47")
 cs.pop()
 }
 else{oB.wxVkey=2
-cs.push("./common/slots.wxml:view:5:214")
+cs.push("./common/slots.wxml:view:13:214")
 var xC=_v()
 _(oB,xC)
-cs.push("./common/slots.wxml:view:5:316")
+cs.push("./common/slots.wxml:view:13:316")
 var oD=function(cF,fE,hG,gg){
 var cI=_v()
 _(hG,cI)
-cs.push("./common/slots.wxml:template:5:678")
+cs.push("./common/slots.wxml:template:13:678")
 var oJ=_oz(z,10,cF,fE,gg)
 var lK=_gd(x[0],oJ,e_,d_)
 if(lK){
@@ -1990,7 +1990,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[0],5,852)
+else _w(oJ,x[0],13,852)
 cs.pop()
 return hG
 }
@@ -2013,19 +2013,35 @@ var oB=e_[x[0]].i
 _ai(oB,x[1],e_,x[0],1,1)
 _ai(oB,x[2],e_,x[0],2,2)
 _ai(oB,x[3],e_,x[0],3,2)
+_ai(oB,x[4],e_,x[0],4,2)
+_ai(oB,x[5],e_,x[0],5,2)
+_ai(oB,x[6],e_,x[0],6,2)
+_ai(oB,x[7],e_,x[0],7,2)
+_ai(oB,x[8],e_,x[0],8,2)
+_ai(oB,x[9],e_,x[0],9,2)
+_ai(oB,x[10],e_,x[0],10,2)
+_ai(oB,x[11],e_,x[0],11,2)
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
+oB.pop()
 oB.pop()
 oB.pop()
 oB.pop()
 return r
 }
-e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
-d_[x[4]]={}
-d_[x[4]]["3b86ca29"]=function(e,s,r,gg){
+e_[x[0]]={f:m0,j:[],i:[],ti:[x[1],x[2],x[3],x[4],x[5],x[6],x[7],x[8],x[9],x[10],x[11]],ic:[]}
+d_[x[12]]={}
+d_[x[12]]["3b86ca29"]=function(e,s,r,gg){
 var z=gz$gwx_2()
-var b=x[4]+':3b86ca29'
+var b=x[12]+':3b86ca29'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/dialog.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[4]);return}
+if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
 cs.push("./components/dialog.vue.wxml:view:1:141")
@@ -2070,14 +2086,14 @@ var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
 return r
 }
-e_[x[4]]={f:m1,j:[],i:[],ti:[],ic:[]}
-d_[x[5]]={}
-d_[x[5]]["36ed7ea2"]=function(e,s,r,gg){
+e_[x[12]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[13]]={}
+d_[x[13]]["36ed7ea2"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[5]+':36ed7ea2'
+var b=x[13]+':36ed7ea2'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/popup-layer.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 cs.push("./components/popup-layer.vue.wxml:view:1:62")
@@ -2088,7 +2104,7 @@ var oD=_v()
 _(xC,oD)
 cs.push("./components/popup-layer.vue.wxml:template:1:392")
 var fE=_oz(z,14,e,s,gg)
-var cF=_gd(x[5],fE,e_,d_)
+var cF=_gd(x[13],fE,e_,d_)
 if(cF){
 var hG=_1z(z,13,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2096,7 +2112,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[5],1,450)
+else _w(fE,x[13],1,450)
 cs.pop()
 cs.pop()
 _(oB,xC)
@@ -2109,12 +2125,12 @@ throw err
 p_[b]=false
 return r
 }
-d_[x[5]]["default"]=function(e,s,r,gg){
+d_[x[13]]["default"]=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[5]+':default'
+var b=x[13]+':default'
 r.wxVkey=b
 gg.f=$gdc(f_["./components/popup-layer.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[5]);return}
+if(p_[b]){_wl(b,x[13]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2126,19 +2142,19 @@ return r
 }
 var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var fE=e_[x[5]].i
-_ai(fE,x[6],e_,x[5],1,1)
+var fE=e_[x[13]].i
+_ai(fE,x[11],e_,x[13],1,1)
 fE.pop()
 return r
 }
-e_[x[5]]={f:m2,j:[],i:[],ti:[x[6]],ic:[]}
-d_[x[7]]={}
-d_[x[7]]["5faf9cdb"]=function(e,s,r,gg){
+e_[x[13]]={f:m2,j:[],i:[],ti:[x[11]],ic:[]}
+d_[x[14]]={}
+d_[x[14]]["5faf9cdb"]=function(e,s,r,gg){
 var z=gz$gwx_4()
-var b=x[7]+':5faf9cdb'
+var b=x[14]+':5faf9cdb'
 r.wxVkey=b
 gg.f=$gdc(f_["./global.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[7]);return}
+if(p_[b]){_wl(b,x[14]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2152,14 +2168,14 @@ var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
 return r
 }
-e_[x[7]]={f:m3,j:[],i:[],ti:[],ic:[]}
-d_[x[8]]={}
-d_[x[8]]["93f8d13c"]=function(e,s,r,gg){
+e_[x[14]]={f:m3,j:[],i:[],ti:[],ic:[]}
+d_[x[15]]={}
+d_[x[15]]["93f8d13c"]=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[8]+':93f8d13c'
+var b=x[15]+':93f8d13c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceAlert.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[8]);return}
+if(p_[b]){_wl(b,x[15]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2173,14 +2189,14 @@ var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
 return r
 }
-e_[x[8]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["dd17cd9a"]=function(e,s,r,gg){
+e_[x[15]]={f:m4,j:[],i:[],ti:[],ic:[]}
+d_[x[16]]={}
+d_[x[16]]["dd17cd9a"]=function(e,s,r,gg){
 var z=gz$gwx_6()
-var b=x[9]+':dd17cd9a'
+var b=x[16]+':dd17cd9a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceFullLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+if(p_[b]){_wl(b,x[16]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2201,14 +2217,14 @@ var m5=function(e,s,r,gg){
 var z=gz$gwx_6()
 return r
 }
-e_[x[9]]={f:m5,j:[],i:[],ti:[],ic:[]}
-d_[x[10]]={}
-d_[x[10]]["63f6700e"]=function(e,s,r,gg){
+e_[x[16]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[17]]={}
+d_[x[17]]["63f6700e"]=function(e,s,r,gg){
 var z=gz$gwx_7()
-var b=x[10]+':63f6700e'
+var b=x[17]+':63f6700e'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceIMFooter.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[10]);return}
+if(p_[b]){_wl(b,x[17]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2248,14 +2264,14 @@ var m6=function(e,s,r,gg){
 var z=gz$gwx_7()
 return r
 }
-e_[x[10]]={f:m6,j:[],i:[],ti:[],ic:[]}
-d_[x[11]]={}
-d_[x[11]]["93343c3a"]=function(e,s,r,gg){
+e_[x[17]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[18]]={}
+d_[x[18]]["93343c3a"]=function(e,s,r,gg){
 var z=gz$gwx_8()
-var b=x[11]+':93343c3a'
+var b=x[18]+':93343c3a'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceIMMsg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[11]);return}
+if(p_[b]){_wl(b,x[18]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2329,14 +2345,14 @@ var m7=function(e,s,r,gg){
 var z=gz$gwx_8()
 return r
 }
-e_[x[11]]={f:m7,j:[],i:[],ti:[],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["e380f47c"]=function(e,s,r,gg){
+e_[x[18]]={f:m7,j:[],i:[],ti:[],ic:[]}
+d_[x[19]]={}
+d_[x[19]]["e380f47c"]=function(e,s,r,gg){
 var z=gz$gwx_9()
-var b=x[12]+':e380f47c'
+var b=x[19]+':e380f47c'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceLoading.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
+if(p_[b]){_wl(b,x[19]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2364,14 +2380,14 @@ var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
 return r
 }
-e_[x[12]]={f:m8,j:[],i:[],ti:[],ic:[]}
-d_[x[13]]={}
-d_[x[13]]["0b6f14c8"]=function(e,s,r,gg){
+e_[x[19]]={f:m8,j:[],i:[],ti:[],ic:[]}
+d_[x[20]]={}
+d_[x[20]]["0b6f14c8"]=function(e,s,r,gg){
 var z=gz$gwx_10()
-var b=x[13]+':0b6f14c8'
+var b=x[20]+':0b6f14c8'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceNumberBox.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[13]);return}
+if(p_[b]){_wl(b,x[20]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2385,14 +2401,14 @@ var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
 return r
 }
-e_[x[13]]={f:m9,j:[],i:[],ti:[],ic:[]}
-d_[x[14]]={}
-d_[x[14]]["02770485"]=function(e,s,r,gg){
+e_[x[20]]={f:m9,j:[],i:[],ti:[],ic:[]}
+d_[x[21]]={}
+d_[x[21]]["02770485"]=function(e,s,r,gg){
 var z=gz$gwx_11()
-var b=x[14]+':02770485'
+var b=x[21]+':02770485'
 r.wxVkey=b
 gg.f=$gdc(f_["./graceUI/components/graceSpeaker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[14]);return}
+if(p_[b]){_wl(b,x[21]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2406,14 +2422,14 @@ var m10=function(e,s,r,gg){
 var z=gz$gwx_11()
 return r
 }
-e_[x[14]]={f:m10,j:[],i:[],ti:[],ic:[]}
-d_[x[15]]={}
-d_[x[15]]["691dc3db"]=function(e,s,r,gg){
+e_[x[21]]={f:m10,j:[],i:[],ti:[],ic:[]}
+d_[x[22]]={}
+d_[x[22]]["691dc3db"]=function(e,s,r,gg){
 var z=gz$gwx_12()
-var b=x[15]+':691dc3db'
+var b=x[22]+':691dc3db'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/checkSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[15]);return}
+if(p_[b]){_wl(b,x[22]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/checkSchool.vue.wxml:view:1:71")
@@ -2435,7 +2451,7 @@ var fE=_v()
 _(oB,fE)
 cs.push("./pages/common/checkSchool.vue.wxml:template:1:666")
 var cF=_oz(z,8,e,s,gg)
-var hG=_gd(x[15],cF,e_,d_)
+var hG=_gd(x[22],cF,e_,d_)
 if(hG){
 var oH=_1z(z,5,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2443,7 +2459,7 @@ fE.wxXCkey=3
 hG(oH,oH,fE,gg)
 gg.f=cur_globalf
 }
-else _w(cF,x[15],1,842)
+else _w(cF,x[22],1,842)
 cs.pop()
 xC.wxXCkey=1
 oD.wxXCkey=1
@@ -2458,22 +2474,22 @@ return r
 }
 var m11=function(e,s,r,gg){
 var z=gz$gwx_12()
-var bO=e_[x[15]].i
-_ai(bO,x[16],e_,x[15],1,1)
+var bO=e_[x[22]].i
+_ai(bO,x[4],e_,x[22],1,1)
 bO.pop()
 return r
 }
-e_[x[15]]={f:m11,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[17]]={}
+e_[x[22]]={f:m11,j:[],i:[],ti:[x[4]],ic:[]}
+d_[x[23]]={}
 var m12=function(e,s,r,gg){
 var z=gz$gwx_13()
-var xQ=e_[x[17]].i
-_ai(xQ,x[18],e_,x[17],1,1)
+var xQ=e_[x[23]].i
+_ai(xQ,x[24],e_,x[23],1,1)
 var oR=_v()
 _(r,oR)
 cs.push("./pages/common/checkSchool.wxml:template:2:6")
 var fS=_oz(z,1,e,s,gg)
-var cT=_gd(x[17],fS,e_,d_)
+var cT=_gd(x[23],fS,e_,d_)
 if(cT){
 var hU=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2481,19 +2497,19 @@ oR.wxXCkey=3
 cT(hU,hU,oR,gg)
 gg.f=cur_globalf
 }
-else _w(fS,x[17],2,18)
+else _w(fS,x[23],2,18)
 cs.pop()
 xQ.pop()
 return r
 }
-e_[x[17]]={f:m12,j:[],i:[],ti:[x[18]],ic:[]}
-d_[x[19]]={}
-d_[x[19]]["3f7de31e"]=function(e,s,r,gg){
+e_[x[23]]={f:m12,j:[],i:[],ti:[x[24]],ic:[]}
+d_[x[25]]={}
+d_[x[25]]["3f7de31e"]=function(e,s,r,gg){
 var z=gz$gwx_14()
-var b=x[19]+':3f7de31e'
+var b=x[25]+':3f7de31e'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/comment.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[19]);return}
+if(p_[b]){_wl(b,x[25]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2507,17 +2523,17 @@ var m13=function(e,s,r,gg){
 var z=gz$gwx_14()
 return r
 }
-e_[x[19]]={f:m13,j:[],i:[],ti:[],ic:[]}
-d_[x[20]]={}
+e_[x[25]]={f:m13,j:[],i:[],ti:[],ic:[]}
+d_[x[26]]={}
 var m14=function(e,s,r,gg){
 var z=gz$gwx_15()
-var oX=e_[x[20]].i
-_ai(oX,x[21],e_,x[20],1,1)
+var oX=e_[x[26]].i
+_ai(oX,x[27],e_,x[26],1,1)
 var lY=_v()
 _(r,lY)
 cs.push("./pages/common/comment.wxml:template:2:6")
 var aZ=_oz(z,1,e,s,gg)
-var t1=_gd(x[20],aZ,e_,d_)
+var t1=_gd(x[26],aZ,e_,d_)
 if(t1){
 var e2=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2525,19 +2541,19 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[20],2,18)
+else _w(aZ,x[26],2,18)
 cs.pop()
 oX.pop()
 return r
 }
-e_[x[20]]={f:m14,j:[],i:[],ti:[x[21]],ic:[]}
-d_[x[22]]={}
-d_[x[22]]["04015d09"]=function(e,s,r,gg){
+e_[x[26]]={f:m14,j:[],i:[],ti:[x[27]],ic:[]}
+d_[x[28]]={}
+d_[x[28]]["04015d09"]=function(e,s,r,gg){
 var z=gz$gwx_16()
-var b=x[22]+':04015d09'
+var b=x[28]+':04015d09'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/search.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[22]);return}
+if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
@@ -2562,17 +2578,17 @@ var m15=function(e,s,r,gg){
 var z=gz$gwx_16()
 return r
 }
-e_[x[22]]={f:m15,j:[],i:[],ti:[],ic:[]}
-d_[x[23]]={}
+e_[x[28]]={f:m15,j:[],i:[],ti:[],ic:[]}
+d_[x[29]]={}
 var m16=function(e,s,r,gg){
 var z=gz$gwx_17()
-var x5=e_[x[23]].i
-_ai(x5,x[24],e_,x[23],1,1)
+var x5=e_[x[29]].i
+_ai(x5,x[30],e_,x[29],1,1)
 var o6=_v()
 _(r,o6)
 cs.push("./pages/common/search.wxml:template:2:6")
 var f7=_oz(z,1,e,s,gg)
-var c8=_gd(x[23],f7,e_,d_)
+var c8=_gd(x[29],f7,e_,d_)
 if(c8){
 var h9=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2580,19 +2596,19 @@ o6.wxXCkey=3
 c8(h9,h9,o6,gg)
 gg.f=cur_globalf
 }
-else _w(f7,x[23],2,18)
+else _w(f7,x[29],2,18)
 cs.pop()
 x5.pop()
 return r
 }
-e_[x[23]]={f:m16,j:[],i:[],ti:[x[24]],ic:[]}
-d_[x[25]]={}
-d_[x[25]]["0807302a"]=function(e,s,r,gg){
+e_[x[29]]={f:m16,j:[],i:[],ti:[x[30]],ic:[]}
+d_[x[31]]={}
+d_[x[31]]["0807302a"]=function(e,s,r,gg){
 var z=gz$gwx_18()
-var b=x[25]+':0807302a'
+var b=x[31]+':0807302a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/common/update.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[25]);return}
+if(p_[b]){_wl(b,x[31]);return}
 p_[b]=true
 try{
 cs.push("./pages/common/update.vue.wxml:view:1:27")
@@ -2644,17 +2660,17 @@ var m17=function(e,s,r,gg){
 var z=gz$gwx_18()
 return r
 }
-e_[x[25]]={f:m17,j:[],i:[],ti:[],ic:[]}
-d_[x[26]]={}
+e_[x[31]]={f:m17,j:[],i:[],ti:[],ic:[]}
+d_[x[32]]={}
 var m18=function(e,s,r,gg){
 var z=gz$gwx_19()
-var oBB=e_[x[26]].i
-_ai(oBB,x[27],e_,x[26],1,1)
+var oBB=e_[x[32]].i
+_ai(oBB,x[33],e_,x[32],1,1)
 var lCB=_v()
 _(r,lCB)
 cs.push("./pages/common/update.wxml:template:2:6")
 var aDB=_oz(z,1,e,s,gg)
-var tEB=_gd(x[26],aDB,e_,d_)
+var tEB=_gd(x[32],aDB,e_,d_)
 if(tEB){
 var eFB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2662,19 +2678,19 @@ lCB.wxXCkey=3
 tEB(eFB,eFB,lCB,gg)
 gg.f=cur_globalf
 }
-else _w(aDB,x[26],2,18)
+else _w(aDB,x[32],2,18)
 cs.pop()
 oBB.pop()
 return r
 }
-e_[x[26]]={f:m18,j:[],i:[],ti:[x[27]],ic:[]}
-d_[x[28]]={}
-d_[x[28]]["98a44ff0"]=function(e,s,r,gg){
+e_[x[32]]={f:m18,j:[],i:[],ti:[x[33]],ic:[]}
+d_[x[34]]={}
+d_[x[34]]["98a44ff0"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[28]+':98a44ff0'
+var b=x[34]+':98a44ff0'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[28]);return}
+if(p_[b]){_wl(b,x[34]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2688,17 +2704,17 @@ var m19=function(e,s,r,gg){
 var z=gz$gwx_20()
 return r
 }
-e_[x[28]]={f:m19,j:[],i:[],ti:[],ic:[]}
-d_[x[29]]={}
+e_[x[34]]={f:m19,j:[],i:[],ti:[],ic:[]}
+d_[x[35]]={}
 var m20=function(e,s,r,gg){
 var z=gz$gwx_21()
-var xIB=e_[x[29]].i
-_ai(xIB,x[30],e_,x[29],1,1)
+var xIB=e_[x[35]].i
+_ai(xIB,x[36],e_,x[35],1,1)
 var oJB=_v()
 _(r,oJB)
 cs.push("./pages/hot/hot.wxml:template:2:6")
 var fKB=_oz(z,1,e,s,gg)
-var cLB=_gd(x[29],fKB,e_,d_)
+var cLB=_gd(x[35],fKB,e_,d_)
 if(cLB){
 var hMB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2706,19 +2722,19 @@ oJB.wxXCkey=3
 cLB(hMB,hMB,oJB,gg)
 gg.f=cur_globalf
 }
-else _w(fKB,x[29],2,18)
+else _w(fKB,x[35],2,18)
 cs.pop()
 xIB.pop()
 return r
 }
-e_[x[29]]={f:m20,j:[],i:[],ti:[x[30]],ic:[]}
-d_[x[31]]={}
-d_[x[31]]["22ce7d59"]=function(e,s,r,gg){
+e_[x[35]]={f:m20,j:[],i:[],ti:[x[36]],ic:[]}
+d_[x[37]]={}
+d_[x[37]]["22ce7d59"]=function(e,s,r,gg){
 var z=gz$gwx_22()
-var b=x[31]+':22ce7d59'
+var b=x[37]+':22ce7d59'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[31]);return}
+if(p_[b]){_wl(b,x[37]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
@@ -2727,15 +2743,15 @@ _rz(z,oB,'class',1,e,s,gg)
 var xC=_v()
 _(oB,xC)
 if(_oz(z,2,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/index/confession/detail.vue.wxml:view:1:1815")
+cs.push("./pages/index/confession/detail.vue.wxml:view:1:1825")
 var oD=_v()
 _(xC,oD)
-cs.push("./pages/index/confession/detail.vue.wxml:view:1:1901")
+cs.push("./pages/index/confession/detail.vue.wxml:view:1:1911")
 var fE=function(hG,cF,oH,gg){
 var oJ=_v()
 _(oH,oJ)
 if(_oz(z,7,hG,cF,gg)){oJ.wxVkey=1
-cs.push("./pages/index/confession/detail.vue.wxml:text:1:3009")
+cs.push("./pages/index/confession/detail.vue.wxml:text:1:3025")
 cs.pop()
 }
 oJ.wxXCkey=1
@@ -2748,9 +2764,9 @@ cs.pop()
 }
 var lK=_v()
 _(oB,lK)
-cs.push("./pages/index/confession/detail.vue.wxml:template:1:4270")
+cs.push("./pages/index/confession/detail.vue.wxml:template:1:4286")
 var aL=_oz(z,9,e,s,gg)
-var tM=_gd(x[31],aL,e_,d_)
+var tM=_gd(x[37],aL,e_,d_)
 if(tM){
 var eN=_1z(z,8,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2758,7 +2774,7 @@ lK.wxXCkey=3
 tM(eN,eN,lK,gg)
 gg.f=cur_globalf
 }
-else _w(aL,x[31],1,4382)
+else _w(aL,x[37],1,4398)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -2772,22 +2788,22 @@ return r
 }
 var m21=function(e,s,r,gg){
 var z=gz$gwx_22()
-var cOB=e_[x[31]].i
-_ai(cOB,x[32],e_,x[31],1,1)
+var cOB=e_[x[37]].i
+_ai(cOB,x[8],e_,x[37],1,1)
 cOB.pop()
 return r
 }
-e_[x[31]]={f:m21,j:[],i:[],ti:[x[32]],ic:[]}
-d_[x[33]]={}
+e_[x[37]]={f:m21,j:[],i:[],ti:[x[8]],ic:[]}
+d_[x[38]]={}
 var m22=function(e,s,r,gg){
 var z=gz$gwx_23()
-var lQB=e_[x[33]].i
-_ai(lQB,x[34],e_,x[33],1,1)
+var lQB=e_[x[38]].i
+_ai(lQB,x[39],e_,x[38],1,1)
 var aRB=_v()
 _(r,aRB)
 cs.push("./pages/index/confession/detail.wxml:template:2:6")
 var tSB=_oz(z,1,e,s,gg)
-var eTB=_gd(x[33],tSB,e_,d_)
+var eTB=_gd(x[38],tSB,e_,d_)
 if(eTB){
 var bUB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2795,19 +2811,19 @@ aRB.wxXCkey=3
 eTB(bUB,bUB,aRB,gg)
 gg.f=cur_globalf
 }
-else _w(tSB,x[33],2,18)
+else _w(tSB,x[38],2,18)
 cs.pop()
 lQB.pop()
 return r
 }
-e_[x[33]]={f:m22,j:[],i:[],ti:[x[34]],ic:[]}
-d_[x[35]]={}
-d_[x[35]]["227202ca"]=function(e,s,r,gg){
+e_[x[38]]={f:m22,j:[],i:[],ti:[x[39]],ic:[]}
+d_[x[40]]={}
+d_[x[40]]["227202ca"]=function(e,s,r,gg){
 var z=gz$gwx_24()
-var b=x[35]+':227202ca'
+var b=x[40]+':227202ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[35]);return}
+if(p_[b]){_wl(b,x[40]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
@@ -2817,7 +2833,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1608")
 var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[35],oD,e_,d_)
+var fE=_gd(x[40],oD,e_,d_)
 if(fE){
 var cF=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2825,13 +2841,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[35],1,1679)
+else _w(oD,x[40],1,1679)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/index/confession/index.vue.wxml:template:1:1702")
 var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[35],oH,e_,d_)
+var cI=_gd(x[40],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2839,7 +2855,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[35],1,1773)
+else _w(oH,x[40],1,1773)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -2852,24 +2868,24 @@ return r
 }
 var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
-var xWB=e_[x[35]].i
-_ai(xWB,x[36],e_,x[35],1,1)
-_ai(xWB,x[37],e_,x[35],1,59)
+var xWB=e_[x[40]].i
+_ai(xWB,x[7],e_,x[40],1,1)
+_ai(xWB,x[9],e_,x[40],1,59)
 xWB.pop()
 xWB.pop()
 return r
 }
-e_[x[35]]={f:m23,j:[],i:[],ti:[x[36],x[37]],ic:[]}
-d_[x[38]]={}
+e_[x[40]]={f:m23,j:[],i:[],ti:[x[7],x[9]],ic:[]}
+d_[x[41]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var fYB=e_[x[38]].i
-_ai(fYB,x[39],e_,x[38],1,1)
+var fYB=e_[x[41]].i
+_ai(fYB,x[42],e_,x[41],1,1)
 var cZB=_v()
 _(r,cZB)
 cs.push("./pages/index/confession/index.wxml:template:2:6")
 var h1B=_oz(z,1,e,s,gg)
-var o2B=_gd(x[38],h1B,e_,d_)
+var o2B=_gd(x[41],h1B,e_,d_)
 if(o2B){
 var c3B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2877,19 +2893,19 @@ cZB.wxXCkey=3
 o2B(c3B,c3B,cZB,gg)
 gg.f=cur_globalf
 }
-else _w(h1B,x[38],2,18)
+else _w(h1B,x[41],2,18)
 cs.pop()
 fYB.pop()
 return r
 }
-e_[x[38]]={f:m24,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[40]]={}
-d_[x[40]]["67be4df2"]=function(e,s,r,gg){
+e_[x[41]]={f:m24,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[43]]={}
+d_[x[43]]["67be4df2"]=function(e,s,r,gg){
 var z=gz$gwx_26()
-var b=x[40]+':67be4df2'
+var b=x[43]+':67be4df2'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/publish.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[40]);return}
+if(p_[b]){_wl(b,x[43]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/publish.vue.wxml:view:1:27")
@@ -2922,17 +2938,17 @@ var m25=function(e,s,r,gg){
 var z=gz$gwx_26()
 return r
 }
-e_[x[40]]={f:m25,j:[],i:[],ti:[],ic:[]}
-d_[x[41]]={}
+e_[x[43]]={f:m25,j:[],i:[],ti:[],ic:[]}
+d_[x[44]]={}
 var m26=function(e,s,r,gg){
 var z=gz$gwx_27()
-var a6B=e_[x[41]].i
-_ai(a6B,x[42],e_,x[41],1,1)
+var a6B=e_[x[44]].i
+_ai(a6B,x[45],e_,x[44],1,1)
 var t7B=_v()
 _(r,t7B)
 cs.push("./pages/index/confession/publish.wxml:template:2:6")
 var e8B=_oz(z,1,e,s,gg)
-var b9B=_gd(x[41],e8B,e_,d_)
+var b9B=_gd(x[44],e8B,e_,d_)
 if(b9B){
 var o0B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2940,19 +2956,19 @@ t7B.wxXCkey=3
 b9B(o0B,o0B,t7B,gg)
 gg.f=cur_globalf
 }
-else _w(e8B,x[41],2,18)
+else _w(e8B,x[44],2,18)
 cs.pop()
 a6B.pop()
 return r
 }
-e_[x[41]]={f:m26,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[43]]={}
-d_[x[43]]["200c6b52"]=function(e,s,r,gg){
+e_[x[44]]={f:m26,j:[],i:[],ti:[x[45]],ic:[]}
+d_[x[46]]={}
+d_[x[46]]["200c6b52"]=function(e,s,r,gg){
 var z=gz$gwx_28()
-var b=x[43]+':200c6b52'
+var b=x[46]+':200c6b52'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[43]);return}
+if(p_[b]){_wl(b,x[46]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -2966,17 +2982,17 @@ var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
 return r
 }
-e_[x[43]]={f:m27,j:[],i:[],ti:[],ic:[]}
-d_[x[44]]={}
+e_[x[46]]={f:m27,j:[],i:[],ti:[],ic:[]}
+d_[x[47]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var fCC=e_[x[44]].i
-_ai(fCC,x[39],e_,x[44],1,1)
+var fCC=e_[x[47]].i
+_ai(fCC,x[42],e_,x[47],1,1)
 var cDC=_v()
 _(r,cDC)
 cs.push("./pages/index/index.wxml:template:2:6")
 var hEC=_oz(z,1,e,s,gg)
-var oFC=_gd(x[44],hEC,e_,d_)
+var oFC=_gd(x[47],hEC,e_,d_)
 if(oFC){
 var cGC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2984,19 +3000,19 @@ cDC.wxXCkey=3
 oFC(cGC,cGC,cDC,gg)
 gg.f=cur_globalf
 }
-else _w(hEC,x[44],2,18)
+else _w(hEC,x[47],2,18)
 cs.pop()
 fCC.pop()
 return r
 }
-e_[x[44]]={f:m28,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[45]]={}
-d_[x[45]]["c7b673fe"]=function(e,s,r,gg){
+e_[x[47]]={f:m28,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[48]]={}
+d_[x[48]]["c7b673fe"]=function(e,s,r,gg){
 var z=gz$gwx_30()
-var b=x[45]+':c7b673fe'
+var b=x[48]+':c7b673fe'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[45]);return}
+if(p_[b]){_wl(b,x[48]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3010,17 +3026,17 @@ var m29=function(e,s,r,gg){
 var z=gz$gwx_30()
 return r
 }
-e_[x[45]]={f:m29,j:[],i:[],ti:[],ic:[]}
-d_[x[46]]={}
+e_[x[48]]={f:m29,j:[],i:[],ti:[],ic:[]}
+d_[x[49]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var aJC=e_[x[46]].i
-_ai(aJC,x[47],e_,x[46],1,1)
+var aJC=e_[x[49]].i
+_ai(aJC,x[50],e_,x[49],1,1)
 var tKC=_v()
 _(r,tKC)
 cs.push("./pages/index/market/checkstand.wxml:template:2:6")
 var eLC=_oz(z,1,e,s,gg)
-var bMC=_gd(x[46],eLC,e_,d_)
+var bMC=_gd(x[49],eLC,e_,d_)
 if(bMC){
 var oNC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3028,19 +3044,19 @@ tKC.wxXCkey=3
 bMC(oNC,oNC,tKC,gg)
 gg.f=cur_globalf
 }
-else _w(eLC,x[46],2,18)
+else _w(eLC,x[49],2,18)
 cs.pop()
 aJC.pop()
 return r
 }
-e_[x[46]]={f:m30,j:[],i:[],ti:[x[47]],ic:[]}
-d_[x[48]]={}
-d_[x[48]]["5be952bf"]=function(e,s,r,gg){
+e_[x[49]]={f:m30,j:[],i:[],ti:[x[50]],ic:[]}
+d_[x[51]]={}
+d_[x[51]]["5be952bf"]=function(e,s,r,gg){
 var z=gz$gwx_32()
-var b=x[48]+':5be952bf'
+var b=x[51]+':5be952bf'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[48]);return}
+if(p_[b]){_wl(b,x[51]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/index.vue.wxml:view:1:85")
@@ -3126,7 +3142,7 @@ var lY=_v()
 _(oB,lY)
 cs.push("./pages/index/market/index.vue.wxml:template:1:3474")
 var aZ=_oz(z,35,e,s,gg)
-var t1=_gd(x[48],aZ,e_,d_)
+var t1=_gd(x[51],aZ,e_,d_)
 if(t1){
 var e2=_1z(z,34,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3134,7 +3150,7 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[48],1,3545)
+else _w(aZ,x[51],1,3545)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3147,22 +3163,22 @@ return r
 }
 var m31=function(e,s,r,gg){
 var z=gz$gwx_32()
-var oPC=e_[x[48]].i
-_ai(oPC,x[36],e_,x[48],1,1)
+var oPC=e_[x[51]].i
+_ai(oPC,x[7],e_,x[51],1,1)
 oPC.pop()
 return r
 }
-e_[x[48]]={f:m31,j:[],i:[],ti:[x[36]],ic:[]}
-d_[x[49]]={}
+e_[x[51]]={f:m31,j:[],i:[],ti:[x[7]],ic:[]}
+d_[x[52]]={}
 var m32=function(e,s,r,gg){
 var z=gz$gwx_33()
-var cRC=e_[x[49]].i
-_ai(cRC,x[39],e_,x[49],1,1)
+var cRC=e_[x[52]].i
+_ai(cRC,x[42],e_,x[52],1,1)
 var hSC=_v()
 _(r,hSC)
 cs.push("./pages/index/market/index.wxml:template:2:6")
 var oTC=_oz(z,1,e,s,gg)
-var cUC=_gd(x[49],oTC,e_,d_)
+var cUC=_gd(x[52],oTC,e_,d_)
 if(cUC){
 var oVC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3170,19 +3186,19 @@ hSC.wxXCkey=3
 cUC(oVC,oVC,hSC,gg)
 gg.f=cur_globalf
 }
-else _w(oTC,x[49],2,18)
+else _w(oTC,x[52],2,18)
 cs.pop()
 cRC.pop()
 return r
 }
-e_[x[49]]={f:m32,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[50]]={}
-d_[x[50]]["2763a7ef"]=function(e,s,r,gg){
+e_[x[52]]={f:m32,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[53]]={}
+d_[x[53]]["2763a7ef"]=function(e,s,r,gg){
 var z=gz$gwx_34()
-var b=x[50]+':2763a7ef'
+var b=x[53]+':2763a7ef'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/market.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[50]);return}
+if(p_[b]){_wl(b,x[53]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/market.vue.wxml:view:1:194")
@@ -3191,7 +3207,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/market/market.vue.wxml:template:1:244")
 var oD=_oz(z,5,e,s,gg)
-var fE=_gd(x[50],oD,e_,d_)
+var fE=_gd(x[53],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3199,7 +3215,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[50],1,357)
+else _w(oD,x[53],1,357)
 cs.pop()
 cs.push("./pages/index/market/market.vue.wxml:view:1:2430")
 var hG=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
@@ -3216,7 +3232,7 @@ var cI=_v()
 _(oB,cI)
 cs.push("./pages/index/market/market.vue.wxml:template:1:3066")
 var oJ=_oz(z,12,e,s,gg)
-var lK=_gd(x[50],oJ,e_,d_)
+var lK=_gd(x[53],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3224,7 +3240,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[50],1,3193)
+else _w(oJ,x[53],1,3193)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3237,26 +3253,26 @@ return r
 }
 var m33=function(e,s,r,gg){
 var z=gz$gwx_34()
-var aXC=e_[x[50]].i
-_ai(aXC,x[1],e_,x[50],1,1)
-_ai(aXC,x[2],e_,x[50],1,59)
-_ai(aXC,x[3],e_,x[50],1,108)
+var aXC=e_[x[53]].i
+_ai(aXC,x[1],e_,x[53],1,1)
+_ai(aXC,x[2],e_,x[53],1,59)
+_ai(aXC,x[3],e_,x[53],1,108)
 aXC.pop()
 aXC.pop()
 aXC.pop()
 return r
 }
-e_[x[50]]={f:m33,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
-d_[x[51]]={}
+e_[x[53]]={f:m33,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+d_[x[54]]={}
 var m34=function(e,s,r,gg){
 var z=gz$gwx_35()
-var eZC=e_[x[51]].i
-_ai(eZC,x[52],e_,x[51],1,1)
+var eZC=e_[x[54]].i
+_ai(eZC,x[55],e_,x[54],1,1)
 var b1C=_v()
 _(r,b1C)
 cs.push("./pages/index/market/market.wxml:template:2:6")
 var o2C=_oz(z,1,e,s,gg)
-var x3C=_gd(x[51],o2C,e_,d_)
+var x3C=_gd(x[54],o2C,e_,d_)
 if(x3C){
 var o4C=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3264,19 +3280,19 @@ b1C.wxXCkey=3
 x3C(o4C,o4C,b1C,gg)
 gg.f=cur_globalf
 }
-else _w(o2C,x[51],2,18)
+else _w(o2C,x[54],2,18)
 cs.pop()
 eZC.pop()
 return r
 }
-e_[x[51]]={f:m34,j:[],i:[],ti:[x[52]],ic:[]}
-d_[x[53]]={}
-d_[x[53]]["011fc632"]=function(e,s,r,gg){
+e_[x[54]]={f:m34,j:[],i:[],ti:[x[55]],ic:[]}
+d_[x[56]]={}
+d_[x[56]]["011fc632"]=function(e,s,r,gg){
 var z=gz$gwx_36()
-var b=x[53]+':011fc632'
+var b=x[56]+':011fc632'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[53]);return}
+if(p_[b]){_wl(b,x[56]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3290,17 +3306,17 @@ var m35=function(e,s,r,gg){
 var z=gz$gwx_36()
 return r
 }
-e_[x[53]]={f:m35,j:[],i:[],ti:[],ic:[]}
-d_[x[54]]={}
+e_[x[56]]={f:m35,j:[],i:[],ti:[],ic:[]}
+d_[x[57]]={}
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
-var h7C=e_[x[54]].i
-_ai(h7C,x[55],e_,x[54],1,1)
+var h7C=e_[x[57]].i
+_ai(h7C,x[58],e_,x[57],1,1)
 var o8C=_v()
 _(r,o8C)
 cs.push("./pages/index/market/payresult.wxml:template:2:6")
 var c9C=_oz(z,1,e,s,gg)
-var o0C=_gd(x[54],c9C,e_,d_)
+var o0C=_gd(x[57],c9C,e_,d_)
 if(o0C){
 var lAD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3308,19 +3324,19 @@ o8C.wxXCkey=3
 o0C(lAD,lAD,o8C,gg)
 gg.f=cur_globalf
 }
-else _w(c9C,x[54],2,18)
+else _w(c9C,x[57],2,18)
 cs.pop()
 h7C.pop()
 return r
 }
-e_[x[54]]={f:m36,j:[],i:[],ti:[x[55]],ic:[]}
-d_[x[56]]={}
-d_[x[56]]["2a9ca1f3"]=function(e,s,r,gg){
+e_[x[57]]={f:m36,j:[],i:[],ti:[x[58]],ic:[]}
+d_[x[59]]={}
+d_[x[59]]["2a9ca1f3"]=function(e,s,r,gg){
 var z=gz$gwx_38()
-var b=x[56]+':2a9ca1f3'
+var b=x[59]+':2a9ca1f3'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[56]);return}
+if(p_[b]){_wl(b,x[59]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3334,17 +3350,17 @@ var m37=function(e,s,r,gg){
 var z=gz$gwx_38()
 return r
 }
-e_[x[56]]={f:m37,j:[],i:[],ti:[],ic:[]}
-d_[x[57]]={}
+e_[x[59]]={f:m37,j:[],i:[],ti:[],ic:[]}
+d_[x[60]]={}
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
-var eDD=e_[x[57]].i
-_ai(eDD,x[58],e_,x[57],1,1)
+var eDD=e_[x[60]].i
+_ai(eDD,x[61],e_,x[60],1,1)
 var bED=_v()
 _(r,bED)
 cs.push("./pages/index/parttime/details.wxml:template:2:6")
 var oFD=_oz(z,1,e,s,gg)
-var xGD=_gd(x[57],oFD,e_,d_)
+var xGD=_gd(x[60],oFD,e_,d_)
 if(xGD){
 var oHD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3352,19 +3368,19 @@ bED.wxXCkey=3
 xGD(oHD,oHD,bED,gg)
 gg.f=cur_globalf
 }
-else _w(oFD,x[57],2,18)
+else _w(oFD,x[60],2,18)
 cs.pop()
 eDD.pop()
 return r
 }
-e_[x[57]]={f:m38,j:[],i:[],ti:[x[58]],ic:[]}
-d_[x[59]]={}
-d_[x[59]]["78cdde7a"]=function(e,s,r,gg){
+e_[x[60]]={f:m38,j:[],i:[],ti:[x[61]],ic:[]}
+d_[x[62]]={}
+d_[x[62]]["78cdde7a"]=function(e,s,r,gg){
 var z=gz$gwx_40()
-var b=x[59]+':78cdde7a'
+var b=x[62]+':78cdde7a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[59]);return}
+if(p_[b]){_wl(b,x[62]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3378,17 +3394,17 @@ var m39=function(e,s,r,gg){
 var z=gz$gwx_40()
 return r
 }
-e_[x[59]]={f:m39,j:[],i:[],ti:[],ic:[]}
-d_[x[60]]={}
+e_[x[62]]={f:m39,j:[],i:[],ti:[],ic:[]}
+d_[x[63]]={}
 var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
-var hKD=e_[x[60]].i
-_ai(hKD,x[39],e_,x[60],1,1)
+var hKD=e_[x[63]].i
+_ai(hKD,x[42],e_,x[63],1,1)
 var oLD=_v()
 _(r,oLD)
 cs.push("./pages/index/parttime/index.wxml:template:2:6")
 var cMD=_oz(z,1,e,s,gg)
-var oND=_gd(x[60],cMD,e_,d_)
+var oND=_gd(x[63],cMD,e_,d_)
 if(oND){
 var lOD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3396,19 +3412,19 @@ oLD.wxXCkey=3
 oND(lOD,lOD,oLD,gg)
 gg.f=cur_globalf
 }
-else _w(cMD,x[60],2,18)
+else _w(cMD,x[63],2,18)
 cs.pop()
 hKD.pop()
 return r
 }
-e_[x[60]]={f:m40,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[61]]={}
-d_[x[61]]["6cb9909c"]=function(e,s,r,gg){
+e_[x[63]]={f:m40,j:[],i:[],ti:[x[42]],ic:[]}
+d_[x[64]]={}
+d_[x[64]]["6cb9909c"]=function(e,s,r,gg){
 var z=gz$gwx_42()
-var b=x[61]+':6cb9909c'
+var b=x[64]+':6cb9909c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/binding.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[61]);return}
+if(p_[b]){_wl(b,x[64]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3422,17 +3438,17 @@ var m41=function(e,s,r,gg){
 var z=gz$gwx_42()
 return r
 }
-e_[x[61]]={f:m41,j:[],i:[],ti:[],ic:[]}
-d_[x[62]]={}
+e_[x[64]]={f:m41,j:[],i:[],ti:[],ic:[]}
+d_[x[65]]={}
 var m42=function(e,s,r,gg){
 var z=gz$gwx_43()
-var eRD=e_[x[62]].i
-_ai(eRD,x[63],e_,x[62],1,1)
+var eRD=e_[x[65]].i
+_ai(eRD,x[66],e_,x[65],1,1)
 var bSD=_v()
 _(r,bSD)
 cs.push("./pages/login/binding.wxml:template:2:6")
 var oTD=_oz(z,1,e,s,gg)
-var xUD=_gd(x[62],oTD,e_,d_)
+var xUD=_gd(x[65],oTD,e_,d_)
 if(xUD){
 var oVD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3440,19 +3456,19 @@ bSD.wxXCkey=3
 xUD(oVD,oVD,bSD,gg)
 gg.f=cur_globalf
 }
-else _w(oTD,x[62],2,18)
+else _w(oTD,x[65],2,18)
 cs.pop()
 eRD.pop()
 return r
 }
-e_[x[62]]={f:m42,j:[],i:[],ti:[x[63]],ic:[]}
-d_[x[64]]={}
-d_[x[64]]["1e826b40"]=function(e,s,r,gg){
+e_[x[65]]={f:m42,j:[],i:[],ti:[x[66]],ic:[]}
+d_[x[67]]={}
+d_[x[67]]["1e826b40"]=function(e,s,r,gg){
 var z=gz$gwx_44()
-var b=x[64]+':1e826b40'
+var b=x[67]+':1e826b40'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[64]);return}
+if(p_[b]){_wl(b,x[67]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3466,17 +3482,17 @@ var m43=function(e,s,r,gg){
 var z=gz$gwx_44()
 return r
 }
-e_[x[64]]={f:m43,j:[],i:[],ti:[],ic:[]}
-d_[x[65]]={}
+e_[x[67]]={f:m43,j:[],i:[],ti:[],ic:[]}
+d_[x[68]]={}
 var m44=function(e,s,r,gg){
 var z=gz$gwx_45()
-var hYD=e_[x[65]].i
-_ai(hYD,x[66],e_,x[65],1,1)
+var hYD=e_[x[68]].i
+_ai(hYD,x[69],e_,x[68],1,1)
 var oZD=_v()
 _(r,oZD)
 cs.push("./pages/login/login.wxml:template:2:6")
 var c1D=_oz(z,1,e,s,gg)
-var o2D=_gd(x[65],c1D,e_,d_)
+var o2D=_gd(x[68],c1D,e_,d_)
 if(o2D){
 var l3D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3484,19 +3500,19 @@ oZD.wxXCkey=3
 o2D(l3D,l3D,oZD,gg)
 gg.f=cur_globalf
 }
-else _w(c1D,x[65],2,18)
+else _w(c1D,x[68],2,18)
 cs.pop()
 hYD.pop()
 return r
 }
-e_[x[65]]={f:m44,j:[],i:[],ti:[x[66]],ic:[]}
-d_[x[67]]={}
-d_[x[67]]["15dde1d8"]=function(e,s,r,gg){
+e_[x[68]]={f:m44,j:[],i:[],ti:[x[69]],ic:[]}
+d_[x[70]]={}
+d_[x[70]]["15dde1d8"]=function(e,s,r,gg){
 var z=gz$gwx_46()
-var b=x[67]+':15dde1d8'
+var b=x[70]+':15dde1d8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/logintemp.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[67]);return}
+if(p_[b]){_wl(b,x[70]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3510,17 +3526,17 @@ var m45=function(e,s,r,gg){
 var z=gz$gwx_46()
 return r
 }
-e_[x[67]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[68]]={}
+e_[x[70]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[71]]={}
 var m46=function(e,s,r,gg){
 var z=gz$gwx_47()
-var e6D=e_[x[68]].i
-_ai(e6D,x[69],e_,x[68],1,1)
+var e6D=e_[x[71]].i
+_ai(e6D,x[72],e_,x[71],1,1)
 var b7D=_v()
 _(r,b7D)
 cs.push("./pages/login/logintemp.wxml:template:2:6")
 var o8D=_oz(z,1,e,s,gg)
-var x9D=_gd(x[68],o8D,e_,d_)
+var x9D=_gd(x[71],o8D,e_,d_)
 if(x9D){
 var o0D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3528,19 +3544,19 @@ b7D.wxXCkey=3
 x9D(o0D,o0D,b7D,gg)
 gg.f=cur_globalf
 }
-else _w(o8D,x[68],2,18)
+else _w(o8D,x[71],2,18)
 cs.pop()
 e6D.pop()
 return r
 }
-e_[x[68]]={f:m46,j:[],i:[],ti:[x[69]],ic:[]}
-d_[x[70]]={}
-d_[x[70]]["631f5603"]=function(e,s,r,gg){
+e_[x[71]]={f:m46,j:[],i:[],ti:[x[72]],ic:[]}
+d_[x[73]]={}
+d_[x[73]]["631f5603"]=function(e,s,r,gg){
 var z=gz$gwx_48()
-var b=x[70]+':631f5603'
+var b=x[73]+':631f5603'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/chat.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[70]);return}
+if(p_[b]){_wl(b,x[73]);return}
 p_[b]=true
 try{
 cs.push("./pages/message/chat.vue.wxml:view:1:142")
@@ -3550,7 +3566,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/message/chat.vue.wxml:template:1:171")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[70],oD,e_,d_)
+var fE=_gd(x[73],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3558,13 +3574,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[70],1,327)
+else _w(oD,x[73],1,327)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/message/chat.vue.wxml:template:1:350")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[70],oH,e_,d_)
+var cI=_gd(x[73],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3572,7 +3588,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[70],1,564)
+else _w(oH,x[73],1,564)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3585,24 +3601,24 @@ return r
 }
 var m47=function(e,s,r,gg){
 var z=gz$gwx_48()
-var cBE=e_[x[70]].i
-_ai(cBE,x[71],e_,x[70],1,1)
-_ai(cBE,x[72],e_,x[70],1,57)
+var cBE=e_[x[73]].i
+_ai(cBE,x[5],e_,x[73],1,1)
+_ai(cBE,x[6],e_,x[73],1,57)
 cBE.pop()
 cBE.pop()
 return r
 }
-e_[x[70]]={f:m47,j:[],i:[],ti:[x[71],x[72]],ic:[]}
-d_[x[73]]={}
+e_[x[73]]={f:m47,j:[],i:[],ti:[x[5],x[6]],ic:[]}
+d_[x[74]]={}
 var m48=function(e,s,r,gg){
 var z=gz$gwx_49()
-var oDE=e_[x[73]].i
-_ai(oDE,x[74],e_,x[73],1,1)
+var oDE=e_[x[74]].i
+_ai(oDE,x[75],e_,x[74],1,1)
 var cEE=_v()
 _(r,cEE)
 cs.push("./pages/message/chat.wxml:template:2:6")
 var oFE=_oz(z,1,e,s,gg)
-var lGE=_gd(x[73],oFE,e_,d_)
+var lGE=_gd(x[74],oFE,e_,d_)
 if(lGE){
 var aHE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3610,19 +3626,19 @@ cEE.wxXCkey=3
 lGE(aHE,aHE,cEE,gg)
 gg.f=cur_globalf
 }
-else _w(oFE,x[73],2,18)
+else _w(oFE,x[74],2,18)
 cs.pop()
 oDE.pop()
 return r
 }
-e_[x[73]]={f:m48,j:[],i:[],ti:[x[74]],ic:[]}
-d_[x[75]]={}
-d_[x[75]]["0878b97c"]=function(e,s,r,gg){
+e_[x[74]]={f:m48,j:[],i:[],ti:[x[75]],ic:[]}
+d_[x[76]]={}
+d_[x[76]]["0878b97c"]=function(e,s,r,gg){
 var z=gz$gwx_50()
-var b=x[75]+':0878b97c'
+var b=x[76]+':0878b97c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[75]);return}
+if(p_[b]){_wl(b,x[76]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3660,17 +3676,17 @@ var m49=function(e,s,r,gg){
 var z=gz$gwx_50()
 return r
 }
-e_[x[75]]={f:m49,j:[],i:[],ti:[],ic:[]}
-d_[x[76]]={}
+e_[x[76]]={f:m49,j:[],i:[],ti:[],ic:[]}
+d_[x[77]]={}
 var m50=function(e,s,r,gg){
 var z=gz$gwx_51()
-var bKE=e_[x[76]].i
-_ai(bKE,x[77],e_,x[76],1,1)
+var bKE=e_[x[77]].i
+_ai(bKE,x[78],e_,x[77],1,1)
 var oLE=_v()
 _(r,oLE)
 cs.push("./pages/message/message.wxml:template:2:6")
 var xME=_oz(z,1,e,s,gg)
-var oNE=_gd(x[76],xME,e_,d_)
+var oNE=_gd(x[77],xME,e_,d_)
 if(oNE){
 var fOE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3678,26 +3694,26 @@ oLE.wxXCkey=3
 oNE(fOE,fOE,oLE,gg)
 gg.f=cur_globalf
 }
-else _w(xME,x[76],2,18)
+else _w(xME,x[77],2,18)
 cs.pop()
 bKE.pop()
 return r
 }
-e_[x[76]]={f:m50,j:[],i:[],ti:[x[77]],ic:[]}
-d_[x[78]]={}
-d_[x[78]]["1ab7b1d9"]=function(e,s,r,gg){
+e_[x[77]]={f:m50,j:[],i:[],ti:[x[78]],ic:[]}
+d_[x[79]]={}
+d_[x[79]]["1ab7b1d9"]=function(e,s,r,gg){
 var z=gz$gwx_52()
-var b=x[78]+':1ab7b1d9'
+var b=x[79]+':1ab7b1d9'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/address/address.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[78]);return}
+if(p_[b]){_wl(b,x[79]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/my/address/address.vue.wxml:template:1:1675")
 var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[78],xC,e_,d_)
+var oD=_gd(x[79],xC,e_,d_)
 if(oD){
 var fE=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3705,7 +3721,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[78],1,1871)
+else _w(xC,x[79],1,1871)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -3716,12 +3732,12 @@ return r
 }
 var m51=function(e,s,r,gg){
 var z=gz$gwx_52()
-var hQE=e_[x[78]].i
-_ai(hQE,x[79],e_,x[78],1,1)
+var hQE=e_[x[79]].i
+_ai(hQE,x[10],e_,x[79],1,1)
 hQE.pop()
 return r
 }
-e_[x[78]]={f:m51,j:[],i:[],ti:[x[79]],ic:[]}
+e_[x[79]]={f:m51,j:[],i:[],ti:[x[10]],ic:[]}
 d_[x[80]]={}
 var m52=function(e,s,r,gg){
 var z=gz$gwx_53()
@@ -3894,16 +3910,16 @@ return r
 var m57=function(e,s,r,gg){
 var z=gz$gwx_58()
 var bCF=e_[x[88]].i
-_ai(bCF,x[16],e_,x[88],1,1)
+_ai(bCF,x[4],e_,x[88],1,1)
 bCF.pop()
 return r
 }
-e_[x[88]]={f:m57,j:[],i:[],ti:[x[16]],ic:[]}
+e_[x[88]]={f:m57,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[89]]={}
 var m58=function(e,s,r,gg){
 var z=gz$gwx_59()
 var xEF=e_[x[89]].i
-_ai(xEF,x[39],e_,x[89],1,1)
+_ai(xEF,x[42],e_,x[89],1,1)
 var oFF=_v()
 _(r,oFF)
 cs.push("./pages/my/market/goods/index.wxml:template:2:6")
@@ -3921,7 +3937,7 @@ cs.pop()
 xEF.pop()
 return r
 }
-e_[x[89]]={f:m58,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[89]]={f:m58,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[90]]={}
 d_[x[90]]["1cad943f"]=function(e,s,r,gg){
 var z=gz$gwx_60()
@@ -3954,7 +3970,7 @@ d_[x[91]]={}
 var m60=function(e,s,r,gg){
 var z=gz$gwx_61()
 var oLF=e_[x[91]].i
-_ai(oLF,x[39],e_,x[91],1,1)
+_ai(oLF,x[42],e_,x[91],1,1)
 var lMF=_v()
 _(r,lMF)
 cs.push("./pages/my/market/index.wxml:template:2:6")
@@ -3972,7 +3988,7 @@ cs.pop()
 oLF.pop()
 return r
 }
-e_[x[91]]={f:m60,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[91]]={f:m60,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[92]]={}
 d_[x[92]]["7f259f98"]=function(e,s,r,gg){
 var z=gz$gwx_62()
@@ -4050,11 +4066,11 @@ return r
 var m63=function(e,s,r,gg){
 var z=gz$gwx_64()
 var cYF=e_[x[95]].i
-_ai(cYF,x[36],e_,x[95],1,1)
+_ai(cYF,x[7],e_,x[95],1,1)
 cYF.pop()
 return r
 }
-e_[x[95]]={f:m63,j:[],i:[],ti:[x[36]],ic:[]}
+e_[x[95]]={f:m63,j:[],i:[],ti:[x[7]],ic:[]}
 d_[x[96]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
@@ -4279,7 +4295,7 @@ d_[x[111]]={}
 var m74=function(e,s,r,gg){
 var z=gz$gwx_75()
 var oZG=e_[x[111]].i
-_ai(oZG,x[39],e_,x[111],1,1)
+_ai(oZG,x[42],e_,x[111],1,1)
 var f1G=_v()
 _(r,f1G)
 cs.push("./pages/my/parttime/index.wxml:template:2:6")
@@ -4297,7 +4313,7 @@ cs.pop()
 oZG.pop()
 return r
 }
-e_[x[111]]={f:m74,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[111]]={f:m74,j:[],i:[],ti:[x[42]],ic:[]}
 d_[x[112]]={}
 d_[x[112]]["c55f47f6"]=function(e,s,r,gg){
 var z=gz$gwx_76()
@@ -4563,11 +4579,11 @@ return r
 var m85=function(e,s,r,gg){
 var z=gz$gwx_86()
 var x5H=e_[x[127]].i
-_ai(x5H,x[16],e_,x[127],1,1)
+_ai(x5H,x[4],e_,x[127],1,1)
 x5H.pop()
 return r
 }
-e_[x[127]]={f:m85,j:[],i:[],ti:[x[16]],ic:[]}
+e_[x[127]]={f:m85,j:[],i:[],ti:[x[4]],ic:[]}
 d_[x[128]]={}
 var m86=function(e,s,r,gg){
 var z=gz$gwx_87()
@@ -4802,7 +4818,7 @@ __wxAppCode__['pages/hot/hot.wxml']=$gwx('./pages/hot/hot.wxml');
 __wxAppCode__['pages/index/confession/detail.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true},"titleNView":{"buttons":[{"type":"share","float":"right"}]}};
 __wxAppCode__['pages/index/confession/detail.wxml']=$gwx('./pages/index/confession/detail.wxml');
 
-__wxAppCode__['pages/index/confession/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"表白墙","enablePullDownRefresh":true,"pullToRefresh":{"support":true,"color":"#fc4243"}};
+__wxAppCode__['pages/index/confession/index.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"表白墙","enablePullDownRefresh":true,"pullToRefresh":{"support":true,"color":"#fc4243"},"titleNView":{"buttons":[{"fontSrc":"./static/font/iconfont.ttf","text":""}]}};
 __wxAppCode__['pages/index/confession/index.wxml']=$gwx('./pages/index/confession/index.wxml');
 
 __wxAppCode__['pages/index/confession/publish.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"发布"};
@@ -4929,7 +4945,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'http://123.151.6.219/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/login/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'https://apii.ym998.cn/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/login/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?ebaf");
 
 /***/ }),
 
@@ -5220,7 +5236,7 @@ define('common/vendor.js',function(require, module, exports, window, document, f
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"NODE_ENV\":\"development\",\"VUE_APP_PLATFORM\":\"app-plus\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          extraObj['$' + index] = vm.__get_value(dataPath);\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction getObjByArray(arr) {\n  var obj = {};\n  for (var i = 1; i < arr.length; i++) {\n    var element = arr[i];\n    obj[element[0]] = element[1];\n  }\n  return obj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (Array.isArray(arg) && arg[0] === 'o') {\n        ret.push(getObjByArray(arg));\n      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.includes(key)) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];\n\nfunction initMocks(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  MOCKS.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"VUE_APP_PLATFORM\":\"app-plus\",\"NODE_ENV\":\"development\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getProperties(props) {\n  var properties = {\n    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } } };\n\n\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n        properties[key] = {\n          type: PROP_TYPES.includes(opts.type) ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        properties[key] = {\n          type: PROP_TYPES.includes(opts) ? opts : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  // TODO 又得兼容 mpvue 的 mp 对象\n  event.mp = event;\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          extraObj['$' + index] = vm.__get_value(dataPath);\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction getObjByArray(arr) {\n  var obj = {};\n  for (var i = 1; i < arr.length; i++) {\n    var element = arr[i];\n    obj[element[0]] = element[1];\n  }\n  return obj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (Array.isArray(arg) && arg[0] === 'o') {\n        ret.push(getObjByArray(arg));\n      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var properties = getProperties(vueOptions.props);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
 
 /***/ }),
 
@@ -5485,7 +5501,7 @@ define('pages/index/index.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'selectSchool']), // 拿到vuex的user对象,\n  onLoad: function onLoad() {\n    if (!this.user.hasLogin) {\n      uni.redirectTo({\n        url: '../login/login' });\n\n    }\n  },\n  methods: {\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.showActionSheet({\n        itemList: ['发布心情到表白墙', 'B', 'C'],\n        success: function success(res) {\n          if (res.tapIndex === 0) {\n            uni.navigateTo({\n              url: './confession/publish' });\n\n          } else if (res.tapIndex === 1) {\n            uni.scanCode({\n              success: function success(res) {\n                console.log(JSON.stringify(res));\n              } });\n\n          }\n          console.log('选中了第' + (res.tapIndex + 1) + '个按钮');\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'selectSchool']), // 拿到vuex的user对象,\n  onLoad: function onLoad() {\n    if (!this.user.hasLogin) {\n      uni.redirectTo({\n        url: '../login/login' });\n\n    }\n  },\n  methods: {\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.scanCode({\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?22c9");
 
 /***/ }),
 
@@ -5600,7 +5616,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceLoading.vue\"));\nvar _graceAlert = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceAlert.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceAlert.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var alertTimer = null;var _default =\n{\n  components: {\n    graceAlert: _graceAlert.default,\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      confessionList: [],\n      alert: {\n        show: false,\n        msg: '',\n        msgtype: '' },\n\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  methods: {\n    showMsg: function showMsg(type, msg) {\n      this.alert.show = true;\n      this.alert.msgtype = type;\n      this.alert.msg = msg;\n      //延迟关闭\n      var _self = this;\n      if (alertTimer != null) {\n        clearTimeout(alertTimer);\n      }\n      alertTimer = setTimeout(function () {\n        _self.alert.show = false;\n        _self.alert.msg = '';\n      }, 2000);\n    } },\n\n  onLoad: function onLoad() {\n    this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据\n    uni.startPullDownRefresh(); //自动开始刷新\n  },\n  onReady: function onReady() {\n\n  },\n  //监听下拉刷新\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/card/index',\n      method: 'GET',\n      data: {\n        page: 1 },\n\n      success: function success(res) {\n        _this.confessionList = res.data.cardsList;\n        _this.loading.totalPages = res.data.totalPages; //设置总页数\n        _this.showMsg('right', '表白墙动态已更新');\n        //将请求的数据缓存到本地\n        uni.setStorage({\n          key: 'confessionList',\n          data: _this.confessionList });\n\n      },\n      fail: function fail() {\n        _this.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh(); //关闭刷新动画\n      } });\n\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/card/index',\n      method: 'GET',\n      data: {\n        page: this.loading.nextPages },\n\n      success: function success(res) {\n        _this2.confessionList = _this2.confessionList.concat(res.data.cardsList);\n      },\n      fail: function fail() {\n        _this2.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/index.vue?vue&type=script&lang=js&?c616");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceLoading.vue\"));\nvar _graceAlert = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceAlert.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceAlert.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var alertTimer = null;var _default =\n{\n  components: {\n    graceAlert: _graceAlert.default,\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      confessionList: [],\n      alert: {\n        show: false,\n        msg: '',\n        msgtype: '' },\n\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  methods: {\n    showMsg: function showMsg(type, msg) {\n      this.alert.show = true;\n      this.alert.msgtype = type;\n      this.alert.msg = msg;\n      //延迟关闭\n      var _self = this;\n      if (alertTimer != null) {\n        clearTimeout(alertTimer);\n      }\n      alertTimer = setTimeout(function () {\n        _self.alert.show = false;\n        _self.alert.msg = '';\n      }, 2000);\n    } },\n\n  onLoad: function onLoad() {\n    this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据\n    uni.startPullDownRefresh(); //自动开始刷新\n  },\n  onNavigationBarButtonTap: function onNavigationBarButtonTap() {\n    uni.navigateTo({\n      url: './publish' });\n\n  },\n  //监听下拉刷新\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/card/index',\n      method: 'GET',\n      data: {\n        page: 1 },\n\n      success: function success(res) {\n        _this.confessionList = res.data.cardsList;\n        _this.loading.totalPages = res.data.totalPages; //设置总页数\n        _this.showMsg('right', '表白墙动态已更新');\n        //将请求的数据缓存到本地\n        uni.setStorage({\n          key: 'confessionList',\n          data: _this.confessionList });\n\n      },\n      fail: function fail() {\n        _this.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh(); //关闭刷新动画\n      } });\n\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'confession/card/index',\n      method: 'GET',\n      data: {\n        page: this.loading.nextPages },\n\n      success: function success(res) {\n        _this2.confessionList = _this2.confessionList.concat(res.data.cardsList);\n      },\n      fail: function fail() {\n        _this2.showMsg('error', '服务器异常，请稍后再试！');\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/index.vue?vue&type=script&lang=js&?c616");
 
 /***/ }),
 
@@ -5889,7 +5905,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceFullLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return _defineProperty({\n      articleId: 0,\n      graceFullLoading: false,\n      article: {},\n      commentAndReplyList: [],\n      other: \"\",\n      textPlaceholder: \"写评论\",\n      focus: false,\n      content: \"\",\n      commentId: 0, //评论内容id\n      commentatorId: 0 }, \"commentId\",\n    0);\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {\n    this.articleId = parameter.id;\n    this.graceFullLoading = true;\n    this.getDetail();\n    this.graceFullLoading = false;\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getDetail();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 2500);\n  },\n  methods: {\n    getDetail: function getDetail() {var _this = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/getContent',\n        method: 'GET',\n        data: {\n          phone: this.user.phone,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          _this.article = res.data.ArticleContent.article;\n          _this.commentAndReplyList = res.data.comment_list;\n          _this.other = res.data.other;\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        } });\n\n      this.content = '';\n    },\n    guanzhu: function guanzhu() {},\n    thumbsUpComment: function thumbsUpComment(index) {var _this2 = this;\n      if (this.commentList[index].thumbs_up_status !== 1) {\n        this.commentList[index].thumbs_up_status = 1;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up + 1;\n      } else {\n        this.commentList[index].thumbs_up_status = 0;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up - 1;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          comment_id: this.commentList[index].comment_id },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this2.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    thumbsUp: function thumbsUp() {var _this3 = this;\n      console.log(this.article.thumbs_up_status);\n      if (this.article.thumbs_up_status !== 1) {\n        this.article.thumbs_up = this.article.thumbs_up + 1;\n        this.article.thumbs_up_status = 1;\n      } else {\n        this.article.thumbs_up = this.article.thumbs_up - 1;\n        this.article.thumbs_up_status = 0;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this3.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.images_list });\n\n    },\n    goComment: function goComment() {\n      uni.navigateTo({\n        url: '../../common/comment?type=confession&articleId=' + this.article.article_id });\n\n    },\n    blur: function blur() {\n      this.focus = false;\n    },\n    replyOne: function replyOne(userName, commentatorId, commentId) {\n      this.commentatorId = commentatorId;\n      this.commentId = commentId;\n      this.textPlaceholder = \"@回复 \" + userName;\n      this.focus = true;\n    },\n    submit: function submit() {var _this4 = this;\n      if (this.content.trim() === '')\n      return;\n      //说明此时评论的是文章\n      if (this.textPlaceholder === \"写评论\") {\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/addcomment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            comment_content: this.content,\n            article_id: this.articleId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      } else {//此时是回复\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/replyComment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            reply_content: this.content,\n            comment_id: this.commentId,\n            commentator_id: this.commentatorId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?34ea");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\components\\\\graceFullLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return {\n      articleId: 0,\n      graceFullLoading: false,\n      article: {},\n      commentAndReplyList: [],\n      other: \"\",\n      textPlaceholder: \"写评论\",\n      focus: false,\n      content: \"\",\n      commentId: 0, //评论内容id\n      commentatorId: 0 //评论者id\n    };\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {\n    this.articleId = parameter.id;\n    this.graceFullLoading = true;\n    this.getDetail();\n    this.graceFullLoading = false;\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getDetail();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 2500);\n  },\n  methods: {\n    getDetail: function getDetail() {var _this = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/getContent',\n        method: 'GET',\n        data: {\n          phone: this.user.phone,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          _this.article = res.data.ArticleContent.article;\n          _this.commentAndReplyList = res.data.comment_list;\n          _this.other = res.data.other;\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        } });\n\n      this.content = '';\n    },\n    guanzhu: function guanzhu() {},\n    thumbsUpComment: function thumbsUpComment(index) {var _this2 = this;\n      if (this.commentList[index].thumbs_up_status !== 1) {\n        this.commentList[index].thumbs_up_status = 1;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up + 1;\n      } else {\n        this.commentList[index].thumbs_up_status = 0;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up - 1;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          comment_id: this.commentList[index].comment_id },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this2.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    thumbsUp: function thumbsUp() {var _this3 = this;\n      console.log(this.article.thumbs_up_status);\n      if (this.article.thumbs_up_status !== 1) {\n        this.article.thumbs_up = this.article.thumbs_up + 1;\n        this.article.thumbs_up_status = 1;\n      } else {\n        this.article.thumbs_up = this.article.thumbs_up - 1;\n        this.article.thumbs_up_status = 0;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this3.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.images_list });\n\n    },\n    goComment: function goComment() {\n      uni.navigateTo({\n        url: '../../common/comment?type=confession&articleId=' + this.article.article_id });\n\n    },\n    blur: function blur() {\n      this.focus = false;\n    },\n    replyOne: function replyOne(userName, commentatorId, commentId) {\n      this.commentatorId = commentatorId;\n      this.commentId = commentId;\n      this.textPlaceholder = \"@回复 \" + userName;\n      this.focus = true;\n    },\n    submit: function submit() {var _this4 = this;\n      if (this.content.trim() === '')\n      return;\n      //说明此时评论的是文章\n      if (this.textPlaceholder === \"写评论\") {\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/addcomment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            comment_content: this.content,\n            article_id: this.articleId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      } else {//此时是回复\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/replyComment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            reply_content: this.content,\n            comment_id: this.commentId,\n            commentator_id: this.commentatorId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?34ea");
 
 /***/ }),
 
@@ -5924,7 +5940,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-author-line\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-article-author\" }, [\n            _c(\"image\", {\n              attrs: { src: _vm.article.avatar, mode: \"widthFix\" }\n            }),\n            _c(\"view\", { staticClass: \"author-name\" }, [\n              _vm._v(_vm._s(_vm.article.user_name))\n            ])\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"btn\",\n              attrs: { eventid: \"22ce7d59-0\" },\n              on: {\n                click: function($event) {\n                  _vm.guanzhu()\n                }\n              }\n            },\n            [_vm._v(\"+关注\")]\n          )\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"grace-article-contents\" },\n        [\n          _c(\"block\", [\n            _c(\"view\", { staticClass: \"text-item\" }, [\n              _vm._v(_vm._s(_vm.article.content))\n            ]),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-wrap grace-padding\",\n                attrs: { eventid: \"22ce7d59-1\" },\n                on: {\n                  click: function($event) {\n                    _vm.showImage()\n                  }\n                }\n              },\n              _vm._l(_vm.article.images_list, function(img, imgIndex) {\n                return _c(\"image\", {\n                  key: imgIndex,\n                  staticStyle: {\n                    height: \"100px\",\n                    width: \"48%\",\n                    margin: \"2px 1%\"\n                  },\n                  attrs: { src: img, mode: \"widthFix\" }\n                })\n              })\n            )\n          ])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-info-line\",\n          staticStyle: { \"font-size\": \"50rpx\", height: \"60rpx\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-iconfont icon-time\" }, [\n            _vm._v(_vm._s(_vm.article.release_time))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-fire\" }, [\n            _vm._v(_vm._s(_vm.article.reading_volume))\n          ]),\n          _vm.article.thumbs_up_status !== 1\n            ? _c(\n                \"view\",\n                {\n                  staticClass: \"iconfont icon-heart\",\n                  attrs: { eventid: \"22ce7d59-3\" },\n                  on: { click: _vm.thumbsUp }\n                },\n                [_vm._v(_vm._s(_vm.article.thumbs_up))]\n              )\n            : _c(\n                \"view\",\n                {\n                  staticClass: \"iconfont icon-heart1\",\n                  attrs: { eventid: \"22ce7d59-2\" },\n                  on: { click: _vm.thumbsUp }\n                },\n                [_vm._v(_vm._s(_vm.article.thumbs_up))]\n              )\n        ]\n      ),\n      _vm._m(0),\n      _vm.commentAndReplyList.length > 0\n        ? _c(\n            \"view\",\n            { staticClass: \"grace-padding\" },\n            _vm._l(_vm.commentAndReplyList, function(comment, index) {\n              return _c(\n                \"view\",\n                { key: index, staticClass: \"grace-comment-list\" },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"grace-comment-face\",\n                      staticStyle: { width: \"30px\" }\n                    },\n                    [\n                      _c(\"image\", {\n                        attrs: { src: comment.avatar, mode: \"widthFix\" }\n                      })\n                    ]\n                  ),\n                  _c(\"view\", { staticClass: \"grace-comment-body\" }, [\n                    _c(\"view\", { staticClass: \"grace-comment-top\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentator_name))]),\n                      comment.thumbs_up_status !== 1\n                        ? _c(\n                            \"text\",\n                            {\n                              staticClass: \"grace-iconfont icon-zan\",\n                              attrs: { eventid: \"22ce7d59-5-\" + index },\n                              on: {\n                                click: function($event) {\n                                  _vm.thumbsUpComment(index)\n                                }\n                              }\n                            },\n                            [_vm._v(_vm._s(comment.thumbs_up))]\n                          )\n                        : _c(\"text\", {\n                            staticClass: \"iconfont icon-thumbs-up\",\n                            attrs: { eventid: \"22ce7d59-4-\" + index },\n                            on: {\n                              click: function($event) {\n                                _vm.thumbsUpComment(index)\n                              }\n                            }\n                          })\n                    ]),\n                    _c(\n                      \"view\",\n                      {\n                        staticClass: \"grace-comment-content\",\n                        attrs: { eventid: \"22ce7d59-6-\" + index },\n                        on: {\n                          click: function($event) {\n                            _vm.replyOne(\n                              comment.commentator_name,\n                              comment.commentator_id,\n                              comment.comment_id\n                            )\n                          }\n                        }\n                      },\n                      [_vm._v(_vm._s(comment.comment_content))]\n                    ),\n                    _c(\"view\", { staticClass: \"grace-comment-date\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.comment_time))]),\n                      comment.reply_list.length > 0\n                        ? _c(\n                            \"text\",\n                            {\n                              staticClass: \"grace-comment-replay-btn\",\n                              attrs: { eventid: \"22ce7d59-7-\" + index },\n                              on: {\n                                click: function($event) {\n                                  _vm.goComment()\n                                }\n                              }\n                            },\n                            [_vm._v(_vm._s(comment.reply_list.length) + \"回复\")]\n                          )\n                        : _vm._e()\n                    ])\n                  ])\n                ]\n              )\n            })\n          )\n        : _vm._e(),\n      _c(\n        \"view\",\n        { staticClass: \"grace-more-bottom\" },\n        [\n          _vm.commentAndReplyList.length > 0\n            ? _c(\n                \"navigator\",\n                {\n                  staticClass: \"grace-border\",\n                  attrs: {\n                    url:\n                      \"../../common/comment?type=confession&articleId=\" +\n                      _vm.article.article_id\n                  }\n                },\n                [\n                  _vm._v(_vm._s(_vm.other)),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            : _c(\"view\", { staticClass: \"grace-border\" }, [\n                _vm._v(_vm._s(_vm.other))\n              ])\n        ],\n        1\n      ),\n      _c(\"view\", { staticStyle: { height: \"100rpx\" } }),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticClass: \"grace-input\" }, [\n          _c(\"view\", {\n            staticClass: \"grace-input-icon grace-iconfont icon-write\"\n          }),\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.content,\n                expression: \"content\"\n              }\n            ],\n            staticStyle: { padding: \"5 0rpx\" },\n            attrs: {\n              focus: _vm.focus,\n              type: \"text\",\n              placeholder: _vm.textPlaceholder,\n              eventid: \"22ce7d59-8\"\n            },\n            domProps: { value: _vm.content },\n            on: {\n              blur: _vm.blur,\n              input: function($event) {\n                if ($event.target.composing) {\n                  return\n                }\n                _vm.content = $event.target.value\n              }\n            }\n          })\n        ]),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-items\",\n            staticStyle: { padding: \"0 20rpx\" },\n            attrs: { eventid: \"22ce7d59-9\" },\n            on: { click: _vm.submit }\n          },\n          [_vm._v(\"发布\")]\n        )\n      ]),\n      _c(\"graceFullLoading\", {\n        attrs: {\n          graceFullLoading: _vm.graceFullLoading,\n          logoUrl: \"../../../static/index/love.png\",\n          mpcomid: \"22ce7d59-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-title grace-border\",\n        staticStyle: { \"margin-top\": \"60rpx\" }\n      },\n      [_c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [_vm._v(\"网友评论\")])]\n    )\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/detail.vue?vue&type=template&id=bc859f60&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-author-line\",\n          staticStyle: { \"margin-top\": \"8px\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-article-author\" }, [\n            _c(\"image\", { attrs: { src: _vm.article.avatar } }),\n            _c(\"view\", { staticClass: \"author-name\" }, [\n              _vm._v(_vm._s(_vm.article.user_name))\n            ])\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"btn\",\n              attrs: { eventid: \"22ce7d59-0\" },\n              on: {\n                click: function($event) {\n                  _vm.guanzhu()\n                }\n              }\n            },\n            [_vm._v(\"+关注\")]\n          )\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"grace-article-contents\" },\n        [\n          _c(\"block\", [\n            _c(\n              \"view\",\n              {\n                staticClass: \"text-item\",\n                staticStyle: { \"line-height\": \"5px\" }\n              },\n              [_vm._v(_vm._s(_vm.article.content))]\n            ),\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-wrap grace-padding\",\n                attrs: { eventid: \"22ce7d59-1\" },\n                on: {\n                  click: function($event) {\n                    _vm.showImage()\n                  }\n                }\n              },\n              _vm._l(_vm.article.images_list, function(img, imgIndex) {\n                return _c(\"image\", {\n                  key: imgIndex,\n                  staticStyle: {\n                    height: \"100px\",\n                    width: \"48%\",\n                    margin: \"2px 1%\"\n                  },\n                  attrs: { src: img, mode: \"widthFix\" }\n                })\n              })\n            )\n          ])\n        ],\n        1\n      ),\n      _c(\n        \"view\",\n        {\n          staticClass: \"grace-article-info-line\",\n          staticStyle: { \"font-size\": \"50rpx\", height: \"60rpx\" }\n        },\n        [\n          _c(\"view\", { staticClass: \"grace-iconfont icon-time\" }, [\n            _vm._v(_vm._s(_vm.article.release_time))\n          ]),\n          _c(\"view\", { staticClass: \"iconfont icon-fire\" }, [\n            _vm._v(_vm._s(_vm.article.reading_volume))\n          ]),\n          _vm.article.thumbs_up_status !== 1\n            ? _c(\n                \"view\",\n                {\n                  staticClass: \"iconfont icon-heart\",\n                  attrs: { eventid: \"22ce7d59-3\" },\n                  on: { click: _vm.thumbsUp }\n                },\n                [_vm._v(_vm._s(_vm.article.thumbs_up))]\n              )\n            : _c(\n                \"view\",\n                {\n                  staticClass: \"iconfont icon-heart1\",\n                  attrs: { eventid: \"22ce7d59-2\" },\n                  on: { click: _vm.thumbsUp }\n                },\n                [_vm._v(_vm._s(_vm.article.thumbs_up))]\n              )\n        ]\n      ),\n      _vm._m(0),\n      _vm.commentAndReplyList.length > 0\n        ? _c(\n            \"view\",\n            { staticClass: \"grace-padding\" },\n            _vm._l(_vm.commentAndReplyList, function(comment, index) {\n              return _c(\n                \"view\",\n                { key: index, staticClass: \"grace-comment-list\" },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"grace-comment-face\",\n                      staticStyle: { width: \"30px\" }\n                    },\n                    [\n                      _c(\"image\", {\n                        staticStyle: { height: \"30px\" },\n                        attrs: { src: comment.avatar }\n                      })\n                    ]\n                  ),\n                  _c(\"view\", { staticClass: \"grace-comment-body\" }, [\n                    _c(\"view\", { staticClass: \"grace-comment-top\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.commentator_name))]),\n                      comment.thumbs_up_status !== 1\n                        ? _c(\n                            \"text\",\n                            {\n                              staticClass: \"grace-iconfont icon-zan\",\n                              attrs: { eventid: \"22ce7d59-5-\" + index },\n                              on: {\n                                click: function($event) {\n                                  _vm.thumbsUpComment(index)\n                                }\n                              }\n                            },\n                            [_vm._v(_vm._s(comment.thumbs_up))]\n                          )\n                        : _c(\"text\", {\n                            staticClass: \"iconfont icon-thumbs-up\",\n                            attrs: { eventid: \"22ce7d59-4-\" + index },\n                            on: {\n                              click: function($event) {\n                                _vm.thumbsUpComment(index)\n                              }\n                            }\n                          })\n                    ]),\n                    _c(\n                      \"view\",\n                      {\n                        staticClass: \"grace-comment-content\",\n                        attrs: { eventid: \"22ce7d59-6-\" + index },\n                        on: {\n                          click: function($event) {\n                            _vm.replyOne(\n                              comment.commentator_name,\n                              comment.commentator_id,\n                              comment.comment_id\n                            )\n                          }\n                        }\n                      },\n                      [_vm._v(_vm._s(comment.comment_content))]\n                    ),\n                    _c(\"view\", { staticClass: \"grace-comment-date\" }, [\n                      _c(\"text\", [_vm._v(_vm._s(comment.comment_time))]),\n                      comment.reply_list.length > 0\n                        ? _c(\n                            \"text\",\n                            {\n                              staticClass: \"grace-comment-replay-btn\",\n                              attrs: { eventid: \"22ce7d59-7-\" + index },\n                              on: {\n                                click: function($event) {\n                                  _vm.goComment()\n                                }\n                              }\n                            },\n                            [_vm._v(_vm._s(comment.reply_list.length) + \"回复\")]\n                          )\n                        : _vm._e()\n                    ])\n                  ])\n                ]\n              )\n            })\n          )\n        : _vm._e(),\n      _c(\n        \"view\",\n        { staticClass: \"grace-more-bottom\" },\n        [\n          _vm.commentAndReplyList.length > 0\n            ? _c(\n                \"navigator\",\n                {\n                  staticClass: \"grace-border\",\n                  attrs: {\n                    url:\n                      \"../../common/comment?type=confession&articleId=\" +\n                      _vm.article.article_id\n                  }\n                },\n                [\n                  _vm._v(_vm._s(_vm.other)),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            : _c(\"view\", { staticClass: \"grace-border\" }, [\n                _vm._v(_vm._s(_vm.other))\n              ])\n        ],\n        1\n      ),\n      _c(\"view\", { staticStyle: { height: \"100rpx\" } }),\n      _c(\"view\", { staticClass: \"grace-footer\" }, [\n        _c(\"view\", { staticClass: \"grace-input\" }, [\n          _c(\"view\", {\n            staticClass: \"grace-input-icon grace-iconfont icon-write\"\n          }),\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.content,\n                expression: \"content\"\n              }\n            ],\n            staticStyle: { padding: \"5 0rpx\" },\n            attrs: {\n              focus: _vm.focus,\n              type: \"text\",\n              placeholder: _vm.textPlaceholder,\n              eventid: \"22ce7d59-8\"\n            },\n            domProps: { value: _vm.content },\n            on: {\n              blur: _vm.blur,\n              input: function($event) {\n                if ($event.target.composing) {\n                  return\n                }\n                _vm.content = $event.target.value\n              }\n            }\n          })\n        ]),\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-items\",\n            staticStyle: { padding: \"0 20rpx\" },\n            attrs: { eventid: \"22ce7d59-9\" },\n            on: { click: _vm.submit }\n          },\n          [_vm._v(\"发布\")]\n        )\n      ]),\n      _c(\"graceFullLoading\", {\n        attrs: {\n          graceFullLoading: _vm.graceFullLoading,\n          logoUrl: \"../../../static/index/love.png\",\n          mpcomid: \"22ce7d59-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\n      \"view\",\n      {\n        staticClass: \"grace-title grace-border\",\n        staticStyle: { \"margin-top\": \"60rpx\" }\n      },\n      [_c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [_vm._v(\"网友评论\")])]\n    )\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=C:/Users/Administrator/Desktop/schoolJiangHu/pages/index/confession/detail.vue?vue&type=template&id=bc859f60&");
 
 /***/ }),
 
@@ -6495,7 +6511,7 @@ define('pages/index/market/checkstand.js',function(require, module, exports, win
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    changeWxpay: function changeWxpay() {\n      this.payWay = 'wxpay';\n    },\n    changeAlipay: function changeAlipay() {\n      this.payWay = 'alipay';\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    changeWxpay: function changeWxpay() {\n      this.payWay = 'wxpay';\n    },\n    changeAlipay: function changeAlipay() {\n      this.payWay = 'alipay';\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n              uni.redirectTo({\n                url: './payresult' });\n\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?bbe0");
 
 /***/ }),
 
@@ -6907,7 +6923,7 @@ define('pages/login/login.js',function(require, module, exports, window, documen
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _self;\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500, //默认屏幕高度500\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false };\n\n  },\n  computed: {\n    margin: function margin() {\n      return this.positionTop * 0.08;\n    } },\n\n  onReady: function onReady() {\n    _self = this;\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 105;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login', 'setOpenId']), {\n    loginWithWx: function loginWithWx() {\n      uni.login({\n        provider: 'weixin',\n        success: function success(loginRes) {\n          _self.thirdLogin(loginRes.authResult.openid, 0);\n        } });\n\n    },\n    loginWithQQ: function loginWithQQ() {\n      uni.login({\n        provider: 'qq',\n        success: function success(loginRes) {\n          console.log(JSON.stringify(loginRes));\n          _self.thirdLogin(loginRes.authResult.openid, 1);\n        } });\n\n    },\n    loginWithWb: function loginWithWb() {\n      uni.navigateTo({\n        url: './logintemp' });\n\n    },\n    thirdLogin: function thirdLogin(openId, type) {var _this = this;\n      uni.showLoading({\n        title: '登录中...' });\n\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'common/login/verifyopenid',\n        method: 'GET',\n        data: {\n          openId: openId,\n          type: type },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this.login(res.data);\n            uni.reLaunch({\n              url: '../index/index' });\n\n          } else if (res.data.status === 201) {//若openid未绑定\n            var playload = new Object();\n            playload.openId = openId;\n            playload.type = type;\n            _this.setOpenId(playload);\n            uni.navigateTo({\n              url: './logintemp?type=' + type });\n\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: 'none' });\n\n          }\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        },\n        complete: function complete() {\n          uni.hideLoading();\n        } });\n\n    },\n    loginNow: function loginNow(e) {var _this2 = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this2.login(res.data);\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this2.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this2.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: '../register/reg' });\n\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/login/login.vue?vue&type=script&lang=js&?225d");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _self;\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500, //默认屏幕高度500\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false };\n\n  },\n  computed: {\n    margin: function margin() {\n      return this.positionTop * 0.08;\n    } },\n\n  onReady: function onReady() {\n    _self = this;\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 105;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login', 'setOpenId']), {\n    loginWithWx: function loginWithWx() {\n      uni.login({\n        provider: 'weixin',\n        success: function success(loginRes) {\n          _self.thirdLogin(loginRes.authResult.openid, 0);\n        } });\n\n    },\n    loginWithQQ: function loginWithQQ() {\n      uni.login({\n        provider: 'qq',\n        success: function success(loginRes) {\n          console.log(JSON.stringify(loginRes));\n          _self.thirdLogin(loginRes.authResult.openid, 1);\n        } });\n\n    },\n    loginWithWb: function loginWithWb() {\n      uni.showToast({\n        title: '微博登陆审核中...',\n        icon: 'none' });\n\n    },\n    thirdLogin: function thirdLogin(openId, type) {var _this = this;\n      uni.showLoading({\n        title: '登录中...' });\n\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'common/login/verifyopenid',\n        method: 'GET',\n        data: {\n          openId: openId,\n          type: type },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this.login(res.data);\n            uni.reLaunch({\n              url: '../index/index' });\n\n          } else if (res.data.status === 201) {//若openid未绑定\n            var playload = new Object();\n            playload.openId = openId;\n            playload.type = type;\n            _this.setOpenId(playload);\n            uni.navigateTo({\n              url: './logintemp?type=' + type });\n\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: 'none' });\n\n          }\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        },\n        complete: function complete() {\n          uni.hideLoading();\n        } });\n\n    },\n    loginNow: function loginNow(e) {var _this2 = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/login',\n          method: 'POST',\n          data: e.detail.value,\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this2.login(res.data);\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this2.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this2.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    reg: function reg() {\n      uni.navigateTo({\n        url: '../register/reg' });\n\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/login/login.vue?vue&type=script&lang=js&?225d");
 
 /***/ }),
 
@@ -7113,7 +7129,7 @@ define('pages/login/binding.js',function(require, module, exports, window, docum
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      margin: 0,\n      openId: '',\n      type: -1 };\n\n  },\n  onLoad: function onLoad(parameter) {\n    this.openId = parameter.open_id;\n    this.type = parameter.type;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login']), {\n    bindNow: function bindNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        var reqData = e.detail.value;\n        reqData.openId = this.openId;\n        reqData.type = this.type;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/binding',\n          method: 'POST',\n          data: reqData,\n          success: function success(res) {\n            console.log(JSON.stringify(res));\n            if (res.data.status === 200) {\n              _this.login(res.data);\n              uni.showToast({\n                title: '绑定成功' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/login/binding.vue?vue&type=script&lang=js&?6081");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      key: '' };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['login']), {\n    bindNow: function bindNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        var reqData = e.detail.value;\n        reqData.openId = this.user.openId;\n        reqData.type = this.user.type;\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'common/login/binding',\n          method: 'POST',\n          data: reqData,\n          success: function success(res) {\n            console.log(JSON.stringify(res));\n            if (res.data.status === 200) {\n              _this.login(res.data);\n              uni.showToast({\n                title: '绑定成功' });\n\n              uni.reLaunch({\n                url: '../index/index' });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/login/binding.vue?vue&type=script&lang=js&?6081");
 
 /***/ }),
 
@@ -7193,7 +7209,7 @@ define('pages/register/reg.js',function(require, module, exports, window, docume
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500,\n      vcodeBtnName: \"获取验证码\",\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false,\n      isThird: 0 };\n\n  },\n  onLoad: function onLoad(parameter) {\n    if (parseInt(parameter.is_third) === 1) {\n      this.isThird = 1;\n    }\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 40;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['regSetPhoneAndPass']), {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    regNow: function regNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"yzm\",\n        checkType: \"string\",\n        checkRule: \"6,6\",\n        errorMsg: \"短信验证码不正确\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({ //为了安全由后端验证验证码\n          url: this.GLOBAL.serverSrc + 'common/register/verifyVCode',\n          method: 'POST',\n          data: {\n            'phone': e.detail.value.phone,\n            'vCode': e.detail.value.yzm },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              var payload = {\n                phone: e.detail.value.phone,\n                password: e.detail.value.password };\n\n              _this.regSetPhoneAndPass(payload);\n              uni.navigateTo({\n                url: './selectSex?is_third=' + _this.isThird });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    getVCode: function getVCode() {var _this2 = this;\n      var myreg = /^[1][1,2,3,4,5,7,8,9][0-9]{9}$/;\n      if (!myreg.test(this.phoneno)) {\n        uni.showToast({\n          title: '请填写正确的手机号码',\n          icon: \"none\" });\n\n        return false;\n      }\n      // 手机号码为 :  this.phoneno\n      // vcodeBtnName 可以阻止按钮被多次点击 多次发送 return 会终止函数继续运行\n      if (this.vcodeBtnName != '获取验证码' && this.vcodeBtnName != '重新发送') {\n        return;\n      }\n      this.vcodeBtnName = \"发送中...\";\n      // 与后端 api 交互，发送验证码\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'common/register/sendVcode?phone=' + this.phoneno,\n        method: 'GET',\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n          if (res.data.status === 200) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            // 倒计时\n            _this2.countNum = 120;\n            _this2.countDownTimer = setInterval(function () {\n              this.countDown();\n            }.bind(_this2), 1000);\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this2.vcodeBtnName = \"获取验证码\";\n          }\n        },\n        fail: function fail(e) {\n          if (e.statusCode === 0) {\n            uni.showToast({\n              title: '未知的网络错误, 请确保设备处在联网状态',\n              icon: \"none\" });\n\n          } else {\n            uni.showToast({\n              title: '发生网络错误，错误码为：' + e.statusCode,\n              icon: \"none\" });\n\n          }\n          _this2.vcodeBtnName = \"获取验证码\";\n        } });\n\n    },\n    countDown: function countDown() {\n      if (this.countNum < 1) {\n        clearInterval(this.countDownTimer);\n        this.vcodeBtnName = \"重新发送\";\n        return;\n      }\n      this.countNum--;\n      this.vcodeBtnName = this.countNum + '秒重发';\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/register/reg.vue?vue&type=script&lang=js&?5de7");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\n\nvar graceChecker = __webpack_require__(/*! ../../graceUI/graceChecker.js */ \"C:\\\\Users\\\\Administrator\\\\Desktop\\\\schoolJiangHu\\\\graceUI\\\\graceChecker.js\");var _default =\n{\n  data: function data() {\n    return {\n      positionTop: 500,\n      vcodeBtnName: \"获取验证码\",\n      countNum: 120,\n      countDownTimer: null,\n      phoneno: '',\n      password: '',\n      btnLoading: false,\n      isThird: 0 };\n\n  },\n  onLoad: function onLoad(parameter) {\n    if (parseInt(parameter.is_third) === 1) {\n      this.isThird = 1;\n    }\n    this.positionTop = uni.getSystemInfoSync().windowHeight - 40;\n  },\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['regSetPhoneAndPass']), {\n    loginWithWx: function loginWithWx() {\n      uni.showToast({\n        title: \"微信登录功能开发中\",\n        icon: \"none\" });\n\n    },\n    regNow: function regNow(e) {var _this = this;\n      // 表单验证\n      var rule = [{\n        name: \"phone\",\n        checkType: \"phoneno\",\n        errorMsg: \"请输入正确的手机号\" },\n      {\n        name: \"yzm\",\n        checkType: \"string\",\n        checkRule: \"6,6\",\n        errorMsg: \"短信验证码不正确\" },\n      {\n        name: \"password\",\n        checkType: \"string\",\n        checkRule: \"8,20\",\n        errorMsg: \"密码长度应为8-20个字符\" }];\n\n      var formData = e.detail.value;\n      var checkRes = graceChecker.check(formData, rule);\n      // 验证通过\n      if (checkRes) {\n        this.btnLoading = true;\n        uni.request({ //为了安全由后端验证验证码\n          url: this.GLOBAL.serverSrc + 'common/register/verifyVCode',\n          method: 'POST',\n          data: {\n            'phone': e.detail.value.phone,\n            'vCode': e.detail.value.yzm },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              var payload = {\n                phone: e.detail.value.phone,\n                password: e.detail.value.password };\n\n              _this.regSetPhoneAndPass(payload);\n              uni.navigateTo({\n                url: './selectSex?is_third=' + _this.isThird });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this.GLOBAL.requestFail(e);\n          },\n          complete: function complete() {\n            _this.btnLoading = false;\n          } });\n\n      } else {\n        uni.showToast({\n          title: graceChecker.error,\n          icon: \"none\" });\n\n      }\n    },\n    getVCode: function getVCode() {var _this2 = this;\n      var myreg = /^[1][1,2,3,4,5,7,8,9][0-9]{9}$/;\n      if (!myreg.test(this.phoneno)) {\n        uni.showToast({\n          title: '请填写正确的手机号码',\n          icon: \"none\" });\n\n        return false;\n      }\n      // 手机号码为 :  this.phoneno\n      // vcodeBtnName 可以阻止按钮被多次点击 多次发送 return 会终止函数继续运行\n      if (this.vcodeBtnName != '获取验证码' && this.vcodeBtnName != '重新发送') {\n        return;\n      }\n      this.vcodeBtnName = \"发送中...\";\n      // 与后端 api 交互，发送验证码\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'common/register/sendVcode?phone=' + this.phoneno,\n        method: 'GET',\n        success: function success(res) {\n          if (res.data.status === 200) {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            // 倒计时\n            _this2.countNum = 120;\n            _this2.countDownTimer = setInterval(function () {\n              this.countDown();\n            }.bind(_this2), 1000);\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n            _this2.vcodeBtnName = \"获取验证码\";\n          }\n        },\n        fail: function fail(e) {\n          if (e.statusCode === 0) {\n            uni.showToast({\n              title: '未知的网络错误, 请确保设备处在联网状态',\n              icon: \"none\" });\n\n          } else {\n            uni.showToast({\n              title: '发生网络错误，错误码为：' + e.statusCode,\n              icon: \"none\" });\n\n          }\n          _this2.vcodeBtnName = \"获取验证码\";\n        } });\n\n    },\n    countDown: function countDown() {\n      if (this.countNum < 1) {\n        clearInterval(this.countDownTimer);\n        this.vcodeBtnName = \"重新发送\";\n        return;\n      }\n      this.countNum--;\n      this.vcodeBtnName = this.countNum + '秒重发';\n    } }) };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/register/reg.vue?vue&type=script&lang=js&?5de7");
 
 /***/ }),
 

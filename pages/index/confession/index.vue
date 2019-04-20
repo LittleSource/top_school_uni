@@ -74,8 +74,10 @@
 			this.confessionList = uni.getStorageSync('confessionList'); //获取本地缓存的数据
 			uni.startPullDownRefresh(); //自动开始刷新
 		},
-		onReady: function() {
-
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: './publish'
+			});
 		},
 		//监听下拉刷新
 		onPullDownRefresh: function() {

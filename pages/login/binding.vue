@@ -26,21 +26,16 @@
 
 <script>
 	import {
-		mapMutations
+		mapState,mapMutations
 	} from 'vuex'
 	var graceChecker = require("../../graceUI/graceChecker.js");
 	export default {
 		data() {
 			return {
-				margin: 0,
-				openId:'',
-				type:-1
+				key:''
 			}
 		},
-		onLoad(parameter) {
-			this.openId = parameter.open_id;
-			this.type = parameter.type;
-		},
+		computed: mapState(['user']),
 		methods: {
 			...mapMutations(['login']),
 			bindNow(e) {
@@ -61,8 +56,8 @@
 				if (checkRes) {
 					this.btnLoading = true;
 					var reqData = e.detail.value;
-					reqData.openId = this.openId;
-					reqData.type = this.type;
+					reqData.openId = this.user.openId;
+					reqData.type = this.user.type;
 					uni.request({
 						url: this.GLOBAL.serverSrc + 'common/login/binding',
 						method: 'POST',
@@ -73,6 +68,9 @@
 								this.login(res.data);
 								uni.showToast({
 									title: '绑定成功'
+								});
+								uni.reLaunch({
+									url: '../index/index'
 								});
 							} else {
 								uni.showToast({

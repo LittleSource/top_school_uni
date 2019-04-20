@@ -2,7 +2,7 @@
 	<view>
 		<view class="grace-article-author-line" style="margin-top: 8px;">
 			<view class="grace-article-author">
-				<image :src="article.avatar" mode="widthFix"></image>
+				<image :src="article.avatar"></image>
 				<view class="author-name">{{article.user_name}}</view>
 			</view>
 			<view class="btn" @click="guanzhu()"> +关注 </view>
@@ -10,7 +10,7 @@
 		<!-- 文章内容 -->
 		<view class="grace-article-contents">
 			<block>
-				<view class="text-item">{{article.content}}</view>
+				<view class="text-item" style="line-height: 5px;">{{article.content}}</view>
 				<view class="grace-wrap grace-padding" @click="showImage()">
 					<image v-for="(img, imgIndex) in article.images_list" :key="imgIndex" :src="img" mode="widthFix" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
 				</view>
@@ -30,7 +30,7 @@
 		<view class="grace-padding" v-if="commentAndReplyList.length > 0">
 			<view class="grace-comment-list" v-for="(comment,index) in commentAndReplyList" :key="index">
 				<view class="grace-comment-face" style="width: 30px;">
-					<image :src="comment.avatar" mode="widthFix"></image>
+					<image :src="comment.avatar" style="height: 30px;"></image>
 				</view>
 				<view class="grace-comment-body">
 					<view class="grace-comment-top">
@@ -87,7 +87,6 @@
 				content: "",
 				commentId: 0, //评论内容id
 				commentatorId: 0, //评论者id
-				commentId: 0 //评论id
 			}
 		},
 		computed: mapState(['user']),
