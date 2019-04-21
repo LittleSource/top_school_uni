@@ -94,17 +94,20 @@
 						icon: 'none'
 					});
 					return;
-				}
-				var _self = this;
-				uni.showModal({
-					title: '提示',
-					content: '确定删除 ' + this.catesList[index].title + ' 分类吗？',
-					success: function(res) {
-						if (res.confirm) {
-							_self.catesList.splice(index, 1);
+				}else if(this.catesList[index].title === ''){
+					this.catesList.splice(index, 1);
+				}else{
+					var _self = this;
+					uni.showModal({
+						title: '提示',
+						content: '确定删除 ' + this.catesList[index].title + ' 分类吗？',
+						success: function(res) {
+							if (res.confirm) {
+								_self.catesList.splice(index, 1);
+							}
 						}
-					}
-				});
+					});
+				}
 			},
 			sortUp(index) {
 				if (index !== 0) {
@@ -147,6 +150,7 @@
 						cateList:this.catesList
 					},
 					success: res => {
+						console.log(JSON.stringify(res));
 						if (res.data.status === 200) {
 							uni.showToast({
 								title: '操作成功',

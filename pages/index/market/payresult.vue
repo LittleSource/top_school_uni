@@ -4,7 +4,7 @@
 			<image :src="infoImg" mode="widthFix" style="width: 300upx;height: 300upx;"></image>
 		</view>
 		<view class="text_success"><text>订单支付成功</text></view>
-		<view class="text_order"><text>订单金额：</text><text style="color:#EE0000;font-size: 32;">&yen; 129.00</text></view>
+		<view class="text_order"><text>订单金额：</text><text style="color:#EE0000;font-size: 32;">&yen; {{price}}</text></view>
 		<view class="grace-rows">
 			<button type="warn">查看订单</button>
 			<button type="default" style="margin-left: -50upx;">返回首页</button>
@@ -18,8 +18,12 @@
 	export default{
 		data() {
 			return {
-				infoImg: 'http://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png'
+				infoImg: 'http://yuange666.oss-cn-beijing.aliyuncs.com/app/pageinfo/ok.png',
+				price:0.00
 			}
+		},
+		onLoad(parameter) {
+			this.price = parameter.price;
 		}
 	}
 </script>

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarTitleText": "我的店铺",
+  "enablePullDownRefresh": true
+}

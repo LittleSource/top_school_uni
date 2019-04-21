@@ -45,8 +45,8 @@
 				</view>
 				<view class="grace-boxes">
 					<view class="grace-boxes-img">
-						<image src="../../static/index/secondhand.png" mode="widthFix"></image>
-						<view class="grace-boxes-text">淘二手</view>
+						<image src="../../static/index/daiban.png" mode="widthFix"></image>
+						<view class="grace-boxes-text">代办事</view>
 					</view>
 				</view>
 			</view>
@@ -134,7 +134,7 @@
 						"openType": "switchTab"
 					},
 					{
-						"imgUrl": "https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg",
+						"imgUrl": "http://www.chinaasc.org/upimg/allimg/c140413/13a3E204V0-422502.jpg",
 						"path": "../gy/gy",
 						"openType": "switchTab"
 					}

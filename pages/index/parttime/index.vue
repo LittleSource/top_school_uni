@@ -1,5 +1,10 @@
 <template>
 	<view>
+		<scroll-view class="grace-tab-title grace-center" scroll-x="true" id="grace-tab-title">
+			<view v-for="(cate, index) in categories" :key="index" :data-cateid="cate.cateid" :data-index="index" :class="[cateCurrentIndex == index ? 'grace-tab-current' : '']"
+			 @tap="tabChange">{{cate.name}}</view>
+		</scroll-view>
+		<view class="content">
 		<navigator url="./details" class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
 			<view class="parttime-card-img">
 				<image class="parttime-card-imge" :src="imagesList[1]" mode="scaleToFill"></image>
@@ -9,40 +14,72 @@
 			<view class="text-three">{{job.site}}</view>
 			<view class="text-four">{{job.validtime}}</view>
 		</navigator>
+		</view>
 	</view>
 </template>
 <script>
+	import graceLoading from "../../../graceUI/components/graceLoading.vue"
 	import {
 		mapState
 	} from 'vuex'
 	export default {
+		components: {
+			graceLoading
+		},
 		data() {
 			return {
+				//分类信息
+				categories: [{
+						cateid: 0,
+						name: "全部"
+					},
+					{
+						cateid: 1,
+						name: "日结"
+					},
+					{
+						cateid: 2,
+						name: "短期"
+					},
+					{
+						cateid: 3,
+						name: "长期"
+					}
+				],
+				// 当前选择的分类
+				cateCurrentIndex: 0,
 				jobList: [],
 				imagesList:[
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/catclaw.png",
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/orange.png",
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/square2.png"
-				]
+				],
+				loading: {
+					show: false,
+					nextPages: 2,
+					totalPages: 2,
+					type: 0,
+					text: ['加载更多', 'loading ......', '已加载全部']
+				}
 			}
 		},
 		computed: mapState(['selectSchool']),
 		onLoad() {
-			this.getList();
+			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
-			this.getList();
+			this.getList(1,this.categories[this.cateCurrentIndex]);
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 1000);
 		},
 		methods: {
-			getList() {
+			getList(page,type) {
 				uni.request({
 					url: this.GLOBAL.serverSrc + 'job/job/seljob',
 					method: 'POST',
 					data: {
-						page: 1,
+						page: page,
 						id: this.selectSchool.id
 					},
 					success: res => {
@@ -60,14 +97,40 @@
 					}
 				});
 			},
-			getimage(){
-				var index = Math.round(Math.random()*5);
+			tabChange: function(e) {
+				// 选中的索引
+				var index = e.currentTarget.dataset.index;
+				this.cateCurrentIndex = index;
+				// 动态替换内容
+				this.loading.nextPages = 2;
+				this.getList(1, this.categories[index].name);
 			}
 		},
 	}
 </script>
 <style>
+	page{
+		background-color: #F6F6F6;
+	}
+	.grace-tab-title {
+		background-color: #FC4243;
+		color: #F6F6F6;
+		position: fixed;
+		z-index: 999;
+		top: 0;
+	}
+	.grace-tab-title view{
+		border-bottom:2px solid #FC4243;
+	}
+	.grace-tab-current {
+		border-bottom: 4upx solid #FFFFFF !important;
+		color: #FFFFFF;
+	}
+	.content{
+		margin-top: 50px;
+	}
 	.parttime-card {
+		background-color: #FFFFFF;
 		width: 693upx;
 		height: 150upx;
 		padding: 30upx;

@@ -1,0 +1,16 @@
+
+.form {
+	width: 90%;
+	margin: 0 auto;
+}
+.input {
+	font-size: 25px;
+	border-bottom: #a9a9a9 2px solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+.grace-list .items .title {
+	margin-left: 0;
+}
+

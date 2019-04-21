@@ -5,19 +5,19 @@
 				<form @submit="formSubmit">
 					<view class="grace-items">
 						<view class="grace-label">商品名</view>
-						<input type="text" class="input" name="title" :value="title" placeholder="请输入商品名称"></input>
+						<input type="text" class="input" name="title" v-model="title" placeholder="请输入商品名称"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">商品价格</view>
-						<input type="number" class="input" name="price" :value="price" placeholder="请输入出售价格"></input>
+						<input type="number" class="input" name="price" v-model="price" placeholder="请输入出售价格"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">关键字</view>
-						<input type="text" class="input" name="keywords" :value="keywords" placeholder="多个关键字用英文逗号隔开"></input>
+						<input type="text" class="input" name="keywords" v-model="keywords" placeholder="多个关键字用英文逗号隔开"></input>
 					</view>
 					<view class="grace-items">
 						<view class="grace-label">成本价格</view>
-						<input type="number" class="input" name="cost" :value="cost" placeholder="请输入成本价格"></input>
+						<input type="number" class="input" name="cost" v-model="cost" placeholder="请输入成本价格"></input>
 					</view>
 					<view class="grace-items" style="height: 190upx;">
 						<view class="grace-label">商品图片</view>
@@ -35,7 +35,7 @@
 						</view>
 					</view>
 					<view style="padding:22upx 0; border-bottom: 1px solid #EBEBEB; ">
-						<button :loading="btnLoading" formType="submit" type="primary" style="width:100%; background: #fb6566;">确定{{btnText}}</button>
+						<button :loading="btnLoading" formType="submit" type="primary" style="width:100%; background: #FF4500;">确定{{btnText}}</button>
 					</view>
 				</form>
 			</view>

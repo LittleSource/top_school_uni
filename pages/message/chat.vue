@@ -107,7 +107,7 @@
 					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
-					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
+					face: this.user.avatar, // 用户头像
 					msg: content, // 消息内容
 					ctype: 1, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate()
@@ -121,7 +121,7 @@
 					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, // 昵称
-					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
+					face: this.user.avatar, // 用户头像
 					msg: '', // 图片文件路径
 					ctype: 2, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate()
@@ -150,7 +150,7 @@
 					to_id: this.to_id, //对方id
 					id: this.user.id, //用户id
 					name: this.user.userName, //昵称
-					face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png", // 用户头像
+					face: this.user.avatar, // 用户头像
 					msg: voiceurl, // 语音文件路径
 					ctype: 3, // 消息类型 [ 1. 文本类型 2. 图片类型 3. 语音类型 4. 系统通知 ]
 					date: this.getNowDate() // 消息时间

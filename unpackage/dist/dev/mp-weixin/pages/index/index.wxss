@@ -1,16 +1,81 @@
 
-.index {
+.body {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header {
 	background: #fc4243;
-	height: 70px;
-	padding: 8px 15rpx;
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	font-size: 25px !important;
+	z-index: 999;
+}
+.header .status-bar {
+	height: 25px;
+}
+.header .info {
+	color: #FFFFFF;
+	height: 44px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	margin: 0 15rpx;
+}
+.header .info .scan {
+	margin: 3px 0px 0px 8rpx;
+	font-size: 20px;
+}
+.icon-changeschool {
+	font-size: 22px;
+}
+.header .info .serach {
+	height: 30px;
+	width: 276rpx;
+	border-radius: 8px;
+	overflow: hidden;
+	background-color: #F5F5F5 !important;
+}
+.header .info .serach .serach-icon {
+	float: left;
+	color: grey;
+	margin-top: 8px;
+	margin-left: 6px;
+	font-size: 14px !important;
+}
+.header .info .serach .serach-text {
+	float: left;
+	color: grey;
+	margin-top: 5px;
+	margin-left: 3px;
+	font-size: 14px !important;
+}
+.index {
+	background: -webkit-gradient(linear, left top, left bottom, from(#fc4243), color-stop(9%, #fc4243), color-stop(9%, #fff), to(#fff));
+	background: -o-linear-gradient(#fc4243 0%, #fc4243 9%, #fff 9%, #fff 100%);
+	background: linear-gradient(#fc4243 0%, #fc4243 9%, #fff 9%, #fff 100%);
+	margin-top: 25px;
+}
+.grace-swiper {
+	overflow: hidden;
+	border-radius: 10px;
 }
 .grace-boxes-img {
-	width: 38px;
-	height: 38px;
+	width: 48px;
+	height: 48px;
 }
 .grace-boxes-text {
-	color: #FFFFFF;
+	color: #7F7F7F;
 }
 

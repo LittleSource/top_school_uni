@@ -3,7 +3,7 @@
 		<view class="card-box grace-padding">
 			<navigator class="confession-card" v-for="(item, index) in confessionList" :key="index" :url="'./detail?id='+item.article_id">
 				<view class="confession-card-head grace-rows">
-					<image class="confession-card-avatar" :src="item.avatar"></image>
+					<image class="confession-card-avatar" :src="item.avatar" mode="scaleToFill"></image>
 					<view class="confession-card-head-info">
 						<view style="font-size: 14px;">{{item.user_name}}</view>
 						<view style="font-size: 11px;color: grey !important;">{{item.release_time}}</view>

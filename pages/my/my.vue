@@ -17,7 +17,7 @@
 				<p>动态</p>
 			</view>
 		</view>
-		<view class="iconCon">
+		<view class="iconCon has-borderb">
 			<view>
 				<i class="grace-iconfont icon-refresh icon_comment"></i>
 				<p>表白</p>
@@ -36,13 +36,6 @@
 			</view>
 		</view>
 		<view class="grace-list">
-			<navigator class="items" v-for="(item, index) in lists" :key="index">
-				<view class="icons">
-					<image :src="staticUrl + item.img" mode="widthFix"></image>
-				</view>
-				<view class="title">{{item.title}}<text>{{item.desc}}</text></view>
-				<view class="arrow-right"></view>
-			</navigator>
 			<navigator class="items" url="./address/address">
 				<view class="icons">
 					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
@@ -82,26 +75,7 @@
 	export default {
 		data() {
 			return {
-				staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/',
-				lists: [{
-						img: 'shange.png',
-						title: '布局栅格',
-						path: "rows",
-						desc: "flex 基础布局"
-					},
-					{
-						img: 'scroll.png',
-						title: '滚动区域',
-						path: "scroll",
-						desc: ""
-					},
-					{
-						img: 'moveview.png',
-						title: '可移动区域',
-						path: "moveview",
-						desc: ""
-					}
-				]
+				staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/'
 			}
 		},
 		computed: mapState(['user'])

@@ -8,9 +8,9 @@
 		"newFeature": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "",
-	"appid": "touristappid",
-	"projectname": "grace",
+	"libVersion": "2.6.4",
+	"appid": "wx2ec21b559f1122b0",
+	"projectname": "TOP%E6%A0%A1%E5%9B%AD",
 	"condition": {
 		"search": {
 			"current": -1,

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "navigationBarTextStyle": "white",
+  "navigationBarBackgroundColor": "#fc4243",
+  "navigationBarTitleText": "兼职详情",
+  "enablePullDownRefresh": true
+}

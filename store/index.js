@@ -78,7 +78,7 @@ const store = new Vuex.Store({
 				msg: "源哥最帅",
 				date: '2018 01-01 00:00'
 			}],
-			69: [{
+			189: [{
 				id: 100,
 				name: "to蛇皮",
 				face: "https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png",
@@ -267,6 +267,7 @@ const store = new Vuex.Store({
 				state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id
 				state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录
 				state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶
+				console.log(JSON.stringify(state.historyMsg));
 			}
 			uni.setTabBarBadge({
 				index: 2,

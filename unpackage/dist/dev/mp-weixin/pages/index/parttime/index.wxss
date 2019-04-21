@@ -1,0 +1,56 @@
+
+.parttime-card {
+	width: 693rpx;
+	height: 150rpx;
+	padding: 30rpx;
+	border-bottom: 1rpx solid #ccc;
+}
+.parttime-card-img {
+	width: 60rpx;
+	/*图片框架*/
+	height: 200rpx;
+	float: left;
+}
+.parttime-card-imge {
+	width: 60rpx;
+	height: 60rpx;
+}
+.text-one {
+	width: 385rpx;
+	height: 50rpx;
+	float: left;
+	padding-left: 15rpx;
+	line-height: 50rpx;
+	font-size: 35rpx;
+}
+.text-two {
+	width: 228rpx;
+	height: 50rpx;
+	float: left;
+	font-size: 39rpx;
+	text-align: right;
+	line-height: 50rpx;
+	color: red;
+}
+.text-three {
+	width: 600rpx;
+	height: 50rpx;
+	line-height: 50rpx;
+	text-align: left;
+	float: left;
+	font-size: 27rpx;
+	color: #ADADAD;
+	padding-left: 15rpx;
+}
+.text-four {
+	float: left;
+	width: 90rpx;
+	height: 40rpx;
+	line-height: 40rpx;
+	margin-left: 15rpx;
+	font-size: 21rpx;
+	text-align: center;
+	color: #ADADAD;
+	background: #FAEBD7;
+}
+

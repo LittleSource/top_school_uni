@@ -1,0 +1,47 @@
+
+page {
+	background-color: #F6F6F6;
+}
+.grace-tab-title {
+	position: fixed;
+	z-index: 999;
+	top: 0;
+}
+.grace-tab-current {
+	border-bottom: 4rpx solid #ff4500 !important;
+	color: #ff4500;
+}
+.no-order {
+	margin-top: 53px;
+	font-size: 30rpx;
+	text-align: center;
+	color: grey;
+}
+.order-card {
+	padding: 20rpx 30rpx;
+	margin-bottom: 18px;
+	width: 690rpx;
+	background-color: #FFFFFF;
+}
+.right {
+	margin-left: 10rpx;
+}
+.time {
+	font-size: 25rpx;
+	color: gray;
+	margin-top: 10rpx;
+}
+.rice {
+	height: 80rpx;
+	line-height: 80rpx;
+	font-size: 30rpx;
+}
+.btn-area {
+	float: right;
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.btn-area button {
+	vertical-align: middle;
+}
+

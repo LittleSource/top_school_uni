@@ -177,7 +177,7 @@
 									});
 								}
 								uni.redirectTo({
-									url:'./payresult'
+									url:'./payresult?price='+this.realPrice
 								})
 							},
 							fail: function(err) {

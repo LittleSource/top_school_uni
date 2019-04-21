@@ -1,0 +1,1 @@
+<template name="dd17cd9a"><view class="_view dd17cd9a grace-full-loading" wx:if="{{graceFullLoading}}"><view class="_view dd17cd9a"><image src="{{logoUrl}}" mode="widthFix" class="_image dd17cd9a"></image></view></view></template>

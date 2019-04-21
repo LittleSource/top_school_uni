@@ -4,160 +4,183 @@
 /*!************************************************************!*\
   !*** ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js ***!
   \************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-const _toString = Object.prototype.toString;
-const hasOwnProperty = Object.prototype.hasOwnProperty;
+Object.defineProperty(exports, "__esModule", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}
 
-function isFn (fn) {
-  return typeof fn === 'function'
+var _toString = Object.prototype.toString;
+var hasOwnProperty = Object.prototype.hasOwnProperty;
+
+function isFn(fn) {
+  return typeof fn === 'function';
 }
 
-function isStr (str) {
-  return typeof str === 'string'
+function isStr(str) {
+  return typeof str === 'string';
 }
 
-function isPlainObject (obj) {
-  return _toString.call(obj) === '[object Object]'
+function isPlainObject(obj) {
+  return _toString.call(obj) === '[object Object]';
 }
 
-function hasOwn (obj, key) {
-  return hasOwnProperty.call(obj, key)
+function hasOwn(obj, key) {
+  return hasOwnProperty.call(obj, key);
 }
 
-const SYNC_API_RE = /hideKeyboard|upx2px|canIUse|^create|Sync$|Manager$/;
+function noop() {}
 
-const CONTEXT_API_RE = /^create|Manager$/;
-
-const CALLBACK_API_RE = /^on/;
-
-function isContextApi (name) {
-  return CONTEXT_API_RE.test(name)
-}
-function isSyncApi (name) {
-  return SYNC_API_RE.test(name)
-}
-
-function isCallbackApi (name) {
-  return CALLBACK_API_RE.test(name)
+/**
+                    * Create a cached version of a pure function.
+                    */
+function cached(fn) {
+  var cache = Object.create(null);
+  return function cachedFn(str) {
+    var hit = cache[str];
+    return hit || (cache[str] = fn(str));
+  };
 }
 
-function handlePromise (promise) {
-  return promise.then(data => {
-    return [null, data]
-  })
-    .catch(err => [err])
+/**
+   * Camelize a hyphen-delimited string.
+   */
+var camelizeRE = /-(\w)/g;
+var camelize = cached(function (str) {
+  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});
+});
+
+var SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;
+
+var CONTEXT_API_RE = /^create|Manager$/;
+
+var CALLBACK_API_RE = /^on/;
+
+function isContextApi(name) {
+  return CONTEXT_API_RE.test(name);
+}
+function isSyncApi(name) {
+  return SYNC_API_RE.test(name);
 }
 
-function shouldPromise (name) {
-  if (isSyncApi(name)) {
-    return false
+function isCallbackApi(name) {
+  return CALLBACK_API_RE.test(name);
+}
+
+function handlePromise(promise) {
+  return promise.then(function (data) {
+    return [null, data];
+  }).
+  catch(function (err) {return [err];});
+}
+
+function shouldPromise(name) {
+  if (
+  isContextApi(name) ||
+  isSyncApi(name) ||
+  isCallbackApi(name))
+  {
+    return false;
   }
-  if (isCallbackApi(name)) {
-    return false
-  }
-  return true
+  return true;
 }
 
-function promisify (name, api) {
+function promisify(name, api) {
   if (!shouldPromise(name)) {
-    return api
+    return api;
   }
-  return function promiseApi (options = {}, ...params) {
+  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}
     if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {
-      return api(options, ...params)
+      return api.apply(void 0, [options].concat(params));
     }
-    return handlePromise(new Promise((resolve, reject) => {
-      api(Object.assign({}, options, {
+    return handlePromise(new Promise(function (resolve, reject) {
+      api.apply(void 0, [Object.assign({}, options, {
         success: resolve,
-        fail: reject
-      }), ...params);
+        fail: reject })].concat(
+      params));
       /* eslint-disable no-extend-native */
       Promise.prototype.finally = function (callback) {
-        const promise = this.constructor;
+        var promise = this.constructor;
         return this.then(
-          value => promise.resolve(callback()).then(() => value),
-          reason => promise.resolve(callback()).then(() => {
-            throw reason
-          })
-        )
+        function (value) {return promise.resolve(callback()).then(function () {return value;});},
+        function (reason) {return promise.resolve(callback()).then(function () {
+            throw reason;
+          });});
+
       };
-    }))
-  }
+    }));
+  };
 }
 
-const EPS = 1e-4;
-const BASE_DEVICE_WIDTH = 750;
-let isIOS = false;
-let deviceWidth = 0;
-let deviceDPR = 0;
+var EPS = 1e-4;
+var BASE_DEVICE_WIDTH = 750;
+var isIOS = false;
+var deviceWidth = 0;
+var deviceDPR = 0;
 
-function checkDeviceWidth () {
-  const {
-    platform,
-    pixelRatio,
-    windowWidth
-  } = wx.getSystemInfoSync(); // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni
+function checkDeviceWidth() {var _wx$getSystemInfoSync =
+
+
+
+
+  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni
 
   deviceWidth = windowWidth;
   deviceDPR = pixelRatio;
   isIOS = platform === 'ios';
 }
 
-function upx2px (number, newDeviceWidth) {
+function upx2px(number, newDeviceWidth) {
   if (deviceWidth === 0) {
     checkDeviceWidth();
   }
 
   number = Number(number);
   if (number === 0) {
-    return 0
+    return 0;
   }
-  let result = (number / BASE_DEVICE_WIDTH) * (newDeviceWidth || deviceWidth);
+  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);
   if (result < 0) {
     result = -result;
   }
   result = Math.floor(result + EPS);
   if (result === 0) {
     if (deviceDPR === 1 || !isIOS) {
-      return 1
+      return 1;
     } else {
-      return 0.5
+      return 0.5;
     }
   }
-  return number < 0 ? -result : result
+  return number < 0 ? -result : result;
 }
 
 var protocols = {};
 
-const CALLBACKS = ['success', 'fail', 'cancel', 'complete'];
+var CALLBACKS = ['success', 'fail', 'cancel', 'complete'];
 
-function processCallback (methodName, method, returnValue) {
+function processCallback(methodName, method, returnValue) {
   return function (res) {
-    return method(processReturnValue(methodName, res, returnValue))
-  }
+    return method(processReturnValue(methodName, res, returnValue));
+  };
 }
 
-function processArgs (methodName, fromArgs, argsOption = {}, returnValue = {}, keepFromArgs = false) {
-  if (isPlainObject(fromArgs)) { // 一般 api 的参数解析
-    const toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值
+function processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析
+    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值
     if (isFn(argsOption)) {
       argsOption = argsOption(fromArgs, toArgs) || {};
     }
-    for (let key in fromArgs) {
+    for (var key in fromArgs) {
       if (hasOwn(argsOption, key)) {
-        let keyOption = argsOption[key];
+        var keyOption = argsOption[key];
         if (isFn(keyOption)) {
           keyOption = keyOption(fromArgs[key], fromArgs, toArgs);
         }
-        if (!keyOption) { // 不支持的参数
-          console.warn(`微信小程序 ${methodName}暂不支持${key}`);
-        } else if (isStr(keyOption)) { // 重写参数 key
+        if (!keyOption) {// 不支持的参数
+          console.warn("\u5FAE\u4FE1\u5C0F\u7A0B\u5E8F ".concat(methodName, "\u6682\u4E0D\u652F\u6301").concat(key));
+        } else if (isStr(keyOption)) {// 重写参数 key
           toArgs[keyOption] = fromArgs[key];
-        } else if (isPlainObject(keyOption)) { // {name:newName,value:value}可重新指定参数 key:value
+        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value
           toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;
         }
       } else if (CALLBACKS.includes(key)) {
@@ -168,67 +191,67 @@ function processArgs (methodName, fromArgs, argsOption = {}, returnValue = {}, k
         }
       }
     }
-    return toArgs
+    return toArgs;
   } else if (isFn(fromArgs)) {
     fromArgs = processCallback(methodName, fromArgs, returnValue);
   }
-  return fromArgs
+  return fromArgs;
 }
 
-function processReturnValue (methodName, res, returnValue, keepReturnValue = false) {
-  if (isFn(protocols.returnValue)) { // 处理通用 returnValue
+function processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+  if (isFn(protocols.returnValue)) {// 处理通用 returnValue
     res = protocols.returnValue(methodName, res);
   }
-  return processArgs(methodName, res, returnValue, {}, keepReturnValue)
+  return processArgs(methodName, res, returnValue, {}, keepReturnValue);
 }
 
-function wrapper (methodName, method) {
+function wrapper(methodName, method) {
   if (hasOwn(protocols, methodName)) {
-    const protocol = protocols[methodName];
-    if (!protocol) { // 暂不支持的 api
+    var protocol = protocols[methodName];
+    if (!protocol) {// 暂不支持的 api
       return function () {
-        console.error(`微信小程序 暂不支持${methodName}`);
-      }
+        console.error("\u5FAE\u4FE1\u5C0F\u7A0B\u5E8F \u6682\u4E0D\u652F\u6301".concat(methodName));
+      };
     }
-    return function (arg1, arg2) { // 目前 api 最多两个参数
-      let options = protocol;
+    return function (arg1, arg2) {// 目前 api 最多两个参数
+      var options = protocol;
       if (isFn(protocol)) {
         options = protocol(arg1);
       }
 
       arg1 = processArgs(methodName, arg1, options.args, options.returnValue);
 
-      const returnValue = wx[options.name || methodName](arg1, arg2);
-      if (isSyncApi(methodName)) { // 同步 api
-        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName))
+      var returnValue = wx[options.name || methodName](arg1, arg2);
+      if (isSyncApi(methodName)) {// 同步 api
+        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));
       }
-      return returnValue
-    }
+      return returnValue;
+    };
   }
-  return method
+  return method;
 }
 
-const todoApis = Object.create(null);
+var todoApis = Object.create(null);
 
-const TODOS = [
-  'subscribePush',
-  'unsubscribePush',
-  'onPush',
-  'offPush',
-  'share'
-];
+var TODOS = [
+'subscribePush',
+'unsubscribePush',
+'onPush',
+'offPush',
+'share'];
 
-function createTodoApi (name) {
-  return function todoApi ({
-    fail,
-    complete
-  }) {
-    const res = {
-      errMsg: `${name}:fail:暂不支持 ${name} 方法`
-    };
+
+function createTodoApi(name) {
+  return function todoApi(_ref)
+
+
+  {var fail = _ref.fail,complete = _ref.complete;
+    var res = {
+      errMsg: "".concat(name, ":fail:\u6682\u4E0D\u652F\u6301 ").concat(name, " \u65B9\u6CD5") };
+
     isFn(fail) && fail(res);
     isFn(complete) && complete(res);
-  }
+  };
 }
 
 TODOS.forEach(function (name) {
@@ -239,91 +262,716 @@ var providers = {
   oauth: ['weixin'],
   share: ['weixin'],
   payment: ['wxpay'],
-  push: ['weixin']
-};
+  push: ['weixin'] };
 
-function getProvider ({
-  service,
-  success,
-  fail,
-  complete
-}) {
-  let res = false;
+
+function getProvider(_ref2)
+
+
+
+
+{var service = _ref2.service,success = _ref2.success,fail = _ref2.fail,complete = _ref2.complete;
+  var res = false;
   if (providers[service]) {
     res = {
       errMsg: 'getProvider:ok',
-      service,
-      provider: providers[service]
-    };
+      service: service,
+      provider: providers[service] };
+
     isFn(success) && success(res);
   } else {
     res = {
-      errMsg: 'getProvider:fail:服务[' + service + ']不存在'
-    };
+      errMsg: 'getProvider:fail:服务[' + service + ']不存在' };
+
     isFn(fail) && fail(res);
   }
   isFn(complete) && complete(res);
 }
 
 var extraApi = /*#__PURE__*/Object.freeze({
-  getProvider: getProvider
+  getProvider: getProvider });
+
+
+
+
+var api = /*#__PURE__*/Object.freeze({});
+
+
+
+var MPPage = Page;
+var MPComponent = Component;
+
+var customizeRE = /:/g;
+
+var customize = cached(function (str) {
+  return camelize(str.replace(customizeRE, '-'));
 });
 
+function initTriggerEvent(mpInstance) {
+  {
+    if (!wx.canIUse('nextTick')) {
+      return;
+    }
+  }
+  var oldTriggerEvent = mpInstance.triggerEvent;
+  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}
+    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));
+  };
+}
+
+Page = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  var name = 'onLoad';
+  var oldHook = options[name];
+  if (!oldHook) {
+    options[name] = function () {
+      initTriggerEvent(this);
+    };
+  } else {
+    options[name] = function () {
+      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}
+      return oldHook.apply(this, args);
+    };
+  }
+  return MPPage(options);
+};
+
+var behavior = Behavior({
+  created: function created() {
+    initTriggerEvent(this);
+  } });
 
 
-var api = /*#__PURE__*/Object.freeze({
+Component = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+  (options.behaviors || (options.behaviors = [])).unshift(behavior);
+  return MPComponent(options);
+};
 
-});
+var MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];
 
-let uni = {};
+function initMocks(vm) {
+  var mpInstance = vm.$mp[vm.mpType];
+  MOCKS.forEach(function (mock) {
+    if (hasOwn(mpInstance, mock)) {
+      vm[mock] = mpInstance[mock];
+    }
+  });
+}
+
+function initHooks(mpOptions, hooks) {
+  hooks.forEach(function (hook) {
+    mpOptions[hook] = function (args) {
+      return this.$vm.__call_hook(hook, args);
+    };
+  });
+}
+
+function getData(vueOptions, context) {
+  var data = vueOptions.data || {};
+  var methods = vueOptions.methods || {};
+
+  if (typeof data === 'function') {
+    try {
+      data = data.call(context); // 支持 Vue.prototype 上挂的数据
+    } catch (e) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
+      }
+    }
+  } else {
+    try {
+      // 对 data 格式化
+      data = JSON.parse(JSON.stringify(data));
+    } catch (e) {}
+  }
+
+  Object.keys(methods).forEach(function (methodName) {
+    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {
+      data[methodName] = methods[methodName];
+    }
+  });
+
+  return data;
+}
+
+var PROP_TYPES = [String, Number, Boolean, Object, Array, null];
+
+function createObserver(name) {
+  return function observer(newVal, oldVal) {
+    if (this.$vm) {
+      this.$vm[name] = newVal; // 为了触发其他非 render watcher
+    }
+  };
+}
+
+function getProperties(props) {
+  var properties = {
+    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots
+      type: null,
+      value: [],
+      observer: function observer(newVal, oldVal) {
+        var $slots = Object.create(null);
+        newVal.forEach(function (slotName) {
+          $slots[slotName] = true;
+        });
+        this.setData({
+          $slots: $slots });
+
+      } } };
+
+
+  if (Array.isArray(props)) {// ['title']
+    props.forEach(function (key) {
+      properties[key] = {
+        type: null,
+        observer: createObserver(key) };
+
+    });
+  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}
+    Object.keys(props).forEach(function (key) {
+      var opts = props[key];
+      if (isPlainObject(opts)) {// title:{type:String,default:''}
+        var value = opts['default'];
+        if (isFn(value)) {
+          value = value();
+        }
+        properties[key] = {
+          type: PROP_TYPES.includes(opts.type) ? opts.type : null,
+          value: value,
+          observer: createObserver(key) };
+
+      } else {// content:String
+        properties[key] = {
+          type: PROP_TYPES.includes(opts) ? opts : null,
+          observer: createObserver(key) };
+
+      }
+    });
+  }
+  return properties;
+}
+
+function wrapper$1(event) {
+  event.stopPropagation = noop;
+  event.preventDefault = noop;
+
+  event.target = event.target || {};
+
+  if (!hasOwn(event, 'detail')) {
+    event.detail = {};
+  }
+
+  // TODO 又得兼容 mpvue 的 mp 对象
+  event.mp = event;
+
+  if (isPlainObject(event.detail)) {
+    event.target = Object.assign({}, event.target, event.detail);
+  }
+
+  return event;
+}
+
+function getExtraValue(vm, dataPathsArray) {
+  var context = vm;
+  dataPathsArray.forEach(function (dataPathArray) {
+    var dataPath = dataPathArray[0];
+    var value = dataPathArray[2];
+    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']
+      var propPath = dataPathArray[1];
+      var valuePath = dataPathArray[3];
+
+      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;
+
+      if (Number.isInteger(vFor)) {
+        context = value;
+      } else if (!propPath) {
+        context = vFor[value];
+      } else {
+        if (Array.isArray(vFor)) {
+          context = vFor.find(function (vForItem) {
+            return vm.__get_value(propPath, vForItem) === value;
+          });
+        } else if (isPlainObject(vFor)) {
+          context = Object.keys(vFor).find(function (vForKey) {
+            return vm.__get_value(propPath, vFor[vForKey]) === value;
+          });
+        } else {
+          console.error('v-for 暂不支持循环数据：', vFor);
+        }
+      }
+
+      if (valuePath) {
+        context = vm.__get_value(valuePath, context);
+      }
+    }
+  });
+  return context;
+}
+
+function processEventExtra(vm, extra) {
+  var extraObj = {};
+
+  if (Array.isArray(extra) && extra.length) {
+    /**
+                                                  *[
+                                                  *    ['data.items', 'data.id', item.data.id],
+                                                  *    ['metas', 'id', meta.id]
+                                                  *],
+                                                  *[
+                                                  *    ['data.items', 'data.id', item.data.id],
+                                                  *    ['metas', 'id', meta.id]
+                                                  *],
+                                                  *'test'
+                                                  */
+    extra.forEach(function (dataPath, index) {
+      if (typeof dataPath === 'string') {
+        if (!dataPath) {// model,prop.sync
+          extraObj['$' + index] = vm;
+        } else {
+          extraObj['$' + index] = vm.__get_value(dataPath);
+        }
+      } else {
+        extraObj['$' + index] = getExtraValue(vm, dataPath);
+      }
+    });
+  }
+
+  return extraObj;
+}
+
+function getObjByArray(arr) {
+  var obj = {};
+  for (var i = 1; i < arr.length; i++) {
+    var element = arr[i];
+    obj[element[0]] = element[1];
+  }
+  return obj;
+}
+
+function processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;
+  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象
+  if (isCustom) {// 自定义事件
+    isCustomMPEvent = event.currentTarget &&
+    event.currentTarget.dataset &&
+    event.currentTarget.dataset.comType === 'wx';
+    if (!args.length) {// 无参数，直接传入 event 或 detail 数组
+      if (isCustomMPEvent) {
+        return [event];
+      }
+      return event.detail.__args__ || event.detail;
+    }
+  }
+
+  var extraObj = processEventExtra(vm, extra);
+
+  var ret = [];
+  args.forEach(function (arg) {
+    if (arg === '$event') {
+      if (methodName === '__set_model' && !isCustom) {// input v-model value
+        ret.push(event.target.value);
+      } else {
+        if (isCustom && !isCustomMPEvent) {
+          ret.push(event.detail.__args__[0]);
+        } else {// wxcomponent 组件或内置组件
+          ret.push(event);
+        }
+      }
+    } else {
+      if (Array.isArray(arg) && arg[0] === 'o') {
+        ret.push(getObjByArray(arg));
+      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {
+        ret.push(extraObj[arg]);
+      } else {
+        ret.push(arg);
+      }
+    }
+  });
+
+  return ret;
+}
+
+var ONCE = '~';
+var CUSTOM = '^';
+
+function handleEvent(event) {var _this = this;
+  event = wrapper$1(event);
+
+  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]
+  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;
+  if (!eventOpts) {
+    return console.warn("\u4E8B\u4EF6\u4FE1\u606F\u4E0D\u5B58\u5728");
+  }
+
+  // [['handle',[1,2,a]],['handle1',[1,2,a]]]
+  var eventType = event.type;
+  eventOpts.forEach(function (eventOpt) {
+    var type = eventOpt[0];
+    var eventsArray = eventOpt[1];
+
+    var isCustom = type.charAt(0) === CUSTOM;
+    type = isCustom ? type.slice(1) : type;
+    var isOnce = type.charAt(0) === ONCE;
+    type = isOnce ? type.slice(1) : type;
+
+    if (eventsArray && eventType === type) {
+      eventsArray.forEach(function (eventArray) {
+        var methodName = eventArray[0];
+        if (methodName) {
+          var handler = _this.$vm[methodName];
+          if (!isFn(handler)) {
+            throw new Error(" _vm.".concat(methodName, " is not a function"));
+          }
+          if (isOnce) {
+            if (handler.once) {
+              return;
+            }
+            handler.once = true;
+          }
+          handler.apply(_this.$vm, processEventArgs(
+          _this.$vm,
+          event,
+          eventArray[1],
+          eventArray[2],
+          isCustom,
+          methodName));
+
+        }
+      });
+    }
+  });
+}
+
+function initRefs(vm) {
+  var mpInstance = vm.$mp[vm.mpType];
+  Object.defineProperty(vm, '$refs', {
+    get: function get() {
+      var $refs = {};
+      var components = mpInstance.selectAllComponents('.vue-ref');
+      components.forEach(function (component) {
+        var ref = component.dataset.ref;
+        $refs[ref] = component.$vm || component;
+      });
+      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');
+      forComponents.forEach(function (component) {
+        var ref = component.dataset.ref;
+        if (!$refs[ref]) {
+          $refs[ref] = [];
+        }
+        $refs[ref].push(component.$vm || component);
+      });
+      return $refs;
+    } });
+
+}
+
+var hooks = [
+'onHide',
+'onError',
+'onPageNotFound',
+'onUniNViewMessage'];
+
+
+function initVm(vm) {
+  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？
+    return;
+  }
+  {
+    if (!wx.canIUse('nextTick')) {// 事实 上2.2.3 即可，简单使用 2.3.0 的 nextTick 判断
+      console.error('当前微信基础库版本过低，请将 微信开发者工具-详情-项目设置-调试基础库版本 更换为`2.3.0`以上');
+    }
+  }
+
+  this.$vm = vm;
+
+  this.$vm.$mp = {
+    app: this };
+
+}
+
+function createApp(vm) {
+  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin
+  _vue.default.mixin({
+    beforeCreate: function beforeCreate() {
+      if (!this.$options.mpType) {
+        return;
+      }
+      this.mpType = this.$options.mpType;
+      this.$mp = _defineProperty({
+        data: {} },
+      this.mpType, this.$options.mpInstance);
+
+      delete this.$options.mpType;
+      delete this.$options.mpInstance;
+
+      if (this.mpType !== 'app') {
+        {// 头条的 selectComponent 竟然是异步的
+          initRefs(this);
+        }
+        initMocks(this);
+      }
+    },
+    created: function created() {// 处理 injections
+      this.__init_injections(this);
+      this.__init_provide(this);
+    } });
+
+
+  var appOptions = {
+    onLaunch: function onLaunch(args) {
+      initVm.call(this, vm);
+
+      this.$vm._isMounted = true;
+      this.$vm.__call_hook('mounted');
+
+      this.$vm.__call_hook('onLaunch', args);
+    },
+    onShow: function onShow(args) {
+      initVm.call(this, vm);
+
+      this.$vm.__call_hook('onShow', args);
+    } };
+
+
+  // 兼容旧版本 globalData
+  appOptions.globalData = vm.$options.globalData || {};
+
+  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问
+
+  App(appOptions);
+
+  return vm;
+}
+
+function triggerLink(mpInstance, vueOptions) {
+  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {
+    bubbles: true,
+    composed: true });
+
+}
+
+function handleLink(event) {
+  if (event.detail.$mp) {// vm
+    if (!event.detail.$parent) {
+      event.detail.$parent = this.$vm;
+      event.detail.$parent.$children.push(event.detail);
+
+      event.detail.$root = this.$vm.$root;
+    }
+  } else {// vueOptions
+    if (!event.detail.parent) {
+      event.detail.parent = this.$vm;
+    }
+  }
+}
+
+var hooks$1 = [
+'onShow',
+'onHide',
+'onPullDownRefresh',
+'onReachBottom',
+'onShareAppMessage',
+'onPageScroll',
+'onResize',
+'onTabItemTap',
+'onBackPress',
+'onNavigationBarButtonTap',
+'onNavigationBarSearchInputChanged',
+'onNavigationBarSearchInputConfirmed',
+'onNavigationBarSearchInputClicked'];
+
+
+function initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前
+  if (this.$vm) {
+    return;
+  }
+
+  this.$vm = new VueComponent({
+    mpType: 'page',
+    mpInstance: this });
+
+
+  this.$vm.__call_hook('created');
+  this.$vm.$mount();
+}
+
+function createPage(vueOptions) {
+  vueOptions = vueOptions.default || vueOptions;
+  var VueComponent;
+  if (isFn(vueOptions)) {
+    VueComponent = vueOptions;
+    vueOptions = VueComponent.extendOptions;
+  } else {
+    VueComponent = _vue.default.extend(vueOptions);
+  }
+  var pageOptions = {
+    options: {
+      multipleSlots: true,
+      addGlobalClass: true },
+
+    data: getData(vueOptions, _vue.default.prototype),
+    lifetimes: { // 当页面作为组件时
+      attached: function attached() {
+        initVm$1.call(this, VueComponent);
+      },
+      ready: function ready() {
+        this.$vm.__call_hook('beforeMount');
+        this.$vm._isMounted = true;
+        this.$vm.__call_hook('mounted');
+        this.$vm.__call_hook('onReady');
+      },
+      detached: function detached() {
+        this.$vm.$destroy();
+      } },
+
+    methods: { // 作为页面时
+      onLoad: function onLoad(args) {
+        initVm$1.call(this, VueComponent);
+        this.$vm.$mp.query = args; // 又要兼容 mpvue
+        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前
+      },
+      onUnload: function onUnload() {
+        this.$vm.__call_hook('onUnload');
+      },
+      __e: handleEvent,
+      __l: handleLink } };
+
+
+
+  initHooks(pageOptions.methods, hooks$1);
+
+  return Component(pageOptions);
+}
+
+function initVm$2(VueComponent) {
+  if (this.$vm) {
+    return;
+  }
+
+  var options = {
+    mpType: 'component',
+    mpInstance: this,
+    propsData: this.properties };
+
+  // 初始化 vue 实例
+  this.$vm = new VueComponent(options);
+
+  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）
+  var vueSlots = this.properties.vueSlots;
+  if (Array.isArray(vueSlots) && vueSlots.length) {
+    var $slots = Object.create(null);
+    vueSlots.forEach(function (slotName) {
+      $slots[slotName] = true;
+    });
+    this.$vm.$scopedSlots = this.$vm.$slots = $slots;
+  }
+  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并
+  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性
+  this.$vm.$mount();
+}
+
+function createComponent(vueOptions) {
+  vueOptions = vueOptions.default || vueOptions;
+
+  var properties = getProperties(vueOptions.props);
+
+  var VueComponent = _vue.default.extend(vueOptions);
+
+  var componentOptions = {
+    options: {
+      multipleSlots: true,
+      addGlobalClass: true },
+
+    data: getData(vueOptions, _vue.default.prototype),
+    properties: properties,
+    lifetimes: {
+      attached: function attached() {
+        initVm$2.call(this, VueComponent);
+      },
+      ready: function ready() {
+        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发
+        triggerLink(this); // 处理 parent,children
+
+        // 补充生命周期
+        this.$vm.__call_hook('created');
+        this.$vm.__call_hook('beforeMount');
+        this.$vm._isMounted = true;
+        this.$vm.__call_hook('mounted');
+        this.$vm.__call_hook('onReady');
+      },
+      detached: function detached() {
+        this.$vm.$destroy();
+      } },
+
+    pageLifetimes: {
+      show: function show(args) {
+        this.$vm.__call_hook('onPageShow', args);
+      },
+      hide: function hide() {
+        this.$vm && this.$vm.__call_hook('onPageHide');
+      },
+      resize: function resize(size) {
+        this.$vm && this.$vm.__call_hook('onPageResize', size);
+      } },
+
+    methods: {
+      __e: handleEvent,
+      __l: handleLink } };
+
+
+
+  return Component(componentOptions);
+}
+
+var uni = {};
 
 if (typeof Proxy !== 'undefined') {
   uni = new Proxy({}, {
-    get (target, name) {
+    get: function get(target, name) {
       if (name === 'upx2px') {
-        return upx2px
+        return upx2px;
       }
       if (api[name]) {
-        return promisify(name, api[name])
+        return promisify(name, api[name]);
       }
-      if (extraApi[name]) {
-        return promisify(name, extraApi[name])
-      }
-      if (todoApis[name]) {
-        return promisify(name, todoApis[name])
+      {
+        if (extraApi[name]) {
+          return promisify(name, extraApi[name]);
+        }
+        if (todoApis[name]) {
+          return promisify(name, todoApis[name]);
+        }
       }
       if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {
-        return
+        return;
       }
-      return promisify(name, wrapper(name, wx[name]))
-    }
-  });
+      return promisify(name, wrapper(name, wx[name]));
+    } });
+
 } else {
   uni.upx2px = upx2px;
 
-  Object.keys(todoApis).forEach(name => {
-    uni[name] = promisify(name, todoApis[name]);
-  });
+  {
+    Object.keys(todoApis).forEach(function (name) {
+      uni[name] = promisify(name, todoApis[name]);
+    });
+    Object.keys(extraApi).forEach(function (name) {
+      uni[name] = promisify(name, todoApis[name]);
+    });
+  }
 
-  Object.keys(extraApi).forEach(name => {
-    uni[name] = promisify(name, todoApis[name]);
-  });
-
-  Object.keys(api).forEach(name => {
+  Object.keys(api).forEach(function (name) {
     uni[name] = promisify(name, api[name]);
   });
 
-  Object.keys(wx).forEach(name => {
+  Object.keys(wx).forEach(function (name) {
     if (hasOwn(wx, name) || hasOwn(protocols, name)) {
       uni[name] = promisify(name, wrapper(name, wx[name]));
     }
   });
 }
 
-var uni$1 = uni;
+var uni$1 = uni;var _default =
 
-/* harmony default export */ __webpack_exports__["default"] = (uni$1);
-
+uni$1;exports.default = _default;
 
 /***/ }),
 
@@ -392,6 +1040,7 @@ function getRootVueVm(page) {
       // 挂载Vue对象到page上
       this.$vm = app;
       var rootVueVM = app.$root;
+      rootVueVM.__wxExparserNodeId__ = this.__wxExparserNodeId__//fixed by xxxxxx(createIntersectionObserver)
       rootVueVM.__wxWebviewId__ = this.__wxWebviewId__//fixed by xxxxxx(createIntersectionObserver)
       
       //初始化mp对象
@@ -5564,6 +6213,8 @@ try {
             if (mpType === "app") {
                 callHook$1(this, "onLaunch", mp.appOptions)
             } else {
+                this.__wxWebviewId__ = rootVueVM.__wxWebviewId__
+                this.__wxExparserNodeId__ = rootVueVM.__wxExparserNodeId__
                 callHook$1(this, "onLoad", mp.query)
                 // callHook$1(this, "onReady") // 避免 onReady触发两次
             }
@@ -5685,6 +6336,7 @@ try {
                 // 生命周期函数--监听页面加载
                 onLoad: function onLoad(query) {
                     rootVueVM.__wxWebviewId__ = this.__wxWebviewId__//fixed by xxxxxx(createIntersectionObserver)
+                    rootVueVM.__wxExparserNodeId__ = this.__wxExparserNodeId__
                     mp.page = this
                     mp.query = query
                     mp.status = "load"
@@ -5699,6 +6351,7 @@ try {
                 // 生命周期函数--监听页面显示
                 onShow: function onShow() {
                     rootVueVM.__wxWebviewId__ = this.__wxWebviewId__//fixed by xxxxxx(createIntersectionObserver)
+                    rootVueVM.__wxExparserNodeId__ = this.__wxExparserNodeId__
                     mp.page = this
                     mp.status = "show"
                 
@@ -5897,7 +6550,7 @@ try {
 
     // 优化频繁的 setData: https://mp.weixin.qq.com/debug/wxadoc/dev/framework/performance/tips.html
     var throttleSetData = throttle(function(handle, data) {
-        handle(data)
+        handle && handle(data)
     }, 50)
 
     function getPage(vm) {
@@ -6124,6 +6777,283 @@ try {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+                                                                                                      * 弹窗插件 
+                                                                                                      * 使用方法：
+                                                                                                      * 		1.引入组件：import simpleDialog from '@/components/simple-pro/dialog.vue';
+                                                                                                      * 		2.定义：components ，simpleDialog 
+                                                                                                      * 		3.页面使用：<simpleDialog ref="simpleDialog2"></simpleDialog> 
+                                                                                                      * 		4.指定方法 this.$refs.simpleDialog2.func(); 
+                                                                                                      * 		
+                                                                                                      * 自定义方法：
+                                                                                                      * 		1. alert() ; 支持在方法中传入 object 更改内容  该方法仅弹出一个按钮 （如果传入了object参数 其中的参数值优先级最高）
+                                                                                                      * 		2. confirm(); 同理 可传入object参数 该方法支持确定、取消 按钮  （如果传入了object参数 其中的参数值优先级最高）
+                                                                                                      */var _default =
+{
+  props: {
+    title: {
+      type: String,
+      default: '' },
+
+    message: {
+      type: String,
+      default: '你怎么会看到我^_^' },
+
+    contentClass: {
+      type: String,
+      default: 'has-pd-50 has-bg-white' },
+
+    // 内容对齐方式 center | left | right
+    messageAlign: {
+      type: String,
+      default: 'center' },
+
+    // 是否显示确认按钮
+    showConfirmButton: {
+      type: Boolean,
+      default: true },
+
+    // 是否显示取消按钮
+    showCancelButton: {
+      type: Boolean,
+      default: false },
+
+    // 确定按钮的文案
+    confirmButtonText: {
+      type: String,
+      default: '确定' },
+
+    // 取消按钮的文案
+    cancelButtonText: {
+      type: String,
+      default: '取消' } },
+
+
+
+  data: function data() {
+    return {
+      isVisibility: false };
+
+  },
+  methods: {
+    __show: function __show() {
+      this.isVisibility = true;
+    },
+    __close: function __close() {
+      this.isVisibility = false;
+    },
+    __setconfig: function __setconfig(options) {
+      if (options != undefined && typeof options == "object") {
+        if (options['title'] != undefined) this.title = options['title'];
+        if (options['message'] != undefined) this.message = options['message'];
+        if (options['contentClass'] != undefined) this.contentClass = options['contentClass'];
+        if (options['messageAlign'] != undefined) this.messageAlign = options['messageAlign'];
+        if (options['showConfirmButton'] != undefined) this.showConfirmButton = options['showConfirmButton'];
+        if (options['showCancelButton'] != undefined) this.showCancelButton = options['showCancelButton'];
+        if (options['confirmButtonText'] != undefined) this.confirmButtonText = options['confirmButtonText'];
+        if (options['cancelButtonText'] != undefined) this.cancelButtonText = options['cancelButtonText'];
+      }
+    },
+    alert: function alert(options) {
+      // <simpleDialog ref="simpleDialog"></simpleDialog>
+      // this.$refs.simpleDialog.alert();
+      this.__setconfig(options);
+      this.__show();
+    },
+    confirm: function confirm(options) {
+      this.showCancelButton = true;
+      this.__setconfig(options);
+      this.__show();
+    },
+    handleClose: function handleClose() {
+      this.__close();
+      this.$emit('cancelButton');
+    },
+    handleConfirm: function handleConfirm() {
+      this.__close();
+      this.$emit('confirmButton');
+    } } };exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _default2 =
+
+
+
+
+
+
+{
+  name: "graceLoading",
+  props: {
+    loadingType: {
+      type: Number,
+      default: 0 },
+
+    loadingText: {
+      type: Array,
+      default: function _default() {
+        return ["上拉加载更多", "加载中...", "已经加载全部数据"];
+      } },
+
+    show: {
+      type: Boolean,
+      default: true } } };exports.default = _default2;
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&":
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true& ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("view", {}, [
+    _c(
+      "view",
+      { staticClass: "modal-box ", class: _vm.isVisibility ? "show" : "" },
+      [
+        _c("view", { staticClass: "dialog" }, [
+          _vm.title != ""
+            ? _c(
+                "view",
+                { staticClass: "simple-bar justify-end has-borderb" },
+                [
+                  _c("view", { staticClass: "content" }, [
+                    _vm._v(_vm._s(_vm.title))
+                  ])
+                ]
+              )
+            : _vm._e(),
+          _c(
+            "view",
+            {
+              class: _vm.contentClass,
+              style: "text-align:" + _vm.messageAlign
+            },
+            [_vm._v(_vm._s(_vm.message))]
+          ),
+          _c("view", { staticClass: "simple-bar has-bordert" }, [
+            _vm.showCancelButton == true
+              ? _c(
+                  "view",
+                  {
+                    staticClass: "action has-mg-0 flex-sub text-green",
+                    attrs: { eventid: "3b86ca29-0" },
+                    on: { tap: _vm.handleClose }
+                  },
+                  [_vm._v(_vm._s(_vm.cancelButtonText))]
+                )
+              : _vm._e(),
+            _vm.showConfirmButton == true
+              ? _c(
+                  "view",
+                  {
+                    staticClass: "action has-mg-0 flex-sub has-borderl",
+                    attrs: { eventid: "3b86ca29-1" },
+                    on: { tap: _vm.handleConfirm }
+                  },
+                  [_vm._v(_vm._s(_vm.confirmButtonText))]
+                )
+              : _vm._e()
+          ])
+        ])
+      ]
+    )
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=template&id=66702079&name=graceLoading&":
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=template&id=66702079&name=graceLoading& ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm.show
+    ? _c("view", { staticClass: "grace-loading grace-ellipsis" }, [
+        _vm.loadingType === 1
+          ? _c("view", { staticClass: "grace-loading-icon" })
+          : _vm._e(),
+        _c("text", [_vm._v(_vm._s(_vm.loadingText[_vm.loadingType]))])
+      ])
+    : _vm._e()
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
 /*!********************************************************************!*\
   !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
@@ -6231,6 +7161,957 @@ function normalizeComponent (
 
 /***/ }),
 
+/***/ "./node_modules/vuex/dist/vuex.esm.js":
+/*!********************************************!*\
+  !*** ./node_modules/vuex/dist/vuex.esm.js ***!
+  \********************************************/
+/*! exports provided: Store, install, mapState, mapMutations, mapGetters, mapActions, createNamespacedHelpers, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Store", function() { return Store; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "install", function() { return install; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapState", function() { return mapState; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapMutations", function() { return mapMutations; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapGetters", function() { return mapGetters; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "mapActions", function() { return mapActions; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createNamespacedHelpers", function() { return createNamespacedHelpers; });
+/**
+ * vuex v3.0.1
+ * (c) 2017 Evan You
+ * @license MIT
+ */
+var applyMixin = function (Vue) {
+  var version = Number(Vue.version.split('.')[0]);
+
+  if (version >= 2) {
+    Vue.mixin({ beforeCreate: vuexInit });
+  } else {
+    // override init and inject vuex init procedure
+    // for 1.x backwards compatibility.
+    var _init = Vue.prototype._init;
+    Vue.prototype._init = function (options) {
+      if ( options === void 0 ) options = {};
+
+      options.init = options.init
+        ? [vuexInit].concat(options.init)
+        : vuexInit;
+      _init.call(this, options);
+    };
+  }
+
+  /**
+   * Vuex init hook, injected into each instances init hooks list.
+   */
+
+  function vuexInit () {
+    var options = this.$options;
+    // store injection
+    if (options.store) {
+      this.$store = typeof options.store === 'function'
+        ? options.store()
+        : options.store;
+    } else if (options.parent && options.parent.$store) {
+      this.$store = options.parent.$store;
+    }
+  }
+};
+
+var devtoolHook =
+  typeof window !== 'undefined' &&
+  window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+
+function devtoolPlugin (store) {
+  if (!devtoolHook) { return }
+
+  store._devtoolHook = devtoolHook;
+
+  devtoolHook.emit('vuex:init', store);
+
+  devtoolHook.on('vuex:travel-to-state', function (targetState) {
+    store.replaceState(targetState);
+  });
+
+  store.subscribe(function (mutation, state) {
+    devtoolHook.emit('vuex:mutation', mutation, state);
+  });
+}
+
+/**
+ * Get the first item that pass the test
+ * by second argument function
+ *
+ * @param {Array} list
+ * @param {Function} f
+ * @return {*}
+ */
+/**
+ * Deep copy the given object considering circular structure.
+ * This function caches all nested objects and its copies.
+ * If it detects circular structure, use cached copy to avoid infinite loop.
+ *
+ * @param {*} obj
+ * @param {Array<Object>} cache
+ * @return {*}
+ */
+
+
+/**
+ * forEach for object
+ */
+function forEachValue (obj, fn) {
+  Object.keys(obj).forEach(function (key) { return fn(obj[key], key); });
+}
+
+function isObject (obj) {
+  return obj !== null && typeof obj === 'object'
+}
+
+function isPromise (val) {
+  return val && typeof val.then === 'function'
+}
+
+function assert (condition, msg) {
+  if (!condition) { throw new Error(("[vuex] " + msg)) }
+}
+
+var Module = function Module (rawModule, runtime) {
+  this.runtime = runtime;
+  this._children = Object.create(null);
+  this._rawModule = rawModule;
+  var rawState = rawModule.state;
+  this.state = (typeof rawState === 'function' ? rawState() : rawState) || {};
+};
+
+var prototypeAccessors$1 = { namespaced: { configurable: true } };
+
+prototypeAccessors$1.namespaced.get = function () {
+  return !!this._rawModule.namespaced
+};
+
+Module.prototype.addChild = function addChild (key, module) {
+  this._children[key] = module;
+};
+
+Module.prototype.removeChild = function removeChild (key) {
+  delete this._children[key];
+};
+
+Module.prototype.getChild = function getChild (key) {
+  return this._children[key]
+};
+
+Module.prototype.update = function update (rawModule) {
+  this._rawModule.namespaced = rawModule.namespaced;
+  if (rawModule.actions) {
+    this._rawModule.actions = rawModule.actions;
+  }
+  if (rawModule.mutations) {
+    this._rawModule.mutations = rawModule.mutations;
+  }
+  if (rawModule.getters) {
+    this._rawModule.getters = rawModule.getters;
+  }
+};
+
+Module.prototype.forEachChild = function forEachChild (fn) {
+  forEachValue(this._children, fn);
+};
+
+Module.prototype.forEachGetter = function forEachGetter (fn) {
+  if (this._rawModule.getters) {
+    forEachValue(this._rawModule.getters, fn);
+  }
+};
+
+Module.prototype.forEachAction = function forEachAction (fn) {
+  if (this._rawModule.actions) {
+    forEachValue(this._rawModule.actions, fn);
+  }
+};
+
+Module.prototype.forEachMutation = function forEachMutation (fn) {
+  if (this._rawModule.mutations) {
+    forEachValue(this._rawModule.mutations, fn);
+  }
+};
+
+Object.defineProperties( Module.prototype, prototypeAccessors$1 );
+
+var ModuleCollection = function ModuleCollection (rawRootModule) {
+  // register root module (Vuex.Store options)
+  this.register([], rawRootModule, false);
+};
+
+ModuleCollection.prototype.get = function get (path) {
+  return path.reduce(function (module, key) {
+    return module.getChild(key)
+  }, this.root)
+};
+
+ModuleCollection.prototype.getNamespace = function getNamespace (path) {
+  var module = this.root;
+  return path.reduce(function (namespace, key) {
+    module = module.getChild(key);
+    return namespace + (module.namespaced ? key + '/' : '')
+  }, '')
+};
+
+ModuleCollection.prototype.update = function update$1 (rawRootModule) {
+  update([], this.root, rawRootModule);
+};
+
+ModuleCollection.prototype.register = function register (path, rawModule, runtime) {
+    var this$1 = this;
+    if ( runtime === void 0 ) runtime = true;
+
+  if (true) {
+    assertRawModule(path, rawModule);
+  }
+
+  var newModule = new Module(rawModule, runtime);
+  if (path.length === 0) {
+    this.root = newModule;
+  } else {
+    var parent = this.get(path.slice(0, -1));
+    parent.addChild(path[path.length - 1], newModule);
+  }
+
+  // register nested modules
+  if (rawModule.modules) {
+    forEachValue(rawModule.modules, function (rawChildModule, key) {
+      this$1.register(path.concat(key), rawChildModule, runtime);
+    });
+  }
+};
+
+ModuleCollection.prototype.unregister = function unregister (path) {
+  var parent = this.get(path.slice(0, -1));
+  var key = path[path.length - 1];
+  if (!parent.getChild(key).runtime) { return }
+
+  parent.removeChild(key);
+};
+
+function update (path, targetModule, newModule) {
+  if (true) {
+    assertRawModule(path, newModule);
+  }
+
+  // update target module
+  targetModule.update(newModule);
+
+  // update nested modules
+  if (newModule.modules) {
+    for (var key in newModule.modules) {
+      if (!targetModule.getChild(key)) {
+        if (true) {
+          console.warn(
+            "[vuex] trying to add a new module '" + key + "' on hot reloading, " +
+            'manual reload is needed'
+          );
+        }
+        return
+      }
+      update(
+        path.concat(key),
+        targetModule.getChild(key),
+        newModule.modules[key]
+      );
+    }
+  }
+}
+
+var functionAssert = {
+  assert: function (value) { return typeof value === 'function'; },
+  expected: 'function'
+};
+
+var objectAssert = {
+  assert: function (value) { return typeof value === 'function' ||
+    (typeof value === 'object' && typeof value.handler === 'function'); },
+  expected: 'function or object with "handler" function'
+};
+
+var assertTypes = {
+  getters: functionAssert,
+  mutations: functionAssert,
+  actions: objectAssert
+};
+
+function assertRawModule (path, rawModule) {
+  Object.keys(assertTypes).forEach(function (key) {
+    if (!rawModule[key]) { return }
+
+    var assertOptions = assertTypes[key];
+
+    forEachValue(rawModule[key], function (value, type) {
+      assert(
+        assertOptions.assert(value),
+        makeAssertionMessage(path, key, type, value, assertOptions.expected)
+      );
+    });
+  });
+}
+
+function makeAssertionMessage (path, key, type, value, expected) {
+  var buf = key + " should be " + expected + " but \"" + key + "." + type + "\"";
+  if (path.length > 0) {
+    buf += " in module \"" + (path.join('.')) + "\"";
+  }
+  buf += " is " + (JSON.stringify(value)) + ".";
+  return buf
+}
+
+var Vue; // bind on install
+
+var Store = function Store (options) {
+  var this$1 = this;
+  if ( options === void 0 ) options = {};
+
+  // Auto install if it is not done yet and `window` has `Vue`.
+  // To allow users to avoid auto-installation in some cases,
+  // this code should be placed here. See #731
+  if (!Vue && typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
+  }
+
+  if (true) {
+    assert(Vue, "must call Vue.use(Vuex) before creating a store instance.");
+    assert(typeof Promise !== 'undefined', "vuex requires a Promise polyfill in this browser.");
+    assert(this instanceof Store, "Store must be called with the new operator.");
+  }
+
+  var plugins = options.plugins; if ( plugins === void 0 ) plugins = [];
+  var strict = options.strict; if ( strict === void 0 ) strict = false;
+
+  var state = options.state; if ( state === void 0 ) state = {};
+  if (typeof state === 'function') {
+    state = state() || {};
+  }
+
+  // store internal state
+  this._committing = false;
+  this._actions = Object.create(null);
+  this._actionSubscribers = [];
+  this._mutations = Object.create(null);
+  this._wrappedGetters = Object.create(null);
+  this._modules = new ModuleCollection(options);
+  this._modulesNamespaceMap = Object.create(null);
+  this._subscribers = [];
+  this._watcherVM = new Vue();
+
+  // bind commit and dispatch to self
+  var store = this;
+  var ref = this;
+  var dispatch = ref.dispatch;
+  var commit = ref.commit;
+  this.dispatch = function boundDispatch (type, payload) {
+    return dispatch.call(store, type, payload)
+  };
+  this.commit = function boundCommit (type, payload, options) {
+    return commit.call(store, type, payload, options)
+  };
+
+  // strict mode
+  this.strict = strict;
+
+  // init root module.
+  // this also recursively registers all sub-modules
+  // and collects all module getters inside this._wrappedGetters
+  installModule(this, state, [], this._modules.root);
+
+  // initialize the store vm, which is responsible for the reactivity
+  // (also registers _wrappedGetters as computed properties)
+  resetStoreVM(this, state);
+
+  // apply plugins
+  plugins.forEach(function (plugin) { return plugin(this$1); });
+
+  if (Vue.config.devtools) {
+    devtoolPlugin(this);
+  }
+};
+
+var prototypeAccessors = { state: { configurable: true } };
+
+prototypeAccessors.state.get = function () {
+  return this._vm._data.$$state
+};
+
+prototypeAccessors.state.set = function (v) {
+  if (true) {
+    assert(false, "Use store.replaceState() to explicit replace store state.");
+  }
+};
+
+Store.prototype.commit = function commit (_type, _payload, _options) {
+    var this$1 = this;
+
+  // check object-style commit
+  var ref = unifyObjectStyle(_type, _payload, _options);
+    var type = ref.type;
+    var payload = ref.payload;
+    var options = ref.options;
+
+  var mutation = { type: type, payload: payload };
+  var entry = this._mutations[type];
+  if (!entry) {
+    if (true) {
+      console.error(("[vuex] unknown mutation type: " + type));
+    }
+    return
+  }
+  this._withCommit(function () {
+    entry.forEach(function commitIterator (handler) {
+      handler(payload);
+    });
+  });
+  this._subscribers.forEach(function (sub) { return sub(mutation, this$1.state); });
+
+  if (
+     true &&
+    options && options.silent
+  ) {
+    console.warn(
+      "[vuex] mutation type: " + type + ". Silent option has been removed. " +
+      'Use the filter functionality in the vue-devtools'
+    );
+  }
+};
+
+Store.prototype.dispatch = function dispatch (_type, _payload) {
+    var this$1 = this;
+
+  // check object-style dispatch
+  var ref = unifyObjectStyle(_type, _payload);
+    var type = ref.type;
+    var payload = ref.payload;
+
+  var action = { type: type, payload: payload };
+  var entry = this._actions[type];
+  if (!entry) {
+    if (true) {
+      console.error(("[vuex] unknown action type: " + type));
+    }
+    return
+  }
+
+  this._actionSubscribers.forEach(function (sub) { return sub(action, this$1.state); });
+
+  return entry.length > 1
+    ? Promise.all(entry.map(function (handler) { return handler(payload); }))
+    : entry[0](payload)
+};
+
+Store.prototype.subscribe = function subscribe (fn) {
+  return genericSubscribe(fn, this._subscribers)
+};
+
+Store.prototype.subscribeAction = function subscribeAction (fn) {
+  return genericSubscribe(fn, this._actionSubscribers)
+};
+
+Store.prototype.watch = function watch (getter, cb, options) {
+    var this$1 = this;
+
+  if (true) {
+    assert(typeof getter === 'function', "store.watch only accepts a function.");
+  }
+  return this._watcherVM.$watch(function () { return getter(this$1.state, this$1.getters); }, cb, options)
+};
+
+Store.prototype.replaceState = function replaceState (state) {
+    var this$1 = this;
+
+  this._withCommit(function () {
+    this$1._vm._data.$$state = state;
+  });
+};
+
+Store.prototype.registerModule = function registerModule (path, rawModule, options) {
+    if ( options === void 0 ) options = {};
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (true) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+    assert(path.length > 0, 'cannot register the root module by using registerModule.');
+  }
+
+  this._modules.register(path, rawModule);
+  installModule(this, this.state, path, this._modules.get(path), options.preserveState);
+  // reset store to update getters...
+  resetStoreVM(this, this.state);
+};
+
+Store.prototype.unregisterModule = function unregisterModule (path) {
+    var this$1 = this;
+
+  if (typeof path === 'string') { path = [path]; }
+
+  if (true) {
+    assert(Array.isArray(path), "module path must be a string or an Array.");
+  }
+
+  this._modules.unregister(path);
+  this._withCommit(function () {
+    var parentState = getNestedState(this$1.state, path.slice(0, -1));
+    Vue.delete(parentState, path[path.length - 1]);
+  });
+  resetStore(this);
+};
+
+Store.prototype.hotUpdate = function hotUpdate (newOptions) {
+  this._modules.update(newOptions);
+  resetStore(this, true);
+};
+
+Store.prototype._withCommit = function _withCommit (fn) {
+  var committing = this._committing;
+  this._committing = true;
+  fn();
+  this._committing = committing;
+};
+
+Object.defineProperties( Store.prototype, prototypeAccessors );
+
+function genericSubscribe (fn, subs) {
+  if (subs.indexOf(fn) < 0) {
+    subs.push(fn);
+  }
+  return function () {
+    var i = subs.indexOf(fn);
+    if (i > -1) {
+      subs.splice(i, 1);
+    }
+  }
+}
+
+function resetStore (store, hot) {
+  store._actions = Object.create(null);
+  store._mutations = Object.create(null);
+  store._wrappedGetters = Object.create(null);
+  store._modulesNamespaceMap = Object.create(null);
+  var state = store.state;
+  // init all modules
+  installModule(store, state, [], store._modules.root, true);
+  // reset vm
+  resetStoreVM(store, state, hot);
+}
+
+function resetStoreVM (store, state, hot) {
+  var oldVm = store._vm;
+
+  // bind store public getters
+  store.getters = {};
+  var wrappedGetters = store._wrappedGetters;
+  var computed = {};
+  forEachValue(wrappedGetters, function (fn, key) {
+    // use computed to leverage its lazy-caching mechanism
+    computed[key] = function () { return fn(store); };
+    Object.defineProperty(store.getters, key, {
+      get: function () { return store._vm[key]; },
+      enumerable: true // for local getters
+    });
+  });
+
+  // use a Vue instance to store the state tree
+  // suppress warnings just in case the user has added
+  // some funky global mixins
+  var silent = Vue.config.silent;
+  Vue.config.silent = true;
+  store._vm = new Vue({
+    data: {
+      $$state: state
+    },
+    computed: computed
+  });
+  Vue.config.silent = silent;
+
+  // enable strict mode for new vm
+  if (store.strict) {
+    enableStrictMode(store);
+  }
+
+  if (oldVm) {
+    if (hot) {
+      // dispatch changes in all subscribed watchers
+      // to force getter re-evaluation for hot reloading.
+      store._withCommit(function () {
+        oldVm._data.$$state = null;
+      });
+    }
+    Vue.nextTick(function () { return oldVm.$destroy(); });
+  }
+}
+
+function installModule (store, rootState, path, module, hot) {
+  var isRoot = !path.length;
+  var namespace = store._modules.getNamespace(path);
+
+  // register in namespace map
+  if (module.namespaced) {
+    store._modulesNamespaceMap[namespace] = module;
+  }
+
+  // set state
+  if (!isRoot && !hot) {
+    var parentState = getNestedState(rootState, path.slice(0, -1));
+    var moduleName = path[path.length - 1];
+    store._withCommit(function () {
+      Vue.set(parentState, moduleName, module.state);
+    });
+  }
+
+  var local = module.context = makeLocalContext(store, namespace, path);
+
+  module.forEachMutation(function (mutation, key) {
+    var namespacedType = namespace + key;
+    registerMutation(store, namespacedType, mutation, local);
+  });
+
+  module.forEachAction(function (action, key) {
+    var type = action.root ? key : namespace + key;
+    var handler = action.handler || action;
+    registerAction(store, type, handler, local);
+  });
+
+  module.forEachGetter(function (getter, key) {
+    var namespacedType = namespace + key;
+    registerGetter(store, namespacedType, getter, local);
+  });
+
+  module.forEachChild(function (child, key) {
+    installModule(store, rootState, path.concat(key), child, hot);
+  });
+}
+
+/**
+ * make localized dispatch, commit, getters and state
+ * if there is no namespace, just use root ones
+ */
+function makeLocalContext (store, namespace, path) {
+  var noNamespace = namespace === '';
+
+  var local = {
+    dispatch: noNamespace ? store.dispatch : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if ( true && !store._actions[type]) {
+          console.error(("[vuex] unknown local action type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      return store.dispatch(type, payload)
+    },
+
+    commit: noNamespace ? store.commit : function (_type, _payload, _options) {
+      var args = unifyObjectStyle(_type, _payload, _options);
+      var payload = args.payload;
+      var options = args.options;
+      var type = args.type;
+
+      if (!options || !options.root) {
+        type = namespace + type;
+        if ( true && !store._mutations[type]) {
+          console.error(("[vuex] unknown local mutation type: " + (args.type) + ", global type: " + type));
+          return
+        }
+      }
+
+      store.commit(type, payload, options);
+    }
+  };
+
+  // getters and state object must be gotten lazily
+  // because they will be changed by vm update
+  Object.defineProperties(local, {
+    getters: {
+      get: noNamespace
+        ? function () { return store.getters; }
+        : function () { return makeLocalGetters(store, namespace); }
+    },
+    state: {
+      get: function () { return getNestedState(store.state, path); }
+    }
+  });
+
+  return local
+}
+
+function makeLocalGetters (store, namespace) {
+  var gettersProxy = {};
+
+  var splitPos = namespace.length;
+  Object.keys(store.getters).forEach(function (type) {
+    // skip if the target getter is not match this namespace
+    if (type.slice(0, splitPos) !== namespace) { return }
+
+    // extract local getter type
+    var localType = type.slice(splitPos);
+
+    // Add a port to the getters proxy.
+    // Define as getter property because
+    // we do not want to evaluate the getters in this time.
+    Object.defineProperty(gettersProxy, localType, {
+      get: function () { return store.getters[type]; },
+      enumerable: true
+    });
+  });
+
+  return gettersProxy
+}
+
+function registerMutation (store, type, handler, local) {
+  var entry = store._mutations[type] || (store._mutations[type] = []);
+  entry.push(function wrappedMutationHandler (payload) {
+    handler.call(store, local.state, payload);
+  });
+}
+
+function registerAction (store, type, handler, local) {
+  var entry = store._actions[type] || (store._actions[type] = []);
+  entry.push(function wrappedActionHandler (payload, cb) {
+    var res = handler.call(store, {
+      dispatch: local.dispatch,
+      commit: local.commit,
+      getters: local.getters,
+      state: local.state,
+      rootGetters: store.getters,
+      rootState: store.state
+    }, payload, cb);
+    if (!isPromise(res)) {
+      res = Promise.resolve(res);
+    }
+    if (store._devtoolHook) {
+      return res.catch(function (err) {
+        store._devtoolHook.emit('vuex:error', err);
+        throw err
+      })
+    } else {
+      return res
+    }
+  });
+}
+
+function registerGetter (store, type, rawGetter, local) {
+  if (store._wrappedGetters[type]) {
+    if (true) {
+      console.error(("[vuex] duplicate getter key: " + type));
+    }
+    return
+  }
+  store._wrappedGetters[type] = function wrappedGetter (store) {
+    return rawGetter(
+      local.state, // local state
+      local.getters, // local getters
+      store.state, // root state
+      store.getters // root getters
+    )
+  };
+}
+
+function enableStrictMode (store) {
+  store._vm.$watch(function () { return this._data.$$state }, function () {
+    if (true) {
+      assert(store._committing, "Do not mutate vuex store state outside mutation handlers.");
+    }
+  }, { deep: true, sync: true });
+}
+
+function getNestedState (state, path) {
+  return path.length
+    ? path.reduce(function (state, key) { return state[key]; }, state)
+    : state
+}
+
+function unifyObjectStyle (type, payload, options) {
+  if (isObject(type) && type.type) {
+    options = payload;
+    payload = type;
+    type = type.type;
+  }
+
+  if (true) {
+    assert(typeof type === 'string', ("Expects string as the type, but found " + (typeof type) + "."));
+  }
+
+  return { type: type, payload: payload, options: options }
+}
+
+function install (_Vue) {
+  if (Vue && _Vue === Vue) {
+    if (true) {
+      console.error(
+        '[vuex] already installed. Vue.use(Vuex) should be called only once.'
+      );
+    }
+    return
+  }
+  Vue = _Vue;
+  applyMixin(Vue);
+}
+
+var mapState = normalizeNamespace(function (namespace, states) {
+  var res = {};
+  normalizeMap(states).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedState () {
+      var state = this.$store.state;
+      var getters = this.$store.getters;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapState', namespace);
+        if (!module) {
+          return
+        }
+        state = module.context.state;
+        getters = module.context.getters;
+      }
+      return typeof val === 'function'
+        ? val.call(this, state, getters)
+        : state[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapMutations = normalizeNamespace(function (namespace, mutations) {
+  var res = {};
+  normalizeMap(mutations).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedMutation () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var commit = this.$store.commit;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapMutations', namespace);
+        if (!module) {
+          return
+        }
+        commit = module.context.commit;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [commit].concat(args))
+        : commit.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var mapGetters = normalizeNamespace(function (namespace, getters) {
+  var res = {};
+  normalizeMap(getters).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    val = namespace + val;
+    res[key] = function mappedGetter () {
+      if (namespace && !getModuleByNamespace(this.$store, 'mapGetters', namespace)) {
+        return
+      }
+      if ( true && !(val in this.$store.getters)) {
+        console.error(("[vuex] unknown getter: " + val));
+        return
+      }
+      return this.$store.getters[val]
+    };
+    // mark vuex getter for devtools
+    res[key].vuex = true;
+  });
+  return res
+});
+
+var mapActions = normalizeNamespace(function (namespace, actions) {
+  var res = {};
+  normalizeMap(actions).forEach(function (ref) {
+    var key = ref.key;
+    var val = ref.val;
+
+    res[key] = function mappedAction () {
+      var args = [], len = arguments.length;
+      while ( len-- ) args[ len ] = arguments[ len ];
+
+      var dispatch = this.$store.dispatch;
+      if (namespace) {
+        var module = getModuleByNamespace(this.$store, 'mapActions', namespace);
+        if (!module) {
+          return
+        }
+        dispatch = module.context.dispatch;
+      }
+      return typeof val === 'function'
+        ? val.apply(this, [dispatch].concat(args))
+        : dispatch.apply(this.$store, [val].concat(args))
+    };
+  });
+  return res
+});
+
+var createNamespacedHelpers = function (namespace) { return ({
+  mapState: mapState.bind(null, namespace),
+  mapGetters: mapGetters.bind(null, namespace),
+  mapMutations: mapMutations.bind(null, namespace),
+  mapActions: mapActions.bind(null, namespace)
+}); };
+
+function normalizeMap (map) {
+  return Array.isArray(map)
+    ? map.map(function (key) { return ({ key: key, val: key }); })
+    : Object.keys(map).map(function (key) { return ({ key: key, val: map[key] }); })
+}
+
+function normalizeNamespace (fn) {
+  return function (namespace, map) {
+    if (typeof namespace !== 'string') {
+      map = namespace;
+      namespace = '';
+    } else if (namespace.charAt(namespace.length - 1) !== '/') {
+      namespace += '/';
+    }
+    return fn(namespace, map)
+  }
+}
+
+function getModuleByNamespace (store, helper, namespace) {
+  var module = store._modulesNamespaceMap[namespace];
+  if ( true && !module) {
+    console.error(("[vuex] module namespace not found in " + helper + "(): " + namespace));
+  }
+  return module
+}
+
+var index_esm = {
+  Store: Store,
+  install: install,
+  version: '3.0.1',
+  mapState: mapState,
+  mapMutations: mapMutations,
+  mapGetters: mapGetters,
+  mapActions: mapActions,
+  createNamespacedHelpers: createNamespacedHelpers
+};
+
+
+/* harmony default export */ __webpack_exports__["default"] = (index_esm);
+
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!***********************************!*\
   !*** (webpack)/buildin/global.js ***!
@@ -6262,10 +8143,297 @@ module.exports = g;
 
 /***/ }),
 
-/***/ "C:\\Users\\Administrator\\Desktop\\grace\\pages.json":
-/*!*******************************************************!*\
-  !*** C:/Users/Administrator/Desktop/grace/pages.json ***!
-  \*******************************************************/
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\common\\qqmap-wx-jssdk.min.js":
+/*!*********************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/common/qqmap-wx-jssdk.min.js ***!
+  \*********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+function _classCallCheck(instance, Constructor) {if (!(instance instanceof Constructor)) {throw new TypeError("Cannot call a class as a function");}}function _defineProperties(target, props) {for (var i = 0; i < props.length; i++) {var descriptor = props[i];descriptor.enumerable = descriptor.enumerable || false;descriptor.configurable = true;if ("value" in descriptor) descriptor.writable = true;Object.defineProperty(target, descriptor.key, descriptor);}}function _createClass(Constructor, protoProps, staticProps) {if (protoProps) _defineProperties(Constructor.prototype, protoProps);if (staticProps) _defineProperties(Constructor, staticProps);return Constructor;}var ERROR_CONF = { KEY_ERR: 311, KEY_ERR_MSG: 'key格式错误', PARAM_ERR: 310, PARAM_ERR_MSG: '请求参数信息有误', SYSTEM_ERR: 600, SYSTEM_ERR_MSG: '系统错误', WX_ERR_CODE: 1000, WX_OK_CODE: 200 };var BASE_URL = 'https://apis.map.qq.com/ws/';var URL_SEARCH = BASE_URL + 'place/v1/search';var URL_SUGGESTION = BASE_URL + 'place/v1/suggestion';var URL_GET_GEOCODER = BASE_URL + 'geocoder/v1/';var URL_CITY_LIST = BASE_URL + 'district/v1/list';var URL_AREA_LIST = BASE_URL + 'district/v1/getchildren';var URL_DISTANCE = BASE_URL + 'distance/v1/';var EARTH_RADIUS = 6378136.49;var Utils = { location2query: function location2query(data) {if (typeof data == 'string') {return data;}var query = '';for (var i = 0; i < data.length; i++) {var d = data[i];if (!!query) {query += ';';}if (d.location) {query = query + d.location.lat + ',' + d.location.lng;}if (d.latitude && d.longitude) {query = query + d.latitude + ',' + d.longitude;}}return query;}, rad: function rad(d) {return d * Math.PI / 180.0;}, getEndLocation: function getEndLocation(location) {var to = location.split(';');var endLocation = [];for (var i = 0; i < to.length; i++) {endLocation.push({ lat: parseFloat(to[i].split(',')[0]), lng: parseFloat(to[i].split(',')[1]) });}return endLocation;}, getDistance: function getDistance(latFrom, lngFrom, latTo, lngTo) {var radLatFrom = this.rad(latFrom);var radLatTo = this.rad(latTo);var a = radLatFrom - radLatTo;var b = this.rad(lngFrom) - this.rad(lngTo);var distance = 2 * Math.asin(Math.sqrt(Math.pow(Math.sin(a / 2), 2) + Math.cos(radLatFrom) * Math.cos(radLatTo) * Math.pow(Math.sin(b / 2), 2)));distance = distance * EARTH_RADIUS;distance = Math.round(distance * 10000) / 10000;return parseFloat(distance.toFixed(0));}, getWXLocation: function getWXLocation(success, fail, complete) {wx.getLocation({ type: 'gcj02', success: success, fail: fail, complete: complete });}, getLocationParam: function getLocationParam(location) {if (typeof location == 'string') {var locationArr = location.split(',');if (locationArr.length === 2) {location = { latitude: location.split(',')[0], longitude: location.split(',')[1] };} else {location = {};}}return location;}, polyfillParam: function polyfillParam(param) {param.success = param.success || function () {};param.fail = param.fail || function () {};param.complete = param.complete || function () {};}, checkParamKeyEmpty: function checkParamKeyEmpty(param, key) {if (!param[key]) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + key + '参数格式有误');param.fail(errconf);param.complete(errconf);return true;}return false;}, checkKeyword: function checkKeyword(param) {return !this.checkParamKeyEmpty(param, 'keyword');}, checkLocation: function checkLocation(param) {var location = this.getLocationParam(param.location);if (!location || !location.latitude || !location.longitude) {var errconf = this.buildErrorConfig(ERROR_CONF.PARAM_ERR, ERROR_CONF.PARAM_ERR_MSG + ' location参数格式有误');param.fail(errconf);param.complete(errconf);return false;}return true;}, buildErrorConfig: function buildErrorConfig(errCode, errMsg) {return { status: errCode, message: errMsg };}, handleData: function handleData(param, data, feature) {if (feature === 'search') {var searchResult = data.data;var searchSimplify = [];for (var i = 0; i < searchResult.length; i++) {searchSimplify.push({ id: searchResult[i].id || null, title: searchResult[i].title || null, latitude: searchResult[i].location && searchResult[i].location.lat || null, longitude: searchResult[i].location && searchResult[i].location.lng || null, address: searchResult[i].address || null, category: searchResult[i].category || null, tel: searchResult[i].tel || null, adcode: searchResult[i].ad_info && searchResult[i].ad_info.adcode || null, city: searchResult[i].ad_info && searchResult[i].ad_info.city || null, district: searchResult[i].ad_info && searchResult[i].ad_info.district || null, province: searchResult[i].ad_info && searchResult[i].ad_info.province || null });}param.success(data, { searchResult: searchResult, searchSimplify: searchSimplify });} else if (feature === 'suggest') {var suggestResult = data.data;var suggestSimplify = [];for (var i = 0; i < suggestResult.length; i++) {suggestSimplify.push({ adcode: suggestResult[i].adcode || null, address: suggestResult[i].address || null, category: suggestResult[i].category || null, city: suggestResult[i].city || null, district: suggestResult[i].district || null, id: suggestResult[i].id || null, latitude: suggestResult[i].location && suggestResult[i].location.lat || null, longitude: suggestResult[i].location && suggestResult[i].location.lng || null, province: suggestResult[i].province || null, title: suggestResult[i].title || null, type: suggestResult[i].type || null });}param.success(data, { suggestResult: suggestResult, suggestSimplify: suggestSimplify });} else if (feature === 'reverseGeocoder') {var reverseGeocoderResult = data.result;var reverseGeocoderSimplify = { address: reverseGeocoderResult.address || null, latitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lat || null, longitude: reverseGeocoderResult.location && reverseGeocoderResult.location.lng || null, adcode: reverseGeocoderResult.ad_info && reverseGeocoderResult.ad_info.adcode || null, city: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.city || null, district: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.district || null, nation: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.nation || null, province: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.province || null, street: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street || null, street_number: reverseGeocoderResult.address_component && reverseGeocoderResult.address_component.street_number || null, recommend: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.recommend || null, rough: reverseGeocoderResult.formatted_addresses && reverseGeocoderResult.formatted_addresses.rough || null };if (reverseGeocoderResult.pois) {var pois = reverseGeocoderResult.pois;var poisSimplify = [];for (var i = 0; i < pois.length; i++) {poisSimplify.push({ id: pois[i].id || null, title: pois[i].title || null, latitude: pois[i].location && pois[i].location.lat || null, longitude: pois[i].location && pois[i].location.lng || null, address: pois[i].address || null, category: pois[i].category || null, adcode: pois[i].ad_info && pois[i].ad_info.adcode || null, city: pois[i].ad_info && pois[i].ad_info.city || null, district: pois[i].ad_info && pois[i].ad_info.district || null, province: pois[i].ad_info && pois[i].ad_info.province || null });}param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify, pois: pois, poisSimplify: poisSimplify });} else {param.success(data, { reverseGeocoderResult: reverseGeocoderResult, reverseGeocoderSimplify: reverseGeocoderSimplify });}} else if (feature === 'geocoder') {var geocoderResult = data.result;var geocoderSimplify = { title: geocoderResult.title || null, latitude: geocoderResult.location && geocoderResult.location.lat || null, longitude: geocoderResult.location && geocoderResult.location.lng || null, adcode: geocoderResult.ad_info && geocoderResult.ad_info.adcode || null, province: geocoderResult.address_components && geocoderResult.address_components.province || null, city: geocoderResult.address_components && geocoderResult.address_components.city || null, district: geocoderResult.address_components && geocoderResult.address_components.district || null, street: geocoderResult.address_components && geocoderResult.address_components.street || null, street_number: geocoderResult.address_components && geocoderResult.address_components.street_number || null, level: geocoderResult.level || null };
+      param.success(data, { geocoderResult: geocoderResult, geocoderSimplify: geocoderSimplify });} else if (feature === 'getCityList') {var provinceResult = data.result[0];var cityResult = data.result[1];var districtResult = data.result[2];param.success(data, { provinceResult: provinceResult, cityResult: cityResult, districtResult: districtResult });} else if (feature === 'getDistrictByCityId') {var districtByCity = data.result[0];param.success(data, districtByCity);} else if (feature === 'calculateDistance') {var calculateDistanceResult = data.result.elements;var distance = [];for (var i = 0; i < calculateDistanceResult.length; i++) {distance.push(calculateDistanceResult[i].distance);}param.success(data, { calculateDistanceResult: calculateDistanceResult, distance: distance });} else {param.success(data);}}, buildWxRequestConfig: function buildWxRequestConfig(param, options, feature) {var that = this;options.header = { "content-type": "application/json" };options.method = 'GET';options.success = function (res) {var data = res.data;if (data.status === 0) {that.handleData(param, data, feature);} else {param.fail(data);}};options.fail = function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};options.complete = function (res) {var statusCode = +res.statusCode;switch (statusCode) {case ERROR_CONF.WX_ERR_CODE:{param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));break;}case ERROR_CONF.WX_OK_CODE:{var data = res.data;if (data.status === 0) {param.complete(data);} else {param.complete(that.buildErrorConfig(data.status, data.message));}break;}default:{param.complete(that.buildErrorConfig(ERROR_CONF.SYSTEM_ERR, ERROR_CONF.SYSTEM_ERR_MSG));}}};
+    return options;}, locationProcess: function locationProcess(param, locationsuccess, locationfail, locationcomplete) {var that = this;locationfail = locationfail || function (res) {res.statusCode = ERROR_CONF.WX_ERR_CODE;param.fail(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));};locationcomplete = locationcomplete || function (res) {if (res.statusCode == ERROR_CONF.WX_ERR_CODE) {param.complete(that.buildErrorConfig(ERROR_CONF.WX_ERR_CODE, res.errMsg));}};if (!param.location) {that.getWXLocation(locationsuccess, locationfail, locationcomplete);} else if (that.checkLocation(param)) {var location = Utils.getLocationParam(param.location);locationsuccess(location);}} };var QQMapWX = /*#__PURE__*/function () {function QQMapWX(options) {_classCallCheck(this, QQMapWX);if (!options.key) {throw Error('key值不能为空');}this.key = options.key;}_createClass(QQMapWX, [{ key: "search", value: function search(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, orderby: options.orderby || '_distance', page_size: options.page_size || 10, page_index: options.page_index || 1, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}var distance = options.distance || "1000";var auto_extend = options.auto_extend || 1;var region = null;var rectangle = null;if (options.region) {region = options.region;}if (options.rectangle) {rectangle = options.rectangle;}var locationsuccess = function locationsuccess(result) {if (region && !rectangle) {requestParam.boundary = "region(" + region + "," + auto_extend + "," + result.latitude + "," + result.longitude + ")";} else if (rectangle && !region) {requestParam.boundary = "rectangle(" + rectangle + ")";} else {requestParam.boundary = "nearby(" + result.latitude + "," + result.longitude + "," + distance + "," + auto_extend + ")";}wx.request(Utils.buildWxRequestConfig(options, { url: URL_SEARCH, data: requestParam }, 'search'));};Utils.locationProcess(options, locationsuccess);} }, { key: "getSuggestion", value: function getSuggestion(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (!Utils.checkKeyword(options)) {return;}var requestParam = { keyword: options.keyword, region: options.region || '全国', region_fix: options.region_fix || 0, policy: options.policy || 0, page_size: options.page_size || 10, page_index: options.page_index || 1, get_subpois: options.get_subpois || 0, output: 'json', key: that.key };if (options.address_format) {requestParam.address_format = options.address_format;}if (options.filter) {requestParam.filter = options.filter;}if (options.location) {var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, "suggest"));};Utils.locationProcess(options, locationsuccess);} else {wx.request(Utils.buildWxRequestConfig(options, { url: URL_SUGGESTION, data: requestParam }, "suggest"));}} }, { key: "reverseGeocoder", value: function reverseGeocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { coord_type: options.coord_type || 5, get_poi: options.get_poi || 0, output: 'json', key: that.key };if (options.poi_options) {requestParam.poi_options = options.poi_options;}var locationsuccess = function locationsuccess(result) {requestParam.location = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'reverseGeocoder'));};Utils.locationProcess(options, locationsuccess);} }, { key: "geocoder", value: function geocoder(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'address')) {return;}var requestParam = { address: options.address, output: 'json', key: that.key };if (options.region) {requestParam.region = options.region;}wx.request(Utils.buildWxRequestConfig(options, { url: URL_GET_GEOCODER, data: requestParam }, 'geocoder'));} }, { key: "getCityList", value: function getCityList(options) {var that = this;options = options || {};Utils.polyfillParam(options);var requestParam = { output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_CITY_LIST, data: requestParam }, 'getCityList'));} }, { key: "getDistrictByCityId", value: function getDistrictByCityId(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'id')) {return;}var requestParam = { id: options.id || '', output: 'json', key: that.key };wx.request(Utils.buildWxRequestConfig(options, { url: URL_AREA_LIST, data: requestParam }, 'getDistrictByCityId'));} }, { key: "calculateDistance", value: function calculateDistance(options) {var that = this;options = options || {};Utils.polyfillParam(options);if (Utils.checkParamKeyEmpty(options, 'to')) {return;}var requestParam = { mode: options.mode || 'walking', to: Utils.location2query(options.to), output: 'json', key: that.key };if (options.from) {options.location = options.from;}if (requestParam.mode == 'straight') {var locationsuccess = function locationsuccess(result) {var locationTo = Utils.getEndLocation(requestParam.to);var data = { message: "query ok", result: { elements: [] }, status: 0 };for (var i = 0; i < locationTo.length; i++) {data.result.elements.push({ distance: Utils.getDistance(result.latitude, result.longitude, locationTo[i].lat, locationTo[i].lng), duration: 0, from: { lat: result.latitude, lng: result.longitude }, to: { lat: locationTo[i].lat, lng: locationTo[i].lng } });}var calculateResult = data.result.elements;var distanceResult = [];for (var i = 0; i < calculateResult.length; i++) {distanceResult.push(calculateResult[i].distance);}return options.success(data, { calculateResult: calculateResult, distanceResult: distanceResult });};Utils.locationProcess(options, locationsuccess);} else {var locationsuccess = function locationsuccess(result) {requestParam.from = result.latitude + ',' + result.longitude;wx.request(Utils.buildWxRequestConfig(options, { url: URL_DISTANCE, data: requestParam }, 'calculateDistance'));};Utils.locationProcess(options, locationsuccess);}} }]);return QQMapWX;}();;module.exports = QQMapWX;
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue":
+/*!**************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue ***!
+  \**************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./dialog.vue?vue&type=template&id=7c0baba0&scoped=true& */ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&");
+/* harmony import */ var _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./dialog.vue?vue&type=script&lang=js& */ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "7c0baba0",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./dialog.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=script&lang=js&");
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&":
+/*!*********************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/components/dialog.vue?vue&type=template&id=7c0baba0&scoped=true& ***!
+  \*********************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./dialog.vue?vue&type=template&id=7c0baba0&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\components\\dialog.vue?vue&type=template&id=7c0baba0&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_dialog_vue_vue_type_template_id_7c0baba0_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue":
+/*!****************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue ***!
+  \****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./graceLoading.vue?vue&type=template&id=66702079&name=graceLoading& */ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=template&id=66702079&name=graceLoading&");
+/* harmony import */ var _graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./graceLoading.vue?vue&type=script&lang=js& */ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./graceLoading.vue?vue&type=style&index=0&lang=css& */ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!./graceLoading.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=script&lang=js&");
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=style&index=0&lang=css&":
+/*!*************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=style&index=0&lang=css& ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!./graceLoading.vue?vue&type=style&index=0&lang=css& */ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=style&index=0&lang=css&");
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_E_project_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_E_project_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=template&id=66702079&name=graceLoading&":
+/*!*****************************************************************************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/components/graceLoading.vue?vue&type=template&id=66702079&name=graceLoading& ***!
+  \*****************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!./graceLoading.vue?vue&type=template&id=66702079&name=graceLoading& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\components\\graceLoading.vue?vue&type=template&id=66702079&name=graceLoading&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_E_project_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_E_project_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_graceLoading_vue_vue_type_template_id_66702079_name_graceLoading___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\graceUI\\graceChecker.js":
+/*!****************************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/graceUI/graceChecker.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+ /**
+              数据验证（表单验证）
+              来自 grace.hcoder.net 
+              作者 hcoder 深海
+              
+              版权声明 : 
+              GraceUI 的版权约束是不能转售或者将 GraceUI 直接发布到公开渠道！
+              侵权必究，请遵守版权约定！
+              */
+module.exports = {
+  error: '',
+  check: function check(data, rule) {
+    for (var i = 0; i < rule.length; i++) {
+      if (!rule[i].checkType) {return true;}
+      if (!rule[i].name) {return true;}
+      if (!rule[i].errorMsg) {return true;}
+      if (!data[rule[i].name]) {this.error = rule[i].errorMsg;return false;}
+      switch (rule[i].checkType) {
+        case 'string':
+          var reg = new RegExp('.{' + rule[i].checkRule + '}');
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'int':
+          var reg = new RegExp('^(-[1-9]|[1-9])[0-9]{' + rule[i].checkRule + '}$');
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+          break;
+        case 'between':
+          if (!this.isNumber(data[rule[i].name])) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'betweenD':
+          var reg = /^-?[1-9][0-9]?$/;
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'betweenF':
+          var reg = /^-?[0-9][0-9]?.+[0-9]+$/;
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          var minMax = rule[i].checkRule.split(',');
+          minMax[0] = Number(minMax[0]);
+          minMax[1] = Number(minMax[1]);
+          if (data[rule[i].name] > minMax[1] || data[rule[i].name] < minMax[0]) {
+            this.error = rule[i].errorMsg;
+            return false;
+          }
+          break;
+        case 'same':
+          if (data[rule[i].name] != rule[i].checkRule) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'notsame':
+          if (data[rule[i].name] == rule[i].checkRule) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'email':
+          var reg = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'phoneno':
+          var reg = /^1[0-9]{10,10}$/;
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'zipcode':
+          var reg = /^[0-9]{6}$/;
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'reg':
+          var reg = new RegExp(rule[i].checkRule);
+          if (!reg.test(data[rule[i].name])) {this.error = rule[i].errorMsg;return false;}
+          break;
+        case 'in':
+          if (rule[i].checkRule.indexOf(data[rule[i].name]) == -1) {
+            this.error = rule[i].errorMsg;return false;
+          }
+          break;
+        case 'notnull':
+          if (data[rule[i].name] == null || data[rule[i].name].length < 1) {this.error = rule[i].errorMsg;return false;}
+          break;}
+
+    }
+    return true;
+  },
+  isNumber: function isNumber(checkVal) {
+    var reg = /^-?[1-9][0-9]?.?[0-9]*$/;
+    return reg.test(checkVal);
+  } };
+
+/***/ }),
+
+/***/ "C:\\Users\\Administrator\\Desktop\\schoolJiangHu\\pages.json":
+/*!***************************************************************!*\
+  !*** C:/Users/Administrator/Desktop/schoolJiangHu/pages.json ***!
+  \***************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 

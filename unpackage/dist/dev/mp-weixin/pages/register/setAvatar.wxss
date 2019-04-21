@@ -1,0 +1,33 @@
+
+.avatar-box {
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.avatar {
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+}
+.form {
+	width: 50%;
+	margin: 0 auto;
+}
+.input {
+	text-align: center;
+	font-size: 15px;
+	border-bottom: #a9a9a9 2px solid;
+	border-left-width: 0px;
+	border-right-width: 0px;
+	border-top-width: 0px;
+}
+.button-sp-area {
+	margin-top: 25%;
+}
+.button-sp-area button {
+	width: auto;
+	margin: 12rpx;
+	background: -webkit-gradient(linear, left top, right top, from(#fc4243), to(#fc6666));
+	background: -o-linear-gradient(left, #fc4243, #fc6666);
+	background: linear-gradient(to right, #fc4243, #fc6666);
+}
+

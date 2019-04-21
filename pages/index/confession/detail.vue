@@ -2,7 +2,7 @@
 	<view>
 		<view class="grace-article-author-line" style="margin-top: 8px;">
 			<view class="grace-article-author">
-				<image :src="article.avatar"></image>
+				<image :src="article.avatar" mode="scaleToFill"></image>
 				<view class="author-name">{{article.user_name}}</view>
 			</view>
 			<view class="btn" @click="guanzhu()"> +关注 </view>
@@ -94,7 +94,6 @@
 			this.articleId = parameter.id;
 			this.graceFullLoading = true;
 			this.getDetail();
-			this.graceFullLoading = false;
 		},
 		onPullDownRefresh() {
 			this.getDetail();
@@ -112,12 +111,14 @@
 						article_id: this.articleId
 					},
 					success: res => {
-						this.article = res.data.ArticleContent.article;
+						this.article = res.data.ArticleContent;
 						this.commentAndReplyList = res.data.comment_list;
 						this.other = res.data.other;
 					},
 					fail: (e) => {
 						this.GLOBAL.requestFail(e);
+					},complete: () => {
+						this.graceFullLoading = false;
 					}
 				});
 				this.content = '';
