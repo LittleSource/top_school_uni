@@ -10,9 +10,9 @@
 		<!-- 文章内容 -->
 		<view class="grace-article-contents">
 			<block>
-				<view class="text-item" style="line-height: 5px;">{{article.content}}</view>
-				<view class="grace-wrap grace-padding" @click="showImage()">
-					<image v-for="(img, imgIndex) in article.images_list" :key="imgIndex" :src="img" mode="widthFix" style="height: 100px;width: 48%;margin: 2px 1%;"></image>
+				<view class="text-item" style="line-height: 20px;">{{article.content}}</view>
+				<view v-if="article.images_list != null" class="grace-wrap grace-padding" @click="showImage()">
+					<image v-for="(img, imgIndex) in article.images_list" :key="imgIndex" :src="img" mode="aspectFill" style="height: 300upx;width: 48%;margin: 2px 1%;"></image>
 				</view>
 			</block>
 		</view>

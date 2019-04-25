@@ -1,2 +1,2 @@
 <import src="./checkstand.vue.wxml" />
-    <template is="c7b673fe" data="{{ ...$root['0'], $root }}"/>
+    <template is="1b18f546" data="{{ ...$root['0'], $root }}"/>

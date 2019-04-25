@@ -1,2 +1,2 @@
 <import src="./checkSchool.vue.wxml" />
-    <template is="691dc3db" data="{{ ...$root['0'], $root }}"/>
+    <template is="55184a02" data="{{ ...$root['0'], $root }}"/>

@@ -5,15 +5,15 @@
 			 @tap="tabChange">{{cate.name}}</view>
 		</scroll-view>
 		<view class="content">
-		<navigator url="./details" class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
-			<view class="parttime-card-img">
-				<image class="parttime-card-imge" :src="imagesList[1]" mode="scaleToFill"></image>
-			</view>
-			<view class="text-one">{{job.jobtitle}}</view>
-			<view class="text-two">{{job.treatment}}</view>
-			<view class="text-three">{{job.site}}</view>
-			<view class="text-four">{{job.validtime}}</view>
-		</navigator>
+			<navigator url="./details" class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
+				<view class="parttime-card-img">
+					<image class="parttime-card-imge" :src="imagesList[1]" mode="scaleToFill"></image>
+				</view>
+				<view class="text-one">{{job.jobtitle}}</view>
+				<view class="text-two">{{job.treatment}}</view>
+				<view class="text-three">{{job.site}}</view>
+				<view class="text-four">{{job.validtime}}</view>
+			</navigator>
 		</view>
 	</view>
 </template>
@@ -49,7 +49,7 @@
 				// 当前选择的分类
 				cateCurrentIndex: 0,
 				jobList: [],
-				imagesList:[
+				imagesList: [
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/catclaw.png",
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/orange.png",
 					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/square2.png"
@@ -65,53 +65,97 @@
 		},
 		computed: mapState(['selectSchool']),
 		onLoad() {
+			this.jobList = uni.getStorageSync('jobList'); //获取本地缓存的数据
 			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
-			this.getList(1,this.categories[this.cateCurrentIndex]);
-			setTimeout(function() {
-				uni.stopPullDownRefresh();
-			}, 1000);
-		},
-		methods: {
-			getList(page,type) {
-				uni.request({
-					url: this.GLOBAL.serverSrc + 'job/job/seljob',
-					method: 'POST',
-					data: {
-						page: page,
-						id: this.selectSchool.id
-					},
-					success: res => {
-						if(res.data.status === 200){
-							this.jobList = res.data.jobList;
-						}else{
-							uni.showToast({
-								title: res.data.msg,
-								icon: "none"
+			uni.request({
+				url: this.GLOBAL.serverSrc + 'job/job/seljob',
+				method: 'POST',
+				data: {
+					page: 1,
+					type: this.categories[this.cateCurrentIndex],
+					id: this.selectSchool.id
+				},
+				success: res => {
+					if (res.data.status === 200) {
+						//this.loading.totalPages = res.data.totalPages;
+						this.jobList = res.data.jobList;
+						//将请求的数据缓存到本地
+						if(this.cateCurrentIndex === 0){
+							uni.setStorage({
+								key: 'jobList',
+								data: this.jobList
 							});
 						}
-					},
-					fail: (e) => {
-						this.GLOBAL.requestFail(e);
+						console.log(JSON.stringify(res.data));
+					} else {
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
 					}
-				});
-			},
+				},
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
+				},complete: () => {
+					this.loading.nextPages = 2;
+					uni.stopPullDownRefresh();
+				}
+			});
+		},
+		onReachBottom() {
+			//判断当前是否正在加载
+			if (this.loading.type === 1) {
+				return;
+			}
+			//判断是否是最后一页
+			if (this.loading.nextPages > this.loading.totalPages) {
+				this.loading.type = 2; //显示已加载全部
+				return;
+			}
+			this.loading.type = 1; //显示加载中
+			uni.request({
+				url: this.GLOBAL.serverSrc + 'job/job/seljob',
+				method: 'POST',
+				data: {
+					page: this.loading.nextPages,
+					type: this.categories[this.cateCurrentIndex],
+					id: this.selectSchool.id
+				},
+				success: res => {
+					if (res.data.status === 200) {
+						this.jobList = this.jobList.concat(res.data.jobList);
+					} else {
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
+					}
+				},
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
+				},
+				complete: () => {
+					this.loading.type = 0;
+					this.loading.nextPages++;
+				}
+			});
+		},
+		methods: {
 			tabChange: function(e) {
-				// 选中的索引
-				var index = e.currentTarget.dataset.index;
-				this.cateCurrentIndex = index;
-				// 动态替换内容
-				this.loading.nextPages = 2;
-				this.getList(1, this.categories[index].name);
+				var index = e.currentTarget.dataset.index; // 选中的索引
+				this.cateCurrentIndex = index; // 动态替换索引
+				uni.startPullDownRefresh();
 			}
 		},
 	}
 </script>
 <style>
-	page{
+	page {
 		background-color: #F6F6F6;
 	}
+
 	.grace-tab-title {
 		background-color: #FC4243;
 		color: #F6F6F6;
@@ -119,16 +163,20 @@
 		z-index: 999;
 		top: 0;
 	}
-	.grace-tab-title view{
-		border-bottom:2px solid #FC4243;
+
+	.grace-tab-title view {
+		border-bottom: 2px solid #FC4243;
 	}
+
 	.grace-tab-current {
 		border-bottom: 4upx solid #FFFFFF !important;
 		color: #FFFFFF;
 	}
-	.content{
+
+	.content {
 		margin-top: 50px;
 	}
+
 	.parttime-card {
 		background-color: #FFFFFF;
 		width: 693upx;

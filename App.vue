@@ -29,15 +29,16 @@
 				})
 			}
 			// 检查更新，参数：{ 当前版本号，跳转到更新页面的url }
-			//this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update')
+			uni.showModal({
+				title: '提示',
+				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
+				showCancel: false
+			});
+			this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update')
 			// #endif
 		},
 		onShow: function() {
-			// 			uni.showModal({
-			// 				title: '提示',
-			// 				content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
-			// 				showCancel: false
-			// 			});
+			
 		},
 		onHide: function() {
 			uni.connectSocket({
@@ -69,7 +70,7 @@
 
 	.iconfont {
 		font-family: "iconfont" !important;
-		font-size: 26upx;
+		font-size: 36upx;
 		font-style: normal;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;

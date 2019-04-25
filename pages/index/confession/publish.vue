@@ -1,6 +1,5 @@
 <template>
 	<view class="grace-bg-white">
-		<progress v-if="Loading" :percent="progress" color="#5FB878" stroke-width="4" />
 		<view class="grace-items grace-noborder grace-padding input-textarea">
 			<textarea style="width: 100%;" v-model="content" placeholder="这一刻的想法..." maxlength="200"></textarea>
 		</view>
@@ -17,7 +16,7 @@
 			</view>
 		</view>
 		<view class="grace-padding has-bordert">
-			<button :loading="Loading" type="default" class="ymkj-bg" @click="submit">提交</button>
+			<button type="default" class="ymkj-bg" @click="submit">提交</button>
 		</view>
 	</view>
 </template>
@@ -34,9 +33,7 @@
 				content: '',
 				imgLists: [],
 				imgFiles: [],
-				btnImg: true,
-				Loading: false,
-				progress: 0 //上传进度
+				btnImg: true
 			}
 		},
 		onLoad: function() {
@@ -64,7 +61,7 @@
 			removeImg: function(e) {
 				var index = e.currentTarget.id.replace('grace-items-img-', '');
 				_self.imgLists.splice(index, 1);
-				_self.imgLists = _self.imgLists;
+				_self.imgFiles.splice(index, 1);
 				if (_self.imgLists.length < maxNum) {
 					_self.btnImg = true;
 				}
@@ -80,48 +77,77 @@
 				this.Loading = true;
 				var i = 0;
 				var _this = this;
-				//更改imgFiles内的file对象的key为uri
-				var filesArr = this.imgFiles.map(key => {
-					return {
-						name: 'file[' + (i++) + ']',
-						uri: key.path
-					}
+				var filesArr = [];
+				uni.showLoading({
+					title:'发布中...'
 				});
-				const uploadTask = uni.uploadFile({
-					url: _self.GLOBAL.serverSrc + 'confession/publish/upload',
-					files: filesArr,
-					formData: {
-						'token': this.user.token,
-						'phone': this.user.phone,
-						'content': this.content
-					},
-					success: (uploadFileRes) => {
-						var resObj = JSON.parse(uploadFileRes.data);
-						if (resObj.status === 200) {
-							uni.showToast({
-								title: '发表成功！',
-								icon: "none"
-							});
-							uni.redirectTo({
-								url: './index'
-							});
-						} else {
-							uni.showToast({
-								title: resObj.msg,
-								icon: "none"
-							});
+				if(this.imgFiles.length>0){//有图的情况
+					//更改imgFiles内的file对象的key为uri
+					filesArr = this.imgFiles.map(key => {
+						return {
+							name: 'file[' + (i++) + ']',
+							uri: key.path
 						}
-					},
-					fail: (e) => {
-						_this.GLOBAL.requestFail(e);
-					},
-					complete: () => {
-						_this.Loading = false;
-					}
-				});
-				uploadTask.onProgressUpdate((res) => {
-					_this.progress = res.progress;
-				});
+					});
+					uni.uploadFile({
+						url: _self.GLOBAL.serverSrc + 'confession/publish/upload',
+						files: filesArr,
+						formData: {
+							token: _self.user.token,
+							phone: _self.user.phone,
+							content: _self.content
+						},
+						success: (uploadFileRes) => {
+							console.log(JSON.stringify(uploadFileRes));
+							var resObj = JSON.parse(uploadFileRes.data);
+							uni.hideLoading();
+							if (resObj.status === 200) {
+								uni.showToast({
+									title: '发表成功！',
+									icon: "none"
+								});
+								uni.redirectTo({
+									url: './index'
+								});
+							} else {
+								uni.showToast({
+									title: resObj.msg,
+									icon: "none"
+								});
+							}
+						},
+						fail: (e) => {
+							uni.hideLoading();
+							_this.GLOBAL.requestFail(e);
+						}
+					});
+				}else{//无图
+					uni.request({
+						url: _self.GLOBAL.serverSrc + 'confession/publish/upload',
+						method: 'POST',
+						data: {
+							token: _self.user.token,
+							phone: _self.user.phone,
+							content: _self.content
+						},
+						success: res => {
+							uni.hideLoading();
+							if(res.data.status === 200){
+								uni.showToast({
+									title: '发表成功！',
+									icon: "none"
+								});
+								uni.redirectTo({
+									url: './index'
+								});
+							}
+						},
+						fail: (e) => {
+							uni.hideLoading();
+							_this.GLOBAL.requestFail(e);
+						}
+					});
+				}
 			}
 		}
 	}

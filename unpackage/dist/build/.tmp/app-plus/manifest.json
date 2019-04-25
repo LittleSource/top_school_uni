@@ -7,7 +7,7 @@
   "id": "__UNI__4EA13A8",
   "name": "TOP校园",
   "version": {
-    "name": "1.1.5",
+    "name": "1.1.6",
     "code": "100"
   },
   "description": "",
@@ -144,7 +144,7 @@
       }
     },
     "uni-app": {
-      "compilerVersion": "1.9.2",
+      "compilerVersion": "1.9.3",
       "control": "webview"
     }
   }

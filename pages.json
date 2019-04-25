@@ -365,6 +365,20 @@
 				}
 			}
 		}, {
+			"path": "pages/my/market/order/orderdetail",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff4500",
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
+			}
+		}, {
 			"path": "pages/my/market/classify",
 			"style": {
 				"navigationBarTextStyle": "white",

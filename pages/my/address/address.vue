@@ -99,6 +99,9 @@
 									title: '操作成功',
 								});
 								this.changeAddressInfo(this.addressInfo_);
+								setTimeout(function(){
+									uni.navigateBack();
+								},1500);
 							}else{
 								uni.showToast({
 									title: res.data.msg,

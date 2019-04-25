@@ -52,59 +52,14 @@
 			</view>
 			<view class="grace-common-mt grace-common-border">
 				<view class="grace-title grace-nowrap grace-space-between">
-					<view class="grace-h5 grace-blod">标题</view>
-					<navigator class="grace-more-r">更多<text class="grace-iconfont icon-arrow-right"></text></navigator>
+					<view class="grace-h5 grace-blod">热门表白</view>
+					<navigator url="./confession/index" class="grace-more-r">更多<text class="grace-iconfont icon-arrow-right"></text></navigator>
 				</view>
 				<view class="grace-imgitems">
-					<view class="grace-items">
-						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[0].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
-					</view>
-					<view class="grace-items">
-						<image :src="swiperimgs[1].imgUrl" mode="widthFix"></image>
-						<view class="grace-imgitems-tips grace-imgitems-tips-green grace-imgitems-tips-r">标签</view>
-						<view class="grace-imgitems-more">我想做自己披星戴月闯荡的盖世英雄</view>
+					<view class="grace-items" v-for="(item,index) in confessionList" :key="index" @click="goConfession(item.article_id)">
+						<image :src="item.image_path" style="height: 220upx;" mode="aspectFill"></image>
+						<view class="grace-imgitems-tips">表白墙</view>
+						<view class="grace-imgitems-more grace-ellipsis">{{item.content}}</view>
 					</view>
 				</view>
 			</view>
@@ -123,6 +78,7 @@
 					show: false,
 					top: 30
 				},
+				confessionList: [],
 				swiperimgs: [{
 						"imgUrl": "https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg",
 						"path": "../alert/alert",
@@ -148,11 +104,40 @@
 					url: '../login/login'
 				});
 			}
+			uni.startPullDownRefresh();
+		},
+		onPullDownRefresh() {
+			this.getList();
+			setTimeout(function(){
+				uni.stopPullDownRefresh();
+			},1000);
 		},
 		methods: {
+			getList(){
+				uni.request({ //请求热点表白墙
+					url: this.GLOBAL.serverSrc + '/common/index/confession',
+					method: 'GET',
+					data: {
+						id: this.selectSchool.id
+					},
+					success: res => {
+						if (res.data.status === 200) {
+							this.confessionList = res.data.confessionList;
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					}
+				});
+			},
 			skip(url) {
 				uni.navigateTo({
 					url: url
+				});
+			},
+			goConfession(id) {
+				uni.navigateTo({
+					url: './confession/detail?id=' + id
 				});
 			},
 			showPopupMenu() {
@@ -242,5 +227,8 @@
 
 	.grace-boxes-text {
 		color: #7F7F7F;
+	}
+	.grace-wrap{
+		margin: 10px 0;
 	}
 </style>

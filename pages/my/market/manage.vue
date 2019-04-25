@@ -45,12 +45,12 @@
 					</view>
 					<view class="grace-boxes-text">资金明细</view>
 				</view>
-				<view class="grace-boxes">
+				<navigator class="grace-boxes" url="./order/orderdetail">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/xinyuan.png" mode="widthFix"></image>
 					</view>
 					<view class="grace-boxes-text">心愿储蓄</view>
-				</view>
+				</navigator>
 			</view>
 		</view>
 	</view>

@@ -19,33 +19,33 @@
 		</view>
 		<view class="iconCon has-borderb">
 			<view>
-				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<i class="iconfont icon-heart icon_comment"></i>
 				<p>表白</p>
 			</view>
 			<view>
-				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<i class="grace-iconfont icon-shaixuan icon_comment"></i>
 				<p>订单</p>
 			</view>
 			<view>
-				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<i class="grace-iconfont icon-time icon_comment"></i>
 				<p>兼职</p>
 			</view>
 			<view>
-				<i class="grace-iconfont icon-refresh icon_comment"></i>
+				<i class="grace-iconfont icon-write icon_comment"></i>
 				<p>代办</p>
 			</view>
 		</view>
 		<view class="grace-list">
 			<navigator class="items" url="./address/address">
 				<view class="icons">
-					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
+					<image src="../../static/coloricon/weizhi.png" mode="widthFix"></image>
 				</view>
 				<view class="title">我的地址</view>
 				<view class="arrow-right"></view>
 			</navigator>
 			<navigator class="items" url="./parttime/index">
 				<view class="icons">
-					<image src="../../static/coloricon/shop.png" mode="widthFix"></image>
+					<image src="../../static/coloricon/myparttime.png" mode="widthFix"></image>
 				</view>
 				<view class="title">发布兼职</view>
 				<view class="arrow-right"></view>
@@ -75,7 +75,7 @@
 	export default {
 		data() {
 			return {
-				staticUrl: 'https://staticimgs.oss-cn-beijing.aliyuncs.com/'
+				staticUrl: ''
 			}
 		},
 		computed: mapState(['user'])

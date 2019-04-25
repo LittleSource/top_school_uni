@@ -1,0 +1,86 @@
+
+page{
+	background-color: #f5f5f5;
+}
+.box-top{/*最上面的大框架*/
+	width: 85%;
+	padding: 40rpx 30rpx;
+	-webkit-box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	        box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	margin: 20rpx auto;
+	margin-top: 10px;
+	background: white;
+}
+.arrive{
+	height: 90rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+	color: black;
+	font-size: 46rpx;
+	margin-bottom: 15rpx;
+}
+.service{
+	margin-top: 20rpx;
+	font-size: 35rpx;
+}
+.service-thanks{
+	font-size: 35rpx;
+	margin: 20rpx 0;
+}
+.service-time{
+	font-size: 30rpx;
+	color: #ff4243;
+	font-weight: bold;
+}
+.service-special{
+	font-size: 28rpx;
+	color: #969696;
+}
+.button{
+	display: inline-block;
+	margin-top: 30rpx;
+	width: 190rpx;
+	height: 75rpx;
+	line-height: 75rpx;
+	font-size: 32rpx;
+}
+/*-----------------以下是menu-----------------*/
+.menu{
+	width: 85%;
+	padding: 20rpx 30rpx;
+	-webkit-box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	        box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	margin: 0 auto;
+	margin-bottom: 10rpx;
+	background: white;
+}
+.shop{
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+	font-size: 33rpx;
+	color: black;
+}
+.price{
+	margin-right: 60rpx;
+}
+/*-----------------以下是配送信息-----------------*/
+.send{
+	width: 85%;
+	padding: 20rpx 30rpx;
+	-webkit-box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	        box-shadow: 1rpx 1rpx 1px #f5f5f5;
+	margin: 0 auto;
+	margin: 20rpx auto;
+	background: white;
+}
+.send-way{
+	height: 100rpx;
+	line-height: 100rpx;
+	border-bottom: 1rpx solid #f5f5f5;
+	font-size: 33rpx;
+	color: black;
+}
+.space{
+	margin-right: 30rpx;
+}
+
