@@ -2,5 +2,10 @@
   "usingComponents": {},
   "navigationBarTextStyle": "white",
   "navigationBarBackgroundColor": "#fc4243",
-  "navigationBarTitleText": "热点"
+  "navigationBarTitleText": "热点",
+  "enablePullDownRefresh": true,
+  "pullToRefresh": {
+    "style": "default",
+    "support": true
+  }
 }

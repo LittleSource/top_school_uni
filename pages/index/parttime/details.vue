@@ -2,51 +2,43 @@
 	<view>
 		<view class="img" style="background-image: url('../../../static/parttime/hand.jpg'); opacity: 1;">
 			<view class="img-first">
-				<p>诚聘日结简单手机兼职App试玩员</p>
+				<p>{{job.jobtitle}}</p>
 			</view>
 			<view class="img-two">
-				<p>10000.00元/天</p>
+				<p>{{job.treatment}}</p>
 			</view>
 			<view class="img-three">
-				<p>北辰 | 其他</p>
+				<p>{{job.county}} | {{job.site}}</p>
 			</view>
 		</view>
 		<view class="claim">
 			<!--要求-->
 			<p>招聘要求</p>
-			<view class="day">日结</view>
+			<view class="day">{{job.type}}</view>
 			<view class="nine">招九百人</view>
 			<view class="man">男女不限</view>
 		</view>
 		<view class="gray"></view>
-		<view class="work">
-			<view class="work-one">工作福利</view>
-			<view class="eat1">·包吃</view>
-			<view class="eat">·包住</view>
-			<view class="eat">·交通补贴</view>
-			<view class="eat">·有提成</view>
-			<view class="eat">·免费培训</view>
+		<view class="details">
+			<view class="work-title">工作福利</view>
+			<p>·包吃</p>
+			<p>·包住</p>
+			<p>·交通补贴</p>
+			<p>·有提成</p>
+			<p>·免费培训</p>
 		</view>
 		<view class="gray"></view>
 		<view class="details">
 			<!--详情-->
-			<view class="details-one">职位详情</view>
-			<p>唯品会急招线上兼职，0成本在家可做！</p>
-			<p>【报名流程】</p>
-			<p>点击报名后请直接添加客服微信号，只有添加微信号才算报名成功，谢谢合作！(yxy88888888666)</p>
-			<p>【报名方法】</p>
-			<p>(点链接后是直接到企业QQ，点添加好友，然后按要求发消息给客服，安排兼职)</p>
-			<p>薪资待遇：多劳多得，按照要求完成人物反馈给客服，每个任务1-30元的金额</p>
-			<p>工作时间9：00-21：00基本上全天候，最后生命，绝不收费，不要受外面不健康兼职的影响</p>
-			<p class="details-two">Tip:凡收取费用的或工作内容不符的兼职，请提高警惕并第一时间向我们举报</p>
+			<view class="work-title">职位详情</view>
+			<p>{{job.content}}</p>
 		</view>
 		<view class="gray"></view>
-		<view class="worktime">
-			<view class="worktime-one">工作时间</view>
-			<view class="work-begin">开始时间：? 04月01日</view>
-			<view class="work-end">结束时间：? 04月30日</view>
+		<view class="details">
+			<view class="work-title">工作时间</view>
+			<p>发布时间：{{job.addtime}}</p>
+			<p>报到时间：2019年-04-25</p>
 		</view>
-		<view class="gray-one">——————宝贝我也是有底线的——————</view>
 	</view>
 </template>
 
@@ -54,8 +46,38 @@
 	export default {
 		data() {
 			return {
-				key: ''
+				jobId: 0,
+				job:{}
 			}
+		},
+		onLoad(parameter) {
+			this.jobId = parameter.id;
+			uni.showLoading({
+				title:'加载中...'
+			})
+			uni.request({
+				url: this.GLOBAL.serverSrc + '/job/job/getjob',
+				method: 'POST',
+				data: {
+					id: this.jobId
+				},
+				success: res => {
+					if(res.data.status === 200){
+						this.job = res.data.job[0];
+					}else{
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
+					}
+				},
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
+				},
+				complete: () => {
+					uni.hideLoading();
+				}
+			});
 		}
 	}
 </script>
@@ -63,7 +85,7 @@
 <style>
 	.img {
 		/*第一排黑色大框架*/
-		padding-top: 130upx;
+		padding-top: 50upx;
 		width: 100%;
 		height: 200upx;
 		background-color: black;
@@ -138,99 +160,21 @@
 		height: 20upx;
 		background: #EDEDED;
 	}
-
-	.gray-one {
-		/*分界线*/
-		width: 100%;
-		height: 150upx;
-		text-align: center;
-		line-height: 150upx;
-		background: #EDEDED;
-		color: #ccc;
-	}
-
-	.work {
-		width: 100%;
-		background: white;
-	}
-
-	.work .work-one {
-		margin-top: 40upx;
-		width: 200upx;
-		height: 40upx;
-		margin-left: 34upx;
-		font-size: 35upx;
-	}
-
-	.work .eat1 {
-		margin-top: 10upx;
-		padding: 5upx;
-		margin-left: 34upx;
-		border-radius: 8upx;
-		color: black;
-		font-size: 30upx;
-	}
-
-	.work .eat {
-		padding: 5upx;
-		margin-left: 34upx;
-		border-radius: 8upx;
-		color: black;
-		font-size: 30upx;
-	}
-
+	
 	.details {
 		width: 100%;
-		/* height: 1300upx; */
 		background: white;
 	}
 
-	.details .details-one {
+	.work-title {
 		width: 200upx;
-		height: 100upx;
 		margin-left: 40upx;
-		margin-top: 40upx;
+		margin-top: 10upx;
 		font-size: 35upx;
 	}
 
 	.details p {
-		margin-left: 40upx;
-		margin-right: 40upx;
-		line-height: 60upx;
-		color: #555555;
-		font-size: 30upx;
-	}
-
-	.details .details-two {
-		margin: 70upx 20upx 20upx 40upx;
-		color: #ff660d;
-		font-size: 25upx;
-	}
-
-	.worktime {
-		width: 100%;
-		height: 250upx;
-		background: white;
-	}
-
-	.worktime .worktime-one {
-		width: 200upx;
-		height: 100upx;
-		margin-left: 40upx;
-		margin-top: 40upx;
-		font-size: 35upx;
-	}
-
-	.worktime .work-begin {
-		margin-top: 8upx;
-		margin-left: 34upx;
-		color: #555555;
-		font-size: 30upx;
-	}
-
-	.worktime .work-end {
-		margin-top: 8upx;
-		margin-left: 34upx;
+		margin: 10upx 40upx;
 		color: #555555;
 		font-size: 30upx;
 	}

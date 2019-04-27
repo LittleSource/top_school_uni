@@ -22,6 +22,7 @@
     "pages/common/comment",
     "pages/common/update",
     "pages/hot/hot",
+    "pages/hot/detail",
     "pages/message/message",
     "pages/my/my",
     "pages/my/address/address",
@@ -62,7 +63,7 @@
       },
       {
         "pagePath": "pages/hot/hot",
-        "text": "发现",
+        "text": "热点",
         "iconPath": "static/icon/hot.png",
         "selectedIconPath": "static/icon/hot_selsect.png"
       },

@@ -1,5 +1,5 @@
 
-page{
+page {
 	background-color: #F6F6F6;
 }
 .grace-tab-title {
@@ -9,19 +9,19 @@ page{
 	z-index: 999;
 	top: 0;
 }
-.grace-tab-title view{
-	border-bottom:2px solid #FC4243;
+.grace-tab-title view {
+	border-bottom: 2px solid #FC4243;
 }
 .grace-tab-current {
 	border-bottom: 4rpx solid #FFFFFF !important;
 	color: #FFFFFF;
 }
-.content{
+.content {
 	margin-top: 50px;
 }
 .parttime-card {
 	background-color: #FFFFFF;
-	width: 693rpx;
+	width: 690rpx;
 	height: 150rpx;
 	padding: 30rpx;
 	border-bottom: 1rpx solid #ccc;
@@ -65,7 +65,7 @@ page{
 }
 .text-four {
 	float: left;
-	width: 90rpx;
+	width: auto;
 	height: 40rpx;
 	line-height: 40rpx;
 	margin-left: 15rpx;

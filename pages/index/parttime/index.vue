@@ -5,16 +5,18 @@
 			 @tap="tabChange">{{cate.name}}</view>
 		</scroll-view>
 		<view class="content">
-			<navigator url="./details" class="parttime-card" v-for="(job,index) in jobList" :key="index" @click="getimage">
+			<navigator class="parttime-card" v-for="(job,index) in jobList" :key="index" :url="'./details?id='+job.id">
 				<view class="parttime-card-img">
-					<image class="parttime-card-imge" :src="imagesList[1]" mode="scaleToFill"></image>
+					<image class="parttime-card-imge" :src="job.img" mode="scaleToFill"></image>
 				</view>
-				<view class="text-one">{{job.jobtitle}}</view>
+				<view class="text-one grace-ellipsis">{{job.jobtitle}}</view>
 				<view class="text-two">{{job.treatment}}</view>
 				<view class="text-three">{{job.site}}</view>
-				<view class="text-four">{{job.validtime}}</view>
+				<view class="text-four"><text style="margin: 5upx;">{{job.type}}</text></view>
+				<view class="text-four"><text style="margin: 5upx;">{{job.validtime}}</text></view>
 			</navigator>
 		</view>
+		<graceLoading :loadingType="loading.type" :loadingText="loading.text" :show="loading.show"></graceLoading>
 	</view>
 </template>
 <script>
@@ -49,13 +51,8 @@
 				// 当前选择的分类
 				cateCurrentIndex: 0,
 				jobList: [],
-				imagesList: [
-					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/catclaw.png",
-					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/orange.png",
-					"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/square2.png"
-				],
 				loading: {
-					show: false,
+					show: true,
 					nextPages: 2,
 					totalPages: 2,
 					type: 0,
@@ -70,16 +67,16 @@
 		},
 		onPullDownRefresh() {
 			uni.request({
-				url: this.GLOBAL.serverSrc + 'job/job/seljob',
+				url: this.GLOBAL.serverSrc + 'job/job/getjoblist',
 				method: 'POST',
 				data: {
 					page: 1,
-					type: this.categories[this.cateCurrentIndex],
+					type: this.categories[this.cateCurrentIndex].name,
 					id: this.selectSchool.id
 				},
 				success: res => {
 					if (res.data.status === 200) {
-						//this.loading.totalPages = res.data.totalPages;
+						this.loading.totalPages = res.data.totalPages;
 						this.jobList = res.data.jobList;
 						//将请求的数据缓存到本地
 						if(this.cateCurrentIndex === 0){
@@ -88,7 +85,6 @@
 								data: this.jobList
 							});
 						}
-						console.log(JSON.stringify(res.data));
 					} else {
 						uni.showToast({
 							title: res.data.msg,
@@ -116,11 +112,11 @@
 			}
 			this.loading.type = 1; //显示加载中
 			uni.request({
-				url: this.GLOBAL.serverSrc + 'job/job/seljob',
+				url: this.GLOBAL.serverSrc + 'job/job/getjoblist',
 				method: 'POST',
 				data: {
 					page: this.loading.nextPages,
-					type: this.categories[this.cateCurrentIndex],
+					type: this.categories[this.cateCurrentIndex].name,
 					id: this.selectSchool.id
 				},
 				success: res => {
@@ -179,7 +175,7 @@
 
 	.parttime-card {
 		background-color: #FFFFFF;
-		width: 693upx;
+		width: 690upx;
 		height: 150upx;
 		padding: 30upx;
 		border-bottom: 1upx solid #ccc;
@@ -229,7 +225,7 @@
 
 	.text-four {
 		float: left;
-		width: 90upx;
+		width: auto;
 		height: 40upx;
 		line-height: 40upx;
 		margin-left: 15upx;

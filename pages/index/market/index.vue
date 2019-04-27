@@ -45,8 +45,8 @@
 					</view>
 				</view>
 				<view class="footer">
-					<view class="grace-iconfont icon-home" @click="goMarket(market.market_id)">进店</view>
-					<view class="grace-iconfont icon-share">分享</view>
+					<view class="grace-iconfont icon-home" @click="goMarket(market.market_id,market.notice,market.market_name)">进店</view>
+					<view class="grace-iconfont icon-share" @click="share(market)">分享</view>
 				</view>
 			</view>
 		</view>
@@ -55,7 +55,8 @@
 </template>
 <script>
 	var _self;
-	import graceLoading from "../../../graceUI/components/graceLoading.vue"
+	import graceLoading from "../../../graceUI/components/graceLoading.vue";
+	import topShare from "../../../graceUI/jsTools/topshare";
 	import {
 		mapState
 	} from 'vuex'
@@ -82,7 +83,7 @@
 					nextPages: 2,
 					totalPages: 2,
 					type: 0,
-					text: ['加载更多', 'loading ......', '已加载全部','此学校暂无商家开通']
+					text: ['加载更多', 'loading ......', '已加载全部', '此学校暂无商家开通']
 				}
 			}
 		},
@@ -155,6 +156,11 @@
 			});
 		},
 		methods: {
+			share: function(market) {
+				var title = "电子的宿舍小超市在TOP校园APP里面啦!";
+				var summary = "我正在使用TOP校园逛电子的小超市哦，超市名称：" + market.market_name + ",下单立即会配送到宿舍哦";
+				topShare.goShare(title,summary,false,false);
+			},
 			changeSchool: function() {
 				uni.navigateTo({
 					url: '../../common/checkSchool?market=true'
@@ -210,8 +216,11 @@
 					success: res => {
 						if (res.data.status === 200) {
 							this.marketList = res.data.marketList;
+							if(res.data.totalPages === 1){//如果只有一页显示已加载完
+								this.loading.type = 2;
+							}
 							this.loading.totalPages = res.data.totalPages;
-							if(this.marketList.length === 0){
+							if (this.marketList.length === 0) {
 								this.loading.type = 3;
 							}
 							//将请求的数据缓存到本地
@@ -231,17 +240,17 @@
 					}
 				});
 			},
-			goMarket: function(marketId,noticeArr,marketName) {
-				var notices=[];
-				for(var i=0;i<noticeArr.length;i++){//组装notices公告
-					var obj={
-						title:noticeArr[i]
+			goMarket: function(marketId, noticeArr, marketName) {
+				var notices = [];
+				for (var i = 0; i < noticeArr.length; i++) { //组装notices公告
+					var obj = {
+						title: noticeArr[i]
 					};
 					notices.push(obj);
 				}
-				
+
 				uni.navigateTo({
-					url: './market?market_name='+marketName+'&market_id='+marketId+'&notices='+JSON.stringify(notices)
+					url: './market?market_name=' + marketName + '&market_id=' + marketId + '&notices=' + JSON.stringify(notices)
 				});
 			}
 		}

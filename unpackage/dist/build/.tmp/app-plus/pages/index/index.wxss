@@ -78,4 +78,7 @@
 .grace-boxes-text {
 	color: #7F7F7F;
 }
+.grace-wrap{
+	margin: 10px 0;
+}
 

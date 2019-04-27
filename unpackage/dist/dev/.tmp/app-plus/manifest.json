@@ -7,7 +7,7 @@
   "id": "__UNI__4EA13A8",
   "name": "TOP校园",
   "version": {
-    "name": "1.1.6",
+    "name": "1.1.8",
     "code": "100"
   },
   "description": "",
@@ -20,7 +20,9 @@
   "permissions": {
     "Payment": {},
     "Push": {},
-    "OAuth": {}
+    "OAuth": {},
+    "Statistic": {},
+    "Share": {}
   },
   "plus": {
     "useragent": {
@@ -45,7 +47,7 @@
     "distribute": {
       "icons": {
         "ios": {
-          "appstore": "F:/Company/TOP校园/APP素材/logo.png",
+          "appstore": "F:/Company/TOP校园/APP素材/原图.png",
           "ipad": {
             "app": "unpackage/res/icons/76x76.png",
             "app@2x": "unpackage/res/icons/152x152.png",
@@ -98,12 +100,14 @@
           "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
           "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
           "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
           "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
           "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
           "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
           "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
           "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
-          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
         ],
         "targetSdkVersion": "26"
       },
@@ -128,6 +132,23 @@
         },
         "push": {
           "unipush": {}
+        },
+        "statics": {
+          "umeng": {
+            "appkey_ios": "5cc1a6110cafb2275700020b",
+            "channelid_ios": "5cc1a6110cafb2275700020b",
+            "appkey_android": "5cc1a6110cafb2275700020b",
+            "channelid_android": "5cc1a6110cafb2275700020b"
+          }
+        },
+        "share": {
+          "weixin": {
+            "appid": "wx884704c8a8e160c0",
+            "appsecret": "1ae1b71428627efd3d2291bae2cd2273"
+          },
+          "qq": {
+            "appid": "101567423"
+          }
         },
         "audio": {
           "mp3": {

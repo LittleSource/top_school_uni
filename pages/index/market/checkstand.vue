@@ -166,6 +166,7 @@
 						remark: this.remark
 					},
 					success: res => {
+						var _self = this;
 						var wxpaySdk = res.data.wepay_sdk;
 						uni.requestPayment({
 							provider: 'wxpay',
@@ -177,7 +178,7 @@
 									});
 								}
 								uni.redirectTo({
-									url:'./payresult?price='+this.realPrice
+									url:'./payresult?price=' + _self.realPrice
 								})
 							},
 							fail: function(err) {

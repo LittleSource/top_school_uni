@@ -1,1 +1,2 @@
+setCssToHead([".",[1],"grace-news-list { margin-top: -15px; }\n",],undefined,{path:"./pages/hot/hot.wxss"})();
 document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/hot/hot.wxml') } }));

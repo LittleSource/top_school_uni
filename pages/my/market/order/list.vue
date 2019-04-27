@@ -13,14 +13,13 @@
 				<view class="right" style="width: 660upx;">
 					<view class="grace-rows grace-space-between">
 						<view style="font-size: 35upx;">{{order.first_product}} &gt;</view>
-						<text style="font-size: 30upx;">已送达</text>
 					</view>
 					<view class="time has-borderb"><text>{{order.create_time}}</text></view>
 					<view class="rice grace-rows grace-space-between has-borderb">
 						<view>订单号:{{order.out_trade_no}}</view>
 						<text>&yen;{{order.real_price}}</text>
 					</view>
-					<view class="btn-area">
+					<view v-if="isUntreated" class="btn-area">
 						<button class="mini-btn" type="primary" size="mini" plain="true">已处理</button>
 					</view>
 				</view>
@@ -41,6 +40,7 @@
 		data() {
 			return {
 				marketId: 0,
+				isUntreated:true,
 				//分类信息
 				categories: [{
 						cateid: 0,
@@ -150,6 +150,11 @@
 						type: type
 					},
 					success: res => {
+						if(type=='待处理'){
+							this.isUntreated = true;
+						}else{
+							this.isUntreated = false;
+						}
 						if (res.data.status === 200) {
 							this.orderList = res.data.orderList;
 							this.loading.totalPages = res.data.totalPages;

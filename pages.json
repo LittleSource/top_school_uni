@@ -270,7 +270,21 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
-				"navigationBarTitleText": "热点"
+				"navigationBarTitleText": "热点",
+				"enablePullDownRefresh": true, //开启下拉刷新
+				"app-plus": {
+					"pullToRefresh": {
+						"style": "default",
+						"support": true
+					}
+				}
+			}
+		}, {
+			"path": "pages/hot/detail",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#fc4243",
+				"navigationBarTitleText": "新闻详情"
 			}
 		}, {
 			"path": "pages/message/message",
@@ -479,7 +493,7 @@
 				"selectedIconPath": "static/icon/home_selsect.png"
 			}, {
 				"pagePath": "pages/hot/hot",
-				"text": "发现",
+				"text": "热点",
 				"iconPath": "static/icon/hot.png",
 				"selectedIconPath": "static/icon/hot_selsect.png"
 			}, {

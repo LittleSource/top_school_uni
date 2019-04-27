@@ -16,6 +16,9 @@
 	font-size: 28px;
 	color: #FFFFFF;
 }
+.grace-title {
+	margin-left: 3%;
+}
 .search-box {
 	width: 95%;
 	background-color: #fc4243;

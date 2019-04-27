@@ -37,26 +37,26 @@ const store = new Vuex.Store({
 		msgList: [{
 				id: 69,
 				to_id: 67,
-				avatar: '../../../static/logo.png',
-				name: "to源哥",
-				msg: '你是肥蛇吗？',
+				avatar: 'https://apii.ym998.cn//static/avatar/5cc1c5c2312b7.jpg',
+				name: "源哥",
+				msg: '人生在世，及时行乐',
 				status: "未读",
 				unread: 1
 			}, {
 				id: 67,
 				to_id: 69,
-				avatar: '../../../static/logo.png',
-				name: "to蛇皮",
-				msg: '源哥最帅',
+				avatar: 'http://thirdqq.qlogo.cn/g?b=oidb&k=MnkDBng1YxwnmSsDgy1nyw&s=140',
+				name: "蛇皮",
+				msg: '还有聊天功能啊，不错不错',
 				status: "未读",
 				unread: 1
 			},
 			{
 				id: 111,
 				to_id: 70,
-				avatar: '../../../static/logo.png',
+				avatar: 'https://apii.ym998.cn//static/avatar/5cbe9e3c2e0dd.jpg',
 				name: "狸猫",
-				msg: '怎么说呢',
+				msg: 'TOP校园真好用啊！',
 				status: "未读",
 				unread: 1
 			}

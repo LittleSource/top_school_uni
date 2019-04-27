@@ -98,9 +98,13 @@
 							content: _self.content
 						},
 						success: (uploadFileRes) => {
-							console.log(JSON.stringify(uploadFileRes));
-							var resObj = JSON.parse(uploadFileRes.data);
 							uni.hideLoading();
+							var resObj;
+							if(this.imgFiles.length > 0){//有图片后端传来的是字符串
+								resObj = JSON.parse(uploadFileRes.data);
+							}else{//无图片后端传来的是json对象
+								resObj = uploadFileRes.data;
+							}
 							if (resObj.status === 200) {
 								uni.showToast({
 									title: '发表成功！',

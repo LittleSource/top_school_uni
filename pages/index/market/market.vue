@@ -100,7 +100,9 @@
 			uni.setNavigationBarTitle({
 				title: parameter.market_name
 			});
-			this.notices = JSON.parse(parameter.notices);
+			if(parameter.notices){
+				this.notices = JSON.parse(parameter.notices);
+			}
 			this.marketId = parameter.market_id;
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'market/product/select',

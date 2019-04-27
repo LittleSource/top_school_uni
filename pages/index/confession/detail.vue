@@ -71,6 +71,7 @@
 		mapState
 	} from 'vuex'
 	import graceFullLoading from "../../../graceUI/components/graceFullLoading.vue";
+	import topShare from "../../../graceUI/jsTools/topshare"
 	export default {
 		components: {
 			graceFullLoading
@@ -84,7 +85,6 @@
 				other: "",
 				textPlaceholder: "写评论",
 				focus: false,
-				content: "",
 				commentId: 0, //评论内容id
 				commentatorId: 0, //评论者id
 			}
@@ -100,6 +100,18 @@
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 2500);
+		},
+		onNavigationBarButtonTap(){
+			//var url = 'url'+this.article.article_id;  url拿来备用哦
+			var imageUrl;
+			if(this.article.images_list.length>0){
+				imageUrl = this.article.images_list[0];
+			}else{
+				imageUrl = false;
+			}
+			var title = 'TOP校园表白墙';
+			var summary = this.article.content;
+			topShare.goShare(title,summary,false,imageUrl);
 		},
 		methods: {
 			getDetail() {
@@ -121,7 +133,6 @@
 						this.graceFullLoading = false;
 					}
 				});
-				this.content = '';
 			},
 			guanzhu() {},
 			thumbsUpComment(index){

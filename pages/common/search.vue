@@ -7,19 +7,63 @@
 			<view class="search-box">
 				<view class="input-box">
 					<view class="grace-iconfont icon-arrow-left" @click="back()"></view>
-					<input focus type="text" :placeholder="hotKeywordList[0]" @input="inputChange" v-model="keyword" @confirm="doSearch(false)"
+					<input focus type="text" :placeholder="hotKeywordList[0]" @input="inputChange" v-model="keyword" @confirm="inputChange()"
 					 placeholder-class="placeholder-class" confirm-type="search">
 				</view>
-				<view class="search-btn" @tap="doSearch(false)">搜索</view>
+				<view class="search-btn" @tap="inputChange()">搜索</view>
 			</view>
 			<view class="search-keyword" @touchstart="blur">
 				<scroll-view class="keyword-list-box" v-show="isShowKeywordList" scroll-y>
-					<view class="keyword-entry" hover-class="keyword-entry-tap" v-for="row in keywordList" :key="row.keyword">
-						<view class="keyword-text" @tap="doSearch(row.keyword)">
-							<rich-text :nodes="row.htmlStr"></rich-text>
+					<view v-if="user.length > 0">
+						<view class="grace-title grace-nowrap">
+							<view class="grace-h5 grace-blod">校友</view>
 						</view>
-						<view class="keyword-img" @tap="setkeyword(row)">
-							<image src="../../static/search/back.png"></image>
+						<view class="keyword-entry" hover-class="keyword-entry-tap" v-for="(row,userIndex) in user" :key="userIndex">
+							<view class="keyword-text" @click="goUser(row.user_id)">
+								<rich-text :nodes="row.user_name"></rich-text>
+							</view>
+							<view class="keyword-img">
+								<image src="../../static/search/back.png"></image>
+							</view>
+						</view>
+					</view>
+					<view v-if="confession.length > 0">
+						<view class="grace-title grace-nowrap">
+							<view class="grace-h5 grace-blod">表白墙</view>
+						</view>
+						<view class="keyword-entry" hover-class="keyword-entry-tap" v-for="(row,conIndex) in confession" :key="conIndex">
+							<view class="keyword-text" @click="goConfession(row.article_id)">
+								<rich-text :nodes="row.content"></rich-text>
+							</view>
+							<view class="keyword-img">
+								<image src="../../static/search/back.png"></image>
+							</view>
+						</view>
+					</view>
+					<view v-if="market.length > 0">
+						<view class="grace-title grace-nowrap">
+							<view class="grace-h5 grace-blod">超市</view>
+						</view>
+						<view class="keyword-entry" hover-class="keyword-entry-tap" v-for="(row,marketIndex) in market" :key="marketIndex">
+							<view class="keyword-text" @click="goMarket(row.market_id,row.market_name)">
+								<rich-text :nodes="row.market_name"></rich-text>
+							</view>
+							<view class="keyword-img">
+								<image src="../../static/search/back.png"></image>
+							</view>
+						</view>
+					</view>
+					<view v-if="job.length > 0">
+						<view class="grace-title grace-nowrap">
+							<view class="grace-h5 grace-blod">兼职</view>
+						</view>
+						<view class="keyword-entry" hover-class="keyword-entry-tap" v-for="(row,jobIndex) in job" :key="jobIndex">
+							<view class="keyword-text" @click="goJob(row.id)">
+								<rich-text :nodes="row.jobtitle"></rich-text>
+							</view>
+							<view class="keyword-img">
+								<image src="../../static/search/back.png"></image>
+							</view>
 						</view>
 					</view>
 				</scroll-view>
@@ -56,9 +100,16 @@
 </template>
 
 <script>
+	import {
+		mapState
+	} from 'vuex'
 	export default {
 		data() {
 			return {
+				confession: [],
+				market: [],
+				job: [],
+				user: [],
 				keyword: "",
 				oldKeywordList: [],
 				hotKeywordList: [],
@@ -67,16 +118,36 @@
 				isShowKeywordList: false
 			}
 		},
+		computed: mapState(['selectSchool']),
 		onLoad() {
-			this.init();
+			this.loadOldKeyword();
+			this.loadHotKeyword();
 		},
 		methods: {
+			goConfession(id) {
+				this.saveKeyword();
+				uni.navigateTo({
+					url: '/pages/index/confession/detail?id=' + id
+				});
+			},
+			goJob(id) {
+				this.saveKeyword();
+				uni.navigateTo({
+					url: '/pages/index/parttime/details?id=' + id
+				});
+			},
+			goMarket(id,name) {
+				this.saveKeyword();
+				uni.navigateTo({
+					url: '/pages/index/market/market?market_id=' + id+'&market_name='+ name
+				});
+			},
+			doSearch(key){
+				this.keyword = key;
+				this.inputChange();
+			},
 			back() {
 				uni.navigateBack();
-			},
-			init() {
-				this.loadOldKeyword();
-				this.loadHotKeyword();
 			},
 			blur() {
 				uni.hideKeyboard()
@@ -94,46 +165,36 @@
 			//加载热门搜索
 			loadHotKeyword() {
 				//定义热门搜索关键字，可以自己实现ajax请求数据再赋值
-				this.hotKeywordList = ['键盘', '鼠标', '显示器', '电脑主机', '蓝牙音箱', '笔记本电脑', '鼠标垫', 'USB', 'USB3.0'];
+				this.hotKeywordList = ['电子', '天津', '手机'];
 			},
 			//监听输入
-			inputChange(event) {
+			inputChange() {
 				//兼容引入组件时传入参数情况
-				var keyword = event.detail ? event.detail.value : event;
+				var keyword = this.keyword;
 				if (!keyword) {
 					this.keywordList = [];
 					this.isShowKeywordList = false;
 					return;
 				}
 				this.isShowKeywordList = true;
-				//以下示例截取淘宝的关键字，请替换成你的接口
 				uni.request({
-					url: 'https://suggest.taobao.com/sug?code=utf-8&q=' + keyword, //仅为示例
-					success: (res) => {
-						this.keywordList = this.drawCorrelativeKeyword(res.data.result, keyword);
+					url: this.GLOBAL.serverSrc + 'common/seek/searchMess',
+					method: 'GET',
+					data: {
+						title: keyword,
+						id: this.selectSchool.id
+					},
+					success: res => {
+						this.confession = res.data.confession;
+						this.job = res.data.job;
+						this.market = res.data.market;
+						this.user = res.data.user;
+						console.log(JSON.stringify(res));
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
 					}
 				});
-			},
-			//高亮关键字
-			drawCorrelativeKeyword(keywords, keyword) {
-				var len = keywords.length,
-					keywordArr = [];
-				for (var i = 0; i < len; i++) {
-					var row = keywords[i];
-					//定义高亮#9f9f9f
-					var html = row[0].replace(keyword, "<span style='color: #9f9f9f;'>" + keyword + "</span>");
-					html = '<div>' + html + '</div>';
-					var tmpObj = {
-						keyword: row[0],
-						htmlStr: html
-					};
-					keywordArr.push(tmpObj)
-				}
-				return keywordArr;
-			},
-			//顶置关键字
-			setkeyword(data) {
-				this.keyword = data.keyword;
 			},
 			//清除历史搜索
 			oldDelete() {
@@ -156,30 +217,12 @@
 			hotToggle() {
 				this.forbid = this.forbid ? '' : '_forbid';
 			},
-			//执行搜索
-			doSearch(key) {
-				key = key ? key : this.keyword ? this.keyword : this.defaultKeyword;
-				this.keyword = key;
-				this.saveKeyword(key); //保存为历史 
-				uni.showToast({
-					title: key,
-					icon: 'none',
-					duration: 2000
-				});
-				//以下是示例跳转淘宝搜索，可自己实现搜索逻辑
-				//#ifdef APP-PLUS
-				plus.runtime.openURL(encodeURI('taobao://s.taobao.com/search?q=' + key));
-				//#endif
-				//#ifdef H5
-				window.location.href = 'taobao://s.taobao.com/search?q=' + key
-				//#endif
-			},
 			//保存关键字到历史记录
-			saveKeyword(keyword) {
+			saveKeyword() {
+				var keyword = this.keyword;
 				uni.getStorage({
 					key: 'OldKeys',
 					success: (res) => {
-						console.log(res.data);
 						var OldKeys = JSON.parse(res.data);
 						var findIndex = OldKeys.indexOf(keyword);
 						if (findIndex == -1) {
@@ -229,6 +272,10 @@
 	.grace-iconfont {
 		font-size: 28px;
 		color: #FFFFFF;
+	}
+
+	.grace-title {
+		margin-left: 3%;
 	}
 
 	.search-box {

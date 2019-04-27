@@ -1,14 +1,14 @@
 
-.grace-bg-white.data-v-69b983da {
+.grace-bg-white.data-v-14f8e7e1 {
 	width: 750rpx;
 }
-.input-textarea.data-v-69b983da {
+.input-textarea.data-v-14f8e7e1 {
 	margin: 5px auto;
 	height: 68px;
 	max-height: 100px;
 	font-size: 16px;
 }
-.input-textarea textarea.data-v-69b983da {
+.input-textarea textarea.data-v-14f8e7e1 {
 	width: 100%;
 }
 

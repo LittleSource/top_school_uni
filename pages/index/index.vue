@@ -56,7 +56,7 @@
 					<navigator url="./confession/index" class="grace-more-r">更多<text class="grace-iconfont icon-arrow-right"></text></navigator>
 				</view>
 				<view class="grace-imgitems">
-					<view class="grace-items" v-for="(item,index) in confessionList" :key="index" @click="goConfession(item.article_id)">
+					<view class="grace-items" v-for="(item,index) in indexConfessionList" :key="index" @click="goConfession(item.article_id)">
 						<image :src="item.image_path" style="height: 220upx;" mode="aspectFill"></image>
 						<view class="grace-imgitems-tips">表白墙</view>
 						<view class="grace-imgitems-more grace-ellipsis">{{item.content}}</view>
@@ -78,19 +78,19 @@
 					show: false,
 					top: 30
 				},
-				confessionList: [],
+				indexConfessionList: [],
 				swiperimgs: [{
-						"imgUrl": "https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg",
+						"imgUrl": "https://icloud.9ykm.cn/app/banner/mmexport1.jpg",
 						"path": "../alert/alert",
 						"openType": "navigate"
 					},
 					{
-						"imgUrl": "https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg",
+						"imgUrl": "https://icloud.9ykm.cn/app/banner/mmexport2.jpg",
 						"path": "../index/index",
 						"openType": "switchTab"
 					},
 					{
-						"imgUrl": "http://www.chinaasc.org/upimg/allimg/c140413/13a3E204V0-422502.jpg",
+						"imgUrl": "https://icloud.9ykm.cn/app/banner/mmexport3.jpg",
 						"path": "../gy/gy",
 						"openType": "switchTab"
 					}
@@ -104,6 +104,7 @@
 					url: '../login/login'
 				});
 			}
+			this.indexConfessionList = uni.getStorageSync('indexConfessionList'); //获取本地缓存的数据
 			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
@@ -122,7 +123,12 @@
 					},
 					success: res => {
 						if (res.data.status === 200) {
-							this.confessionList = res.data.confessionList;
+							this.indexConfessionList = res.data.confessionList;
+							//将请求的数据缓存到本地
+							uni.setStorage({
+								key: 'indexConfessionList',
+								data: this.indexConfessionList
+							});
 						}
 					},
 					fail: (e) => {
@@ -143,7 +149,7 @@
 			showPopupMenu() {
 				uni.scanCode({
 					success: function(res) {
-						console.log(JSON.stringify(res));
+						console.log(JSON.stringify(res.result));
 					}
 				});
 			}

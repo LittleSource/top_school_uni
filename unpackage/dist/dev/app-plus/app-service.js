@@ -13,7 +13,7 @@ if(typeof __WXML_GLOBAL__ !== 'undefined'){
 // var Behavior = Behavior || function() {};
 var $gwx;
   
-/*v0.5vv_20181221_syb_scopedata*/global.__wcc_version__='v0.5vv_20181221_syb_scopedata';global.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
+/*v0.5vv_20190312_syb_scopedata*/global.__wcc_version__='v0.5vv_20190312_syb_scopedata';global.__wcc_version_info__={"customComponents":true,"fixZeroRpx":true,"propValueDeepCopy":false};
 var $gwxc
 var $gaic={}
 $gwx=function(path,global){
@@ -1230,7 +1230,13 @@ Z([3,'71fa5f65'])
 Z([3,'handleProxy'])
 Z([3,'_view 71fa5f65 search-keyword'])
 Z([[7],[3,'$k']])
-Z([1,'71fa5f65-9'])
+Z([1,'71fa5f65-11'])
+Z([3,'_scroll-view 71fa5f65 keyword-list-box'])
+Z([[2,'!'],[[7],[3,'isShowKeywordList']]])
+Z([[2,'>'],[[6],[[7],[3,'user']],[3,'length']],[1,0]])
+Z([[2,'>'],[[6],[[7],[3,'confession']],[3,'length']],[1,0]])
+Z([[2,'>'],[[6],[[7],[3,'market']],[3,'length']],[1,0]])
+Z([[2,'>'],[[6],[[7],[3,'job']],[3,'length']],[1,0]])
 Z([[2,'>'],[[6],[[7],[3,'oldKeywordList']],[3,'length']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
@@ -1267,7 +1273,16 @@ function gz$gwx_20(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
 __WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'47becf64'])
+Z([3,'0e6971da'])
+Z([3,'_view 0e6971da'])
+Z([[2,'=='],[[7],[3,'graceSkeleton']],[1,'end']])
+Z([3,'index'])
+Z([3,'item'])
+Z([[6],[[7],[3,'article']],[3,'contents']])
+Z(z[3])
+Z([[7],[3,'index']])
+Z([[2,'=='],[[7],[3,'graceSkeleton']],[1,'ing']])
+Z([[2,'=='],[[6],[[7],[3,'item']],[3,'type']],[1,'img']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
 function gz$gwx_21(){
@@ -1275,12 +1290,29 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_21)return __WXML_GLOBAL__.ops_cached.$gwx_21
 __WXML_GLOBAL__.ops_cached.$gwx_21=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'47becf64'])
+Z([3,'0e6971da'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_21);return __WXML_GLOBAL__.ops_cached.$gwx_21
 }
 function gz$gwx_22(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_22)return __WXML_GLOBAL__.ops_cached.$gwx_22
 __WXML_GLOBAL__.ops_cached.$gwx_22=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'47becf64'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'47becf64-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e84843c4'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
+}
+function gz$gwx_23(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
+__WXML_GLOBAL__.ops_cached.$gwx_23=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'47becf64'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
+}
+function gz$gwx_24(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
+__WXML_GLOBAL__.ops_cached.$gwx_24=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'791d3cb5'])
 Z([3,'_view 791d3cb5'])
@@ -1294,26 +1326,6 @@ Z([[2,'>'],[[6],[[6],[[7],[3,'comment']],[3,'reply_list']],[3,'length']],[1,0]])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'791d3cb5-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'3e34e38f'])
 Z([3,'../../../static/index/love.png'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_22);return __WXML_GLOBAL__.ops_cached.$gwx_22
-}
-function gz$gwx_23(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_23)return __WXML_GLOBAL__.ops_cached.$gwx_23
-__WXML_GLOBAL__.ops_cached.$gwx_23=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'791d3cb5'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_23);return __WXML_GLOBAL__.ops_cached.$gwx_23
-}
-function gz$gwx_24(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_24)return __WXML_GLOBAL__.ops_cached.$gwx_24
-__WXML_GLOBAL__.ops_cached.$gwx_24=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'8c403024'])
-Z([3,'_view 8c403024 ymkj-gradient-bg'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8c403024-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e84843c4'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8c403024-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'0c5256be'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_24);return __WXML_GLOBAL__.ops_cached.$gwx_24
 }
 function gz$gwx_25(){
@@ -1321,15 +1333,19 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_25)return __WXML_GLOBAL__.ops_cached.$gwx_25
 __WXML_GLOBAL__.ops_cached.$gwx_25=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'8c403024'])
+Z([3,'791d3cb5'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_25);return __WXML_GLOBAL__.ops_cached.$gwx_25
 }
 function gz$gwx_26(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_26)return __WXML_GLOBAL__.ops_cached.$gwx_26
 __WXML_GLOBAL__.ops_cached.$gwx_26=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3faa052b'])
-Z([[7],[3,'btnImg']])
+Z([3,'8c403024'])
+Z([3,'_view 8c403024 ymkj-gradient-bg'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8c403024-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e84843c4'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'8c403024-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'0c5256be'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_26);return __WXML_GLOBAL__.ops_cached.$gwx_26
 }
 function gz$gwx_27(){
@@ -1337,14 +1353,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_27)return __WXML_GLOBAL__.ops_cached.$gwx_27
 __WXML_GLOBAL__.ops_cached.$gwx_27=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3faa052b'])
+Z([3,'8c403024'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_27);return __WXML_GLOBAL__.ops_cached.$gwx_27
 }
 function gz$gwx_28(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_28)return __WXML_GLOBAL__.ops_cached.$gwx_28
 __WXML_GLOBAL__.ops_cached.$gwx_28=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6c4b56a4'])
+Z([3,'3faa052b'])
+Z([[7],[3,'btnImg']])
 })(__WXML_GLOBAL__.ops_cached.$gwx_28);return __WXML_GLOBAL__.ops_cached.$gwx_28
 }
 function gz$gwx_29(){
@@ -1352,14 +1369,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_29)return __WXML_GLOBAL__.ops_cached.$gwx_29
 __WXML_GLOBAL__.ops_cached.$gwx_29=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6c4b56a4'])
+Z([3,'3faa052b'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_29);return __WXML_GLOBAL__.ops_cached.$gwx_29
 }
 function gz$gwx_30(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_30)return __WXML_GLOBAL__.ops_cached.$gwx_30
 __WXML_GLOBAL__.ops_cached.$gwx_30=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'1b18f546'])
+Z([3,'6c4b56a4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_30);return __WXML_GLOBAL__.ops_cached.$gwx_30
 }
 function gz$gwx_31(){
@@ -1367,12 +1384,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_31)return __WXML_GLOBAL__.ops_cached.$gwx_31
 __WXML_GLOBAL__.ops_cached.$gwx_31=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'1b18f546'])
+Z([3,'6c4b56a4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_31);return __WXML_GLOBAL__.ops_cached.$gwx_31
 }
 function gz$gwx_32(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_32)return __WXML_GLOBAL__.ops_cached.$gwx_32
 __WXML_GLOBAL__.ops_cached.$gwx_32=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'1b18f546'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
+}
+function gz$gwx_33(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
+__WXML_GLOBAL__.ops_cached.$gwx_33=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'1b18f546'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
+}
+function gz$gwx_34(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
+__WXML_GLOBAL__.ops_cached.$gwx_34=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'6f812c3a'])
 Z([3,'_view 6f812c3a'])
@@ -1410,19 +1442,19 @@ Z(z[19])
 Z([[2,'=='],[[7],[3,'index']],[[7],[3,'cateIndex']]])
 Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'6f812c3a-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'e84843c4'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_32);return __WXML_GLOBAL__.ops_cached.$gwx_32
+})(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
 }
-function gz$gwx_33(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_33)return __WXML_GLOBAL__.ops_cached.$gwx_33
-__WXML_GLOBAL__.ops_cached.$gwx_33=[];
+function gz$gwx_35(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
+__WXML_GLOBAL__.ops_cached.$gwx_35=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6f812c3a'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_33);return __WXML_GLOBAL__.ops_cached.$gwx_33
+})(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
 }
-function gz$gwx_34(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_34)return __WXML_GLOBAL__.ops_cached.$gwx_34
-__WXML_GLOBAL__.ops_cached.$gwx_34=[];
+function gz$gwx_36(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
+__WXML_GLOBAL__.ops_cached.$gwx_36=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'45d0754b'])
 Z([3,'_view 45d0754b'])
@@ -1438,21 +1470,6 @@ Z([[2,'>'],[[6],[[7],[3,'shoppingCart']],[3,'length']],[1,0]])
 Z([[9],[[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'45d0754b-2']]]]],[[8],'$root',[[7],[3,'$root']]]],[[8],'$slotdefault',[1,'45d0754b-default-45d0754b-2']]])
 Z([3,'edfa5e5a'])
 Z([3,'popup'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_34);return __WXML_GLOBAL__.ops_cached.$gwx_34
-}
-function gz$gwx_35(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_35)return __WXML_GLOBAL__.ops_cached.$gwx_35
-__WXML_GLOBAL__.ops_cached.$gwx_35=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'45d0754b'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_35);return __WXML_GLOBAL__.ops_cached.$gwx_35
-}
-function gz$gwx_36(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_36)return __WXML_GLOBAL__.ops_cached.$gwx_36
-__WXML_GLOBAL__.ops_cached.$gwx_36=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'cee4a954'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_36);return __WXML_GLOBAL__.ops_cached.$gwx_36
 }
 function gz$gwx_37(){
@@ -1460,14 +1477,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_37)return __WXML_GLOBAL__.ops_cached.$gwx_37
 __WXML_GLOBAL__.ops_cached.$gwx_37=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'cee4a954'])
+Z([3,'45d0754b'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_37);return __WXML_GLOBAL__.ops_cached.$gwx_37
 }
 function gz$gwx_38(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_38)return __WXML_GLOBAL__.ops_cached.$gwx_38
 __WXML_GLOBAL__.ops_cached.$gwx_38=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'7beaf1d2'])
+Z([3,'cee4a954'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_38);return __WXML_GLOBAL__.ops_cached.$gwx_38
 }
 function gz$gwx_39(){
@@ -1475,14 +1492,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_39)return __WXML_GLOBAL__.ops_cached.$gwx_39
 __WXML_GLOBAL__.ops_cached.$gwx_39=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'7beaf1d2'])
+Z([3,'cee4a954'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_39);return __WXML_GLOBAL__.ops_cached.$gwx_39
 }
 function gz$gwx_40(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_40)return __WXML_GLOBAL__.ops_cached.$gwx_40
 __WXML_GLOBAL__.ops_cached.$gwx_40=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'72c5eee7'])
+Z([3,'7beaf1d2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_40);return __WXML_GLOBAL__.ops_cached.$gwx_40
 }
 function gz$gwx_41(){
@@ -1490,14 +1507,16 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_41)return __WXML_GLOBAL__.ops_cached.$gwx_41
 __WXML_GLOBAL__.ops_cached.$gwx_41=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'72c5eee7'])
+Z([3,'7beaf1d2'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_41);return __WXML_GLOBAL__.ops_cached.$gwx_41
 }
 function gz$gwx_42(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_42)return __WXML_GLOBAL__.ops_cached.$gwx_42
 __WXML_GLOBAL__.ops_cached.$gwx_42=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4a9ada10'])
+Z([3,'72c5eee7'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'72c5eee7-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e84843c4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_42);return __WXML_GLOBAL__.ops_cached.$gwx_42
 }
 function gz$gwx_43(){
@@ -1505,14 +1524,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_43)return __WXML_GLOBAL__.ops_cached.$gwx_43
 __WXML_GLOBAL__.ops_cached.$gwx_43=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4a9ada10'])
+Z([3,'72c5eee7'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_43);return __WXML_GLOBAL__.ops_cached.$gwx_43
 }
 function gz$gwx_44(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_44)return __WXML_GLOBAL__.ops_cached.$gwx_44
 __WXML_GLOBAL__.ops_cached.$gwx_44=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6f5f56c8'])
+Z([3,'4a9ada10'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_44);return __WXML_GLOBAL__.ops_cached.$gwx_44
 }
 function gz$gwx_45(){
@@ -1520,14 +1539,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_45)return __WXML_GLOBAL__.ops_cached.$gwx_45
 __WXML_GLOBAL__.ops_cached.$gwx_45=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6f5f56c8'])
+Z([3,'4a9ada10'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_45);return __WXML_GLOBAL__.ops_cached.$gwx_45
 }
 function gz$gwx_46(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_46)return __WXML_GLOBAL__.ops_cached.$gwx_46
 __WXML_GLOBAL__.ops_cached.$gwx_46=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6e5a2b20'])
+Z([3,'6f5f56c8'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_46);return __WXML_GLOBAL__.ops_cached.$gwx_46
 }
 function gz$gwx_47(){
@@ -1535,12 +1554,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_47)return __WXML_GLOBAL__.ops_cached.$gwx_47
 __WXML_GLOBAL__.ops_cached.$gwx_47=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'6e5a2b20'])
+Z([3,'6f5f56c8'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_47);return __WXML_GLOBAL__.ops_cached.$gwx_47
 }
 function gz$gwx_48(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_48)return __WXML_GLOBAL__.ops_cached.$gwx_48
 __WXML_GLOBAL__.ops_cached.$gwx_48=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'6e5a2b20'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
+}
+function gz$gwx_49(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
+__WXML_GLOBAL__.ops_cached.$gwx_49=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'6e5a2b20'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+}
+function gz$gwx_50(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
+__WXML_GLOBAL__.ops_cached.$gwx_50=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'19e2cfb2'])
 Z([3,'_view 19e2cfb2'])
@@ -1556,19 +1590,19 @@ Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],
 Z(z[4])
 Z([1,'19e2cfb2-1'])
 Z([3,'f81909c6'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_48);return __WXML_GLOBAL__.ops_cached.$gwx_48
+})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
 }
-function gz$gwx_49(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_49)return __WXML_GLOBAL__.ops_cached.$gwx_49
-__WXML_GLOBAL__.ops_cached.$gwx_49=[];
+function gz$gwx_51(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
+__WXML_GLOBAL__.ops_cached.$gwx_51=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'19e2cfb2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_49);return __WXML_GLOBAL__.ops_cached.$gwx_49
+})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
 }
-function gz$gwx_50(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_50)return __WXML_GLOBAL__.ops_cached.$gwx_50
-__WXML_GLOBAL__.ops_cached.$gwx_50=[];
+function gz$gwx_52(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
+__WXML_GLOBAL__.ops_cached.$gwx_52=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'478ad650'])
 Z([3,'index'])
@@ -1589,19 +1623,19 @@ Z([3,'_view 478ad650 grace-items'])
 Z(z[8])
 Z([[2,'+'],[1,'478ad650-0-'],[[7],[3,'index']]])
 Z([[2,'>'],[[6],[[7],[3,'item']],[3,'unread']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_50);return __WXML_GLOBAL__.ops_cached.$gwx_50
+})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
 }
-function gz$gwx_51(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_51)return __WXML_GLOBAL__.ops_cached.$gwx_51
-__WXML_GLOBAL__.ops_cached.$gwx_51=[];
+function gz$gwx_53(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
+__WXML_GLOBAL__.ops_cached.$gwx_53=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'478ad650'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_51);return __WXML_GLOBAL__.ops_cached.$gwx_51
+})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
 }
-function gz$gwx_52(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_52)return __WXML_GLOBAL__.ops_cached.$gwx_52
-__WXML_GLOBAL__.ops_cached.$gwx_52=[];
+function gz$gwx_54(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
+__WXML_GLOBAL__.ops_cached.$gwx_54=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'f1e46e06'])
 Z([3,'handleProxy'])
@@ -1611,19 +1645,19 @@ Z([1,'f1e46e06-5'])
 Z([3,'3b7db4a5'])
 Z([3,'mpvueCityPicker1'])
 Z([3,'#ff4243'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_52);return __WXML_GLOBAL__.ops_cached.$gwx_52
+})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
 }
-function gz$gwx_53(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_53)return __WXML_GLOBAL__.ops_cached.$gwx_53
-__WXML_GLOBAL__.ops_cached.$gwx_53=[];
+function gz$gwx_55(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
+__WXML_GLOBAL__.ops_cached.$gwx_55=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'f1e46e06'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_53);return __WXML_GLOBAL__.ops_cached.$gwx_53
+})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
 }
-function gz$gwx_54(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_54)return __WXML_GLOBAL__.ops_cached.$gwx_54
-__WXML_GLOBAL__.ops_cached.$gwx_54=[];
+function gz$gwx_56(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
+__WXML_GLOBAL__.ops_cached.$gwx_56=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'4b0199ca'])
 Z([3,'_view 4b0199ca'])
@@ -1633,21 +1667,6 @@ Z([3,'cate'])
 Z([[7],[3,'catesList']])
 Z(z[3])
 Z([[2,'>'],[[6],[[7],[3,'catesList']],[3,'length']],[1,0]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_54);return __WXML_GLOBAL__.ops_cached.$gwx_54
-}
-function gz$gwx_55(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_55)return __WXML_GLOBAL__.ops_cached.$gwx_55
-__WXML_GLOBAL__.ops_cached.$gwx_55=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4b0199ca'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_55);return __WXML_GLOBAL__.ops_cached.$gwx_55
-}
-function gz$gwx_56(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_56)return __WXML_GLOBAL__.ops_cached.$gwx_56
-__WXML_GLOBAL__.ops_cached.$gwx_56=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'5712dbfa'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_56);return __WXML_GLOBAL__.ops_cached.$gwx_56
 }
 function gz$gwx_57(){
@@ -1655,12 +1674,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_57)return __WXML_GLOBAL__.ops_cached.$gwx_57
 __WXML_GLOBAL__.ops_cached.$gwx_57=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'5712dbfa'])
+Z([3,'4b0199ca'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_57);return __WXML_GLOBAL__.ops_cached.$gwx_57
 }
 function gz$gwx_58(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_58)return __WXML_GLOBAL__.ops_cached.$gwx_58
 __WXML_GLOBAL__.ops_cached.$gwx_58=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'5712dbfa'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
+}
+function gz$gwx_59(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
+__WXML_GLOBAL__.ops_cached.$gwx_59=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'5712dbfa'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
+}
+function gz$gwx_60(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
+__WXML_GLOBAL__.ops_cached.$gwx_60=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'e8f50e3c'])
 Z([3,'handleProxy'])
@@ -1669,22 +1703,6 @@ Z([[7],[3,'$k']])
 Z([1,'e8f50e3c-5'])
 Z([3,'355698f6'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_58);return __WXML_GLOBAL__.ops_cached.$gwx_58
-}
-function gz$gwx_59(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_59)return __WXML_GLOBAL__.ops_cached.$gwx_59
-__WXML_GLOBAL__.ops_cached.$gwx_59=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e8f50e3c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_59);return __WXML_GLOBAL__.ops_cached.$gwx_59
-}
-function gz$gwx_60(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_60)return __WXML_GLOBAL__.ops_cached.$gwx_60
-__WXML_GLOBAL__.ops_cached.$gwx_60=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'1f2120ca'])
-Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_60);return __WXML_GLOBAL__.ops_cached.$gwx_60
 }
 function gz$gwx_61(){
@@ -1692,14 +1710,15 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_61)return __WXML_GLOBAL__.ops_cached.$gwx_61
 __WXML_GLOBAL__.ops_cached.$gwx_61=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'1f2120ca'])
+Z([3,'e8f50e3c'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_61);return __WXML_GLOBAL__.ops_cached.$gwx_61
 }
 function gz$gwx_62(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_62)return __WXML_GLOBAL__.ops_cached.$gwx_62
 __WXML_GLOBAL__.ops_cached.$gwx_62=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'239f2fbc'])
+Z([3,'1f2120ca'])
+Z([[2,'==='],[[7],[3,'merchant']],[1,0]])
 })(__WXML_GLOBAL__.ops_cached.$gwx_62);return __WXML_GLOBAL__.ops_cached.$gwx_62
 }
 function gz$gwx_63(){
@@ -1707,16 +1726,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_63)return __WXML_GLOBAL__.ops_cached.$gwx_63
 __WXML_GLOBAL__.ops_cached.$gwx_63=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'239f2fbc'])
+Z([3,'1f2120ca'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_63);return __WXML_GLOBAL__.ops_cached.$gwx_63
 }
 function gz$gwx_64(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_64)return __WXML_GLOBAL__.ops_cached.$gwx_64
 __WXML_GLOBAL__.ops_cached.$gwx_64=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'72b36996'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'72b36996-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'e84843c4'])
+Z([3,'239f2fbc'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_64);return __WXML_GLOBAL__.ops_cached.$gwx_64
 }
 function gz$gwx_65(){
@@ -1724,14 +1741,23 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_65)return __WXML_GLOBAL__.ops_cached.$gwx_65
 __WXML_GLOBAL__.ops_cached.$gwx_65=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'72b36996'])
+Z([3,'239f2fbc'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_65);return __WXML_GLOBAL__.ops_cached.$gwx_65
 }
 function gz$gwx_66(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_66)return __WXML_GLOBAL__.ops_cached.$gwx_66
 __WXML_GLOBAL__.ops_cached.$gwx_66=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'72b36996'])
+Z([3,'_view 72b36996'])
+Z([[2,'==='],[[6],[[7],[3,'orderList']],[3,'length']],[1,0]])
+Z([3,'index'])
+Z([3,'order'])
+Z([[7],[3,'orderList']])
+Z(z[3])
+Z([[7],[3,'isUntreated']])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'72b36996-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'e84843c4'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_66);return __WXML_GLOBAL__.ops_cached.$gwx_66
 }
 function gz$gwx_67(){
@@ -1739,14 +1765,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_67)return __WXML_GLOBAL__.ops_cached.$gwx_67
 __WXML_GLOBAL__.ops_cached.$gwx_67=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'72b36996'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_67);return __WXML_GLOBAL__.ops_cached.$gwx_67
 }
 function gz$gwx_68(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_68)return __WXML_GLOBAL__.ops_cached.$gwx_68
 __WXML_GLOBAL__.ops_cached.$gwx_68=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'37614887'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_68);return __WXML_GLOBAL__.ops_cached.$gwx_68
 }
 function gz$gwx_69(){
@@ -1754,14 +1780,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_69)return __WXML_GLOBAL__.ops_cached.$gwx_69
 __WXML_GLOBAL__.ops_cached.$gwx_69=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'37614887'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_69);return __WXML_GLOBAL__.ops_cached.$gwx_69
 }
 function gz$gwx_70(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_70)return __WXML_GLOBAL__.ops_cached.$gwx_70
 __WXML_GLOBAL__.ops_cached.$gwx_70=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'16bca1bb'])
+Z([3,'37614887'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_70);return __WXML_GLOBAL__.ops_cached.$gwx_70
 }
 function gz$gwx_71(){
@@ -1769,14 +1795,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_71)return __WXML_GLOBAL__.ops_cached.$gwx_71
 __WXML_GLOBAL__.ops_cached.$gwx_71=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'16bca1bb'])
+Z([3,'37614887'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_71);return __WXML_GLOBAL__.ops_cached.$gwx_71
 }
 function gz$gwx_72(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_72)return __WXML_GLOBAL__.ops_cached.$gwx_72
 __WXML_GLOBAL__.ops_cached.$gwx_72=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'57791b08'])
+Z([3,'16bca1bb'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_72);return __WXML_GLOBAL__.ops_cached.$gwx_72
 }
 function gz$gwx_73(){
@@ -1784,14 +1810,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_73)return __WXML_GLOBAL__.ops_cached.$gwx_73
 __WXML_GLOBAL__.ops_cached.$gwx_73=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'57791b08'])
+Z([3,'16bca1bb'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_73);return __WXML_GLOBAL__.ops_cached.$gwx_73
 }
 function gz$gwx_74(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_74)return __WXML_GLOBAL__.ops_cached.$gwx_74
 __WXML_GLOBAL__.ops_cached.$gwx_74=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'57791b08'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_74);return __WXML_GLOBAL__.ops_cached.$gwx_74
 }
 function gz$gwx_75(){
@@ -1799,14 +1825,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_75)return __WXML_GLOBAL__.ops_cached.$gwx_75
 __WXML_GLOBAL__.ops_cached.$gwx_75=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'57791b08'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_75);return __WXML_GLOBAL__.ops_cached.$gwx_75
 }
 function gz$gwx_76(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_76)return __WXML_GLOBAL__.ops_cached.$gwx_76
 __WXML_GLOBAL__.ops_cached.$gwx_76=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'4f0b669f'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_76);return __WXML_GLOBAL__.ops_cached.$gwx_76
 }
 function gz$gwx_77(){
@@ -1814,14 +1840,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_77)return __WXML_GLOBAL__.ops_cached.$gwx_77
 __WXML_GLOBAL__.ops_cached.$gwx_77=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'4f0b669f'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_77);return __WXML_GLOBAL__.ops_cached.$gwx_77
 }
 function gz$gwx_78(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_78)return __WXML_GLOBAL__.ops_cached.$gwx_78
 __WXML_GLOBAL__.ops_cached.$gwx_78=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'18c1c93e'])
+Z([3,'4f0b669f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_78);return __WXML_GLOBAL__.ops_cached.$gwx_78
 }
 function gz$gwx_79(){
@@ -1829,14 +1855,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_79)return __WXML_GLOBAL__.ops_cached.$gwx_79
 __WXML_GLOBAL__.ops_cached.$gwx_79=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'18c1c93e'])
+Z([3,'4f0b669f'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_79);return __WXML_GLOBAL__.ops_cached.$gwx_79
 }
 function gz$gwx_80(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_80)return __WXML_GLOBAL__.ops_cached.$gwx_80
 __WXML_GLOBAL__.ops_cached.$gwx_80=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3e1261ab'])
+Z([3,'18c1c93e'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_80);return __WXML_GLOBAL__.ops_cached.$gwx_80
 }
 function gz$gwx_81(){
@@ -1844,14 +1870,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_81)return __WXML_GLOBAL__.ops_cached.$gwx_81
 __WXML_GLOBAL__.ops_cached.$gwx_81=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3e1261ab'])
+Z([3,'18c1c93e'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_81);return __WXML_GLOBAL__.ops_cached.$gwx_81
 }
 function gz$gwx_82(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_82)return __WXML_GLOBAL__.ops_cached.$gwx_82
 __WXML_GLOBAL__.ops_cached.$gwx_82=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'undefined'])
+Z([3,'3e1261ab'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_82);return __WXML_GLOBAL__.ops_cached.$gwx_82
 }
 function gz$gwx_83(){
@@ -1859,14 +1885,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_83)return __WXML_GLOBAL__.ops_cached.$gwx_83
 __WXML_GLOBAL__.ops_cached.$gwx_83=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'undefined'])
+Z([3,'3e1261ab'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_83);return __WXML_GLOBAL__.ops_cached.$gwx_83
 }
 function gz$gwx_84(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_84)return __WXML_GLOBAL__.ops_cached.$gwx_84
 __WXML_GLOBAL__.ops_cached.$gwx_84=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'07a291b5'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_84);return __WXML_GLOBAL__.ops_cached.$gwx_84
 }
 function gz$gwx_85(){
@@ -1874,14 +1900,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_85)return __WXML_GLOBAL__.ops_cached.$gwx_85
 __WXML_GLOBAL__.ops_cached.$gwx_85=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'07a291b5'])
+Z([3,'undefined'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_85);return __WXML_GLOBAL__.ops_cached.$gwx_85
 }
 function gz$gwx_86(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_86)return __WXML_GLOBAL__.ops_cached.$gwx_86
 __WXML_GLOBAL__.ops_cached.$gwx_86=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'46effa22'])
+Z([3,'07a291b5'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_86);return __WXML_GLOBAL__.ops_cached.$gwx_86
 }
 function gz$gwx_87(){
@@ -1889,12 +1915,27 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_87)return __WXML_GLOBAL__.ops_cached.$gwx_87
 __WXML_GLOBAL__.ops_cached.$gwx_87=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'46effa22'])
+Z([3,'07a291b5'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_87);return __WXML_GLOBAL__.ops_cached.$gwx_87
 }
 function gz$gwx_88(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_88)return __WXML_GLOBAL__.ops_cached.$gwx_88
 __WXML_GLOBAL__.ops_cached.$gwx_88=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'46effa22'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_88);return __WXML_GLOBAL__.ops_cached.$gwx_88
+}
+function gz$gwx_89(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_89)return __WXML_GLOBAL__.ops_cached.$gwx_89
+__WXML_GLOBAL__.ops_cached.$gwx_89=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'46effa22'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_89);return __WXML_GLOBAL__.ops_cached.$gwx_89
+}
+function gz$gwx_90(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_90)return __WXML_GLOBAL__.ops_cached.$gwx_90
+__WXML_GLOBAL__.ops_cached.$gwx_90=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'63b8fb95'])
 Z([3,'_view 63b8fb95 s-page-wrapper'])
@@ -1905,21 +1946,6 @@ Z([[7],[3,'$k']])
 Z([1,'63b8fb95-3'])
 Z([3,'355698f6'])
 Z([3,'simpleDialog2'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_88);return __WXML_GLOBAL__.ops_cached.$gwx_88
-}
-function gz$gwx_89(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_89)return __WXML_GLOBAL__.ops_cached.$gwx_89
-__WXML_GLOBAL__.ops_cached.$gwx_89=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'63b8fb95'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_89);return __WXML_GLOBAL__.ops_cached.$gwx_89
-}
-function gz$gwx_90(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_90)return __WXML_GLOBAL__.ops_cached.$gwx_90
-__WXML_GLOBAL__.ops_cached.$gwx_90=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'56941036'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_90);return __WXML_GLOBAL__.ops_cached.$gwx_90
 }
 function gz$gwx_91(){
@@ -1927,14 +1953,14 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_91)return __WXML_GLOBAL__.ops_cached.$gwx_91
 __WXML_GLOBAL__.ops_cached.$gwx_91=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'56941036'])
+Z([3,'63b8fb95'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_91);return __WXML_GLOBAL__.ops_cached.$gwx_91
 }
 function gz$gwx_92(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_92)return __WXML_GLOBAL__.ops_cached.$gwx_92
 __WXML_GLOBAL__.ops_cached.$gwx_92=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3f7cf276'])
+Z([3,'56941036'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_92);return __WXML_GLOBAL__.ops_cached.$gwx_92
 }
 function gz$gwx_93(){
@@ -1942,19 +1968,34 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_93)return __WXML_GLOBAL__.ops_cached.$gwx_93
 __WXML_GLOBAL__.ops_cached.$gwx_93=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'3f7cf276'])
+Z([3,'56941036'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_93);return __WXML_GLOBAL__.ops_cached.$gwx_93
 }
 function gz$gwx_94(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_94)return __WXML_GLOBAL__.ops_cached.$gwx_94
 __WXML_GLOBAL__.ops_cached.$gwx_94=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'3b7db4a5'])
+Z([3,'3f7cf276'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_94);return __WXML_GLOBAL__.ops_cached.$gwx_94
 }
 function gz$gwx_95(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_95)return __WXML_GLOBAL__.ops_cached.$gwx_95
 __WXML_GLOBAL__.ops_cached.$gwx_95=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'3f7cf276'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_95);return __WXML_GLOBAL__.ops_cached.$gwx_95
+}
+function gz$gwx_96(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_96)return __WXML_GLOBAL__.ops_cached.$gwx_96
+__WXML_GLOBAL__.ops_cached.$gwx_96=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'3b7db4a5'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_96);return __WXML_GLOBAL__.ops_cached.$gwx_96
+}
+function gz$gwx_97(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_97)return __WXML_GLOBAL__.ops_cached.$gwx_97
+__WXML_GLOBAL__.ops_cached.$gwx_97=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'56ff715a'])
 Z([a,[3,'_view 56ff715a mpvue-picker-content  '],[[4],[[5],[[2,'?:'],[[7],[3,'showPicker']],[1,'mpvue-picker-view-show'],[1,'']]]]])
@@ -1963,13 +2004,13 @@ Z([[2,'==='],[[7],[3,'mode']],[1,'timeSelector']])
 Z([[2,'==='],[[7],[3,'mode']],[1,'multiSelector']])
 Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,2]]])
 Z([[2,'&&'],[[2,'==='],[[7],[3,'mode']],[1,'multiLinkageSelector']],[[2,'==='],[[7],[3,'deepLength']],[1,3]]])
-})(__WXML_GLOBAL__.ops_cached.$gwx_95);return __WXML_GLOBAL__.ops_cached.$gwx_95
+})(__WXML_GLOBAL__.ops_cached.$gwx_97);return __WXML_GLOBAL__.ops_cached.$gwx_97
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);console.error(e);}
 }}}()
-var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/hot.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./detail.vue.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceLoading.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/login/binding.vue.wxml','./pages/login/binding.wxml','./binding.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/login/logintemp.vue.wxml','./pages/login/logintemp.wxml','./logintemp.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/order/orderdetail.vue.wxml','./pages/my/market/order/orderdetail.wxml','./orderdetail.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
+var x=['./common/slots.wxml','/graceUI/components/graceSpeaker.vue.wxml','/components/popup-layer.vue.wxml','/graceUI/components/graceNumberBox.vue.wxml','./components/dialog.vue.wxml','./components/popup-layer.vue.wxml','/common/slots.wxml','./global.vue.wxml','./graceUI/components/graceAlert.vue.wxml','./graceUI/components/graceFullLoading.vue.wxml','./graceUI/components/graceIMFooter.vue.wxml','./graceUI/components/graceIMMsg.vue.wxml','./graceUI/components/graceLoading.vue.wxml','./graceUI/components/graceNumberBox.vue.wxml','./graceUI/components/graceSpeaker.vue.wxml','./pages/common/checkSchool.vue.wxml','/components/dialog.vue.wxml','./pages/common/checkSchool.wxml','./checkSchool.vue.wxml','./pages/common/comment.vue.wxml','./pages/common/comment.wxml','./comment.vue.wxml','./pages/common/search.vue.wxml','./pages/common/search.wxml','./search.vue.wxml','./pages/common/update.vue.wxml','./pages/common/update.wxml','./update.vue.wxml','./pages/hot/detail.vue.wxml','./pages/hot/detail.wxml','./detail.vue.wxml','./pages/hot/hot.vue.wxml','/graceUI/components/graceLoading.vue.wxml','./pages/hot/hot.wxml','./hot.vue.wxml','./pages/index/confession/detail.vue.wxml','/graceUI/components/graceFullLoading.vue.wxml','./pages/index/confession/detail.wxml','./pages/index/confession/index.vue.wxml','/graceUI/components/graceAlert.vue.wxml','./pages/index/confession/index.wxml','./index.vue.wxml','./pages/index/confession/publish.vue.wxml','./pages/index/confession/publish.wxml','./publish.vue.wxml','./pages/index/index.vue.wxml','./pages/index/index.wxml','./pages/index/market/checkstand.vue.wxml','./pages/index/market/checkstand.wxml','./checkstand.vue.wxml','./pages/index/market/index.vue.wxml','./pages/index/market/index.wxml','./pages/index/market/market.vue.wxml','./pages/index/market/market.wxml','./market.vue.wxml','./pages/index/market/payresult.vue.wxml','./pages/index/market/payresult.wxml','./payresult.vue.wxml','./pages/index/parttime/details.vue.wxml','./pages/index/parttime/details.wxml','./details.vue.wxml','./pages/index/parttime/index.vue.wxml','./pages/index/parttime/index.wxml','./pages/login/binding.vue.wxml','./pages/login/binding.wxml','./binding.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','./login.vue.wxml','./pages/login/logintemp.vue.wxml','./pages/login/logintemp.wxml','./logintemp.vue.wxml','./pages/message/chat.vue.wxml','/graceUI/components/graceIMMsg.vue.wxml','/graceUI/components/graceIMFooter.vue.wxml','./pages/message/chat.wxml','./chat.vue.wxml','./pages/message/message.vue.wxml','./pages/message/message.wxml','./message.vue.wxml','./pages/my/address/address.vue.wxml','/threeComponents/mpvueCityPicker.vue.wxml','./pages/my/address/address.wxml','./address.vue.wxml','./pages/my/market/classify.vue.wxml','./pages/my/market/classify.wxml','./classify.vue.wxml','./pages/my/market/goods/edit.vue.wxml','./pages/my/market/goods/edit.wxml','./edit.vue.wxml','./pages/my/market/goods/index.vue.wxml','./pages/my/market/goods/index.wxml','./pages/my/market/index.vue.wxml','./pages/my/market/index.wxml','./pages/my/market/manage.vue.wxml','./pages/my/market/manage.wxml','./manage.vue.wxml','./pages/my/market/order/list.vue.wxml','./pages/my/market/order/list.wxml','./list.vue.wxml','./pages/my/market/order/orderdetail.vue.wxml','./pages/my/market/order/orderdetail.wxml','./orderdetail.vue.wxml','./pages/my/market/regMarketInfo.vue.wxml','./pages/my/market/regMarketInfo.wxml','./regMarketInfo.vue.wxml','./pages/my/market/verifyIdCard.vue.wxml','./pages/my/market/verifyIdCard.wxml','./verifyIdCard.vue.wxml','./pages/my/my.vue.wxml','./pages/my/my.wxml','./my.vue.wxml','./pages/my/parttime/companyverify.vue.wxml','./pages/my/parttime/companyverify.wxml','./companyverify.vue.wxml','./pages/my/parttime/index.vue.wxml','./pages/my/parttime/index.wxml','./pages/my/parttime/parttimereg.vue.wxml','./pages/my/parttime/parttimereg.wxml','./parttimereg.vue.wxml','./pages/my/parttime/protocol.vue.wxml','./pages/my/parttime/protocol.wxml','./protocol.vue.wxml','./pages/my/setting/about.vue.wxml','./pages/my/setting/about.wxml','./about.vue.wxml','./pages/my/setting/setting.vue.wxml','./pages/my/setting/setting.wxml','./setting.vue.wxml','./pages/register/reg.vue.wxml','./pages/register/reg.wxml','./reg.vue.wxml','./pages/register/selectSchool.vue.wxml','./pages/register/selectSchool.wxml','./selectSchool.vue.wxml','./pages/register/selectSex.vue.wxml','./pages/register/selectSex.wxml','./selectSex.vue.wxml','./pages/register/setAvatar.vue.wxml','./pages/register/setAvatar.wxml','./setAvatar.vue.wxml','./threeComponents/mpvueCityPicker.vue.wxml','./threeComponents/mpvuePicker.vue.wxml'];d_[x[0]]={}
 d_[x[0]]["45d0754b-default-45d0754b-2"]=function(e,s,r,gg){
 var z=gz$gwx_1()
 var b=x[0]+':45d0754b-default-45d0754b-2'
@@ -2554,10 +2595,42 @@ p_[b]=true
 try{
 cs.push("./pages/common/search.vue.wxml:view:1:816")
 var oB=_mz(z,'view',['bindtouchstart',1,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/common/search.vue.wxml:scroll-view:1:943")
+var oD=_mz(z,'scroll-view',['scrollY',-1,'class',5,'hidden',1],[],e,s,gg)
+var fE=_v()
+_(oD,fE)
+if(_oz(z,7,e,s,gg)){fE.wxVkey=1
+cs.push("./pages/common/search.vue.wxml:view:1:1046")
+cs.pop()
+}
+var cF=_v()
+_(oD,cF)
+if(_oz(z,8,e,s,gg)){cF.wxVkey=1
+cs.push("./pages/common/search.vue.wxml:view:1:1749")
+cs.pop()
+}
+var hG=_v()
+_(oD,hG)
+if(_oz(z,9,e,s,gg)){hG.wxVkey=1
+cs.push("./pages/common/search.vue.wxml:view:1:2461")
+cs.pop()
+}
+var oH=_v()
+_(oD,oH)
+if(_oz(z,10,e,s,gg)){oH.wxVkey=1
+cs.push("./pages/common/search.vue.wxml:view:1:3178")
+cs.pop()
+}
+fE.wxXCkey=1
+cF.wxXCkey=1
+hG.wxXCkey=1
+oH.wxXCkey=1
+cs.pop()
+_(oB,oD)
 var xC=_v()
 _(oB,xC)
-if(_oz(z,5,e,s,gg)){xC.wxVkey=1
-cs.push("./pages/common/search.vue.wxml:view:1:1760")
+if(_oz(z,11,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/common/search.vue.wxml:view:1:3987")
 cs.pop()
 }
 xC.wxXCkey=1
@@ -2681,14 +2754,49 @@ return r
 }
 e_[x[26]]={f:m18,j:[],i:[],ti:[x[27]],ic:[]}
 d_[x[28]]={}
-d_[x[28]]["47becf64"]=function(e,s,r,gg){
+d_[x[28]]["0e6971da"]=function(e,s,r,gg){
 var z=gz$gwx_20()
-var b=x[28]+':47becf64'
+var b=x[28]+':0e6971da'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/hot/detail.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[28]);return}
 p_[b]=true
 try{
+cs.push("./pages/hot/detail.vue.wxml:view:1:27")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/hot/detail.vue.wxml:view:1:185")
+cs.pop()
+}
+var oD=_v()
+_(oB,oD)
+cs.push("./pages/hot/detail.vue.wxml:block:1:356")
+var fE=function(hG,cF,oH,gg){
+var oJ=_v()
+_(oH,oJ)
+if(_oz(z,8,hG,cF,gg)){oJ.wxVkey=1
+cs.push("./pages/hot/detail.vue.wxml:block:1:356")
+var lK=_v()
+_(oJ,lK)
+if(_oz(z,9,hG,cF,gg)){lK.wxVkey=1
+cs.push("./pages/hot/detail.vue.wxml:view:1:499")
+cs.pop()
+}
+lK.wxXCkey=1
+cs.pop()
+}
+oJ.wxXCkey=1
+return oH
+}
+oD.wxXCkey=2
+_2z(z,5,fE,e,s,gg,oD,'item','index','index')
+cs.pop()
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -2708,7 +2816,7 @@ var xIB=e_[x[29]].i
 _ai(xIB,x[30],e_,x[29],1,1)
 var oJB=_v()
 _(r,oJB)
-cs.push("./pages/hot/hot.wxml:template:2:6")
+cs.push("./pages/hot/detail.wxml:template:2:6")
 var fKB=_oz(z,1,e,s,gg)
 var cLB=_gd(x[29],fKB,e_,d_)
 if(cLB){
@@ -2725,12 +2833,73 @@ return r
 }
 e_[x[29]]={f:m20,j:[],i:[],ti:[x[30]],ic:[]}
 d_[x[31]]={}
-d_[x[31]]["791d3cb5"]=function(e,s,r,gg){
+d_[x[31]]["47becf64"]=function(e,s,r,gg){
 var z=gz$gwx_22()
-var b=x[31]+':791d3cb5'
+var b=x[31]+':47becf64'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/hot/hot.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[31]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/hot/hot.vue.wxml:template:1:778")
+var xC=_oz(z,2,e,s,gg)
+var oD=_gd(x[31],xC,e_,d_)
+if(oD){
+var fE=_1z(z,1,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[31],1,849)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m21=function(e,s,r,gg){
+var z=gz$gwx_22()
+var cOB=e_[x[31]].i
+_ai(cOB,x[32],e_,x[31],1,1)
+cOB.pop()
+return r
+}
+e_[x[31]]={f:m21,j:[],i:[],ti:[x[32]],ic:[]}
+d_[x[33]]={}
+var m22=function(e,s,r,gg){
+var z=gz$gwx_23()
+var lQB=e_[x[33]].i
+_ai(lQB,x[34],e_,x[33],1,1)
+var aRB=_v()
+_(r,aRB)
+cs.push("./pages/hot/hot.wxml:template:2:6")
+var tSB=_oz(z,1,e,s,gg)
+var eTB=_gd(x[33],tSB,e_,d_)
+if(eTB){
+var bUB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+aRB.wxXCkey=3
+eTB(bUB,bUB,aRB,gg)
+gg.f=cur_globalf
+}
+else _w(tSB,x[33],2,18)
+cs.pop()
+lQB.pop()
+return r
+}
+e_[x[33]]={f:m22,j:[],i:[],ti:[x[34]],ic:[]}
+d_[x[35]]={}
+d_[x[35]]["791d3cb5"]=function(e,s,r,gg){
+var z=gz$gwx_24()
+var b=x[35]+':791d3cb5'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/detail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[31]);return}
+if(p_[b]){_wl(b,x[35]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/confession/detail.vue.wxml:view:1:89")
@@ -2768,7 +2937,7 @@ var aL=_v()
 _(oB,aL)
 cs.push("./pages/index/confession/detail.vue.wxml:template:1:4349")
 var tM=_oz(z,10,e,s,gg)
-var eN=_gd(x[31],tM,e_,d_)
+var eN=_gd(x[35],tM,e_,d_)
 if(eN){
 var bO=_1z(z,9,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2776,90 +2945,10 @@ aL.wxXCkey=3
 eN(bO,bO,aL,gg)
 gg.f=cur_globalf
 }
-else _w(tM,x[31],1,4461)
+else _w(tM,x[35],1,4461)
 cs.pop()
 xC.wxXCkey=1
 oD.wxXCkey=1
-cs.pop()
-_(r,oB)
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m21=function(e,s,r,gg){
-var z=gz$gwx_22()
-var cOB=e_[x[31]].i
-_ai(cOB,x[32],e_,x[31],1,1)
-cOB.pop()
-return r
-}
-e_[x[31]]={f:m21,j:[],i:[],ti:[x[32]],ic:[]}
-d_[x[33]]={}
-var m22=function(e,s,r,gg){
-var z=gz$gwx_23()
-var lQB=e_[x[33]].i
-_ai(lQB,x[34],e_,x[33],1,1)
-var aRB=_v()
-_(r,aRB)
-cs.push("./pages/index/confession/detail.wxml:template:2:6")
-var tSB=_oz(z,1,e,s,gg)
-var eTB=_gd(x[33],tSB,e_,d_)
-if(eTB){
-var bUB=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-aRB.wxXCkey=3
-eTB(bUB,bUB,aRB,gg)
-gg.f=cur_globalf
-}
-else _w(tSB,x[33],2,18)
-cs.pop()
-lQB.pop()
-return r
-}
-e_[x[33]]={f:m22,j:[],i:[],ti:[x[34]],ic:[]}
-d_[x[35]]={}
-d_[x[35]]["8c403024"]=function(e,s,r,gg){
-var z=gz$gwx_24()
-var b=x[35]+':8c403024'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[35]);return}
-p_[b]=true
-try{
-cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-var xC=_v()
-_(oB,xC)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1633")
-var oD=_oz(z,3,e,s,gg)
-var fE=_gd(x[35],oD,e_,d_)
-if(fE){
-var cF=_1z(z,2,e,s,gg) || {}
-var cur_globalf=gg.f
-xC.wxXCkey=3
-fE(cF,cF,xC,gg)
-gg.f=cur_globalf
-}
-else _w(oD,x[35],1,1704)
-cs.pop()
-var hG=_v()
-_(oB,hG)
-cs.push("./pages/index/confession/index.vue.wxml:template:1:1727")
-var oH=_oz(z,5,e,s,gg)
-var cI=_gd(x[35],oH,e_,d_)
-if(cI){
-var oJ=_1z(z,4,e,s,gg) || {}
-var cur_globalf=gg.f
-hG.wxXCkey=3
-cI(oJ,oJ,hG,gg)
-gg.f=cur_globalf
-}
-else _w(oH,x[35],1,1798)
-cs.pop()
 cs.pop()
 _(r,oB)
 }catch(err){
@@ -2873,22 +2962,20 @@ var m23=function(e,s,r,gg){
 var z=gz$gwx_24()
 var xWB=e_[x[35]].i
 _ai(xWB,x[36],e_,x[35],1,1)
-_ai(xWB,x[37],e_,x[35],1,59)
-xWB.pop()
 xWB.pop()
 return r
 }
-e_[x[35]]={f:m23,j:[],i:[],ti:[x[36],x[37]],ic:[]}
-d_[x[38]]={}
+e_[x[35]]={f:m23,j:[],i:[],ti:[x[36]],ic:[]}
+d_[x[37]]={}
 var m24=function(e,s,r,gg){
 var z=gz$gwx_25()
-var fYB=e_[x[38]].i
-_ai(fYB,x[39],e_,x[38],1,1)
+var fYB=e_[x[37]].i
+_ai(fYB,x[30],e_,x[37],1,1)
 var cZB=_v()
 _(r,cZB)
-cs.push("./pages/index/confession/index.wxml:template:2:6")
+cs.push("./pages/index/confession/detail.wxml:template:2:6")
 var h1B=_oz(z,1,e,s,gg)
-var o2B=_gd(x[38],h1B,e_,d_)
+var o2B=_gd(x[37],h1B,e_,d_)
 if(o2B){
 var c3B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -2896,19 +2983,101 @@ cZB.wxXCkey=3
 o2B(c3B,c3B,cZB,gg)
 gg.f=cur_globalf
 }
-else _w(h1B,x[38],2,18)
+else _w(h1B,x[37],2,18)
 cs.pop()
 fYB.pop()
 return r
 }
-e_[x[38]]={f:m24,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[40]]={}
-d_[x[40]]["3faa052b"]=function(e,s,r,gg){
+e_[x[37]]={f:m24,j:[],i:[],ti:[x[30]],ic:[]}
+d_[x[38]]={}
+d_[x[38]]["8c403024"]=function(e,s,r,gg){
 var z=gz$gwx_26()
-var b=x[40]+':3faa052b'
+var b=x[38]+':8c403024'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/confession/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[38]);return}
+p_[b]=true
+try{
+cs.push("./pages/index/confession/index.vue.wxml:view:1:141")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1633")
+var oD=_oz(z,3,e,s,gg)
+var fE=_gd(x[38],oD,e_,d_)
+if(fE){
+var cF=_1z(z,2,e,s,gg) || {}
+var cur_globalf=gg.f
+xC.wxXCkey=3
+fE(cF,cF,xC,gg)
+gg.f=cur_globalf
+}
+else _w(oD,x[38],1,1704)
+cs.pop()
+var hG=_v()
+_(oB,hG)
+cs.push("./pages/index/confession/index.vue.wxml:template:1:1727")
+var oH=_oz(z,5,e,s,gg)
+var cI=_gd(x[38],oH,e_,d_)
+if(cI){
+var oJ=_1z(z,4,e,s,gg) || {}
+var cur_globalf=gg.f
+hG.wxXCkey=3
+cI(oJ,oJ,hG,gg)
+gg.f=cur_globalf
+}
+else _w(oH,x[38],1,1798)
+cs.pop()
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m25=function(e,s,r,gg){
+var z=gz$gwx_26()
+var l5B=e_[x[38]].i
+_ai(l5B,x[32],e_,x[38],1,1)
+_ai(l5B,x[39],e_,x[38],1,59)
+l5B.pop()
+l5B.pop()
+return r
+}
+e_[x[38]]={f:m25,j:[],i:[],ti:[x[32],x[39]],ic:[]}
+d_[x[40]]={}
+var m26=function(e,s,r,gg){
+var z=gz$gwx_27()
+var t7B=e_[x[40]].i
+_ai(t7B,x[41],e_,x[40],1,1)
+var e8B=_v()
+_(r,e8B)
+cs.push("./pages/index/confession/index.wxml:template:2:6")
+var b9B=_oz(z,1,e,s,gg)
+var o0B=_gd(x[40],b9B,e_,d_)
+if(o0B){
+var xAC=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+e8B.wxXCkey=3
+o0B(xAC,xAC,e8B,gg)
+gg.f=cur_globalf
+}
+else _w(b9B,x[40],2,18)
+cs.pop()
+t7B.pop()
+return r
+}
+e_[x[40]]={f:m26,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[42]]={}
+d_[x[42]]["3faa052b"]=function(e,s,r,gg){
+var z=gz$gwx_28()
+var b=x[42]+':3faa052b'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/confession/publish.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[40]);return}
+if(p_[b]){_wl(b,x[42]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -2925,84 +3094,40 @@ throw err
 p_[b]=false
 return r
 }
-var m25=function(e,s,r,gg){
-var z=gz$gwx_26()
-return r
-}
-e_[x[40]]={f:m25,j:[],i:[],ti:[],ic:[]}
-d_[x[41]]={}
-var m26=function(e,s,r,gg){
-var z=gz$gwx_27()
-var a6B=e_[x[41]].i
-_ai(a6B,x[42],e_,x[41],1,1)
-var t7B=_v()
-_(r,t7B)
-cs.push("./pages/index/confession/publish.wxml:template:2:6")
-var e8B=_oz(z,1,e,s,gg)
-var b9B=_gd(x[41],e8B,e_,d_)
-if(b9B){
-var o0B=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-t7B.wxXCkey=3
-b9B(o0B,o0B,t7B,gg)
-gg.f=cur_globalf
-}
-else _w(e8B,x[41],2,18)
-cs.pop()
-a6B.pop()
-return r
-}
-e_[x[41]]={f:m26,j:[],i:[],ti:[x[42]],ic:[]}
-d_[x[43]]={}
-d_[x[43]]["6c4b56a4"]=function(e,s,r,gg){
-var z=gz$gwx_28()
-var b=x[43]+':6c4b56a4'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[43]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m27=function(e,s,r,gg){
 var z=gz$gwx_28()
 return r
 }
-e_[x[43]]={f:m27,j:[],i:[],ti:[],ic:[]}
-d_[x[44]]={}
+e_[x[42]]={f:m27,j:[],i:[],ti:[],ic:[]}
+d_[x[43]]={}
 var m28=function(e,s,r,gg){
 var z=gz$gwx_29()
-var fCC=e_[x[44]].i
-_ai(fCC,x[39],e_,x[44],1,1)
-var cDC=_v()
-_(r,cDC)
-cs.push("./pages/index/index.wxml:template:2:6")
-var hEC=_oz(z,1,e,s,gg)
-var oFC=_gd(x[44],hEC,e_,d_)
-if(oFC){
-var cGC=_1z(z,0,e,s,gg) || {}
+var cDC=e_[x[43]].i
+_ai(cDC,x[44],e_,x[43],1,1)
+var hEC=_v()
+_(r,hEC)
+cs.push("./pages/index/confession/publish.wxml:template:2:6")
+var oFC=_oz(z,1,e,s,gg)
+var cGC=_gd(x[43],oFC,e_,d_)
+if(cGC){
+var oHC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cDC.wxXCkey=3
-oFC(cGC,cGC,cDC,gg)
+hEC.wxXCkey=3
+cGC(oHC,oHC,hEC,gg)
 gg.f=cur_globalf
 }
-else _w(hEC,x[44],2,18)
+else _w(oFC,x[43],2,18)
 cs.pop()
-fCC.pop()
+cDC.pop()
 return r
 }
-e_[x[44]]={f:m28,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[43]]={f:m28,j:[],i:[],ti:[x[44]],ic:[]}
 d_[x[45]]={}
-d_[x[45]]["1b18f546"]=function(e,s,r,gg){
+d_[x[45]]["6c4b56a4"]=function(e,s,r,gg){
 var z=gz$gwx_30()
-var b=x[45]+':1b18f546'
+var b=x[45]+':6c4b56a4'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[45]);return}
 p_[b]=true
 try{
@@ -3021,33 +3146,77 @@ e_[x[45]]={f:m29,j:[],i:[],ti:[],ic:[]}
 d_[x[46]]={}
 var m30=function(e,s,r,gg){
 var z=gz$gwx_31()
-var aJC=e_[x[46]].i
-_ai(aJC,x[47],e_,x[46],1,1)
-var tKC=_v()
-_(r,tKC)
-cs.push("./pages/index/market/checkstand.wxml:template:2:6")
-var eLC=_oz(z,1,e,s,gg)
-var bMC=_gd(x[46],eLC,e_,d_)
-if(bMC){
-var oNC=_1z(z,0,e,s,gg) || {}
+var tKC=e_[x[46]].i
+_ai(tKC,x[41],e_,x[46],1,1)
+var eLC=_v()
+_(r,eLC)
+cs.push("./pages/index/index.wxml:template:2:6")
+var bMC=_oz(z,1,e,s,gg)
+var oNC=_gd(x[46],bMC,e_,d_)
+if(oNC){
+var xOC=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-tKC.wxXCkey=3
-bMC(oNC,oNC,tKC,gg)
+eLC.wxXCkey=3
+oNC(xOC,xOC,eLC,gg)
 gg.f=cur_globalf
 }
-else _w(eLC,x[46],2,18)
+else _w(bMC,x[46],2,18)
 cs.pop()
-aJC.pop()
+tKC.pop()
 return r
 }
-e_[x[46]]={f:m30,j:[],i:[],ti:[x[47]],ic:[]}
-d_[x[48]]={}
-d_[x[48]]["6f812c3a"]=function(e,s,r,gg){
+e_[x[46]]={f:m30,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[47]]={}
+d_[x[47]]["1b18f546"]=function(e,s,r,gg){
 var z=gz$gwx_32()
-var b=x[48]+':6f812c3a'
+var b=x[47]+':1b18f546'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/index/market/checkstand.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[47]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m31=function(e,s,r,gg){
+var z=gz$gwx_32()
+return r
+}
+e_[x[47]]={f:m31,j:[],i:[],ti:[],ic:[]}
+d_[x[48]]={}
+var m32=function(e,s,r,gg){
+var z=gz$gwx_33()
+var cRC=e_[x[48]].i
+_ai(cRC,x[49],e_,x[48],1,1)
+var hSC=_v()
+_(r,hSC)
+cs.push("./pages/index/market/checkstand.wxml:template:2:6")
+var oTC=_oz(z,1,e,s,gg)
+var cUC=_gd(x[48],oTC,e_,d_)
+if(cUC){
+var oVC=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+hSC.wxXCkey=3
+cUC(oVC,oVC,hSC,gg)
+gg.f=cur_globalf
+}
+else _w(oTC,x[48],2,18)
+cs.pop()
+cRC.pop()
+return r
+}
+e_[x[48]]={f:m32,j:[],i:[],ti:[x[49]],ic:[]}
+d_[x[50]]={}
+d_[x[50]]["6f812c3a"]=function(e,s,r,gg){
+var z=gz$gwx_34()
+var b=x[50]+':6f812c3a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[48]);return}
+if(p_[b]){_wl(b,x[50]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/index.vue.wxml:view:1:85")
@@ -3131,9 +3300,9 @@ cs.pop()
 _(oB,xC)
 var lY=_v()
 _(oB,lY)
-cs.push("./pages/index/market/index.vue.wxml:template:1:3474")
+cs.push("./pages/index/market/index.vue.wxml:template:1:3556")
 var aZ=_oz(z,35,e,s,gg)
-var t1=_gd(x[48],aZ,e_,d_)
+var t1=_gd(x[50],aZ,e_,d_)
 if(t1){
 var e2=_1z(z,34,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3141,7 +3310,7 @@ lY.wxXCkey=3
 t1(e2,e2,lY,gg)
 gg.f=cur_globalf
 }
-else _w(aZ,x[48],1,3545)
+else _w(aZ,x[50],1,3627)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3152,44 +3321,44 @@ throw err
 p_[b]=false
 return r
 }
-var m31=function(e,s,r,gg){
-var z=gz$gwx_32()
-var oPC=e_[x[48]].i
-_ai(oPC,x[36],e_,x[48],1,1)
-oPC.pop()
+var m33=function(e,s,r,gg){
+var z=gz$gwx_34()
+var aXC=e_[x[50]].i
+_ai(aXC,x[32],e_,x[50],1,1)
+aXC.pop()
 return r
 }
-e_[x[48]]={f:m31,j:[],i:[],ti:[x[36]],ic:[]}
-d_[x[49]]={}
-var m32=function(e,s,r,gg){
-var z=gz$gwx_33()
-var cRC=e_[x[49]].i
-_ai(cRC,x[39],e_,x[49],1,1)
-var hSC=_v()
-_(r,hSC)
+e_[x[50]]={f:m33,j:[],i:[],ti:[x[32]],ic:[]}
+d_[x[51]]={}
+var m34=function(e,s,r,gg){
+var z=gz$gwx_35()
+var eZC=e_[x[51]].i
+_ai(eZC,x[41],e_,x[51],1,1)
+var b1C=_v()
+_(r,b1C)
 cs.push("./pages/index/market/index.wxml:template:2:6")
-var oTC=_oz(z,1,e,s,gg)
-var cUC=_gd(x[49],oTC,e_,d_)
-if(cUC){
-var oVC=_1z(z,0,e,s,gg) || {}
+var o2C=_oz(z,1,e,s,gg)
+var x3C=_gd(x[51],o2C,e_,d_)
+if(x3C){
+var o4C=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-hSC.wxXCkey=3
-cUC(oVC,oVC,hSC,gg)
+b1C.wxXCkey=3
+x3C(o4C,o4C,b1C,gg)
 gg.f=cur_globalf
 }
-else _w(oTC,x[49],2,18)
+else _w(o2C,x[51],2,18)
 cs.pop()
-cRC.pop()
+eZC.pop()
 return r
 }
-e_[x[49]]={f:m32,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[50]]={}
-d_[x[50]]["45d0754b"]=function(e,s,r,gg){
-var z=gz$gwx_34()
-var b=x[50]+':45d0754b'
+e_[x[51]]={f:m34,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[52]]={}
+d_[x[52]]["45d0754b"]=function(e,s,r,gg){
+var z=gz$gwx_36()
+var b=x[52]+':45d0754b'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/index/market/market.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[50]);return}
+if(p_[b]){_wl(b,x[52]);return}
 p_[b]=true
 try{
 cs.push("./pages/index/market/market.vue.wxml:view:1:194")
@@ -3198,7 +3367,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/index/market/market.vue.wxml:template:1:244")
 var oD=_oz(z,5,e,s,gg)
-var fE=_gd(x[50],oD,e_,d_)
+var fE=_gd(x[52],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3206,7 +3375,7 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[50],1,357)
+else _w(oD,x[52],1,357)
 cs.pop()
 cs.push("./pages/index/market/market.vue.wxml:view:1:2430")
 var hG=_mz(z,'view',['bindtap',6,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
@@ -3223,7 +3392,7 @@ var cI=_v()
 _(oB,cI)
 cs.push("./pages/index/market/market.vue.wxml:template:1:3033")
 var oJ=_oz(z,12,e,s,gg)
-var lK=_gd(x[50],oJ,e_,d_)
+var lK=_gd(x[52],oJ,e_,d_)
 if(lK){
 var aL=_1z(z,11,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3231,7 +3400,7 @@ cI.wxXCkey=3
 lK(aL,aL,cI,gg)
 gg.f=cur_globalf
 }
-else _w(oJ,x[50],1,3160)
+else _w(oJ,x[52],1,3160)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3242,92 +3411,48 @@ throw err
 p_[b]=false
 return r
 }
-var m33=function(e,s,r,gg){
-var z=gz$gwx_34()
-var aXC=e_[x[50]].i
-_ai(aXC,x[1],e_,x[50],1,1)
-_ai(aXC,x[2],e_,x[50],1,59)
-_ai(aXC,x[3],e_,x[50],1,108)
-aXC.pop()
-aXC.pop()
-aXC.pop()
-return r
-}
-e_[x[50]]={f:m33,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
-d_[x[51]]={}
-var m34=function(e,s,r,gg){
-var z=gz$gwx_35()
-var eZC=e_[x[51]].i
-_ai(eZC,x[52],e_,x[51],1,1)
-var b1C=_v()
-_(r,b1C)
-cs.push("./pages/index/market/market.wxml:template:2:6")
-var o2C=_oz(z,1,e,s,gg)
-var x3C=_gd(x[51],o2C,e_,d_)
-if(x3C){
-var o4C=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-b1C.wxXCkey=3
-x3C(o4C,o4C,b1C,gg)
-gg.f=cur_globalf
-}
-else _w(o2C,x[51],2,18)
-cs.pop()
-eZC.pop()
-return r
-}
-e_[x[51]]={f:m34,j:[],i:[],ti:[x[52]],ic:[]}
-d_[x[53]]={}
-d_[x[53]]["cee4a954"]=function(e,s,r,gg){
-var z=gz$gwx_36()
-var b=x[53]+':cee4a954'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[53]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m35=function(e,s,r,gg){
 var z=gz$gwx_36()
+var c6C=e_[x[52]].i
+_ai(c6C,x[1],e_,x[52],1,1)
+_ai(c6C,x[2],e_,x[52],1,59)
+_ai(c6C,x[3],e_,x[52],1,108)
+c6C.pop()
+c6C.pop()
+c6C.pop()
 return r
 }
-e_[x[53]]={f:m35,j:[],i:[],ti:[],ic:[]}
-d_[x[54]]={}
+e_[x[52]]={f:m35,j:[],i:[],ti:[x[1],x[2],x[3]],ic:[]}
+d_[x[53]]={}
 var m36=function(e,s,r,gg){
 var z=gz$gwx_37()
-var h7C=e_[x[54]].i
-_ai(h7C,x[55],e_,x[54],1,1)
-var o8C=_v()
-_(r,o8C)
-cs.push("./pages/index/market/payresult.wxml:template:2:6")
-var c9C=_oz(z,1,e,s,gg)
-var o0C=_gd(x[54],c9C,e_,d_)
-if(o0C){
-var lAD=_1z(z,0,e,s,gg) || {}
+var o8C=e_[x[53]].i
+_ai(o8C,x[54],e_,x[53],1,1)
+var c9C=_v()
+_(r,c9C)
+cs.push("./pages/index/market/market.wxml:template:2:6")
+var o0C=_oz(z,1,e,s,gg)
+var lAD=_gd(x[53],o0C,e_,d_)
+if(lAD){
+var aBD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8C.wxXCkey=3
-o0C(lAD,lAD,o8C,gg)
+c9C.wxXCkey=3
+lAD(aBD,aBD,c9C,gg)
 gg.f=cur_globalf
 }
-else _w(c9C,x[54],2,18)
+else _w(o0C,x[53],2,18)
 cs.pop()
-h7C.pop()
+o8C.pop()
 return r
 }
-e_[x[54]]={f:m36,j:[],i:[],ti:[x[55]],ic:[]}
-d_[x[56]]={}
-d_[x[56]]["7beaf1d2"]=function(e,s,r,gg){
+e_[x[53]]={f:m36,j:[],i:[],ti:[x[54]],ic:[]}
+d_[x[55]]={}
+d_[x[55]]["cee4a954"]=function(e,s,r,gg){
 var z=gz$gwx_38()
-var b=x[56]+':7beaf1d2'
+var b=x[55]+':cee4a954'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[56]);return}
+gg.f=$gdc(f_["./pages/index/market/payresult.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[55]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3341,37 +3466,37 @@ var m37=function(e,s,r,gg){
 var z=gz$gwx_38()
 return r
 }
-e_[x[56]]={f:m37,j:[],i:[],ti:[],ic:[]}
-d_[x[57]]={}
+e_[x[55]]={f:m37,j:[],i:[],ti:[],ic:[]}
+d_[x[56]]={}
 var m38=function(e,s,r,gg){
 var z=gz$gwx_39()
-var eDD=e_[x[57]].i
-_ai(eDD,x[58],e_,x[57],1,1)
-var bED=_v()
-_(r,bED)
-cs.push("./pages/index/parttime/details.wxml:template:2:6")
-var oFD=_oz(z,1,e,s,gg)
-var xGD=_gd(x[57],oFD,e_,d_)
-if(xGD){
-var oHD=_1z(z,0,e,s,gg) || {}
+var bED=e_[x[56]].i
+_ai(bED,x[57],e_,x[56],1,1)
+var oFD=_v()
+_(r,oFD)
+cs.push("./pages/index/market/payresult.wxml:template:2:6")
+var xGD=_oz(z,1,e,s,gg)
+var oHD=_gd(x[56],xGD,e_,d_)
+if(oHD){
+var fID=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bED.wxXCkey=3
-xGD(oHD,oHD,bED,gg)
+oFD.wxXCkey=3
+oHD(fID,fID,oFD,gg)
 gg.f=cur_globalf
 }
-else _w(oFD,x[57],2,18)
+else _w(xGD,x[56],2,18)
 cs.pop()
-eDD.pop()
+bED.pop()
 return r
 }
-e_[x[57]]={f:m38,j:[],i:[],ti:[x[58]],ic:[]}
-d_[x[59]]={}
-d_[x[59]]["72c5eee7"]=function(e,s,r,gg){
+e_[x[56]]={f:m38,j:[],i:[],ti:[x[57]],ic:[]}
+d_[x[58]]={}
+d_[x[58]]["7beaf1d2"]=function(e,s,r,gg){
 var z=gz$gwx_40()
-var b=x[59]+':72c5eee7'
+var b=x[58]+':7beaf1d2'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[59]);return}
+gg.f=$gdc(f_["./pages/index/parttime/details.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[58]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3385,39 +3510,53 @@ var m39=function(e,s,r,gg){
 var z=gz$gwx_40()
 return r
 }
-e_[x[59]]={f:m39,j:[],i:[],ti:[],ic:[]}
-d_[x[60]]={}
+e_[x[58]]={f:m39,j:[],i:[],ti:[],ic:[]}
+d_[x[59]]={}
 var m40=function(e,s,r,gg){
 var z=gz$gwx_41()
-var hKD=e_[x[60]].i
-_ai(hKD,x[39],e_,x[60],1,1)
-var oLD=_v()
-_(r,oLD)
-cs.push("./pages/index/parttime/index.wxml:template:2:6")
-var cMD=_oz(z,1,e,s,gg)
-var oND=_gd(x[60],cMD,e_,d_)
-if(oND){
-var lOD=_1z(z,0,e,s,gg) || {}
+var oLD=e_[x[59]].i
+_ai(oLD,x[60],e_,x[59],1,1)
+var cMD=_v()
+_(r,cMD)
+cs.push("./pages/index/parttime/details.wxml:template:2:6")
+var oND=_oz(z,1,e,s,gg)
+var lOD=_gd(x[59],oND,e_,d_)
+if(lOD){
+var aPD=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oLD.wxXCkey=3
-oND(lOD,lOD,oLD,gg)
+cMD.wxXCkey=3
+lOD(aPD,aPD,cMD,gg)
 gg.f=cur_globalf
 }
-else _w(cMD,x[60],2,18)
+else _w(oND,x[59],2,18)
 cs.pop()
-hKD.pop()
+oLD.pop()
 return r
 }
-e_[x[60]]={f:m40,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[59]]={f:m40,j:[],i:[],ti:[x[60]],ic:[]}
 d_[x[61]]={}
-d_[x[61]]["4a9ada10"]=function(e,s,r,gg){
+d_[x[61]]["72c5eee7"]=function(e,s,r,gg){
 var z=gz$gwx_42()
-var b=x[61]+':4a9ada10'
+var b=x[61]+':72c5eee7'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/login/binding.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/index/parttime/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[61]);return}
 p_[b]=true
 try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/index/parttime/index.vue.wxml:template:1:1391")
+var xC=_oz(z,2,e,s,gg)
+var oD=_gd(x[61],xC,e_,d_)
+if(oD){
+var fE=_1z(z,1,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[61],1,1462)
+cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -3427,39 +3566,42 @@ return r
 }
 var m41=function(e,s,r,gg){
 var z=gz$gwx_42()
-return r
-}
-e_[x[61]]={f:m41,j:[],i:[],ti:[],ic:[]}
-d_[x[62]]={}
-var m42=function(e,s,r,gg){
-var z=gz$gwx_43()
-var eRD=e_[x[62]].i
-_ai(eRD,x[63],e_,x[62],1,1)
-var bSD=_v()
-_(r,bSD)
-cs.push("./pages/login/binding.wxml:template:2:6")
-var oTD=_oz(z,1,e,s,gg)
-var xUD=_gd(x[62],oTD,e_,d_)
-if(xUD){
-var oVD=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-bSD.wxXCkey=3
-xUD(oVD,oVD,bSD,gg)
-gg.f=cur_globalf
-}
-else _w(oTD,x[62],2,18)
-cs.pop()
+var eRD=e_[x[61]].i
+_ai(eRD,x[32],e_,x[61],1,1)
 eRD.pop()
 return r
 }
-e_[x[62]]={f:m42,j:[],i:[],ti:[x[63]],ic:[]}
-d_[x[64]]={}
-d_[x[64]]["6f5f56c8"]=function(e,s,r,gg){
+e_[x[61]]={f:m41,j:[],i:[],ti:[x[32]],ic:[]}
+d_[x[62]]={}
+var m42=function(e,s,r,gg){
+var z=gz$gwx_43()
+var oTD=e_[x[62]].i
+_ai(oTD,x[41],e_,x[62],1,1)
+var xUD=_v()
+_(r,xUD)
+cs.push("./pages/index/parttime/index.wxml:template:2:6")
+var oVD=_oz(z,1,e,s,gg)
+var fWD=_gd(x[62],oVD,e_,d_)
+if(fWD){
+var cXD=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+xUD.wxXCkey=3
+fWD(cXD,cXD,xUD,gg)
+gg.f=cur_globalf
+}
+else _w(oVD,x[62],2,18)
+cs.pop()
+oTD.pop()
+return r
+}
+e_[x[62]]={f:m42,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[63]]={}
+d_[x[63]]["4a9ada10"]=function(e,s,r,gg){
 var z=gz$gwx_44()
-var b=x[64]+':6f5f56c8'
+var b=x[63]+':4a9ada10'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[64]);return}
+gg.f=$gdc(f_["./pages/login/binding.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[63]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3473,37 +3615,37 @@ var m43=function(e,s,r,gg){
 var z=gz$gwx_44()
 return r
 }
-e_[x[64]]={f:m43,j:[],i:[],ti:[],ic:[]}
-d_[x[65]]={}
+e_[x[63]]={f:m43,j:[],i:[],ti:[],ic:[]}
+d_[x[64]]={}
 var m44=function(e,s,r,gg){
 var z=gz$gwx_45()
-var hYD=e_[x[65]].i
-_ai(hYD,x[66],e_,x[65],1,1)
-var oZD=_v()
-_(r,oZD)
-cs.push("./pages/login/login.wxml:template:2:6")
-var c1D=_oz(z,1,e,s,gg)
-var o2D=_gd(x[65],c1D,e_,d_)
-if(o2D){
-var l3D=_1z(z,0,e,s,gg) || {}
+var c1D=e_[x[64]].i
+_ai(c1D,x[65],e_,x[64],1,1)
+var o2D=_v()
+_(r,o2D)
+cs.push("./pages/login/binding.wxml:template:2:6")
+var l3D=_oz(z,1,e,s,gg)
+var a4D=_gd(x[64],l3D,e_,d_)
+if(a4D){
+var t5D=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oZD.wxXCkey=3
-o2D(l3D,l3D,oZD,gg)
+o2D.wxXCkey=3
+a4D(t5D,t5D,o2D,gg)
 gg.f=cur_globalf
 }
-else _w(c1D,x[65],2,18)
+else _w(l3D,x[64],2,18)
 cs.pop()
-hYD.pop()
+c1D.pop()
 return r
 }
-e_[x[65]]={f:m44,j:[],i:[],ti:[x[66]],ic:[]}
-d_[x[67]]={}
-d_[x[67]]["6e5a2b20"]=function(e,s,r,gg){
+e_[x[64]]={f:m44,j:[],i:[],ti:[x[65]],ic:[]}
+d_[x[66]]={}
+d_[x[66]]["6f5f56c8"]=function(e,s,r,gg){
 var z=gz$gwx_46()
-var b=x[67]+':6e5a2b20'
+var b=x[66]+':6f5f56c8'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/login/logintemp.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[67]);return}
+gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[66]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -3517,37 +3659,81 @@ var m45=function(e,s,r,gg){
 var z=gz$gwx_46()
 return r
 }
-e_[x[67]]={f:m45,j:[],i:[],ti:[],ic:[]}
-d_[x[68]]={}
+e_[x[66]]={f:m45,j:[],i:[],ti:[],ic:[]}
+d_[x[67]]={}
 var m46=function(e,s,r,gg){
 var z=gz$gwx_47()
-var e6D=e_[x[68]].i
-_ai(e6D,x[69],e_,x[68],1,1)
-var b7D=_v()
-_(r,b7D)
-cs.push("./pages/login/logintemp.wxml:template:2:6")
-var o8D=_oz(z,1,e,s,gg)
-var x9D=_gd(x[68],o8D,e_,d_)
-if(x9D){
-var o0D=_1z(z,0,e,s,gg) || {}
+var o8D=e_[x[67]].i
+_ai(o8D,x[68],e_,x[67],1,1)
+var x9D=_v()
+_(r,x9D)
+cs.push("./pages/login/login.wxml:template:2:6")
+var o0D=_oz(z,1,e,s,gg)
+var fAE=_gd(x[67],o0D,e_,d_)
+if(fAE){
+var cBE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b7D.wxXCkey=3
-x9D(o0D,o0D,b7D,gg)
+x9D.wxXCkey=3
+fAE(cBE,cBE,x9D,gg)
 gg.f=cur_globalf
 }
-else _w(o8D,x[68],2,18)
+else _w(o0D,x[67],2,18)
 cs.pop()
-e6D.pop()
+o8D.pop()
 return r
 }
-e_[x[68]]={f:m46,j:[],i:[],ti:[x[69]],ic:[]}
-d_[x[70]]={}
-d_[x[70]]["19e2cfb2"]=function(e,s,r,gg){
+e_[x[67]]={f:m46,j:[],i:[],ti:[x[68]],ic:[]}
+d_[x[69]]={}
+d_[x[69]]["6e5a2b20"]=function(e,s,r,gg){
 var z=gz$gwx_48()
-var b=x[70]+':19e2cfb2'
+var b=x[69]+':6e5a2b20'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/login/logintemp.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[69]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m47=function(e,s,r,gg){
+var z=gz$gwx_48()
+return r
+}
+e_[x[69]]={f:m47,j:[],i:[],ti:[],ic:[]}
+d_[x[70]]={}
+var m48=function(e,s,r,gg){
+var z=gz$gwx_49()
+var cEE=e_[x[70]].i
+_ai(cEE,x[71],e_,x[70],1,1)
+var oFE=_v()
+_(r,oFE)
+cs.push("./pages/login/logintemp.wxml:template:2:6")
+var lGE=_oz(z,1,e,s,gg)
+var aHE=_gd(x[70],lGE,e_,d_)
+if(aHE){
+var tIE=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oFE.wxXCkey=3
+aHE(tIE,tIE,oFE,gg)
+gg.f=cur_globalf
+}
+else _w(lGE,x[70],2,18)
+cs.pop()
+cEE.pop()
+return r
+}
+e_[x[70]]={f:m48,j:[],i:[],ti:[x[71]],ic:[]}
+d_[x[72]]={}
+d_[x[72]]["19e2cfb2"]=function(e,s,r,gg){
+var z=gz$gwx_50()
+var b=x[72]+':19e2cfb2'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/chat.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[70]);return}
+if(p_[b]){_wl(b,x[72]);return}
 p_[b]=true
 try{
 cs.push("./pages/message/chat.vue.wxml:view:1:142")
@@ -3557,7 +3743,7 @@ var xC=_v()
 _(oB,xC)
 cs.push("./pages/message/chat.vue.wxml:template:1:171")
 var oD=_oz(z,6,e,s,gg)
-var fE=_gd(x[70],oD,e_,d_)
+var fE=_gd(x[72],oD,e_,d_)
 if(fE){
 var cF=_1z(z,3,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3565,13 +3751,13 @@ xC.wxXCkey=3
 fE(cF,cF,xC,gg)
 gg.f=cur_globalf
 }
-else _w(oD,x[70],1,327)
+else _w(oD,x[72],1,327)
 cs.pop()
 var hG=_v()
 _(oB,hG)
 cs.push("./pages/message/chat.vue.wxml:template:1:350")
 var oH=_oz(z,13,e,s,gg)
-var cI=_gd(x[70],oH,e_,d_)
+var cI=_gd(x[72],oH,e_,d_)
 if(cI){
 var oJ=_1z(z,10,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3579,7 +3765,7 @@ hG.wxXCkey=3
 cI(oJ,oJ,hG,gg)
 gg.f=cur_globalf
 }
-else _w(oH,x[70],1,564)
+else _w(oH,x[72],1,564)
 cs.pop()
 cs.pop()
 _(r,oB)
@@ -3590,46 +3776,46 @@ throw err
 p_[b]=false
 return r
 }
-var m47=function(e,s,r,gg){
-var z=gz$gwx_48()
-var cBE=e_[x[70]].i
-_ai(cBE,x[71],e_,x[70],1,1)
-_ai(cBE,x[72],e_,x[70],1,57)
-cBE.pop()
-cBE.pop()
+var m49=function(e,s,r,gg){
+var z=gz$gwx_50()
+var bKE=e_[x[72]].i
+_ai(bKE,x[73],e_,x[72],1,1)
+_ai(bKE,x[74],e_,x[72],1,57)
+bKE.pop()
+bKE.pop()
 return r
 }
-e_[x[70]]={f:m47,j:[],i:[],ti:[x[71],x[72]],ic:[]}
-d_[x[73]]={}
-var m48=function(e,s,r,gg){
-var z=gz$gwx_49()
-var oDE=e_[x[73]].i
-_ai(oDE,x[74],e_,x[73],1,1)
-var cEE=_v()
-_(r,cEE)
+e_[x[72]]={f:m49,j:[],i:[],ti:[x[73],x[74]],ic:[]}
+d_[x[75]]={}
+var m50=function(e,s,r,gg){
+var z=gz$gwx_51()
+var xME=e_[x[75]].i
+_ai(xME,x[76],e_,x[75],1,1)
+var oNE=_v()
+_(r,oNE)
 cs.push("./pages/message/chat.wxml:template:2:6")
-var oFE=_oz(z,1,e,s,gg)
-var lGE=_gd(x[73],oFE,e_,d_)
-if(lGE){
-var aHE=_1z(z,0,e,s,gg) || {}
+var fOE=_oz(z,1,e,s,gg)
+var cPE=_gd(x[75],fOE,e_,d_)
+if(cPE){
+var hQE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-cEE.wxXCkey=3
-lGE(aHE,aHE,cEE,gg)
+oNE.wxXCkey=3
+cPE(hQE,hQE,oNE,gg)
 gg.f=cur_globalf
 }
-else _w(oFE,x[73],2,18)
+else _w(fOE,x[75],2,18)
 cs.pop()
-oDE.pop()
+xME.pop()
 return r
 }
-e_[x[73]]={f:m48,j:[],i:[],ti:[x[74]],ic:[]}
-d_[x[75]]={}
-d_[x[75]]["478ad650"]=function(e,s,r,gg){
-var z=gz$gwx_50()
-var b=x[75]+':478ad650'
+e_[x[75]]={f:m50,j:[],i:[],ti:[x[76]],ic:[]}
+d_[x[77]]={}
+d_[x[77]]["478ad650"]=function(e,s,r,gg){
+var z=gz$gwx_52()
+var b=x[77]+':478ad650'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/message/message.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[75]);return}
+if(p_[b]){_wl(b,x[77]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3663,48 +3849,48 @@ throw err
 p_[b]=false
 return r
 }
-var m49=function(e,s,r,gg){
-var z=gz$gwx_50()
+var m51=function(e,s,r,gg){
+var z=gz$gwx_52()
 return r
 }
-e_[x[75]]={f:m49,j:[],i:[],ti:[],ic:[]}
-d_[x[76]]={}
-var m50=function(e,s,r,gg){
-var z=gz$gwx_51()
-var bKE=e_[x[76]].i
-_ai(bKE,x[77],e_,x[76],1,1)
-var oLE=_v()
-_(r,oLE)
+e_[x[77]]={f:m51,j:[],i:[],ti:[],ic:[]}
+d_[x[78]]={}
+var m52=function(e,s,r,gg){
+var z=gz$gwx_53()
+var oTE=e_[x[78]].i
+_ai(oTE,x[79],e_,x[78],1,1)
+var lUE=_v()
+_(r,lUE)
 cs.push("./pages/message/message.wxml:template:2:6")
-var xME=_oz(z,1,e,s,gg)
-var oNE=_gd(x[76],xME,e_,d_)
-if(oNE){
-var fOE=_1z(z,0,e,s,gg) || {}
+var aVE=_oz(z,1,e,s,gg)
+var tWE=_gd(x[78],aVE,e_,d_)
+if(tWE){
+var eXE=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oLE.wxXCkey=3
-oNE(fOE,fOE,oLE,gg)
+lUE.wxXCkey=3
+tWE(eXE,eXE,lUE,gg)
 gg.f=cur_globalf
 }
-else _w(xME,x[76],2,18)
+else _w(aVE,x[78],2,18)
 cs.pop()
-bKE.pop()
+oTE.pop()
 return r
 }
-e_[x[76]]={f:m50,j:[],i:[],ti:[x[77]],ic:[]}
-d_[x[78]]={}
-d_[x[78]]["f1e46e06"]=function(e,s,r,gg){
-var z=gz$gwx_52()
-var b=x[78]+':f1e46e06'
+e_[x[78]]={f:m52,j:[],i:[],ti:[x[79]],ic:[]}
+d_[x[80]]={}
+d_[x[80]]["f1e46e06"]=function(e,s,r,gg){
+var z=gz$gwx_54()
+var b=x[80]+':f1e46e06'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/address/address.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[78]);return}
+if(p_[b]){_wl(b,x[80]);return}
 p_[b]=true
 try{
 var oB=_v()
 _(r,oB)
 cs.push("./pages/my/address/address.vue.wxml:template:1:1675")
 var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[78],xC,e_,d_)
+var oD=_gd(x[80],xC,e_,d_)
 if(oD){
 var fE=_1z(z,2,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -3712,7 +3898,7 @@ oB.wxXCkey=3
 oD(fE,fE,oB,gg)
 gg.f=cur_globalf
 }
-else _w(xC,x[78],1,1871)
+else _w(xC,x[80],1,1871)
 cs.pop()
 }catch(err){
 p_[b]=false
@@ -3721,44 +3907,44 @@ throw err
 p_[b]=false
 return r
 }
-var m51=function(e,s,r,gg){
-var z=gz$gwx_52()
-var hQE=e_[x[78]].i
-_ai(hQE,x[79],e_,x[78],1,1)
-hQE.pop()
+var m53=function(e,s,r,gg){
+var z=gz$gwx_54()
+var oZE=e_[x[80]].i
+_ai(oZE,x[81],e_,x[80],1,1)
+oZE.pop()
 return r
 }
-e_[x[78]]={f:m51,j:[],i:[],ti:[x[79]],ic:[]}
-d_[x[80]]={}
-var m52=function(e,s,r,gg){
-var z=gz$gwx_53()
-var cSE=e_[x[80]].i
-_ai(cSE,x[81],e_,x[80],1,1)
-var oTE=_v()
-_(r,oTE)
+e_[x[80]]={f:m53,j:[],i:[],ti:[x[81]],ic:[]}
+d_[x[82]]={}
+var m54=function(e,s,r,gg){
+var z=gz$gwx_55()
+var o2E=e_[x[82]].i
+_ai(o2E,x[83],e_,x[82],1,1)
+var f3E=_v()
+_(r,f3E)
 cs.push("./pages/my/address/address.wxml:template:2:6")
-var lUE=_oz(z,1,e,s,gg)
-var aVE=_gd(x[80],lUE,e_,d_)
-if(aVE){
-var tWE=_1z(z,0,e,s,gg) || {}
+var c4E=_oz(z,1,e,s,gg)
+var h5E=_gd(x[82],c4E,e_,d_)
+if(h5E){
+var o6E=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oTE.wxXCkey=3
-aVE(tWE,tWE,oTE,gg)
+f3E.wxXCkey=3
+h5E(o6E,o6E,f3E,gg)
 gg.f=cur_globalf
 }
-else _w(lUE,x[80],2,18)
+else _w(c4E,x[82],2,18)
 cs.pop()
-cSE.pop()
+o2E.pop()
 return r
 }
-e_[x[80]]={f:m52,j:[],i:[],ti:[x[81]],ic:[]}
-d_[x[82]]={}
-d_[x[82]]["4b0199ca"]=function(e,s,r,gg){
-var z=gz$gwx_54()
-var b=x[82]+':4b0199ca'
+e_[x[82]]={f:m54,j:[],i:[],ti:[x[83]],ic:[]}
+d_[x[84]]={}
+d_[x[84]]["4b0199ca"]=function(e,s,r,gg){
+var z=gz$gwx_56()
+var b=x[84]+':4b0199ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/classify.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[82]);return}
+if(p_[b]){_wl(b,x[84]);return}
 p_[b]=true
 try{
 cs.push("./pages/my/market/classify.vue.wxml:view:1:27")
@@ -3796,101 +3982,43 @@ throw err
 p_[b]=false
 return r
 }
-var m53=function(e,s,r,gg){
-var z=gz$gwx_54()
-return r
-}
-e_[x[82]]={f:m53,j:[],i:[],ti:[],ic:[]}
-d_[x[83]]={}
-var m54=function(e,s,r,gg){
-var z=gz$gwx_55()
-var oZE=e_[x[83]].i
-_ai(oZE,x[84],e_,x[83],1,1)
-var x1E=_v()
-_(r,x1E)
-cs.push("./pages/my/market/classify.wxml:template:2:6")
-var o2E=_oz(z,1,e,s,gg)
-var f3E=_gd(x[83],o2E,e_,d_)
-if(f3E){
-var c4E=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-x1E.wxXCkey=3
-f3E(c4E,c4E,x1E,gg)
-gg.f=cur_globalf
-}
-else _w(o2E,x[83],2,18)
-cs.pop()
-oZE.pop()
-return r
-}
-e_[x[83]]={f:m54,j:[],i:[],ti:[x[84]],ic:[]}
-d_[x[85]]={}
-d_[x[85]]["5712dbfa"]=function(e,s,r,gg){
-var z=gz$gwx_56()
-var b=x[85]+':5712dbfa'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/goods/edit.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[85]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m55=function(e,s,r,gg){
 var z=gz$gwx_56()
 return r
 }
-e_[x[85]]={f:m55,j:[],i:[],ti:[],ic:[]}
-d_[x[86]]={}
+e_[x[84]]={f:m55,j:[],i:[],ti:[],ic:[]}
+d_[x[85]]={}
 var m56=function(e,s,r,gg){
 var z=gz$gwx_57()
-var c7E=e_[x[86]].i
-_ai(c7E,x[87],e_,x[86],1,1)
-var o8E=_v()
-_(r,o8E)
-cs.push("./pages/my/market/goods/edit.wxml:template:2:6")
-var l9E=_oz(z,1,e,s,gg)
-var a0E=_gd(x[86],l9E,e_,d_)
-if(a0E){
-var tAF=_1z(z,0,e,s,gg) || {}
+var l9E=e_[x[85]].i
+_ai(l9E,x[86],e_,x[85],1,1)
+var a0E=_v()
+_(r,a0E)
+cs.push("./pages/my/market/classify.wxml:template:2:6")
+var tAF=_oz(z,1,e,s,gg)
+var eBF=_gd(x[85],tAF,e_,d_)
+if(eBF){
+var bCF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o8E.wxXCkey=3
-a0E(tAF,tAF,o8E,gg)
+a0E.wxXCkey=3
+eBF(bCF,bCF,a0E,gg)
 gg.f=cur_globalf
 }
-else _w(l9E,x[86],2,18)
+else _w(tAF,x[85],2,18)
 cs.pop()
-c7E.pop()
+l9E.pop()
 return r
 }
-e_[x[86]]={f:m56,j:[],i:[],ti:[x[87]],ic:[]}
-d_[x[88]]={}
-d_[x[88]]["e8f50e3c"]=function(e,s,r,gg){
+e_[x[85]]={f:m56,j:[],i:[],ti:[x[86]],ic:[]}
+d_[x[87]]={}
+d_[x[87]]["5712dbfa"]=function(e,s,r,gg){
 var z=gz$gwx_58()
-var b=x[88]+':e8f50e3c'
+var b=x[87]+':5712dbfa'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/goods/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[88]);return}
+gg.f=$gdc(f_["./pages/my/market/goods/edit.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[87]);return}
 p_[b]=true
 try{
-var oB=_v()
-_(r,oB)
-cs.push("./pages/my/market/goods/index.vue.wxml:template:1:2294")
-var xC=_oz(z,5,e,s,gg)
-var oD=_gd(x[88],xC,e_,d_)
-if(oD){
-var fE=_1z(z,2,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[88],1,2470)
-cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -3900,42 +4028,100 @@ return r
 }
 var m57=function(e,s,r,gg){
 var z=gz$gwx_58()
-var bCF=e_[x[88]].i
-_ai(bCF,x[16],e_,x[88],1,1)
-bCF.pop()
 return r
 }
-e_[x[88]]={f:m57,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[89]]={}
+e_[x[87]]={f:m57,j:[],i:[],ti:[],ic:[]}
+d_[x[88]]={}
 var m58=function(e,s,r,gg){
 var z=gz$gwx_59()
-var xEF=e_[x[89]].i
-_ai(xEF,x[39],e_,x[89],1,1)
-var oFF=_v()
-_(r,oFF)
-cs.push("./pages/my/market/goods/index.wxml:template:2:6")
-var fGF=_oz(z,1,e,s,gg)
-var cHF=_gd(x[89],fGF,e_,d_)
-if(cHF){
-var hIF=_1z(z,0,e,s,gg) || {}
+var oFF=e_[x[88]].i
+_ai(oFF,x[89],e_,x[88],1,1)
+var fGF=_v()
+_(r,fGF)
+cs.push("./pages/my/market/goods/edit.wxml:template:2:6")
+var cHF=_oz(z,1,e,s,gg)
+var hIF=_gd(x[88],cHF,e_,d_)
+if(hIF){
+var oJF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oFF.wxXCkey=3
-cHF(hIF,hIF,oFF,gg)
+fGF.wxXCkey=3
+hIF(oJF,oJF,fGF,gg)
 gg.f=cur_globalf
 }
-else _w(fGF,x[89],2,18)
+else _w(cHF,x[88],2,18)
 cs.pop()
-xEF.pop()
+oFF.pop()
 return r
 }
-e_[x[89]]={f:m58,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[88]]={f:m58,j:[],i:[],ti:[x[89]],ic:[]}
 d_[x[90]]={}
-d_[x[90]]["1f2120ca"]=function(e,s,r,gg){
+d_[x[90]]["e8f50e3c"]=function(e,s,r,gg){
 var z=gz$gwx_60()
-var b=x[90]+':1f2120ca'
+var b=x[90]+':e8f50e3c'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/my/market/goods/index.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[90]);return}
+p_[b]=true
+try{
+var oB=_v()
+_(r,oB)
+cs.push("./pages/my/market/goods/index.vue.wxml:template:1:2294")
+var xC=_oz(z,5,e,s,gg)
+var oD=_gd(x[90],xC,e_,d_)
+if(oD){
+var fE=_1z(z,2,e,s,gg) || {}
+var cur_globalf=gg.f
+oB.wxXCkey=3
+oD(fE,fE,oB,gg)
+gg.f=cur_globalf
+}
+else _w(xC,x[90],1,2470)
+cs.pop()
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m59=function(e,s,r,gg){
+var z=gz$gwx_60()
+var oLF=e_[x[90]].i
+_ai(oLF,x[16],e_,x[90],1,1)
+oLF.pop()
+return r
+}
+e_[x[90]]={f:m59,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[91]]={}
+var m60=function(e,s,r,gg){
+var z=gz$gwx_61()
+var aNF=e_[x[91]].i
+_ai(aNF,x[41],e_,x[91],1,1)
+var tOF=_v()
+_(r,tOF)
+cs.push("./pages/my/market/goods/index.wxml:template:2:6")
+var ePF=_oz(z,1,e,s,gg)
+var bQF=_gd(x[91],ePF,e_,d_)
+if(bQF){
+var oRF=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+tOF.wxXCkey=3
+bQF(oRF,oRF,tOF,gg)
+gg.f=cur_globalf
+}
+else _w(ePF,x[91],2,18)
+cs.pop()
+aNF.pop()
+return r
+}
+e_[x[91]]={f:m60,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[92]]={}
+d_[x[92]]["1f2120ca"]=function(e,s,r,gg){
+var z=gz$gwx_62()
+var b=x[92]+':1f2120ca'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/my/market/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[90]);return}
+if(p_[b]){_wl(b,x[92]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -3952,50 +4138,6 @@ throw err
 p_[b]=false
 return r
 }
-var m59=function(e,s,r,gg){
-var z=gz$gwx_60()
-return r
-}
-e_[x[90]]={f:m59,j:[],i:[],ti:[],ic:[]}
-d_[x[91]]={}
-var m60=function(e,s,r,gg){
-var z=gz$gwx_61()
-var oLF=e_[x[91]].i
-_ai(oLF,x[39],e_,x[91],1,1)
-var lMF=_v()
-_(r,lMF)
-cs.push("./pages/my/market/index.wxml:template:2:6")
-var aNF=_oz(z,1,e,s,gg)
-var tOF=_gd(x[91],aNF,e_,d_)
-if(tOF){
-var ePF=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-lMF.wxXCkey=3
-tOF(ePF,ePF,lMF,gg)
-gg.f=cur_globalf
-}
-else _w(aNF,x[91],2,18)
-cs.pop()
-oLF.pop()
-return r
-}
-e_[x[91]]={f:m60,j:[],i:[],ti:[x[39]],ic:[]}
-d_[x[92]]={}
-d_[x[92]]["239f2fbc"]=function(e,s,r,gg){
-var z=gz$gwx_62()
-var b=x[92]+':239f2fbc'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[92]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m61=function(e,s,r,gg){
 var z=gz$gwx_62()
 return r
@@ -4004,49 +4146,35 @@ e_[x[92]]={f:m61,j:[],i:[],ti:[],ic:[]}
 d_[x[93]]={}
 var m62=function(e,s,r,gg){
 var z=gz$gwx_63()
-var xSF=e_[x[93]].i
-_ai(xSF,x[94],e_,x[93],1,1)
-var oTF=_v()
-_(r,oTF)
-cs.push("./pages/my/market/manage.wxml:template:2:6")
-var fUF=_oz(z,1,e,s,gg)
-var cVF=_gd(x[93],fUF,e_,d_)
-if(cVF){
-var hWF=_1z(z,0,e,s,gg) || {}
+var fUF=e_[x[93]].i
+_ai(fUF,x[41],e_,x[93],1,1)
+var cVF=_v()
+_(r,cVF)
+cs.push("./pages/my/market/index.wxml:template:2:6")
+var hWF=_oz(z,1,e,s,gg)
+var oXF=_gd(x[93],hWF,e_,d_)
+if(oXF){
+var cYF=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oTF.wxXCkey=3
-cVF(hWF,hWF,oTF,gg)
+cVF.wxXCkey=3
+oXF(cYF,cYF,cVF,gg)
 gg.f=cur_globalf
 }
-else _w(fUF,x[93],2,18)
+else _w(hWF,x[93],2,18)
 cs.pop()
-xSF.pop()
+fUF.pop()
 return r
 }
-e_[x[93]]={f:m62,j:[],i:[],ti:[x[94]],ic:[]}
-d_[x[95]]={}
-d_[x[95]]["72b36996"]=function(e,s,r,gg){
+e_[x[93]]={f:m62,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[94]]={}
+d_[x[94]]["239f2fbc"]=function(e,s,r,gg){
 var z=gz$gwx_64()
-var b=x[95]+':72b36996'
+var b=x[94]+':239f2fbc'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[95]);return}
+gg.f=$gdc(f_["./pages/my/market/manage.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[94]);return}
 p_[b]=true
 try{
-var oB=_v()
-_(r,oB)
-cs.push("./pages/my/market/order/list.vue.wxml:template:1:1878")
-var xC=_oz(z,2,e,s,gg)
-var oD=_gd(x[95],xC,e_,d_)
-if(oD){
-var fE=_1z(z,1,e,s,gg) || {}
-var cur_globalf=gg.f
-oB.wxXCkey=3
-oD(fE,fE,oB,gg)
-gg.f=cur_globalf
-}
-else _w(xC,x[95],1,1949)
-cs.pop()
 }catch(err){
 p_[b]=false
 throw err
@@ -4056,44 +4184,87 @@ return r
 }
 var m63=function(e,s,r,gg){
 var z=gz$gwx_64()
-var cYF=e_[x[95]].i
-_ai(cYF,x[36],e_,x[95],1,1)
-cYF.pop()
 return r
 }
-e_[x[95]]={f:m63,j:[],i:[],ti:[x[36]],ic:[]}
-d_[x[96]]={}
+e_[x[94]]={f:m63,j:[],i:[],ti:[],ic:[]}
+d_[x[95]]={}
 var m64=function(e,s,r,gg){
 var z=gz$gwx_65()
-var l1F=e_[x[96]].i
-_ai(l1F,x[97],e_,x[96],1,1)
-var a2F=_v()
-_(r,a2F)
-cs.push("./pages/my/market/order/list.wxml:template:2:6")
-var t3F=_oz(z,1,e,s,gg)
-var e4F=_gd(x[96],t3F,e_,d_)
-if(e4F){
-var b5F=_1z(z,0,e,s,gg) || {}
+var a2F=e_[x[95]].i
+_ai(a2F,x[96],e_,x[95],1,1)
+var t3F=_v()
+_(r,t3F)
+cs.push("./pages/my/market/manage.wxml:template:2:6")
+var e4F=_oz(z,1,e,s,gg)
+var b5F=_gd(x[95],e4F,e_,d_)
+if(b5F){
+var o6F=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-a2F.wxXCkey=3
-e4F(b5F,b5F,a2F,gg)
+t3F.wxXCkey=3
+b5F(o6F,o6F,t3F,gg)
 gg.f=cur_globalf
 }
-else _w(t3F,x[96],2,18)
+else _w(e4F,x[95],2,18)
 cs.pop()
-l1F.pop()
+a2F.pop()
 return r
 }
-e_[x[96]]={f:m64,j:[],i:[],ti:[x[97]],ic:[]}
-d_[x[98]]={}
-d_[x[98]]["undefined"]=function(e,s,r,gg){
+e_[x[95]]={f:m64,j:[],i:[],ti:[x[96]],ic:[]}
+d_[x[97]]={}
+d_[x[97]]["72b36996"]=function(e,s,r,gg){
 var z=gz$gwx_66()
-var b=x[98]+':undefined'
+var b=x[97]+':72b36996'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/order/orderdetail.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[98]);return}
+gg.f=$gdc(f_["./pages/my/market/order/list.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[97]);return}
 p_[b]=true
 try{
+cs.push("./pages/my/market/order/list.vue.wxml:view:1:85")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+var xC=_v()
+_(oB,xC)
+if(_oz(z,2,e,s,gg)){xC.wxVkey=1
+cs.push("./pages/my/market/order/list.vue.wxml:view:1:575")
+cs.pop()
+}
+else{xC.wxVkey=2
+cs.push("./pages/my/market/order/list.vue.wxml:view:1:713")
+var oD=_v()
+_(xC,oD)
+cs.push("./pages/my/market/order/list.vue.wxml:view:1:776")
+var fE=function(hG,cF,oH,gg){
+var oJ=_v()
+_(oH,oJ)
+if(_oz(z,7,hG,cF,gg)){oJ.wxVkey=1
+cs.push("./pages/my/market/order/list.vue.wxml:view:1:1641")
+cs.pop()
+}
+oJ.wxXCkey=1
+return oH
+}
+oD.wxXCkey=2
+_2z(z,5,fE,e,s,gg,oD,'order','index','index')
+cs.pop()
+cs.pop()
+}
+var lK=_v()
+_(oB,lK)
+cs.push("./pages/my/market/order/list.vue.wxml:template:1:1831")
+var aL=_oz(z,9,e,s,gg)
+var tM=_gd(x[97],aL,e_,d_)
+if(tM){
+var eN=_1z(z,8,e,s,gg) || {}
+var cur_globalf=gg.f
+lK.wxXCkey=3
+tM(eN,eN,lK,gg)
+gg.f=cur_globalf
+}
+else _w(aL,x[97],1,1902)
+cs.pop()
+xC.wxXCkey=1
+cs.pop()
+_(r,oB)
 }catch(err){
 p_[b]=false
 throw err
@@ -4103,39 +4274,42 @@ return r
 }
 var m65=function(e,s,r,gg){
 var z=gz$gwx_66()
-return r
-}
-e_[x[98]]={f:m65,j:[],i:[],ti:[],ic:[]}
-d_[x[99]]={}
-var m66=function(e,s,r,gg){
-var z=gz$gwx_67()
-var o8F=e_[x[99]].i
-_ai(o8F,x[100],e_,x[99],1,1)
-var f9F=_v()
-_(r,f9F)
-cs.push("./pages/my/market/order/orderdetail.wxml:template:2:6")
-var c0F=_oz(z,1,e,s,gg)
-var hAG=_gd(x[99],c0F,e_,d_)
-if(hAG){
-var oBG=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-f9F.wxXCkey=3
-hAG(oBG,oBG,f9F,gg)
-gg.f=cur_globalf
-}
-else _w(c0F,x[99],2,18)
-cs.pop()
+var o8F=e_[x[97]].i
+_ai(o8F,x[32],e_,x[97],1,1)
 o8F.pop()
 return r
 }
-e_[x[99]]={f:m66,j:[],i:[],ti:[x[100]],ic:[]}
-d_[x[101]]={}
-d_[x[101]]["37614887"]=function(e,s,r,gg){
+e_[x[97]]={f:m65,j:[],i:[],ti:[x[32]],ic:[]}
+d_[x[98]]={}
+var m66=function(e,s,r,gg){
+var z=gz$gwx_67()
+var c0F=e_[x[98]].i
+_ai(c0F,x[99],e_,x[98],1,1)
+var hAG=_v()
+_(r,hAG)
+cs.push("./pages/my/market/order/list.wxml:template:2:6")
+var oBG=_oz(z,1,e,s,gg)
+var cCG=_gd(x[98],oBG,e_,d_)
+if(cCG){
+var oDG=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+hAG.wxXCkey=3
+cCG(oDG,oDG,hAG,gg)
+gg.f=cur_globalf
+}
+else _w(oBG,x[98],2,18)
+cs.pop()
+c0F.pop()
+return r
+}
+e_[x[98]]={f:m66,j:[],i:[],ti:[x[99]],ic:[]}
+d_[x[100]]={}
+d_[x[100]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_68()
-var b=x[101]+':37614887'
+var b=x[100]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[101]);return}
+gg.f=$gdc(f_["./pages/my/market/order/orderdetail.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[100]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4149,37 +4323,37 @@ var m67=function(e,s,r,gg){
 var z=gz$gwx_68()
 return r
 }
-e_[x[101]]={f:m67,j:[],i:[],ti:[],ic:[]}
-d_[x[102]]={}
+e_[x[100]]={f:m67,j:[],i:[],ti:[],ic:[]}
+d_[x[101]]={}
 var m68=function(e,s,r,gg){
 var z=gz$gwx_69()
-var lEG=e_[x[102]].i
-_ai(lEG,x[103],e_,x[102],1,1)
-var aFG=_v()
-_(r,aFG)
-cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
-var tGG=_oz(z,1,e,s,gg)
-var eHG=_gd(x[102],tGG,e_,d_)
-if(eHG){
-var bIG=_1z(z,0,e,s,gg) || {}
+var tGG=e_[x[101]].i
+_ai(tGG,x[102],e_,x[101],1,1)
+var eHG=_v()
+_(r,eHG)
+cs.push("./pages/my/market/order/orderdetail.wxml:template:2:6")
+var bIG=_oz(z,1,e,s,gg)
+var oJG=_gd(x[101],bIG,e_,d_)
+if(oJG){
+var xKG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aFG.wxXCkey=3
-eHG(bIG,bIG,aFG,gg)
+eHG.wxXCkey=3
+oJG(xKG,xKG,eHG,gg)
 gg.f=cur_globalf
 }
-else _w(tGG,x[102],2,18)
+else _w(bIG,x[101],2,18)
 cs.pop()
-lEG.pop()
+tGG.pop()
 return r
 }
-e_[x[102]]={f:m68,j:[],i:[],ti:[x[103]],ic:[]}
-d_[x[104]]={}
-d_[x[104]]["16bca1bb"]=function(e,s,r,gg){
+e_[x[101]]={f:m68,j:[],i:[],ti:[x[102]],ic:[]}
+d_[x[103]]={}
+d_[x[103]]["37614887"]=function(e,s,r,gg){
 var z=gz$gwx_70()
-var b=x[104]+':16bca1bb'
+var b=x[103]+':37614887'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[104]);return}
+gg.f=$gdc(f_["./pages/my/market/regMarketInfo.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[103]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4193,37 +4367,37 @@ var m69=function(e,s,r,gg){
 var z=gz$gwx_70()
 return r
 }
-e_[x[104]]={f:m69,j:[],i:[],ti:[],ic:[]}
-d_[x[105]]={}
+e_[x[103]]={f:m69,j:[],i:[],ti:[],ic:[]}
+d_[x[104]]={}
 var m70=function(e,s,r,gg){
 var z=gz$gwx_71()
-var oLG=e_[x[105]].i
-_ai(oLG,x[106],e_,x[105],1,1)
-var fMG=_v()
-_(r,fMG)
-cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
-var cNG=_oz(z,1,e,s,gg)
-var hOG=_gd(x[105],cNG,e_,d_)
-if(hOG){
-var oPG=_1z(z,0,e,s,gg) || {}
+var cNG=e_[x[104]].i
+_ai(cNG,x[105],e_,x[104],1,1)
+var hOG=_v()
+_(r,hOG)
+cs.push("./pages/my/market/regMarketInfo.wxml:template:2:6")
+var oPG=_oz(z,1,e,s,gg)
+var cQG=_gd(x[104],oPG,e_,d_)
+if(cQG){
+var oRG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fMG.wxXCkey=3
-hOG(oPG,oPG,fMG,gg)
+hOG.wxXCkey=3
+cQG(oRG,oRG,hOG,gg)
 gg.f=cur_globalf
 }
-else _w(cNG,x[105],2,18)
+else _w(oPG,x[104],2,18)
 cs.pop()
-oLG.pop()
+cNG.pop()
 return r
 }
-e_[x[105]]={f:m70,j:[],i:[],ti:[x[106]],ic:[]}
-d_[x[107]]={}
-d_[x[107]]["57791b08"]=function(e,s,r,gg){
+e_[x[104]]={f:m70,j:[],i:[],ti:[x[105]],ic:[]}
+d_[x[106]]={}
+d_[x[106]]["16bca1bb"]=function(e,s,r,gg){
 var z=gz$gwx_72()
-var b=x[107]+':57791b08'
+var b=x[106]+':16bca1bb'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[107]);return}
+gg.f=$gdc(f_["./pages/my/market/verifyIdCard.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[106]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4237,37 +4411,37 @@ var m71=function(e,s,r,gg){
 var z=gz$gwx_72()
 return r
 }
-e_[x[107]]={f:m71,j:[],i:[],ti:[],ic:[]}
-d_[x[108]]={}
+e_[x[106]]={f:m71,j:[],i:[],ti:[],ic:[]}
+d_[x[107]]={}
 var m72=function(e,s,r,gg){
 var z=gz$gwx_73()
-var lSG=e_[x[108]].i
-_ai(lSG,x[109],e_,x[108],1,1)
-var aTG=_v()
-_(r,aTG)
-cs.push("./pages/my/my.wxml:template:2:6")
-var tUG=_oz(z,1,e,s,gg)
-var eVG=_gd(x[108],tUG,e_,d_)
-if(eVG){
-var bWG=_1z(z,0,e,s,gg) || {}
+var tUG=e_[x[107]].i
+_ai(tUG,x[108],e_,x[107],1,1)
+var eVG=_v()
+_(r,eVG)
+cs.push("./pages/my/market/verifyIdCard.wxml:template:2:6")
+var bWG=_oz(z,1,e,s,gg)
+var oXG=_gd(x[107],bWG,e_,d_)
+if(oXG){
+var xYG=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aTG.wxXCkey=3
-eVG(bWG,bWG,aTG,gg)
+eVG.wxXCkey=3
+oXG(xYG,xYG,eVG,gg)
 gg.f=cur_globalf
 }
-else _w(tUG,x[108],2,18)
+else _w(bWG,x[107],2,18)
 cs.pop()
-lSG.pop()
+tUG.pop()
 return r
 }
-e_[x[108]]={f:m72,j:[],i:[],ti:[x[109]],ic:[]}
-d_[x[110]]={}
-d_[x[110]]["undefined"]=function(e,s,r,gg){
+e_[x[107]]={f:m72,j:[],i:[],ti:[x[108]],ic:[]}
+d_[x[109]]={}
+d_[x[109]]["57791b08"]=function(e,s,r,gg){
 var z=gz$gwx_74()
-var b=x[110]+':undefined'
+var b=x[109]+':57791b08'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[110]);return}
+gg.f=$gdc(f_["./pages/my/my.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[109]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4281,37 +4455,37 @@ var m73=function(e,s,r,gg){
 var z=gz$gwx_74()
 return r
 }
-e_[x[110]]={f:m73,j:[],i:[],ti:[],ic:[]}
-d_[x[111]]={}
+e_[x[109]]={f:m73,j:[],i:[],ti:[],ic:[]}
+d_[x[110]]={}
 var m74=function(e,s,r,gg){
 var z=gz$gwx_75()
-var oZG=e_[x[111]].i
-_ai(oZG,x[112],e_,x[111],1,1)
-var f1G=_v()
-_(r,f1G)
-cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
-var c2G=_oz(z,1,e,s,gg)
-var h3G=_gd(x[111],c2G,e_,d_)
-if(h3G){
-var o4G=_1z(z,0,e,s,gg) || {}
+var c2G=e_[x[110]].i
+_ai(c2G,x[111],e_,x[110],1,1)
+var h3G=_v()
+_(r,h3G)
+cs.push("./pages/my/my.wxml:template:2:6")
+var o4G=_oz(z,1,e,s,gg)
+var c5G=_gd(x[110],o4G,e_,d_)
+if(c5G){
+var o6G=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-f1G.wxXCkey=3
-h3G(o4G,o4G,f1G,gg)
+h3G.wxXCkey=3
+c5G(o6G,o6G,h3G,gg)
 gg.f=cur_globalf
 }
-else _w(c2G,x[111],2,18)
+else _w(o4G,x[110],2,18)
 cs.pop()
-oZG.pop()
+c2G.pop()
 return r
 }
-e_[x[111]]={f:m74,j:[],i:[],ti:[x[112]],ic:[]}
-d_[x[113]]={}
-d_[x[113]]["4f0b669f"]=function(e,s,r,gg){
+e_[x[110]]={f:m74,j:[],i:[],ti:[x[111]],ic:[]}
+d_[x[112]]={}
+d_[x[112]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_76()
-var b=x[113]+':4f0b669f'
+var b=x[112]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[113]);return}
+gg.f=$gdc(f_["./pages/my/parttime/companyverify.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[112]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4325,36 +4499,36 @@ var m75=function(e,s,r,gg){
 var z=gz$gwx_76()
 return r
 }
-e_[x[113]]={f:m75,j:[],i:[],ti:[],ic:[]}
-d_[x[114]]={}
+e_[x[112]]={f:m75,j:[],i:[],ti:[],ic:[]}
+d_[x[113]]={}
 var m76=function(e,s,r,gg){
 var z=gz$gwx_77()
-var l7G=e_[x[114]].i
-_ai(l7G,x[39],e_,x[114],1,1)
-var a8G=_v()
-_(r,a8G)
-cs.push("./pages/my/parttime/index.wxml:template:2:6")
-var t9G=_oz(z,1,e,s,gg)
-var e0G=_gd(x[114],t9G,e_,d_)
-if(e0G){
-var bAH=_1z(z,0,e,s,gg) || {}
+var t9G=e_[x[113]].i
+_ai(t9G,x[114],e_,x[113],1,1)
+var e0G=_v()
+_(r,e0G)
+cs.push("./pages/my/parttime/companyverify.wxml:template:2:6")
+var bAH=_oz(z,1,e,s,gg)
+var oBH=_gd(x[113],bAH,e_,d_)
+if(oBH){
+var xCH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-a8G.wxXCkey=3
-e0G(bAH,bAH,a8G,gg)
+e0G.wxXCkey=3
+oBH(xCH,xCH,e0G,gg)
 gg.f=cur_globalf
 }
-else _w(t9G,x[114],2,18)
+else _w(bAH,x[113],2,18)
 cs.pop()
-l7G.pop()
+t9G.pop()
 return r
 }
-e_[x[114]]={f:m76,j:[],i:[],ti:[x[39]],ic:[]}
+e_[x[113]]={f:m76,j:[],i:[],ti:[x[114]],ic:[]}
 d_[x[115]]={}
-d_[x[115]]["18c1c93e"]=function(e,s,r,gg){
+d_[x[115]]["4f0b669f"]=function(e,s,r,gg){
 var z=gz$gwx_78()
-var b=x[115]+':18c1c93e'
+var b=x[115]+':4f0b669f'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
+gg.f=$gdc(f_["./pages/my/parttime/index.vue.wxml"],"",1)
 if(p_[b]){_wl(b,x[115]);return}
 p_[b]=true
 try{
@@ -4373,33 +4547,33 @@ e_[x[115]]={f:m77,j:[],i:[],ti:[],ic:[]}
 d_[x[116]]={}
 var m78=function(e,s,r,gg){
 var z=gz$gwx_79()
-var oDH=e_[x[116]].i
-_ai(oDH,x[117],e_,x[116],1,1)
-var fEH=_v()
-_(r,fEH)
-cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
-var cFH=_oz(z,1,e,s,gg)
-var hGH=_gd(x[116],cFH,e_,d_)
-if(hGH){
-var oHH=_1z(z,0,e,s,gg) || {}
+var cFH=e_[x[116]].i
+_ai(cFH,x[41],e_,x[116],1,1)
+var hGH=_v()
+_(r,hGH)
+cs.push("./pages/my/parttime/index.wxml:template:2:6")
+var oHH=_oz(z,1,e,s,gg)
+var cIH=_gd(x[116],oHH,e_,d_)
+if(cIH){
+var oJH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fEH.wxXCkey=3
-hGH(oHH,oHH,fEH,gg)
+hGH.wxXCkey=3
+cIH(oJH,oJH,hGH,gg)
 gg.f=cur_globalf
 }
-else _w(cFH,x[116],2,18)
+else _w(oHH,x[116],2,18)
 cs.pop()
-oDH.pop()
+cFH.pop()
 return r
 }
-e_[x[116]]={f:m78,j:[],i:[],ti:[x[117]],ic:[]}
-d_[x[118]]={}
-d_[x[118]]["3e1261ab"]=function(e,s,r,gg){
+e_[x[116]]={f:m78,j:[],i:[],ti:[x[41]],ic:[]}
+d_[x[117]]={}
+d_[x[117]]["18c1c93e"]=function(e,s,r,gg){
 var z=gz$gwx_80()
-var b=x[118]+':3e1261ab'
+var b=x[117]+':18c1c93e'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[118]);return}
+gg.f=$gdc(f_["./pages/my/parttime/parttimereg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[117]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4413,37 +4587,37 @@ var m79=function(e,s,r,gg){
 var z=gz$gwx_80()
 return r
 }
-e_[x[118]]={f:m79,j:[],i:[],ti:[],ic:[]}
-d_[x[119]]={}
+e_[x[117]]={f:m79,j:[],i:[],ti:[],ic:[]}
+d_[x[118]]={}
 var m80=function(e,s,r,gg){
 var z=gz$gwx_81()
-var lKH=e_[x[119]].i
-_ai(lKH,x[120],e_,x[119],1,1)
-var aLH=_v()
-_(r,aLH)
-cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
-var tMH=_oz(z,1,e,s,gg)
-var eNH=_gd(x[119],tMH,e_,d_)
-if(eNH){
-var bOH=_1z(z,0,e,s,gg) || {}
+var tMH=e_[x[118]].i
+_ai(tMH,x[119],e_,x[118],1,1)
+var eNH=_v()
+_(r,eNH)
+cs.push("./pages/my/parttime/parttimereg.wxml:template:2:6")
+var bOH=_oz(z,1,e,s,gg)
+var oPH=_gd(x[118],bOH,e_,d_)
+if(oPH){
+var xQH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aLH.wxXCkey=3
-eNH(bOH,bOH,aLH,gg)
+eNH.wxXCkey=3
+oPH(xQH,xQH,eNH,gg)
 gg.f=cur_globalf
 }
-else _w(tMH,x[119],2,18)
+else _w(bOH,x[118],2,18)
 cs.pop()
-lKH.pop()
+tMH.pop()
 return r
 }
-e_[x[119]]={f:m80,j:[],i:[],ti:[x[120]],ic:[]}
-d_[x[121]]={}
-d_[x[121]]["undefined"]=function(e,s,r,gg){
+e_[x[118]]={f:m80,j:[],i:[],ti:[x[119]],ic:[]}
+d_[x[120]]={}
+d_[x[120]]["3e1261ab"]=function(e,s,r,gg){
 var z=gz$gwx_82()
-var b=x[121]+':undefined'
+var b=x[120]+':3e1261ab'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[121]);return}
+gg.f=$gdc(f_["./pages/my/parttime/protocol.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[120]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4457,37 +4631,37 @@ var m81=function(e,s,r,gg){
 var z=gz$gwx_82()
 return r
 }
-e_[x[121]]={f:m81,j:[],i:[],ti:[],ic:[]}
-d_[x[122]]={}
+e_[x[120]]={f:m81,j:[],i:[],ti:[],ic:[]}
+d_[x[121]]={}
 var m82=function(e,s,r,gg){
 var z=gz$gwx_83()
-var oRH=e_[x[122]].i
-_ai(oRH,x[123],e_,x[122],1,1)
-var fSH=_v()
-_(r,fSH)
-cs.push("./pages/my/setting/about.wxml:template:2:6")
-var cTH=_oz(z,1,e,s,gg)
-var hUH=_gd(x[122],cTH,e_,d_)
-if(hUH){
-var oVH=_1z(z,0,e,s,gg) || {}
+var cTH=e_[x[121]].i
+_ai(cTH,x[122],e_,x[121],1,1)
+var hUH=_v()
+_(r,hUH)
+cs.push("./pages/my/parttime/protocol.wxml:template:2:6")
+var oVH=_oz(z,1,e,s,gg)
+var cWH=_gd(x[121],oVH,e_,d_)
+if(cWH){
+var oXH=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-fSH.wxXCkey=3
-hUH(oVH,oVH,fSH,gg)
+hUH.wxXCkey=3
+cWH(oXH,oXH,hUH,gg)
 gg.f=cur_globalf
 }
-else _w(cTH,x[122],2,18)
+else _w(oVH,x[121],2,18)
 cs.pop()
-oRH.pop()
+cTH.pop()
 return r
 }
-e_[x[122]]={f:m82,j:[],i:[],ti:[x[123]],ic:[]}
-d_[x[124]]={}
-d_[x[124]]["07a291b5"]=function(e,s,r,gg){
+e_[x[121]]={f:m82,j:[],i:[],ti:[x[122]],ic:[]}
+d_[x[123]]={}
+d_[x[123]]["undefined"]=function(e,s,r,gg){
 var z=gz$gwx_84()
-var b=x[124]+':07a291b5'
+var b=x[123]+':undefined'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[124]);return}
+gg.f=$gdc(f_["./pages/my/setting/about.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[123]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4501,37 +4675,37 @@ var m83=function(e,s,r,gg){
 var z=gz$gwx_84()
 return r
 }
-e_[x[124]]={f:m83,j:[],i:[],ti:[],ic:[]}
-d_[x[125]]={}
+e_[x[123]]={f:m83,j:[],i:[],ti:[],ic:[]}
+d_[x[124]]={}
 var m84=function(e,s,r,gg){
 var z=gz$gwx_85()
-var lYH=e_[x[125]].i
-_ai(lYH,x[126],e_,x[125],1,1)
-var aZH=_v()
-_(r,aZH)
-cs.push("./pages/my/setting/setting.wxml:template:2:6")
-var t1H=_oz(z,1,e,s,gg)
-var e2H=_gd(x[125],t1H,e_,d_)
-if(e2H){
-var b3H=_1z(z,0,e,s,gg) || {}
+var t1H=e_[x[124]].i
+_ai(t1H,x[125],e_,x[124],1,1)
+var e2H=_v()
+_(r,e2H)
+cs.push("./pages/my/setting/about.wxml:template:2:6")
+var b3H=_oz(z,1,e,s,gg)
+var o4H=_gd(x[124],b3H,e_,d_)
+if(o4H){
+var x5H=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-aZH.wxXCkey=3
-e2H(b3H,b3H,aZH,gg)
+e2H.wxXCkey=3
+o4H(x5H,x5H,e2H,gg)
 gg.f=cur_globalf
 }
-else _w(t1H,x[125],2,18)
+else _w(b3H,x[124],2,18)
 cs.pop()
-lYH.pop()
+t1H.pop()
 return r
 }
-e_[x[125]]={f:m84,j:[],i:[],ti:[x[126]],ic:[]}
-d_[x[127]]={}
-d_[x[127]]["46effa22"]=function(e,s,r,gg){
+e_[x[124]]={f:m84,j:[],i:[],ti:[x[125]],ic:[]}
+d_[x[126]]={}
+d_[x[126]]["07a291b5"]=function(e,s,r,gg){
 var z=gz$gwx_86()
-var b=x[127]+':46effa22'
+var b=x[126]+':07a291b5'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[127]);return}
+gg.f=$gdc(f_["./pages/my/setting/setting.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[126]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4545,37 +4719,81 @@ var m85=function(e,s,r,gg){
 var z=gz$gwx_86()
 return r
 }
-e_[x[127]]={f:m85,j:[],i:[],ti:[],ic:[]}
-d_[x[128]]={}
+e_[x[126]]={f:m85,j:[],i:[],ti:[],ic:[]}
+d_[x[127]]={}
 var m86=function(e,s,r,gg){
 var z=gz$gwx_87()
-var o6H=e_[x[128]].i
-_ai(o6H,x[129],e_,x[128],1,1)
-var f7H=_v()
-_(r,f7H)
-cs.push("./pages/register/reg.wxml:template:2:6")
-var c8H=_oz(z,1,e,s,gg)
-var h9H=_gd(x[128],c8H,e_,d_)
-if(h9H){
-var o0H=_1z(z,0,e,s,gg) || {}
+var c8H=e_[x[127]].i
+_ai(c8H,x[128],e_,x[127],1,1)
+var h9H=_v()
+_(r,h9H)
+cs.push("./pages/my/setting/setting.wxml:template:2:6")
+var o0H=_oz(z,1,e,s,gg)
+var cAI=_gd(x[127],o0H,e_,d_)
+if(cAI){
+var oBI=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-f7H.wxXCkey=3
-h9H(o0H,o0H,f7H,gg)
+h9H.wxXCkey=3
+cAI(oBI,oBI,h9H,gg)
 gg.f=cur_globalf
 }
-else _w(c8H,x[128],2,18)
+else _w(o0H,x[127],2,18)
 cs.pop()
-o6H.pop()
+c8H.pop()
 return r
 }
-e_[x[128]]={f:m86,j:[],i:[],ti:[x[129]],ic:[]}
-d_[x[130]]={}
-d_[x[130]]["63b8fb95"]=function(e,s,r,gg){
+e_[x[127]]={f:m86,j:[],i:[],ti:[x[128]],ic:[]}
+d_[x[129]]={}
+d_[x[129]]["46effa22"]=function(e,s,r,gg){
 var z=gz$gwx_88()
-var b=x[130]+':63b8fb95'
+var b=x[129]+':46effa22'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/register/reg.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[129]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m87=function(e,s,r,gg){
+var z=gz$gwx_88()
+return r
+}
+e_[x[129]]={f:m87,j:[],i:[],ti:[],ic:[]}
+d_[x[130]]={}
+var m88=function(e,s,r,gg){
+var z=gz$gwx_89()
+var tEI=e_[x[130]].i
+_ai(tEI,x[131],e_,x[130],1,1)
+var eFI=_v()
+_(r,eFI)
+cs.push("./pages/register/reg.wxml:template:2:6")
+var bGI=_oz(z,1,e,s,gg)
+var oHI=_gd(x[130],bGI,e_,d_)
+if(oHI){
+var xII=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+eFI.wxXCkey=3
+oHI(xII,xII,eFI,gg)
+gg.f=cur_globalf
+}
+else _w(bGI,x[130],2,18)
+cs.pop()
+tEI.pop()
+return r
+}
+e_[x[130]]={f:m88,j:[],i:[],ti:[x[131]],ic:[]}
+d_[x[132]]={}
+d_[x[132]]["63b8fb95"]=function(e,s,r,gg){
+var z=gz$gwx_90()
+var b=x[132]+':63b8fb95'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/register/selectSchool.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[130]);return}
+if(p_[b]){_wl(b,x[132]);return}
 p_[b]=true
 try{
 cs.push("./pages/register/selectSchool.vue.wxml:view:1:71")
@@ -4591,7 +4809,7 @@ var oD=_v()
 _(oB,oD)
 cs.push("./pages/register/selectSchool.vue.wxml:template:1:1993")
 var fE=_oz(z,7,e,s,gg)
-var cF=_gd(x[130],fE,e_,d_)
+var cF=_gd(x[132],fE,e_,d_)
 if(cF){
 var hG=_1z(z,4,e,s,gg) || {}
 var cur_globalf=gg.f
@@ -4599,7 +4817,7 @@ oD.wxXCkey=3
 cF(hG,hG,oD,gg)
 gg.f=cur_globalf
 }
-else _w(fE,x[130],1,2169)
+else _w(fE,x[132],1,2169)
 cs.pop()
 xC.wxXCkey=1
 cs.pop()
@@ -4611,88 +4829,44 @@ throw err
 p_[b]=false
 return r
 }
-var m87=function(e,s,r,gg){
-var z=gz$gwx_88()
-var oBI=e_[x[130]].i
-_ai(oBI,x[16],e_,x[130],1,1)
-oBI.pop()
-return r
-}
-e_[x[130]]={f:m87,j:[],i:[],ti:[x[16]],ic:[]}
-d_[x[131]]={}
-var m88=function(e,s,r,gg){
-var z=gz$gwx_89()
-var aDI=e_[x[131]].i
-_ai(aDI,x[132],e_,x[131],1,1)
-var tEI=_v()
-_(r,tEI)
-cs.push("./pages/register/selectSchool.wxml:template:2:6")
-var eFI=_oz(z,1,e,s,gg)
-var bGI=_gd(x[131],eFI,e_,d_)
-if(bGI){
-var oHI=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-tEI.wxXCkey=3
-bGI(oHI,oHI,tEI,gg)
-gg.f=cur_globalf
-}
-else _w(eFI,x[131],2,18)
-cs.pop()
-aDI.pop()
-return r
-}
-e_[x[131]]={f:m88,j:[],i:[],ti:[x[132]],ic:[]}
-d_[x[133]]={}
-d_[x[133]]["56941036"]=function(e,s,r,gg){
-var z=gz$gwx_90()
-var b=x[133]+':56941036'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[133]);return}
-p_[b]=true
-try{
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
 var m89=function(e,s,r,gg){
 var z=gz$gwx_90()
-return r
-}
-e_[x[133]]={f:m89,j:[],i:[],ti:[],ic:[]}
-d_[x[134]]={}
-var m90=function(e,s,r,gg){
-var z=gz$gwx_91()
-var fKI=e_[x[134]].i
-_ai(fKI,x[135],e_,x[134],1,1)
-var cLI=_v()
-_(r,cLI)
-cs.push("./pages/register/selectSex.wxml:template:2:6")
-var hMI=_oz(z,1,e,s,gg)
-var oNI=_gd(x[134],hMI,e_,d_)
-if(oNI){
-var cOI=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-cLI.wxXCkey=3
-oNI(cOI,cOI,cLI,gg)
-gg.f=cur_globalf
-}
-else _w(hMI,x[134],2,18)
-cs.pop()
+var fKI=e_[x[132]].i
+_ai(fKI,x[16],e_,x[132],1,1)
 fKI.pop()
 return r
 }
-e_[x[134]]={f:m90,j:[],i:[],ti:[x[135]],ic:[]}
-d_[x[136]]={}
-d_[x[136]]["3f7cf276"]=function(e,s,r,gg){
+e_[x[132]]={f:m89,j:[],i:[],ti:[x[16]],ic:[]}
+d_[x[133]]={}
+var m90=function(e,s,r,gg){
+var z=gz$gwx_91()
+var hMI=e_[x[133]].i
+_ai(hMI,x[134],e_,x[133],1,1)
+var oNI=_v()
+_(r,oNI)
+cs.push("./pages/register/selectSchool.wxml:template:2:6")
+var cOI=_oz(z,1,e,s,gg)
+var oPI=_gd(x[133],cOI,e_,d_)
+if(oPI){
+var lQI=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oNI.wxXCkey=3
+oPI(lQI,lQI,oNI,gg)
+gg.f=cur_globalf
+}
+else _w(cOI,x[133],2,18)
+cs.pop()
+hMI.pop()
+return r
+}
+e_[x[133]]={f:m90,j:[],i:[],ti:[x[134]],ic:[]}
+d_[x[135]]={}
+d_[x[135]]["56941036"]=function(e,s,r,gg){
 var z=gz$gwx_92()
-var b=x[136]+':3f7cf276'
+var b=x[135]+':56941036'
 r.wxVkey=b
-gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[136]);return}
+gg.f=$gdc(f_["./pages/register/selectSex.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[135]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4706,37 +4880,37 @@ var m91=function(e,s,r,gg){
 var z=gz$gwx_92()
 return r
 }
-e_[x[136]]={f:m91,j:[],i:[],ti:[],ic:[]}
-d_[x[137]]={}
+e_[x[135]]={f:m91,j:[],i:[],ti:[],ic:[]}
+d_[x[136]]={}
 var m92=function(e,s,r,gg){
 var z=gz$gwx_93()
-var aRI=e_[x[137]].i
-_ai(aRI,x[138],e_,x[137],1,1)
-var tSI=_v()
-_(r,tSI)
-cs.push("./pages/register/setAvatar.wxml:template:2:6")
-var eTI=_oz(z,1,e,s,gg)
-var bUI=_gd(x[137],eTI,e_,d_)
-if(bUI){
-var oVI=_1z(z,0,e,s,gg) || {}
+var eTI=e_[x[136]].i
+_ai(eTI,x[137],e_,x[136],1,1)
+var bUI=_v()
+_(r,bUI)
+cs.push("./pages/register/selectSex.wxml:template:2:6")
+var oVI=_oz(z,1,e,s,gg)
+var xWI=_gd(x[136],oVI,e_,d_)
+if(xWI){
+var oXI=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-tSI.wxXCkey=3
-bUI(oVI,oVI,tSI,gg)
+bUI.wxXCkey=3
+xWI(oXI,oXI,bUI,gg)
 gg.f=cur_globalf
 }
-else _w(eTI,x[137],2,18)
+else _w(oVI,x[136],2,18)
 cs.pop()
-aRI.pop()
+eTI.pop()
 return r
 }
-e_[x[137]]={f:m92,j:[],i:[],ti:[x[138]],ic:[]}
-d_[x[139]]={}
-d_[x[139]]["3b7db4a5"]=function(e,s,r,gg){
+e_[x[136]]={f:m92,j:[],i:[],ti:[x[137]],ic:[]}
+d_[x[138]]={}
+d_[x[138]]["3f7cf276"]=function(e,s,r,gg){
 var z=gz$gwx_94()
-var b=x[139]+':3b7db4a5'
+var b=x[138]+':3f7cf276'
 r.wxVkey=b
-gg.f=$gdc(f_["./threeComponents/mpvueCityPicker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[139]);return}
+gg.f=$gdc(f_["./pages/register/setAvatar.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[138]);return}
 p_[b]=true
 try{
 }catch(err){
@@ -4750,14 +4924,58 @@ var m93=function(e,s,r,gg){
 var z=gz$gwx_94()
 return r
 }
-e_[x[139]]={f:m93,j:[],i:[],ti:[],ic:[]}
-d_[x[140]]={}
-d_[x[140]]["56ff715a"]=function(e,s,r,gg){
+e_[x[138]]={f:m93,j:[],i:[],ti:[],ic:[]}
+d_[x[139]]={}
+var m94=function(e,s,r,gg){
 var z=gz$gwx_95()
-var b=x[140]+':56ff715a'
+var h1I=e_[x[139]].i
+_ai(h1I,x[140],e_,x[139],1,1)
+var o2I=_v()
+_(r,o2I)
+cs.push("./pages/register/setAvatar.wxml:template:2:6")
+var c3I=_oz(z,1,e,s,gg)
+var o4I=_gd(x[139],c3I,e_,d_)
+if(o4I){
+var l5I=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+o2I.wxXCkey=3
+o4I(l5I,l5I,o2I,gg)
+gg.f=cur_globalf
+}
+else _w(c3I,x[139],2,18)
+cs.pop()
+h1I.pop()
+return r
+}
+e_[x[139]]={f:m94,j:[],i:[],ti:[x[140]],ic:[]}
+d_[x[141]]={}
+d_[x[141]]["3b7db4a5"]=function(e,s,r,gg){
+var z=gz$gwx_96()
+var b=x[141]+':3b7db4a5'
+r.wxVkey=b
+gg.f=$gdc(f_["./threeComponents/mpvueCityPicker.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[141]);return}
+p_[b]=true
+try{
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m95=function(e,s,r,gg){
+var z=gz$gwx_96()
+return r
+}
+e_[x[141]]={f:m95,j:[],i:[],ti:[],ic:[]}
+d_[x[142]]={}
+d_[x[142]]["56ff715a"]=function(e,s,r,gg){
+var z=gz$gwx_97()
+var b=x[142]+':56ff715a'
 r.wxVkey=b
 gg.f=$gdc(f_["./threeComponents/mpvuePicker.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[140]);return}
+if(p_[b]){_wl(b,x[142]);return}
 p_[b]=true
 try{
 cs.push("./threeComponents/mpvuePicker.vue.wxml:view:1:239")
@@ -4807,11 +5025,11 @@ throw err
 p_[b]=false
 return r
 }
-var m94=function(e,s,r,gg){
-var z=gz$gwx_95()
+var m96=function(e,s,r,gg){
+var z=gz$gwx_97()
 return r
 }
-e_[x[140]]={f:m94,j:[],i:[],ti:[],ic:[]}
+e_[x[142]]={f:m96,j:[],i:[],ti:[],ic:[]}
 if(path&&e_[path]){
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
 var main=e_[path].f
@@ -4832,7 +5050,7 @@ return root;
 
 
 
-__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/market/payresult","pages/index/parttime/index","pages/index/parttime/details","pages/login/login","pages/login/logintemp","pages/login/binding","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/message/message","pages/my/my","pages/my/address/address","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/order/orderdetail","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"发现","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.3"};
+__wxAppCode__['app.json']={"pages":["pages/index/index","pages/index/confession/index","pages/index/confession/publish","pages/index/confession/detail","pages/index/market/index","pages/index/market/market","pages/index/market/checkstand","pages/index/market/payresult","pages/index/parttime/index","pages/index/parttime/details","pages/login/login","pages/login/logintemp","pages/login/binding","pages/register/reg","pages/register/selectSex","pages/register/selectSchool","pages/register/setAvatar","pages/common/search","pages/common/checkSchool","pages/common/comment","pages/common/update","pages/hot/hot","pages/hot/detail","pages/message/message","pages/my/my","pages/my/address/address","pages/my/market/index","pages/my/market/regMarketInfo","pages/my/market/verifyIdCard","pages/my/market/manage","pages/my/market/order/list","pages/my/market/order/orderdetail","pages/my/market/classify","pages/my/market/goods/index","pages/my/market/goods/edit","pages/my/parttime/index","pages/my/parttime/parttimereg","pages/my/parttime/protocol","pages/my/parttime/companyverify","pages/my/setting/setting","pages/my/setting/about","pages/message/chat"],"subPackages":[],"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#F8F8F8","backgroundColor":"#F8F8F8"},"usingComponents":{},"tabBar":{"color":"#5F646E","selectedColor":"#ff6364","list":[{"pagePath":"pages/index/index","text":"首页","iconPath":"static/icon/home.png","selectedIconPath":"static/icon/home_selsect.png"},{"pagePath":"pages/hot/hot","text":"热点","iconPath":"static/icon/hot.png","selectedIconPath":"static/icon/hot_selsect.png"},{"pagePath":"pages/message/message","text":"消息","iconPath":"static/icon/message.png","selectedIconPath":"static/icon/message_select.png"},{"pagePath":"pages/my/my","text":"我的","iconPath":"static/icon/my.png","selectedIconPath":"static/icon/my_select.png"}]},"splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"appname":"TOP校园","compilerVersion":"1.9.3"};
 __wxAppCode__['app.wxml']=$gwx('./app.wxml');
 
 __wxAppCode__['pages/common/checkSchool.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","titleNView":{"searchInput":{"autoFocus":true,"disabled":false,"align":"left","backgroundColor":"#FFFFFF","borderRadius":"15px","placeholder":"输入学校名称搜索"}}};
@@ -4847,7 +5065,10 @@ __wxAppCode__['pages/common/search.wxml']=$gwx('./pages/common/search.wxml');
 __wxAppCode__['pages/common/update.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"检查更新"};
 __wxAppCode__['pages/common/update.wxml']=$gwx('./pages/common/update.wxml');
 
-__wxAppCode__['pages/hot/hot.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"热点"};
+__wxAppCode__['pages/hot/detail.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"新闻详情"};
+__wxAppCode__['pages/hot/detail.wxml']=$gwx('./pages/hot/detail.wxml');
+
+__wxAppCode__['pages/hot/hot.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"热点","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true}};
 __wxAppCode__['pages/hot/hot.wxml']=$gwx('./pages/hot/hot.wxml');
 
 __wxAppCode__['pages/index/confession/detail.json']={"usingComponents":{},"navigationBarTextStyle":"white","navigationBarBackgroundColor":"#fc4243","navigationBarTitleText":"详情","enablePullDownRefresh":true,"pullToRefresh":{"style":"default","support":true},"titleNView":{"buttons":[{"type":"share","float":"right"}]}};
@@ -5055,7 +5276,7 @@ eval("__webpack_require__(/*! uni-pages */ \"../../../development/unitopschool/p
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"../../../development/unitopschool/global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false, //是否登录\n      id: 0,\n      openId: '',\n      type: -1, //第三方登录类型\n      token: '', //token\n      phone: '', //手机号\n      avatar: '', //头像\n      password: '', //密码\n      userName: '', //昵称\n      sex: 0, //性别\n      merchant: 0 //是否商家\n    },\n    addressInfo: { //地址信息\n      name: null,\n      phone: null,\n      city: null,\n      adress: null },\n\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: '../../../static/logo.png',\n      name: \"to源哥\",\n      msg: '你是肥蛇吗？',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: '../../../static/logo.png',\n      name: \"to蛇皮\",\n      msg: '源哥最帅',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: '../../../static/logo.png',\n      name: \"狸猫\",\n      msg: '怎么说呢',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      189: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] } },\n\n\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.openId = payload.user.openId;\n      state.user.token = payload.token;\n\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n      state.user.merchant = payload.user.merchant;\n      state.user.openId = payload.user.openId;\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n\n      state.addressInfo = payload.addressInfo; //同步地址信息\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    setOpenId: function setOpenId(state, playload) {\n      state.user.openId = playload.openId;\n      state.user.type = playload.type;\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    changeAddressInfo: function changeAddressInfo(state, addressInfo) {\n      state.addressInfo = addressInfo;\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n      state.addressInfo = uni.getStorageSync('addressInfo');\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n        console.log(JSON.stringify(state.historyMsg));\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({\n          index: 2 });\n\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?c9cd");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));\nvar _vuex = _interopRequireDefault(__webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\"));\nvar _global = _interopRequireDefault(__webpack_require__(/*! ../global */ \"../../../development/unitopschool/global.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };} //引用全局变量文件\n_vue.default.use(_vuex.default);\n\nvar store = new _vuex.default.Store({\n  state: {\n    user: {\n      hasLogin: false, //是否登录\n      id: 0,\n      openId: '',\n      type: -1, //第三方登录类型\n      token: '', //token\n      phone: '', //手机号\n      avatar: '', //头像\n      password: '', //密码\n      userName: '', //昵称\n      sex: 0, //性别\n      merchant: 0 //是否商家\n    },\n    addressInfo: { //地址信息\n      name: null,\n      phone: null,\n      city: null,\n      adress: null },\n\n    school: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    selectSchool: {\n      id: '11853391869743621792',\n      title: '',\n      addr: '' },\n\n    msgList: [{\n      id: 69,\n      to_id: 67,\n      avatar: 'https://apii.ym998.cn//static/avatar/5cc1c5c2312b7.jpg',\n      name: \"源哥\",\n      msg: '人生在世，及时行乐',\n      status: \"未读\",\n      unread: 1 },\n    {\n      id: 67,\n      to_id: 69,\n      avatar: 'http://thirdqq.qlogo.cn/g?b=oidb&k=MnkDBng1YxwnmSsDgy1nyw&s=140',\n      name: \"蛇皮\",\n      msg: '还有聊天功能啊，不错不错',\n      status: \"未读\",\n      unread: 1 },\n\n    {\n      id: 111,\n      to_id: 70,\n      avatar: 'https://apii.ym998.cn//static/avatar/5cbe9e3c2e0dd.jpg',\n      name: \"狸猫\",\n      msg: 'TOP校园真好用啊！',\n      status: \"未读\",\n      unread: 1 }],\n\n\n    unreadCount: 3,\n    historyMsg: {\n      67: [{\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' },\n      {\n        id: 100,\n        name: \"历史\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"源哥最帅\",\n        date: '2018 01-01 00:00' }],\n\n      189: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"历史消息演示文本内容...\",\n        date: '2018 01-01 00:00' }],\n\n      70: [{\n        id: 100,\n        name: \"to蛇皮\",\n        face: \"https://staticimgs.oss-cn-beijing.aliyuncs.com/glogo.png\",\n        ctype: 1,\n        msg: \"怎么说呢\",\n        date: '2018 01-01 00:00' }] } },\n\n\n\n  mutations: {\n    regSetPhoneAndPass: function regSetPhoneAndPass(state, payload) {\n      state.user.phone = payload.phone;\n      state.user.password = payload.password;\n    },\n    regSetSex: function regSetSex(state, sex) {\n      state.user.sex = sex;\n    },\n    regSetSchool: function regSetSchool(state, school) {\n      state.school = school;\n      state.selectSchool = school;\n    },\n    regSetAvatar: function regSetAvatar(state, avatar) {\n      state.user.avatar = avatar;\n    },\n    regSetUserName: function regSetUserName(state, userName) {\n      state.user.userName = userName;\n    },\n    regAfterLogin: function regAfterLogin(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n\n      state.user.openId = payload.user.openId;\n      state.user.token = payload.token;\n\n      state.user.password = ''; //为了安全置空密码\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    login: function login(state, payload) {\n      state.user.id = payload.user.user_id;\n      state.user.phone = payload.user.phone;\n      state.user.sex = payload.user.sex;\n      state.user.userName = payload.user.user_name;\n      state.user.avatar = payload.user.avatar;\n      state.user.merchant = payload.user.merchant;\n      state.user.openId = payload.user.openId;\n      state.user.token = payload.token;\n\n      state.school = payload.school;\n      state.selectSchool = state.school; //登陆后选择的学校默认是自己的学校\n\n      state.addressInfo = payload.addressInfo; //同步地址信息\n      state.user.hasLogin = true;\n      this.commit('loginAfterSetStorage');\n    },\n    logOut: function logOut(state) {\n      state.hasLogin = false;\n      uni.clearStorage();\n    },\n    loginAfterSetStorage: function loginAfterSetStorage(state) {\n      uni.setStorage({\n        key: 'user',\n        data: state.user });\n\n      uni.setStorage({\n        key: 'school',\n        data: state.school });\n\n      uni.setStorage({\n        key: 'selectSchool',\n        data: state.selectSchool });\n\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    setOpenId: function setOpenId(state, playload) {\n      state.user.openId = playload.openId;\n      state.user.type = playload.type;\n    },\n    checkSchool: function checkSchool(state, payload) {\n      state.selectSchool = payload;\n      uni.setStorage({\n        key: 'selectSchool',\n        data: payload,\n        fail: function fail() {\n          uni.showModal({\n            title: '提示',\n            content: '学校切换失败！',\n            showCancel: false });\n\n        } });\n\n    },\n    changeAddressInfo: function changeAddressInfo(state, addressInfo) {\n      state.addressInfo = addressInfo;\n      uni.setStorage({\n        key: 'addressInfo',\n        data: state.addressInfo });\n\n    },\n    appOnLunch: function appOnLunch(state, user) {\n      state.user = user;\n      state.school = uni.getStorageSync('school');\n      state.selectSchool = uni.getStorageSync('selectSchool');\n      state.addressInfo = uni.getStorageSync('addressInfo');\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n      //暂时注释掉  个人详情开发完毕再搞\n      //state.msgList = uni.getStorageSync('msgList');\n      //state.historyMsg = uni.getStorageSync('historyMsg');\n    },\n    onMessage: function onMessage(state) {\n      var _self = this;\n      uni.onSocketOpen(function (res) {\n        console.log('WebSocket连接已打开！');\n        var initDate = {\n          ctype: 'init',\n          id: state.user.id };\n\n        uni.sendSocketMessage({\n          data: JSON.stringify(initDate) });\n\n        uni.onSocketMessage(function (res) {\n          _global.default.playMessage(); //播放通知音乐\n          var newMsg = JSON.parse(res.data); //消息json转换为对象\n          console.log(JSON.stringify(newMsg));\n          var payload = new Object(); //准备载荷\n          payload.newMsg = newMsg;\n          //准备消息列表的消息文本\n          var msgListText = '';\n          switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n            case 2:\n              msgListText = '[图片]';\n              break;\n            case 3:\n              msgListText = '[语音]';\n              break;\n            case 4:\n              msgListText = '[系统通知]';\n              break;\n            default:\n              msgListText = newMsg.msg;}\n\n          //准备消息列表对象\n          payload.msgObj = {\n            id: state.user.id,\n            to_id: newMsg.id,\n            avatar: newMsg.face,\n            name: newMsg.name,\n            msg: msgListText,\n            status: \"未读\",\n            unread: 1 };\n\n          _self.commit('addMsg', payload); //提交载荷到addMsg处理\n        });\n      });\n    },\n    addMsg: function addMsg(state, payload) {\n      var hasMsg = false; //检测消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id === payload.msgObj.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      if (hasMsg) {\n        state.historyMsg[payload.newMsg.id].push(payload.newMsg); //将消息放在历史记录\n        state.msgList[i].msg = payload.msgObj.msg; //更新消息列表消息内容\n        state.msgList[i].unread += 1; //未读数量+1\n      } else {\n        state.historyMsg[payload.newMsg.to_id] = []; //新建历史记录数组 索引为对方id\n        state.historyMsg[payload.newMsg.to_id].push(payload.newMsg); //将此信息添加进刚新建的历史记录\n        state.msgList.unshift(payload.msgObj); //将消息列表对象添加进消息列表，并且置顶\n        console.log(JSON.stringify(state.historyMsg));\n      }\n      uni.setTabBarBadge({\n        index: 2,\n        text: state.unreadCount.toString() });\n\n\n      this.commit('setMsgStorage');\n    },\n    sendMsg: function sendMsg(state, newMsg) {\n      uni.sendSocketMessage({\n        data: JSON.stringify(newMsg) });\n\n      var hasMsg = false; //消息列表是否有相同的人\n      for (var i = 0; i < state.msgList.length; i++) {\n        if (state.msgList[i].to_id == newMsg.to_id) {\n          hasMsg = true;\n          break;\n        }\n      }\n      //准备消息列表的消息文本\n      var msgListText = '';\n      switch (newMsg.ctype) {//根据newMsg.ctype转换为正确的消息列表的消息文本\n        case 2:\n          msgListText = '[图片]';\n          break;\n        case 3:\n          msgListText = '[语音]';\n          break;\n        case 4:\n          msgListText = '[系统通知]';\n          break;\n        default:\n          msgListText = newMsg.msg;}\n\n      if (hasMsg) {\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加历史记录\n        state.msgList[i].msg = msgListText; //更新消息列表消息文本\n      } else {\n        //创建消息列表对象\n        var msgListObj = {\n          id: state.user.id,\n          to_id: newMsg.id,\n          avatar: newMsg.face,\n          name: newMsg.name,\n          msg: msgListText,\n          status: \"已读\",\n          unread: 0 };\n\n        state.historyMsg[newMsg.to_id] = []; //创建聊天历史记录数组\n        state.historyMsg[newMsg.to_id].push(newMsg); //添加此条消息到历史记录\n        state.msgList.unshift(msgListObj); //将消息列表对象添加进消息列表，并且置顶\n      }\n      this.commit('setMsgStorage');\n    },\n    changeMsg: function changeMsg(state, index) {\n      //设置tabbar的小红点\n      state.unreadCount -= state.msgList[index].unread;\n      if (state.unreadCount !== 0) {\n        uni.setTabBarBadge({\n          index: 2,\n          text: state.unreadCount.toString() });\n\n      } else {\n        uni.removeTabBarBadge({\n          index: 2 });\n\n      }\n\n      state.msgList[index].unread = 0;\n      state.msgList[index].status = \"已读\";\n      this.commit('setMsgStorage');\n    },\n    delMsg: function delMsg(state, index) {\n      state.msgList.splice(index, 1);\n      this.commit('setMsgStorage');\n    },\n    setMsgStorage: function setMsgStorage(state) {//本地缓存消息列表和消息历史记录\n      uni.setStorage({\n        key: 'msgList',\n        data: state.msgList });\n\n      uni.setStorage({\n        key: 'historyMsg',\n        data: state.historyMsg });\n\n    } } });var _default =\n\n\n\nstore;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///store/index.js?c9cd");
 
 /***/ }),
 
@@ -5067,7 +5288,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n\n\n\n{\n  computed: (0, _vuex.mapState)(['msgList']),\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['appOnLunch', 'addMsg', 'onMessage'])),\n\n  onLaunch: function onLaunch() {\n    var user = uni.getStorageSync('user');\n    if (user.hasLogin === true) {\n      this.appOnLunch(user);\n      uni.connectSocket({\n        url: this.GLOBAL.serverChat });\n\n      this.onMessage();\n    }\n\n    var updated = uni.getStorageSync('updated'); // 尝试读取storage\n    if (updated.completed === true) {// 如果上次刚更新过\n      // 删除安装包及安装记录\n      uni.removeSavedFile({\n        filePath: updated.packgePath,\n        success: function success(res) {\n          uni.removeStorageSync('updated');\n        } });\n\n    }\n    // 检查更新，参数：{ 当前版本号，跳转到更新页面的url }\n    uni.showModal({\n      title: '提示',\n      content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',\n      showCancel: false });\n\n    this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update');\n\n  },\n  onShow: function onShow() {\n\n  },\n  onHide: function onHide() {\n    uni.connectSocket({\n      url: this.GLOBAL.serverChat });\n\n    this.onMessage();\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',\n      method: 'POST',\n      data: {\n        'msgList': this.msgList } });\n\n\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?7b87");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _objectSpread(target) {for (var i = 1; i < arguments.length; i++) {var source = arguments[i] != null ? arguments[i] : {};var ownKeys = Object.keys(source);if (typeof Object.getOwnPropertySymbols === 'function') {ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {return Object.getOwnPropertyDescriptor(source, sym).enumerable;}));}ownKeys.forEach(function (key) {_defineProperty(target, key, source[key]);});}return target;}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}var _default =\n\n\n\n{\n  computed: (0, _vuex.mapState)(['msgList']),\n  methods: _objectSpread({},\n  (0, _vuex.mapMutations)(['appOnLunch', 'addMsg', 'onMessage'])),\n\n  onLaunch: function onLaunch() {\n    var user = uni.getStorageSync('user');\n    if (user.hasLogin === true) {\n      this.appOnLunch(user);\n      uni.connectSocket({\n        url: this.GLOBAL.serverChat });\n\n      this.onMessage();\n    }\n\n    var updated = uni.getStorageSync('updated'); // 尝试读取storage\n    if (updated.completed === true) {// 如果上次刚更新过\n      // 删除安装包及安装记录\n      uni.removeSavedFile({\n        filePath: updated.packgePath,\n        success: function success(res) {\n          uni.removeStorageSync('updated');\n        } });\n\n    }\n    // 检查更新，参数：{ 当前版本号，跳转到更新页面的url }\n    // uni.showModal({\n    // \ttitle: '提示',\n    // \tcontent: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',\n    // \tshowCancel: false\n    // });\n    // this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update')\n\n  },\n  onShow: function onShow() {\n\n  },\n  onHide: function onHide() {\n    uni.connectSocket({\n      url: this.GLOBAL.serverChat });\n\n    this.onMessage();\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',\n      method: 'POST',\n      data: {\n        'msgList': this.msgList } });\n\n\n    console.log('App Hide');\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///App.vue?vue&type=script&lang=js&?7b87");
 
 /***/ }),
 
@@ -5079,7 +5300,7 @@ eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, 
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'http://123.151.6.113/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/login/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?de2e");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n//全局配置文件\nvar serverChat = 'ws://118.24.124.19:8282';\nvar serverSrc = 'https://apii.ym998.cn/'; //https://apii.ym998.cn/\nvar _default = {\n  serverSrc: serverSrc, //服务器地址\n  serverChat: serverChat,\n  requestFail: function requestFail(e) {\n    if (e.statusCode === 0) {\n      uni.showToast({\n        title: '网络错误, 请确保设备处在联网状态',\n        icon: 'none' });\n\n    } else {\n      uni.showToast({\n        title: '发生网络错误啦！错误码：' + e.statusCode,\n        icon: 'none' });\n\n    }\n  },\n  tokenFail: function tokenFail() {\n    uni.showToast({\n      title: '身份验证失效，请重新登录！',\n      icon: \"none\" });\n\n    uni.removeStorage({\n      key: 'user' });\n\n    uni.removeStorage({\n      key: 'market' });\n\n    uni.redirectTo({\n      url: '/pages/login/login' });\n\n  },\n  checkUpdater: function checkUpdater(currentId, updaterPage) {\n    uni.request({\n      url: serverSrc + 'common/check_update/update',\n      method: 'GET',\n      success: function success(res) {\n        if (res.statusCode === 200) {\n          if (currentId != res.data.version) {//检测到更新\n            uni.showModal({\n              title: '发现新版本',\n              content: '有新版本可用，请问您是否更新？',\n              success: function success(res) {\n                if (res.confirm) {\n                  uni.navigateTo({\n                    url: updaterPage });\n\n                }\n              } });\n\n          }\n        }\n      } });\n\n  },\n  playMessage: function playMessage() {\n    var innerAudioContext = uni.createInnerAudioContext();\n    innerAudioContext.autoplay = true;\n    innerAudioContext.src = this.serverSrc + 'static/music/message.mp3';\n    innerAudioContext.onPlay(function () {\n\n    });\n    innerAudioContext.onError(function (res) {\n      console.log(res.errMsg);\n      console.log(res.errCode);\n    });\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///global.vue?vue&type=script&lang=js&?de2e");
 
 /***/ }),
 
@@ -5374,6 +5595,18 @@ eval(" /**\r\n              数据验证（表单验证）\r\n              来�
 
 /***/ }),
 
+/***/ "../../../development/unitopschool/graceUI/jsTools/topshare.js":
+/*!***********************************************************************!*\
+  !*** E:/project/development/unitopschool/graceUI/jsTools/topshare.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _app = {\n  appUrl: 'https://www.ym998.cn', //app下载地址\n  goShare: function goShare(title, summary, url, imageUrl) {\n    if (url === false) {\n      url = this.appUrl;\n    }\n    if (imageUrl === false) {\n      imageUrl = \"https://icloud.9ykm.cn/app/logo1024.png\";\n    }\n    uni.showActionSheet({\n      itemList: ['微信', 'QQ'],\n      success: function success(res) {\n        switch (res.tapIndex) {\n          case 0:\n            uni.showActionSheet({\n              itemList: ['微信好友', '朋友圈', '微信收藏'],\n              success: function success(res) {\n                var scene;\n                switch (res.tapIndex) {\n                  case 0:\n                    scene = 'WXSceneSession';\n                    break;\n                  case 1:\n                    scene = 'WXSenceTimeline';\n                    break;\n                  case 2:\n                    scene = 'WXSceneFavorite';\n                    break;}\n\n                uni.share({\n                  provider: \"weixin\",\n                  scene: scene,\n                  type: 0,\n                  title: title,\n                  summary: summary,\n                  href: url,\n                  imageUrl: imageUrl,\n                  success: function success(res) {\n                    console.log(\"success:\" + JSON.stringify(res));\n                  },\n                  fail: function fail(err) {\n                    console.log(\"fail:\" + JSON.stringify(err));\n                  } });\n\n              } });\n\n            break;\n          case 1:\n            uni.share({\n              provider: \"qq\",\n              type: 2,\n              title: title,\n              summary: summary,\n              href: url,\n              imageUrl: imageUrl,\n              success: function success(res) {\n                console.log(\"success:\" + JSON.stringify(res));\n              },\n              fail: function fail(err) {\n                console.log(\"fail:\" + JSON.stringify(err));\n              } });\n\n            break;\n          case 2:\n            //此处留出微博的分享  还未实现\n            break;}\n\n      },\n      fail: function fail(res) {\n        console.log(res.errMsg);\n      } });\n\n  } };var _default =\n\n_app;exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///graceUI/jsTools/topshare.js?36ca");
+
+/***/ }),
+
 /***/ "../../../development/unitopschool/pages.json":
 /*!******************************************************!*\
   !*** E:/project/development/unitopschool/pages.json ***!
@@ -5394,7 +5627,7 @@ eval("\n\n//# sourceURL=E:/project/development/unitopschool/pages.json");
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.indexOf(key) !== -1) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar mocks = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nfunction initMocks(vm, mocks) {\n  var mpInstance = vm.$mp[vm.mpType];\n  mocks.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"NODE_ENV\":\"development\",\"VUE_APP_PLATFORM\":\"app-plus\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  if (!isPlainObject(data)) {\n    data = {};\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getBehaviors(vueOptions) {\n  var vueBehaviors = vueOptions['behaviors'];\n  var vueExtends = vueOptions['extends'];\n  var vueMixins = vueOptions['mixins'];\n\n  var vueProps = vueOptions['props'];\n\n  if (!vueProps) {\n    vueOptions['props'] = vueProps = [];\n  }\n\n  var behaviors = [];\n  if (Array.isArray(vueBehaviors)) {\n    vueBehaviors.forEach(function (behavior) {\n      behaviors.push(behavior.replace('uni://', \"wx\".concat(\"://\")));\n      if (behavior === 'uni://form-field') {\n        if (Array.isArray(vueProps)) {\n          vueProps.push('name');\n          vueProps.push('value');\n        } else {\n          vueProps['name'] = String;\n          vueProps['value'] = null;\n        }\n      }\n    });\n  }\n  if (isPlainObject(vueExtends) && vueExtends.props) {\n    behaviors.push(\n    Behavior({\n      properties: getProperties(vueExtends.props, true) }));\n\n\n  }\n  if (Array.isArray(vueMixins)) {\n    vueMixins.forEach(function (vueMixin) {\n      if (isPlainObject(vueMixin) && vueMixin.props) {\n        behaviors.push(\n        Behavior({\n          properties: getProperties(vueMixin.props, true) }));\n\n\n      }\n    });\n  }\n  return behaviors;\n}\n\nfunction parsePropType(key, type, defaultValue, file) {\n  // [String]=>String\n  if (Array.isArray(type) && type.length === 1) {\n    return type[0];\n  }\n  return type;\n}\n\nfunction getProperties(props) {var isBehavior = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;var file = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';\n  var properties = {};\n  if (!isBehavior) {\n    properties.vueSlots = { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } };\n\n  }\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n\n        opts.type = parsePropType(key, opts.type, value, file);\n\n        properties[key] = {\n          type: PROP_TYPES.indexOf(opts.type) !== -1 ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        var type = parsePropType(key, opts, null, file);\n        properties[key] = {\n          type: PROP_TYPES.indexOf(type) !== -1 ? type : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  // TODO 又得兼容 mpvue 的 mp 对象\n  try {\n    event.mp = JSON.parse(JSON.stringify(event));\n  } catch (e) {}\n\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra, event) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          if (dataPath === '$event') {// $event\n            extraObj['$' + index] = event;\n          } else if (dataPath.indexOf('$event.') === 0) {// $event.target.value\n            extraObj['$' + index] = vm.__get_value(dataPath.replace('$event.', ''), event);\n          } else {\n            extraObj['$' + index] = vm.__get_value(dataPath);\n          }\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction getObjByArray(arr) {\n  var obj = {};\n  for (var i = 1; i < arr.length; i++) {\n    var element = arr[i];\n    obj[element[0]] = element[1];\n  }\n  return obj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra, event);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (Array.isArray(arg) && arg[0] === 'o') {\n        ret.push(getObjByArray(arg));\n      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this, mocks);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var behaviors = getBehaviors(vueOptions);\n\n  var properties = getProperties(vueOptions.props, false, vueOptions.__file);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    behaviors: behaviors,\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
+eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.createApp = createApp;exports.createPage = createPage;exports.createComponent = createComponent;exports.default = void 0;var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue/index.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function _defineProperty(obj, key, value) {if (key in obj) {Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true });} else {obj[key] = value;}return obj;}\n\nvar _toString = Object.prototype.toString;\nvar hasOwnProperty = Object.prototype.hasOwnProperty;\n\nfunction isFn(fn) {\n  return typeof fn === 'function';\n}\n\nfunction isStr(str) {\n  return typeof str === 'string';\n}\n\nfunction isPlainObject(obj) {\n  return _toString.call(obj) === '[object Object]';\n}\n\nfunction hasOwn(obj, key) {\n  return hasOwnProperty.call(obj, key);\n}\n\nfunction noop() {}\n\n/**\r\n                    * Create a cached version of a pure function.\r\n                    */\nfunction cached(fn) {\n  var cache = Object.create(null);\n  return function cachedFn(str) {\n    var hit = cache[str];\n    return hit || (cache[str] = fn(str));\n  };\n}\n\n/**\r\n   * Camelize a hyphen-delimited string.\r\n   */\nvar camelizeRE = /-(\\w)/g;\nvar camelize = cached(function (str) {\n  return str.replace(camelizeRE, function (_, c) {return c ? c.toUpperCase() : '';});\n});\n\nvar SYNC_API_RE = /requireNativePlugin|upx2px|hideKeyboard|canIUse|^create|Sync$|Manager$/;\n\nvar CONTEXT_API_RE = /^create|Manager$/;\n\nvar CALLBACK_API_RE = /^on/;\n\nfunction isContextApi(name) {\n  return CONTEXT_API_RE.test(name);\n}\nfunction isSyncApi(name) {\n  return SYNC_API_RE.test(name);\n}\n\nfunction isCallbackApi(name) {\n  return CALLBACK_API_RE.test(name);\n}\n\nfunction handlePromise(promise) {\n  return promise.then(function (data) {\n    return [null, data];\n  }).\n  catch(function (err) {return [err];});\n}\n\nfunction shouldPromise(name) {\n  if (\n  isContextApi(name) ||\n  isSyncApi(name) ||\n  isCallbackApi(name))\n  {\n    return false;\n  }\n  return true;\n}\n\nfunction promisify(name, api) {\n  if (!shouldPromise(name)) {\n    return api;\n  }\n  return function promiseApi() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};for (var _len = arguments.length, params = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {params[_key - 1] = arguments[_key];}\n    if (isFn(options.success) || isFn(options.fail) || isFn(options.complete)) {\n      return api.apply(void 0, [options].concat(params));\n    }\n    return handlePromise(new Promise(function (resolve, reject) {\n      api.apply(void 0, [Object.assign({}, options, {\n        success: resolve,\n        fail: reject })].concat(\n      params));\n      /* eslint-disable no-extend-native */\n      Promise.prototype.finally = function (callback) {\n        var promise = this.constructor;\n        return this.then(\n        function (value) {return promise.resolve(callback()).then(function () {return value;});},\n        function (reason) {return promise.resolve(callback()).then(function () {\n            throw reason;\n          });});\n\n      };\n    }));\n  };\n}\n\nvar EPS = 1e-4;\nvar BASE_DEVICE_WIDTH = 750;\nvar isIOS = false;\nvar deviceWidth = 0;\nvar deviceDPR = 0;\n\nfunction checkDeviceWidth() {var _wx$getSystemInfoSync =\n\n\n\n\n  wx.getSystemInfoSync(),platform = _wx$getSystemInfoSync.platform,pixelRatio = _wx$getSystemInfoSync.pixelRatio,windowWidth = _wx$getSystemInfoSync.windowWidth; // uni=>wx runtime 编译目标是 uni 对象，内部不允许直接使用 uni\n\n  deviceWidth = windowWidth;\n  deviceDPR = pixelRatio;\n  isIOS = platform === 'ios';\n}\n\nfunction upx2px(number, newDeviceWidth) {\n  if (deviceWidth === 0) {\n    checkDeviceWidth();\n  }\n\n  number = Number(number);\n  if (number === 0) {\n    return 0;\n  }\n  var result = number / BASE_DEVICE_WIDTH * (newDeviceWidth || deviceWidth);\n  if (result < 0) {\n    result = -result;\n  }\n  result = Math.floor(result + EPS);\n  if (result === 0) {\n    if (deviceDPR === 1 || !isIOS) {\n      return 1;\n    } else {\n      return 0.5;\n    }\n  }\n  return number < 0 ? -result : result;\n}\n\nvar protocols = {};\n\nvar CALLBACKS = ['success', 'fail', 'cancel', 'complete'];\n\nfunction processCallback(methodName, method, returnValue) {\n  return function (res) {\n    return method(processReturnValue(methodName, res, returnValue));\n  };\n}\n\nfunction processArgs(methodName, fromArgs) {var argsOption = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};var returnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};var keepFromArgs = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;\n  if (isPlainObject(fromArgs)) {// 一般 api 的参数解析\n    var toArgs = keepFromArgs === true ? fromArgs : {}; // returnValue 为 false 时，说明是格式化返回值，直接在返回值对象上修改赋值\n    if (isFn(argsOption)) {\n      argsOption = argsOption(fromArgs, toArgs) || {};\n    }\n    for (var key in fromArgs) {\n      if (hasOwn(argsOption, key)) {\n        var keyOption = argsOption[key];\n        if (isFn(keyOption)) {\n          keyOption = keyOption(fromArgs[key], fromArgs, toArgs);\n        }\n        if (!keyOption) {// 不支持的参数\n          console.warn(\"app-plus \".concat(methodName, \"\\u6682\\u4E0D\\u652F\\u6301\").concat(key));\n        } else if (isStr(keyOption)) {// 重写参数 key\n          toArgs[keyOption] = fromArgs[key];\n        } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value\n          toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;\n        }\n      } else if (CALLBACKS.indexOf(key) !== -1) {\n        toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);\n      } else {\n        if (!keepFromArgs) {\n          toArgs[key] = fromArgs[key];\n        }\n      }\n    }\n    return toArgs;\n  } else if (isFn(fromArgs)) {\n    fromArgs = processCallback(methodName, fromArgs, returnValue);\n  }\n  return fromArgs;\n}\n\nfunction processReturnValue(methodName, res, returnValue) {var keepReturnValue = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;\n  if (isFn(protocols.returnValue)) {// 处理通用 returnValue\n    res = protocols.returnValue(methodName, res);\n  }\n  return processArgs(methodName, res, returnValue, {}, keepReturnValue);\n}\n\nfunction wrapper(methodName, method) {\n  if (hasOwn(protocols, methodName)) {\n    var protocol = protocols[methodName];\n    if (!protocol) {// 暂不支持的 api\n      return function () {\n        console.error(\"app-plus \\u6682\\u4E0D\\u652F\\u6301\".concat(methodName));\n      };\n    }\n    return function (arg1, arg2) {// 目前 api 最多两个参数\n      var options = protocol;\n      if (isFn(protocol)) {\n        options = protocol(arg1);\n      }\n\n      arg1 = processArgs(methodName, arg1, options.args, options.returnValue);\n\n      var returnValue = wx[options.name || methodName](arg1, arg2);\n      if (isSyncApi(methodName)) {// 同步 api\n        return processReturnValue(methodName, returnValue, options.returnValue, isContextApi(methodName));\n      }\n      return returnValue;\n    };\n  }\n  return method;\n}\n\nvar todoApis = Object.create(null);\n\nvar TODOS = [\n'subscribePush',\n'unsubscribePush',\n'onPush',\n'offPush',\n'share'];\n\n\nfunction createTodoApi(name) {\n  return function todoApi(_ref)\n\n\n  {var fail = _ref.fail,complete = _ref.complete;\n    var res = {\n      errMsg: \"\".concat(name, \":fail:\\u6682\\u4E0D\\u652F\\u6301 \").concat(name, \" \\u65B9\\u6CD5\") };\n\n    isFn(fail) && fail(res);\n    isFn(complete) && complete(res);\n  };\n}\n\nTODOS.forEach(function (name) {\n  todoApis[name] = createTodoApi(name);\n});\n\nfunction requireNativePlugin(pluginName) {\n  /* eslint-disable no-undef */\n  if (typeof weex !== 'undefined') {\n    return weex.requireModule(pluginName);\n  }\n  /* eslint-disable no-undef */\n  return __requireNativePlugin__(pluginName);\n}\n\nvar api = /*#__PURE__*/Object.freeze({\n  requireNativePlugin: requireNativePlugin });\n\n\nvar MPPage = Page;\nvar MPComponent = Component;\n\nvar customizeRE = /:/g;\n\nvar customize = cached(function (str) {\n  return camelize(str.replace(customizeRE, '-'));\n});\n\nfunction initTriggerEvent(mpInstance) {\n  {\n    if (!wx.canIUse('nextTick')) {\n      return;\n    }\n  }\n  var oldTriggerEvent = mpInstance.triggerEvent;\n  mpInstance.triggerEvent = function (event) {for (var _len2 = arguments.length, args = new Array(_len2 > 1 ? _len2 - 1 : 0), _key2 = 1; _key2 < _len2; _key2++) {args[_key2 - 1] = arguments[_key2];}\n    return oldTriggerEvent.apply(mpInstance, [customize(event)].concat(args));\n  };\n}\n\nPage = function Page() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  var name = 'onLoad';\n  var oldHook = options[name];\n  if (!oldHook) {\n    options[name] = function () {\n      initTriggerEvent(this);\n    };\n  } else {\n    options[name] = function () {\n      initTriggerEvent(this);for (var _len3 = arguments.length, args = new Array(_len3), _key3 = 0; _key3 < _len3; _key3++) {args[_key3] = arguments[_key3];}\n      return oldHook.apply(this, args);\n    };\n  }\n  return MPPage(options);\n};\n\nvar behavior = Behavior({\n  created: function created() {\n    initTriggerEvent(this);\n  } });\n\n\nComponent = function Component() {var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n  (options.behaviors || (options.behaviors = [])).unshift(behavior);\n  return MPComponent(options);\n};\n\nvar mocks = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];\n\nfunction triggerLink(mpInstance, vueOptions) {\n  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {\n    bubbles: true,\n    composed: true });\n\n}\n\nfunction handleLink(event) {\n  if (event.detail.$mp) {// vm\n    if (!event.detail.$parent) {\n      event.detail.$parent = this.$vm;\n      event.detail.$parent.$children.push(event.detail);\n\n      event.detail.$root = this.$vm.$root;\n    }\n  } else {// vueOptions\n    if (!event.detail.parent) {\n      event.detail.parent = this.$vm;\n    }\n  }\n}\n\nfunction initPage$1(pageOptions) {\n  initComponent$1(pageOptions);\n}\n\nfunction initComponent$1(componentOptions) {\n  componentOptions.methods.$getAppWebview = function () {\n    return plus.webview.getWebviewById(\"\".concat(this.__wxWebviewId__));\n  };\n}\n\nfunction initMocks(vm, mocks) {\n  var mpInstance = vm.$mp[vm.mpType];\n  mocks.forEach(function (mock) {\n    if (hasOwn(mpInstance, mock)) {\n      vm[mock] = mpInstance[mock];\n    }\n  });\n}\n\nfunction initHooks(mpOptions, hooks) {\n  hooks.forEach(function (hook) {\n    mpOptions[hook] = function (args) {\n      return this.$vm.__call_hook(hook, args);\n    };\n  });\n}\n\nfunction getData(vueOptions, context) {\n  var data = vueOptions.data || {};\n  var methods = vueOptions.methods || {};\n\n  if (typeof data === 'function') {\n    try {\n      data = data.call(context); // 支持 Vue.prototype 上挂的数据\n    } catch (e) {\n      if (Object({\"VUE_APP_PLATFORM\":\"app-plus\",\"NODE_ENV\":\"development\",\"BASE_URL\":\"/\"}).VUE_APP_DEBUG) {\n        console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);\n      }\n    }\n  } else {\n    try {\n      // 对 data 格式化\n      data = JSON.parse(JSON.stringify(data));\n    } catch (e) {}\n  }\n\n  if (!isPlainObject(data)) {\n    data = {};\n  }\n\n  Object.keys(methods).forEach(function (methodName) {\n    if (context.__lifecycle_hooks__.indexOf(methodName) === -1 && !hasOwn(data, methodName)) {\n      data[methodName] = methods[methodName];\n    }\n  });\n\n  return data;\n}\n\nvar PROP_TYPES = [String, Number, Boolean, Object, Array, null];\n\nfunction createObserver(name) {\n  return function observer(newVal, oldVal) {\n    if (this.$vm) {\n      this.$vm[name] = newVal; // 为了触发其他非 render watcher\n    }\n  };\n}\n\nfunction getBehaviors(vueOptions) {\n  var vueBehaviors = vueOptions['behaviors'];\n  var vueExtends = vueOptions['extends'];\n  var vueMixins = vueOptions['mixins'];\n\n  var vueProps = vueOptions['props'];\n\n  if (!vueProps) {\n    vueOptions['props'] = vueProps = [];\n  }\n\n  var behaviors = [];\n  if (Array.isArray(vueBehaviors)) {\n    vueBehaviors.forEach(function (behavior) {\n      behaviors.push(behavior.replace('uni://', \"wx\".concat(\"://\")));\n      if (behavior === 'uni://form-field') {\n        if (Array.isArray(vueProps)) {\n          vueProps.push('name');\n          vueProps.push('value');\n        } else {\n          vueProps['name'] = String;\n          vueProps['value'] = null;\n        }\n      }\n    });\n  }\n  if (isPlainObject(vueExtends) && vueExtends.props) {\n    behaviors.push(\n    Behavior({\n      properties: getProperties(vueExtends.props, true) }));\n\n\n  }\n  if (Array.isArray(vueMixins)) {\n    vueMixins.forEach(function (vueMixin) {\n      if (isPlainObject(vueMixin) && vueMixin.props) {\n        behaviors.push(\n        Behavior({\n          properties: getProperties(vueMixin.props, true) }));\n\n\n      }\n    });\n  }\n  return behaviors;\n}\n\nfunction parsePropType(key, type, defaultValue, file) {\n  // [String]=>String\n  if (Array.isArray(type) && type.length === 1) {\n    return type[0];\n  }\n  return type;\n}\n\nfunction getProperties(props) {var isBehavior = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;var file = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';\n  var properties = {};\n  if (!isBehavior) {\n    properties.vueSlots = { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots\n      type: null,\n      value: [],\n      observer: function observer(newVal, oldVal) {\n        var $slots = Object.create(null);\n        newVal.forEach(function (slotName) {\n          $slots[slotName] = true;\n        });\n        this.setData({\n          $slots: $slots });\n\n      } };\n\n  }\n  if (Array.isArray(props)) {// ['title']\n    props.forEach(function (key) {\n      properties[key] = {\n        type: null,\n        observer: createObserver(key) };\n\n    });\n  } else if (isPlainObject(props)) {// {title:{type:String,default:''},content:String}\n    Object.keys(props).forEach(function (key) {\n      var opts = props[key];\n      if (isPlainObject(opts)) {// title:{type:String,default:''}\n        var value = opts['default'];\n        if (isFn(value)) {\n          value = value();\n        }\n\n        opts.type = parsePropType(key, opts.type, value, file);\n\n        properties[key] = {\n          type: PROP_TYPES.indexOf(opts.type) !== -1 ? opts.type : null,\n          value: value,\n          observer: createObserver(key) };\n\n      } else {// content:String\n        var type = parsePropType(key, opts, null, file);\n        properties[key] = {\n          type: PROP_TYPES.indexOf(type) !== -1 ? type : null,\n          observer: createObserver(key) };\n\n      }\n    });\n  }\n  return properties;\n}\n\nfunction wrapper$1(event) {\n  // TODO 又得兼容 mpvue 的 mp 对象\n  try {\n    event.mp = JSON.parse(JSON.stringify(event));\n  } catch (e) {}\n\n  event.stopPropagation = noop;\n  event.preventDefault = noop;\n\n  event.target = event.target || {};\n\n  if (!hasOwn(event, 'detail')) {\n    event.detail = {};\n  }\n\n  if (isPlainObject(event.detail)) {\n    event.target = Object.assign({}, event.target, event.detail);\n  }\n\n  return event;\n}\n\nfunction getExtraValue(vm, dataPathsArray) {\n  var context = vm;\n  dataPathsArray.forEach(function (dataPathArray) {\n    var dataPath = dataPathArray[0];\n    var value = dataPathArray[2];\n    if (dataPath || typeof value !== 'undefined') {// ['','',index,'disable']\n      var propPath = dataPathArray[1];\n      var valuePath = dataPathArray[3];\n\n      var vFor = dataPath ? vm.__get_value(dataPath, context) : context;\n\n      if (Number.isInteger(vFor)) {\n        context = value;\n      } else if (!propPath) {\n        context = vFor[value];\n      } else {\n        if (Array.isArray(vFor)) {\n          context = vFor.find(function (vForItem) {\n            return vm.__get_value(propPath, vForItem) === value;\n          });\n        } else if (isPlainObject(vFor)) {\n          context = Object.keys(vFor).find(function (vForKey) {\n            return vm.__get_value(propPath, vFor[vForKey]) === value;\n          });\n        } else {\n          console.error('v-for 暂不支持循环数据：', vFor);\n        }\n      }\n\n      if (valuePath) {\n        context = vm.__get_value(valuePath, context);\n      }\n    }\n  });\n  return context;\n}\n\nfunction processEventExtra(vm, extra, event) {\n  var extraObj = {};\n\n  if (Array.isArray(extra) && extra.length) {\n    /**\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *[\r\n                                                  *    ['data.items', 'data.id', item.data.id],\r\n                                                  *    ['metas', 'id', meta.id]\r\n                                                  *],\r\n                                                  *'test'\r\n                                                  */\n    extra.forEach(function (dataPath, index) {\n      if (typeof dataPath === 'string') {\n        if (!dataPath) {// model,prop.sync\n          extraObj['$' + index] = vm;\n        } else {\n          if (dataPath === '$event') {// $event\n            extraObj['$' + index] = event;\n          } else if (dataPath.indexOf('$event.') === 0) {// $event.target.value\n            extraObj['$' + index] = vm.__get_value(dataPath.replace('$event.', ''), event);\n          } else {\n            extraObj['$' + index] = vm.__get_value(dataPath);\n          }\n        }\n      } else {\n        extraObj['$' + index] = getExtraValue(vm, dataPath);\n      }\n    });\n  }\n\n  return extraObj;\n}\n\nfunction getObjByArray(arr) {\n  var obj = {};\n  for (var i = 1; i < arr.length; i++) {\n    var element = arr[i];\n    obj[element[0]] = element[1];\n  }\n  return obj;\n}\n\nfunction processEventArgs(vm, event) {var args = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];var extra = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];var isCustom = arguments.length > 4 ? arguments[4] : undefined;var methodName = arguments.length > 5 ? arguments[5] : undefined;\n  var isCustomMPEvent = false; // wxcomponent 组件，传递原始 event 对象\n  if (isCustom) {// 自定义事件\n    isCustomMPEvent = event.currentTarget &&\n    event.currentTarget.dataset &&\n    event.currentTarget.dataset.comType === 'wx';\n    if (!args.length) {// 无参数，直接传入 event 或 detail 数组\n      if (isCustomMPEvent) {\n        return [event];\n      }\n      return event.detail.__args__ || event.detail;\n    }\n  }\n\n  var extraObj = processEventExtra(vm, extra, event);\n\n  var ret = [];\n  args.forEach(function (arg) {\n    if (arg === '$event') {\n      if (methodName === '__set_model' && !isCustom) {// input v-model value\n        ret.push(event.target.value);\n      } else {\n        if (isCustom && !isCustomMPEvent) {\n          ret.push(event.detail.__args__[0]);\n        } else {// wxcomponent 组件或内置组件\n          ret.push(event);\n        }\n      }\n    } else {\n      if (Array.isArray(arg) && arg[0] === 'o') {\n        ret.push(getObjByArray(arg));\n      } else if (typeof arg === 'string' && hasOwn(extraObj, arg)) {\n        ret.push(extraObj[arg]);\n      } else {\n        ret.push(arg);\n      }\n    }\n  });\n\n  return ret;\n}\n\nvar ONCE = '~';\nvar CUSTOM = '^';\n\nfunction handleEvent(event) {var _this = this;\n  event = wrapper$1(event);\n\n  // [['tap',[['handle',[1,2,a]],['handle1',[1,2,a]]]]]\n  var eventOpts = (event.currentTarget || event.target).dataset.eventOpts;\n  if (!eventOpts) {\n    return console.warn(\"\\u4E8B\\u4EF6\\u4FE1\\u606F\\u4E0D\\u5B58\\u5728\");\n  }\n\n  // [['handle',[1,2,a]],['handle1',[1,2,a]]]\n  var eventType = event.type;\n  eventOpts.forEach(function (eventOpt) {\n    var type = eventOpt[0];\n    var eventsArray = eventOpt[1];\n\n    var isCustom = type.charAt(0) === CUSTOM;\n    type = isCustom ? type.slice(1) : type;\n    var isOnce = type.charAt(0) === ONCE;\n    type = isOnce ? type.slice(1) : type;\n\n    if (eventsArray && eventType === type) {\n      eventsArray.forEach(function (eventArray) {\n        var methodName = eventArray[0];\n        if (methodName) {\n          var handler = _this.$vm[methodName];\n          if (!isFn(handler)) {\n            throw new Error(\" _vm.\".concat(methodName, \" is not a function\"));\n          }\n          if (isOnce) {\n            if (handler.once) {\n              return;\n            }\n            handler.once = true;\n          }\n          handler.apply(_this.$vm, processEventArgs(\n          _this.$vm,\n          event,\n          eventArray[1],\n          eventArray[2],\n          isCustom,\n          methodName));\n\n        }\n      });\n    }\n  });\n}\n\nfunction initRefs(vm) {\n  var mpInstance = vm.$mp[vm.mpType];\n  Object.defineProperty(vm, '$refs', {\n    get: function get() {\n      var $refs = {};\n      var components = mpInstance.selectAllComponents('.vue-ref');\n      components.forEach(function (component) {\n        var ref = component.dataset.ref;\n        $refs[ref] = component.$vm || component;\n      });\n      var forComponents = mpInstance.selectAllComponents('.vue-ref-in-for');\n      forComponents.forEach(function (component) {\n        var ref = component.dataset.ref;\n        if (!$refs[ref]) {\n          $refs[ref] = [];\n        }\n        $refs[ref].push(component.$vm || component);\n      });\n      return $refs;\n    } });\n\n}\n\nvar hooks = [\n'onHide',\n'onError',\n'onPageNotFound',\n'onUniNViewMessage'];\n\n\nfunction initVm(vm) {\n  if (this.$vm) {// 百度竟然 onShow 在 onLaunch 之前？\n    return;\n  }\n\n  this.$vm = vm;\n\n  this.$vm.$mp = {\n    app: this };\n\n}\n\nfunction createApp(vm) {\n  // 外部初始化时 Vue 还未初始化，放到 createApp 内部初始化 mixin\n  _vue.default.mixin({\n    beforeCreate: function beforeCreate() {\n      if (!this.$options.mpType) {\n        return;\n      }\n      this.mpType = this.$options.mpType;\n      this.$mp = _defineProperty({\n        data: {} },\n      this.mpType, this.$options.mpInstance);\n\n      delete this.$options.mpType;\n      delete this.$options.mpInstance;\n\n      if (this.mpType !== 'app') {\n        {// 头条的 selectComponent 竟然是异步的\n          initRefs(this);\n        }\n        initMocks(this, mocks);\n      }\n    },\n    created: function created() {// 处理 injections\n      this.__init_injections(this);\n      this.__init_provide(this);\n    } });\n\n\n  var appOptions = {\n    onLaunch: function onLaunch(args) {\n      initVm.call(this, vm);\n\n      this.$vm._isMounted = true;\n      this.$vm.__call_hook('mounted');\n\n      this.$vm.__call_hook('onLaunch', args);\n    },\n    onShow: function onShow(args) {\n      initVm.call(this, vm);\n\n      this.$vm.__call_hook('onShow', args);\n    } };\n\n\n  // 兼容旧版本 globalData\n  appOptions.globalData = vm.$options.globalData || {};\n\n  initHooks(appOptions, hooks); // 延迟执行，因为 App 的注册在 main.js 之前，可能导致生命周期内 Vue 原型上开发者注册的属性无法访问\n\n  App(appOptions);\n\n  return vm;\n}\n\nvar hooks$1 = [\n'onShow',\n'onHide',\n'onPullDownRefresh',\n'onReachBottom',\n'onShareAppMessage',\n'onPageScroll',\n'onResize',\n'onTabItemTap',\n'onBackPress',\n'onNavigationBarButtonTap',\n'onNavigationBarSearchInputChanged',\n'onNavigationBarSearchInputConfirmed',\n'onNavigationBarSearchInputClicked'];\n\n\nfunction initVm$1(VueComponent) {// 百度的 onLoad 触发在 attached 之前\n  if (this.$vm) {\n    return;\n  }\n\n  this.$vm = new VueComponent({\n    mpType: 'page',\n    mpInstance: this });\n\n\n  this.$vm.__call_hook('created');\n  this.$vm.$mount();\n}\n\nfunction createPage(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n  var VueComponent;\n  if (isFn(vueOptions)) {\n    VueComponent = vueOptions;\n    vueOptions = VueComponent.extendOptions;\n  } else {\n    VueComponent = _vue.default.extend(vueOptions);\n  }\n  var pageOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    lifetimes: { // 当页面作为组件时\n      attached: function attached() {\n        initVm$1.call(this, VueComponent);\n      },\n      ready: function ready() {\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    methods: { // 作为页面时\n      onLoad: function onLoad(args) {\n        initVm$1.call(this, VueComponent);\n        this.$vm.$mp.query = args; // 又要兼容 mpvue\n        this.$vm.__call_hook('onLoad', args); // 开发者可能会在 onLoad 时赋值，提前到 mount 之前\n      },\n      onUnload: function onUnload() {\n        this.$vm.__call_hook('onUnload');\n      },\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initHooks(pageOptions.methods, hooks$1);\n\n  initPage$1(pageOptions);\n\n  return Component(pageOptions);\n}\n\nfunction initVm$2(VueComponent) {\n  if (this.$vm) {\n    return;\n  }\n\n  var options = {\n    mpType: 'component',\n    mpInstance: this,\n    propsData: this.properties };\n\n  // 初始化 vue 实例\n  this.$vm = new VueComponent(options);\n\n  // 处理$slots,$scopedSlots（暂不支持动态变化$slots）\n  var vueSlots = this.properties.vueSlots;\n  if (Array.isArray(vueSlots) && vueSlots.length) {\n    var $slots = Object.create(null);\n    vueSlots.forEach(function (slotName) {\n      $slots[slotName] = true;\n    });\n    this.$vm.$scopedSlots = this.$vm.$slots = $slots;\n  }\n  // 性能优先，mount 提前到 attached 中，保证组件首次渲染数据被合并\n  // 导致与标准 Vue 的差异，data 和 computed 中不能使用$parent，provide等组件属性\n  this.$vm.$mount();\n}\n\nfunction createComponent(vueOptions) {\n  vueOptions = vueOptions.default || vueOptions;\n\n  var behaviors = getBehaviors(vueOptions);\n\n  var properties = getProperties(vueOptions.props, false, vueOptions.__file);\n\n  var VueComponent = _vue.default.extend(vueOptions);\n\n  var componentOptions = {\n    options: {\n      multipleSlots: true,\n      addGlobalClass: true },\n\n    data: getData(vueOptions, _vue.default.prototype),\n    behaviors: behaviors,\n    properties: properties,\n    lifetimes: {\n      attached: function attached() {\n        initVm$2.call(this, VueComponent);\n      },\n      ready: function ready() {\n        initVm$2.call(this, VueComponent); // 目前发现部分情况小程序 attached 不触发\n        triggerLink(this); // 处理 parent,children\n\n        // 补充生命周期\n        this.$vm.__call_hook('created');\n        this.$vm.__call_hook('beforeMount');\n        this.$vm._isMounted = true;\n        this.$vm.__call_hook('mounted');\n        this.$vm.__call_hook('onReady');\n      },\n      detached: function detached() {\n        this.$vm.$destroy();\n      } },\n\n    pageLifetimes: {\n      show: function show(args) {\n        this.$vm.__call_hook('onPageShow', args);\n      },\n      hide: function hide() {\n        this.$vm && this.$vm.__call_hook('onPageHide');\n      },\n      resize: function resize(size) {\n        this.$vm && this.$vm.__call_hook('onPageResize', size);\n      } },\n\n    methods: {\n      __e: handleEvent,\n      __l: handleLink } };\n\n\n\n  initComponent$1(componentOptions);\n\n  return Component(componentOptions);\n}\n\nvar uni = {};\n\nif (typeof Proxy !== 'undefined') {\n  uni = new Proxy({}, {\n    get: function get(target, name) {\n      if (name === 'upx2px') {\n        return upx2px;\n      }\n      if (api[name]) {\n        return promisify(name, api[name]);\n      }\n      if (!hasOwn(wx, name) && !hasOwn(protocols, name)) {\n        return;\n      }\n      return promisify(name, wrapper(name, wx[name]));\n    } });\n\n} else {\n  uni.upx2px = upx2px;\n\n  Object.keys(api).forEach(function (name) {\n    uni[name] = promisify(name, api[name]);\n  });\n\n  Object.keys(wx).forEach(function (name) {\n    if (hasOwn(wx, name) || hasOwn(protocols, name)) {\n      uni[name] = promisify(name, wrapper(name, wx[name]));\n    }\n  });\n}\n\nvar uni$1 = uni;var _default =\n\nuni$1;exports.default = _default;\n\n//# sourceURL=E:/project/HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/uni-app-plus/dist/index.js");
 
 /***/ }),
 
@@ -5599,7 +5832,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      confessionList: [],\n      swiperimgs: [{\n        \"imgUrl\": \"https://img.alicdn.com/tps/i4/TB16pkzxFzqK1RjSZSgSuwpAVXa.jpg_1080x1800Q90s50.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"http://www.chinaasc.org/upimg/allimg/c140413/13a3E204V0-422502.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'selectSchool']), // 拿到vuex的user对象,\n  onLoad: function onLoad() {\n    if (!this.user.hasLogin) {\n      uni.redirectTo({\n        url: '../login/login' });\n\n    }\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  methods: {\n    getList: function getList() {var _this = this;\n      uni.request({ //请求热点表白墙\n        url: this.GLOBAL.serverSrc + '/common/index/confession',\n        method: 'GET',\n        data: {\n          id: this.selectSchool.id },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this.confessionList = res.data.confessionList;\n          }\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        } });\n\n    },\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    goConfession: function goConfession(id) {\n      uni.navigateTo({\n        url: './confession/detail?id=' + id });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.scanCode({\n        success: function success(res) {\n          console.log(JSON.stringify(res));\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?2645");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n\n{\n  data: function data() {\n    return {\n      popupMenu: {\n        show: false,\n        top: 30 },\n\n      indexConfessionList: [],\n      swiperimgs: [{\n        \"imgUrl\": \"https://icloud.9ykm.cn/app/banner/mmexport1.jpg\",\n        \"path\": \"../alert/alert\",\n        \"openType\": \"navigate\" },\n\n      {\n        \"imgUrl\": \"https://icloud.9ykm.cn/app/banner/mmexport2.jpg\",\n        \"path\": \"../index/index\",\n        \"openType\": \"switchTab\" },\n\n      {\n        \"imgUrl\": \"https://icloud.9ykm.cn/app/banner/mmexport3.jpg\",\n        \"path\": \"../gy/gy\",\n        \"openType\": \"switchTab\" }] };\n\n\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'selectSchool']), // 拿到vuex的user对象,\n  onLoad: function onLoad() {\n    if (!this.user.hasLogin) {\n      uni.redirectTo({\n        url: '../login/login' });\n\n    }\n    this.indexConfessionList = uni.getStorageSync('indexConfessionList'); //获取本地缓存的数据\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  methods: {\n    getList: function getList() {var _this = this;\n      uni.request({ //请求热点表白墙\n        url: this.GLOBAL.serverSrc + '/common/index/confession',\n        method: 'GET',\n        data: {\n          id: this.selectSchool.id },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this.indexConfessionList = res.data.confessionList;\n            //将请求的数据缓存到本地\n            uni.setStorage({\n              key: 'indexConfessionList',\n              data: _this.indexConfessionList });\n\n          }\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        } });\n\n    },\n    skip: function skip(url) {\n      uni.navigateTo({\n        url: url });\n\n    },\n    goConfession: function goConfession(id) {\n      uni.navigateTo({\n        url: './confession/detail?id=' + id });\n\n    },\n    showPopupMenu: function showPopupMenu() {\n      uni.scanCode({\n        success: function success(res) {\n          console.log(JSON.stringify(res.result));\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/index.vue?vue&type=script&lang=js&?2645");
 
 /***/ }),
 
@@ -5622,7 +5855,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info grace-rows\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-iconfont icon-position grace-ellipsis\",\n            attrs: { eventid: \"6c4b56a4-0\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/checkSchool?index=true\")\n              }\n            }\n          },\n          [\n            _c(\n              \"text\",\n              {\n                staticClass: \"is-bold\",\n                staticStyle: { \"margin-left\": \"5rpx\" }\n              },\n              [_vm._v(_vm._s(_vm.selectSchool.title))]\n            )\n          ]\n        ),\n        _c(\"view\", { staticClass: \"grace-rows\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"serach\",\n              attrs: { eventid: \"6c4b56a4-1\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"../common/search\")\n                }\n              }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-search serach-icon\"\n              }),\n              _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n            ]\n          ),\n          _c(\"view\", {\n            staticClass: \"iconfont icon-scan scan\",\n            attrs: { eventid: \"6c4b56a4-2\" },\n            on: {\n              click: function($event) {\n                _vm.showPopupMenu()\n              }\n            }\n          })\n        ])\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"6c4b56a4-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"6c4b56a4-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\"view\", { staticClass: \"grace-boxes\" }, [\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-boxes-img\",\n                attrs: { eventid: \"6c4b56a4-4\" },\n                on: {\n                  click: function($event) {\n                    _vm.skip(\"./parttime/index\")\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n                }),\n                _c(\"view\", { staticClass: \"grace-boxes-text\" }, [\n                  _vm._v(\"找兼职\")\n                ])\n              ]\n            )\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"6c4b56a4-5\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./market/index\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"热门表白\")\n              ]),\n              _c(\n                \"navigator\",\n                {\n                  staticClass: \"grace-more-r\",\n                  attrs: { url: \"./confession/index\" }\n                },\n                [\n                  _vm._v(\"更多\"),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            ],\n            1\n          ),\n          _c(\n            \"view\",\n            { staticClass: \"grace-imgitems\" },\n            _vm._l(_vm.confessionList, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"grace-items\",\n                  attrs: { eventid: \"6c4b56a4-6-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.goConfession(item.article_id)\n                    }\n                  }\n                },\n                [\n                  _c(\"image\", {\n                    staticStyle: { height: \"220rpx\" },\n                    attrs: { src: item.image_path, mode: \"aspectFill\" }\n                  }),\n                  _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                    _vm._v(\"表白墙\")\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"grace-imgitems-more grace-ellipsis\" },\n                    [_vm._v(_vm._s(item.content))]\n                  )\n                ]\n              )\n            })\n          )\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/daiban.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"代办事\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/index.vue?vue&type=template&id=c3213714&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", { staticClass: \"body\" }, [\n    _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" }),\n      _c(\"view\", { staticClass: \"info grace-rows\" }, [\n        _c(\n          \"view\",\n          {\n            staticClass: \"grace-iconfont icon-position grace-ellipsis\",\n            attrs: { eventid: \"6c4b56a4-0\" },\n            on: {\n              click: function($event) {\n                _vm.skip(\"../common/checkSchool?index=true\")\n              }\n            }\n          },\n          [\n            _c(\n              \"text\",\n              {\n                staticClass: \"is-bold\",\n                staticStyle: { \"margin-left\": \"5rpx\" }\n              },\n              [_vm._v(_vm._s(_vm.selectSchool.title))]\n            )\n          ]\n        ),\n        _c(\"view\", { staticClass: \"grace-rows\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"serach\",\n              attrs: { eventid: \"6c4b56a4-1\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"../common/search\")\n                }\n              }\n            },\n            [\n              _c(\"view\", {\n                staticClass: \"grace-iconfont icon-search serach-icon\"\n              }),\n              _c(\"view\", { staticClass: \"serach-text\" }, [_vm._v(\"搜索内容\")])\n            ]\n          ),\n          _c(\"view\", {\n            staticClass: \"iconfont icon-scan scan\",\n            attrs: { eventid: \"6c4b56a4-2\" },\n            on: {\n              click: function($event) {\n                _vm.showPopupMenu()\n              }\n            }\n          })\n        ])\n      ])\n    ]),\n    _c(\n      \"view\",\n      {\n        staticClass: \"index grace-padding\",\n        staticStyle: { position: \"relative\" }\n      },\n      [\n        _c(\n          \"swiper\",\n          {\n            staticClass: \"grace-swiper\",\n            staticStyle: { height: \"290rpx\" },\n            attrs: {\n              autoplay: \"true\",\n              \"indicator-dots\": \"\",\n              \"indicator-color\": \"rgba(255, 255, 255, 0.5)\",\n              \"indicator-active-color\": \"#fc4243\",\n              interval: \"3000\"\n            }\n          },\n          _vm._l(_vm.swiperimgs, function(img, index) {\n            return _c(\n              \"swiper-item\",\n              { key: index, attrs: { mpcomid: \"6c4b56a4-0-\" + index } },\n              [\n                _c(\n                  \"navigator\",\n                  { attrs: { url: img.path, \"open-type\": img.openType } },\n                  [\n                    _c(\"image\", {\n                      attrs: { src: img.imgUrl, mode: \"widthFix\" }\n                    })\n                  ]\n                )\n              ],\n              1\n            )\n          })\n        ),\n        _c(\"view\", { staticClass: \"grace-wrap\" }, [\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"6c4b56a4-3\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./confession/index\")\n                }\n              }\n            },\n            [_vm._m(0)]\n          ),\n          _c(\"view\", { staticClass: \"grace-boxes\" }, [\n            _c(\n              \"view\",\n              {\n                staticClass: \"grace-boxes-img\",\n                attrs: { eventid: \"6c4b56a4-4\" },\n                on: {\n                  click: function($event) {\n                    _vm.skip(\"./parttime/index\")\n                  }\n                }\n              },\n              [\n                _c(\"image\", {\n                  attrs: { src: \"../../static/index/job.png\", mode: \"widthFix\" }\n                }),\n                _c(\"view\", { staticClass: \"grace-boxes-text\" }, [\n                  _vm._v(\"找兼职\")\n                ])\n              ]\n            )\n          ]),\n          _c(\n            \"view\",\n            {\n              staticClass: \"grace-boxes\",\n              attrs: { eventid: \"6c4b56a4-5\" },\n              on: {\n                click: function($event) {\n                  _vm.skip(\"./market/index\")\n                }\n              }\n            },\n            [_vm._m(1)]\n          ),\n          _vm._m(2)\n        ]),\n        _c(\"view\", { staticClass: \"grace-common-mt grace-common-border\" }, [\n          _c(\n            \"view\",\n            { staticClass: \"grace-title grace-nowrap grace-space-between\" },\n            [\n              _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                _vm._v(\"热门表白\")\n              ]),\n              _c(\n                \"navigator\",\n                {\n                  staticClass: \"grace-more-r\",\n                  attrs: { url: \"./confession/index\" }\n                },\n                [\n                  _vm._v(\"更多\"),\n                  _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-right\" })\n                ]\n              )\n            ],\n            1\n          ),\n          _c(\n            \"view\",\n            { staticClass: \"grace-imgitems\" },\n            _vm._l(_vm.indexConfessionList, function(item, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"grace-items\",\n                  attrs: { eventid: \"6c4b56a4-6-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.goConfession(item.article_id)\n                    }\n                  }\n                },\n                [\n                  _c(\"image\", {\n                    staticStyle: { height: \"220rpx\" },\n                    attrs: { src: item.image_path, mode: \"aspectFill\" }\n                  }),\n                  _c(\"view\", { staticClass: \"grace-imgitems-tips\" }, [\n                    _vm._v(\"表白墙\")\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"grace-imgitems-more grace-ellipsis\" },\n                    [_vm._v(_vm._s(item.content))]\n                  )\n                ]\n              )\n            })\n          )\n        ])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/love.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"表白墙\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n      _c(\"image\", {\n        attrs: { src: \"../../static/index/shop.png\", mode: \"widthFix\" }\n      }),\n      _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"逛超市\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"grace-boxes\" }, [\n      _c(\"view\", { staticClass: \"grace-boxes-img\" }, [\n        _c(\"image\", {\n          attrs: { src: \"../../static/index/daiban.png\", mode: \"widthFix\" }\n        }),\n        _c(\"view\", { staticClass: \"grace-boxes-text\" }, [_vm._v(\"代办事\")])\n      ])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/index.vue?vue&type=template&id=c3213714&");
 
 /***/ })
 
@@ -5888,7 +6121,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar maxNum = 9,\n_self;var _default =\n{\n  data: function data() {\n    return {\n      content: '',\n      imgLists: [],\n      imgFiles: [],\n      btnImg: true };\n\n  },\n  onLoad: function onLoad() {\n    _self = this;\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  methods: {\n    addImg: function addImg() {\n      var num = maxNum - _self.imgLists.length;\n      if (num < 1) {\n        return false;\n      }\n      uni.chooseImage({\n        count: num,\n        sizeType: ['compressed'],\n        success: function success(res) {\n          _self.imgFiles = _self.imgFiles.concat(res.tempFiles);\n          _self.imgLists = _self.imgLists.concat(res.tempFilePaths);\n          if (_self.imgLists.length >= maxNum) {\n            _self.btnImg = false;\n          }\n        } });\n\n    },\n    removeImg: function removeImg(e) {\n      var index = e.currentTarget.id.replace('grace-items-img-', '');\n      _self.imgLists.splice(index, 1);\n      _self.imgFiles.splice(index, 1);\n      if (_self.imgLists.length < maxNum) {\n        _self.btnImg = true;\n      }\n    },\n    showImgs: function showImgs(e) {\n      var currentImg = e.currentTarget.dataset.imgurl;\n      uni.previewImage({\n        urls: this.imgLists,\n        current: currentImg });\n\n    },\n    submit: function submit() {\n      this.Loading = true;\n      var i = 0;\n      var _this = this;\n      var filesArr = [];\n      uni.showLoading({\n        title: '发布中...' });\n\n      if (this.imgFiles.length > 0) {//有图的情况\n        //更改imgFiles内的file对象的key为uri\n        filesArr = this.imgFiles.map(function (key) {\n          return {\n            name: 'file[' + i++ + ']',\n            uri: key.path };\n\n        });\n        uni.uploadFile({\n          url: _self.GLOBAL.serverSrc + 'confession/publish/upload',\n          files: filesArr,\n          formData: {\n            token: _self.user.token,\n            phone: _self.user.phone,\n            content: _self.content },\n\n          success: function success(uploadFileRes) {\n            console.log(JSON.stringify(uploadFileRes));\n            var resObj = JSON.parse(uploadFileRes.data);\n            uni.hideLoading();\n            if (resObj.status === 200) {\n              uni.showToast({\n                title: '发表成功！',\n                icon: \"none\" });\n\n              uni.redirectTo({\n                url: './index' });\n\n            } else {\n              uni.showToast({\n                title: resObj.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this.GLOBAL.requestFail(e);\n          } });\n\n      } else {//无图\n        uni.request({\n          url: _self.GLOBAL.serverSrc + 'confession/publish/upload',\n          method: 'POST',\n          data: {\n            token: _self.user.token,\n            phone: _self.user.phone,\n            content: _self.content },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: '发表成功！',\n                icon: \"none\" });\n\n              uni.redirectTo({\n                url: './index' });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/publish.vue?vue&type=script&lang=js&?09a1");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar maxNum = 9,\n_self;var _default =\n{\n  data: function data() {\n    return {\n      content: '',\n      imgLists: [],\n      imgFiles: [],\n      btnImg: true };\n\n  },\n  onLoad: function onLoad() {\n    _self = this;\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  methods: {\n    addImg: function addImg() {\n      var num = maxNum - _self.imgLists.length;\n      if (num < 1) {\n        return false;\n      }\n      uni.chooseImage({\n        count: num,\n        sizeType: ['compressed'],\n        success: function success(res) {\n          _self.imgFiles = _self.imgFiles.concat(res.tempFiles);\n          _self.imgLists = _self.imgLists.concat(res.tempFilePaths);\n          if (_self.imgLists.length >= maxNum) {\n            _self.btnImg = false;\n          }\n        } });\n\n    },\n    removeImg: function removeImg(e) {\n      var index = e.currentTarget.id.replace('grace-items-img-', '');\n      _self.imgLists.splice(index, 1);\n      _self.imgFiles.splice(index, 1);\n      if (_self.imgLists.length < maxNum) {\n        _self.btnImg = true;\n      }\n    },\n    showImgs: function showImgs(e) {\n      var currentImg = e.currentTarget.dataset.imgurl;\n      uni.previewImage({\n        urls: this.imgLists,\n        current: currentImg });\n\n    },\n    submit: function submit() {var _this2 = this;\n      this.Loading = true;\n      var i = 0;\n      var _this = this;\n      var filesArr = [];\n      uni.showLoading({\n        title: '发布中...' });\n\n      if (this.imgFiles.length > 0) {//有图的情况\n        //更改imgFiles内的file对象的key为uri\n        filesArr = this.imgFiles.map(function (key) {\n          return {\n            name: 'file[' + i++ + ']',\n            uri: key.path };\n\n        });\n        uni.uploadFile({\n          url: _self.GLOBAL.serverSrc + 'confession/publish/upload',\n          files: filesArr,\n          formData: {\n            token: _self.user.token,\n            phone: _self.user.phone,\n            content: _self.content },\n\n          success: function success(uploadFileRes) {\n            uni.hideLoading();\n            var resObj;\n            if (_this2.imgFiles.length > 0) {//有图片后端传来的是字符串\n              resObj = JSON.parse(uploadFileRes.data);\n            } else {//无图片后端传来的是json对象\n              resObj = uploadFileRes.data;\n            }\n            if (resObj.status === 200) {\n              uni.showToast({\n                title: '发表成功！',\n                icon: \"none\" });\n\n              uni.redirectTo({\n                url: './index' });\n\n            } else {\n              uni.showToast({\n                title: resObj.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this.GLOBAL.requestFail(e);\n          } });\n\n      } else {//无图\n        uni.request({\n          url: _self.GLOBAL.serverSrc + 'confession/publish/upload',\n          method: 'POST',\n          data: {\n            token: _self.user.token,\n            phone: _self.user.phone,\n            content: _self.content },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.showToast({\n                title: '发表成功！',\n                icon: \"none\" });\n\n              uni.redirectTo({\n                url: './index' });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/publish.vue?vue&type=script&lang=js&?09a1");
 
 /***/ }),
 
@@ -6039,7 +6272,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceFullLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return {\n      articleId: 0,\n      graceFullLoading: false,\n      article: {},\n      commentAndReplyList: [],\n      other: \"\",\n      textPlaceholder: \"写评论\",\n      focus: false,\n      content: \"\",\n      commentId: 0, //评论内容id\n      commentatorId: 0 //评论者id\n    };\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {\n    this.articleId = parameter.id;\n    this.graceFullLoading = true;\n    this.getDetail();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getDetail();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 2500);\n  },\n  methods: {\n    getDetail: function getDetail() {var _this = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/getContent',\n        method: 'GET',\n        data: {\n          phone: this.user.phone,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          _this.article = res.data.ArticleContent;\n          _this.commentAndReplyList = res.data.comment_list;\n          _this.other = res.data.other;\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        }, complete: function complete() {\n          _this.graceFullLoading = false;\n        } });\n\n      this.content = '';\n    },\n    guanzhu: function guanzhu() {},\n    thumbsUpComment: function thumbsUpComment(index) {var _this2 = this;\n      if (this.commentList[index].thumbs_up_status !== 1) {\n        this.commentList[index].thumbs_up_status = 1;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up + 1;\n      } else {\n        this.commentList[index].thumbs_up_status = 0;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up - 1;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          comment_id: this.commentList[index].comment_id },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this2.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    thumbsUp: function thumbsUp() {var _this3 = this;\n      console.log(this.article.thumbs_up_status);\n      if (this.article.thumbs_up_status !== 1) {\n        this.article.thumbs_up = this.article.thumbs_up + 1;\n        this.article.thumbs_up_status = 1;\n      } else {\n        this.article.thumbs_up = this.article.thumbs_up - 1;\n        this.article.thumbs_up_status = 0;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this3.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.images_list });\n\n    },\n    goComment: function goComment() {\n      uni.navigateTo({\n        url: '../../common/comment?type=confession&articleId=' + this.article.article_id });\n\n    },\n    blur: function blur() {\n      this.focus = false;\n    },\n    replyOne: function replyOne(userName, commentatorId, commentId) {\n      this.commentatorId = commentatorId;\n      this.commentId = commentId;\n      this.textPlaceholder = \"@回复 \" + userName;\n      this.focus = true;\n    },\n    submit: function submit() {var _this4 = this;\n      if (this.content.trim() === '')\n      return;\n      //说明此时评论的是文章\n      if (this.textPlaceholder === \"写评论\") {\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/addcomment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            comment_content: this.content,\n            article_id: this.articleId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      } else {//此时是回复\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/replyComment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            reply_content: this.content,\n            comment_id: this.commentId,\n            commentator_id: this.commentatorId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?e650");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _graceFullLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceFullLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceFullLoading.vue\"));\nvar _topshare = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/jsTools/topshare */ \"../../../development/unitopschool/graceUI/jsTools/topshare.js\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceFullLoading: _graceFullLoading.default },\n\n  data: function data() {\n    return {\n      articleId: 0,\n      graceFullLoading: false,\n      article: {},\n      commentAndReplyList: [],\n      other: \"\",\n      textPlaceholder: \"写评论\",\n      focus: false,\n      commentId: 0, //评论内容id\n      commentatorId: 0 //评论者id\n    };\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {\n    this.articleId = parameter.id;\n    this.graceFullLoading = true;\n    this.getDetail();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getDetail();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 2500);\n  },\n  onNavigationBarButtonTap: function onNavigationBarButtonTap() {\n    //var url = 'url'+this.article.article_id;  url拿来备用哦\n    var imageUrl;\n    if (this.article.images_list.length > 0) {\n      imageUrl = this.article.images_list[0];\n    } else {\n      imageUrl = false;\n    }\n    var title = 'TOP校园表白墙';\n    var summary = this.article.content;\n    _topshare.default.goShare(title, summary, false, imageUrl);\n  },\n  methods: {\n    getDetail: function getDetail() {var _this = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/getContent',\n        method: 'GET',\n        data: {\n          phone: this.user.phone,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          _this.article = res.data.ArticleContent;\n          _this.commentAndReplyList = res.data.comment_list;\n          _this.other = res.data.other;\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        }, complete: function complete() {\n          _this.graceFullLoading = false;\n        } });\n\n    },\n    guanzhu: function guanzhu() {},\n    thumbsUpComment: function thumbsUpComment(index) {var _this2 = this;\n      if (this.commentList[index].thumbs_up_status !== 1) {\n        this.commentList[index].thumbs_up_status = 1;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up + 1;\n      } else {\n        this.commentList[index].thumbs_up_status = 0;\n        this.commentList[index].thumbs_up = this.commentList[index].thumbs_up - 1;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          comment_id: this.commentList[index].comment_id },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this2.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    thumbsUp: function thumbsUp() {var _this3 = this;\n      console.log(this.article.thumbs_up_status);\n      if (this.article.thumbs_up_status !== 1) {\n        this.article.thumbs_up = this.article.thumbs_up + 1;\n        this.article.thumbs_up_status = 1;\n      } else {\n        this.article.thumbs_up = this.article.thumbs_up - 1;\n        this.article.thumbs_up_status = 0;\n      }\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'confession/article/addthumbsup',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          article_id: this.articleId },\n\n        success: function success(res) {\n          //点赞只验证是否身份过期\n          if (res.status === 410) {\n            _this3.GLOBAL.tokenFail();\n          }\n        } });\n\n    },\n    showImage: function showImage() {\n      uni.previewImage({\n        urls: this.article.images_list });\n\n    },\n    goComment: function goComment() {\n      uni.navigateTo({\n        url: '../../common/comment?type=confession&articleId=' + this.article.article_id });\n\n    },\n    blur: function blur() {\n      this.focus = false;\n    },\n    replyOne: function replyOne(userName, commentatorId, commentId) {\n      this.commentatorId = commentatorId;\n      this.commentId = commentId;\n      this.textPlaceholder = \"@回复 \" + userName;\n      this.focus = true;\n    },\n    submit: function submit() {var _this4 = this;\n      if (this.content.trim() === '')\n      return;\n      //说明此时评论的是文章\n      if (this.textPlaceholder === \"写评论\") {\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/addcomment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            comment_content: this.content,\n            article_id: this.articleId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      } else {//此时是回复\n        uni.request({\n          url: this.GLOBAL.serverSrc + '/confession/article/replyComment',\n          method: 'POST',\n          data: {\n            token: this.user.token,\n            phone: this.user.phone,\n            reply_content: this.content,\n            comment_id: this.commentId,\n            commentator_id: this.commentatorId },\n\n          success: function success(res) {\n            if (res.data.status === 200) {\n              _this4.getDetail();\n            } else if (res.data.status === 410) {\n              _this4.GLOBAL.tokenFail();\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            _this4.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/confession/detail.vue?vue&type=script&lang=js&?e650");
 
 /***/ }),
 
@@ -6154,7 +6387,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _self;var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      //被展示的菜单\n      showingIndex: 0,\n      //第一个选项相关\n      orderIndex: 0,\n      orderList: ['综合', '星级', '人气'],\n      //第二个选项相关\n      cateIndex: 0,\n      cateList: ['全部', '超市', '外卖', '水果', '其他'],\n      //销量排序\n      saleVolume: 1,\n      marketList: [],\n      filterHeight: '100%',\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部', '此学校暂无商家开通'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['selectSchool']),\n  onReady: function onReady() {\n    _self = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        var windowHeight = res.windowHeight;\n        //获取头部标题高度\n        uni.createSelectorQuery().select('#grace-filter-header').fields({\n          size: true },\n        function (res) {\n          if (!res) {\n            return;\n          }\n          var sHeight = windowHeight - res.height;\n          _self.filterHeight = sHeight + 'px';\n        }).exec();\n      } });\n\n    this.marketList = uni.getStorageSync('marketList'); //获取本地缓存的数据\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/index/findoftype',\n      method: 'POST',\n      data: {\n        page: this.loading.nextPages,\n        order: this.orderList[this.orderIndex],\n        sale_volume: this.saleVolume,\n        market_school: this.selectSchool.title,\n        type: this.cateList[this.cateIndex] },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.marketList = _this.marketList.concat(res.data.marketList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        _this.loading.type = 0;\n        _this.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    changeSchool: function changeSchool() {\n      uni.navigateTo({\n        url: '../../common/checkSchool?market=true' });\n\n    },\n    changeOrder: function changeOrder(e) {\n      var tapIndex = e.target.dataset.itemid;\n      this.orderIndex = tapIndex;\n      this.showingIndex = 0;\n      this.getList();\n    },\n    showOptions1: function showOptions1() {\n      if (this.showingIndex != 0) {\n        this.showingIndex = 0;\n        return;\n      }\n      this.showingIndex = 1;\n    },\n    showOptions2: function showOptions2() {\n      if (this.showingIndex != 0) {\n        this.showingIndex = 0;\n        return;\n      }\n      this.showingIndex = 2;\n    },\n    changeCate: function changeCate(e) {\n      var tapIndex = e.target.dataset.itemid;\n      this.cateIndex = tapIndex;\n      this.showingIndex = 0;\n      this.getList();\n    },\n    //价格排序\n    changePriceOrder: function changePriceOrder() {\n      if (this.saleVolume == 1) {\n        this.saleVolume = 2;\n      } else {\n        this.saleVolume = 1;\n      }\n      this.getList();\n    },\n    //条件更新后执行统一函数（如重新读取数据等）\n    getList: function getList() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'market/index/findoftype',\n        method: 'POST',\n        data: {\n          page: 1,\n          order: this.orderList[this.orderIndex],\n          sale_volume: this.saleVolume,\n          market_school: this.selectSchool.title,\n          type: this.cateList[this.cateIndex] },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this2.marketList = res.data.marketList;\n            _this2.loading.totalPages = res.data.totalPages;\n            if (_this2.marketList.length === 0) {\n              _this2.loading.type = 3;\n            }\n            //将请求的数据缓存到本地\n            uni.setStorage({\n              key: 'marketList',\n              data: _this2.marketList });\n\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    goMarket: function goMarket(marketId, noticeArr, marketName) {\n      var notices = [];\n      for (var i = 0; i < noticeArr.length; i++) {//组装notices公告\n        var obj = {\n          title: noticeArr[i] };\n\n        notices.push(obj);\n      }\n\n      uni.navigateTo({\n        url: './market?market_name=' + marketName + '&market_id=' + marketId + '&notices=' + JSON.stringify(notices) });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/index.vue?vue&type=script&lang=js&?ed2c");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _topshare = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/jsTools/topshare */ \"../../../development/unitopschool/graceUI/jsTools/topshare.js\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _self;var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      //被展示的菜单\n      showingIndex: 0,\n      //第一个选项相关\n      orderIndex: 0,\n      orderList: ['综合', '星级', '人气'],\n      //第二个选项相关\n      cateIndex: 0,\n      cateList: ['全部', '超市', '外卖', '水果', '其他'],\n      //销量排序\n      saleVolume: 1,\n      marketList: [],\n      filterHeight: '100%',\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部', '此学校暂无商家开通'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['selectSchool']),\n  onReady: function onReady() {\n    _self = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        var windowHeight = res.windowHeight;\n        //获取头部标题高度\n        uni.createSelectorQuery().select('#grace-filter-header').fields({\n          size: true },\n        function (res) {\n          if (!res) {\n            return;\n          }\n          var sHeight = windowHeight - res.height;\n          _self.filterHeight = sHeight + 'px';\n        }).exec();\n      } });\n\n    this.marketList = uni.getStorageSync('marketList'); //获取本地缓存的数据\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList();\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/index/findoftype',\n      method: 'POST',\n      data: {\n        page: this.loading.nextPages,\n        order: this.orderList[this.orderIndex],\n        sale_volume: this.saleVolume,\n        market_school: this.selectSchool.title,\n        type: this.cateList[this.cateIndex] },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.marketList = _this.marketList.concat(res.data.marketList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        _this.loading.type = 0;\n        _this.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    share: function share(market) {\n      var title = \"电子的宿舍小超市在TOP校园APP里面啦!\";\n      var summary = \"我正在使用TOP校园逛电子的小超市哦，超市名称：\" + market.market_name + \",下单立即会配送到宿舍哦\";\n      _topshare.default.goShare(title, summary, false, false);\n    },\n    changeSchool: function changeSchool() {\n      uni.navigateTo({\n        url: '../../common/checkSchool?market=true' });\n\n    },\n    changeOrder: function changeOrder(e) {\n      var tapIndex = e.target.dataset.itemid;\n      this.orderIndex = tapIndex;\n      this.showingIndex = 0;\n      this.getList();\n    },\n    showOptions1: function showOptions1() {\n      if (this.showingIndex != 0) {\n        this.showingIndex = 0;\n        return;\n      }\n      this.showingIndex = 1;\n    },\n    showOptions2: function showOptions2() {\n      if (this.showingIndex != 0) {\n        this.showingIndex = 0;\n        return;\n      }\n      this.showingIndex = 2;\n    },\n    changeCate: function changeCate(e) {\n      var tapIndex = e.target.dataset.itemid;\n      this.cateIndex = tapIndex;\n      this.showingIndex = 0;\n      this.getList();\n    },\n    //价格排序\n    changePriceOrder: function changePriceOrder() {\n      if (this.saleVolume == 1) {\n        this.saleVolume = 2;\n      } else {\n        this.saleVolume = 1;\n      }\n      this.getList();\n    },\n    //条件更新后执行统一函数（如重新读取数据等）\n    getList: function getList() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'market/index/findoftype',\n        method: 'POST',\n        data: {\n          page: 1,\n          order: this.orderList[this.orderIndex],\n          sale_volume: this.saleVolume,\n          market_school: this.selectSchool.title,\n          type: this.cateList[this.cateIndex] },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this2.marketList = res.data.marketList;\n            if (res.data.totalPages === 1) {//如果只有一页显示已加载完\n              _this2.loading.type = 2;\n            }\n            _this2.loading.totalPages = res.data.totalPages;\n            if (_this2.marketList.length === 0) {\n              _this2.loading.type = 3;\n            }\n            //将请求的数据缓存到本地\n            uni.setStorage({\n              key: 'marketList',\n              data: _this2.marketList });\n\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    goMarket: function goMarket(marketId, noticeArr, marketName) {\n      var notices = [];\n      for (var i = 0; i < noticeArr.length; i++) {//组装notices公告\n        var obj = {\n          title: noticeArr[i] };\n\n        notices.push(obj);\n      }\n\n      uni.navigateTo({\n        url: './market?market_name=' + marketName + '&market_id=' + marketId + '&notices=' + JSON.stringify(notices) });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/index.vue?vue&type=script&lang=js&?ed2c");
 
 /***/ }),
 
@@ -6177,7 +6410,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-filter\", attrs: { id: \"grace-filter-header\" } },\n        [\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-0\" },\n              on: { tap: _vm.showOptions1 }\n            },\n            [\n              _vm._v(_vm._s(_vm.orderList[_vm.orderIndex])),\n              _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-down\" })\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-1\" },\n              on: { tap: _vm.showOptions2 }\n            },\n            [\n              _vm._v(_vm._s(_vm.cateList[_vm.cateIndex])),\n              _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-down\" })\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items \",\n              attrs: { eventid: \"6f812c3a-2\" },\n              on: { tap: _vm.changePriceOrder }\n            },\n            [\n              _vm._v(\"销量\"),\n              _vm.saleVolume == 1\n                ? _c(\"image\", {\n                    staticStyle: { \"margin-top\": \"13%\" },\n                    attrs: {\n                      src: \"../../../static/market/sort1.png\",\n                      mode: \"widthFix\"\n                    }\n                  })\n                : _vm._e(),\n              _vm.saleVolume == 2\n                ? _c(\"image\", {\n                    staticStyle: { \"margin-top\": \"13%\" },\n                    attrs: {\n                      src: \"../../../static/market/sort2.png\",\n                      mode: \"widthFix\"\n                    }\n                  })\n                : _vm._e()\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-3\" },\n              on: { tap: _vm.changeSchool }\n            },\n            [\n              _vm._v(\"切换\"),\n              _c(\"text\", { staticClass: \"iconfont icon-qiehuanzuzhi\" })\n            ]\n          ),\n          _vm.showingIndex == 1\n            ? _c(\n                \"view\",\n                { staticClass: \"grace-filter-options\" },\n                _vm._l(_vm.orderList, function(item, index) {\n                  return _c(\n                    \"view\",\n                    {\n                      key: index,\n                      class: [\n                        index == _vm.orderIndex ? \"option current\" : \"option\"\n                      ],\n                      attrs: {\n                        \"data-itemid\": index,\n                        eventid: \"6f812c3a-4-\" + index\n                      },\n                      on: { tap: _vm.changeOrder }\n                    },\n                    [\n                      _vm._v(_vm._s(item)),\n                      index == _vm.orderIndex\n                        ? _c(\"text\", {\n                            staticClass: \"grace-iconfont icon-right\"\n                          })\n                        : _vm._e()\n                    ]\n                  )\n                })\n              )\n            : _vm._e(),\n          _vm.showingIndex == 2\n            ? _c(\n                \"view\",\n                { staticClass: \"grace-filter-options\" },\n                _vm._l(_vm.cateList, function(item, index) {\n                  return _c(\n                    \"view\",\n                    {\n                      key: index,\n                      class: [\n                        index == _vm.cateIndex ? \"option current\" : \"option\"\n                      ],\n                      attrs: {\n                        \"data-itemid\": index,\n                        eventid: \"6f812c3a-5-\" + index\n                      },\n                      on: { tap: _vm.changeCate }\n                    },\n                    [\n                      _vm._v(_vm._s(item)),\n                      index == _vm.cateIndex\n                        ? _c(\"text\", {\n                            staticClass: \"grace-iconfont icon-right\"\n                          })\n                        : _vm._e()\n                    ]\n                  )\n                })\n              )\n            : _vm._e()\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticStyle: { \"margin-top\": \"50px\" } },\n        _vm._l(_vm.marketList, function(market, index) {\n          return _c(\"view\", { key: index, staticClass: \"grace-card-view\" }, [\n            _c(\n              \"view\",\n              {\n                staticClass: \"body\",\n                attrs: { eventid: \"6f812c3a-6-\" + index },\n                on: {\n                  click: function($event) {\n                    _vm.goMarket(\n                      market.market_id,\n                      market.notice,\n                      market.market_name\n                    )\n                  }\n                }\n              },\n              [\n                _c(\"view\", { staticClass: \"img\" }, [\n                  _c(\"image\", { attrs: { src: market.billboard } })\n                ]),\n                _c(\"view\", { staticClass: \"desc\" }, [\n                  _c(\n                    \"view\",\n                    { staticClass: \"title\" },\n                    [\n                      _vm._v(_vm._s(market.market_name)),\n                      _vm._l(5, function(item, index2) {\n                        return _c(\"text\", {\n                          key: index2,\n                          class:\n                            market.star_level > index2\n                              ? \"grace-iconfont icon-shoucang\"\n                              : \"grace-iconfont icon-star\"\n                        })\n                      })\n                    ],\n                    2\n                  ),\n                  _c(\"view\", { staticClass: \"text\" }),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(\n                      _vm._s(market.status === 1 ? \"正在营业\" : \"商家休息中\")\n                    )\n                  ]),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(_vm._s(market.dorm_tower + market.dorm_num))\n                  ]),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(_vm._s(market.market_school))\n                  ])\n                ])\n              ]\n            ),\n            _c(\"view\", { staticClass: \"footer\" }, [\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-iconfont icon-home\",\n                  attrs: { eventid: \"6f812c3a-7-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.goMarket(market.market_id)\n                    }\n                  }\n                },\n                [_vm._v(\"进店\")]\n              ),\n              _c(\"view\", { staticClass: \"grace-iconfont icon-share\" }, [\n                _vm._v(\"分享\")\n              ])\n            ])\n          ])\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"6f812c3a-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/market/index.vue?vue&type=template&id=4a03f8cb&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-filter\", attrs: { id: \"grace-filter-header\" } },\n        [\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-0\" },\n              on: { tap: _vm.showOptions1 }\n            },\n            [\n              _vm._v(_vm._s(_vm.orderList[_vm.orderIndex])),\n              _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-down\" })\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-1\" },\n              on: { tap: _vm.showOptions2 }\n            },\n            [\n              _vm._v(_vm._s(_vm.cateList[_vm.cateIndex])),\n              _c(\"text\", { staticClass: \"grace-iconfont icon-arrow-down\" })\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items \",\n              attrs: { eventid: \"6f812c3a-2\" },\n              on: { tap: _vm.changePriceOrder }\n            },\n            [\n              _vm._v(\"销量\"),\n              _vm.saleVolume == 1\n                ? _c(\"image\", {\n                    staticStyle: { \"margin-top\": \"13%\" },\n                    attrs: {\n                      src: \"../../../static/market/sort1.png\",\n                      mode: \"widthFix\"\n                    }\n                  })\n                : _vm._e(),\n              _vm.saleVolume == 2\n                ? _c(\"image\", {\n                    staticStyle: { \"margin-top\": \"13%\" },\n                    attrs: {\n                      src: \"../../../static/market/sort2.png\",\n                      mode: \"widthFix\"\n                    }\n                  })\n                : _vm._e()\n            ]\n          ),\n          _c(\n            \"view\",\n            {\n              staticClass: \"items\",\n              attrs: { eventid: \"6f812c3a-3\" },\n              on: { tap: _vm.changeSchool }\n            },\n            [\n              _vm._v(\"切换\"),\n              _c(\"text\", { staticClass: \"iconfont icon-qiehuanzuzhi\" })\n            ]\n          ),\n          _vm.showingIndex == 1\n            ? _c(\n                \"view\",\n                { staticClass: \"grace-filter-options\" },\n                _vm._l(_vm.orderList, function(item, index) {\n                  return _c(\n                    \"view\",\n                    {\n                      key: index,\n                      class: [\n                        index == _vm.orderIndex ? \"option current\" : \"option\"\n                      ],\n                      attrs: {\n                        \"data-itemid\": index,\n                        eventid: \"6f812c3a-4-\" + index\n                      },\n                      on: { tap: _vm.changeOrder }\n                    },\n                    [\n                      _vm._v(_vm._s(item)),\n                      index == _vm.orderIndex\n                        ? _c(\"text\", {\n                            staticClass: \"grace-iconfont icon-right\"\n                          })\n                        : _vm._e()\n                    ]\n                  )\n                })\n              )\n            : _vm._e(),\n          _vm.showingIndex == 2\n            ? _c(\n                \"view\",\n                { staticClass: \"grace-filter-options\" },\n                _vm._l(_vm.cateList, function(item, index) {\n                  return _c(\n                    \"view\",\n                    {\n                      key: index,\n                      class: [\n                        index == _vm.cateIndex ? \"option current\" : \"option\"\n                      ],\n                      attrs: {\n                        \"data-itemid\": index,\n                        eventid: \"6f812c3a-5-\" + index\n                      },\n                      on: { tap: _vm.changeCate }\n                    },\n                    [\n                      _vm._v(_vm._s(item)),\n                      index == _vm.cateIndex\n                        ? _c(\"text\", {\n                            staticClass: \"grace-iconfont icon-right\"\n                          })\n                        : _vm._e()\n                    ]\n                  )\n                })\n              )\n            : _vm._e()\n        ]\n      ),\n      _c(\n        \"view\",\n        { staticStyle: { \"margin-top\": \"50px\" } },\n        _vm._l(_vm.marketList, function(market, index) {\n          return _c(\"view\", { key: index, staticClass: \"grace-card-view\" }, [\n            _c(\n              \"view\",\n              {\n                staticClass: \"body\",\n                attrs: { eventid: \"6f812c3a-6-\" + index },\n                on: {\n                  click: function($event) {\n                    _vm.goMarket(\n                      market.market_id,\n                      market.notice,\n                      market.market_name\n                    )\n                  }\n                }\n              },\n              [\n                _c(\"view\", { staticClass: \"img\" }, [\n                  _c(\"image\", { attrs: { src: market.billboard } })\n                ]),\n                _c(\"view\", { staticClass: \"desc\" }, [\n                  _c(\n                    \"view\",\n                    { staticClass: \"title\" },\n                    [\n                      _vm._v(_vm._s(market.market_name)),\n                      _vm._l(5, function(item, index2) {\n                        return _c(\"text\", {\n                          key: index2,\n                          class:\n                            market.star_level > index2\n                              ? \"grace-iconfont icon-shoucang\"\n                              : \"grace-iconfont icon-star\"\n                        })\n                      })\n                    ],\n                    2\n                  ),\n                  _c(\"view\", { staticClass: \"text\" }),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(\n                      _vm._s(market.status === 1 ? \"正在营业\" : \"商家休息中\")\n                    )\n                  ]),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(_vm._s(market.dorm_tower + market.dorm_num))\n                  ]),\n                  _c(\"view\", { staticClass: \"text\" }, [\n                    _vm._v(_vm._s(market.market_school))\n                  ])\n                ])\n              ]\n            ),\n            _c(\"view\", { staticClass: \"footer\" }, [\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-iconfont icon-home\",\n                  attrs: { eventid: \"6f812c3a-7-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.goMarket(\n                        market.market_id,\n                        market.notice,\n                        market.market_name\n                      )\n                    }\n                  }\n                },\n                [_vm._v(\"进店\")]\n              ),\n              _c(\n                \"view\",\n                {\n                  staticClass: \"grace-iconfont icon-share\",\n                  attrs: { eventid: \"6f812c3a-8-\" + index },\n                  on: {\n                    click: function($event) {\n                      _vm.share(market)\n                    }\n                  }\n                },\n                [_vm._v(\"分享\")]\n              )\n            ])\n          ])\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"6f812c3a-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/market/index.vue?vue&type=template&id=4a03f8cb&");
 
 /***/ })
 
@@ -6437,7 +6670,7 @@ eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.de
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _popupLayer = _interopRequireDefault(__webpack_require__(/*! ../../../components/popup-layer.vue */ \"../../../development/unitopschool/components/popup-layer.vue\"));\nvar _graceNumberBox = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceNumberBox.vue */ \"../../../development/unitopschool/graceUI/components/graceNumberBox.vue\"));\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"../../../development/unitopschool/graceUI/components/graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceNumberBox: _graceNumberBox.default,\n    popupLayer: _popupLayer.default,\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0,\n      goodsCount: 0,\n      shoppingCart: [] };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    this.notices = JSON.parse(parameter.notices);\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        token: this.user.token,\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          _this.mainCate = res.data.mainCate;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    showImg: function showImg(imgurl) {\n      var imgarr = [imgurl];\n      uni.previewImage({\n        urls: imgarr });\n\n    },\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++; //用于购物车小红点\n      var product = e.currentTarget.dataset.product;\n      //console.log(JSON.stringify(e));\n      if (this.shoppingCart.find(function (x) {\n        return x.id === product.id;\n      }) != undefined) {//商品在shoppingCart购物车已存在\n        uni.showToast({\n          title: '购物车已存在此商品\\n请点击左下角购物车查看',\n          icon: \"none\" });\n\n      } else {\n        product.count = 1;\n        this.shoppingCart.push(product);\n      }\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    },\n    showShppingcard: function showShppingcard() {\n      this.$refs.popup.show();\n    },\n    change: function change(data) {//改变购物车数量\n      var index = data[1];\n      var count = data[0];\n      this.shoppingCart[index].count = count;\n    },\n    deleteProduct: function deleteProduct(index) {\n      this.shoppingCart.splice(index, 1);\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.close();\n      }\n    },\n    settleAccounts: function settleAccounts() {var _this2 = this;\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.show();\n      } else {\n        uni.showLoading({\n          title: '加载中' });\n\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'pay/create_order/create',\n          method: 'POST',\n          data: {\n            user_id: this.user.id,\n            shopping_cart: this.shoppingCart },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.navigateTo({\n                url: './checkstand?order_id=' + res.data.order_id + '&real_price=' + res.data.real_price });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this2.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?3b78");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");\n\n\nvar _popupLayer = _interopRequireDefault(__webpack_require__(/*! ../../../components/popup-layer.vue */ \"../../../development/unitopschool/components/popup-layer.vue\"));\nvar _graceNumberBox = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceNumberBox.vue */ \"../../../development/unitopschool/graceUI/components/graceNumberBox.vue\"));\nvar _graceSpeaker = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceSpeaker.vue */ \"../../../development/unitopschool/graceUI/components/graceSpeaker.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nvar scrollTimer = null;\nvar pageHeight = 100;var _default =\n{\n  components: {\n    graceNumberBox: _graceNumberBox.default,\n    popupLayer: _popupLayer.default,\n    graceSpeaker: _graceSpeaker.default },\n\n  data: function data() {\n    return {\n      popmenuShowX: true,\n      notices: [],\n      currentCateIndex: 1,\n      // 左侧滚动定位\n      leftTo: 'cate1',\n      // 产品列表滚动定位\n      productListTo: 'productList1',\n      //分类\n      mainCate: [],\n      // 产品列表对应分类\n      allProducts: {},\n      marketId: 0,\n      goodsCount: 0,\n      shoppingCart: [] };\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    uni.getSystemInfo({\n      success: function success(res) {\n        pageHeight = res.windowHeight;\n      } });\n\n\n    uni.setNavigationBarTitle({\n      title: parameter.market_name });\n\n    if (parameter.notices) {\n      this.notices = JSON.parse(parameter.notices);\n    }\n    this.marketId = parameter.market_id;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/product/select',\n      method: 'GET',\n      data: {\n        token: this.user.token,\n        market_id: this.marketId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.allProducts = res.data.allProduct;\n          _this.mainCate = res.data.mainCate;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    showImg: function showImg(imgurl) {\n      var imgarr = [imgurl];\n      uni.previewImage({\n        urls: imgarr });\n\n    },\n    // 分类切换\n    changCate: function changCate(e) {\n      var cateid = e.currentTarget.dataset.cateid;\n      this.currentCateIndex = cateid;\n      this.leftTo = 'cate' + cateid;\n      this.productListTo = 'productList' + cateid;\n    },\n    // 产品区域滚动\n    rscroll: function rscroll(e) {\n      var sctop = e.detail.scrollTop;\n      if (scrollTimer != null) {\n        clearTimeout(scrollTimer);\n      }\n      scrollTimer = setTimeout(function () {\n        this.getIndex(0, sctop);\n      }.bind(this), 80);\n    },\n    // 动态识别分类激活\n    getIndex: function getIndex(i, sctop) {\n      var _self = this;\n      var query = wx.createSelectorQuery();\n      query.select('#productList' + this.mainCate[i].cateid).boundingClientRect();\n      query.selectViewport().scrollOffset();\n      query.exec(function (res) {\n        if (res[0].top + pageHeight / 2 > 0) {\n          _self.currentCateIndex = _self.mainCate[i].cateid;\n          _self.leftTo = 'cate' + _self.mainCate[i].cateid;\n        } else {\n          i++;\n          if (i < _self.mainCate.length) {\n            _self.getIndex(i, sctop);\n          }\n        }\n      });\n    },\n    // 加入到购物车\n    addtocard: function addtocard(e) {\n      this.goodsCount++; //用于购物车小红点\n      var product = e.currentTarget.dataset.product;\n      //console.log(JSON.stringify(e));\n      if (this.shoppingCart.find(function (x) {\n        return x.id === product.id;\n      }) != undefined) {//商品在shoppingCart购物车已存在\n        uni.showToast({\n          title: '购物车已存在此商品\\n请点击左下角购物车查看',\n          icon: \"none\" });\n\n      } else {\n        product.count = 1;\n        this.shoppingCart.push(product);\n      }\n    },\n    showmenuX: function showmenuX() {\n      this.popmenuShowX = !this.popmenuShowX;\n    },\n    showShppingcard: function showShppingcard() {\n      this.$refs.popup.show();\n    },\n    change: function change(data) {//改变购物车数量\n      var index = data[1];\n      var count = data[0];\n      this.shoppingCart[index].count = count;\n    },\n    deleteProduct: function deleteProduct(index) {\n      this.shoppingCart.splice(index, 1);\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.close();\n      }\n    },\n    settleAccounts: function settleAccounts() {var _this2 = this;\n      if (this.shoppingCart.length === 0) {\n        this.$refs.popup.show();\n      } else {\n        uni.showLoading({\n          title: '加载中' });\n\n        uni.request({\n          url: this.GLOBAL.serverSrc + 'pay/create_order/create',\n          method: 'POST',\n          data: {\n            user_id: this.user.id,\n            shopping_cart: this.shoppingCart },\n\n          success: function success(res) {\n            uni.hideLoading();\n            if (res.data.status === 200) {\n              uni.navigateTo({\n                url: './checkstand?order_id=' + res.data.order_id + '&real_price=' + res.data.real_price });\n\n            } else {\n              uni.showToast({\n                title: res.data.msg,\n                icon: \"none\" });\n\n            }\n          },\n          fail: function fail(e) {\n            uni.hideLoading();\n            _this2.GLOBAL.requestFail(e);\n          } });\n\n      }\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/market.vue?vue&type=script&lang=js&?3b78");
 
 /***/ }),
 
@@ -6609,7 +6842,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    changeWxpay: function changeWxpay() {\n      this.payWay = 'wxpay';\n    },\n    changeAlipay: function changeAlipay() {\n      this.payWay = 'alipay';\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n              uni.redirectTo({\n                url: './payresult?price=' + this.realPrice });\n\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?9fed");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      itemList: [],\n      realPrice: 999,\n      orderId: 0,\n      remark: '',\n      payWay: 'wxpay' };\n\n  },\n  computed: (0, _vuex.mapState)(['user', 'addressInfo']),\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.orderId = parameter.order_id;\n    this.realPrice = parameter.real_price;\n    uni.showLoading({\n      title: '加载中' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'pay/create_order/select',\n      method: 'POST',\n      data: {\n        order_id: this.orderId },\n\n      success: function success(res) {\n        uni.hideLoading();\n        if (res.data.status === 200) {\n          _this.itemList = res.data.itemList;\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        uni.hideLoading();\n        _this.GLOBAL.requestFail(e);\n      } });\n\n  },\n  methods: {\n    changeWxpay: function changeWxpay() {\n      this.payWay = 'wxpay';\n    },\n    changeAlipay: function changeAlipay() {\n      this.payWay = 'alipay';\n    },\n    goPay: function goPay() {\n      if (this.payWay === 'wxpay') {\n        this.wxpay();\n      } else if (this.payWay === 'alipay') {\n        this.alipay();\n      } else {\n        uni.showToast({\n          title: '请选择一个付款方式哦！',\n          icon: 'none' });\n\n      }\n    },\n    wxpay: function wxpay() {var _this2 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/wepay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var _self = _this2;\n          var wxpaySdk = res.data.wepay_sdk;\n          uni.requestPayment({\n            provider: 'wxpay',\n            orderInfo: wxpaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n              uni.redirectTo({\n                url: './payresult?price=' + _self.realPrice });\n\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    alipay: function alipay() {var _this3 = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'pay/alipay/payorder',\n        method: 'POST',\n        data: {\n          order_id: this.orderId,\n          remark: this.remark },\n\n        success: function success(res) {\n          var alipaySdk = res.data.alipay_sdk;\n          uni.requestPayment({\n            provider: 'alipay',\n            orderInfo: alipaySdk, //微信、支付宝订单数据\n            success: function success(res) {\n              if (res.errMsg === 'requestPayment:ok') {\n                uni.showToast({\n                  title: '付款成功' });\n\n              }\n            },\n            fail: function fail(err) {\n              console.log(JSON.stringify(err.errMsg));\n            } });\n\n        },\n        fail: function fail(e) {\n          _this3.GLOBAL.requestFail(e);\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/market/checkstand.vue?vue&type=script&lang=js&?9fed");
 
 /***/ }),
 
@@ -6815,7 +7048,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      //分类信息\n      categories: [{\n        cateid: 0,\n        name: \"全部\" },\n\n      {\n        cateid: 1,\n        name: \"日结\" },\n\n      {\n        cateid: 2,\n        name: \"短期\" },\n\n      {\n        cateid: 3,\n        name: \"长期\" }],\n\n\n      // 当前选择的分类\n      cateCurrentIndex: 0,\n      jobList: [],\n      imagesList: [\n      \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/catclaw.png\",\n      \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/orange.png\",\n      \"https://yuange666.oss-cn-beijing.aliyuncs.com/app/parttime/square2.png\"],\n\n      loading: {\n        show: false,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['selectSchool']),\n  onLoad: function onLoad() {\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList(1, this.categories[this.cateCurrentIndex]);\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  methods: {\n    getList: function getList(page, type) {var _this = this;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'job/job/seljob',\n        method: 'POST',\n        data: {\n          page: page,\n          id: this.selectSchool.id },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this.jobList = res.data.jobList;\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this.GLOBAL.requestFail(e);\n        } });\n\n    },\n    tabChange: function tabChange(e) {\n      // 选中的索引\n      var index = e.currentTarget.dataset.index;\n      this.cateCurrentIndex = index;\n      // 动态替换内容\n      this.loading.nextPages = 2;\n      this.getList(1, this.categories[index].name);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/parttime/index.vue?vue&type=script&lang=js&?4087");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      //分类信息\n      categories: [{\n        cateid: 0,\n        name: \"全部\" },\n\n      {\n        cateid: 1,\n        name: \"日结\" },\n\n      {\n        cateid: 2,\n        name: \"短期\" },\n\n      {\n        cateid: 3,\n        name: \"长期\" }],\n\n\n      // 当前选择的分类\n      cateCurrentIndex: 0,\n      jobList: [],\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['selectSchool']),\n  onLoad: function onLoad() {\n    this.jobList = uni.getStorageSync('jobList'); //获取本地缓存的数据\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'job/job/getjoblist',\n      method: 'POST',\n      data: {\n        page: 1,\n        type: this.categories[this.cateCurrentIndex].name,\n        id: this.selectSchool.id },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.loading.totalPages = res.data.totalPages;\n          _this.jobList = res.data.jobList;\n          //将请求的数据缓存到本地\n          if (_this.cateCurrentIndex === 0) {\n            uni.setStorage({\n              key: 'jobList',\n              data: _this.jobList });\n\n          }\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      }, complete: function complete() {\n        _this.loading.nextPages = 2;\n        uni.stopPullDownRefresh();\n      } });\n\n  },\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'job/job/getjoblist',\n      method: 'POST',\n      data: {\n        page: this.loading.nextPages,\n        type: this.categories[this.cateCurrentIndex].name,\n        id: this.selectSchool.id },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this2.jobList = _this2.jobList.concat(res.data.jobList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this2.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    tabChange: function tabChange(e) {\n      var index = e.currentTarget.dataset.index; // 选中的索引\n      this.cateCurrentIndex = index; // 动态替换索引\n      uni.startPullDownRefresh();\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/parttime/index.vue?vue&type=script&lang=js&?4087");
 
 /***/ }),
 
@@ -6838,7 +7071,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"scroll-view\",\n        {\n          staticClass: \"grace-tab-title grace-center\",\n          attrs: { \"scroll-x\": \"true\", id: \"grace-tab-title\" }\n        },\n        _vm._l(_vm.categories, function(cate, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              class: [_vm.cateCurrentIndex == index ? \"grace-tab-current\" : \"\"],\n              attrs: {\n                \"data-cateid\": cate.cateid,\n                \"data-index\": index,\n                eventid: \"72c5eee7-0-\" + index\n              },\n              on: { tap: _vm.tabChange }\n            },\n            [_vm._v(_vm._s(cate.name))]\n          )\n        })\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"content\" },\n        _vm._l(_vm.jobList, function(job, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"parttime-card\",\n              attrs: { url: \"./details\", eventid: \"72c5eee7-1-\" + index },\n              on: { click: _vm.getimage }\n            },\n            [\n              _c(\"view\", { staticClass: \"parttime-card-img\" }, [\n                _c(\"image\", {\n                  staticClass: \"parttime-card-imge\",\n                  attrs: { src: _vm.imagesList[1], mode: \"scaleToFill\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"text-one\" }, [\n                _vm._v(_vm._s(job.jobtitle))\n              ]),\n              _c(\"view\", { staticClass: \"text-two\" }, [\n                _vm._v(_vm._s(job.treatment))\n              ]),\n              _c(\"view\", { staticClass: \"text-three\" }, [\n                _vm._v(_vm._s(job.site))\n              ]),\n              _c(\"view\", { staticClass: \"text-four\" }, [\n                _vm._v(_vm._s(job.validtime))\n              ])\n            ]\n          )\n        })\n      )\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/parttime/index.vue?vue&type=template&id=7f2e27cf&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"scroll-view\",\n        {\n          staticClass: \"grace-tab-title grace-center\",\n          attrs: { \"scroll-x\": \"true\", id: \"grace-tab-title\" }\n        },\n        _vm._l(_vm.categories, function(cate, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              class: [_vm.cateCurrentIndex == index ? \"grace-tab-current\" : \"\"],\n              attrs: {\n                \"data-cateid\": cate.cateid,\n                \"data-index\": index,\n                eventid: \"72c5eee7-0-\" + index\n              },\n              on: { tap: _vm.tabChange }\n            },\n            [_vm._v(_vm._s(cate.name))]\n          )\n        })\n      ),\n      _c(\n        \"view\",\n        { staticClass: \"content\" },\n        _vm._l(_vm.jobList, function(job, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"parttime-card\",\n              attrs: { url: \"./details?id=\" + job.id }\n            },\n            [\n              _c(\"view\", { staticClass: \"parttime-card-img\" }, [\n                _c(\"image\", {\n                  staticClass: \"parttime-card-imge\",\n                  attrs: { src: job.img, mode: \"scaleToFill\" }\n                })\n              ]),\n              _c(\"view\", { staticClass: \"text-one grace-ellipsis\" }, [\n                _vm._v(_vm._s(job.jobtitle))\n              ]),\n              _c(\"view\", { staticClass: \"text-two\" }, [\n                _vm._v(_vm._s(job.treatment))\n              ]),\n              _c(\"view\", { staticClass: \"text-three\" }, [\n                _vm._v(_vm._s(job.site))\n              ]),\n              _c(\"view\", { staticClass: \"text-four\" }, [\n                _c(\"text\", { staticStyle: { margin: \"5rpx\" } }, [\n                  _vm._v(_vm._s(job.type))\n                ])\n              ]),\n              _c(\"view\", { staticClass: \"text-four\" }, [\n                _c(\"text\", { staticStyle: { margin: \"5rpx\" } }, [\n                  _vm._v(_vm._s(job.validtime))\n                ])\n              ])\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"72c5eee7-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/parttime/index.vue?vue&type=template&id=7f2e27cf&");
 
 /***/ })
 
@@ -6918,7 +7151,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      key: '' };\n\n  } };exports.default = _default;\n\n//# sourceURL=uni-app:///pages/index/parttime/details.vue?vue&type=script&lang=js&?87c3");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      jobId: 0,\n      job: {} };\n\n  },\n  onLoad: function onLoad(parameter) {var _this = this;\n    this.jobId = parameter.id;\n    uni.showLoading({\n      title: '加载中...' });\n\n    uni.request({\n      url: this.GLOBAL.serverSrc + '/job/job/getjob',\n      method: 'POST',\n      data: {\n        id: this.jobId },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.job = res.data.job[0];\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        uni.hideLoading();\n      } });\n\n  } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/index/parttime/details.vue?vue&type=script&lang=js&?87c3");
 
 /***/ }),
 
@@ -6941,7 +7174,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      {\n        staticClass: \"img\",\n        staticStyle: {\n          \"background-image\": \"url('../../../static/parttime/hand.jpg')\",\n          opacity: \"1\"\n        }\n      },\n      [\n        _c(\n          \"view\",\n          { staticClass: \"img-first\" },\n          [_c(\"p\", [_vm._v(\"诚聘日结简单手机兼职App试玩员\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-two\" },\n          [_c(\"p\", [_vm._v(\"10000.00元/天\")])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-three\" },\n          [_c(\"p\", [_vm._v(\"北辰 | 其他\")])],\n          1\n        )\n      ]\n    ),\n    _c(\n      \"view\",\n      { staticClass: \"claim\" },\n      [\n        _c(\"p\", [_vm._v(\"招聘要求\")]),\n        _c(\"view\", { staticClass: \"day\" }, [_vm._v(\"日结\")]),\n        _c(\"view\", { staticClass: \"nine\" }, [_vm._v(\"招九百人\")]),\n        _c(\"view\", { staticClass: \"man\" }, [_vm._v(\"男女不限\")])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _vm._m(0),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _c(\n      \"view\",\n      { staticClass: \"details\" },\n      [\n        _c(\"view\", { staticClass: \"details-one\" }, [_vm._v(\"职位详情\")]),\n        _c(\"p\", [_vm._v(\"唯品会急招线上兼职，0成本在家可做！\")]),\n        _c(\"p\", [_vm._v(\"【报名流程】\")]),\n        _c(\"p\", [\n          _vm._v(\n            \"点击报名后请直接添加客服微信号，只有添加微信号才算报名成功，谢谢合作！(yxy88888888666)\"\n          )\n        ]),\n        _c(\"p\", [_vm._v(\"【报名方法】\")]),\n        _c(\"p\", [\n          _vm._v(\n            \"(点链接后是直接到企业QQ，点添加好友，然后按要求发消息给客服，安排兼职)\"\n          )\n        ]),\n        _c(\"p\", [\n          _vm._v(\n            \"薪资待遇：多劳多得，按照要求完成人物反馈给客服，每个任务1-30元的金额\"\n          )\n        ]),\n        _c(\"p\", [\n          _vm._v(\n            \"工作时间9：00-21：00基本上全天候，最后生命，绝不收费，不要受外面不健康兼职的影响\"\n          )\n        ]),\n        _c(\"p\", { staticClass: \"details-two\" }, [\n          _vm._v(\n            \"Tip:凡收取费用的或工作内容不符的兼职，请提高警惕并第一时间向我们举报\"\n          )\n        ])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _vm._m(1),\n    _c(\"view\", { staticClass: \"gray-one\" }, [\n      _vm._v(\"——————宝贝我也是有底线的——————\")\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"work\" }, [\n      _c(\"view\", { staticClass: \"work-one\" }, [_vm._v(\"工作福利\")]),\n      _c(\"view\", { staticClass: \"eat1\" }, [_vm._v(\"·包吃\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·包住\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·交通补贴\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·有提成\")]),\n      _c(\"view\", { staticClass: \"eat\" }, [_vm._v(\"·免费培训\")])\n    ])\n  },\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"worktime\" }, [\n      _c(\"view\", { staticClass: \"worktime-one\" }, [_vm._v(\"工作时间\")]),\n      _c(\"view\", { staticClass: \"work-begin\" }, [\n        _vm._v(\"开始时间：? 04月01日\")\n      ]),\n      _c(\"view\", { staticClass: \"work-end\" }, [_vm._v(\"结束时间：? 04月30日\")])\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/parttime/details.vue?vue&type=template&id=3c041802&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _c(\n      \"view\",\n      {\n        staticClass: \"img\",\n        staticStyle: {\n          \"background-image\": \"url('../../../static/parttime/hand.jpg')\",\n          opacity: \"1\"\n        }\n      },\n      [\n        _c(\n          \"view\",\n          { staticClass: \"img-first\" },\n          [_c(\"p\", [_vm._v(_vm._s(_vm.job.jobtitle))])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-two\" },\n          [_c(\"p\", [_vm._v(_vm._s(_vm.job.treatment))])],\n          1\n        ),\n        _c(\n          \"view\",\n          { staticClass: \"img-three\" },\n          [\n            _c(\"p\", [\n              _vm._v(_vm._s(_vm.job.county) + \" | \" + _vm._s(_vm.job.site))\n            ])\n          ],\n          1\n        )\n      ]\n    ),\n    _c(\n      \"view\",\n      { staticClass: \"claim\" },\n      [\n        _c(\"p\", [_vm._v(\"招聘要求\")]),\n        _c(\"view\", { staticClass: \"day\" }, [_vm._v(_vm._s(_vm.job.type))]),\n        _c(\"view\", { staticClass: \"nine\" }, [_vm._v(\"招九百人\")]),\n        _c(\"view\", { staticClass: \"man\" }, [_vm._v(\"男女不限\")])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _c(\n      \"view\",\n      { staticClass: \"details\" },\n      [\n        _c(\"view\", { staticClass: \"work-title\" }, [_vm._v(\"工作福利\")]),\n        _c(\"p\", [_vm._v(\"·包吃\")]),\n        _c(\"p\", [_vm._v(\"·包住\")]),\n        _c(\"p\", [_vm._v(\"·交通补贴\")]),\n        _c(\"p\", [_vm._v(\"·有提成\")]),\n        _c(\"p\", [_vm._v(\"·免费培训\")])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _c(\n      \"view\",\n      { staticClass: \"details\" },\n      [\n        _c(\"view\", { staticClass: \"work-title\" }, [_vm._v(\"职位详情\")]),\n        _c(\"p\", [_vm._v(_vm._s(_vm.job.content))])\n      ],\n      1\n    ),\n    _c(\"view\", { staticClass: \"gray\" }),\n    _c(\n      \"view\",\n      { staticClass: \"details\" },\n      [\n        _c(\"view\", { staticClass: \"work-title\" }, [_vm._v(\"工作时间\")]),\n        _c(\"p\", [_vm._v(\"发布时间：\" + _vm._s(_vm.job.addtime))]),\n        _c(\"p\", [_vm._v(\"报到时间：2019年-04-25\")])\n      ],\n      1\n    )\n  ])\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/index/parttime/details.vue?vue&type=template&id=3c041802&");
 
 /***/ })
 
@@ -7696,7 +7929,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;var _default =\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n{\n  data: function data() {\n    return {\n      keyword: \"\",\n      oldKeywordList: [],\n      hotKeywordList: [],\n      keywordList: [],\n      forbid: '',\n      isShowKeywordList: false };\n\n  },\n  onLoad: function onLoad() {\n    this.init();\n  },\n  methods: {\n    back: function back() {\n      uni.navigateBack();\n    },\n    init: function init() {\n      this.loadOldKeyword();\n      this.loadHotKeyword();\n    },\n    blur: function blur() {\n      uni.hideKeyboard();\n    },\n    //加载历史搜索,自动读取本地Storage\n    loadOldKeyword: function loadOldKeyword() {var _this = this;\n      uni.getStorage({\n        key: 'OldKeys',\n        success: function success(res) {\n          var OldKeys = JSON.parse(res.data);\n          _this.oldKeywordList = OldKeys;\n        } });\n\n    },\n    //加载热门搜索\n    loadHotKeyword: function loadHotKeyword() {\n      //定义热门搜索关键字，可以自己实现ajax请求数据再赋值\n      this.hotKeywordList = ['键盘', '鼠标', '显示器', '电脑主机', '蓝牙音箱', '笔记本电脑', '鼠标垫', 'USB', 'USB3.0'];\n    },\n    //监听输入\n    inputChange: function inputChange(event) {var _this2 = this;\n      //兼容引入组件时传入参数情况\n      var keyword = event.detail ? event.detail.value : event;\n      if (!keyword) {\n        this.keywordList = [];\n        this.isShowKeywordList = false;\n        return;\n      }\n      this.isShowKeywordList = true;\n      //以下示例截取淘宝的关键字，请替换成你的接口\n      uni.request({\n        url: 'https://suggest.taobao.com/sug?code=utf-8&q=' + keyword, //仅为示例\n        success: function success(res) {\n          _this2.keywordList = _this2.drawCorrelativeKeyword(res.data.result, keyword);\n        } });\n\n    },\n    //高亮关键字\n    drawCorrelativeKeyword: function drawCorrelativeKeyword(keywords, keyword) {\n      var len = keywords.length,\n      keywordArr = [];\n      for (var i = 0; i < len; i++) {\n        var row = keywords[i];\n        //定义高亮#9f9f9f\n        var html = row[0].replace(keyword, \"<span style='color: #9f9f9f;'>\" + keyword + \"</span>\");\n        html = '<div>' + html + '</div>';\n        var tmpObj = {\n          keyword: row[0],\n          htmlStr: html };\n\n        keywordArr.push(tmpObj);\n      }\n      return keywordArr;\n    },\n    //顶置关键字\n    setkeyword: function setkeyword(data) {\n      this.keyword = data.keyword;\n    },\n    //清除历史搜索\n    oldDelete: function oldDelete() {var _this3 = this;\n      uni.showModal({\n        content: '确定清除历史搜索记录？',\n        success: function success(res) {\n          if (res.confirm) {\n            console.log('用户点击确定');\n            _this3.oldKeywordList = [];\n            uni.removeStorage({\n              key: 'OldKeys' });\n\n          } else if (res.cancel) {\n            console.log('用户点击取消');\n          }\n        } });\n\n    },\n    //热门搜索开关\n    hotToggle: function hotToggle() {\n      this.forbid = this.forbid ? '' : '_forbid';\n    },\n    //执行搜索\n    doSearch: function doSearch(key) {\n      key = key ? key : this.keyword ? this.keyword : this.defaultKeyword;\n      this.keyword = key;\n      this.saveKeyword(key); //保存为历史 \n      uni.showToast({\n        title: key,\n        icon: 'none',\n        duration: 2000 });\n\n      //以下是示例跳转淘宝搜索，可自己实现搜索逻辑\n\n      plus.runtime.openURL(encodeURI('taobao://s.taobao.com/search?q=' + key));\n\n\n\n\n    },\n    //保存关键字到历史记录\n    saveKeyword: function saveKeyword(keyword) {var _this4 = this;\n      uni.getStorage({\n        key: 'OldKeys',\n        success: function success(res) {\n          console.log(res.data);\n          var OldKeys = JSON.parse(res.data);\n          var findIndex = OldKeys.indexOf(keyword);\n          if (findIndex == -1) {\n            OldKeys.unshift(keyword);\n          } else {\n            OldKeys.splice(findIndex, 1);\n            OldKeys.unshift(keyword);\n          }\n          //最多10个纪录\n          OldKeys.length > 10 && OldKeys.pop();\n          uni.setStorage({\n            key: 'OldKeys',\n            data: JSON.stringify(OldKeys) });\n\n          _this4.oldKeywordList = OldKeys; //更新历史搜索\n        },\n        fail: function fail(e) {\n          var OldKeys = [keyword];\n          uni.setStorage({\n            key: 'OldKeys',\n            data: JSON.stringify(OldKeys) });\n\n          _this4.oldKeywordList = OldKeys; //更新历史搜索\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/search.vue?vue&type=script&lang=js&?05a1");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");var _default =\n\n\n{\n  data: function data() {\n    return {\n      confession: [],\n      market: [],\n      job: [],\n      user: [],\n      keyword: \"\",\n      oldKeywordList: [],\n      hotKeywordList: [],\n      keywordList: [],\n      forbid: '',\n      isShowKeywordList: false };\n\n  },\n  computed: (0, _vuex.mapState)(['selectSchool']),\n  onLoad: function onLoad() {\n    this.loadOldKeyword();\n    this.loadHotKeyword();\n  },\n  methods: {\n    goConfession: function goConfession(id) {\n      this.saveKeyword();\n      uni.navigateTo({\n        url: '/pages/index/confession/detail?id=' + id });\n\n    },\n    goJob: function goJob(id) {\n      this.saveKeyword();\n      uni.navigateTo({\n        url: '/pages/index/parttime/details?id=' + id });\n\n    },\n    goMarket: function goMarket(id, name) {\n      this.saveKeyword();\n      uni.navigateTo({\n        url: '/pages/index/market/market?market_id=' + id + '&market_name=' + name });\n\n    },\n    doSearch: function doSearch(key) {\n      this.keyword = key;\n      this.inputChange();\n    },\n    back: function back() {\n      uni.navigateBack();\n    },\n    blur: function blur() {\n      uni.hideKeyboard();\n    },\n    //加载历史搜索,自动读取本地Storage\n    loadOldKeyword: function loadOldKeyword() {var _this = this;\n      uni.getStorage({\n        key: 'OldKeys',\n        success: function success(res) {\n          var OldKeys = JSON.parse(res.data);\n          _this.oldKeywordList = OldKeys;\n        } });\n\n    },\n    //加载热门搜索\n    loadHotKeyword: function loadHotKeyword() {\n      //定义热门搜索关键字，可以自己实现ajax请求数据再赋值\n      this.hotKeywordList = ['电子', '天津', '手机'];\n    },\n    //监听输入\n    inputChange: function inputChange() {var _this2 = this;\n      //兼容引入组件时传入参数情况\n      var keyword = this.keyword;\n      if (!keyword) {\n        this.keywordList = [];\n        this.isShowKeywordList = false;\n        return;\n      }\n      this.isShowKeywordList = true;\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'common/seek/searchMess',\n        method: 'GET',\n        data: {\n          title: keyword,\n          id: this.selectSchool.id },\n\n        success: function success(res) {\n          _this2.confession = res.data.confession;\n          _this2.job = res.data.job;\n          _this2.market = res.data.market;\n          _this2.user = res.data.user;\n          console.log(JSON.stringify(res));\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        } });\n\n    },\n    //清除历史搜索\n    oldDelete: function oldDelete() {var _this3 = this;\n      uni.showModal({\n        content: '确定清除历史搜索记录？',\n        success: function success(res) {\n          if (res.confirm) {\n            console.log('用户点击确定');\n            _this3.oldKeywordList = [];\n            uni.removeStorage({\n              key: 'OldKeys' });\n\n          } else if (res.cancel) {\n            console.log('用户点击取消');\n          }\n        } });\n\n    },\n    //热门搜索开关\n    hotToggle: function hotToggle() {\n      this.forbid = this.forbid ? '' : '_forbid';\n    },\n    //保存关键字到历史记录\n    saveKeyword: function saveKeyword() {var _this4 = this;\n      var keyword = this.keyword;\n      uni.getStorage({\n        key: 'OldKeys',\n        success: function success(res) {\n          var OldKeys = JSON.parse(res.data);\n          var findIndex = OldKeys.indexOf(keyword);\n          if (findIndex == -1) {\n            OldKeys.unshift(keyword);\n          } else {\n            OldKeys.splice(findIndex, 1);\n            OldKeys.unshift(keyword);\n          }\n          //最多10个纪录\n          OldKeys.length > 10 && OldKeys.pop();\n          uni.setStorage({\n            key: 'OldKeys',\n            data: JSON.stringify(OldKeys) });\n\n          _this4.oldKeywordList = OldKeys; //更新历史搜索\n        },\n        fail: function fail(e) {\n          var OldKeys = [keyword];\n          uni.setStorage({\n            key: 'OldKeys',\n            data: JSON.stringify(OldKeys) });\n\n          _this4.oldKeywordList = OldKeys; //更新历史搜索\n        } });\n\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/common/search.vue?vue&type=script&lang=js&?05a1");
 
 /***/ }),
 
@@ -7719,7 +7952,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _vm._m(0),\n    _c(\"view\", { staticClass: \"content\" }, [\n      _c(\"view\", { staticClass: \"search-box\" }, [\n        _c(\"view\", { staticClass: \"input-box\" }, [\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-arrow-left\",\n            attrs: { eventid: \"71fa5f65-0\" },\n            on: {\n              click: function($event) {\n                _vm.back()\n              }\n            }\n          }),\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.keyword,\n                expression: \"keyword\"\n              }\n            ],\n            attrs: {\n              focus: \"\",\n              type: \"text\",\n              placeholder: _vm.hotKeywordList[0],\n              \"placeholder-class\": \"placeholder-class\",\n              \"confirm-type\": \"search\",\n              eventid: \"71fa5f65-1\"\n            },\n            domProps: { value: _vm.keyword },\n            on: {\n              input: [\n                function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.keyword = $event.target.value\n                },\n                _vm.inputChange\n              ],\n              confirm: function($event) {\n                _vm.doSearch(false)\n              }\n            }\n          })\n        ]),\n        _c(\n          \"view\",\n          {\n            staticClass: \"search-btn\",\n            attrs: { eventid: \"71fa5f65-2\" },\n            on: {\n              tap: function($event) {\n                _vm.doSearch(false)\n              }\n            }\n          },\n          [_vm._v(\"搜索\")]\n        )\n      ]),\n      _c(\n        \"view\",\n        {\n          staticClass: \"search-keyword\",\n          attrs: { eventid: \"71fa5f65-9\" },\n          on: { touchstart: _vm.blur }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              directives: [\n                {\n                  name: \"show\",\n                  rawName: \"v-show\",\n                  value: _vm.isShowKeywordList,\n                  expression: \"isShowKeywordList\"\n                }\n              ],\n              staticClass: \"keyword-list-box\",\n              attrs: { \"scroll-y\": \"\" }\n            },\n            _vm._l(_vm.keywordList, function(row, index0) {\n              return _c(\n                \"view\",\n                {\n                  key: row.keyword,\n                  staticClass: \"keyword-entry\",\n                  attrs: { \"hover-class\": \"keyword-entry-tap\" }\n                },\n                [\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"keyword-text\",\n                      attrs: { eventid: \"71fa5f65-3-\" + index0 },\n                      on: {\n                        tap: function($event) {\n                          _vm.doSearch(row.keyword)\n                        }\n                      }\n                    },\n                    [\n                      _c(\"rich-text\", {\n                        attrs: {\n                          nodes: row.htmlStr,\n                          mpcomid: \"71fa5f65-0-\" + index0\n                        }\n                      })\n                    ],\n                    1\n                  ),\n                  _c(\n                    \"view\",\n                    {\n                      staticClass: \"keyword-img\",\n                      attrs: { eventid: \"71fa5f65-4-\" + index0 },\n                      on: {\n                        tap: function($event) {\n                          _vm.setkeyword(row)\n                        }\n                      }\n                    },\n                    [\n                      _c(\"image\", {\n                        attrs: { src: \"../../static/search/back.png\" }\n                      })\n                    ]\n                  )\n                ]\n              )\n            })\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              directives: [\n                {\n                  name: \"show\",\n                  rawName: \"v-show\",\n                  value: !_vm.isShowKeywordList,\n                  expression: \"!isShowKeywordList\"\n                }\n              ],\n              staticClass: \"keyword-box\",\n              attrs: { \"scroll-y\": \"\" }\n            },\n            [\n              _vm.oldKeywordList.length > 0\n                ? _c(\"view\", { staticClass: \"keyword-block\" }, [\n                    _c(\"view\", { staticClass: \"keyword-list-header\" }, [\n                      _c(\"view\", [_vm._v(\"历史搜索\")]),\n                      _c(\"view\", [\n                        _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/search/delete.png\",\n                            eventid: \"71fa5f65-5\"\n                          },\n                          on: { tap: _vm.oldDelete }\n                        })\n                      ])\n                    ]),\n                    _c(\n                      \"view\",\n                      { staticClass: \"keyword\" },\n                      _vm._l(_vm.oldKeywordList, function(key, index1) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: key,\n                            attrs: { eventid: \"71fa5f65-6-\" + index1 },\n                            on: {\n                              tap: function($event) {\n                                _vm.doSearch(key)\n                              }\n                            }\n                          },\n                          [_vm._v(_vm._s(key))]\n                        )\n                      })\n                    )\n                  ])\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"keyword-block\" }, [\n                _c(\"view\", { staticClass: \"keyword-list-header\" }, [\n                  _c(\"view\", [_vm._v(\"热门搜索\")]),\n                  _c(\"view\", [\n                    _c(\"image\", {\n                      attrs: {\n                        src:\n                          \"../../static/search/attention\" + _vm.forbid + \".png\",\n                        eventid: \"71fa5f65-7\"\n                      },\n                      on: { tap: _vm.hotToggle }\n                    })\n                  ])\n                ]),\n                _vm.forbid == \"\"\n                  ? _c(\n                      \"view\",\n                      { staticClass: \"keyword\" },\n                      _vm._l(_vm.hotKeywordList, function(key, index2) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: key,\n                            attrs: { eventid: \"71fa5f65-8-\" + index2 },\n                            on: {\n                              tap: function($event) {\n                                _vm.doSearch(key)\n                              }\n                            }\n                          },\n                          [_vm._v(_vm._s(key))]\n                        )\n                      })\n                    )\n                  : _c(\"view\", { staticClass: \"hide-hot-tis\" }, [\n                      _c(\"view\", [_vm._v(\"当前搜热门搜索已隐藏\")])\n                    ])\n              ])\n            ]\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/common/search.vue?vue&type=template&id=dbf620a6&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"view\", [\n    _vm._m(0),\n    _c(\"view\", { staticClass: \"content\" }, [\n      _c(\"view\", { staticClass: \"search-box\" }, [\n        _c(\"view\", { staticClass: \"input-box\" }, [\n          _c(\"view\", {\n            staticClass: \"grace-iconfont icon-arrow-left\",\n            attrs: { eventid: \"71fa5f65-0\" },\n            on: {\n              click: function($event) {\n                _vm.back()\n              }\n            }\n          }),\n          _c(\"input\", {\n            directives: [\n              {\n                name: \"model\",\n                rawName: \"v-model\",\n                value: _vm.keyword,\n                expression: \"keyword\"\n              }\n            ],\n            attrs: {\n              focus: \"\",\n              type: \"text\",\n              placeholder: _vm.hotKeywordList[0],\n              \"placeholder-class\": \"placeholder-class\",\n              \"confirm-type\": \"search\",\n              eventid: \"71fa5f65-1\"\n            },\n            domProps: { value: _vm.keyword },\n            on: {\n              input: [\n                function($event) {\n                  if ($event.target.composing) {\n                    return\n                  }\n                  _vm.keyword = $event.target.value\n                },\n                _vm.inputChange\n              ],\n              confirm: function($event) {\n                _vm.inputChange()\n              }\n            }\n          })\n        ]),\n        _c(\n          \"view\",\n          {\n            staticClass: \"search-btn\",\n            attrs: { eventid: \"71fa5f65-2\" },\n            on: {\n              tap: function($event) {\n                _vm.inputChange()\n              }\n            }\n          },\n          [_vm._v(\"搜索\")]\n        )\n      ]),\n      _c(\n        \"view\",\n        {\n          staticClass: \"search-keyword\",\n          attrs: { eventid: \"71fa5f65-11\" },\n          on: { touchstart: _vm.blur }\n        },\n        [\n          _c(\n            \"scroll-view\",\n            {\n              directives: [\n                {\n                  name: \"show\",\n                  rawName: \"v-show\",\n                  value: _vm.isShowKeywordList,\n                  expression: \"isShowKeywordList\"\n                }\n              ],\n              staticClass: \"keyword-list-box\",\n              attrs: { \"scroll-y\": \"\" }\n            },\n            [\n              _vm.user.length > 0\n                ? _c(\n                    \"view\",\n                    [\n                      _c(\"view\", { staticClass: \"grace-title grace-nowrap\" }, [\n                        _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                          _vm._v(\"校友\")\n                        ])\n                      ]),\n                      _vm._l(_vm.user, function(row, userIndex) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: userIndex,\n                            staticClass: \"keyword-entry\",\n                            attrs: { \"hover-class\": \"keyword-entry-tap\" }\n                          },\n                          [\n                            _c(\n                              \"view\",\n                              {\n                                staticClass: \"keyword-text\",\n                                attrs: { eventid: \"71fa5f65-3-\" + userIndex },\n                                on: {\n                                  click: function($event) {\n                                    _vm.goUser(row.user_id)\n                                  }\n                                }\n                              },\n                              [\n                                _c(\"rich-text\", {\n                                  attrs: {\n                                    nodes: row.user_name,\n                                    mpcomid: \"71fa5f65-0-\" + userIndex\n                                  }\n                                })\n                              ],\n                              1\n                            ),\n                            _c(\"view\", { staticClass: \"keyword-img\" }, [\n                              _c(\"image\", {\n                                attrs: { src: \"../../static/search/back.png\" }\n                              })\n                            ])\n                          ]\n                        )\n                      })\n                    ],\n                    2\n                  )\n                : _vm._e(),\n              _vm.confession.length > 0\n                ? _c(\n                    \"view\",\n                    [\n                      _c(\"view\", { staticClass: \"grace-title grace-nowrap\" }, [\n                        _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                          _vm._v(\"表白墙\")\n                        ])\n                      ]),\n                      _vm._l(_vm.confession, function(row, conIndex) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: conIndex,\n                            staticClass: \"keyword-entry\",\n                            attrs: { \"hover-class\": \"keyword-entry-tap\" }\n                          },\n                          [\n                            _c(\n                              \"view\",\n                              {\n                                staticClass: \"keyword-text\",\n                                attrs: { eventid: \"71fa5f65-4-\" + conIndex },\n                                on: {\n                                  click: function($event) {\n                                    _vm.goConfession(row.article_id)\n                                  }\n                                }\n                              },\n                              [\n                                _c(\"rich-text\", {\n                                  attrs: {\n                                    nodes: row.content,\n                                    mpcomid: \"71fa5f65-1-\" + conIndex\n                                  }\n                                })\n                              ],\n                              1\n                            ),\n                            _c(\"view\", { staticClass: \"keyword-img\" }, [\n                              _c(\"image\", {\n                                attrs: { src: \"../../static/search/back.png\" }\n                              })\n                            ])\n                          ]\n                        )\n                      })\n                    ],\n                    2\n                  )\n                : _vm._e(),\n              _vm.market.length > 0\n                ? _c(\n                    \"view\",\n                    [\n                      _c(\"view\", { staticClass: \"grace-title grace-nowrap\" }, [\n                        _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                          _vm._v(\"超市\")\n                        ])\n                      ]),\n                      _vm._l(_vm.market, function(row, marketIndex) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: marketIndex,\n                            staticClass: \"keyword-entry\",\n                            attrs: { \"hover-class\": \"keyword-entry-tap\" }\n                          },\n                          [\n                            _c(\n                              \"view\",\n                              {\n                                staticClass: \"keyword-text\",\n                                attrs: { eventid: \"71fa5f65-5-\" + marketIndex },\n                                on: {\n                                  click: function($event) {\n                                    _vm.goMarket(row.market_id, row.market_name)\n                                  }\n                                }\n                              },\n                              [\n                                _c(\"rich-text\", {\n                                  attrs: {\n                                    nodes: row.market_name,\n                                    mpcomid: \"71fa5f65-2-\" + marketIndex\n                                  }\n                                })\n                              ],\n                              1\n                            ),\n                            _c(\"view\", { staticClass: \"keyword-img\" }, [\n                              _c(\"image\", {\n                                attrs: { src: \"../../static/search/back.png\" }\n                              })\n                            ])\n                          ]\n                        )\n                      })\n                    ],\n                    2\n                  )\n                : _vm._e(),\n              _vm.job.length > 0\n                ? _c(\n                    \"view\",\n                    [\n                      _c(\"view\", { staticClass: \"grace-title grace-nowrap\" }, [\n                        _c(\"view\", { staticClass: \"grace-h5 grace-blod\" }, [\n                          _vm._v(\"兼职\")\n                        ])\n                      ]),\n                      _vm._l(_vm.job, function(row, jobIndex) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: jobIndex,\n                            staticClass: \"keyword-entry\",\n                            attrs: { \"hover-class\": \"keyword-entry-tap\" }\n                          },\n                          [\n                            _c(\n                              \"view\",\n                              {\n                                staticClass: \"keyword-text\",\n                                attrs: { eventid: \"71fa5f65-6-\" + jobIndex },\n                                on: {\n                                  click: function($event) {\n                                    _vm.goJob(row.id)\n                                  }\n                                }\n                              },\n                              [\n                                _c(\"rich-text\", {\n                                  attrs: {\n                                    nodes: row.jobtitle,\n                                    mpcomid: \"71fa5f65-3-\" + jobIndex\n                                  }\n                                })\n                              ],\n                              1\n                            ),\n                            _c(\"view\", { staticClass: \"keyword-img\" }, [\n                              _c(\"image\", {\n                                attrs: { src: \"../../static/search/back.png\" }\n                              })\n                            ])\n                          ]\n                        )\n                      })\n                    ],\n                    2\n                  )\n                : _vm._e()\n            ]\n          ),\n          _c(\n            \"scroll-view\",\n            {\n              directives: [\n                {\n                  name: \"show\",\n                  rawName: \"v-show\",\n                  value: !_vm.isShowKeywordList,\n                  expression: \"!isShowKeywordList\"\n                }\n              ],\n              staticClass: \"keyword-box\",\n              attrs: { \"scroll-y\": \"\" }\n            },\n            [\n              _vm.oldKeywordList.length > 0\n                ? _c(\"view\", { staticClass: \"keyword-block\" }, [\n                    _c(\"view\", { staticClass: \"keyword-list-header\" }, [\n                      _c(\"view\", [_vm._v(\"历史搜索\")]),\n                      _c(\"view\", [\n                        _c(\"image\", {\n                          attrs: {\n                            src: \"../../static/search/delete.png\",\n                            eventid: \"71fa5f65-7\"\n                          },\n                          on: { tap: _vm.oldDelete }\n                        })\n                      ])\n                    ]),\n                    _c(\n                      \"view\",\n                      { staticClass: \"keyword\" },\n                      _vm._l(_vm.oldKeywordList, function(key, index0) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: key,\n                            attrs: { eventid: \"71fa5f65-8-\" + index0 },\n                            on: {\n                              tap: function($event) {\n                                _vm.doSearch(key)\n                              }\n                            }\n                          },\n                          [_vm._v(_vm._s(key))]\n                        )\n                      })\n                    )\n                  ])\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"keyword-block\" }, [\n                _c(\"view\", { staticClass: \"keyword-list-header\" }, [\n                  _c(\"view\", [_vm._v(\"热门搜索\")]),\n                  _c(\"view\", [\n                    _c(\"image\", {\n                      attrs: {\n                        src:\n                          \"../../static/search/attention\" + _vm.forbid + \".png\",\n                        eventid: \"71fa5f65-9\"\n                      },\n                      on: { tap: _vm.hotToggle }\n                    })\n                  ])\n                ]),\n                _vm.forbid == \"\"\n                  ? _c(\n                      \"view\",\n                      { staticClass: \"keyword\" },\n                      _vm._l(_vm.hotKeywordList, function(key, index1) {\n                        return _c(\n                          \"view\",\n                          {\n                            key: key,\n                            attrs: { eventid: \"71fa5f65-10-\" + index1 },\n                            on: {\n                              tap: function($event) {\n                                _vm.doSearch(key)\n                              }\n                            }\n                          },\n                          [_vm._v(_vm._s(key))]\n                        )\n                      })\n                    )\n                  : _c(\"view\", { staticClass: \"hide-hot-tis\" }, [\n                      _c(\"view\", [_vm._v(\"当前搜热门搜索已隐藏\")])\n                    ])\n              ])\n            ]\n          )\n        ],\n        1\n      )\n    ])\n  ])\n}\nvar staticRenderFns = [\n  function() {\n    var _vm = this\n    var _h = _vm.$createElement\n    var _c = _vm._self._c || _h\n    return _c(\"view\", { staticClass: \"header\" }, [\n      _c(\"view\", { staticClass: \"status-bar\" })\n    ])\n  }\n]\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/common/search.vue?vue&type=template&id=dbf620a6&");
 
 /***/ })
 
@@ -8037,7 +8270,7 @@ eval("__webpack_require__(/*! uni-pages */ \"../../../development/unitopschool/p
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hot.vue?vue&type=template&id=af75a7a8& */ \"../../../development/unitopschool/pages/hot/hot.vue?vue&type=template&id=af75a7a8&\");\n/* harmony import */ var _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hot.vue?vue&type=script&lang=js& */ \"../../../development/unitopschool/pages/hot/hot.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"development/unitopschool/pages/hot/hot.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./hot.vue?vue&type=template&id=af75a7a8& */ \"../../../development/unitopschool/pages/hot/hot.vue?vue&type=template&id=af75a7a8&\");\n/* harmony import */ var _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./hot.vue?vue&type=script&lang=js& */ \"../../../development/unitopschool/pages/hot/hot.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./hot.vue?vue&type=style&index=0&lang=css& */ \"../../../development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])(\n  _hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _hot_vue_vue_type_template_id_af75a7a8___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"development/unitopschool/pages/hot/hot.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue");
 
 /***/ }),
 
@@ -8050,6 +8283,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hot
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./hot.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/hot.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/hot/hot.vue?vue&type=script&lang=js&?499c");
+
+/***/ }),
+
+/***/ "../../../development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************!*\
+  !*** E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!../../../../HBuilderX/plugins/uniapp-cli/node_modules/css-loader??ref--6-oneOf-1-2!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/postcss-loader/src??ref--6-oneOf-1-3!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./hot.vue?vue&type=style&index=0&lang=css& */ \"./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&\");\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_HBuilderX_plugins_uniapp_cli_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_6_oneOf_1_1_HBuilderX_plugins_uniapp_cli_node_modules_css_loader_index_js_ref_6_oneOf_1_2_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_stylePostLoader_js_HBuilderX_plugins_uniapp_cli_node_modules_postcss_loader_src_index_js_ref_6_oneOf_1_3_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_hot_vue_vue_type_style_index_0_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&");
 
 /***/ }),
 
@@ -8073,7 +8318,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n//# sourceURL=uni-app:///pages/hot/hot.vue?vue&type=script&lang=js&?84ef");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      newsList: [],\n      loading: {\n        show: true,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  onLoad: function onLoad() {\n    uni.startPullDownRefresh();\n  },\n  onPullDownRefresh: function onPullDownRefresh() {var _this = this;\n    uni.request({\n      url: 'http://api.dagoogle.cn/news/nlist',\n      method: 'GET',\n      data: {\n        cid: 9,\n        page: 1,\n        psize: 20 },\n\n      success: function success(res) {\n        _this.newsList = res.data.data.list;\n        _this.loading.totalPages = res.data.data.total;\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        uni.stopPullDownRefresh();\n      } });\n\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this2 = this;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    var prior = (this.loading.nextPages - 2) * 10;\n    var nowNum = (this.loading.nextPages - 1) * 10;\n    uni.request({\n      url: 'http://api.dagoogle.cn/news/nlist',\n      method: 'GET',\n      data: {\n        cid: 9,\n        page: this.loading.nextPages,\n        psize: 20 },\n\n      success: function success(res) {\n        _this2.newsList = _this2.newsList.concat(res.data.data.list);\n      },\n      fail: function fail(e) {\n        _this2.GLOBAL.requestFail(e);\n      },\n      complete: function complete() {\n        _this2.loading.type = 0;\n        _this2.loading.nextPages++;\n      } });\n\n  },\n  methods: {} };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/hot/hot.vue?vue&type=script&lang=js&?84ef");
+
+/***/ }),
+
+/***/ "./node_modules/mini-css-extract-plugin/dist/loader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/mini-css-extract-plugin/dist/loader.js??ref--6-oneOf-1-0!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--6-oneOf-1-1!./node_modules/css-loader??ref--6-oneOf-1-2!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-oneOf-1-3!./node_modules/vue-loader/lib??vue-loader-options!E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=style&index=0&lang=css&");
 
 /***/ }),
 
@@ -8085,13 +8341,93 @@ eval("\n\n//# sourceURL=uni-app:///pages/hot/hot.vue?vue&type=script&lang=js&?84
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\"div\")\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=template&id=af75a7a8&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    { staticClass: \"grace-padding\" },\n    [\n      _c(\n        \"view\",\n        { staticClass: \"grace-news-list\" },\n        _vm._l(_vm.newsList, function(news, index) {\n          return _c(\n            \"navigator\",\n            {\n              key: index,\n              staticClass: \"has-borderb\",\n              attrs: { url: \"./detail?aid=\" + news.aid }\n            },\n            [\n              _c(\"view\", { staticClass: \"grace-news-list-items\" }, [\n                _c(\"image\", {\n                  staticClass: \"grace-news-list-img grace-list-imgs-l\",\n                  attrs: { src: news.headpic, mode: \"widthFix\" }\n                }),\n                _c(\"view\", { staticClass: \"grace-news-list-title\" }, [\n                  _c(\"view\", { staticClass: \"grace-news-list-title-main\" }, [\n                    _vm._v(_vm._s(news.title))\n                  ]),\n                  _c(\n                    \"text\",\n                    {\n                      staticClass:\n                        \"grace-news-list-title-desc grace-text-overflow\"\n                    },\n                    [_vm._v(_vm._s(news.source))]\n                  )\n                ])\n              ])\n            ]\n          )\n        })\n      ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"47becf64-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/hot.vue?vue&type=template&id=af75a7a8&");
 
 /***/ })
 
 },[["../../../development/unitopschool/main.js?{\"page\":\"pages%2Fhot%2Fhot\"}","common/runtime","common/vendor"]]]);
 });
 require('pages/hot/hot.js');
+__wxRoute = 'pages/hot/detail';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/hot/detail.js';
+
+define('pages/hot/detail.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
+(global["webpackJsonp"] = global["webpackJsonp"] || []).push([["pages/hot/detail"],{
+
+/***/ "../../../development/unitopschool/main.js?{\"page\":\"pages%2Fhot%2Fdetail\"}":
+/*!***********************************************************************************!*\
+  !*** E:/project/development/unitopschool/main.js?{"page":"pages%2Fhot%2Fdetail"} ***!
+  \***********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__(/*! uni-pages */ \"../../../development/unitopschool/pages.json\");\nvar _mpvuePageFactory = _interopRequireDefault(__webpack_require__(/*! mpvue-page-factory */ \"./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mpvue-page-factory/index.js\"));\nvar _detail = _interopRequireDefault(__webpack_require__(/*! ./pages/hot/detail.vue */ \"../../../development/unitopschool/pages/hot/detail.vue\"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}\nPage((0, _mpvuePageFactory.default)(_detail.default));\n\n//# sourceURL=E:/project/development/unitopschool/main.js?%7B%22page%22:%22pages%252Fhot%252Fdetail%22%7D");
+
+/***/ }),
+
+/***/ "../../../development/unitopschool/pages/hot/detail.vue":
+/*!****************************************************************!*\
+  !*** E:/project/development/unitopschool/pages/hot/detail.vue ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./detail.vue?vue&type=template&id=be14057c& */ \"../../../development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&\");\n/* harmony import */ var _detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./detail.vue?vue&type=script&lang=js& */ \"../../../development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js&\");\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/runtime/componentNormalizer.js */ \"./node_modules/vue-loader/lib/runtime/componentNormalizer.js\");\n\n\n\n\n\n/* normalize component */\n\nvar component = Object(_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(\n  _detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[\"default\"],\n  _detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__[\"render\"],\n  _detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"],\n  false,\n  null,\n  null,\n  null\n  \n)\n\n/* hot reload */\nif (false) { var api; }\ncomponent.options.__file = \"development/unitopschool/pages/hot/detail.vue\"\n/* harmony default export */ __webpack_exports__[\"default\"] = (component.exports);\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/detail.vue");
+
+/***/ }),
+
+/***/ "../../../development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************!*\
+  !*** E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/babel-loader/lib!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./detail.vue?vue&type=script&lang=js& */ \"./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js&\");\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);\n/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));\n /* harmony default export */ __webpack_exports__[\"default\"] = (_HBuilderX_plugins_uniapp_cli_node_modules_babel_loader_lib_index_js_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_12_1_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_18_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_script_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); \n\n//# sourceURL=uni-app:///pages/hot/detail.vue?vue&type=script&lang=js&?e549");
+
+/***/ }),
+
+/***/ "../../../development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&":
+/*!***********************************************************************************************!*\
+  !*** E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c& ***!
+  \***********************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!../../../../HBuilderX/plugins/uniapp-cli/node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!../../../../HBuilderX/plugins/uniapp-cli/node_modules/vue-loader/lib??vue-loader-options!./detail.vue?vue&type=template&id=be14057c& */ \"./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&\");\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__[\"render\"]; });\n\n/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return _HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_vue_cli_plugin_uni_packages_webpack_preprocess_loader_index_js_ref_17_0_HBuilderX_plugins_uniapp_cli_node_modules_dcloudio_webpack_uni_mp_loader_lib_template_js_HBuilderX_plugins_uniapp_cli_node_modules_vue_loader_lib_index_js_vue_loader_options_detail_vue_vue_type_template_id_be14057c___WEBPACK_IMPORTED_MODULE_0__[\"staticRenderFns\"]; });\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&");
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--18-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/vue-loader/lib??vue-loader-options!E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _self;var _default =\n{\n  data: function data() {\n    return {\n      graceSkeleton: 'ing',\n      article: {\n        contents: [{\n          type: \"text\",\n          content: \"文本内容\" },\n\n        {\n          type: \"img\",\n          content: \"图片路径\" },\n\n        {\n          type: \"text\",\n          content: \"文本内容\" },\n\n        {\n          type: \"img\",\n          content: \"图片路径\" },\n\n        {\n          type: \"text\",\n          content: \"文本内容\" },\n\n        {\n          type: \"img\",\n          content: \"图片路径\" },\n\n        {\n          type: \"text\",\n          content: \"文本内容\" },\n\n        {\n          type: \"img\",\n          content: \"图片路径\" }] } };\n\n\n\n\n  },\n  onLoad: function onLoad(palyload) {\n    _self = this;\n    // 加载文章详情\n    uni.showLoading();\n    uni.request({\n      url: 'http://api.dagoogle.cn/news/ndetail',\n      method: 'GET',\n      data: {\n        aid: palyload.aid },\n\n      success: function success(res) {\n        // 骨架屏规划后延长 500 毫秒进行数据替换\n        setTimeout(function () {\n          _self.article = res.data.data;\n          _self.graceSkeleton = 'end';\n        }, 1000);\n      },\n      fail: function fail() {},\n      complete: function complete() {\n        uni.hideLoading();\n      } });\n\n  },\n  methods: {} };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/hot/detail.vue?vue&type=script&lang=js&?a8b2");
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader/index.js?!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib/index.js?!../../../development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--17-0!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/template.js!./node_modules/vue-loader/lib??vue-loader-options!E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"view\",\n        {\n          class: [\n            \"grace-article-title\",\n            _vm.graceSkeleton == \"ing\" ? \"grace-skeleton\" : \"\"\n          ]\n        },\n        [_vm._v(_vm._s(_vm.article.title))]\n      ),\n      _vm.graceSkeleton == \"end\"\n        ? _c(\n            \"view\",\n            { staticStyle: { width: \"100%\" } },\n            [\n              _c(\"rich-text\", {\n                attrs: { nodes: _vm.article.content, mpcomid: \"0e6971da-0\" }\n              })\n            ],\n            1\n          )\n        : _vm._e(),\n      _vm._l(_vm.article.contents, function(item, index) {\n        return _vm.graceSkeleton == \"ing\"\n          ? _c(\"block\", { key: index }, [\n              item.type == \"img\"\n                ? _c(\n                    \"view\",\n                    {\n                      class: [\n                        \"img-item\",\n                        _vm.graceSkeleton == \"ing\" ? \"grace-skeleton\" : \"\"\n                      ]\n                    },\n                    [\n                      _c(\"image\", {\n                        attrs: { src: item.content, mode: \"widthFix\" }\n                      })\n                    ]\n                  )\n                : _vm._e(),\n              _c(\"view\", { staticClass: \"grace-article-contents\" }, [\n                _c(\"view\", {\n                  class: [\n                    \"text-item\",\n                    _vm.graceSkeleton == \"ing\" ? \"grace-skeleton\" : \"\"\n                  ]\n                })\n              ])\n            ])\n          : _vm._e()\n      })\n    ],\n    2\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/hot/detail.vue?vue&type=template&id=be14057c&");
+
+/***/ })
+
+},[["../../../development/unitopschool/main.js?{\"page\":\"pages%2Fhot%2Fdetail\"}","common/runtime","common/vendor"]]]);
+});
+require('pages/hot/detail.js');
 __wxRoute = 'pages/message/message';__wxRouteBegin = true;__wxAppCurrentFile__ = 'pages/message/message.js';
 
 define('pages/message/message.js',function(require, module, exports, window, document, frames, self, location, navigator, localStorage, history, Caches, screen, alert, confirm, prompt, fetch, XMLHttpRequest, WebSocket, webkit, WeixinJSCore, Reporter, print, WeixinJSBridge){
@@ -9065,7 +9401,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _HBu
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      marketId: 0,\n      //分类信息\n      categories: [{\n        cateid: 0,\n        name: \"待处理\" },\n\n      {\n        cateid: 1,\n        name: \"待付款\" },\n\n      {\n        cateid: 2,\n        name: \"已处理\" },\n\n      {\n        cateid: 3,\n        name: \"已退款\" }],\n\n\n      // 当前选择的分类\n      cateCurrentIndex: 0,\n      // 内容实例，内容区域您根据项目情况设计即可，覆盖模式\n      orderList: [],\n      loading: {\n        show: false,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {\n    var market = uni.getStorageSync('market');\n    if (market.isMarket) {\n      this.marketId = market.marketId;\n      uni.startPullDownRefresh();\n    } else {\n      uni.showToast({\n        title: '系统错误',\n        mask: false,\n        duration: 1500 });\n\n      uni.navigateBack();\n    }\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList(1, this.categories[this.cateCurrentIndex].name);\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this = this;\n    this.loading.show = true;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/management/order',\n      method: 'POST',\n      data: {\n        phone: this.user.phone,\n        token: this.user.token,\n        market_id: this.marketId,\n        page: this.loading.nextPages,\n        type: this.categories[this.cateCurrentIndex].name },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.orderList = _this.orderList.concat(res.data.orderList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      }, complete: function complete() {\n        _this.loading.type = 0;\n        _this.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    getList: function getList(page, type) {var _this2 = this;\n      uni.showLoading({\n        title: '加载中...' });\n\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'market/management/order',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          market_id: this.marketId,\n          page: page,\n          type: type },\n\n        success: function success(res) {\n          if (res.data.status === 200) {\n            _this2.orderList = res.data.orderList;\n            _this2.loading.totalPages = res.data.totalPages;\n            if (_this2.loading.totalPages > 1 && _this2.orderList.length > 0) {\n              _this2.loading.show = true;\n            } else {\n              _this2.loading.show = false;\n            }\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        },\n        complete: function complete() {\n          uni.hideLoading();\n        } });\n\n    },\n    tabChange: function tabChange(e) {\n      // 选中的索引\n      var index = e.currentTarget.dataset.index;\n      this.cateCurrentIndex = index;\n      // 动态替换内容\n      this.loading.nextPages = 2;\n      this.getList(1, this.categories[index].name);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/order/list.vue?vue&type=script&lang=js&?4a59");
+eval("/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, \"__esModule\", { value: true });exports.default = void 0;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvar _graceLoading = _interopRequireDefault(__webpack_require__(/*! ../../../../graceUI/components/graceLoading.vue */ \"../../../development/unitopschool/graceUI/components/graceLoading.vue\"));\nvar _vuex = __webpack_require__(/*! vuex */ \"./node_modules/vuex/dist/vuex.esm.js\");function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}var _default =\n\n\n{\n  components: {\n    graceLoading: _graceLoading.default },\n\n  data: function data() {\n    return {\n      marketId: 0,\n      isUntreated: true,\n      //分类信息\n      categories: [{\n        cateid: 0,\n        name: \"待处理\" },\n\n      {\n        cateid: 1,\n        name: \"待付款\" },\n\n      {\n        cateid: 2,\n        name: \"已处理\" },\n\n      {\n        cateid: 3,\n        name: \"已退款\" }],\n\n\n      // 当前选择的分类\n      cateCurrentIndex: 0,\n      // 内容实例，内容区域您根据项目情况设计即可，覆盖模式\n      orderList: [],\n      loading: {\n        show: false,\n        nextPages: 2,\n        totalPages: 2,\n        type: 0,\n        text: ['加载更多', 'loading ......', '已加载全部'] } };\n\n\n  },\n  computed: (0, _vuex.mapState)(['user']),\n  onLoad: function onLoad() {\n    var market = uni.getStorageSync('market');\n    if (market.isMarket) {\n      this.marketId = market.marketId;\n      uni.startPullDownRefresh();\n    } else {\n      uni.showToast({\n        title: '系统错误',\n        mask: false,\n        duration: 1500 });\n\n      uni.navigateBack();\n    }\n  },\n  onPullDownRefresh: function onPullDownRefresh() {\n    this.getList(1, this.categories[this.cateCurrentIndex].name);\n    setTimeout(function () {\n      uni.stopPullDownRefresh();\n    }, 1000);\n  },\n  //监听触底加载事件\n  onReachBottom: function onReachBottom() {var _this = this;\n    this.loading.show = true;\n    //判断当前是否正在加载\n    if (this.loading.type === 1) {\n      return;\n    }\n    //判断是否是最后一页\n    if (this.loading.nextPages > this.loading.totalPages) {\n      this.loading.type = 2; //显示已加载全部\n      return;\n    }\n    this.loading.type = 1; //显示加载中\n    uni.request({\n      url: this.GLOBAL.serverSrc + 'market/management/order',\n      method: 'POST',\n      data: {\n        phone: this.user.phone,\n        token: this.user.token,\n        market_id: this.marketId,\n        page: this.loading.nextPages,\n        type: this.categories[this.cateCurrentIndex].name },\n\n      success: function success(res) {\n        if (res.data.status === 200) {\n          _this.orderList = _this.orderList.concat(res.data.orderList);\n        } else {\n          uni.showToast({\n            title: res.data.msg,\n            icon: \"none\" });\n\n        }\n      },\n      fail: function fail(e) {\n        _this.GLOBAL.requestFail(e);\n      }, complete: function complete() {\n        _this.loading.type = 0;\n        _this.loading.nextPages++;\n      } });\n\n  },\n  methods: {\n    getList: function getList(page, type) {var _this2 = this;\n      uni.showLoading({\n        title: '加载中...' });\n\n      uni.request({\n        url: this.GLOBAL.serverSrc + 'market/management/order',\n        method: 'POST',\n        data: {\n          phone: this.user.phone,\n          token: this.user.token,\n          market_id: this.marketId,\n          page: page,\n          type: type },\n\n        success: function success(res) {\n          if (type == '待处理') {\n            _this2.isUntreated = true;\n          } else {\n            _this2.isUntreated = false;\n          }\n          if (res.data.status === 200) {\n            _this2.orderList = res.data.orderList;\n            _this2.loading.totalPages = res.data.totalPages;\n            if (_this2.loading.totalPages > 1 && _this2.orderList.length > 0) {\n              _this2.loading.show = true;\n            } else {\n              _this2.loading.show = false;\n            }\n          } else {\n            uni.showToast({\n              title: res.data.msg,\n              icon: \"none\" });\n\n          }\n        },\n        fail: function fail(e) {\n          _this2.GLOBAL.requestFail(e);\n        },\n        complete: function complete() {\n          uni.hideLoading();\n        } });\n\n    },\n    tabChange: function tabChange(e) {\n      // 选中的索引\n      var index = e.currentTarget.dataset.index;\n      this.cateCurrentIndex = index;\n      // 动态替换内容\n      this.loading.nextPages = 2;\n      this.getList(1, this.categories[index].name);\n    } } };exports.default = _default;\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-app-plus/dist/index.js */ \"./node_modules/@dcloudio/uni-app-plus/dist/index.js\")[\"default\"]))\n\n//# sourceURL=uni-app:///pages/my/market/order/list.vue?vue&type=script&lang=js&?4a59");
 
 /***/ }),
 
@@ -9088,7 +9424,7 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=E:/project/develo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"scroll-view\",\n        {\n          staticClass: \"grace-tab-title grace-center\",\n          attrs: { \"scroll-x\": \"true\", id: \"grace-tab-title\" }\n        },\n        _vm._l(_vm.categories, function(cate, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              class: [_vm.cateCurrentIndex == index ? \"grace-tab-current\" : \"\"],\n              attrs: {\n                \"data-cateid\": cate.cateid,\n                \"data-index\": index,\n                eventid: \"72b36996-0-\" + index\n              },\n              on: { tap: _vm.tabChange }\n            },\n            [_vm._v(_vm._s(cate.name))]\n          )\n        })\n      ),\n      _vm.orderList.length === 0\n        ? _c(\"view\", { staticClass: \"no-order\" }, [\n            _vm._v(\n              \"您暂无\" +\n                _vm._s(_vm.categories[_vm.cateCurrentIndex].name) +\n                \"的订单哦\"\n            )\n          ])\n        : _c(\n            \"view\",\n            { staticStyle: { \"margin-top\": \"50px\" } },\n            _vm._l(_vm.orderList, function(order, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"order-card grace-rows has-borderb\"\n                },\n                [\n                  _c(\"view\", { staticStyle: { width: \"80rpx\" } }, [\n                    _c(\"image\", {\n                      staticStyle: { width: \"70rpx\", height: \"70rpx\" },\n                      attrs: { src: order.first_img, mode: \"widthFix\" }\n                    })\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"right\", staticStyle: { width: \"660rpx\" } },\n                    [\n                      _c(\n                        \"view\",\n                        { staticClass: \"grace-rows grace-space-between\" },\n                        [\n                          _c(\n                            \"view\",\n                            { staticStyle: { \"font-size\": \"35rpx\" } },\n                            [_vm._v(_vm._s(order.first_product) + \" >\")]\n                          ),\n                          _c(\n                            \"text\",\n                            { staticStyle: { \"font-size\": \"30rpx\" } },\n                            [_vm._v(\"已送达\")]\n                          )\n                        ]\n                      ),\n                      _c(\"view\", { staticClass: \"time has-borderb\" }, [\n                        _c(\"text\", [_vm._v(_vm._s(order.create_time))])\n                      ]),\n                      _c(\n                        \"view\",\n                        {\n                          staticClass:\n                            \"rice grace-rows grace-space-between has-borderb\"\n                        },\n                        [\n                          _c(\"view\", [\n                            _vm._v(\"订单号:\" + _vm._s(order.out_trade_no))\n                          ]),\n                          _c(\"text\", [_vm._v(\"¥\" + _vm._s(order.real_price))])\n                        ]\n                      ),\n                      _c(\n                        \"view\",\n                        { staticClass: \"btn-area\" },\n                        [\n                          _c(\n                            \"button\",\n                            {\n                              staticClass: \"mini-btn\",\n                              attrs: {\n                                type: \"primary\",\n                                size: \"mini\",\n                                plain: \"true\"\n                              }\n                            },\n                            [_vm._v(\"已处理\")]\n                          )\n                        ],\n                        1\n                      )\n                    ]\n                  )\n                ]\n              )\n            })\n          ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"72b36996-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/my/market/order/list.vue?vue&type=template&id=fd1e9a04&");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"render\", function() { return render; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"staticRenderFns\", function() { return staticRenderFns; });\nvar render = function() {\n  var _vm = this\n  var _h = _vm.$createElement\n  var _c = _vm._self._c || _h\n  return _c(\n    \"view\",\n    [\n      _c(\n        \"scroll-view\",\n        {\n          staticClass: \"grace-tab-title grace-center\",\n          attrs: { \"scroll-x\": \"true\", id: \"grace-tab-title\" }\n        },\n        _vm._l(_vm.categories, function(cate, index) {\n          return _c(\n            \"view\",\n            {\n              key: index,\n              class: [_vm.cateCurrentIndex == index ? \"grace-tab-current\" : \"\"],\n              attrs: {\n                \"data-cateid\": cate.cateid,\n                \"data-index\": index,\n                eventid: \"72b36996-0-\" + index\n              },\n              on: { tap: _vm.tabChange }\n            },\n            [_vm._v(_vm._s(cate.name))]\n          )\n        })\n      ),\n      _vm.orderList.length === 0\n        ? _c(\"view\", { staticClass: \"no-order\" }, [\n            _vm._v(\n              \"您暂无\" +\n                _vm._s(_vm.categories[_vm.cateCurrentIndex].name) +\n                \"的订单哦\"\n            )\n          ])\n        : _c(\n            \"view\",\n            { staticStyle: { \"margin-top\": \"50px\" } },\n            _vm._l(_vm.orderList, function(order, index) {\n              return _c(\n                \"view\",\n                {\n                  key: index,\n                  staticClass: \"order-card grace-rows has-borderb\"\n                },\n                [\n                  _c(\"view\", { staticStyle: { width: \"80rpx\" } }, [\n                    _c(\"image\", {\n                      staticStyle: { width: \"70rpx\", height: \"70rpx\" },\n                      attrs: { src: order.first_img, mode: \"widthFix\" }\n                    })\n                  ]),\n                  _c(\n                    \"view\",\n                    { staticClass: \"right\", staticStyle: { width: \"660rpx\" } },\n                    [\n                      _c(\n                        \"view\",\n                        { staticClass: \"grace-rows grace-space-between\" },\n                        [\n                          _c(\n                            \"view\",\n                            { staticStyle: { \"font-size\": \"35rpx\" } },\n                            [_vm._v(_vm._s(order.first_product) + \" >\")]\n                          )\n                        ]\n                      ),\n                      _c(\"view\", { staticClass: \"time has-borderb\" }, [\n                        _c(\"text\", [_vm._v(_vm._s(order.create_time))])\n                      ]),\n                      _c(\n                        \"view\",\n                        {\n                          staticClass:\n                            \"rice grace-rows grace-space-between has-borderb\"\n                        },\n                        [\n                          _c(\"view\", [\n                            _vm._v(\"订单号:\" + _vm._s(order.out_trade_no))\n                          ]),\n                          _c(\"text\", [_vm._v(\"¥\" + _vm._s(order.real_price))])\n                        ]\n                      ),\n                      _vm.isUntreated\n                        ? _c(\n                            \"view\",\n                            { staticClass: \"btn-area\" },\n                            [\n                              _c(\n                                \"button\",\n                                {\n                                  staticClass: \"mini-btn\",\n                                  attrs: {\n                                    type: \"primary\",\n                                    size: \"mini\",\n                                    plain: \"true\"\n                                  }\n                                },\n                                [_vm._v(\"已处理\")]\n                              )\n                            ],\n                            1\n                          )\n                        : _vm._e()\n                    ]\n                  )\n                ]\n              )\n            })\n          ),\n      _c(\"graceLoading\", {\n        attrs: {\n          loadingType: _vm.loading.type,\n          loadingText: _vm.loading.text,\n          show: _vm.loading.show,\n          mpcomid: \"72b36996-0\"\n        }\n      })\n    ],\n    1\n  )\n}\nvar staticRenderFns = []\nrender._withStripped = true\n\n\n\n//# sourceURL=E:/project/development/unitopschool/pages/my/market/order/list.vue?vue&type=template&id=fd1e9a04&");
 
 /***/ })
 
