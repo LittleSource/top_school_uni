@@ -1,5 +1,5 @@
 let _app = {
-	appUrl:'https://www.ym998.cn',//app下载地址
+	appUrl:'http://top.ym998.cn',//app下载地址
 	goShare:function(title,summary,url,imageUrl){
 		if(url === false){
 			url = this.appUrl;

@@ -34,6 +34,7 @@
 			}
 		},
 		onLoad() {
+			this.newsList = uni.getStorageSync('newsList'); //获取本地缓存的数据
 			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
@@ -48,6 +49,11 @@
 				success: res => {
 					this.newsList = res.data.data.list;
 					this.loading.totalPages =res.data.data.total;
+					//将请求的数据缓存到本地
+					uni.setStorage({
+						key: 'newsList',
+						data: this.newsList
+					});
 				},
 				fail: (e) => {
 					this.GLOBAL.requestFail(e);

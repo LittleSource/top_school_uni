@@ -2,6 +2,12 @@
 page{
 	background-color: #f5f5f5;
 }
+.grace-rows{
+	font-size: 28rpx !important;
+}
+.count{
+	float: right; font-size: 35rpx;font-weight: 600;
+}
 .box-top{/*最上面的大框架*/
 	width: 85%;
 	padding: 40rpx 30rpx;

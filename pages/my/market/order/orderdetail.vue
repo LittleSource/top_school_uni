@@ -1,86 +1,146 @@
 <template>
 	<view class="main">
 		<view class="box-top"><!--上层订单的整体框架-->
-			<view class="arrive">订单已送达 &gt;</view>
+			<view class="arrive">{{orderStatus}} &gt;</view>
 			<view class="service">
-				<view class="service-thanks">感谢您对TOP学院的信任,期待再次光临</view>
+				<view class="service-thanks">如未处理订单请尽快处理，1小时内未处理会对您的店铺会产生信用影响</view>
 				<view><text class="service-time">准时达服务：</text><text class="service-special">当前特殊情况暂不享受超时赔付</text></view>
 			</view>
-			<view><button class="button" type="warn" style="background-color: #FF4243;">再来一单</button></view>
 		</view>
 		<view class="menu"><!--中间层框架-->
-			<view class="shop">
-				<view style="float: left;font-weight: 700;font-size: 36upx;"><text>杭州小笼包</text></view>
-				<view style="float: right;"><text style="font-weight: bold;">&gt;</text></view>
+			<view class="shop grace-rows">
+				<view style="font-weight: 700;font-size: 36upx;">
+					<text>{{orderInfo.market_name}}</text>
+				</view>
+				<text style="font-weight: bold;">&gt;</text>
 			</view>
-			<view class="shop">
-				<view style="float: left;"><text>韭菜鸡蛋包</text></view>
-				<view style="float: right;"><text class="price">x1</text><text>&yen;7</text></view>
-			</view>
-			<view class="shop">
-				<view style="float: left;"><text>鲜肉小笼包</text></view>
-				<view style="float: right;"><text class="price">x1</text><text>&yen;7</text></view>
-			</view>
-			<view class="shop">
-				<view style="float: left;"><text>冰糖雪梨</text></view>
-				<view style="float: right;"><text class="price">x1</text><text>&yen;4</text></view>
-			</view>
-			<view class="shop">
-				<view style="float: left;"><text>餐盒费</text></view>
-				<view style="float: right;"><text class="price">x1</text><text>&yen;2</text></view>
-			</view>
-			<view class="shop">
-				<view style="float: left;"><text>配送费</text></view>
-				<view style="float: right;"><text>&yen;2.5</text></view>
-			</view>
-			<view class="shop">
-				<view style="float: left;"><text style="font-size: 33upx;">店铺红包</text></view>
-				<view style="float: right;"><text style="color: #f53237;">&yen;6</text></view>
+			<view class="shop grace-rows grace-space-between" v-for="(shop,index) in orderInfo.item" :key="index">
+				<text>{{shop.item_name}}  x  {{shop.item_count}}</text>
+				<text class="price">&yen;{{shop.item_price}}</text>
 			</view>
 			<view class="shop" style="border-bottom: none;">
-				<view style="float: left;"><text style="color: #FF4243;font-size: 33upx;">联系商家</text></view>
-				<view style="float: right;"><text class="space" style="font-size: 35upx;">实付</text><text style="font-weight: bold;">&yen;16.5</text></view>
+				<text class="space count">小计 &yen;{{orderInfo.real_price}}</text>
 			</view>
 		</view>
 		<view class="send"><!--配送信息-->
 			<view class="send-way">
 				<view><text style="font-size: 36upx;">配送信息</text></view>
 			</view>
-			<view class="send-way">
-				<view style="float: left;"><text>送达时间</text></view>
-				<view style="float: right;"><text>尽快送达</text></view>
+			<view class="send-way grace-rows grace-space-between">
+				<text>处理时间</text>
+				<text>{{orderInfo.dispose == 0?'您还未处理此订单！':'未设置数据库字段'}}</text>
 			</view>
-			<view class="send-way">
-				<view style="float: left;"><text>收货地址</text></view>
-				<view style="float: right;"><text style="font-size: 20upx;">天津电子信息职业技术学院4号楼525宿舍</text><text style="font-size: 20upx;">李文杰(先生)</text></view>
+			<view class="send-way grace-rows grace-space-between">
+				<text>收货地址</text>
+				<text style="font-size: 20upx;">{{orderInfo.address}}</text>
 			</view>
-			<view class="send-way" style="border-bottom: none;">
-				<view style="float: left;"><text>配送方式</text></view>
-				<view style="float: right;"><text>商家配送</text></view>
+			<view class="send-way grace-rows grace-space-between" style="border-bottom: none;">
+				<text>配送方式</text>
+				<text>商家配送</text>
 			</view>
 		</view>
 		<view class="send"><!--订单信息-->
 			<view class="send-way">
-				<view><text style="font-size: 36upx;">订单信息</text></view>
+				<text style="font-size: 36upx;">订单信息</text>
 			</view>
-			<view class="send-way">
-				<view style="float: left;"><text>订单号</text></view>
-				<view style="float: right;"><text style="font-size: 30upx; ">2102 9570 8039 8090 293</text></view>
+			<view class="send-way grace-rows grace-space-between">
+				<view><text>订单号</text></view>
+				<view><text style="font-size: 30upx; ">{{orderInfo.out_trade_no}}</text></view>
 			</view>
-			<view class="send-way">
-				<view style="float: left;"><text>支付方式</text></view>
-				<view style="float: right;"><text>在线支付</text></view>
+			<view class="send-way grace-rows grace-space-between">
+				<text>支付方式</text>
+				<text>{{orderInfo.pay_type == 1?'支付宝在线支付':'微信在线支付'}}</text>
 			</view>
-			<view class="send-way" style="border-bottom: none;">
-				<view style="float: left;"><text>下单时间</text></view>
-				<view style="float: right;"><text class="space">2019-04-21</text><text>17:46</text></view>
+			<view class="send-way grace-rows grace-space-between" style="border-bottom: none;">
+				<text>下单时间</text>
+				<text>{{orderInfo.create_time}}</text>
 			</view>
 		</view>
 	</view>
 </template>
+<script>
+	import {
+		mapState
+	} from 'vuex'
+	export default{
+		data() {
+			return {
+				orderStatus:'',
+				marketId:0,
+				orderInfo: []
+			}
+		},
+		computed: mapState(['user']),
+		onLoad(parameter) {
+			const market = uni.getStorageSync('market');
+			if (market.isMarket) {
+				this.marketId = market.marketId;
+			} else {
+				uni.showToast({
+					title: '系统错误',
+					mask: false,
+					duration: 1500
+				});
+				uni.navigateBack();
+			}
+			uni.showLoading({
+				title: '加载中...',
+				mask: false
+			});
+			uni.request({
+				url: this.GLOBAL.serverSrc+'market/management/orderitem',
+				method: 'POST',
+				data: {
+					phone:this.user.phone,
+					token:this.user.token,
+					market_id:this.marketId,
+					order_id:parameter.order_id
+				},
+				success: res => {
+					if(res.data.status === 200){
+						this.orderInfo = res.data.order;
+						if(this.orderInfo.pay_status == 1){//支付了判断处理状态
+							if(this.orderInfo.dispose == 1){
+								this.orderStatus = '订单已处理';
+							}else if(this.orderInfo.dispose == 2){
+								this.orderStatus = '订单已退款';
+							}else{
+								this.orderStatus = '您还未处理此订单！';
+							}
+						}else{
+							this.orderStatus = '待付款';
+						}
+					}else{
+						uni.showToast({
+							title: res.data.msg,
+							icon: "none"
+						});
+					}
+				},
+				fail: (e) => {
+					this.GLOBAL.requestFail(e);
+				},
+				complete: () => {
+					uni.hideLoading();
+				}
+			});
+		},
+		methods:{
+			god(){
+				
+			}
+		}
+	}
+</script>
 <style>
 	page{
 		background-color: #f5f5f5;
+	}
+	.grace-rows{
+		font-size: 28upx !important;
+	}
+	.count{
+		float: right; font-size: 35upx;font-weight: 600;
 	}
 	.box-top{/*最上面的大框架*/
 		width: 85%;

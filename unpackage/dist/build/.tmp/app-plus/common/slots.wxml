@@ -2,11 +2,11 @@
 <import src="/components/popup-layer.vue.wxml" />
 <import src="/graceUI/components/graceNumberBox.vue.wxml" />
 <import src="/components/dialog.vue.wxml" />
-<import src="/graceUI/components/graceLoading.vue.wxml" />
 <import src="/graceUI/components/graceIMMsg.vue.wxml" />
 <import src="/graceUI/components/graceIMFooter.vue.wxml" />
-<import src="/graceUI/components/graceFullLoading.vue.wxml" />
+<import src="/graceUI/components/graceLoading.vue.wxml" />
 <import src="/graceUI/components/graceAlert.vue.wxml" />
+<import src="/graceUI/components/graceFullLoading.vue.wxml" />
 <import src="/threeComponents/mpvueCityPicker.vue.wxml" />
 <import src="/common/slots.wxml" />
 

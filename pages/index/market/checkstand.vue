@@ -209,6 +209,9 @@
 									uni.showToast({
 										title: '付款成功'
 									});
+									uni.redirectTo({
+										url:'./payresult?price=' + _self.realPrice
+									})
 								}
 							},
 							fail: function(err) {

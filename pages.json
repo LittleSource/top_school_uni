@@ -336,7 +336,7 @@
 				"navigationBarTitleText": "申请开通店铺"
 			}
 		}, {
-			"path": "pages/my/market/verifyIdCard",
+			"path": "pages/my/market/verifyidcard",
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#fc4243",
@@ -365,6 +365,13 @@
 				}
 			}
 		}, {
+			"path": "pages/my/market/setting",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#ff4500",
+				"navigationBarTitleText": "店铺设置"
+			}
+		}, {
 			"path": "pages/my/market/order/list",
 			"style": {
 				"navigationBarTextStyle": "white",
@@ -383,14 +390,7 @@
 			"style": {
 				"navigationBarTextStyle": "white",
 				"navigationBarBackgroundColor": "#ff4500",
-				"navigationBarTitleText": "订单详情",
-				"enablePullDownRefresh": true, //开启下拉刷新
-				"app-plus": {
-					"pullToRefresh": {
-						"style": "default",
-						"support": true
-					}
-				}
+				"navigationBarTitleText": "订单详情"//商家的订单详情
 			}
 		}, {
 			"path": "pages/my/market/classify",

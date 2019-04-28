@@ -7,19 +7,19 @@
 		<view v-if="orderList.length === 0" class="no-order">您暂无{{categories[cateCurrentIndex].name}}的订单哦</view>
 		<view v-else style="margin-top: 50px;">
 			<view class="order-card grace-rows has-borderb" v-for="(order,index) in orderList" :key="index">
-				<view style="width: 80upx;">
+				<view style="width: 80upx;" @click="goOrderDetail(order.order_id)">
 					<image :src="order.first_img" mode="widthFix" style="width: 70upx;height: 70upx;"></image>
 				</view>
 				<view class="right" style="width: 660upx;">
-					<view class="grace-rows grace-space-between">
+					<view class="grace-rows grace-space-between" @click="goOrderDetail(order.order_id)">
 						<view style="font-size: 35upx;">{{order.first_product}} &gt;</view>
 					</view>
-					<view class="time has-borderb"><text>{{order.create_time}}</text></view>
-					<view class="rice grace-rows grace-space-between has-borderb">
+					<view class="time has-borderb" @click="goOrderDetail(order.order_id)"><text>{{order.create_time}}</text></view>
+					<view class="rice grace-rows grace-space-between has-borderb" @click="goOrderDetail(order.order_id)">
 						<view>订单号:{{order.out_trade_no}}</view>
 						<text>&yen;{{order.real_price}}</text>
 					</view>
-					<view v-if="isUntreated" class="btn-area">
+					<view v-if="isUntreated" class="btn-area" @click="changeDispose(order.order_id)">
 						<button class="mini-btn" type="primary" size="mini" plain="true">已处理</button>
 					</view>
 				</view>
@@ -88,7 +88,7 @@
 			}
 		},
 		onPullDownRefresh() {
-			this.getList(1, this.categories[this.cateCurrentIndex].name)
+			this.getList(1, this.categories[this.cateCurrentIndex].name);
 			setTimeout(function() {
 				uni.stopPullDownRefresh();
 			}, 1000);
@@ -135,6 +135,43 @@
 			});
 		},
 		methods: {
+			goOrderDetail(orderId){
+				uni.navigateTo({
+					url: './orderdetail?order_id='+orderId
+				});
+			},
+			changeDispose(orderId){
+				uni.showLoading({
+					title:'处理中...'
+				});
+				uni.request({
+					url: this.GLOBAL.serverSrc+'market/management/orderdispose',
+					method: 'POST',
+					data: {
+						phone:this.user.phone,
+						token:this.user.token,
+						order_id:orderId
+					},
+					success: res => {
+						if(res.data.status === 200){
+							uni.showToast({
+								title:'处理成功！'
+							});
+							uni.startPullDownRefresh();
+						}else{
+							uni.showToast({
+								title:res.data.msg
+							});
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					},
+					complete: () => {
+						uni.hideLoading();
+					}
+				});
+			},
 			getList: function(page, type) {
 				uni.showLoading({
 					title:'加载中...'
@@ -174,6 +211,7 @@
 						this.GLOBAL.requestFail(e);
 					},
 					complete: () => {
+						this.loading.nextPages = 2;
 						uni.hideLoading();
 					}
 				});

@@ -109,12 +109,12 @@
 		},
 		onPullDownRefresh() {
 			this.getList();
-			setTimeout(function(){
+			setTimeout(function() {
 				uni.stopPullDownRefresh();
-			},1000);
+			}, 1000);
 		},
 		methods: {
-			getList(){
+			getList() {
 				uni.request({ //请求热点表白墙
 					url: this.GLOBAL.serverSrc + '/common/index/confession',
 					method: 'GET',
@@ -150,6 +150,15 @@
 				uni.scanCode({
 					success: function(res) {
 						console.log(JSON.stringify(res.result));
+						var obj = {};
+						var arr = url.split("?");
+						var vars = arr[1].split("&");
+						for (var i = 0; i < vars.length; i++) {
+							var pair = vars[i].split("=");
+							obj[pair[0]] = pair[1];
+						}
+						obj["url"] = arr[0].split("//")[1].split("/")[0];
+						
 					}
 				});
 			}
@@ -234,7 +243,8 @@
 	.grace-boxes-text {
 		color: #7F7F7F;
 	}
-	.grace-wrap{
+
+	.grace-wrap {
 		margin: 10px 0;
 	}
 </style>

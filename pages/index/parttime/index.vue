@@ -66,39 +66,10 @@
 			uni.startPullDownRefresh();
 		},
 		onPullDownRefresh() {
-			uni.request({
-				url: this.GLOBAL.serverSrc + 'job/job/getjoblist',
-				method: 'POST',
-				data: {
-					page: 1,
-					type: this.categories[this.cateCurrentIndex].name,
-					id: this.selectSchool.id
-				},
-				success: res => {
-					if (res.data.status === 200) {
-						this.loading.totalPages = res.data.totalPages;
-						this.jobList = res.data.jobList;
-						//将请求的数据缓存到本地
-						if(this.cateCurrentIndex === 0){
-							uni.setStorage({
-								key: 'jobList',
-								data: this.jobList
-							});
-						}
-					} else {
-						uni.showToast({
-							title: res.data.msg,
-							icon: "none"
-						});
-					}
-				},
-				fail: (e) => {
-					this.GLOBAL.requestFail(e);
-				},complete: () => {
-					this.loading.nextPages = 2;
-					uni.stopPullDownRefresh();
-				}
-			});
+			this.getList();
+			setTimeout(function() {
+				uni.stopPullDownRefresh();
+			}, 1000);
 		},
 		onReachBottom() {
 			//判断当前是否正在加载
@@ -139,10 +110,48 @@
 			});
 		},
 		methods: {
+			getList:function(){
+				uni.showLoading({
+					title:'加载中...'
+				});
+				uni.request({
+					url: this.GLOBAL.serverSrc + 'job/job/getjoblist',
+					method: 'POST',
+					data: {
+						page: 1,
+						type: this.categories[this.cateCurrentIndex].name,
+						id: this.selectSchool.id
+					},
+					success: res => {
+						if (res.data.status === 200) {
+							this.loading.totalPages = res.data.totalPages;
+							this.jobList = res.data.jobList;
+							//将请求的数据缓存到本地
+							if(this.cateCurrentIndex === 0){
+								uni.setStorage({
+									key: 'jobList',
+									data: this.jobList
+								});
+							}
+						} else {
+							uni.showToast({
+								title: res.data.msg,
+								icon: "none"
+							});
+						}
+					},
+					fail: (e) => {
+						this.GLOBAL.requestFail(e);
+					},complete: () => {
+						this.loading.nextPages = 2;
+						uni.hideLoading();
+					}
+				});
+			},
 			tabChange: function(e) {
 				var index = e.currentTarget.dataset.index; // 选中的索引
 				this.cateCurrentIndex = index; // 动态替换索引
-				uni.startPullDownRefresh();
+				this.getList();
 			}
 		},
 	}

@@ -45,7 +45,7 @@
 					</view>
 					<view class="grace-boxes-text">资金明细</view>
 				</view>
-				<navigator class="grace-boxes" url="./order/orderdetail">
+				<navigator class="grace-boxes">
 					<view class="grace-boxes-img">
 						<image src="../../../static/market/xinyuan.png" mode="widthFix"></image>
 					</view>
@@ -108,6 +108,11 @@
 				complete: () => {
 					uni.stopPullDownRefresh();
 				}
+			});
+		},
+		onNavigationBarButtonTap() {
+			uni.navigateTo({
+				url: './setting'
 			});
 		}
 	}

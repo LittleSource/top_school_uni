@@ -28,8 +28,9 @@
     "pages/my/address/address",
     "pages/my/market/index",
     "pages/my/market/regMarketInfo",
-    "pages/my/market/verifyIdCard",
+    "pages/my/market/verifyidcard",
     "pages/my/market/manage",
+    "pages/my/market/setting",
     "pages/my/market/order/list",
     "pages/my/market/order/orderdetail",
     "pages/my/market/classify",
@@ -86,5 +87,5 @@
     "autoclose": false
   },
   "appname": "TOP校园",
-  "compilerVersion": "1.9.3"
+  "compilerVersion": "1.9.4"
 }
