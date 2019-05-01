@@ -33,7 +33,7 @@
 					<text v-if="shoppingCart.length > 0" class="grace-badge grace-badge-red">{{shoppingCart.length}}</text>
 				</view>
 				<view class="icons iconfont icon-lianxikefu"></view>
-				<view class="icons iconfont icon-jiahao"></view>
+				<navigator url="./payresult" class="icons iconfont icon-jiahao"></navigator>
 			</view>
 			<view style="width:40%;">
 				<button type="warn" @click="settleAccounts">立即结算</button>

@@ -141,6 +141,14 @@
 					}
 				}
 			}
+		},
+		{
+			"path": "pages/index/expressage/index",
+			"style": {
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#39b54a",
+				"navigationBarTitleText": "快递代取"
+			}
 		}, {
 			"path": "pages/login/login",
 			"style": {

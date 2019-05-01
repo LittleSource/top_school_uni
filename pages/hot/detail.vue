@@ -27,7 +27,6 @@
 		onLoad(parameter) {
 			_self = this;
 			// 加载文章详情
-			uni.showLoading({});
 			var url = "http://api.dagoogle.cn/news/ndetail?aid=";
 			uni.request({
 				url: this.GLOBAL.serverSrc + 'common/news/index',
@@ -36,27 +35,31 @@
 					url: url + parameter.aid
 				},
 				success: res => {
-					// 此处先规划骨架
-					var art = {
-						contents: []
-					};
-					for (var i = 0; i < res.data.contents.length; i++) {
-						art.contents.push({
-							'type': res.data.contents[i].type
+					if (res.data.status === 200) {
+						// 此处先规划骨架
+						var art = {
+							contents: []
+						};
+						for (var i = 0; i < res.data.contents.length; i++) {
+							art.contents.push({
+								'type': res.data.contents[i].type
+							});
+						}
+						_self.article = art;
+						// 骨架屏规划后延长 500 毫秒进行数据替换
+						setTimeout(function() {
+							_self.article = res.data;
+							_self.graceSkeleton = 'end';
+						}, 500);
+					} else {
+						uni.showToast({
+							title: '服务器异常,请稍后再试！',
+							icon:"none"
 						});
 					}
-					_self.article = art;
-					// 骨架屏规划后延长 500 毫秒进行数据替换
-					setTimeout(function() {
-						_self.article = res.data;
-						_self.graceSkeleton = 'end';
-					}, 500);
 				},
 				fail: (e) => {
 					this.GLOBAL.requestFail(e);
-				},
-				complete: () => {
-					uni.hideLoading();
 				}
 			});
 		},

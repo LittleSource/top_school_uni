@@ -136,7 +136,7 @@
 							title: '上传中...'
 						});
 						uni.uploadFile({
-							url: src + '/common/register/uploadAvatar', //接口地址
+							url: src + 'common/register/uploadAvatar', //接口地址
 							filePath: tempFilePath,
 							name: 'avatar',
 							success: (uploadFileRes) => {

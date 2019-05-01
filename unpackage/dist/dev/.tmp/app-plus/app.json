@@ -10,6 +10,7 @@
     "pages/index/market/payresult",
     "pages/index/parttime/index",
     "pages/index/parttime/details",
+    "pages/index/expressage/index",
     "pages/login/login",
     "pages/login/logintemp",
     "pages/login/binding",

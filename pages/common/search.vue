@@ -189,7 +189,6 @@
 						this.job = res.data.job;
 						this.market = res.data.market;
 						this.user = res.data.user;
-						console.log(JSON.stringify(res));
 					},
 					fail: (e) => {
 						this.GLOBAL.requestFail(e);

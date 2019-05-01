@@ -6,52 +6,39 @@
 	export default {
 		computed: mapState(['msgList']),
 		methods: {
-			...mapMutations(['appOnLunch', 'addMsg', 'onMessage'])
+			...mapMutations(['appOnLunch', 'connectAndOnMessage'])
 		},
 		onLaunch: function() {
 			var user = uni.getStorageSync('user');
 			if (user.hasLogin === true) {
-				this.appOnLunch(user);
-				uni.connectSocket({
-					url: this.GLOBAL.serverChat,
-				});
-				this.onMessage();
+				this.appOnLunch(user);//给vuex用户信息
+				this.connectAndOnMessage();//开启聊天消息服务
 			}
 			// #ifdef APP-PLUS
-			const updated = uni.getStorageSync('updated') // 尝试读取storage
-			if (updated.completed === true) { // 如果上次刚更新过
-				// 删除安装包及安装记录
-				uni.removeSavedFile({
-					filePath: updated.packgePath,
-					success: (res) => {
-						uni.removeStorageSync('updated')
-					}
-				})
-			}
-			// 检查更新，参数：{ 当前版本号，跳转到更新页面的url }
+			// 检查更新
+			// this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update')
 			// uni.showModal({
 			// 	title: '提示',
 			// 	content: '此版本为源梦团队内部测试版本，未经允许禁止发布到互联网！www.ym998.cn',
 			// 	showCancel: false
 			// });
-			// this.GLOBAL.checkUpdater(plus.runtime.version, '../common/update')
 			// #endif
 		},
 		onShow: function() {
-			
+
 		},
 		onHide: function() {
-			uni.connectSocket({
-				url: this.GLOBAL.serverChat,
-			});
-			this.onMessage();
-			uni.request({
-				url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',
-				method: 'POST',
-				data: {
-					'msgList': this.msgList
-				}
-			});
+			var user = uni.getStorageSync('user');
+			if (user.hasLogin === true) {
+				this.connectAndOnMessage();
+				uni.request({//用户消息列表上传至服务器
+					url: this.GLOBAL.serverSrc + 'message/top_chat/recordlist',
+					method: 'POST',
+					data: {
+						'msgList': this.msgList
+					}
+				});
+			}
 			console.log('App Hide');
 		}
 	}

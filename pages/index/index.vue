@@ -43,10 +43,10 @@
 						<view class="grace-boxes-text">逛超市</view>
 					</view>
 				</view>
-				<view class="grace-boxes">
+				<view class="grace-boxes" @click="skip('./expressage/index')">
 					<view class="grace-boxes-img">
 						<image src="../../static/index/daiban.png" mode="widthFix"></image>
-						<view class="grace-boxes-text">代办事</view>
+						<view class="grace-boxes-text">取快递</view>
 					</view>
 				</view>
 			</view>

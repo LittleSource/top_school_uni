@@ -193,10 +193,12 @@ const store = new Vuex.Store({
 			});
 		},
 		appOnLunch(state, user) {
+			//获取用户基本信息
 			state.user = user;
 			state.school = uni.getStorageSync('school');
 			state.selectSchool = uni.getStorageSync('selectSchool');
 			state.addressInfo = uni.getStorageSync('addressInfo');
+			//设置未读消息
 			uni.setTabBarBadge({
 				index: 2,
 				text: state.unreadCount.toString()
@@ -204,6 +206,12 @@ const store = new Vuex.Store({
 			//暂时注释掉  个人详情开发完毕再搞
 			//state.msgList = uni.getStorageSync('msgList');
 			//state.historyMsg = uni.getStorageSync('historyMsg');
+		},
+		connectAndOnMessage(){
+			uni.connectSocket({//尝试连接Socket服务
+				url: global.serverChat,
+			});
+			this.commit('onMessage'); //开始监听
 		},
 		onMessage(state) {
 			var _self = this;

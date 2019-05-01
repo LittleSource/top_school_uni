@@ -108,7 +108,7 @@
 				payWay: 'wxpay'
 			}
 		},
-		computed: mapState(['user','addressInfo']),
+		computed: mapState(['user', 'addressInfo']),
 		onLoad: function(parameter) {
 			this.orderId = parameter.order_id;
 			this.realPrice = parameter.real_price;
@@ -170,19 +170,21 @@
 						var wxpaySdk = res.data.wepay_sdk;
 						uni.requestPayment({
 							provider: 'wxpay',
-							orderInfo: wxpaySdk, //微信、支付宝订单数据
+							orderInfo: wxpaySdk, //微信订单数据
 							success: function(res) {
 								if (res.errMsg === 'requestPayment:ok') {
+									_self.goResult(true);
+								} else {
+									console.log(JSON.stringify(res));
 									uni.showToast({
-										title: '付款成功'
+										title: '微信支付未知错误',
+										icon: 'none'
 									});
 								}
-								uni.redirectTo({
-									url:'./payresult?price=' + _self.realPrice
-								})
 							},
 							fail: function(err) {
 								console.log(JSON.stringify(err.errMsg));
+								_self.goResult(false);
 							}
 						});
 					},
@@ -200,21 +202,25 @@
 						remark: this.remark
 					},
 					success: res => {
+						var _self = this;
 						var alipaySdk = res.data.alipay_sdk;
 						uni.requestPayment({
 							provider: 'alipay',
 							orderInfo: alipaySdk, //微信、支付宝订单数据
 							success: function(res) {
 								if (res.errMsg === 'requestPayment:ok') {
+									_self.goResult(true);
+								} else {
+									console.log(JSON.stringify(res));
 									uni.showToast({
-										title: '付款成功'
+										title: '支付宝未知错误',
+										mask: false,
+										icon: "none"
 									});
-									uni.redirectTo({
-										url:'./payresult?price=' + _self.realPrice
-									})
 								}
 							},
 							fail: function(err) {
+								_self.goResult(false);
 								console.log(JSON.stringify(err.errMsg));
 							}
 						});
@@ -223,6 +229,20 @@
 						this.GLOBAL.requestFail(e);
 					}
 				});
+			},
+			goResult(result) {
+				if (result) {
+					uni.showToast({
+						title: '付款成功'
+					});
+					uni.redirectTo({
+						url: './payresult?result=success&order_id=' + this.orderId + '&price=' + this.realPrice
+					})
+				} else {
+					uni.navigateTo({
+						url: './payresult?result=fail&order_id=' + this.orderId
+					})
+				}
 			}
 		}
 	}

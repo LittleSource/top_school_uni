@@ -39,7 +39,7 @@
 						</view>
 						<view class="text">
 						</view>
-						<view class="text">{{market.status === 1?'正在营业':'商家休息中'}}</view>
+						<view class="text">{{market.market_status === 1?'正在营业':'商家休息中'}}</view>
 						<view class="text">{{market.dorm_tower+market.dorm_num}}</view>
 						<view class="text">{{market.market_school}}</view>
 					</view>
@@ -159,7 +159,7 @@
 			share: function(market) {
 				var title = "电子的宿舍小超市在TOP校园APP里面啦!";
 				var summary = "我正在使用TOP校园逛电子的小超市哦，超市名称：" + market.market_name + ",下单立即会配送到宿舍哦";
-				topShare.goShare(title,summary,false,false);
+				topShare.goShare(title, summary, false, false);
 			},
 			changeSchool: function() {
 				uni.navigateTo({
@@ -216,7 +216,7 @@
 					success: res => {
 						if (res.data.status === 200) {
 							this.marketList = res.data.marketList;
-							if(res.data.totalPages === 1){//如果只有一页显示已加载完
+							if (res.data.totalPages === 1) { //如果只有一页显示已加载完
 								this.loading.type = 2;
 							}
 							this.loading.totalPages = res.data.totalPages;
